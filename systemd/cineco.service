@@ -1,0 +1,12 @@
+[Unit]
+Description=Cinecolombia lifecycle feed scraper
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/srv/cinecolombia-check
+EnvironmentFile=/etc/cineco.env
+ExecStart=/usr/bin/env bun run /srv/cinecolombia-check/scrape.ts
+# Hard rule: a failed scrape must never look like every film vanished.
+# Non-zero exit leaves state.json untouched.

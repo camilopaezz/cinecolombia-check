@@ -45,6 +45,18 @@ systemd/             # cineco.service + cineco.timer
 sudo install -m 0755 -o root -g root ~/.bun/bin/bun /usr/local/bin/bun
 sudo restorecon -v /usr/local/bin/bun
 
+# Install curl-impersonate (provides curl_chrome136, used to bypass Cloudflare
+# on the Cinecolombia homepage). Not bundled, not an npm dep — system binary.
+# Asset: curl-impersonate-v1.5.6.x86_64-linux-gnu.tar.gz from
+# https://github.com/lexiforest/curl-impersonate/releases
+sudo mkdir -p /usr/local/curl-impersonate
+sudo tar -xzf curl-impersonate-v1.5.6.x86_64-linux-gnu.tar.gz \
+    -C /usr/local/curl-impersonate
+sudo restorecon -Rv /usr/local/curl-impersonate
+/usr/local/curl-impersonate/curl_chrome136 --version   # smoke test
+# The service unit adds /usr/local/curl-impersonate to PATH so scrape.ts can
+# invoke curl_chrome136 by bare name. Fedora ships ca-certificates already.
+
 sudo cp systemd/cineco.service systemd/cineco.timer /etc/systemd/system/
 sudo cp cineco.env.example /etc/cineco.env && sudo chmod 600 /etc/cineco.env
 # edit /etc/cineco.env with TMDB_API_KEY, FEED_URL, CINECO_GIT_PUSH=1

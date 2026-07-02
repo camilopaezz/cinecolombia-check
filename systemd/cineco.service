@@ -9,6 +9,10 @@ User=camilo
 Group=camilo
 WorkingDirectory=/srv/cinecolombia-check
 EnvironmentFile=/etc/cineco.env
+# curl_chrome136 (curl-impersonate) is invoked by bare name from scrape.ts and
+# lives in /usr/local/curl-impersonate; git is in /usr/bin. Override systemd's
+# minimal default PATH so both resolve. bun is called by absolute path above.
+Environment=PATH=/usr/local/curl-impersonate:/usr/local/bin:/usr/sbin:/usr/bin:/bin
 ExecStart=/usr/local/bin/bun run /srv/cinecolombia-check/scrape.ts
 # bun must live in a system path (e.g. /usr/local/bin, labeled usr_t) because
 # Fedora SELinux denies systemd exec of binaries in /home (user_home_t), which

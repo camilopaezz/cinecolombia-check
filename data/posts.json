@@ -1667,6 +1667,33 @@
           "posterPath": "/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg"
         }
       }
+    },
+    {
+      "guid": "813e5e2d-d24d-42b9-8788-22353eb47cc6",
+      "type": "now-in-theaters",
+      "filmId": "HO00000671",
+      "createdAt": "2026-07-02T23:00:56.730Z",
+      "snapshot": {
+        "id": "HO00000671",
+        "title": "ATEEZ: LIGHT THE WAY IN CINEMAS",
+        "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 65,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Música"
+        ],
+        "director": "JIAE KIM",
+        "webUrl": "http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
+        "tmdb": {
+          "tmdbId": 1722720,
+          "posterPath": "/jPtUs7hVAp08FjOR2YnojdPhayX.jpg"
+        }
+      }
     }
   ]
 }

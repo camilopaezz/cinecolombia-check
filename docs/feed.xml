@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: ATEEZ: LIGHT THE WAY IN CINEMAS</title>
+      <link>http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/</link>
+      <guid isPermaLink="false">813e5e2d-d24d-42b9-8788-22353eb47cc6</guid>
+      <pubDate>Thu, 02 Jul 2026 23:00:56 GMT</pubDate>
+      <description>Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Digger</title>
       <link>http://www.cinecolombia.com/films/digger/HO00000381/</link>
       <guid isPermaLink="false">0136f802-4549-4560-91df-e00796bf6217</guid>

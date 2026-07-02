@@ -1,6 +1,28 @@
 {
   "films": [
     {
+      "id": "HO00000451",
+      "title": "Minions & Monsters",
+      "shortSynopsis": "Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.",
+      "releaseDate": "2026-07-02",
+      "runtimeInMinutes": 90,
+      "censorRating": "Todos",
+      "genres": [
+        "Animación",
+        "Comedia"
+      ],
+      "director": "Pierre Coffin",
+      "webUrl": "http://www.cinecolombia.com/films/minions-monsters/HO00000451/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
+      "tmdb": {
+        "tmdbId": 1315772,
+        "posterPath": "/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg"
+      }
+    },
+    {
       "id": "HO00000471",
       "title": "Toy Story 5",
       "shortSynopsis": "Los juguetes están de regreso y esta vez, el propósito de jugar de Buzz Lightyear, Woody, Jessie y el resto del grupo se ve amenazado cuando se enfrentan a Lilypad.",
@@ -24,26 +46,25 @@
       }
     },
     {
-      "id": "HO00000427",
-      "title": "Supergirl",
-      "shortSynopsis": "Cuando un enemigo inesperado y despiadado golpea demasiado cerca, Supergirl, se ve obligada a unir fuerzas con un acompañante  improbable en un épico viaje interestelar",
-      "releaseDate": "2026-06-25",
-      "runtimeInMinutes": 110,
+      "id": "HO00000386",
+      "title": "The Odyssey",
+      "shortSynopsis": "El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.",
+      "releaseDate": "2026-07-16",
+      "runtimeInMinutes": 172,
       "censorRating": "+12 Años",
       "genres": [
-        "Acción",
-        "Fantasía",
-        "Aventura"
+        "Drama"
       ],
-      "director": "Craig Gillespie",
-      "webUrl": "http://www.cinecolombia.com/films/supergirl/HO00000427/",
+      "director": "Christopher Nolan",
+      "webUrl": "http://www.cinecolombia.com/films/the-odyssey/HO00000386/",
       "categories": [
-        "NowShowing"
+        "NowShowing",
+        "AdvanceBooking"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg",
       "tmdb": {
-        "tmdbId": 1081003,
-        "posterPath": "/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg"
+        "tmdbId": 1368337,
+        "posterPath": "/bheY17L6wtB0SdJn6EYyh1X5iry.jpg"
       }
     },
     {
@@ -70,47 +91,136 @@
       }
     },
     {
-      "id": "HO00000386",
-      "title": "The Odyssey",
-      "shortSynopsis": "El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.",
-      "releaseDate": "2026-07-16",
-      "runtimeInMinutes": 172,
-      "censorRating": "+12 Años",
+      "id": "HO00000496",
+      "title": "Moana",
+      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 120,
+      "censorRating": "+7 Años",
       "genres": [
-        "Drama"
+        "Familia",
+        "Aventura",
+        "Comedia"
       ],
-      "director": "Christopher Nolan",
-      "webUrl": "http://www.cinecolombia.com/films/the-odyssey/HO00000386/",
+      "director": "Thomas Kail",
+      "webUrl": "http://www.cinecolombia.com/films/moana/HO00000496/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
       "tmdb": {
-        "tmdbId": 1368337,
-        "posterPath": "/bheY17L6wtB0SdJn6EYyh1X5iry.jpg"
+        "tmdbId": 1108427,
+        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
       }
     },
     {
-      "id": "HO00000451",
-      "title": "Minions & Monsters",
-      "shortSynopsis": "Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 90,
-      "censorRating": "Todos",
+      "id": "HO00000427",
+      "title": "Supergirl",
+      "shortSynopsis": "Cuando un enemigo inesperado y despiadado golpea demasiado cerca, Supergirl, se ve obligada a unir fuerzas con un acompañante  improbable en un épico viaje interestelar",
+      "releaseDate": "2026-06-25",
+      "runtimeInMinutes": 110,
+      "censorRating": "+12 Años",
       "genres": [
-        "Animación",
-        "Comedia"
+        "Acción",
+        "Fantasía",
+        "Aventura"
       ],
-      "director": "Pierre Coffin",
-      "webUrl": "http://www.cinecolombia.com/films/minions-monsters/HO00000451/",
+      "director": "Craig Gillespie",
+      "webUrl": "http://www.cinecolombia.com/films/supergirl/HO00000427/",
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg",
       "tmdb": {
-        "tmdbId": 1315772,
-        "posterPath": "/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg"
+        "tmdbId": 1081003,
+        "posterPath": "/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg"
+      }
+    },
+    {
+      "id": "HO00000646",
+      "title": "Franz",
+      "shortSynopsis": "Un retrato íntimo y fragmentado de Franz Kafka, siguiendo su vida desde la juventud en la Praga de principios del siglo XX hasta su muerte prematura.",
+      "releaseDate": "2026-07-02",
+      "runtimeInMinutes": 127,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Biografía"
+      ],
+      "director": "Agnieszka Holland",
+      "webUrl": "http://www.cinecolombia.com/films/franz/HO00000646/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg",
+      "tmdb": {
+        "tmdbId": 1157322,
+        "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
+      }
+    },
+    {
+      "id": "HO00000500",
+      "title": "Fuze",
+      "shortSynopsis": "Unos obreros de la construcción desentierran en Londres una bomba de la Segunda Guerra Mundial sin explotar, lo que obliga a evacuar la ciudad.",
+      "releaseDate": "2026-07-02",
+      "runtimeInMinutes": 98,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Acción",
+        "Suspenso"
+      ],
+      "director": "David Mackenzie",
+      "webUrl": "http://www.cinecolombia.com/films/fuze/HO00000500/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg",
+      "tmdb": {
+        "tmdbId": 1242265,
+        "posterPath": "/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg"
+      }
+    },
+    {
+      "id": "HO00000652",
+      "title": "Evil Dead Burn",
+      "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Sébastien Vaniček",
+      "webUrl": "http://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
+      "tmdb": {
+        "tmdbId": 1212763,
+        "posterPath": "/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg"
+      }
+    },
+    {
+      "id": "HO00000604",
+      "title": "Obsession",
+      "shortSynopsis": "La desesperada fijación romántica de un hombre por la persona que idealiza provoca un hechizo oscuro que transforma su deseo en una situación cada vez más perturbadora",
+      "releaseDate": "2026-05-14",
+      "runtimeInMinutes": 108,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Curry Barker",
+      "webUrl": "http://www.cinecolombia.com/films/obsession/HO00000604/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg",
+      "tmdb": {
+        "tmdbId": 1339713,
+        "posterPath": "/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg"
       }
     },
     {
@@ -136,24 +246,25 @@
       }
     },
     {
-      "id": "HO00000604",
-      "title": "Obsession",
-      "shortSynopsis": "La desesperada fijación romántica de un hombre por la persona que idealiza provoca un hechizo oscuro que transforma su deseo en una situación cada vez más perturbadora",
-      "releaseDate": "2026-05-14",
-      "runtimeInMinutes": 108,
-      "censorRating": "+15 Años",
+      "id": "HO00000649",
+      "title": "Moscas",
+      "shortSynopsis": "Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.",
+      "releaseDate": "2026-07-02",
+      "runtimeInMinutes": 99,
+      "censorRating": "+7 Años",
       "genres": [
-        "Terror"
+        "Comedia",
+        "Drama"
       ],
-      "director": "Curry Barker",
-      "webUrl": "http://www.cinecolombia.com/films/obsession/HO00000604/",
+      "director": "Fernando Eimbcke",
+      "webUrl": "http://www.cinecolombia.com/films/moscas/HO00000649/",
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
       "tmdb": {
-        "tmdbId": 1339713,
-        "posterPath": "/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg"
+        "tmdbId": 1437703,
+        "posterPath": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg"
       }
     },
     {
@@ -179,92 +290,6 @@
       }
     },
     {
-      "id": "HO00000657",
-      "title": "Eagles of the Republic",
-      "shortSynopsis": "El actor más querido de Egipto, George Fahmy, es presionado por las altas autoridades para protagonizar una película de propaganda sobre el presidente.",
-      "releaseDate": "2026-06-25",
-      "runtimeInMinutes": 129,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Suspenso"
-      ],
-      "director": "Tarik Saleh",
-      "webUrl": "http://www.cinecolombia.com/films/eagles-of-the-republic/HO00000657/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg",
-      "tmdb": {
-        "tmdbId": 1220566,
-        "posterPath": "/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg"
-      }
-    },
-    {
-      "id": "HO00000639",
-      "title": "La Guitarra flamenca de Yerai Cortés",
-      "shortSynopsis": "La exploración emocional y artística del guitarrista flamenco Yerai Cortés se funden con un drama familiar en el debut cinematográfico de Antón Álvarez.",
-      "releaseDate": "2026-06-18",
-      "runtimeInMinutes": 95,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "C. Tangana",
-      "webUrl": "http://www.cinecolombia.com/films/la-guitarra-flamenca-de-yerai-cortes/HO00000639/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg",
-      "tmdb": {
-        "tmdbId": 1317099,
-        "posterPath": "/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg"
-      }
-    },
-    {
-      "id": "HO00000653",
-      "title": "Sia: Nostalgic For The Present",
-      "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 75,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "Sia",
-      "webUrl": "http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg",
-      "tmdb": {
-        "tmdbId": 1712586,
-        "posterPath": "/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg"
-      }
-    },
-    {
-      "id": "HO00000661",
-      "title": "WHAM! 10 Days in China",
-      "shortSynopsis": "En 1985, WHAM! tendió puentes entre culturas al convertirse en el primer grupo de pop occidental en actuar en China.",
-      "releaseDate": "2026-07-28",
-      "runtimeInMinutes": 90,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Mike Christie",
-      "webUrl": "http://www.cinecolombia.com/films/wham-10-days-in-china/HO00000661/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg",
-      "tmdb": {
-        "tmdbId": 1715914,
-        "posterPath": "/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg"
-      }
-    },
-    {
       "id": "HO00000481",
       "title": "Tuner",
       "shortSynopsis": "Henry, afinador veterano que pierde el oído, trabaja con Niki, joven con hiperacusia. Su talento para abrir cajas fuertes vuelve su oficio un peligro inesperado.",
@@ -287,64 +312,25 @@
       }
     },
     {
-      "id": "HO00000494",
-      "title": "El juego de la vida",
-      "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
-      "releaseDate": "2026-05-07",
-      "runtimeInMinutes": 95,
-      "censorRating": "+7 Años",
+      "id": "HO00000653",
+      "title": "Sia: Nostalgic For The Present",
+      "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 75,
+      "censorRating": "+12 Años",
       "genres": [
-        "Documental"
+        "Música"
       ],
-      "director": "Mario Andrés Ruiz Zuluaga",
-      "webUrl": "http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/",
+      "director": "Sia",
+      "webUrl": "http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/",
       "categories": [
-        "NowShowing"
+        "NowShowing",
+        "AdvanceBooking"
       ],
-      "posterUrl": null
-    },
-    {
-      "id": "HO00000609",
-      "title": "Backrooms",
-      "shortSynopsis": "Una extraña puerta aparece en el sótano de una sala de exposición de muebles.",
-      "releaseDate": "2026-05-28",
-      "runtimeInMinutes": 110,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror",
-        "Misterio"
-      ],
-      "director": "Kane Parsons",
-      "webUrl": "http://www.cinecolombia.com/films/backrooms/HO00000609/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg",
       "tmdb": {
-        "tmdbId": 1083381,
-        "posterPath": "/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg"
-      }
-    },
-    {
-      "id": "HO00000430",
-      "title": "The Devil Wears Prada 2",
-      "shortSynopsis": "Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan",
-      "releaseDate": "2026-04-29",
-      "runtimeInMinutes": 120,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "David Frankel",
-      "webUrl": "http://www.cinecolombia.com/films/the-devil-wears-prada-2/HO00000430/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg",
-      "tmdb": {
-        "tmdbId": 1314481,
-        "posterPath": "/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg"
+        "tmdbId": 1712586,
+        "posterPath": "/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg"
       }
     },
     {
@@ -371,6 +357,92 @@
       }
     },
     {
+      "id": "HO00000609",
+      "title": "Backrooms",
+      "shortSynopsis": "Una extraña puerta aparece en el sótano de una sala de exposición de muebles.",
+      "releaseDate": "2026-05-28",
+      "runtimeInMinutes": 110,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Terror",
+        "Misterio"
+      ],
+      "director": "Kane Parsons",
+      "webUrl": "http://www.cinecolombia.com/films/backrooms/HO00000609/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg",
+      "tmdb": {
+        "tmdbId": 1083381,
+        "posterPath": "/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg"
+      }
+    },
+    {
+      "id": "HO00000661",
+      "title": "WHAM! 10 Days in China",
+      "shortSynopsis": "En 1985, WHAM! tendió puentes entre culturas al convertirse en el primer grupo de pop occidental en actuar en China.",
+      "releaseDate": "2026-07-28",
+      "runtimeInMinutes": 90,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Mike Christie",
+      "webUrl": "http://www.cinecolombia.com/films/wham-10-days-in-china/HO00000661/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg",
+      "tmdb": {
+        "tmdbId": 1715914,
+        "posterPath": "/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg"
+      }
+    },
+    {
+      "id": "HO00000671",
+      "title": "ATEEZ: LIGHT THE WAY IN CINEMAS",
+      "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
+      "releaseDate": "2026-08-06",
+      "runtimeInMinutes": 65,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Música"
+      ],
+      "director": "JIAE KIM",
+      "webUrl": "http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
+      "tmdb": {
+        "tmdbId": 1722720,
+        "posterPath": "/jPtUs7hVAp08FjOR2YnojdPhayX.jpg"
+      }
+    },
+    {
+      "id": "HO00000639",
+      "title": "La Guitarra flamenca de Yerai Cortés",
+      "shortSynopsis": "La exploración emocional y artística del guitarrista flamenco Yerai Cortés se funden con un drama familiar en el debut cinematográfico de Antón Álvarez.",
+      "releaseDate": "2026-06-18",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "C. Tangana",
+      "webUrl": "http://www.cinecolombia.com/films/la-guitarra-flamenca-de-yerai-cortes/HO00000639/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg",
+      "tmdb": {
+        "tmdbId": 1317099,
+        "posterPath": "/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg"
+      }
+    },
+    {
       "id": "HO00000491",
       "title": "Lactar",
       "shortSynopsis": "Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.",
@@ -392,25 +464,64 @@
       }
     },
     {
-      "id": "HO00000671",
-      "title": "ATEEZ: LIGHT THE WAY IN CINEMAS",
-      "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
-      "releaseDate": "2026-08-06",
-      "runtimeInMinutes": 65,
-      "censorRating": "Pendiente",
+      "id": "HO00000430",
+      "title": "The Devil Wears Prada 2",
+      "shortSynopsis": "Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan",
+      "releaseDate": "2026-04-29",
+      "runtimeInMinutes": 120,
+      "censorRating": "+7 Años",
       "genres": [
-        "Música"
+        "Comedia",
+        "Drama"
       ],
-      "director": "JIAE KIM",
-      "webUrl": "http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
+      "director": "David Frankel",
+      "webUrl": "http://www.cinecolombia.com/films/the-devil-wears-prada-2/HO00000430/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg",
       "tmdb": {
-        "tmdbId": 1722720,
-        "posterPath": "/jPtUs7hVAp08FjOR2YnojdPhayX.jpg"
+        "tmdbId": 1314481,
+        "posterPath": "/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg"
       }
+    },
+    {
+      "id": "HO00000657",
+      "title": "Eagles of the Republic",
+      "shortSynopsis": "El actor más querido de Egipto, George Fahmy, es presionado por las altas autoridades para protagonizar una película de propaganda sobre el presidente.",
+      "releaseDate": "2026-06-25",
+      "runtimeInMinutes": 129,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Suspenso"
+      ],
+      "director": "Tarik Saleh",
+      "webUrl": "http://www.cinecolombia.com/films/eagles-of-the-republic/HO00000657/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg",
+      "tmdb": {
+        "tmdbId": 1220566,
+        "posterPath": "/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg"
+      }
+    },
+    {
+      "id": "HO00000494",
+      "title": "El juego de la vida",
+      "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
+      "releaseDate": "2026-05-07",
+      "runtimeInMinutes": 95,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Mario Andrés Ruiz Zuluaga",
+      "webUrl": "http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
     },
     {
       "id": "HO00000665",
@@ -653,28 +764,6 @@
       }
     },
     {
-      "id": "HO00000652",
-      "title": "Evil Dead Burn",
-      "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Sébastien Vaniček",
-      "webUrl": "http://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
-      "tmdb": {
-        "tmdbId": 1212763,
-        "posterPath": "/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg"
-      }
-    },
-    {
       "id": "HO00000628",
       "title": "Finding Emily",
       "shortSynopsis": "Cuando a un músico enamorado le dan un número equivocado para llamar a la chica de sus sueños, se une a una ambiciosa estudiante de psicología para encontrarla.",
@@ -741,49 +830,6 @@
       }
     },
     {
-      "id": "HO00000646",
-      "title": "Franz",
-      "shortSynopsis": "Un retrato íntimo y fragmentado de Franz Kafka, siguiendo su vida desde la juventud en la Praga de principios del siglo XX hasta su muerte prematura.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 127,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Biografía"
-      ],
-      "director": "Agnieszka Holland",
-      "webUrl": "http://www.cinecolombia.com/films/franz/HO00000646/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg",
-      "tmdb": {
-        "tmdbId": 1157322,
-        "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
-      }
-    },
-    {
-      "id": "HO00000500",
-      "title": "Fuze",
-      "shortSynopsis": "Unos obreros de la construcción desentierran en Londres una bomba de la Segunda Guerra Mundial sin explotar, lo que obliga a evacuar la ciudad.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 98,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Suspenso"
-      ],
-      "director": "David Mackenzie",
-      "webUrl": "http://www.cinecolombia.com/films/fuze/HO00000500/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg",
-      "tmdb": {
-        "tmdbId": 1242265,
-        "posterPath": "/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg"
-      }
-    },
-    {
       "id": "HO00000641",
       "title": "Insidious: Out of the Further",
       "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
@@ -846,52 +892,6 @@
       "tmdb": {
         "tmdbId": 961077,
         "posterPath": "/pae1NQnQW2fiVB4Aw3XwXJozd5u.jpg"
-      }
-    },
-    {
-      "id": "HO00000496",
-      "title": "Moana",
-      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 120,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Familia",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Thomas Kail",
-      "webUrl": "http://www.cinecolombia.com/films/moana/HO00000496/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
-      "tmdb": {
-        "tmdbId": 1108427,
-        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
-      }
-    },
-    {
-      "id": "HO00000649",
-      "title": "Moscas",
-      "shortSynopsis": "Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 99,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "Fernando Eimbcke",
-      "webUrl": "http://www.cinecolombia.com/films/moscas/HO00000649/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
-      "tmdb": {
-        "tmdbId": 1437703,
-        "posterPath": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg"
       }
     },
     {

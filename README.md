@@ -40,6 +40,11 @@ systemd/             # cineco.service + cineco.timer
 ## Deploy (bare-metal Fedora)
 
 ```bash
+# Install bun system-wide: systemd (Fedora SELinux) cannot exec binaries in
+# /home (user_home_t) — it fails with status=203/EXEC "Permission denied".
+sudo install -m 0755 -o root -g root ~/.bun/bin/bun /usr/local/bin/bun
+sudo restorecon -v /usr/local/bin/bun
+
 sudo cp systemd/cineco.service systemd/cineco.timer /etc/systemd/system/
 sudo cp cineco.env.example /etc/cineco.env && sudo chmod 600 /etc/cineco.env
 # edit /etc/cineco.env with TMDB_API_KEY, FEED_URL, CINECO_GIT_PUSH=1
@@ -48,8 +53,9 @@ sudo chown -R camilo:camilo /srv/cinecolombia-check
 sudo systemctl enable --now cineco.timer
 ```
 
-The service runs as `camilo` (per-user bun at `~/.bun/bin/bun`, and the SSH
-deploy key lives in `~/.ssh`). Git push authenticates via that deploy key (add
-the public key as a write deploy key on the GitHub repo). The scraper only
-commits when `git diff` shows changes, and aborts on a non-fast-forward push
-(next run retries).
+The service runs as `camilo` and execs `/usr/local/bin/bun` (see the install
+step above — `bun upgrade` only refreshes `~/.bun/bin/bun`, so re-run the
+`install` line to update the version the service uses). Git push authenticates
+via an SSH deploy key in `~/.ssh` (add the public key as a write deploy key on
+the GitHub repo). The scraper only commits when `git diff` shows changes, and
+aborts on a non-fast-forward push (next run retries).

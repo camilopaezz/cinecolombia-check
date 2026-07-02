@@ -9,8 +9,9 @@ User=camilo
 Group=camilo
 WorkingDirectory=/srv/cinecolombia-check
 EnvironmentFile=/etc/cineco.env
-ExecStart=/home/camilo/.bun/bin/bun run /srv/cinecolombia-check/scrape.ts
-# Absolute path because systemd's default PATH omits ~/.bun/bin, so
-# `/usr/bin/env bun` exits 127 ("bun: No such file or directory").
+ExecStart=/usr/local/bin/bun run /srv/cinecolombia-check/scrape.ts
+# bun must live in a system path (e.g. /usr/local/bin, labeled usr_t) because
+# Fedora SELinux denies systemd exec of binaries in /home (user_home_t), which
+# surfaces as status=203/EXEC "Permission denied" even on a 0755 file.
 # Hard rule: a failed scrape must never look like every film vanished.
 # Non-zero exit leaves state.json untouched.

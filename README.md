@@ -43,9 +43,13 @@ systemd/             # cineco.service + cineco.timer
 sudo cp systemd/cineco.service systemd/cineco.timer /etc/systemd/system/
 sudo cp cineco.env.example /etc/cineco.env && sudo chmod 600 /etc/cineco.env
 # edit /etc/cineco.env with TMDB_API_KEY, FEED_URL, CINECO_GIT_PUSH=1
+sudo chown camilo:camilo /etc/cineco.env          # service runs as camilo
+sudo chown -R camilo:camilo /srv/cinecolombia-check
 sudo systemctl enable --now cineco.timer
 ```
 
-Git push authenticates via an SSH deploy key (add the public key as a write
-deploy key on the GitHub repo). The scraper only commits when `git diff` shows
-changes, and aborts on a non-fast-forward push (next run retries).
+The service runs as `camilo` (per-user bun at `~/.bun/bin/bun`, and the SSH
+deploy key lives in `~/.ssh`). Git push authenticates via that deploy key (add
+the public key as a write deploy key on the GitHub repo). The scraper only
+commits when `git diff` shows changes, and aborts on a non-fast-forward push
+(next run retries).

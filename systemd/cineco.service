@@ -5,8 +5,12 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
+User=camilo
+Group=camilo
 WorkingDirectory=/srv/cinecolombia-check
 EnvironmentFile=/etc/cineco.env
-ExecStart=/usr/bin/env bun run /srv/cinecolombia-check/scrape.ts
+ExecStart=/home/camilo/.bun/bin/bun run /srv/cinecolombia-check/scrape.ts
+# Absolute path because systemd's default PATH omits ~/.bun/bin, so
+# `/usr/bin/env bun` exits 127 ("bun: No such file or directory").
 # Hard rule: a failed scrape must never look like every film vanished.
 # Non-zero exit leaves state.json untouched.

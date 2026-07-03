@@ -46,6 +46,52 @@
       }
     },
     {
+      "id": "HO00000496",
+      "title": "Moana",
+      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 120,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Familia",
+        "Aventura",
+        "Comedia"
+      ],
+      "director": "Thomas Kail",
+      "webUrl": "http://www.cinecolombia.com/films/moana/HO00000496/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
+      "tmdb": {
+        "tmdbId": 1108427,
+        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
+      }
+    },
+    {
+      "id": "HO00000652",
+      "title": "Evil Dead Burn",
+      "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Sébastien Vaniček",
+      "webUrl": "http://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
+      "tmdb": {
+        "tmdbId": 1212763,
+        "posterPath": "/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg"
+      }
+    },
+    {
       "id": "HO00000386",
       "title": "The Odyssey",
       "shortSynopsis": "El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.",
@@ -91,30 +137,6 @@
       }
     },
     {
-      "id": "HO00000496",
-      "title": "Moana",
-      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 120,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Familia",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Thomas Kail",
-      "webUrl": "http://www.cinecolombia.com/films/moana/HO00000496/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
-      "tmdb": {
-        "tmdbId": 1108427,
-        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
-      }
-    },
-    {
       "id": "HO00000427",
       "title": "Supergirl",
       "shortSynopsis": "Cuando un enemigo inesperado y despiadado golpea demasiado cerca, Supergirl, se ve obligada a unir fuerzas con un acompañante  improbable en un épico viaje interestelar",
@@ -138,27 +160,6 @@
       }
     },
     {
-      "id": "HO00000646",
-      "title": "Franz",
-      "shortSynopsis": "Un retrato íntimo y fragmentado de Franz Kafka, siguiendo su vida desde la juventud en la Praga de principios del siglo XX hasta su muerte prematura.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 127,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Biografía"
-      ],
-      "director": "Agnieszka Holland",
-      "webUrl": "http://www.cinecolombia.com/films/franz/HO00000646/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg",
-      "tmdb": {
-        "tmdbId": 1157322,
-        "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
-      }
-    },
-    {
       "id": "HO00000500",
       "title": "Fuze",
       "shortSynopsis": "Unos obreros de la construcción desentierran en Londres una bomba de la Segunda Guerra Mundial sin explotar, lo que obliga a evacuar la ciudad.",
@@ -178,28 +179,6 @@
       "tmdb": {
         "tmdbId": 1242265,
         "posterPath": "/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg"
-      }
-    },
-    {
-      "id": "HO00000652",
-      "title": "Evil Dead Burn",
-      "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Sébastien Vaniček",
-      "webUrl": "http://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
-      "tmdb": {
-        "tmdbId": 1212763,
-        "posterPath": "/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg"
       }
     },
     {
@@ -243,6 +222,27 @@
       "tmdb": {
         "tmdbId": 1275779,
         "posterPath": "/uGww4UrU3316Mld4p30dgdM09Du.jpg"
+      }
+    },
+    {
+      "id": "HO00000646",
+      "title": "Franz",
+      "shortSynopsis": "Un retrato íntimo y fragmentado de Franz Kafka, siguiendo su vida desde la juventud en la Praga de principios del siglo XX hasta su muerte prematura.",
+      "releaseDate": "2026-07-02",
+      "runtimeInMinutes": 127,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Biografía"
+      ],
+      "director": "Agnieszka Holland",
+      "webUrl": "http://www.cinecolombia.com/films/franz/HO00000646/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg",
+      "tmdb": {
+        "tmdbId": 1157322,
+        "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
       }
     },
     {

@@ -5,11 +5,13 @@ import { tmpdir } from "node:os";
 import type {
   AvailabilityResponse,
   Deps,
+  Event,
   FilmRecord,
   FilmsResponse,
 } from "./scrape.ts";
 import {
   buildFilmRecords,
+  buildDiscordEmbed,
   diff,
   enrichPosters,
   extractAuthToken,
@@ -78,6 +80,7 @@ const deps = (): Deps => ({
   },
   now: fixedNow,
   uuid: fakeUuid,
+  async notify() {},
 });
 
 // ─── Pure functions ──────────────────────────────────────────────────────────
@@ -230,6 +233,70 @@ describe("generateHTML", () => {
   });
 });
 
+// ─── Discord embed ───────────────────────────────────────────────────────────
+
+describe("buildDiscordEmbed", () => {
+  const snapshot: FilmRecord = {
+    id: "HO1",
+    title: "Toy Story 5",
+    shortSynopsis: "Sinopsis de Toy Story 5",
+    releaseDate: "2026-06-18",
+    runtimeInMinutes: 102,
+    censorRating: "Todos",
+    genres: ["Animación"],
+    director: "Pixar Director",
+    webUrl: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
+    categories: ["ComingSoon"],
+    posterUrl: "https://image.tmdb.org/t/p/w500/abc.jpg",
+  };
+
+  it("builds a rich embed with title, url, poster, facts, and Bogotá footer", () => {
+    const e: Event = {
+      guid: "g1",
+      type: "added",
+      filmId: "HO1",
+      createdAt: "2026-07-01T18:00:00Z",
+      snapshot,
+    };
+    const embed = buildDiscordEmbed(e) as Record<string, unknown>;
+    expect(embed.title).toBe("Pronto: Toy Story 5");
+    expect(embed.url).toBe("https://www.cinecolombia.com/films/toy-story-5/HO00000471/");
+    expect(embed.color).toBe(0x2ecc71);
+    expect(embed.timestamp).toBe("2026-07-01T18:00:00Z");
+    expect((embed.image as { url: string }).url).toBe("https://image.tmdb.org/t/p/w500/abc.jpg");
+    expect((embed.fields as { value: string }[])[0].value).toBe("2026-06-18 · 102 min · Todos · Animación");
+    expect((embed.footer as { text: string }).text).toContain("2026");
+  });
+
+  it("omits image and url when snapshot lacks them", () => {
+    const e: Event = {
+      guid: "g2",
+      type: "removed",
+      filmId: "HO2",
+      createdAt: "2026-07-01T18:00:00Z",
+      snapshot: { ...snapshot, posterUrl: null, webUrl: "" },
+    };
+    const embed = buildDiscordEmbed(e) as Record<string, unknown>;
+    expect(embed.color).toBe(0xe74c3c);
+    expect(embed.image).toBeUndefined();
+    expect(embed.url).toBeUndefined();
+  });
+
+  it("truncates long synopses to 350 chars", () => {
+    const long = "A".repeat(500);
+    const e: Event = {
+      guid: "g3",
+      type: "added",
+      filmId: "HO3",
+      createdAt: "2026-07-01T18:00:00Z",
+      snapshot: { ...snapshot, shortSynopsis: long },
+    };
+    const embed = buildDiscordEmbed(e) as { description: string };
+    expect(embed.description.length).toBeLessThanOrEqual(350);
+    expect(embed.description.endsWith("\u2026")).toBe(true);
+  });
+});
+
 // ─── End-to-end scraper run (primary seam) ───────────────────────────────────
 
 describe("main (full scraper run)", () => {
@@ -312,6 +379,138 @@ describe("main (full scraper run)", () => {
     // The pre-existing state.json is unchanged and no posts were written.
     expect(loadState(statePath).films).toEqual([]);
     expect(loadPosts(join(dataDir, "posts.json")).posts).toEqual([]);
+  });
+
+  it("notifies on a lifecycle transition (run 2), not on cold start (run 1)", async () => {
+    const dataDir = join(dir, "data-notify");
+    const docsDir = join(dir, "docs-notify");
+    let avail: Record<string, string[]> = {
+      HO00000471: ["ComingSoon"],
+      HO00000386: ["NowShowing"],
+    };
+    const notified: string[] = [];
+    const notifyDeps = (): Deps => ({
+      ...deps(),
+      async ocapi(_t, path) {
+        if (path === "films") return filmsResponse();
+        if (path === "films/availability") return availability(avail);
+        throw new Error(`unexpected path ${path}`);
+      },
+      async notify(events) {
+        notified.push(...events.map((e) => e.type));
+      },
+    });
+
+    // Run 1: cold start -> events archived but NO notification.
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      notifyWebhookUrl: "https://discord.example/webhook",
+      deps: notifyDeps(),
+    });
+    expect(notified).toEqual([]);
+
+    // Run 2: transition -> notification fired with the preventa event.
+    avail = { HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] };
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      notifyWebhookUrl: "https://discord.example/webhook",
+      deps: notifyDeps(),
+    });
+    expect(notified).toEqual(["preventa-opens"]);
+  });
+
+  it("skips notification when no webhook URL is configured", async () => {
+    const dataDir = join(dir, "data-no-webhook");
+    const docsDir = join(dir, "docs-no-webhook");
+    let notifyCalled = false;
+    const notifyDeps = (): Deps => ({
+      ...deps(),
+      async ocapi(_t, path) {
+        if (path === "films") return filmsResponse();
+        if (path === "films/availability")
+          return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
+        throw new Error(`unexpected path ${path}`);
+      },
+      async notify() {
+        notifyCalled = true;
+      },
+    });
+
+    // Cold start with no webhook URL.
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: notifyDeps(),
+    });
+    expect(notifyCalled).toBe(false);
+  });
+
+  it("does not abort the scrape when notify throws", async () => {
+    const dataDir = join(dir, "data-notify-fail");
+    const docsDir = join(dir, "docs-notify-fail");
+    // Seed state so run 1 is not a cold start (prev.films.length > 0).
+    await Bun.write(
+      join(dataDir, "state.json"),
+      JSON.stringify({
+        films: [
+          {
+            id: "HO00000471",
+            title: "Toy Story 5",
+            shortSynopsis: "",
+            releaseDate: null,
+            runtimeInMinutes: null,
+            censorRating: "",
+            genres: [],
+            director: "",
+            webUrl: "",
+            categories: ["ComingSoon"],
+            posterUrl: null,
+          },
+        ],
+        tmdbCache: {},
+      }),
+    );
+    const failDeps = (): Deps => ({
+      ...deps(),
+      async ocapi(_t, path) {
+        if (path === "films") return filmsResponse();
+        if (path === "films/availability")
+          // Gains AdvanceBooking -> preventa-opens event -> triggers notify.
+          return availability({ HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] });
+        throw new Error(`unexpected path ${path}`);
+      },
+      async notify() {
+        throw new Error("discord 500");
+      },
+    });
+
+    // Should complete successfully despite notify throwing.
+    await expect(
+      main({
+        dataDir,
+        docsDir,
+        feedUrl: "https://x/feed.xml",
+        tmdbApiKey: "k",
+        gitPush: false,
+        notifyWebhookUrl: "https://discord.example/webhook",
+        deps: failDeps(),
+      }),
+    ).resolves.toBeUndefined();
+
+    // Files were still written despite the notification failure.
+    const posts = loadPosts(join(dataDir, "posts.json"));
+    expect(posts.posts.map((p) => p.type)).toContain("preventa-opens");
   });
 });
 

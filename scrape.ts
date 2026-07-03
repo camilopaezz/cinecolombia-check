@@ -104,6 +104,7 @@ export interface Deps {
   ) => Promise<{ tmdbId: number; posterPath: string | null } | null>;
   now: () => Date;
   uuid: () => string;
+  notify: (events: Event[], webhookUrl: string) => Promise<void>;
 }
 
 export interface MainOptions {
@@ -113,6 +114,7 @@ export interface MainOptions {
   feedUrl?: string;
   feedTitle?: string;
   gitPush?: boolean;
+  notifyWebhookUrl?: string;
   deps?: Partial<Deps>;
 }
 
@@ -414,6 +416,41 @@ ${cards}
 `;
 }
 
+const EVENT_COLORS: Record<EventType, number> = {
+  added: 0x2ecc71,
+  "preventa-opens": 0x3498db,
+  "now-in-theaters": 0xf1c40f,
+  removed: 0xe74c3c,
+};
+
+export function buildDiscordEmbed(e: Event): Record<string, unknown> {
+  const snap = e.snapshot;
+  const facts = [
+    snap.releaseDate,
+    snap.runtimeInMinutes ? `${snap.runtimeInMinutes} min` : null,
+    snap.censorRating,
+    snap.genres.join(", "),
+  ].filter(Boolean).join(" · ");
+
+  const description = snap.shortSynopsis
+    ? snap.shortSynopsis.length > 350
+      ? `${snap.shortSynopsis.slice(0, 349)}\u2026`
+      : snap.shortSynopsis
+    : "";
+
+  const embed: Record<string, unknown> = {
+    title: `${EVENT_LABELS[e.type]}: ${snap.title}`,
+    description,
+    color: EVENT_COLORS[e.type],
+    timestamp: e.createdAt,
+    footer: { text: bogotaDate(e.createdAt) },
+  };
+  if (snap.webUrl) embed.url = snap.webUrl;
+  if (snap.posterUrl) embed.image = { url: snap.posterUrl };
+  if (facts) embed.fields = [{ name: "Ficha", value: facts, inline: true }];
+  return embed;
+}
+
 // ─── Persistence ─────────────────────────────────────────────────────────────
 
 export function loadState(path: string): State {
@@ -480,6 +517,26 @@ export const liveDeps: Deps = {
   },
   now: () => new Date(),
   uuid: () => crypto.randomUUID(),
+  async notify(events, webhookUrl) {
+    for (const e of events) {
+      const body = JSON.stringify({ embeds: [buildDiscordEmbed(e)] });
+      let res = await fetch(webhookUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body,
+      });
+      if (res.status === 429) {
+        const retryAfter = ((await res.json()) as { retry_after?: number })?.retry_after ?? 1;
+        await Bun.sleep(retryAfter * 1000);
+        res = await fetch(webhookUrl, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body,
+        });
+      }
+      if (!res.ok) throw new Error(`discord -> ${res.status}`);
+    }
+  },
 };
 
 // ─── Deployment ──────────────────────────────────────────────────────────────
@@ -514,6 +571,7 @@ export async function main(options: MainOptions = {}): Promise<void> {
     options.feedUrl ?? process.env.FEED_URL ?? "https://example.github.io/cinecolombia-check/feed.xml";
   const feedTitle = options.feedTitle ?? process.env.FEED_TITLE ?? "CineColombia — Cartelera y Preventa";
   const tmdbApiKey = options.tmdbApiKey ?? process.env.TMDB_API_KEY;
+  const notifyWebhookUrl = options.notifyWebhookUrl ?? process.env.NOTIFY_WEBHOOK_URL;
   const deps: Deps = { ...liveDeps, ...options.deps };
 
   // Gather everything before touching any file (hard rule: aborted scrape ≠ every film gone).
@@ -542,6 +600,15 @@ export async function main(options: MainOptions = {}): Promise<void> {
   savePosts(postsPath, archive);
   await Bun.write(feedPath, feed);
   await Bun.write(htmlPath, html);
+
+  // Notify on transitions only — never on a cold start (empty previous state).
+  if (events.length > 0 && prev.films.length > 0 && notifyWebhookUrl) {
+    try {
+      await deps.notify(events, notifyWebhookUrl);
+    } catch (e) {
+      console.error("notify failed (non-fatal):", e);
+    }
+  }
 
   if ((options.gitPush ?? process.env.CINECO_GIT_PUSH === "1") === true) {
     await tryGitPush();

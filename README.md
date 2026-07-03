@@ -2,7 +2,8 @@
 
 A scheduled Bun/TypeScript scraper that watches the Cinecolombia OCAPI for film
 lifecycle changes (added, advance booking opens, now in theaters, removed) and
-publishes them as a Spanish-language RSS feed + static HTML page on GitHub Pages.
+publishes them as a Spanish-language RSS feed + static HTML page, with optional
+Discord notifications on each transition.
 
 See [`PRD.md`](./PRD.md) and [`issues/`](./issues/) for the spec, and
 [`CINECO_RESEARCH.md`](./CINECO_RESEARCH.md) for the API reference.
@@ -16,10 +17,10 @@ bun test            # tests
 bun run typecheck   # tsc --noEmit
 ```
 
-The scraper reads `TMDB_API_KEY`, `FEED_URL`, and `CINECO_GIT_PUSH` from the
-environment (see `cineco.env.example`). It shells out to `curl_chrome136` to
-pass Cloudflare on the Cinecolombia homepage and fetch a fresh OCAPI token each
-run.
+The scraper reads `TMDB_API_KEY`, `FEED_URL`, `CINECO_GIT_PUSH`, and
+`NOTIFY_WEBHOOK_URL` from the environment (see `cineco.env.example`). It shells
+out to `curl_chrome136` to pass Cloudflare on the Cinecolombia homepage and
+fetch a fresh OCAPI token each run.
 
 ## Layout
 
@@ -36,6 +37,48 @@ systemd/             # cineco.service + cineco.timer
   every film vanished.
 - `state.json` / `posts.json` are written atomically (temp + rename); reruns are
   idempotent.
+- A failed notification is logged to stderr and never aborts the scrape — same
+  fail-safe philosophy as TMDB enrichment.
+
+## Notifications (optional, Discord)
+
+When `NOTIFY_WEBHOOK_URL` is set, the scraper posts one rich Discord embed per
+lifecycle transition (added, preventa opens, in theaters, removed) after files
+are saved but before git push. Each embed shows the poster image, a clickable
+title linking to the Cinecolombia page, synopsis, and a facts line (release
+date, runtime, rating, genres).
+
+Notifications are **skipped on a cold start** (first run with empty state) so
+the initial catalog import doesn't spam your channel — only subsequent
+transitions trigger pings.
+
+### Create the webhook
+
+1. In Discord: **Server Settings** → **Integrations** → **Webhooks** →
+   **New Webhook** (you need *Manage Webhooks* permission; admins have it).
+2. Pick the target text channel, name it (e.g. "CineColombia"), optionally
+   upload an avatar.
+3. Click **Copy Webhook URL** — you'll get
+   `https://discord.com/api/webhooks/<id>/<token>`.
+
+The second URL segment is a secret token. Anyone with the full URL can post to
+that channel, so keep it in the chmod-600 env file and never commit it.
+
+### Enable it
+
+Add the URL to `/etc/cineco.env`:
+
+```
+NOTIFY_WEBHOOK_URL=https://discord.com/api/webhooks/...
+```
+
+Restart the timer to pick up the new env var:
+
+```bash
+sudo systemctl restart cineco.service
+```
+
+To disable: comment out the line and restart. No code changes needed.
 
 ## Deploy (bare-metal Fedora)
 
@@ -59,7 +102,8 @@ sudo restorecon -Rv /usr/local/curl-impersonate
 
 sudo cp systemd/cineco.service systemd/cineco.timer /etc/systemd/system/
 sudo cp cineco.env.example /etc/cineco.env && sudo chmod 600 /etc/cineco.env
-# edit /etc/cineco.env with TMDB_API_KEY, FEED_URL, CINECO_GIT_PUSH=1
+# edit /etc/cineco.env with TMDB_API_KEY, FEED_URL, CINECO_GIT_PUSH=1,
+# and optionally NOTIFY_WEBHOOK_URL (see Notifications above)
 sudo chown camilo:camilo /etc/cineco.env          # service runs as camilo
 sudo chown -R camilo:camilo /srv/cinecolombia-check
 sudo systemctl enable --now cineco.timer

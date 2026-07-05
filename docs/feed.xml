@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Lactar</title>
+      <link>http://www.cinecolombia.com/films/lactar/HO00000491/</link>
+      <guid isPermaLink="false">0a470d39-85d0-488e-9fb3-07746d5c79d3</guid>
+      <pubDate>Sun, 05 Jul 2026 23:00:54 GMT</pubDate>
+      <description>Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: El juego de la vida</title>
+      <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
+      <guid isPermaLink="false">cff26cd8-2ef2-40c1-9b88-25cfa93355d3</guid>
+      <pubDate>Sun, 05 Jul 2026 23:00:54 GMT</pubDate>
+      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
+    </item>
+    <item>
       <title>En cartelera: ATEEZ: LIGHT THE WAY IN CINEMAS</title>
       <link>http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/</link>
       <guid isPermaLink="false">813e5e2d-d24d-42b9-8788-22353eb47cc6</guid>

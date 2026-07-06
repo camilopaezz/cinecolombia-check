@@ -1744,6 +1744,33 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "b009da54-f8e9-422c-87b4-153bb4bb07e5",
+      "type": "added",
+      "filmId": "HO00000691",
+      "createdAt": "2026-07-06T23:00:57.459Z",
+      "snapshot": {
+        "id": "HO00000691",
+        "title": "Ice Cream Man",
+        "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 86,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Eli Roth",
+        "webUrl": "http://www.cinecolombia.com/films/ice-cream-man/HO00000691/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg",
+        "tmdb": {
+          "tmdbId": 1477712,
+          "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
+        }
+      }
     }
   ]
 }

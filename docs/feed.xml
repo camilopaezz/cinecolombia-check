@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Ice Cream Man</title>
+      <link>http://www.cinecolombia.com/films/ice-cream-man/HO00000691/</link>
+      <guid isPermaLink="false">b009da54-f8e9-422c-87b4-153bb4bb07e5</guid>
+      <pubDate>Mon, 06 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Lactar</title>
       <link>http://www.cinecolombia.com/films/lactar/HO00000491/</link>
       <guid isPermaLink="false">0a470d39-85d0-488e-9fb3-07746d5c79d3</guid>

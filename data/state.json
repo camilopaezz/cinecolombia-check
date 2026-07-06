@@ -51,7 +51,7 @@
       "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
       "releaseDate": "2026-07-09",
       "runtimeInMinutes": 120,
-      "censorRating": "+7 Años",
+      "censorRating": "Todos",
       "genres": [
         "Familia",
         "Aventura",
@@ -75,7 +75,7 @@
       "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
       "releaseDate": "2026-07-09",
       "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "censorRating": "+18 Años",
       "genres": [
         "Terror"
       ],
@@ -792,6 +792,27 @@
       }
     },
     {
+      "id": "HO00000691",
+      "title": "Ice Cream Man",
+      "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
+      "releaseDate": "2026-09-03",
+      "runtimeInMinutes": 86,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Eli Roth",
+      "webUrl": "http://www.cinecolombia.com/films/ice-cream-man/HO00000691/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg",
+      "tmdb": {
+        "tmdbId": 1477712,
+        "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
+      }
+    },
+    {
       "id": "HO00000641",
       "title": "Insidious: Out of the Further",
       "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
@@ -1503,6 +1524,10 @@
     "HO00000660": {
       "tmdbId": 1430386,
       "posterPath": "/3tQm0pi2gLYfP0strNg0K6PATBK.jpg"
+    },
+    "HO00000691": {
+      "tmdbId": 1477712,
+      "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
     }
   }
 }

@@ -1798,6 +1798,29 @@
           "posterPath": "/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg"
         }
       }
+    },
+    {
+      "guid": "f93c553c-d233-4196-b9d4-6e5cac67cfd5",
+      "type": "added",
+      "filmId": "HO00000692",
+      "createdAt": "2026-07-07T23:00:57.316Z",
+      "snapshot": {
+        "id": "HO00000692",
+        "title": "Ficciones Sin Futuro",
+        "shortSynopsis": "En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 77,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Diego Espinosa",
+        "webUrl": "",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

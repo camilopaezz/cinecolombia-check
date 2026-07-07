@@ -1771,6 +1771,33 @@
           "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
         }
       }
+    },
+    {
+      "guid": "d38593f3-2087-4600-8bb2-de5412735ec6",
+      "type": "added",
+      "filmId": "HO00000491",
+      "createdAt": "2026-07-07T17:00:56.331Z",
+      "snapshot": {
+        "id": "HO00000491",
+        "title": "Lactar",
+        "shortSynopsis": "Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.",
+        "releaseDate": "2026-05-14",
+        "runtimeInMinutes": 75,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Harold Trompetero",
+        "webUrl": "http://www.cinecolombia.com/films/lactar/HO00000491/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg",
+        "tmdb": {
+          "tmdbId": 1694304,
+          "posterPath": "/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg"
+        }
+      }
     }
   ]
 }

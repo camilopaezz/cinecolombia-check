@@ -1821,6 +1821,82 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "0b44b7a5-c78c-45ca-b2d7-ceacc7e304c9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000637",
+      "createdAt": "2026-07-08T05:00:57.870Z",
+      "snapshot": {
+        "id": "HO00000637",
+        "title": "Power Ballad",
+        "shortSynopsis": "Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 98,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Comedia",
+          "Musical"
+        ],
+        "director": "John Carney",
+        "webUrl": "",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg",
+        "tmdb": {
+          "tmdbId": 1284016,
+          "posterPath": "/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg"
+        }
+      }
+    },
+    {
+      "guid": "435288b0-ded4-45c5-8b57-0af28201c65b",
+      "type": "preventa-opens",
+      "filmId": "HO00000692",
+      "createdAt": "2026-07-08T05:00:57.870Z",
+      "snapshot": {
+        "id": "HO00000692",
+        "title": "Ficciones Sin Futuro",
+        "shortSynopsis": "En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 77,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Diego Espinosa",
+        "webUrl": "",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "1c12183a-061a-49b6-b6e5-225e7ea398d9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000692",
+      "createdAt": "2026-07-08T05:00:57.870Z",
+      "snapshot": {
+        "id": "HO00000692",
+        "title": "Ficciones Sin Futuro",
+        "shortSynopsis": "En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 77,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Diego Espinosa",
+        "webUrl": "",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

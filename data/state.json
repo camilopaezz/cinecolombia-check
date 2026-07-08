@@ -759,7 +759,8 @@
       "director": "Diego Espinosa",
       "webUrl": "",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": null
     },
@@ -1018,7 +1019,7 @@
       "director": "John Carney",
       "webUrl": "",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg",
       "tmdb": {

@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: El juego de la vida</title>
+      <link></link>
+      <guid isPermaLink="false">08edd7b6-1987-46d1-8e2b-60ac96fef800</guid>
+      <pubDate>Wed, 08 Jul 2026 17:00:56 GMT</pubDate>
+      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
+    </item>
+    <item>
       <title>En cartelera: Power Ballad</title>
       <link></link>
       <guid isPermaLink="false">0b44b7a5-c78c-45ca-b2d7-ceacc7e304c9</guid>

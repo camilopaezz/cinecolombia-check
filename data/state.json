@@ -507,6 +507,23 @@
       }
     },
     {
+      "id": "HO00000494",
+      "title": "El juego de la vida",
+      "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
+      "releaseDate": "2026-05-07",
+      "runtimeInMinutes": 95,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Mario Andrés Ruiz Zuluaga",
+      "webUrl": "",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
       "id": "HO00000665",
       "title": "Barrio triste",
       "shortSynopsis": "A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.",

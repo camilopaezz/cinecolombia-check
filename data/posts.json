@@ -1897,6 +1897,29 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "08edd7b6-1987-46d1-8e2b-60ac96fef800",
+      "type": "added",
+      "filmId": "HO00000494",
+      "createdAt": "2026-07-08T17:00:56.928Z",
+      "snapshot": {
+        "id": "HO00000494",
+        "title": "El juego de la vida",
+        "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
+        "releaseDate": "2026-05-07",
+        "runtimeInMinutes": 95,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Mario Andrés Ruiz Zuluaga",
+        "webUrl": "",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

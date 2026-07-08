@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: La Guitarra flamenca de Yerai Cortés</title>
+      <link></link>
+      <guid isPermaLink="false">2276e688-49e8-4a2e-8169-e29e276221d7</guid>
+      <pubDate>Wed, 08 Jul 2026 23:00:58 GMT</pubDate>
+      <description>La exploración emocional y artística del guitarrista flamenco Yerai Cortés se funden con un drama familiar en el debut cinematográfico de Antón Álvarez.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: El juego de la vida</title>
       <link></link>
       <guid isPermaLink="false">08edd7b6-1987-46d1-8e2b-60ac96fef800</guid>

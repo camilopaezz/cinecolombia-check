@@ -1920,6 +1920,33 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "2276e688-49e8-4a2e-8169-e29e276221d7",
+      "type": "removed",
+      "filmId": "HO00000639",
+      "createdAt": "2026-07-08T23:00:58.213Z",
+      "snapshot": {
+        "id": "HO00000639",
+        "title": "La Guitarra flamenca de Yerai Cortés",
+        "shortSynopsis": "La exploración emocional y artística del guitarrista flamenco Yerai Cortés se funden con un drama familiar en el debut cinematográfico de Antón Álvarez.",
+        "releaseDate": "2026-06-18",
+        "runtimeInMinutes": 95,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "C. Tangana",
+        "webUrl": "",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg",
+        "tmdb": {
+          "tmdbId": 1317099,
+          "posterPath": "/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg"
+        }
+      }
     }
   ]
 }

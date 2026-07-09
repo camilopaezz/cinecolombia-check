@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Michael</title>
+      <link></link>
+      <guid isPermaLink="false">23513c6f-cf96-405c-bcbc-c89407e136d8</guid>
+      <pubDate>Thu, 09 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Michael es un retrato íntimo de la vida y el legado de uno de los artistas más influyentes que el mundo haya conocido.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Moscas</title>
+      <link></link>
+      <guid isPermaLink="false">859f1748-f1bf-4415-851e-e28720122f83</guid>
+      <pubDate>Thu, 09 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: La Guitarra flamenca de Yerai Cortés</title>
       <link></link>
       <guid isPermaLink="false">2276e688-49e8-4a2e-8169-e29e276221d7</guid>

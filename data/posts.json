@@ -1947,6 +1947,63 @@
           "posterPath": "/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg"
         }
       }
+    },
+    {
+      "guid": "23513c6f-cf96-405c-bcbc-c89407e136d8",
+      "type": "removed",
+      "filmId": "HO00000401",
+      "createdAt": "2026-07-09T05:00:57.815Z",
+      "snapshot": {
+        "id": "HO00000401",
+        "title": "Michael",
+        "shortSynopsis": "Michael es un retrato íntimo de la vida y el legado de uno de los artistas más influyentes que el mundo haya conocido.",
+        "releaseDate": "2026-04-22",
+        "runtimeInMinutes": 127,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Biografía",
+          "Historia"
+        ],
+        "director": "Antoine Fuqua",
+        "webUrl": "",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg",
+        "tmdb": {
+          "tmdbId": 936075,
+          "posterPath": "/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg"
+        }
+      }
+    },
+    {
+      "guid": "859f1748-f1bf-4415-851e-e28720122f83",
+      "type": "removed",
+      "filmId": "HO00000649",
+      "createdAt": "2026-07-09T05:00:57.815Z",
+      "snapshot": {
+        "id": "HO00000649",
+        "title": "Moscas",
+        "shortSynopsis": "Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.",
+        "releaseDate": "2026-07-02",
+        "runtimeInMinutes": 99,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Fernando Eimbcke",
+        "webUrl": "",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
+        "tmdb": {
+          "tmdbId": 1437703,
+          "posterPath": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg"
+        }
+      }
     }
   ]
 }

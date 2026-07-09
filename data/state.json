@@ -60,8 +60,7 @@
       "director": "Thomas Kail",
       "webUrl": "",
       "categories": [
-        "NowShowing",
-        "AdvanceBooking"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
       "tmdb": {
@@ -82,8 +81,7 @@
       "director": "Sébastien Vaniček",
       "webUrl": "",
       "categories": [
-        "NowShowing",
-        "AdvanceBooking"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
       "tmdb": {
@@ -246,28 +244,6 @@
       }
     },
     {
-      "id": "HO00000649",
-      "title": "Moscas",
-      "shortSynopsis": "Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 99,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "Fernando Eimbcke",
-      "webUrl": "",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg",
-      "tmdb": {
-        "tmdbId": 1437703,
-        "posterPath": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg"
-      }
-    },
-    {
       "id": "HO00000612",
       "title": "Scary Movie",
       "shortSynopsis": "Cindy Campbell y sus amigos Ray Wilkins, junto a los hermanos Shorty y Brenda Meeks, se reúnen años después de haber sobrevivido a un asesino enmascarado.",
@@ -331,29 +307,6 @@
       "tmdb": {
         "tmdbId": 1712586,
         "posterPath": "/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg"
-      }
-    },
-    {
-      "id": "HO00000401",
-      "title": "Michael",
-      "shortSynopsis": "Michael es un retrato íntimo de la vida y el legado de uno de los artistas más influyentes que el mundo haya conocido.",
-      "releaseDate": "2026-04-22",
-      "runtimeInMinutes": 127,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama",
-        "Biografía",
-        "Historia"
-      ],
-      "director": "Antoine Fuqua",
-      "webUrl": "",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg",
-      "tmdb": {
-        "tmdbId": 936075,
-        "posterPath": "/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg"
       }
     },
     {
@@ -755,8 +708,7 @@
       "director": "Diego Espinosa",
       "webUrl": "",
       "categories": [
-        "NowShowing",
-        "AdvanceBooking"
+        "NowShowing"
       ],
       "posterUrl": null
     },

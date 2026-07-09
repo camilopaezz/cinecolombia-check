@@ -1,25 +1,26 @@
 {
   "films": [
     {
-      "id": "HO00000451",
-      "title": "Minions & Monsters",
-      "shortSynopsis": "Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 90,
+      "id": "HO00000496",
+      "title": "Moana",
+      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 120,
       "censorRating": "Todos",
       "genres": [
-        "Animación",
+        "Familia",
+        "Aventura",
         "Comedia"
       ],
-      "director": "Pierre Coffin",
+      "director": "Thomas Kail",
       "webUrl": "",
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
       "tmdb": {
-        "tmdbId": 1315772,
-        "posterPath": "/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg"
+        "tmdbId": 1108427,
+        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
       }
     },
     {
@@ -46,26 +47,25 @@
       }
     },
     {
-      "id": "HO00000496",
-      "title": "Moana",
-      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 120,
+      "id": "HO00000451",
+      "title": "Minions & Monsters",
+      "shortSynopsis": "Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.",
+      "releaseDate": "2026-07-02",
+      "runtimeInMinutes": 90,
       "censorRating": "Todos",
       "genres": [
-        "Familia",
-        "Aventura",
+        "Animación",
         "Comedia"
       ],
-      "director": "Thomas Kail",
+      "director": "Pierre Coffin",
       "webUrl": "",
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
       "tmdb": {
-        "tmdbId": 1108427,
-        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
+        "tmdbId": 1315772,
+        "posterPath": "/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg"
       }
     },
     {
@@ -109,6 +109,28 @@
       "tmdb": {
         "tmdbId": 1368337,
         "posterPath": "/bheY17L6wtB0SdJn6EYyh1X5iry.jpg"
+      }
+    },
+    {
+      "id": "HO00000637",
+      "title": "Power Ballad",
+      "shortSynopsis": "Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 98,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Comedia",
+        "Musical"
+      ],
+      "director": "John Carney",
+      "webUrl": "",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg",
+      "tmdb": {
+        "tmdbId": 1284016,
+        "posterPath": "/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg"
       }
     },
     {
@@ -394,6 +416,23 @@
         "tmdbId": 1694304,
         "posterPath": "/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg"
       }
+    },
+    {
+      "id": "HO00000692",
+      "title": "Ficciones Sin Futuro",
+      "shortSynopsis": "En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas",
+      "releaseDate": "2026-07-09",
+      "runtimeInMinutes": 77,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Diego Espinosa",
+      "webUrl": "",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
     },
     {
       "id": "HO00000430",
@@ -696,23 +735,6 @@
       }
     },
     {
-      "id": "HO00000692",
-      "title": "Ficciones Sin Futuro",
-      "shortSynopsis": "En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 77,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Diego Espinosa",
-      "webUrl": "",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000628",
       "title": "Finding Emily",
       "shortSynopsis": "Cuando a un músico enamorado le dan un número equivocado para llamar a la chica de sus sueños, se une a una ambiciosa estudiante de psicología para encontrarla.",
@@ -951,28 +973,6 @@
       "tmdb": {
         "tmdbId": 1426106,
         "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
-      }
-    },
-    {
-      "id": "HO00000637",
-      "title": "Power Ballad",
-      "shortSynopsis": "Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 98,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia",
-        "Musical"
-      ],
-      "director": "John Carney",
-      "webUrl": "",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg",
-      "tmdb": {
-        "tmdbId": 1284016,
-        "posterPath": "/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg"
       }
     },
     {

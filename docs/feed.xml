@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Aida</title>
+      <link>http://www.cinecolombia.com/films/aida/HO00000693/</link>
+      <guid isPermaLink="false">00db9da6-ef48-4843-bd45-0556322b74e3</guid>
+      <pubDate>Thu, 09 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: The Merry Widow</title>
+      <link>http://www.cinecolombia.com/films/the-merry-widow/HO00000694/</link>
+      <guid isPermaLink="false">ddd7cf59-d00f-430f-84b5-ddda3934a845</guid>
+      <pubDate>Thu, 09 Jul 2026 23:00:57 GMT</pubDate>
+      <description>La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Michael</title>
       <link></link>
       <guid isPermaLink="false">23513c6f-cf96-405c-bcbc-c89407e136d8</guid>

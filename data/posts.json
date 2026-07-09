@@ -2004,6 +2004,58 @@
           "posterPath": "/tff1IQnQIfx4akKYbD2rsGk31pU.jpg"
         }
       }
+    },
+    {
+      "guid": "00db9da6-ef48-4843-bd45-0556322b74e3",
+      "type": "added",
+      "filmId": "HO00000693",
+      "createdAt": "2026-07-09T23:00:57.623Z",
+      "snapshot": {
+        "id": "HO00000693",
+        "title": "Aida",
+        "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
+        "releaseDate": "2026-08-08",
+        "runtimeInMinutes": 170,
+        "censorRating": "Contenido",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "",
+        "webUrl": "http://www.cinecolombia.com/films/aida/HO00000693/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
+        "tmdb": {
+          "tmdbId": 1370123,
+          "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ddd7cf59-d00f-430f-84b5-ddda3934a845",
+      "type": "added",
+      "filmId": "HO00000694",
+      "createdAt": "2026-07-09T23:00:57.623Z",
+      "snapshot": {
+        "id": "HO00000694",
+        "title": "The Merry Widow",
+        "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
+        "releaseDate": "2026-07-25",
+        "runtimeInMinutes": 152,
+        "censorRating": "Contenido",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "",
+        "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

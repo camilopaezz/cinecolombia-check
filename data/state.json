@@ -13,7 +13,7 @@
         "Comedia"
       ],
       "director": "Thomas Kail",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/moana/HO00000496/",
       "categories": [
         "NowShowing"
       ],
@@ -36,7 +36,7 @@
         "Comedia"
       ],
       "director": "Andrew Stanton",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/toy-story-5/HO00000471/",
       "categories": [
         "NowShowing"
       ],
@@ -58,7 +58,7 @@
         "Comedia"
       ],
       "director": "Pierre Coffin",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/minions-monsters/HO00000451/",
       "categories": [
         "NowShowing"
       ],
@@ -79,7 +79,7 @@
         "Terror"
       ],
       "director": "Sébastien Vaniček",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
       "categories": [
         "NowShowing"
       ],
@@ -100,7 +100,7 @@
         "Drama"
       ],
       "director": "Christopher Nolan",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-odyssey/HO00000386/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
@@ -123,7 +123,7 @@
         "Musical"
       ],
       "director": "John Carney",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/power-ballad/HO00000637/",
       "categories": [
         "NowShowing"
       ],
@@ -145,7 +145,7 @@
         "Aventura"
       ],
       "director": "Destin Daniel Cretton",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/spider-man-brand-new-day/HO00000600/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
@@ -169,7 +169,7 @@
         "Aventura"
       ],
       "director": "Craig Gillespie",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/supergirl/HO00000427/",
       "categories": [
         "NowShowing"
       ],
@@ -191,7 +191,7 @@
         "Suspenso"
       ],
       "director": "David Mackenzie",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/fuze/HO00000500/",
       "categories": [
         "NowShowing"
       ],
@@ -212,7 +212,7 @@
         "Terror"
       ],
       "director": "Curry Barker",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/obsession/HO00000604/",
       "categories": [
         "NowShowing"
       ],
@@ -234,7 +234,7 @@
         "Drama"
       ],
       "director": "Steven Spielberg",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/disclosure-day/HO00000608/",
       "categories": [
         "NowShowing"
       ],
@@ -255,7 +255,7 @@
         "Biografía"
       ],
       "director": "Agnieszka Holland",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/franz/HO00000646/",
       "categories": [
         "NowShowing"
       ],
@@ -277,7 +277,7 @@
         "Comedia"
       ],
       "director": "Michael Tiddes",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/scary-movie/HO00000612/",
       "categories": [
         "NowShowing"
       ],
@@ -299,7 +299,7 @@
         "Suspenso"
       ],
       "director": "Daniel Roher",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/tuner/HO00000481/",
       "categories": [
         "NowShowing"
       ],
@@ -320,7 +320,7 @@
         "Música"
       ],
       "director": "Sia",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
@@ -343,7 +343,7 @@
         "Misterio"
       ],
       "director": "Kane Parsons",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/backrooms/HO00000609/",
       "categories": [
         "NowShowing"
       ],
@@ -364,7 +364,7 @@
         "Documental"
       ],
       "director": "Mike Christie",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/wham-10-days-in-china/HO00000661/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
@@ -386,7 +386,7 @@
         "Música"
       ],
       "director": "JIAE KIM",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
       "categories": [
         "NowShowing"
       ],
@@ -407,7 +407,7 @@
         "Drama"
       ],
       "director": "Harold Trompetero",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/lactar/HO00000491/",
       "categories": [
         "NowShowing"
       ],
@@ -428,11 +428,15 @@
         "Drama"
       ],
       "director": "Diego Espinosa",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/ficciones-sin-futuro/HO00000692/",
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/lprt3OI25dSMsVdOkLVXUkDWcJX.jpg",
+      "tmdb": {
+        "tmdbId": 1729009,
+        "posterPath": "/lprt3OI25dSMsVdOkLVXUkDWcJX.jpg"
+      }
     },
     {
       "id": "HO00000430",
@@ -446,7 +450,7 @@
         "Drama"
       ],
       "director": "David Frankel",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-devil-wears-prada-2/HO00000430/",
       "categories": [
         "NowShowing"
       ],
@@ -467,7 +471,7 @@
         "Suspenso"
       ],
       "director": "Tarik Saleh",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/eagles-of-the-republic/HO00000657/",
       "categories": [
         "NowShowing"
       ],
@@ -488,11 +492,33 @@
         "Documental"
       ],
       "director": "Mario Andrés Ruiz Zuluaga",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/",
       "categories": [
         "NowShowing"
       ],
       "posterUrl": null
+    },
+    {
+      "id": "HO00000693",
+      "title": "Aida",
+      "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
+      "releaseDate": "2026-08-08",
+      "runtimeInMinutes": 170,
+      "censorRating": "Contenido",
+      "genres": [
+        "Ópera"
+      ],
+      "director": "",
+      "webUrl": "http://www.cinecolombia.com/films/aida/HO00000693/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
+      "tmdb": {
+        "tmdbId": 1370123,
+        "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
+      }
     },
     {
       "id": "HO00000665",
@@ -505,7 +531,7 @@
         "Drama"
       ],
       "director": "Stillz",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
       "categories": [
         "ComingSoon"
       ],
@@ -526,7 +552,7 @@
         "Animación"
       ],
       "director": "Shea Wageman",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/",
       "categories": [
         "ComingSoon"
       ],
@@ -548,7 +574,7 @@
         "Suspenso"
       ],
       "director": "James Watkins",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/clayface/HO00000623/",
       "categories": [
         "ComingSoon"
       ],
@@ -569,7 +595,7 @@
         "Drama"
       ],
       "director": "Alice Winocour",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/couture/HO00000631/",
       "categories": [
         "ComingSoon"
       ],
@@ -592,7 +618,7 @@
         "Aventura"
       ],
       "director": "Dave Green",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/coyote-vs-acme/HO00000633/",
       "categories": [
         "ComingSoon"
       ],
@@ -613,7 +639,7 @@
         "Animación"
       ],
       "director": "Momoko Seto",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/",
       "categories": [
         "ComingSoon"
       ],
@@ -636,7 +662,7 @@
         "Historia"
       ],
       "director": "Kirill Serebrennikov",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
       "categories": [
         "ComingSoon"
       ],
@@ -657,7 +683,7 @@
         "Suspenso"
       ],
       "director": "Renny Harlin",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/deep-water/HO00000668/",
       "categories": [
         "ComingSoon"
       ],
@@ -679,7 +705,7 @@
         "Drama"
       ],
       "director": "Ferzan Özpetek",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/diamanti/HO00000672/",
       "categories": [
         "ComingSoon"
       ],
@@ -701,7 +727,7 @@
         "Drama"
       ],
       "director": "Alejandro González Iñárritu",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/digger/HO00000381/",
       "categories": [
         "ComingSoon"
       ],
@@ -724,7 +750,7 @@
         "Ciencia Ficción"
       ],
       "director": "Denis Villeneuve",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/dune-part-three/HO00000596/",
       "categories": [
         "ComingSoon"
       ],
@@ -746,7 +772,7 @@
         "Romance"
       ],
       "director": "Alicia MacDonald",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/finding-emily/HO00000628/",
       "categories": [
         "ComingSoon"
       ],
@@ -767,7 +793,7 @@
         "Comedia"
       ],
       "director": "John Hamburg",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/focker-in-law/HO00000607/",
       "categories": [
         "ComingSoon"
       ],
@@ -790,7 +816,7 @@
         "Comedia"
       ],
       "director": "Joel Crawford",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/forgotten-island/HO00000630/",
       "categories": [
         "ComingSoon"
       ],
@@ -811,7 +837,7 @@
         "Terror"
       ],
       "director": "Eli Roth",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/ice-cream-man/HO00000691/",
       "categories": [
         "ComingSoon"
       ],
@@ -834,7 +860,7 @@
         "Misterio"
       ],
       "director": "Jacob Chase",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/",
       "categories": [
         "ComingSoon"
       ],
@@ -855,7 +881,7 @@
         "Animación"
       ],
       "director": "Zhong Ding",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
       "categories": [
         "ComingSoon"
       ],
@@ -876,7 +902,7 @@
         "Drama"
       ],
       "director": "Hafsia Herzi",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/la-petite-derniere/HO00000658/",
       "categories": [
         "ComingSoon"
       ],
@@ -898,7 +924,7 @@
         "Suspenso"
       ],
       "director": "Jean-François Richet",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/mutiny/HO00000634/",
       "categories": [
         "ComingSoon"
       ],
@@ -921,7 +947,7 @@
         "Romance"
       ],
       "director": "Will Gluck",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/one-night-only/HO00000636/",
       "categories": [
         "ComingSoon"
       ],
@@ -944,7 +970,7 @@
         "Aventura"
       ],
       "director": "Cal Brunker",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
       "categories": [
         "ComingSoon"
       ],
@@ -965,7 +991,7 @@
         "Suspenso"
       ],
       "director": "Simón Vélez",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
       "categories": [
         "ComingSoon"
       ],
@@ -986,7 +1012,7 @@
         "Drama"
       ],
       "director": "Anthony Maras",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/pressure/HO00000629/",
       "categories": [
         "ComingSoon"
       ],
@@ -1007,7 +1033,7 @@
         "Terror"
       ],
       "director": "Zach Cregger",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/resident-evil/HO00000669/",
       "categories": [
         "ComingSoon"
       ],
@@ -1028,7 +1054,7 @@
         "Terror"
       ],
       "director": "Michael Peterson",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/shadow-of-god/HO00000663/",
       "categories": [
         "ComingSoon"
       ],
@@ -1045,7 +1071,7 @@
         "Acción"
       ],
       "director": "Kitao Sakurai",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/street-fighter/HO00000666/",
       "categories": [
         "ComingSoon"
       ],
@@ -1067,7 +1093,7 @@
         "Comedia"
       ],
       "director": "Jane Schoenbrun",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/",
       "categories": [
         "ComingSoon"
       ],
@@ -1090,7 +1116,7 @@
         "Comedia"
       ],
       "director": "Anders Matthesen",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
       "categories": [
         "ComingSoon"
       ],
@@ -1113,7 +1139,7 @@
         "Comedia"
       ],
       "director": "Alessandro Carloni",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-cat-in-the-hat/HO00000640/",
       "categories": [
         "ComingSoon"
       ],
@@ -1136,7 +1162,7 @@
         "Aventura"
       ],
       "director": "David Robert Mitchell",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
       "categories": [
         "ComingSoon"
       ],
@@ -1157,7 +1183,7 @@
         "Suspenso"
       ],
       "director": "Ugla Hauksdóttir",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
       "categories": [
         "ComingSoon"
       ],
@@ -1180,7 +1206,7 @@
         "Aventura"
       ],
       "director": "Francis Lawrence",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-hunger-games-sunrise-on-the-reaping/HO00000480/",
       "categories": [
         "ComingSoon"
       ],
@@ -1201,7 +1227,7 @@
         "Comedia"
       ],
       "director": "Olivia Wilde",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-invite/HO00000647/",
       "categories": [
         "ComingSoon"
       ],
@@ -1224,7 +1250,7 @@
         "Aventura"
       ],
       "director": "Ben Gregor",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/",
       "categories": [
         "ComingSoon"
       ],
@@ -1233,6 +1259,24 @@
         "tmdbId": 1140521,
         "posterPath": "/udXvLxC5gAqN8SinemyFBEcHpTf.jpg"
       }
+    },
+    {
+      "id": "HO00000694",
+      "title": "The Merry Widow",
+      "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
+      "releaseDate": "2026-07-25",
+      "runtimeInMinutes": 152,
+      "censorRating": "Contenido",
+      "genres": [
+        "Ópera"
+      ],
+      "director": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": null
     },
     {
       "id": "HO00000662",
@@ -1247,7 +1291,7 @@
         "Comedia"
       ],
       "director": "Radek Beran",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
       "categories": [
         "ComingSoon"
       ],
@@ -1268,7 +1312,7 @@
         "Drama"
       ],
       "director": "Saeed Roustaee",
-      "webUrl": "",
+      "webUrl": "http://www.cinecolombia.com/films/woman-and-child/HO00000660/",
       "categories": [
         "ComingSoon"
       ],
@@ -1515,6 +1559,14 @@
     "HO00000691": {
       "tmdbId": 1477712,
       "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
+    },
+    "HO00000692": {
+      "tmdbId": 1729009,
+      "posterPath": "/lprt3OI25dSMsVdOkLVXUkDWcJX.jpg"
+    },
+    "HO00000693": {
+      "tmdbId": 1370123,
+      "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
     }
   }
 }

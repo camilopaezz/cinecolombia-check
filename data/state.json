@@ -499,6 +499,24 @@
       "posterUrl": null
     },
     {
+      "id": "HO00000694",
+      "title": "The Merry Widow",
+      "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
+      "releaseDate": "2026-07-25",
+      "runtimeInMinutes": 152,
+      "censorRating": "Contenido",
+      "genres": [
+        "Ópera"
+      ],
+      "director": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": null
+    },
+    {
       "id": "HO00000693",
       "title": "Aida",
       "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
@@ -889,6 +907,27 @@
       "tmdb": {
         "tmdbId": 1303336,
         "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
+      }
+    },
+    {
+      "id": "HO00000697",
+      "title": "KATSEYE: WILD HEARTS",
+      "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
+      "releaseDate": "2026-08-12",
+      "runtimeInMinutes": 80,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Música"
+      ],
+      "director": "Nadia Hallgren",
+      "webUrl": "http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
+      "tmdb": {
+        "tmdbId": 1728113,
+        "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
       }
     },
     {
@@ -1307,24 +1346,6 @@
       }
     },
     {
-      "id": "HO00000694",
-      "title": "The Merry Widow",
-      "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
-      "releaseDate": "2026-07-25",
-      "runtimeInMinutes": 152,
-      "censorRating": "Contenido",
-      "genres": [
-        "Ópera"
-      ],
-      "director": "",
-      "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000662",
       "title": "The Proud Princess",
       "shortSynopsis": "Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.",
@@ -1621,6 +1642,10 @@
     "HO00000696": {
       "tmdbId": 1384216,
       "posterPath": "/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg"
+    },
+    "HO00000697": {
+      "tmdbId": 1728113,
+      "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
     }
   }
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: KATSEYE: WILD HEARTS</title>
+      <link>http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
+      <guid isPermaLink="false">45bf1363-fb4b-4aac-91f3-6c1d722d2c9d</guid>
+      <pubDate>Fri, 10 Jul 2026 23:00:57 GMT</pubDate>
+      <description>El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Saccharine</title>
       <link>http://www.cinecolombia.com/films/saccharine/HO00000695/</link>
       <guid isPermaLink="false">c89779cf-5852-417d-8d72-53af248ca7f3</guid>

@@ -2056,6 +2056,64 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "c89779cf-5852-417d-8d72-53af248ca7f3",
+      "type": "added",
+      "filmId": "HO00000695",
+      "createdAt": "2026-07-10T05:00:57.835Z",
+      "snapshot": {
+        "id": "HO00000695",
+        "title": "Saccharine",
+        "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 10,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror",
+          "Drama",
+          "Ciencia Ficción"
+        ],
+        "director": "Natalie Erika James",
+        "webUrl": "http://www.cinecolombia.com/films/saccharine/HO00000695/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
+        "tmdb": {
+          "tmdbId": 1363387,
+          "posterPath": "/zMYFsfuHttGtHnXquWkIWI9Min8.jpg"
+        }
+      }
+    },
+    {
+      "guid": "11f999a3-f1bb-4549-95c4-1f9d38736b98",
+      "type": "added",
+      "filmId": "HO00000696",
+      "createdAt": "2026-07-10T05:00:57.835Z",
+      "snapshot": {
+        "id": "HO00000696",
+        "title": "The Dog Stars",
+        "shortSynopsis": "Scott cuenta la historia de Hig, un joven piloto que, junto a Bangley, un militar experto en supervivencia, ha construido un refugio eficiente pero aislado.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Suspenso",
+          "Aventura"
+        ],
+        "director": "Ridley Scott",
+        "webUrl": "http://www.cinecolombia.com/films/the-dog-stars/HO00000696/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg",
+        "tmdb": {
+          "tmdbId": 1384216,
+          "posterPath": "/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg"
+        }
+      }
     }
   ]
 }

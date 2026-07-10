@@ -697,7 +697,7 @@
       "id": "HO00000672",
       "title": "Diamanti",
       "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
-      "releaseDate": "2026-07-23",
+      "releaseDate": "2026-07-16",
       "runtimeInMinutes": 135,
       "censorRating": "Pendiente",
       "genres": [
@@ -1044,6 +1044,29 @@
       }
     },
     {
+      "id": "HO00000695",
+      "title": "Saccharine",
+      "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
+      "releaseDate": "2026-08-06",
+      "runtimeInMinutes": 10,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror",
+        "Drama",
+        "Ciencia Ficción"
+      ],
+      "director": "Natalie Erika James",
+      "webUrl": "http://www.cinecolombia.com/films/saccharine/HO00000695/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
+      "tmdb": {
+        "tmdbId": 1363387,
+        "posterPath": "/zMYFsfuHttGtHnXquWkIWI9Min8.jpg"
+      }
+    },
+    {
       "id": "HO00000663",
       "title": "Shadow of God",
       "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
@@ -1147,6 +1170,29 @@
       "tmdb": {
         "tmdbId": 1117898,
         "posterPath": "/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg"
+      }
+    },
+    {
+      "id": "HO00000696",
+      "title": "The Dog Stars",
+      "shortSynopsis": "Scott cuenta la historia de Hig, un joven piloto que, junto a Bangley, un militar experto en supervivencia, ha construido un refugio eficiente pero aislado.",
+      "releaseDate": "2026-08-27",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Suspenso",
+        "Aventura"
+      ],
+      "director": "Ridley Scott",
+      "webUrl": "http://www.cinecolombia.com/films/the-dog-stars/HO00000696/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg",
+      "tmdb": {
+        "tmdbId": 1384216,
+        "posterPath": "/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg"
       }
     },
     {
@@ -1567,6 +1613,14 @@
     "HO00000693": {
       "tmdbId": 1370123,
       "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
+    },
+    "HO00000695": {
+      "tmdbId": 1363387,
+      "posterPath": "/zMYFsfuHttGtHnXquWkIWI9Min8.jpg"
+    },
+    "HO00000696": {
+      "tmdbId": 1384216,
+      "posterPath": "/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg"
     }
   }
 }

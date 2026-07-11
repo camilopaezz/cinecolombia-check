@@ -845,6 +845,29 @@
       }
     },
     {
+      "id": "HO00000698",
+      "title": "Heart of the Beast",
+      "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
+      "releaseDate": "2026-09-24",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Suspenso",
+        "Aventura",
+        "Drama"
+      ],
+      "director": "David Ayer",
+      "webUrl": "http://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+      "tmdb": {
+        "tmdbId": 1263337,
+        "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
+      }
+    },
+    {
       "id": "HO00000691",
       "title": "Ice Cream Man",
       "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
@@ -922,7 +945,8 @@
       "director": "Nadia Hallgren",
       "webUrl": "http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
       "tmdb": {
@@ -1109,7 +1133,7 @@
       "id": "HO00000663",
       "title": "Shadow of God",
       "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
-      "releaseDate": "2026-07-23",
+      "releaseDate": "2026-10-01",
       "runtimeInMinutes": 87,
       "censorRating": "Pendiente",
       "genres": [
@@ -1646,6 +1670,10 @@
     "HO00000697": {
       "tmdbId": 1728113,
       "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
+    },
+    "HO00000698": {
+      "tmdbId": 1263337,
+      "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
     }
   }
 }

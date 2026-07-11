@@ -7,6 +7,30 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Heart of the Beast</title>
+      <link>http://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/</link>
+      <guid isPermaLink="false">cd2f7f83-0873-4d95-99fe-1980c576ddf5</guid>
+      <pubDate>Sat, 11 Jul 2026 05:00:58 GMT</pubDate>
+      <description>Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Preventa abierta: KATSEYE: WILD HEARTS</title>
+      <link>http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
+      <guid isPermaLink="false">775e692a-00b4-4db9-9941-f4f5c7e129b6</guid>
+      <pubDate>Sat, 11 Jul 2026 05:00:58 GMT</pubDate>
+      <description>El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: KATSEYE: WILD HEARTS</title>
+      <link>http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
+      <guid isPermaLink="false">dc241ef7-f066-4846-820e-856f5088b9d7</guid>
+      <pubDate>Sat, 11 Jul 2026 05:00:58 GMT</pubDate>
+      <description>El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: KATSEYE: WILD HEARTS</title>
       <link>http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
       <guid isPermaLink="false">45bf1363-fb4b-4aac-91f3-6c1d722d2c9d</guid>

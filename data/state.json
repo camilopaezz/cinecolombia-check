@@ -310,6 +310,28 @@
       }
     },
     {
+      "id": "HO00000697",
+      "title": "KATSEYE: WILD HEARTS",
+      "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
+      "releaseDate": "2026-08-12",
+      "runtimeInMinutes": 80,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Música"
+      ],
+      "director": "Nadia Hallgren",
+      "webUrl": "http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
+      "tmdb": {
+        "tmdbId": 1728113,
+        "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
+      }
+    },
+    {
       "id": "HO00000653",
       "title": "Sia: Nostalgic For The Present",
       "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
@@ -930,28 +952,6 @@
       "tmdb": {
         "tmdbId": 1303336,
         "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
-      }
-    },
-    {
-      "id": "HO00000697",
-      "title": "KATSEYE: WILD HEARTS",
-      "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
-      "releaseDate": "2026-08-12",
-      "runtimeInMinutes": 80,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "Nadia Hallgren",
-      "webUrl": "http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
-      "tmdb": {
-        "tmdbId": 1728113,
-        "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
       }
     },
     {

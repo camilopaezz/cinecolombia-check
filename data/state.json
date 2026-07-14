@@ -573,7 +573,8 @@
       "director": "Stillz",
       "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
       "tmdb": {
@@ -1331,7 +1332,7 @@
       "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 107,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Comedia"
       ],

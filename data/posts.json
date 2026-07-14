@@ -2226,6 +2226,62 @@
           "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
         }
       }
+    },
+    {
+      "guid": "1e6a5bb5-5449-4028-a957-8be9f48b4a49",
+      "type": "preventa-opens",
+      "filmId": "HO00000665",
+      "createdAt": "2026-07-14T23:00:57.149Z",
+      "snapshot": {
+        "id": "HO00000665",
+        "title": "Barrio triste",
+        "shortSynopsis": "A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.",
+        "releaseDate": "2026-07-16",
+        "runtimeInMinutes": 88,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Stillz",
+        "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+        "tmdb": {
+          "tmdbId": 1310573,
+          "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "fcaaa59f-e2eb-4d4d-a772-b49310f21cb8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000665",
+      "createdAt": "2026-07-14T23:00:57.149Z",
+      "snapshot": {
+        "id": "HO00000665",
+        "title": "Barrio triste",
+        "shortSynopsis": "A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.",
+        "releaseDate": "2026-07-16",
+        "runtimeInMinutes": 88,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Stillz",
+        "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+        "tmdb": {
+          "tmdbId": 1310573,
+          "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
+        }
+      }
     }
   ]
 }

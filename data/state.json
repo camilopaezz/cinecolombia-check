@@ -483,44 +483,6 @@
       }
     },
     {
-      "id": "HO00000657",
-      "title": "Eagles of the Republic",
-      "shortSynopsis": "El actor más querido de Egipto, George Fahmy, es presionado por las altas autoridades para protagonizar una película de propaganda sobre el presidente.",
-      "releaseDate": "2026-06-25",
-      "runtimeInMinutes": 129,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Suspenso"
-      ],
-      "director": "Tarik Saleh",
-      "webUrl": "http://www.cinecolombia.com/films/eagles-of-the-republic/HO00000657/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg",
-      "tmdb": {
-        "tmdbId": 1220566,
-        "posterPath": "/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg"
-      }
-    },
-    {
-      "id": "HO00000494",
-      "title": "El juego de la vida",
-      "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
-      "releaseDate": "2026-05-07",
-      "runtimeInMinutes": 95,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Mario Andrés Ruiz Zuluaga",
-      "webUrl": "http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000694",
       "title": "The Merry Widow",
       "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",

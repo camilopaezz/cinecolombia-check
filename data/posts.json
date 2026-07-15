@@ -2282,6 +2282,62 @@
           "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
         }
       }
+    },
+    {
+      "guid": "d67d36c5-86d2-4026-8d14-70e7c98cb55a",
+      "type": "preventa-opens",
+      "filmId": "HO00000664",
+      "createdAt": "2026-07-15T05:00:58.021Z",
+      "snapshot": {
+        "id": "HO00000664",
+        "title": "The Fires",
+        "shortSynopsis": "Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. ",
+        "releaseDate": "2026-07-16",
+        "runtimeInMinutes": 107,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Ugla Hauksdóttir",
+        "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg",
+        "tmdb": {
+          "tmdbId": 1611790,
+          "posterPath": "/a6Mv7zd2kDYhjv6In48ci80HD91.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ad424905-b86e-4f71-98b5-e7d846c460a5",
+      "type": "now-in-theaters",
+      "filmId": "HO00000664",
+      "createdAt": "2026-07-15T05:00:58.021Z",
+      "snapshot": {
+        "id": "HO00000664",
+        "title": "The Fires",
+        "shortSynopsis": "Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. ",
+        "releaseDate": "2026-07-16",
+        "runtimeInMinutes": 107,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Ugla Hauksdóttir",
+        "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg",
+        "tmdb": {
+          "tmdbId": 1611790,
+          "posterPath": "/a6Mv7zd2kDYhjv6In48ci80HD91.jpg"
+        }
+      }
     }
   ]
 }

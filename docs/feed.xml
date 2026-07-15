@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Preventa abierta: The Fires</title>
+      <link>http://www.cinecolombia.com/films/the-fires/HO00000664/</link>
+      <guid isPermaLink="false">d67d36c5-86d2-4026-8d14-70e7c98cb55a</guid>
+      <pubDate>Wed, 15 Jul 2026 05:00:58 GMT</pubDate>
+      <description>Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Fires</title>
+      <link>http://www.cinecolombia.com/films/the-fires/HO00000664/</link>
+      <guid isPermaLink="false">ad424905-b86e-4f71-98b5-e7d846c460a5</guid>
+      <pubDate>Wed, 15 Jul 2026 05:00:58 GMT</pubDate>
+      <description>Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg" medium="image" />
+    </item>
+    <item>
       <title>Preventa abierta: Barrio triste</title>
       <link>http://www.cinecolombia.com/films/barrio-triste/HO00000665/</link>
       <guid isPermaLink="false">1e6a5bb5-5449-4028-a957-8be9f48b4a49</guid>

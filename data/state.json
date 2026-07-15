@@ -1295,7 +1295,8 @@
       "director": "Ugla Hauksdóttir",
       "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg",
       "tmdb": {

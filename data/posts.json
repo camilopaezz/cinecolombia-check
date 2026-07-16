@@ -2715,6 +2715,171 @@
           "posterPath": "/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg"
         }
       }
+    },
+    {
+      "guid": "55e495d7-72d4-4479-a121-9d2dfe89ec01",
+      "type": "added",
+      "filmId": "HO00000705",
+      "createdAt": "2026-07-16T23:01:00.551Z",
+      "snapshot": {
+        "id": "HO00000705",
+        "title": "Sense and Sensibility",
+        "shortSynopsis": "Una nueva visión de la icónica novela de Jane Austen, Sensatez y sentimiento: Una historia encantadora, ingeniosa y profundamente cercana sobre el amor.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "director": "Georgia Oakley",
+        "webUrl": "http://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg",
+        "tmdb": {
+          "tmdbId": 4584,
+          "posterPath": "/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d3e67953-28df-4c28-8e67-c89631d28b3e",
+      "type": "added",
+      "filmId": "HO00000707",
+      "createdAt": "2026-07-16T23:01:00.551Z",
+      "snapshot": {
+        "id": "HO00000707",
+        "title": "Nightborn",
+        "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 92,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Suspenso",
+          "Drama"
+        ],
+        "director": "Hanna Bergholm",
+        "webUrl": "http://www.cinecolombia.com/films/nightborn/HO00000707/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg",
+        "tmdb": {
+          "tmdbId": 964849,
+          "posterPath": "/bLSrV2Him731C9tDCRuHq2drit5.jpg"
+        }
+      }
+    },
+    {
+      "guid": "017fbef4-cb8c-4abf-9663-2576047f9030",
+      "type": "added",
+      "filmId": "HO00000708",
+      "createdAt": "2026-07-16T23:01:00.551Z",
+      "snapshot": {
+        "id": "HO00000708",
+        "title": "The Bride",
+        "shortSynopsis": "La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 96,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Lee Thongkham",
+        "webUrl": "http://www.cinecolombia.com/films/the-bride/HO00000708/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg",
+        "tmdb": {
+          "tmdbId": 1159831,
+          "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5669b18a-0233-447e-b4ef-e7dabd3f7093",
+      "type": "added",
+      "filmId": "HO00000709",
+      "createdAt": "2026-07-16T23:01:00.551Z",
+      "snapshot": {
+        "id": "HO00000709",
+        "title": "Seeking Haven for Mr. Rambo",
+        "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 100,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Khaled Mansour",
+        "webUrl": "http://www.cinecolombia.com/films/seeking-haven-for-mr-rambo/HO00000709/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg",
+        "tmdb": {
+          "tmdbId": 1170841,
+          "posterPath": "/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "2082e3a5-f5e5-45e1-9ffe-eec6b95f76f3",
+      "type": "added",
+      "filmId": "HO00000710",
+      "createdAt": "2026-07-16T23:01:00.551Z",
+      "snapshot": {
+        "id": "HO00000710",
+        "title": "Rally: From Paris to the Pyramids",
+        "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 81,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Rasmus A. Sivertsen",
+        "webUrl": "http://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/w12EcNornUag78lk5rObTq2W0Ii.jpg",
+        "tmdb": {
+          "tmdbId": 1016069,
+          "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
+        }
+      }
+    },
+    {
+      "guid": "11526d87-a946-48e7-8832-2506234d35e5",
+      "type": "preventa-opens",
+      "filmId": "HO00000671",
+      "createdAt": "2026-07-16T23:01:00.551Z",
+      "snapshot": {
+        "id": "HO00000671",
+        "title": "ATEEZ: LIGHT THE WAY IN CINEMAS",
+        "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 65,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Música"
+        ],
+        "director": "JIAE KIM",
+        "webUrl": "http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
+        "tmdb": {
+          "tmdbId": 1722720,
+          "posterPath": "/jPtUs7hVAp08FjOR2YnojdPhayX.jpg"
+        }
+      }
     }
   ]
 }

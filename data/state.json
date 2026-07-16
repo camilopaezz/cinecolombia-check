@@ -232,7 +232,8 @@
       "director": "JIAE KIM",
       "webUrl": "http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
       "categories": [
-        "NowShowing"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
       "tmdb": {
@@ -613,7 +614,7 @@
       "shortSynopsis": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. ",
       "releaseDate": "2026-07-30",
       "runtimeInMinutes": 135,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama",
         "Biografía",
@@ -634,7 +635,7 @@
       "id": "HO00000668",
       "title": "Deep Water",
       "shortSynopsis": "Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.",
-      "releaseDate": "2026-08-13",
+      "releaseDate": "2026-08-20",
       "runtimeInMinutes": 106,
       "censorRating": "Pendiente",
       "genres": [
@@ -832,7 +833,7 @@
       "id": "HO00000641",
       "title": "Insidious: Out of the Further",
       "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
-      "releaseDate": "2026-08-21",
+      "releaseDate": "2026-08-20",
       "runtimeInMinutes": 120,
       "censorRating": "Pendiente",
       "genres": [
@@ -855,7 +856,7 @@
       "id": "HO00000599",
       "title": "Into The Mortal World",
       "shortSynopsis": "Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.",
-      "releaseDate": "2026-07-23",
+      "releaseDate": "2026-08-06",
       "runtimeInMinutes": 118,
       "censorRating": "Pendiente",
       "genres": [
@@ -933,6 +934,28 @@
       }
     },
     {
+      "id": "HO00000707",
+      "title": "Nightborn",
+      "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 92,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Suspenso",
+        "Drama"
+      ],
+      "director": "Hanna Bergholm",
+      "webUrl": "http://www.cinecolombia.com/films/nightborn/HO00000707/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg",
+      "tmdb": {
+        "tmdbId": 964849,
+        "posterPath": "/bLSrV2Him731C9tDCRuHq2drit5.jpg"
+      }
+    },
+    {
       "id": "HO00000701",
       "title": "Ojo por ojo",
       "shortSynopsis": "Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.",
@@ -980,9 +1003,9 @@
       "id": "HO00000632",
       "title": "Paw Patrol: The Dino Movie",
       "shortSynopsis": "Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.",
-      "releaseDate": "2026-08-13",
+      "releaseDate": "2026-08-06",
       "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Acción",
         "Animación",
@@ -1042,6 +1065,27 @@
       }
     },
     {
+      "id": "HO00000710",
+      "title": "Rally: From Paris to the Pyramids",
+      "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
+      "releaseDate": "2026-08-06",
+      "runtimeInMinutes": 81,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación"
+      ],
+      "director": "Rasmus A. Sivertsen",
+      "webUrl": "http://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/w12EcNornUag78lk5rObTq2W0Ii.jpg",
+      "tmdb": {
+        "tmdbId": 1016069,
+        "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
+      }
+    },
+    {
       "id": "HO00000669",
       "title": "Resident Evil",
       "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
@@ -1066,7 +1110,7 @@
       "id": "HO00000695",
       "title": "Saccharine",
       "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
-      "releaseDate": "2026-08-06",
+      "releaseDate": "2026-08-13",
       "runtimeInMinutes": 10,
       "censorRating": "Pendiente",
       "genres": [
@@ -1083,6 +1127,49 @@
       "tmdb": {
         "tmdbId": 1363387,
         "posterPath": "/zMYFsfuHttGtHnXquWkIWI9Min8.jpg"
+      }
+    },
+    {
+      "id": "HO00000709",
+      "title": "Seeking Haven for Mr. Rambo",
+      "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
+      "releaseDate": "2026-08-06",
+      "runtimeInMinutes": 100,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Khaled Mansour",
+      "webUrl": "http://www.cinecolombia.com/films/seeking-haven-for-mr-rambo/HO00000709/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg",
+      "tmdb": {
+        "tmdbId": 1170841,
+        "posterPath": "/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg"
+      }
+    },
+    {
+      "id": "HO00000705",
+      "title": "Sense and Sensibility",
+      "shortSynopsis": "Una nueva visión de la icónica novela de Jane Austen, Sensatez y sentimiento: Una historia encantadora, ingeniosa y profundamente cercana sobre el amor.",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "director": "Georgia Oakley",
+      "webUrl": "http://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg",
+      "tmdb": {
+        "tmdbId": 4584,
+        "posterPath": "/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg"
       }
     },
     {
@@ -1192,7 +1279,7 @@
       "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 88,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Animación",
         "Familia",
@@ -1207,6 +1294,27 @@
       "tmdb": {
         "tmdbId": 1215638,
         "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
+      }
+    },
+    {
+      "id": "HO00000708",
+      "title": "The Bride",
+      "shortSynopsis": "La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.",
+      "releaseDate": "2026-08-27",
+      "runtimeInMinutes": 96,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Lee Thongkham",
+      "webUrl": "http://www.cinecolombia.com/films/the-bride/HO00000708/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg",
+      "tmdb": {
+        "tmdbId": 1159831,
+        "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
       }
     },
     {
@@ -1351,7 +1459,7 @@
       "shortSynopsis": "Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.",
       "releaseDate": "2026-07-30",
       "runtimeInMinutes": 84,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación",
         "Aventura",
@@ -1688,6 +1796,26 @@
     "HO00000700": {
       "tmdbId": 1523145,
       "posterPath": "/naOC89qeEygU44xM9EIot1m5AUQ.jpg"
+    },
+    "HO00000707": {
+      "tmdbId": 964849,
+      "posterPath": "/bLSrV2Him731C9tDCRuHq2drit5.jpg"
+    },
+    "HO00000710": {
+      "tmdbId": 1016069,
+      "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
+    },
+    "HO00000709": {
+      "tmdbId": 1170841,
+      "posterPath": "/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg"
+    },
+    "HO00000705": {
+      "tmdbId": 4584,
+      "posterPath": "/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg"
+    },
+    "HO00000708": {
+      "tmdbId": 1159831,
+      "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
     }
   }
 }

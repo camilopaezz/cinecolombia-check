@@ -7,6 +7,60 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Diamanti</title>
+      <link>http://www.cinecolombia.com/films/diamanti/HO00000672/</link>
+      <guid isPermaLink="false">fb945c46-3d4f-4335-8c6e-945d0c2e0766</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Los futbolísimos 2. El misterio del tesoro pirata</title>
+      <link>http://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/</link>
+      <guid isPermaLink="false">15bb5916-c201-4ba2-b7b3-e689edb274ae</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.</description>
+    </item>
+    <item>
+      <title>Pronto: Your Heart Will Be Broken</title>
+      <link>http://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/</link>
+      <guid isPermaLink="false">27b76cf5-d1cd-46f9-bff0-e203eb47fdd7</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>Polina es una estudiante que llega a una nueva escuela con la esperanza de comenzar de cero, pero pronto se convierte en el blanco del acoso escolar, quedando aislada.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Ojo por ojo</title>
+      <link>http://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/</link>
+      <guid isPermaLink="false">79da5df8-b4f4-42be-bf75-41f8af66ac8e</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Terminator 2: Judgement Day (35th Anniversary)</title>
+      <link>http://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/</link>
+      <guid isPermaLink="false">80d10584-ffc9-44bc-ba24-40e3d8655e15</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.</description>
+    </item>
+    <item>
+      <title>Pronto: Tadeo Jones y la lámpara maravillosa</title>
+      <link>http://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/</link>
+      <guid isPermaLink="false">52443f73-b1d2-4a5f-a5b1-d10a887fc461</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Angry Birds 3</title>
+      <link>http://www.cinecolombia.com/films/angry-birds-3/HO00000704/</link>
+      <guid isPermaLink="false">d07b6e0e-d4aa-4e4f-b02f-54eeace467b0</guid>
+      <pubDate>Thu, 16 Jul 2026 17:00:55 GMT</pubDate>
+      <description>Esta temporada navideña, un pájaro enojado se enfrentará a su mayor desafío hasta el momento: sobrevivir a la paternidad… ¡mientras salva al mundo!</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Supergirl</title>
       <link>http://www.cinecolombia.com/films/supergirl/HO00000427/</link>
       <guid isPermaLink="false">2c5c6d50-aa1e-4349-826a-5c092afa890c</guid>

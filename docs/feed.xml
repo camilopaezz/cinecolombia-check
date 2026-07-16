@@ -7,6 +7,46 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Supergirl</title>
+      <link>http://www.cinecolombia.com/films/supergirl/HO00000427/</link>
+      <guid isPermaLink="false">2c5c6d50-aa1e-4349-826a-5c092afa890c</guid>
+      <pubDate>Thu, 16 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Cuando un enemigo inesperado y despiadado golpea demasiado cerca, Supergirl, se ve obligada a unir fuerzas con un acompañante  improbable en un épico viaje interestelar</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Lactar</title>
+      <link>http://www.cinecolombia.com/films/lactar/HO00000491/</link>
+      <guid isPermaLink="false">7c4875a5-defa-4827-98fe-7cae20c7b05d</guid>
+      <pubDate>Thu, 16 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Scary Movie</title>
+      <link>http://www.cinecolombia.com/films/scary-movie/HO00000612/</link>
+      <guid isPermaLink="false">d529fae5-1f12-470b-8f96-4edfe3839e46</guid>
+      <pubDate>Thu, 16 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Cindy Campbell y sus amigos Ray Wilkins, junto a los hermanos Shorty y Brenda Meeks, se reúnen años después de haber sobrevivido a un asesino enmascarado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/qhGf7btEU9hcGz3A0lneNptJKL7.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Diamanti</title>
+      <link>http://www.cinecolombia.com/films/diamanti/HO00000672/</link>
+      <guid isPermaLink="false">03ec21a3-06fa-41d9-9987-108aa25176e6</guid>
+      <pubDate>Thu, 16 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Ficciones Sin Futuro</title>
+      <link>http://www.cinecolombia.com/films/ficciones-sin-futuro/HO00000692/</link>
+      <guid isPermaLink="false">94ad2157-ecb7-4ba0-9dec-90d382219943</guid>
+      <pubDate>Thu, 16 Jul 2026 05:00:57 GMT</pubDate>
+      <description>En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/lprt3OI25dSMsVdOkLVXUkDWcJX.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: El juego de la vida</title>
       <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
       <guid isPermaLink="false">0e497024-1e3d-46ed-9462-d524eceed45c</guid>

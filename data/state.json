@@ -102,8 +102,7 @@
       "director": "Christopher Nolan",
       "webUrl": "http://www.cinecolombia.com/films/the-odyssey/HO00000386/",
       "categories": [
-        "NowShowing",
-        "AdvanceBooking"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg",
       "tmdb": {
@@ -154,29 +153,6 @@
       "tmdb": {
         "tmdbId": 969681,
         "posterPath": "/ct7rSLY6OlQBETxQDzINzkhYIO2.jpg"
-      }
-    },
-    {
-      "id": "HO00000427",
-      "title": "Supergirl",
-      "shortSynopsis": "Cuando un enemigo inesperado y despiadado golpea demasiado cerca, Supergirl, se ve obligada a unir fuerzas con un acompañante  improbable en un épico viaje interestelar",
-      "releaseDate": "2026-06-25",
-      "runtimeInMinutes": 110,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Fantasía",
-        "Aventura"
-      ],
-      "director": "Craig Gillespie",
-      "webUrl": "http://www.cinecolombia.com/films/supergirl/HO00000427/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg",
-      "tmdb": {
-        "tmdbId": 1081003,
-        "posterPath": "/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg"
       }
     },
     {
@@ -263,28 +239,6 @@
       "tmdb": {
         "tmdbId": 1157322,
         "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
-      }
-    },
-    {
-      "id": "HO00000612",
-      "title": "Scary Movie",
-      "shortSynopsis": "Cindy Campbell y sus amigos Ray Wilkins, junto a los hermanos Shorty y Brenda Meeks, se reúnen años después de haber sobrevivido a un asesino enmascarado.",
-      "releaseDate": "2026-06-03",
-      "runtimeInMinutes": 95,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror",
-        "Comedia"
-      ],
-      "director": "Michael Tiddes",
-      "webUrl": "http://www.cinecolombia.com/films/scary-movie/HO00000612/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/qhGf7btEU9hcGz3A0lneNptJKL7.jpg",
-      "tmdb": {
-        "tmdbId": 1273221,
-        "posterPath": "/qhGf7btEU9hcGz3A0lneNptJKL7.jpg"
       }
     },
     {
@@ -419,48 +373,6 @@
       }
     },
     {
-      "id": "HO00000491",
-      "title": "Lactar",
-      "shortSynopsis": "Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.",
-      "releaseDate": "2026-05-14",
-      "runtimeInMinutes": 75,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Harold Trompetero",
-      "webUrl": "http://www.cinecolombia.com/films/lactar/HO00000491/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg",
-      "tmdb": {
-        "tmdbId": 1694304,
-        "posterPath": "/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg"
-      }
-    },
-    {
-      "id": "HO00000692",
-      "title": "Ficciones Sin Futuro",
-      "shortSynopsis": "En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 77,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Diego Espinosa",
-      "webUrl": "http://www.cinecolombia.com/films/ficciones-sin-futuro/HO00000692/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/lprt3OI25dSMsVdOkLVXUkDWcJX.jpg",
-      "tmdb": {
-        "tmdbId": 1729009,
-        "posterPath": "/lprt3OI25dSMsVdOkLVXUkDWcJX.jpg"
-      }
-    },
-    {
       "id": "HO00000430",
       "title": "The Devil Wears Prada 2",
       "shortSynopsis": "Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan",
@@ -535,8 +447,7 @@
       "director": "Stillz",
       "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
       "categories": [
-        "NowShowing",
-        "AdvanceBooking"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
       "tmdb": {
@@ -694,28 +605,6 @@
       "tmdb": {
         "tmdbId": 1127384,
         "posterPath": "/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg"
-      }
-    },
-    {
-      "id": "HO00000672",
-      "title": "Diamanti",
-      "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
-      "releaseDate": "2026-07-16",
-      "runtimeInMinutes": 135,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "Ferzan Özpetek",
-      "webUrl": "http://www.cinecolombia.com/films/diamanti/HO00000672/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg",
-      "tmdb": {
-        "tmdbId": 1299046,
-        "posterPath": "/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg"
       }
     },
     {
@@ -921,7 +810,7 @@
       "id": "HO00000658",
       "title": "La petite dernière",
       "shortSynopsis": "Fátima, de 17 años, la hija menor de una familia franco-argelina en un suburbio parisino juega fútbol y tiene un novio secreto, pero oculta su atracción por las mujeres.\n",
-      "releaseDate": "2026-07-23",
+      "releaseDate": "2026-07-30",
       "runtimeInMinutes": 106,
       "censorRating": "+15 Años",
       "genres": [
@@ -1257,8 +1146,7 @@
       "director": "Ugla Hauksdóttir",
       "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
       "categories": [
-        "NowShowing",
-        "AdvanceBooking"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg",
       "tmdb": {

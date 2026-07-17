@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: El juego de la vida</title>
+      <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
+      <guid isPermaLink="false">59f748e7-79b6-4115-9aed-7d592248fc06</guid>
+      <pubDate>Fri, 17 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
+    </item>
+    <item>
+      <title>Pronto: Klara and the Sun</title>
+      <link>http://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/</link>
+      <guid isPermaLink="false">d128a209-ff8e-4cef-b4c2-09340d08dda0</guid>
+      <pubDate>Fri, 17 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Una chica robot diseñada para prevenir la soledad intenta salvar a una familia humana con el corazón roto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Sense and Sensibility</title>
       <link>http://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/</link>
       <guid isPermaLink="false">55e495d7-72d4-4479-a121-9d2dfe89ec01</guid>

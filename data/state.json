@@ -478,6 +478,23 @@
       }
     },
     {
+      "id": "HO00000494",
+      "title": "El juego de la vida",
+      "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
+      "releaseDate": "2026-05-07",
+      "runtimeInMinutes": 95,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Mario Andrés Ruiz Zuluaga",
+      "webUrl": "http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
       "id": "HO00000704",
       "title": "Angry Birds 3",
       "shortSynopsis": "Esta temporada navideña, un pájaro enojado se enfrentará a su mayor desafío hasta el momento: sobrevivir a la paternidad… ¡mientras salva al mundo!",
@@ -871,6 +888,28 @@
       "tmdb": {
         "tmdbId": 1303336,
         "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
+      }
+    },
+    {
+      "id": "HO00000706",
+      "title": "Klara and the Sun",
+      "shortSynopsis": "Una chica robot diseñada para prevenir la soledad intenta salvar a una familia humana con el corazón roto.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Ciencia Ficción"
+      ],
+      "director": "Taika Waititi",
+      "webUrl": "http://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+      "tmdb": {
+        "tmdbId": 858035,
+        "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
       }
     },
     {
@@ -1816,6 +1855,10 @@
     "HO00000708": {
       "tmdbId": 1159831,
       "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
+    },
+    "HO00000706": {
+      "tmdbId": 858035,
+      "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
     }
   }
 }

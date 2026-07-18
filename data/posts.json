@@ -2931,6 +2931,34 @@
           "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
         }
       }
+    },
+    {
+      "guid": "3065af36-3d8a-4433-a832-e612d736cf6f",
+      "type": "removed",
+      "filmId": "HO00000500",
+      "createdAt": "2026-07-18T05:00:58.397Z",
+      "snapshot": {
+        "id": "HO00000500",
+        "title": "Fuze",
+        "shortSynopsis": "Unos obreros de la construcción desentierran en Londres una bomba de la Segunda Guerra Mundial sin explotar, lo que obliga a evacuar la ciudad.",
+        "releaseDate": "2026-07-02",
+        "runtimeInMinutes": 98,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "David Mackenzie",
+        "webUrl": "http://www.cinecolombia.com/films/fuze/HO00000500/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg",
+        "tmdb": {
+          "tmdbId": 1242265,
+          "posterPath": "/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg"
+        }
+      }
     }
   ]
 }

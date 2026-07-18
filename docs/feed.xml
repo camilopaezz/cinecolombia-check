@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Fuze</title>
+      <link>http://www.cinecolombia.com/films/fuze/HO00000500/</link>
+      <guid isPermaLink="false">3065af36-3d8a-4433-a832-e612d736cf6f</guid>
+      <pubDate>Sat, 18 Jul 2026 05:00:58 GMT</pubDate>
+      <description>Unos obreros de la construcción desentierran en Londres una bomba de la Segunda Guerra Mundial sin explotar, lo que obliga a evacuar la ciudad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: El juego de la vida</title>
       <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
       <guid isPermaLink="false">59f748e7-79b6-4115-9aed-7d592248fc06</guid>

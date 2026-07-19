@@ -2959,6 +2959,29 @@
           "posterPath": "/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg"
         }
       }
+    },
+    {
+      "guid": "b3d3de14-0005-4991-be9c-9cfe1a4852d0",
+      "type": "removed",
+      "filmId": "HO00000494",
+      "createdAt": "2026-07-19T05:00:57.692Z",
+      "snapshot": {
+        "id": "HO00000494",
+        "title": "El juego de la vida",
+        "shortSynopsis": "Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.",
+        "releaseDate": "2026-05-07",
+        "runtimeInMinutes": 95,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Mario Andrés Ruiz Zuluaga",
+        "webUrl": "http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

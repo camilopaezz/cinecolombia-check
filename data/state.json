@@ -247,7 +247,7 @@
       "shortSynopsis": "En 1985, WHAM! tendió puentes entre culturas al convertirse en el primer grupo de pop occidental en actuar en China.",
       "releaseDate": "2026-07-28",
       "runtimeInMinutes": 90,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Documental"
       ],
@@ -636,7 +636,7 @@
       "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 135,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia",
         "Drama"
@@ -900,7 +900,7 @@
       "shortSynopsis": "La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 95,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Comedia"
       ],
@@ -1422,7 +1422,8 @@
       "director": "Olivia Wilde",
       "webUrl": "http://www.cinecolombia.com/films/the-invite/HO00000647/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg",
       "tmdb": {

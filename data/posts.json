@@ -2982,6 +2982,62 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "9b27acf6-e493-4710-8178-ca852e89f974",
+      "type": "preventa-opens",
+      "filmId": "HO00000647",
+      "createdAt": "2026-07-21T23:00:57.115Z",
+      "snapshot": {
+        "id": "HO00000647",
+        "title": "The Invite",
+        "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 107,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Olivia Wilde",
+        "webUrl": "http://www.cinecolombia.com/films/the-invite/HO00000647/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg",
+        "tmdb": {
+          "tmdbId": 950028,
+          "posterPath": "/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ab6bcf85-f81a-41f0-9d01-ca26f1a8887f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000647",
+      "createdAt": "2026-07-21T23:00:57.115Z",
+      "snapshot": {
+        "id": "HO00000647",
+        "title": "The Invite",
+        "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 107,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Olivia Wilde",
+        "webUrl": "http://www.cinecolombia.com/films/the-invite/HO00000647/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg",
+        "tmdb": {
+          "tmdbId": 950028,
+          "posterPath": "/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg"
+        }
+      }
     }
   ]
 }

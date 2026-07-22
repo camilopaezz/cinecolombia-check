@@ -3256,6 +3256,61 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "7bff2b51-1197-429c-9749-fd80a7193393",
+      "type": "added",
+      "filmId": "HO00000712",
+      "createdAt": "2026-07-22T23:00:57.455Z",
+      "snapshot": {
+        "id": "HO00000712",
+        "title": "Good Vibes Only",
+        "shortSynopsis": "Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.",
+        "releaseDate": "2026-08-08",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Reem Kherici",
+        "webUrl": "http://www.cinecolombia.com/films/good-vibes-only/HO00000712/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+        "tmdb": {
+          "tmdbId": 1668267,
+          "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e0745b7e-96ad-4278-b928-d0a38ffca17f",
+      "type": "added",
+      "filmId": "HO00000713",
+      "createdAt": "2026-07-22T23:00:57.455Z",
+      "snapshot": {
+        "id": "HO00000713",
+        "title": "The Death of Snow White",
+        "shortSynopsis": "Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 110,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror",
+          "Fantasía"
+        ],
+        "director": "Jason Brooks",
+        "webUrl": "http://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg",
+        "tmdb": {
+          "tmdbId": 1409850,
+          "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
+        }
+      }
     }
   ]
 }

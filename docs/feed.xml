@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Good Vibes Only</title>
+      <link>http://www.cinecolombia.com/films/good-vibes-only/HO00000712/</link>
+      <guid isPermaLink="false">7bff2b51-1197-429c-9749-fd80a7193393</guid>
+      <pubDate>Wed, 22 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: The Death of Snow White</title>
+      <link>http://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/</link>
+      <guid isPermaLink="false">e0745b7e-96ad-4278-b928-d0a38ffca17f</guid>
+      <pubDate>Wed, 22 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg" medium="image" />
+    </item>
+    <item>
       <title>Preventa abierta: Couture</title>
       <link>http://www.cinecolombia.com/films/couture/HO00000631/</link>
       <guid isPermaLink="false">b59629f5-660b-47e1-844f-fe60485583eb</guid>

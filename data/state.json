@@ -181,7 +181,7 @@
       "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 75,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Música"
       ],
@@ -767,6 +767,27 @@
       }
     },
     {
+      "id": "HO00000712",
+      "title": "Good Vibes Only",
+      "shortSynopsis": "Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.",
+      "releaseDate": "2026-08-08",
+      "runtimeInMinutes": 90,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Reem Kherici",
+      "webUrl": "http://www.cinecolombia.com/films/good-vibes-only/HO00000712/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+      "tmdb": {
+        "tmdbId": 1668267,
+        "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
+      }
+    },
+    {
       "id": "HO00000698",
       "title": "Heart of the Beast",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
@@ -839,7 +860,7 @@
       "shortSynopsis": "Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.",
       "releaseDate": "2026-08-06",
       "runtimeInMinutes": 118,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Animación"
       ],
@@ -1345,6 +1366,28 @@
       }
     },
     {
+      "id": "HO00000713",
+      "title": "The Death of Snow White",
+      "shortSynopsis": "Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.",
+      "releaseDate": "2026-08-13",
+      "runtimeInMinutes": 110,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror",
+        "Fantasía"
+      ],
+      "director": "Jason Brooks",
+      "webUrl": "http://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg",
+      "tmdb": {
+        "tmdbId": 1409850,
+        "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
+      }
+    },
+    {
       "id": "HO00000696",
       "title": "The Dog Stars",
       "shortSynopsis": "un virus ha acabado con la mayor parte de la humanidad Hig, un piloto que sobrevivió a la gripe que mató a todos sus conocidos, vive en el hangar de un pequeño aeropuerto",
@@ -1825,6 +1868,14 @@
     "HO00000706": {
       "tmdbId": 858035,
       "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
+    },
+    "HO00000712": {
+      "tmdbId": 1668267,
+      "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
+    },
+    "HO00000713": {
+      "tmdbId": 1409850,
+      "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
     }
   }
 }

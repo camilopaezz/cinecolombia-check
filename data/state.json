@@ -534,7 +534,8 @@
       "director": "Alice Winocour",
       "webUrl": "http://www.cinecolombia.com/films/couture/HO00000631/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg",
       "tmdb": {
@@ -578,7 +579,8 @@
       "director": "Momoko Seto",
       "webUrl": "http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg",
       "tmdb": {
@@ -644,7 +646,8 @@
       "director": "Ferzan Özpetek",
       "webUrl": "http://www.cinecolombia.com/films/diamanti/HO00000672/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg",
       "tmdb": {
@@ -907,7 +910,8 @@
       "director": "Miguel Ángel Lamata",
       "webUrl": "http://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": null
     },

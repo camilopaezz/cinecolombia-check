@@ -7,6 +7,68 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Preventa abierta: Couture</title>
+      <link>http://www.cinecolombia.com/films/couture/HO00000631/</link>
+      <guid isPermaLink="false">b59629f5-660b-47e1-844f-fe60485583eb</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Couture</title>
+      <link>http://www.cinecolombia.com/films/couture/HO00000631/</link>
+      <guid isPermaLink="false">4261b1b3-f4ef-4780-9fa5-6fac9aba2e54</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Preventa abierta: Dandelion&apos;s Odyssey</title>
+      <link>http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/</link>
+      <guid isPermaLink="false">1bd8a740-744c-4e44-9e2a-631674140deb</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Cuatro semillas de un diente de león son las únicas supervivientes de una serie de explosiones nucleares que están destruyendo la Tierra.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Dandelion&apos;s Odyssey</title>
+      <link>http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/</link>
+      <guid isPermaLink="false">829e9f93-17b7-452f-9488-348d452c8c0c</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Cuatro semillas de un diente de león son las únicas supervivientes de una serie de explosiones nucleares que están destruyendo la Tierra.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Preventa abierta: Diamanti</title>
+      <link>http://www.cinecolombia.com/films/diamanti/HO00000672/</link>
+      <guid isPermaLink="false">dd65a66b-8433-4fdb-afda-9a39829ad6b9</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Diamanti</title>
+      <link>http://www.cinecolombia.com/films/diamanti/HO00000672/</link>
+      <guid isPermaLink="false">ab20876c-47d0-4d8b-8fa3-4ffc41bc821a</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Preventa abierta: Los futbolísimos 2. El misterio del tesoro pirata</title>
+      <link>http://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/</link>
+      <guid isPermaLink="false">4099e561-cf51-4991-adbe-4bcf2c9f2e02</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.</description>
+    </item>
+    <item>
+      <title>En cartelera: Los futbolísimos 2. El misterio del tesoro pirata</title>
+      <link>http://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/</link>
+      <guid isPermaLink="false">6984bf5d-e361-4cf4-a14b-b5fbc2c42775</guid>
+      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
+      <description>La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.</description>
+    </item>
+    <item>
       <title>Preventa abierta: The Invite</title>
       <link>http://www.cinecolombia.com/films/the-invite/HO00000647/</link>
       <guid isPermaLink="false">9b27acf6-e493-4710-8178-ca852e89f974</guid>

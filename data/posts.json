@@ -3311,6 +3311,202 @@
           "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
         }
       }
+    },
+    {
+      "guid": "f237be72-ccf9-4b84-bd4a-9646c51ec5db",
+      "type": "added",
+      "filmId": "HO00000715",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000715",
+        "title": "Habitante",
+        "shortSynopsis": "Dar una vuelta al mundo y filmar… Habitante emerge de los archivos del fotógrafo José Alejandro González, quien por dos décadas retrató conversaciones con desconocidos.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 89,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "José Alejandro González",
+        "webUrl": "http://www.cinecolombia.com/films/habitante/HO00000715/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/iZuAN6T5QT28OXwiORRmmfiugrS.jpg",
+        "tmdb": {
+          "tmdbId": 1711961,
+          "posterPath": "/iZuAN6T5QT28OXwiORRmmfiugrS.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d9565d11-f090-4a4c-80b0-d0a3d049af55",
+      "type": "added",
+      "filmId": "HO00000716",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000716",
+        "title": "GHOST: 2 Big To Rig",
+        "shortSynopsis": "2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. ",
+        "releaseDate": "2026-08-26",
+        "runtimeInMinutes": 115,
+        "censorRating": "Concierto",
+        "genres": [
+          "Concierto",
+          "Documental",
+          "Música"
+        ],
+        "director": "Amir Juan Chamdin",
+        "webUrl": "http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
+        "tmdb": {
+          "tmdbId": 1693400,
+          "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
+        }
+      }
+    },
+    {
+      "guid": "277b5582-623c-441e-974a-c2a85cbde64e",
+      "type": "removed",
+      "filmId": "HO00000430",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000430",
+        "title": "The Devil Wears Prada 2",
+        "shortSynopsis": "Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan",
+        "releaseDate": "2026-04-29",
+        "runtimeInMinutes": 120,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "David Frankel",
+        "webUrl": "http://www.cinecolombia.com/films/the-devil-wears-prada-2/HO00000430/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg",
+        "tmdb": {
+          "tmdbId": 1314481,
+          "posterPath": "/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg"
+        }
+      }
+    },
+    {
+      "guid": "67383d1e-1d2d-43ef-a3fa-8cffe3f7e66d",
+      "type": "removed",
+      "filmId": "HO00000501",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000501",
+        "title": "Ternet Ninja 3",
+        "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 88,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Animación",
+          "Familia",
+          "Comedia"
+        ],
+        "director": "Anders Matthesen",
+        "webUrl": "http://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
+        "tmdb": {
+          "tmdbId": 1215638,
+          "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8e0b6de4-007f-430c-951f-a3eda3188493",
+      "type": "removed",
+      "filmId": "HO00000609",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000609",
+        "title": "Backrooms",
+        "shortSynopsis": "Una extraña puerta aparece en el sótano de una sala de exposición de muebles.",
+        "releaseDate": "2026-05-28",
+        "runtimeInMinutes": 110,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror",
+          "Misterio"
+        ],
+        "director": "Kane Parsons",
+        "webUrl": "http://www.cinecolombia.com/films/backrooms/HO00000609/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg",
+        "tmdb": {
+          "tmdbId": 1083381,
+          "posterPath": "/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8e7f4704-6e94-4dac-974b-abf333dfe3f8",
+      "type": "removed",
+      "filmId": "HO00000637",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000637",
+        "title": "Power Ballad",
+        "shortSynopsis": "Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 98,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Comedia",
+          "Musical"
+        ],
+        "director": "John Carney",
+        "webUrl": "http://www.cinecolombia.com/films/power-ballad/HO00000637/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg",
+        "tmdb": {
+          "tmdbId": 1284016,
+          "posterPath": "/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9da3e3be-c145-4bf3-8c53-e2fda5b8266a",
+      "type": "removed",
+      "filmId": "HO00000664",
+      "createdAt": "2026-07-23T23:00:57.128Z",
+      "snapshot": {
+        "id": "HO00000664",
+        "title": "The Fires",
+        "shortSynopsis": "Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. ",
+        "releaseDate": "2026-07-16",
+        "runtimeInMinutes": 107,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Ugla Hauksdóttir",
+        "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg",
+        "tmdb": {
+          "tmdbId": 1611790,
+          "posterPath": "/a6Mv7zd2kDYhjv6In48ci80HD91.jpg"
+        }
+      }
     }
   ]
 }

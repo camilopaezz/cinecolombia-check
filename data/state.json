@@ -1,6 +1,27 @@
 {
   "films": [
     {
+      "id": "HO00000604",
+      "title": "Obsession",
+      "shortSynopsis": "La desesperada fijación romántica de un hombre por la persona que idealiza provoca un hechizo oscuro que transforma su deseo en una situación cada vez más perturbadora",
+      "releaseDate": "2026-05-14",
+      "runtimeInMinutes": 108,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Curry Barker",
+      "webUrl": "http://www.cinecolombia.com/films/obsession/HO00000604/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg",
+      "tmdb": {
+        "tmdbId": 1339713,
+        "posterPath": "/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg"
+      }
+    },
+    {
       "id": "HO00000386",
       "title": "The Odyssey",
       "shortSynopsis": "El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.",
@@ -42,6 +63,27 @@
       "tmdb": {
         "tmdbId": 969681,
         "posterPath": "/ct7rSLY6OlQBETxQDzINzkhYIO2.jpg"
+      }
+    },
+    {
+      "id": "HO00000647",
+      "title": "The Invite",
+      "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 107,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Olivia Wilde",
+      "webUrl": "http://www.cinecolombia.com/films/the-invite/HO00000647/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg",
+      "tmdb": {
+        "tmdbId": 950028,
+        "posterPath": "/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg"
       }
     },
     {
@@ -90,6 +132,48 @@
       }
     },
     {
+      "id": "HO00000653",
+      "title": "Sia: Nostalgic For The Present",
+      "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 75,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Música"
+      ],
+      "director": "Sia",
+      "webUrl": "http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg",
+      "tmdb": {
+        "tmdbId": 1712586,
+        "posterPath": "/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg"
+      }
+    },
+    {
+      "id": "HO00000665",
+      "title": "Barrio triste",
+      "shortSynopsis": "A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.",
+      "releaseDate": "2026-07-16",
+      "runtimeInMinutes": 88,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Stillz",
+      "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
+      "tmdb": {
+        "tmdbId": 1310573,
+        "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
+      }
+    },
+    {
       "id": "HO00000496",
       "title": "Moana",
       "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
@@ -134,90 +218,22 @@
       }
     },
     {
-      "id": "HO00000604",
-      "title": "Obsession",
-      "shortSynopsis": "La desesperada fijación romántica de un hombre por la persona que idealiza provoca un hechizo oscuro que transforma su deseo en una situación cada vez más perturbadora",
-      "releaseDate": "2026-05-14",
-      "runtimeInMinutes": 108,
-      "censorRating": "+15 Años",
+      "id": "HO00000694",
+      "title": "The Merry Widow",
+      "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
+      "releaseDate": "2026-07-25",
+      "runtimeInMinutes": 152,
+      "censorRating": "Contenido",
       "genres": [
-        "Terror"
+        "Ópera"
       ],
-      "director": "Curry Barker",
-      "webUrl": "http://www.cinecolombia.com/films/obsession/HO00000604/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg",
-      "tmdb": {
-        "tmdbId": 1339713,
-        "posterPath": "/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg"
-      }
-    },
-    {
-      "id": "HO00000665",
-      "title": "Barrio triste",
-      "shortSynopsis": "A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.",
-      "releaseDate": "2026-07-16",
-      "runtimeInMinutes": 88,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Stillz",
-      "webUrl": "http://www.cinecolombia.com/films/barrio-triste/HO00000665/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
-      "tmdb": {
-        "tmdbId": 1310573,
-        "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
-      }
-    },
-    {
-      "id": "HO00000653",
-      "title": "Sia: Nostalgic For The Present",
-      "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 75,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "Sia",
-      "webUrl": "http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/",
+      "director": "",
+      "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg",
-      "tmdb": {
-        "tmdbId": 1712586,
-        "posterPath": "/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg"
-      }
-    },
-    {
-      "id": "HO00000697",
-      "title": "KATSEYE: WILD HEARTS",
-      "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
-      "releaseDate": "2026-08-12",
-      "runtimeInMinutes": 80,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "Nadia Hallgren",
-      "webUrl": "http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
-      "tmdb": {
-        "tmdbId": 1728113,
-        "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
-      }
+      "posterUrl": null
     },
     {
       "id": "HO00000671",
@@ -239,6 +255,115 @@
       "tmdb": {
         "tmdbId": 1722720,
         "posterPath": "/jPtUs7hVAp08FjOR2YnojdPhayX.jpg"
+      }
+    },
+    {
+      "id": "HO00000672",
+      "title": "Diamanti",
+      "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 135,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "director": "Ferzan Özpetek",
+      "webUrl": "http://www.cinecolombia.com/films/diamanti/HO00000672/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg",
+      "tmdb": {
+        "tmdbId": 1299046,
+        "posterPath": "/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg"
+      }
+    },
+    {
+      "id": "HO00000631",
+      "title": "Couture",
+      "shortSynopsis": "La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 106,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Alice Winocour",
+      "webUrl": "http://www.cinecolombia.com/films/couture/HO00000631/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg",
+      "tmdb": {
+        "tmdbId": 1390382,
+        "posterPath": "/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg"
+      }
+    },
+    {
+      "id": "HO00000655",
+      "title": "Dandelion's Odyssey",
+      "shortSynopsis": "Cuatro semillas de un diente de león son las únicas supervivientes de una serie de explosiones nucleares que están destruyendo la Tierra.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 75,
+      "censorRating": "Todos",
+      "genres": [
+        "Animación"
+      ],
+      "director": "Momoko Seto",
+      "webUrl": "http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg",
+      "tmdb": {
+        "tmdbId": 999140,
+        "posterPath": "/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg"
+      }
+    },
+    {
+      "id": "HO00000716",
+      "title": "GHOST: 2 Big To Rig",
+      "shortSynopsis": "2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. ",
+      "releaseDate": "2026-08-26",
+      "runtimeInMinutes": 115,
+      "censorRating": "Concierto",
+      "genres": [
+        "Concierto",
+        "Documental",
+        "Música"
+      ],
+      "director": "Amir Juan Chamdin",
+      "webUrl": "http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
+      "tmdb": {
+        "tmdbId": 1693400,
+        "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
+      }
+    },
+    {
+      "id": "HO00000693",
+      "title": "Aida",
+      "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
+      "releaseDate": "2026-08-08",
+      "runtimeInMinutes": 170,
+      "censorRating": "Contenido",
+      "genres": [
+        "Ópera"
+      ],
+      "director": "",
+      "webUrl": "http://www.cinecolombia.com/films/aida/HO00000693/",
+      "categories": [
+        "NowShowing",
+        "AdvanceBooking"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
+      "tmdb": {
+        "tmdbId": 1370123,
+        "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
       }
     },
     {
@@ -264,86 +389,25 @@
       }
     },
     {
-      "id": "HO00000664",
-      "title": "The Fires",
-      "shortSynopsis": "Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. ",
-      "releaseDate": "2026-07-16",
-      "runtimeInMinutes": 107,
+      "id": "HO00000697",
+      "title": "KATSEYE: WILD HEARTS",
+      "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
+      "releaseDate": "2026-08-12",
+      "runtimeInMinutes": 80,
       "censorRating": "+12 Años",
       "genres": [
-        "Suspenso"
+        "Música"
       ],
-      "director": "Ugla Hauksdóttir",
-      "webUrl": "http://www.cinecolombia.com/films/the-fires/HO00000664/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg",
-      "tmdb": {
-        "tmdbId": 1611790,
-        "posterPath": "/a6Mv7zd2kDYhjv6In48ci80HD91.jpg"
-      }
-    },
-    {
-      "id": "HO00000694",
-      "title": "The Merry Widow",
-      "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
-      "releaseDate": "2026-07-25",
-      "runtimeInMinutes": 152,
-      "censorRating": "Contenido",
-      "genres": [
-        "Ópera"
-      ],
-      "director": "",
-      "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
+      "director": "Nadia Hallgren",
+      "webUrl": "http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
       "categories": [
         "NowShowing",
         "AdvanceBooking"
       ],
-      "posterUrl": null
-    },
-    {
-      "id": "HO00000693",
-      "title": "Aida",
-      "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
-      "releaseDate": "2026-08-08",
-      "runtimeInMinutes": 170,
-      "censorRating": "Contenido",
-      "genres": [
-        "Ópera"
-      ],
-      "director": "",
-      "webUrl": "http://www.cinecolombia.com/films/aida/HO00000693/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
       "tmdb": {
-        "tmdbId": 1370123,
-        "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
-      }
-    },
-    {
-      "id": "HO00000637",
-      "title": "Power Ballad",
-      "shortSynopsis": "Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 98,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia",
-        "Musical"
-      ],
-      "director": "John Carney",
-      "webUrl": "http://www.cinecolombia.com/films/power-ballad/HO00000637/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg",
-      "tmdb": {
-        "tmdbId": 1284016,
-        "posterPath": "/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg"
+        "tmdbId": 1728113,
+        "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
       }
     },
     {
@@ -365,6 +429,45 @@
       "tmdb": {
         "tmdbId": 1157322,
         "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
+      }
+    },
+    {
+      "id": "HO00000699",
+      "title": "Los futbolísimos 2. El misterio del tesoro pirata",
+      "shortSynopsis": "La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 95,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Miguel Ángel Lamata",
+      "webUrl": "http://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000481",
+      "title": "Tuner",
+      "shortSynopsis": "Henry, afinador veterano que pierde el oído, trabaja con Niki, joven con hiperacusia. Su talento para abrir cajas fuertes vuelve su oficio un peligro inesperado.",
+      "releaseDate": "2026-05-28",
+      "runtimeInMinutes": 109,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Crimen",
+        "Suspenso"
+      ],
+      "director": "Daniel Roher",
+      "webUrl": "http://www.cinecolombia.com/films/tuner/HO00000481/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg",
+      "tmdb": {
+        "tmdbId": 1340206,
+        "posterPath": "/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg"
       }
     },
     {
@@ -390,69 +493,24 @@
       }
     },
     {
-      "id": "HO00000609",
-      "title": "Backrooms",
-      "shortSynopsis": "Una extraña puerta aparece en el sótano de una sala de exposición de muebles.",
-      "releaseDate": "2026-05-28",
-      "runtimeInMinutes": 110,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror",
-        "Misterio"
-      ],
-      "director": "Kane Parsons",
-      "webUrl": "http://www.cinecolombia.com/films/backrooms/HO00000609/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg",
-      "tmdb": {
-        "tmdbId": 1083381,
-        "posterPath": "/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg"
-      }
-    },
-    {
-      "id": "HO00000430",
-      "title": "The Devil Wears Prada 2",
-      "shortSynopsis": "Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan",
-      "releaseDate": "2026-04-29",
-      "runtimeInMinutes": 120,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "David Frankel",
-      "webUrl": "http://www.cinecolombia.com/films/the-devil-wears-prada-2/HO00000430/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg",
-      "tmdb": {
-        "tmdbId": 1314481,
-        "posterPath": "/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg"
-      }
-    },
-    {
-      "id": "HO00000481",
-      "title": "Tuner",
-      "shortSynopsis": "Henry, afinador veterano que pierde el oído, trabaja con Niki, joven con hiperacusia. Su talento para abrir cajas fuertes vuelve su oficio un peligro inesperado.",
-      "releaseDate": "2026-05-28",
-      "runtimeInMinutes": 109,
+      "id": "HO00000715",
+      "title": "Habitante",
+      "shortSynopsis": "Dar una vuelta al mundo y filmar… Habitante emerge de los archivos del fotógrafo José Alejandro González, quien por dos décadas retrató conversaciones con desconocidos.",
+      "releaseDate": "2026-07-23",
+      "runtimeInMinutes": 89,
       "censorRating": "+12 Años",
       "genres": [
-        "Crimen",
-        "Suspenso"
+        "Documental"
       ],
-      "director": "Daniel Roher",
-      "webUrl": "http://www.cinecolombia.com/films/tuner/HO00000481/",
+      "director": "José Alejandro González",
+      "webUrl": "http://www.cinecolombia.com/films/habitante/HO00000715/",
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/iZuAN6T5QT28OXwiORRmmfiugrS.jpg",
       "tmdb": {
-        "tmdbId": 1340206,
-        "posterPath": "/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg"
+        "tmdbId": 1711961,
+        "posterPath": "/iZuAN6T5QT28OXwiORRmmfiugrS.jpg"
       }
     },
     {
@@ -522,28 +580,6 @@
       }
     },
     {
-      "id": "HO00000631",
-      "title": "Couture",
-      "shortSynopsis": "La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 106,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Alice Winocour",
-      "webUrl": "http://www.cinecolombia.com/films/couture/HO00000631/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg",
-      "tmdb": {
-        "tmdbId": 1390382,
-        "posterPath": "/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg"
-      }
-    },
-    {
       "id": "HO00000633",
       "title": "Coyote vs. Acme",
       "shortSynopsis": "Tras el fracaso de todos los productos ACME en su persecución del Correcaminos, Wile E. Coyote decide demandar a la corporación con ayuda del abogado Kevin Avery.",
@@ -564,28 +600,6 @@
       "tmdb": {
         "tmdbId": 1204680,
         "posterPath": "/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg"
-      }
-    },
-    {
-      "id": "HO00000655",
-      "title": "Dandelion's Odyssey",
-      "shortSynopsis": "Cuatro semillas de un diente de león son las únicas supervivientes de una serie de explosiones nucleares que están destruyendo la Tierra.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 75,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Animación"
-      ],
-      "director": "Momoko Seto",
-      "webUrl": "http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg",
-      "tmdb": {
-        "tmdbId": 999140,
-        "posterPath": "/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg"
       }
     },
     {
@@ -630,29 +644,6 @@
       "tmdb": {
         "tmdbId": 1127384,
         "posterPath": "/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg"
-      }
-    },
-    {
-      "id": "HO00000672",
-      "title": "Diamanti",
-      "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 135,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "Ferzan Özpetek",
-      "webUrl": "http://www.cinecolombia.com/films/diamanti/HO00000672/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg",
-      "tmdb": {
-        "tmdbId": 1299046,
-        "posterPath": "/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg"
       }
     },
     {
@@ -917,24 +908,6 @@
         "tmdbId": 961077,
         "posterPath": "/pae1NQnQW2fiVB4Aw3XwXJozd5u.jpg"
       }
-    },
-    {
-      "id": "HO00000699",
-      "title": "Los futbolísimos 2. El misterio del tesoro pirata",
-      "shortSynopsis": "La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 95,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia"
-      ],
-      "director": "Miguel Ángel Lamata",
-      "webUrl": "http://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": null
     },
     {
       "id": "HO00000634",
@@ -1299,29 +1272,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000501",
-      "title": "Ternet Ninja 3",
-      "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 88,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Animación",
-        "Familia",
-        "Comedia"
-      ],
-      "director": "Anders Matthesen",
-      "webUrl": "http://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
-      "tmdb": {
-        "tmdbId": 1215638,
-        "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
-      }
-    },
-    {
       "id": "HO00000708",
       "title": "The Bride",
       "shortSynopsis": "La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.",
@@ -1454,28 +1404,6 @@
       "tmdb": {
         "tmdbId": 1300968,
         "posterPath": "/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg"
-      }
-    },
-    {
-      "id": "HO00000647",
-      "title": "The Invite",
-      "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 107,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Comedia"
-      ],
-      "director": "Olivia Wilde",
-      "webUrl": "http://www.cinecolombia.com/films/the-invite/HO00000647/",
-      "categories": [
-        "NowShowing",
-        "AdvanceBooking"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg",
-      "tmdb": {
-        "tmdbId": 950028,
-        "posterPath": "/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg"
       }
     },
     {
@@ -1876,6 +1804,14 @@
     "HO00000713": {
       "tmdbId": 1409850,
       "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
+    },
+    "HO00000716": {
+      "tmdbId": 1693400,
+      "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
+    },
+    "HO00000715": {
+      "tmdbId": 1711961,
+      "posterPath": "/iZuAN6T5QT28OXwiORRmmfiugrS.jpg"
     }
   }
 }

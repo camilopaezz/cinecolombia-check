@@ -7,6 +7,62 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Habitante</title>
+      <link>http://www.cinecolombia.com/films/habitante/HO00000715/</link>
+      <guid isPermaLink="false">f237be72-ccf9-4b84-bd4a-9646c51ec5db</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Dar una vuelta al mundo y filmar… Habitante emerge de los archivos del fotógrafo José Alejandro González, quien por dos décadas retrató conversaciones con desconocidos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/iZuAN6T5QT28OXwiORRmmfiugrS.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: GHOST: 2 Big To Rig</title>
+      <link>http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/</link>
+      <guid isPermaLink="false">d9565d11-f090-4a4c-80b0-d0a3d049af55</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: The Devil Wears Prada 2</title>
+      <link>http://www.cinecolombia.com/films/the-devil-wears-prada-2/HO00000430/</link>
+      <guid isPermaLink="false">277b5582-623c-441e-974a-c2a85cbde64e</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Ternet Ninja 3</title>
+      <link>http://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
+      <guid isPermaLink="false">67383d1e-1d2d-43ef-a3fa-8cffe3f7e66d</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Backrooms</title>
+      <link>http://www.cinecolombia.com/films/backrooms/HO00000609/</link>
+      <guid isPermaLink="false">8e0b6de4-007f-430c-951f-a3eda3188493</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Una extraña puerta aparece en el sótano de una sala de exposición de muebles.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Power Ballad</title>
+      <link>http://www.cinecolombia.com/films/power-ballad/HO00000637/</link>
+      <guid isPermaLink="false">8e7f4704-6e94-4dac-974b-abf333dfe3f8</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: The Fires</title>
+      <link>http://www.cinecolombia.com/films/the-fires/HO00000664/</link>
+      <guid isPermaLink="false">9da3e3be-c145-4bf3-8c53-e2fda5b8266a</guid>
+      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
+      <description>Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Good Vibes Only</title>
       <link>http://www.cinecolombia.com/films/good-vibes-only/HO00000712/</link>
       <guid isPermaLink="false">7bff2b51-1197-429c-9749-fd80a7193393</guid>

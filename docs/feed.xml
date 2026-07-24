@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Preventa abierta: GHOST: 2 Big To Rig</title>
+      <link>http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/</link>
+      <guid isPermaLink="false">078e6068-e77c-4024-9821-300719a3a4f4</guid>
+      <pubDate>Fri, 24 Jul 2026 23:01:06 GMT</pubDate>
+      <description>2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: GHOST: 2 Big To Rig</title>
+      <link>http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/</link>
+      <guid isPermaLink="false">355b9813-89b7-44ab-8eee-3a13be437b84</guid>
+      <pubDate>Fri, 24 Jul 2026 23:01:06 GMT</pubDate>
+      <description>2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Habitante</title>
       <link>http://www.cinecolombia.com/films/habitante/HO00000715/</link>
       <guid isPermaLink="false">f237be72-ccf9-4b84-bd4a-9646c51ec5db</guid>

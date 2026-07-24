@@ -336,7 +336,8 @@
       "director": "Amir Juan Chamdin",
       "webUrl": "http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
       "categories": [
-        "ComingSoon"
+        "NowShowing",
+        "AdvanceBooking"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
       "tmdb": {

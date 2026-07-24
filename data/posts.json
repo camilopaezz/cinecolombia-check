@@ -3507,6 +3507,66 @@
           "posterPath": "/a6Mv7zd2kDYhjv6In48ci80HD91.jpg"
         }
       }
+    },
+    {
+      "guid": "078e6068-e77c-4024-9821-300719a3a4f4",
+      "type": "preventa-opens",
+      "filmId": "HO00000716",
+      "createdAt": "2026-07-24T23:01:06.254Z",
+      "snapshot": {
+        "id": "HO00000716",
+        "title": "GHOST: 2 Big To Rig",
+        "shortSynopsis": "2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. ",
+        "releaseDate": "2026-08-26",
+        "runtimeInMinutes": 115,
+        "censorRating": "Concierto",
+        "genres": [
+          "Concierto",
+          "Documental",
+          "Música"
+        ],
+        "director": "Amir Juan Chamdin",
+        "webUrl": "http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
+        "tmdb": {
+          "tmdbId": 1693400,
+          "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
+        }
+      }
+    },
+    {
+      "guid": "355b9813-89b7-44ab-8eee-3a13be437b84",
+      "type": "now-in-theaters",
+      "filmId": "HO00000716",
+      "createdAt": "2026-07-24T23:01:06.254Z",
+      "snapshot": {
+        "id": "HO00000716",
+        "title": "GHOST: 2 Big To Rig",
+        "shortSynopsis": "2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. ",
+        "releaseDate": "2026-08-26",
+        "runtimeInMinutes": 115,
+        "censorRating": "Concierto",
+        "genres": [
+          "Concierto",
+          "Documental",
+          "Música"
+        ],
+        "director": "Amir Juan Chamdin",
+        "webUrl": "http://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
+        "tmdb": {
+          "tmdbId": 1693400,
+          "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
+        }
+      }
     }
   ]
 }

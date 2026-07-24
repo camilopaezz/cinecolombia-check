@@ -86,8 +86,13 @@ export interface Event {
 export interface State {
   films: FilmRecord[];
   tmdbCache: Record<string, { tmdbId: number; posterPath: string | null }>;
+  /** Consecutive runs a film was absent while still soft-kept in `films`. */
+  missingRuns?: Record<string, number>;
   lastRun?: string;
 }
+
+/** Emit `removed` only after this many consecutive absent runs (debounce flaps). */
+export const REMOVAL_THRESHOLD = 2;
 
 export interface PostArchive {
   posts: Event[];
@@ -190,11 +195,28 @@ export function extractAuthToken(html: string): string {
 export function parseSitemap(xml: string): Record<string, string> {
   const map: Record<string, string> = {};
   for (const m of xml.matchAll(/<loc>([^<]+)<\/loc>/g)) {
-    const url = m[1].trim();
+    let url = m[1].trim();
+    if (url.startsWith("http://")) url = `https://${url.slice("http://".length)}`;
     const ho = url.match(/\/films\/[^/]+\/(HO\w+)\//);
     if (ho) map[ho[1]] = url;
   }
   return map;
+}
+
+function sortedUnique(values: string[]): string[] {
+  return [...new Set(values)].sort((a, b) => a.localeCompare(b, "en"));
+}
+
+/** Union availability categories across all site rows for each filmId. */
+export function mergeAvailabilityCategories(
+  rows: AvailabilityResponse["filmAvailabilities"],
+): Map<string, string[]> {
+  const avail = new Map<string, string[]>();
+  for (const row of rows) {
+    const prev = avail.get(row.filmId) ?? [];
+    avail.set(row.filmId, sortedUnique([...prev, ...row.categories]));
+  }
+  return avail;
 }
 
 export function buildFilmRecords(
@@ -205,7 +227,7 @@ export function buildFilmRecords(
   const cast = new Map(filmsRes.relatedData.castAndCrew.map((c) => [c.id, c.name]));
   const genres = new Map(filmsRes.relatedData.genres.map((g) => [g.id, txt(g.name)]));
   const censor = new Map(filmsRes.relatedData.censorRatings.map((c) => [c.id, txt(c.classification)]));
-  const avail = new Map(availRes.filmAvailabilities.map((a) => [a.filmId, a.categories]));
+  const avail = mergeAvailabilityCategories(availRes.filmAvailabilities);
 
   return filmsRes.films.map((f): FilmRecord => {
     const directorId = f.directors?.[0]?.castAndCrewMemberId;
@@ -217,7 +239,7 @@ export function buildFilmRecords(
       releaseDate: f.releaseDate ?? null,
       runtimeInMinutes: f.runtimeInMinutes ?? null,
       censorRating: f.censorRatingId ? censor.get(f.censorRatingId) ?? "" : "",
-      genres: (f.genreIds ?? []).map((id) => genres.get(id) ?? "").filter(Boolean),
+      genres: sortedUnique((f.genreIds ?? []).map((id) => genres.get(id) ?? "").filter(Boolean)),
       director,
       webUrl: sitemap[f.id] ?? "",
       categories: avail.get(f.id) ?? [],
@@ -226,13 +248,14 @@ export function buildFilmRecords(
   });
 }
 
-// ─── Diff ────────────────────────────────────────────────────────────────────
+// ─── Diff / lifecycle ────────────────────────────────────────────────────────
 
 export function diff(
   prev: Map<string, FilmRecord>,
   current: Map<string, FilmRecord>,
   deps: { now: () => Date; uuid: () => string },
 ): Event[] {
+  // Immediate add/gain/remove (no debounce). Prefer applyLifecycle in production.
   const events: Event[] = [];
   const createdAt = deps.now().toISOString();
   const mk = (type: EventType, filmId: string, snapshot: FilmRecord): Event => ({
@@ -258,11 +281,78 @@ export function diff(
       }
     }
   }
-  // 3. Films that left the catalog.
+  // 3. Films that left the catalog (immediate — tests / legacy).
   for (const id of [...prev.keys()].sort()) {
     if (!current.has(id)) events.push(mk("removed", id, prev.get(id)!));
   }
   return events;
+}
+
+/**
+ * Lifecycle with removal debounce.
+ * Soft-missing films stay in `films` until REMOVAL_THRESHOLD consecutive absences.
+ * Reappearance under threshold clears the counter and does not emit `added`.
+ */
+export function applyLifecycle(
+  prev: { films: FilmRecord[]; missingRuns?: Record<string, number> },
+  current: FilmRecord[],
+  deps: { now: () => Date; uuid: () => string },
+): { events: Event[]; films: FilmRecord[]; missingRuns: Record<string, number> } {
+  const prevMap = filmsToMap(prev.films);
+  const curMap = filmsToMap(current);
+  const missingRuns: Record<string, number> = { ...(prev.missingRuns ?? {}) };
+  const events: Event[] = [];
+  const createdAt = deps.now().toISOString();
+  const mk = (type: EventType, filmId: string, snapshot: FilmRecord): Event => ({
+    guid: deps.uuid(),
+    type,
+    filmId,
+    createdAt,
+    snapshot,
+  });
+
+  // 1. Truly new films (not in prev.films, which includes soft-missing).
+  for (const id of [...curMap.keys()].sort()) {
+    if (!prevMap.has(id)) events.push(mk("added", id, curMap.get(id)!));
+  }
+
+  // 2. Category gains on films already known (incl. soft-missing reappearance).
+  // Same-run AdvanceBooking + NowShowing → only now-in-theaters (prefer operational "in theaters").
+  for (const id of [...curMap.keys()].sort()) {
+    const cur = curMap.get(id)!;
+    const p = prevMap.get(id);
+    if (!p) continue;
+    if (missingRuns[id]) delete missingRuns[id];
+    const gained = GAIN_EVENTS.filter(
+      ({ category }) => cur.categories.includes(category) && !p.categories.includes(category),
+    );
+    const collapseToNow =
+      gained.some((g) => g.category === "AdvanceBooking") &&
+      gained.some((g) => g.category === "NowShowing");
+    for (const { category, type } of gained) {
+      if (collapseToNow && category === "AdvanceBooking") continue;
+      events.push(mk(type, id, cur));
+    }
+  }
+
+  // 3. Absent films: increment missingRuns; only emit removed at threshold.
+  // Empty current catalog is refused by main() before we get here.
+  const softKept: FilmRecord[] = [];
+  for (const id of [...prevMap.keys()].sort()) {
+    if (curMap.has(id)) continue;
+    const count = (missingRuns[id] ?? 0) + 1;
+    if (count >= REMOVAL_THRESHOLD) {
+      events.push(mk("removed", id, prevMap.get(id)!));
+      delete missingRuns[id];
+    } else {
+      missingRuns[id] = count;
+      softKept.push(prevMap.get(id)!);
+    }
+  }
+
+  // Present films (current snapshot) + soft-missing still under threshold.
+  const nextFilms = [...current, ...softKept].sort((a, b) => a.id.localeCompare(b.id));
+  return { events, films: nextFilms, missingRuns };
 }
 
 // ─── TMDB ────────────────────────────────────────────────────────────────────
@@ -299,6 +389,9 @@ export async function enrichPosters(
 
 // ─── Output generation ───────────────────────────────────────────────────────
 
+/** Newest N posts rendered in public feed/HTML; posts.json keeps full history. */
+export const FEED_LIMIT = 100;
+
 function escapeXml(s: string): string {
   return s
     .replace(/&/g, "&amp;")
@@ -327,6 +420,7 @@ export function generateFeed(
   const items = posts
     .slice()
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .slice(0, FEED_LIMIT)
     .map((p) => {
       const title = `${EVENT_LABELS[p.type]}: ${p.snapshot.title}`;
       const media = p.snapshot.posterUrl
@@ -373,6 +467,7 @@ export function generateHTML(
   const cards = posts
     .slice()
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .slice(0, FEED_LIMIT)
     .map((p) => {
       const title = `${EVENT_LABELS[p.type]}: ${p.snapshot.title}`;
       const poster = p.snapshot.posterUrl
@@ -475,15 +570,32 @@ export function savePosts(path: string, archive: PostArchive): void {
 
 const OCAPI_BASE = "https://digital-api.cinecolombia.com/";
 
-function runCapture(cmd: string, args: string[]): Promise<string> {
+const FETCH_TIMEOUT_MS = 30_000;
+const CURL_TIMEOUT_MS = 60_000;
+
+function runCapture(cmd: string, args: string[], timeoutMs = CURL_TIMEOUT_MS): Promise<string> {
   const proc = Bun.spawn([cmd, ...args], { stdout: "pipe", stderr: "pipe" });
   const stdout = Bun.readableStreamToText(proc.stdout);
   const stderr = Bun.readableStreamToText(proc.stderr);
-  return proc.exited.then(async (code) => {
+  const done = proc.exited.then(async (code) => {
     const out = await stdout;
     if (code !== 0) throw new Error(`${cmd} exited ${code}: ${await stderr}`);
     return out;
   });
+  // Swallow late rejection if the race already settled on timeout.
+  void done.catch(() => {});
+  const timedOut = new Promise<never>((_, reject) => {
+    const t = setTimeout(() => {
+      try {
+        proc.kill();
+      } catch {
+        /* already exited */
+      }
+      reject(new Error(`${cmd} timed out after ${timeoutMs}ms`));
+    }, timeoutMs);
+    done.finally(() => clearTimeout(t));
+  });
+  return Promise.race([done, timedOut]);
 }
 
 export const liveDeps: Deps = {
@@ -494,12 +606,15 @@ export const liveDeps: Deps = {
   async ocapi(token, path) {
     const res = await fetch(`${OCAPI_BASE}ocapi/v1/${path}`, {
       headers: { Accept: "application/json", Authorization: `Bearer ${token}` },
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
     });
     if (!res.ok) throw new Error(`OCAPI ${path} -> ${res.status}`);
     return res.json();
   },
   async fetchSitemap() {
-    const res = await fetch("https://www.cinecolombia.com/sitemap.xml");
+    const res = await fetch("https://www.cinecolombia.com/sitemap.xml", {
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
     if (!res.ok) throw new Error(`sitemap -> ${res.status}`);
     return res.text();
   },
@@ -509,7 +624,7 @@ export const liveDeps: Deps = {
     url.searchParams.set("query", query);
     url.searchParams.set("language", "es-CO");
     if (year) url.searchParams.set("year", year);
-    const res = await fetch(url);
+    const res = await fetch(url, { signal: AbortSignal.timeout(FETCH_TIMEOUT_MS) });
     if (!res.ok) throw new Error(`tmdb -> ${res.status}`);
     const data = (await res.json()) as { results?: { id: number; poster_path: string | null }[] };
     const top = data.results?.[0];
@@ -524,6 +639,7 @@ export const liveDeps: Deps = {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body,
+        signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
       });
       if (res.status === 429) {
         const retryAfter = ((await res.json()) as { retry_after?: number })?.retry_after ?? 1;
@@ -532,6 +648,7 @@ export const liveDeps: Deps = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body,
+          signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
         });
       }
       if (!res.ok) throw new Error(`discord -> ${res.status}`);
@@ -541,19 +658,42 @@ export const liveDeps: Deps = {
 
 // ─── Deployment ──────────────────────────────────────────────────────────────
 
-function git(args: string[]): { ok: boolean; stdout: string } {
+function git(args: string[]): { ok: boolean; stdout: string; stderr: string } {
   const r = Bun.spawnSync(["git", ...args], { cwd: process.cwd() });
-  return { ok: r.exitCode === 0, stdout: r.stdout?.toString() ?? "" };
+  return {
+    ok: r.exitCode === 0,
+    stdout: r.stdout?.toString() ?? "",
+    stderr: r.stderr?.toString() ?? "",
+  };
 }
 
-async function tryGitPush(): Promise<void> {
+/** Commit subject from this run's lifecycle events, e.g. "ci: update feed (added:2, removed:1)". */
+export function formatCommitMessage(events: Event[]): string {
+  if (events.length === 0) return "ci: update feed (no events)";
+  const typeCounts = new Map<EventType, number>();
+  for (const e of events) typeCounts.set(e.type, (typeCounts.get(e.type) ?? 0) + 1);
+  const parts = [...typeCounts.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([t, n]) => `${t}:${n}`);
+  return `ci: update feed (${parts.join(", ")})`;
+}
+
+async function tryGitPush(events: Event[]): Promise<void> {
   const status = git(["status", "--porcelain", "docs", "data"]).stdout.trim();
   if (!status) return;
-  git(["add", "docs", "data"]);
-  git(["commit", "-m", "ci: update feed"]);
+  const add = git(["add", "docs", "data"]);
+  if (!add.ok) throw new Error(`git add failed: ${add.stderr || add.stdout}`);
+  const message = formatCommitMessage(events);
+  const commit = git(["commit", "-m", message]);
+  if (!commit.ok) {
+    const detail = `${commit.stdout}\n${commit.stderr}`.toLowerCase();
+    // Nothing staged (or working tree clean) — skip push; state already saved.
+    if (detail.includes("nothing to commit") || detail.includes("no changes added")) return;
+    throw new Error(`git commit failed: ${commit.stderr || commit.stdout}`);
+  }
   const push = git(["push"]);
   if (!push.ok) {
-    console.error("git push failed; aborting without retry. Next run will retry.");
+    console.error("git push failed; state already saved. Next dirty scrape will retry push.");
     throw new Error("git push failed (non-fast-forward?)");
   }
 }
@@ -561,6 +701,7 @@ async function tryGitPush(): Promise<void> {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 export async function main(options: MainOptions = {}): Promise<void> {
+  const startedAt = Date.now();
   const dataDir = options.dataDir ?? "data";
   const docsDir = options.docsDir ?? "docs";
   const statePath = join(dataDir, "state.json");
@@ -582,36 +723,76 @@ export async function main(options: MainOptions = {}): Promise<void> {
   const sitemapXml = await deps.fetchSitemap();
   const sitemap = parseSitemap(sitemapXml);
   const current = buildFilmRecords(filmsRes, availRes, sitemap);
+  // Empty HTTP-200 catalog would burn through removal debounce and wipe state.
+  if (current.length === 0 && prev.films.length > 0) {
+    throw new Error(
+      `empty OCAPI catalog with ${prev.films.length} known films — aborting before write`,
+    );
+  }
   await enrichPosters(current, prev.tmdbCache, tmdbApiKey, deps.tmdb);
-  const events = diff(filmsToMap(prev.films), filmsToMap(current), deps);
+  // prev.films includes soft-missing titles so reappearance is not mis-emitted as added.
+  const { events, films, missingRuns } = applyLifecycle(prev, current, deps);
   const archive = loadPosts(postsPath);
-  archive.posts.push(...events);
+  // Cold start = virgin install only. Empty films after a wipe (lastRun or feed history present)
+  // must still archive re-adds — never suppress when history already exists.
+  const coldStart =
+    prev.films.length === 0 && !prev.lastRun && archive.posts.length === 0;
+  // Cold start seeds state only — do not pollute the public feed with bulk "added" posts.
+  const archivedEvents = coldStart ? [] : events;
+  if (archivedEvents.length > 0) archive.posts.push(...archivedEvents);
+  // Only bump lastRun when lifecycle/payload actually changed — keeps quiet runs commit-free.
+  const prevMissing = prev.missingRuns ?? {};
+  const meaningfulChange =
+    coldStart ||
+    archivedEvents.length > 0 ||
+    JSON.stringify(films) !== JSON.stringify(prev.films) ||
+    JSON.stringify(missingRuns) !== JSON.stringify(prevMissing);
   const newState: State = {
-    films: current,
+    films,
     tmdbCache: prev.tmdbCache,
+    missingRuns,
+    lastRun: meaningfulChange ? deps.now().toISOString() : prev.lastRun,
   };
   const feed = generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" });
   const html = generateHTML(archive.posts, { feedTitle, language: "es-CO" });
 
   // Everything succeeded — now persist.
+  // Posts before state so a crash mid-write prefers re-emitting events over losing them.
   ensureDir(dataDir);
   ensureDir(docsDir);
-  saveState(statePath, newState);
   savePosts(postsPath, archive);
-  await Bun.write(feedPath, feed);
-  await Bun.write(htmlPath, html);
+  saveState(statePath, newState);
+  atomicWrite(feedPath, feed);
+  atomicWrite(htmlPath, html);
 
-  // Notify on transitions only — never on a cold start (empty previous state).
-  if (events.length > 0 && prev.films.length > 0 && notifyWebhookUrl) {
+  // Notify on transitions only — never on a cold start (virgin previous state).
+  if (archivedEvents.length > 0 && notifyWebhookUrl) {
     try {
-      await deps.notify(events, notifyWebhookUrl);
+      await deps.notify(archivedEvents, notifyWebhookUrl);
     } catch (e) {
       console.error("notify failed (non-fatal):", e);
     }
   }
 
   if ((options.gitPush ?? process.env.CINECO_GIT_PUSH === "1") === true) {
-    await tryGitPush();
+    await tryGitPush(archivedEvents);
+  }
+
+  if (coldStart) {
+    console.log(
+      `cold start: ${films.length} films seeded, 0 events archived durationMs=${Date.now() - startedAt}`,
+    );
+  } else {
+    const typeCounts = new Map<EventType, number>();
+    for (const e of archivedEvents) typeCounts.set(e.type, (typeCounts.get(e.type) ?? 0) + 1);
+    const types =
+      [...typeCounts.entries()]
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([t, n]) => `${t}:${n}`)
+        .join(",") || "-";
+    console.log(
+      `scrape ok films=${films.length} events=${archivedEvents.length} types=${types} durationMs=${Date.now() - startedAt}`,
+    );
   }
 }
 

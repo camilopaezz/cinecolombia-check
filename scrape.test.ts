@@ -10,17 +10,21 @@ import type {
   FilmsResponse,
 } from "./scrape.ts";
 import {
+  applyLifecycle,
   buildFilmRecords,
   buildDiscordEmbed,
   diff,
   enrichPosters,
   extractAuthToken,
+  FEED_LIMIT,
+  formatCommitMessage,
   generateFeed,
   generateHTML,
   loadPosts,
   loadState,
   main,
   parseSitemap,
+  REMOVAL_THRESHOLD,
 } from "./scrape.ts";
 
 // ─── Fixtures ────────────────────────────────────────────────────────────────
@@ -102,6 +106,14 @@ describe("parseSitemap", () => {
       HO00000471: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
     });
   });
+
+  it("upgrades http film URLs to https", () => {
+    const httpSitemap = `<?xml version="1.0"?>
+<urlset><url><loc>http://www.cinecolombia.com/films/toy-story-5/HO00000471/</loc></url></urlset>`;
+    expect(parseSitemap(httpSitemap)).toEqual({
+      HO00000471: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
+    });
+  });
 });
 
 describe("buildFilmRecords", () => {
@@ -119,6 +131,46 @@ describe("buildFilmRecords", () => {
     expect(ts.webUrl).toBe("https://www.cinecolombia.com/films/toy-story-5/HO00000471/");
     expect(ts.categories).toEqual(["ComingSoon"]);
     expect(ts.posterUrl).toBeNull();
+  });
+
+  it("normalizes categories and genres to sorted unique arrays", () => {
+    const res: FilmsResponse = {
+      films: [
+        {
+          ...film("HO00000471", "Toy Story 5"),
+          genreIds: ["0000000002", "0000000005", "0000000002"],
+        },
+      ],
+      relatedData: {
+        castAndCrew: [{ id: "0000003505", name: { givenName: "Pixar", familyName: "Director" } }],
+        genres: [
+          { id: "0000000005", name: { text: "Animación" } },
+          { id: "0000000002", name: { text: "Comedia" } },
+        ],
+        censorRatings: [{ id: "HO00000001", classification: { text: "Todos" } }],
+        events: [],
+      },
+    };
+    const recs = buildFilmRecords(
+      res,
+      availability({ HO00000471: ["NowShowing", "ComingSoon", "NowShowing"] }),
+      parseSitemap(sitemap),
+    );
+    expect(recs[0].categories).toEqual(["ComingSoon", "NowShowing"]);
+    expect(recs[0].genres).toEqual(["Animación", "Comedia"]);
+  });
+
+  it("unions availability categories across multiple site rows for one film", () => {
+    const multiSite: AvailabilityResponse = {
+      filmAvailabilities: [
+        { filmId: "HO00000471", siteId: "site-a", categories: ["AdvanceBooking"] },
+        { filmId: "HO00000471", siteId: "site-b", categories: ["NowShowing"] },
+        { filmId: "HO00000386", siteId: "site-a", categories: ["NowShowing"] },
+      ],
+    };
+    const recs = buildFilmRecords(filmsResponse(), multiSite, parseSitemap(sitemap));
+    const ts = recs.find((r) => r.id === "HO00000471")!;
+    expect(ts.categories).toEqual(["AdvanceBooking", "NowShowing"]);
   });
 });
 
@@ -160,6 +212,99 @@ describe("diff", () => {
     const prev = new Map([["A", rec("A", ["NowShowing"])]]);
     const cur = new Map([["A", rec("A", ["NowShowing"])]]);
     expect(diff(prev, cur, D)).toHaveLength(0);
+  });
+});
+
+describe("applyLifecycle (removal debounce)", () => {
+  const rec = (id: string, categories: string[], title = id): FilmRecord => ({
+    id,
+    title,
+    shortSynopsis: "",
+    releaseDate: null,
+    runtimeInMinutes: null,
+    censorRating: "",
+    genres: [],
+    director: "",
+    webUrl: "",
+    categories,
+    posterUrl: null,
+  });
+  const D = { now: fixedNow, uuid: fakeUuid };
+
+  it("missing once: no removed, film stays soft-missing, missingRuns=1", () => {
+    counter = 0;
+    const prev = { films: [rec("A", ["NowShowing"])], missingRuns: {} };
+    const result = applyLifecycle(prev, [], D);
+    expect(result.events).toHaveLength(0);
+    expect(result.films.map((f) => f.id)).toEqual(["A"]);
+    expect(result.missingRuns).toEqual({ A: 1 });
+  });
+
+  it("missing twice (REMOVAL_THRESHOLD): emits removed and drops film", () => {
+    counter = 0;
+    expect(REMOVAL_THRESHOLD).toBe(2);
+    const prev = {
+      films: [rec("A", ["NowShowing"], "Gone Film")],
+      missingRuns: { A: 1 },
+    };
+    const result = applyLifecycle(prev, [], D);
+    expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["removed:A"]);
+    expect(result.events[0]!.snapshot.title).toBe("Gone Film");
+    expect(result.films).toHaveLength(0);
+    expect(result.missingRuns).toEqual({});
+  });
+
+  it("missing once then returns: no removed, no added, missingRuns cleared", () => {
+    counter = 0;
+    const soft = {
+      films: [rec("A", ["NowShowing"], "Old Title")],
+      missingRuns: { A: 1 },
+    };
+    const returned = [rec("A", ["NowShowing"], "Updated Title")];
+    const result = applyLifecycle(soft, returned, D);
+    expect(result.events).toHaveLength(0);
+    expect(result.films).toHaveLength(1);
+    expect(result.films[0]!.title).toBe("Updated Title");
+    expect(result.missingRuns).toEqual({});
+  });
+
+  it("truly new film still emits added; gains still emit", () => {
+    counter = 0;
+    const prev = { films: [rec("A", ["ComingSoon"])] };
+    const cur = [
+      rec("A", ["ComingSoon", "AdvanceBooking"]),
+      rec("B", ["NowShowing"]),
+    ];
+    const result = applyLifecycle(prev, cur, D);
+    expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual([
+      "added:B",
+      "preventa-opens:A",
+    ]);
+    expect(result.missingRuns).toEqual({});
+  });
+
+  it("same-run preventa + now collapses to only now-in-theaters for existing film", () => {
+    counter = 0;
+    const prev = { films: [rec("A", ["ComingSoon"])] };
+    const cur = [rec("A", ["ComingSoon", "AdvanceBooking", "NowShowing"])];
+    const result = applyLifecycle(prev, cur, D);
+    expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
+  });
+
+  it("separate runs still emit preventa then now independently", () => {
+    counter = 0;
+    const afterPreventa = applyLifecycle(
+      { films: [rec("A", ["ComingSoon"])] },
+      [rec("A", ["ComingSoon", "AdvanceBooking"])],
+      D,
+    );
+    expect(afterPreventa.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["preventa-opens:A"]);
+    const afterNow = applyLifecycle(
+      { films: afterPreventa.films, missingRuns: afterPreventa.missingRuns },
+      [rec("A", ["ComingSoon", "AdvanceBooking", "NowShowing"])],
+      D,
+    );
+    expect(afterNow.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
   });
 });
 
@@ -230,6 +375,94 @@ describe("generateHTML", () => {
     expect(html).toContain("En cartelera");
     expect(html).toContain("F9");
     expect(html).toContain('href="https://www.cinecolombia.com/x/"');
+  });
+});
+
+describe("FEED_LIMIT window", () => {
+  const snapshot = (title: string): FilmRecord => ({
+    id: "HO1",
+    title,
+    shortSynopsis: "Sinopsis",
+    releaseDate: null,
+    runtimeInMinutes: null,
+    censorRating: "",
+    genres: [],
+    director: "",
+    webUrl: "https://www.cinecolombia.com/x/",
+    categories: ["ComingSoon"],
+    posterUrl: null,
+  });
+
+  const manyPosts = (): Event[] =>
+    Array.from({ length: FEED_LIMIT + 5 }, (_, i) => ({
+      guid: `guid-${i}`,
+      type: "added" as const,
+      filmId: `HO${i}`,
+      createdAt: new Date(Date.UTC(2026, 0, 1, 0, 0, i)).toISOString(),
+      snapshot: snapshot(`Film ${i}`),
+    }));
+
+  it("renders only the newest FEED_LIMIT posts in feed and HTML", () => {
+    const posts = manyPosts();
+    const newest = posts[posts.length - 1]!;
+    const oldest = posts[0]!;
+
+    const xml = generateFeed(posts, {
+      feedTitle: "Feed",
+      feedUrl: "https://x/feed.xml",
+      language: "es-CO",
+    });
+    const itemCount = (xml.match(/<item>/g) ?? []).length;
+    expect(itemCount).toBe(FEED_LIMIT);
+    expect(xml).toContain(newest.guid);
+    expect(xml).toContain(`Pronto: ${newest.snapshot.title}`);
+    expect(xml).not.toContain(oldest.guid);
+    expect(xml).not.toContain(`Pronto: ${oldest.snapshot.title}`);
+
+    const html = generateHTML(posts, { feedTitle: "Feed", language: "es-CO" });
+    const articleCount = (html.match(/<article class="post">/g) ?? []).length;
+    expect(articleCount).toBe(FEED_LIMIT);
+    expect(html).toContain(newest.snapshot.title);
+    expect(html).not.toContain(oldest.snapshot.title);
+  });
+});
+
+// ─── Git commit message ──────────────────────────────────────────────────────
+
+describe("formatCommitMessage", () => {
+  const ev = (type: Event["type"], filmId: string): Event => ({
+    guid: `g-${filmId}-${type}`,
+    type,
+    filmId,
+    createdAt: "2026-07-01T18:00:00Z",
+    snapshot: {
+      id: filmId,
+      title: filmId,
+      shortSynopsis: "",
+      releaseDate: null,
+      runtimeInMinutes: null,
+      censorRating: "",
+      genres: [],
+      director: "",
+      webUrl: "",
+      categories: [],
+      posterUrl: null,
+    },
+  });
+
+  it("summarizes event counts sorted by type", () => {
+    expect(
+      formatCommitMessage([
+        ev("removed", "A"),
+        ev("added", "B"),
+        ev("added", "C"),
+        ev("preventa-opens", "D"),
+      ]),
+    ).toBe("ci: update feed (added:2, preventa-opens:1, removed:1)");
+  });
+
+  it("uses (no events) when the list is empty", () => {
+    expect(formatCommitMessage([])).toBe("ci: update feed (no events)");
   });
 });
 
@@ -326,7 +559,7 @@ describe("main (full scraper run)", () => {
       },
     });
 
-    // Run 1: empty previous state -> both films added.
+    // Run 1: empty previous state (cold start) -> seed state, archive no events.
     await main({
       dataDir,
       docsDir,
@@ -338,23 +571,26 @@ describe("main (full scraper run)", () => {
 
     const state = loadState(join(dataDir, "state.json"));
     expect(state.films).toHaveLength(2);
+    // Films sorted by id ascending (OCAPI order is unstable).
+    expect(state.films.map((f) => f.id)).toEqual(["HO00000386", "HO00000471"]);
     expect(state.tmdbCache["HO00000471"]).toEqual({ tmdbId: 1, posterPath: "/abc.jpg" });
+    expect(state.lastRun).toBe(fixedNow().toISOString());
 
     const after1 = loadPosts(join(dataDir, "posts.json"));
-    expect(after1.posts.map((p) => p.type)).toEqual(["added", "added"]);
+    expect(after1.posts).toHaveLength(0);
 
     const feed = await Bun.file(join(docsDir, "feed.xml")).text();
-    expect(feed).toContain("Pronto: Toy Story 5");
-    expect(feed).toContain("Pronto: F9");
+    expect(feed).not.toContain("Pronto: Toy Story 5");
+    expect(feed).not.toContain("Pronto: F9");
 
     const html = await Bun.file(join(docsDir, "index.html")).text();
-    expect(html).toContain("Toy Story 5");
+    expect(html).not.toContain("Toy Story 5");
 
-    // Run 2: HO00000471 gains AdvanceBooking -> preventa opens.
+    // Run 2: HO00000471 gains AdvanceBooking -> preventa opens (archived).
     avail = { HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] };
     await main({ dataDir, docsDir, feedUrl: "https://x/feed.xml", tmdbApiKey: "k", gitPush: false, deps: runDeps() });
     const after2 = loadPosts(join(dataDir, "posts.json"));
-    expect(after2.posts.map((p) => p.type)).toEqual(["added", "added", "preventa-opens"]);
+    expect(after2.posts.map((p) => p.type)).toEqual(["preventa-opens"]);
     const feed2 = await Bun.file(join(docsDir, "feed.xml")).text();
     expect(feed2).toContain("Preventa abierta: Toy Story 5");
 
@@ -401,7 +637,7 @@ describe("main (full scraper run)", () => {
       },
     });
 
-    // Run 1: cold start -> events archived but NO notification.
+    // Run 1: cold start -> no archive, no notification.
     await main({
       dataDir,
       docsDir,
@@ -412,6 +648,7 @@ describe("main (full scraper run)", () => {
       deps: notifyDeps(),
     });
     expect(notified).toEqual([]);
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
 
     // Run 2: transition -> notification fired with the preventa event.
     avail = { HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] };
@@ -479,6 +716,7 @@ describe("main (full scraper run)", () => {
           },
         ],
         tmdbCache: {},
+        lastRun: "2026-06-01T00:00:00.000Z",
       }),
     );
     const failDeps = (): Deps => ({
@@ -511,6 +749,271 @@ describe("main (full scraper run)", () => {
     // Files were still written despite the notification failure.
     const posts = loadPosts(join(dataDir, "posts.json"));
     expect(posts.posts.map((p) => p.type)).toContain("preventa-opens");
+  });
+
+  it("soft-keeps a missing film once, removes at threshold, re-adds after full remove", async () => {
+    const dataDir = join(dir, "data-debounce");
+    const docsDir = join(dir, "docs-debounce");
+    const rec = {
+      id: "HO00000471",
+      title: "Toy Story 5",
+      shortSynopsis: "Sinopsis de Toy Story 5",
+      releaseDate: "2026-06-18",
+      runtimeInMinutes: 102,
+      censorRating: "Todos",
+      genres: ["Animación"],
+      director: "Pixar Director",
+      webUrl: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
+      categories: ["ComingSoon"],
+      posterUrl: "https://image.tmdb.org/t/p/w500/abc.jpg",
+      tmdb: { tmdbId: 1, posterPath: "/abc.jpg" },
+    };
+    const recB = {
+      ...rec,
+      id: "HO00000386",
+      title: "F9",
+      shortSynopsis: "Sinopsis de F9",
+      categories: ["NowShowing"],
+      webUrl: "",
+    };
+    await Bun.write(
+      join(dataDir, "state.json"),
+      JSON.stringify({
+        films: [recB, rec],
+        tmdbCache: {
+          HO00000471: { tmdbId: 1, posterPath: "/abc.jpg" },
+          HO00000386: { tmdbId: 1, posterPath: "/abc.jpg" },
+        },
+        missingRuns: {},
+        lastRun: "2026-06-01T00:00:00.000Z",
+      }) + "\n",
+    );
+    await Bun.write(join(dataDir, "posts.json"), JSON.stringify({ posts: [] }) + "\n");
+
+    let filmIds = ["HO00000386"]; // A absent once
+    const runDeps = (): Deps => ({
+      ...deps(),
+      async ocapi(_t, path) {
+        if (path === "films") {
+          const full = filmsResponse();
+          return { ...full, films: full.films.filter((f) => filmIds.includes(f.id)) };
+        }
+        if (path === "films/availability")
+          return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
+        throw new Error(`unexpected path ${path}`);
+      },
+    });
+
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    let state = loadState(join(dataDir, "state.json"));
+    expect(state.films.map((f) => f.id).sort()).toEqual(["HO00000386", "HO00000471"]);
+    expect(state.missingRuns).toEqual({ HO00000471: 1 });
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
+
+    // Second absence → removed
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    state = loadState(join(dataDir, "state.json"));
+    expect(state.films.map((f) => f.id)).toEqual(["HO00000386"]);
+    expect(state.missingRuns).toEqual({});
+    expect(loadPosts(join(dataDir, "posts.json")).posts.map((p) => `${p.type}:${p.filmId}`)).toEqual([
+      "removed:HO00000471",
+    ]);
+
+    // Re-add A (true new after full remove), then soft-miss once and return → no second added/removed.
+    filmIds = ["HO00000386", "HO00000471"];
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    expect(
+      loadPosts(join(dataDir, "posts.json")).posts.map((p) => `${p.type}:${p.filmId}`),
+    ).toEqual(["removed:HO00000471", "added:HO00000471"]);
+
+    filmIds = ["HO00000386"];
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    expect(loadState(join(dataDir, "state.json")).missingRuns).toEqual({ HO00000471: 1 });
+    filmIds = ["HO00000386", "HO00000471"];
+    const postsBeforeReturn = loadPosts(join(dataDir, "posts.json")).posts.length;
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(postsBeforeReturn);
+    expect(loadState(join(dataDir, "state.json")).missingRuns).toEqual({});
+  });
+
+  it("archives re-adds after emptied catalog (not cold start when lastRun set)", async () => {
+    const dataDir = join(dir, "data-wipe-recovery");
+    const docsDir = join(dir, "docs-wipe-recovery");
+    await Bun.write(
+      join(dataDir, "state.json"),
+      JSON.stringify({
+        films: [],
+        tmdbCache: { HO00000471: { tmdbId: 1, posterPath: "/abc.jpg" } },
+        missingRuns: {},
+        lastRun: "2026-06-01T00:00:00.000Z",
+      }) + "\n",
+    );
+    await Bun.write(
+      join(dataDir, "posts.json"),
+      JSON.stringify({
+        posts: [
+          {
+            guid: "old-removed",
+            type: "removed",
+            filmId: "HO00000471",
+            createdAt: "2026-06-01T00:00:00.000Z",
+            snapshot: {
+              id: "HO00000471",
+              title: "Toy Story 5",
+              shortSynopsis: "",
+              releaseDate: null,
+              runtimeInMinutes: null,
+              censorRating: "",
+              genres: [],
+              director: "",
+              webUrl: "",
+              categories: ["ComingSoon"],
+              posterUrl: null,
+            },
+          },
+        ],
+      }) + "\n",
+    );
+    const notified: string[] = [];
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      notifyWebhookUrl: "https://discord.example/webhook",
+      deps: {
+        ...deps(),
+        async notify(events) {
+          notified.push(...events.map((e) => `${e.type}:${e.filmId}`));
+        },
+      },
+    });
+    const posts = loadPosts(join(dataDir, "posts.json")).posts.map((p) => `${p.type}:${p.filmId}`);
+    expect(posts).toContain("added:HO00000471");
+    expect(posts).toContain("added:HO00000386");
+    expect(notified).toEqual(expect.arrayContaining(["added:HO00000471", "added:HO00000386"]));
+  });
+
+  it("aborts empty catalog without writing when previous films exist", async () => {
+    const dataDir = join(dir, "data-empty-catalog");
+    const docsDir = join(dir, "docs-empty-catalog");
+    const seeded = {
+      films: [
+        {
+          id: "HO00000471",
+          title: "Toy Story 5",
+          shortSynopsis: "",
+          releaseDate: null,
+          runtimeInMinutes: null,
+          censorRating: "",
+          genres: [],
+          director: "",
+          webUrl: "",
+          categories: ["ComingSoon"],
+          posterUrl: null,
+        },
+      ],
+      tmdbCache: {},
+      lastRun: "2026-06-01T00:00:00.000Z",
+    };
+    await Bun.write(join(dataDir, "state.json"), JSON.stringify(seeded) + "\n");
+    await Bun.write(join(dataDir, "posts.json"), JSON.stringify({ posts: [] }) + "\n");
+    await expect(
+      main({
+        dataDir,
+        docsDir,
+        feedUrl: "https://x/feed.xml",
+        gitPush: false,
+        deps: {
+          ...deps(),
+          async ocapi(_t, path) {
+            if (path === "films") return { ...filmsResponse(), films: [] };
+            if (path === "films/availability") return availability({});
+            throw new Error(`unexpected path ${path}`);
+          },
+        },
+      }),
+    ).rejects.toThrow("empty OCAPI catalog");
+    expect(loadState(join(dataDir, "state.json")).films).toHaveLength(1);
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
+  });
+
+  it("does not bump lastRun on a quiet identical rerun", async () => {
+    const dataDir = join(dir, "data-quiet-lastrun");
+    const docsDir = join(dir, "docs-quiet-lastrun");
+    let tick = 0;
+    const advancingNow = () => new Date(Date.UTC(2026, 6, 1, 18, tick++, 0));
+    const base = deps();
+    const runDeps = (): Deps => ({
+      ...base,
+      now: advancingNow,
+      async ocapi(_t, path) {
+        if (path === "films") return filmsResponse();
+        if (path === "films/availability")
+          return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
+        throw new Error(`unexpected path ${path}`);
+      },
+    });
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    const last1 = loadState(join(dataDir, "state.json")).lastRun;
+    expect(last1).toBeTruthy();
+    const stateJson1 = await Bun.file(join(dataDir, "state.json")).text();
+    const postsJson1 = await Bun.file(join(dataDir, "posts.json")).text();
+    await main({
+      dataDir,
+      docsDir,
+      feedUrl: "https://x/feed.xml",
+      tmdbApiKey: "k",
+      gitPush: false,
+      deps: runDeps(),
+    });
+    const last2 = loadState(join(dataDir, "state.json")).lastRun;
+    expect(last2).toBe(last1);
+    expect(await Bun.file(join(dataDir, "state.json")).text()).toBe(stateJson1);
+    expect(await Bun.file(join(dataDir, "posts.json")).text()).toBe(postsJson1);
   });
 });
 

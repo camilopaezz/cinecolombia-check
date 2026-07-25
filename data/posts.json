@@ -3567,6 +3567,29 @@
           "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
         }
       }
+    },
+    {
+      "guid": "fe19925e-0017-4d3b-8bef-89ce083ac165",
+      "type": "removed",
+      "filmId": "HO00000694",
+      "createdAt": "2026-07-25T17:00:57.791Z",
+      "snapshot": {
+        "id": "HO00000694",
+        "title": "The Merry Widow",
+        "shortSynopsis": "La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.",
+        "releaseDate": "2026-07-25",
+        "runtimeInMinutes": 152,
+        "censorRating": "Contenido",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "",
+        "webUrl": "http://www.cinecolombia.com/films/the-merry-widow/HO00000694/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

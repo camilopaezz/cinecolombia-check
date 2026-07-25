@@ -94,6 +94,18 @@ export interface State {
 /** Emit `removed` only after this many consecutive absent runs (debounce flaps). */
 export const REMOVAL_THRESHOLD = 2;
 
+/**
+ * Cap how many `removed` events a single run may emit when the catalog is large.
+ * Empty catalog is aborted separately; this catches partial bad payloads.
+ */
+export const MAX_REMOVAL_FRACTION = 0.3;
+
+/** Max removals allowed this run given previous film count (small catalogs unrestricted). */
+export function maxRemovalsAllowed(prevFilmCount: number): number {
+  if (prevFilmCount < 10) return prevFilmCount;
+  return Math.max(10, Math.floor(prevFilmCount * MAX_REMOVAL_FRACTION));
+}
+
 export interface PostArchive {
   posts: Event[];
 }
@@ -732,6 +744,13 @@ export async function main(options: MainOptions = {}): Promise<void> {
   await enrichPosters(current, prev.tmdbCache, tmdbApiKey, deps.tmdb);
   // prev.films includes soft-missing titles so reappearance is not mis-emitted as added.
   const { events, films, missingRuns } = applyLifecycle(prev, current, deps);
+  const removalCount = events.filter((e) => e.type === "removed").length;
+  const removalCap = maxRemovalsAllowed(prev.films.length);
+  if (removalCount > removalCap) {
+    throw new Error(
+      `refusing bulk removal: ${removalCount} removed > cap ${removalCap} (prev films=${prev.films.length}) — aborting before write`,
+    );
+  }
   const archive = loadPosts(postsPath);
   // Cold start = virgin install only. Empty films after a wipe (lastRun or feed history present)
   // must still archive re-adds — never suppress when history already exists.

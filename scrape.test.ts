@@ -23,6 +23,7 @@ import {
   loadPosts,
   loadState,
   main,
+  maxRemovalsAllowed,
   parseSitemap,
   REMOVAL_THRESHOLD,
 } from "./scrape.ts";
@@ -668,12 +669,38 @@ describe("main (full scraper run)", () => {
     const dataDir = join(dir, "data-no-webhook");
     const docsDir = join(dir, "docs-no-webhook");
     let notifyCalled = false;
+    // Seed non-cold state so a real transition would notify if the URL guard broke.
+    await Bun.write(
+      join(dataDir, "state.json"),
+      JSON.stringify({
+        films: [
+          {
+            id: "HO00000471",
+            title: "Toy Story 5",
+            shortSynopsis: "",
+            releaseDate: null,
+            runtimeInMinutes: null,
+            censorRating: "",
+            genres: [],
+            director: "",
+            webUrl: "",
+            categories: ["ComingSoon"],
+            posterUrl: null,
+          },
+        ],
+        tmdbCache: {},
+        lastRun: "2026-06-01T00:00:00.000Z",
+      }),
+    );
     const notifyDeps = (): Deps => ({
       ...deps(),
       async ocapi(_t, path) {
         if (path === "films") return filmsResponse();
         if (path === "films/availability")
-          return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
+          return availability({
+            HO00000471: ["ComingSoon", "AdvanceBooking"],
+            HO00000386: ["NowShowing"],
+          });
         throw new Error(`unexpected path ${path}`);
       },
       async notify() {
@@ -681,7 +708,7 @@ describe("main (full scraper run)", () => {
       },
     });
 
-    // Cold start with no webhook URL.
+    // Transition with no webhook URL — archive still written, notify must not run.
     await main({
       dataDir,
       docsDir,
@@ -690,6 +717,9 @@ describe("main (full scraper run)", () => {
       gitPush: false,
       deps: notifyDeps(),
     });
+    expect(loadPosts(join(dataDir, "posts.json")).posts.map((p) => p.type)).toContain(
+      "preventa-opens",
+    );
     expect(notifyCalled).toBe(false);
   });
 
@@ -1014,6 +1044,83 @@ describe("main (full scraper run)", () => {
     expect(last2).toBe(last1);
     expect(await Bun.file(join(dataDir, "state.json")).text()).toBe(stateJson1);
     expect(await Bun.file(join(dataDir, "posts.json")).text()).toBe(postsJson1);
+  });
+
+  it("aborts bulk removal above cap without writing", async () => {
+    expect(maxRemovalsAllowed(20)).toBe(10);
+    expect(maxRemovalsAllowed(5)).toBe(5);
+
+    const dataDir = join(dir, "data-bulk-remove");
+    const docsDir = join(dir, "docs-bulk-remove");
+    // 20 known films already at missingRuns=1 → next absence emits 20 removed (> cap 10).
+    const many = Array.from({ length: 20 }, (_, i) => {
+      const id = `HO${String(i).padStart(8, "0")}`;
+      return {
+        id,
+        title: id,
+        shortSynopsis: "",
+        releaseDate: null,
+        runtimeInMinutes: null,
+        censorRating: "",
+        genres: [] as string[],
+        director: "",
+        webUrl: "",
+        categories: ["NowShowing"],
+        posterUrl: null,
+      };
+    });
+    const missingRuns: Record<string, number> = {};
+    for (const f of many) missingRuns[f.id] = 1;
+    await Bun.write(
+      join(dataDir, "state.json"),
+      JSON.stringify({
+        films: many,
+        tmdbCache: {},
+        missingRuns,
+        lastRun: "2026-06-01T00:00:00.000Z",
+      }) + "\n",
+    );
+    await Bun.write(join(dataDir, "posts.json"), JSON.stringify({ posts: [] }) + "\n");
+
+    // Current catalog is a single survivor — 19 removals would fire at threshold.
+    const survivor = many[0]!;
+    await expect(
+      main({
+        dataDir,
+        docsDir,
+        feedUrl: "https://x/feed.xml",
+        gitPush: false,
+        deps: {
+          ...deps(),
+          async ocapi(_t, path) {
+            if (path === "films") {
+              return {
+                films: [
+                  {
+                    id: survivor.id,
+                    hopk: survivor.id,
+                    title: { text: survivor.title },
+                    shortSynopsis: { text: "" },
+                  },
+                ],
+                relatedData: {
+                  castAndCrew: [],
+                  genres: [],
+                  censorRatings: [],
+                  events: [],
+                },
+              } satisfies FilmsResponse;
+            }
+            if (path === "films/availability")
+              return availability({ [survivor.id]: ["NowShowing"] });
+            throw new Error(`unexpected path ${path}`);
+          },
+        },
+      }),
+    ).rejects.toThrow("refusing bulk removal");
+
+    expect(loadState(join(dataDir, "state.json")).films).toHaveLength(20);
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
   });
 });
 

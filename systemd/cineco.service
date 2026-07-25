@@ -14,6 +14,8 @@ EnvironmentFile=/etc/cineco.env
 # minimal default PATH so both resolve. bun is called by absolute path above.
 Environment=PATH=/usr/local/curl-impersonate:/usr/local/bin:/usr/sbin:/usr/bin:/bin
 ExecStart=/usr/local/bin/bun run /srv/cinecolombia-check/scrape.ts
+# Bound hung Cloudflare/OCAPI calls (scrape also uses 30s/60s internal timeouts).
+TimeoutStartSec=180
 # bun must live in a system path (e.g. /usr/local/bin, labeled usr_t) because
 # Fedora SELinux denies systemd exec of binaries in /home (user_home_t), which
 # surfaces as status=203/EXEC "Permission denied" even on a 0755 file.

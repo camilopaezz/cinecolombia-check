@@ -3622,6 +3622,59 @@
           "posterPath": "/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg"
         }
       }
+    },
+    {
+      "guid": "cb5702f3-c097-4391-876d-1a55b30fc7e8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000717",
+      "createdAt": "2026-07-29T23:00:38.203Z",
+      "snapshot": {
+        "id": "HO00000717",
+        "title": "Katy Perry: The Lifetimes Tour – Live From Paris",
+        "shortSynopsis": "Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.\n",
+        "releaseDate": "2026-09-02",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "Paul Dugdale",
+        "webUrl": "https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg",
+        "tmdb": {
+          "tmdbId": 1684016,
+          "posterPath": "/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg"
+        }
+      }
+    },
+    {
+      "guid": "fcc11b9d-8ce7-4f92-8f72-27d0213ce80e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000720",
+      "createdAt": "2026-07-29T23:00:38.203Z",
+      "snapshot": {
+        "id": "HO00000720",
+        "title": "Bien Inmueble",
+        "shortSynopsis": "Es Gretel, una corredora de bienes raíces, quien nos guía por lugares cargados de valor sentimental y la memoria detrás de cada objeto, de cada espacio.",
+        "releaseDate": "2026-07-30",
+        "runtimeInMinutes": 90,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Emanuel Giraldo Betancur",
+        "webUrl": "https://www.cinecolombia.com/films/bien-inmueble/HO00000720/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

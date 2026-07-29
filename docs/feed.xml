@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Katy Perry: The Lifetimes Tour – Live From Paris</title>
+      <link>https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/</link>
+      <guid isPermaLink="false">cb5702f3-c097-4391-876d-1a55b30fc7e8</guid>
+      <pubDate>Wed, 29 Jul 2026 23:00:38 GMT</pubDate>
+      <description>Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Bien Inmueble</title>
+      <link>https://www.cinecolombia.com/films/bien-inmueble/HO00000720/</link>
+      <guid isPermaLink="false">fcc11b9d-8ce7-4f92-8f72-27d0213ce80e</guid>
+      <pubDate>Wed, 29 Jul 2026 23:00:38 GMT</pubDate>
+      <description>Es Gretel, una corredora de bienes raíces, quien nos guía por lugares cargados de valor sentimental y la memoria detrás de cada objeto, de cada espacio.</description>
+    </item>
+    <item>
       <title>Pronto: Bien Inmueble</title>
       <link>https://www.cinecolombia.com/films/bien-inmueble/HO00000720/</link>
       <guid isPermaLink="false">9edddc4b-4565-46e8-8ee0-e384b7bb2d93</guid>
@@ -771,22 +787,6 @@
       <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
       <description>Cuando a un músico enamorado le dan un número equivocado para llamar a la chica de sus sueños, se une a una ambiciosa estudiante de psicología para encontrarla.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Pressure</title>
-      <link>http://www.cinecolombia.com/films/pressure/HO00000629/</link>
-      <guid isPermaLink="false">edc01db6-9cf0-4802-9449-38a33002063d</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Forgotten Island</title>
-      <link>http://www.cinecolombia.com/films/forgotten-island/HO00000630/</link>
-      <guid isPermaLink="false">68250672-6ab3-4f77-8aa0-bd60b950437a</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -34,21 +34,27 @@ systemd/             # cineco.service + cineco.timer
 
 | Event | When | Label (es-CO) |
 |---|---|---|
-| `added` | new `filmId` appears | Pronto |
-| `preventa-opens` | film gains `AdvanceBooking` | Preventa abierta |
-| `now-in-theaters` | film gains `NowShowing` | En cartelera |
+| `added` | new `filmId` at ComingSoon (or no higher stage) | Pronto |
+| `preventa-opens` | new film already in `AdvanceBooking`, or known film gains it (and is not in theaters) | Preventa abierta |
+| `now-in-theaters` | new film already in `NowShowing`, or known film gains it | En cartelera |
 | `removed` | film absent for `REMOVAL_THRESHOLD` (2) consecutive successful runs | Ya no disponible |
 
 Notes:
 
 - **Cold start (virgin install only):** empty previous films, no `lastRun`, and empty
   `posts.json` → seed `state.json` only. No archive entries, no Discord spam.
-  After a real wipe (history present), reappearing films *do* archive as `added`.
+  After a real wipe (history present), reappearing films archive at **highest stage**
+  (not always `added`).
 - **Removal debounce:** a one-run catalog blip does not emit `removed`. The film
   stays soft-kept in `state.films` with `missingRuns[id]`. At threshold 2 it is
-  removed. If it returns under threshold, no `removed` and no `added`.
+  removed. If it returns under threshold, no `removed` and no re-announcement.
+- **First announcement is highest stage:** a newly seen film emits one event —
+  `now-in-theaters` if it already has `NowShowing`, else `preventa-opens` if it has
+  `AdvanceBooking`, else `added` (Pronto). Never spam preventa+now on first sight.
 - **Same-run preventa + now:** an existing film that gains both categories in one
   scrape emits only `now-in-theaters` (not two notifications).
+- **Preventa while in theaters:** gaining `AdvanceBooking` when the film already
+  has (or also gains) `NowShowing` does not emit `preventa-opens`.
 - **Empty / bulk bad catalogs:** empty OCAPI catalog with known films aborts
   before write. A run that would emit more removals than
   `max(10, 30% of previous film count)` (for catalogs ≥ 10) also aborts.
@@ -69,9 +75,10 @@ Notes:
 
 ## Public feed window
 
-`data/posts.json` is the full append-only archive. `docs/feed.xml` and
-`docs/index.html` render only the newest **`FEED_LIMIT` (100)** posts so the
-GitHub Pages surface stays small.
+`data/posts.json` is the full archive (append-only in normal scrapes). A one-time
+hygiene pass may restage or drop historical noise when lifecycle rules change;
+after that, scrapes only append. `docs/feed.xml` and `docs/index.html` render
+only the newest **`FEED_LIMIT` (100)** posts so the GitHub Pages surface stays small.
 
 ## Notifications (optional, Discord)
 

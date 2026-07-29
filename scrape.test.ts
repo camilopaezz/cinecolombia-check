@@ -10,6 +10,7 @@ import type {
   FilmsResponse,
 } from "./scrape.ts";
 import {
+  announcementType,
   applyLifecycle,
   buildFilmRecords,
   buildDiscordEmbed,
@@ -18,6 +19,7 @@ import {
   extractAuthToken,
   FEED_LIMIT,
   formatCommitMessage,
+  gainEvents,
   generateFeed,
   generateHTML,
   loadPosts,
@@ -26,6 +28,7 @@ import {
   maxRemovalsAllowed,
   parseSitemap,
   REMOVAL_THRESHOLD,
+  sanitizeArchivePosts,
 } from "./scrape.ts";
 
 // ─── Fixtures ────────────────────────────────────────────────────────────────
@@ -191,15 +194,16 @@ describe("diff", () => {
   });
   const D = { now: fixedNow, uuid: fakeUuid };
 
-  it("emits added for new films, gains for existing films, ignores ComingSoon and partial losses", () => {
+  it("announces new films at highest stage; suppresses preventa while in theaters", () => {
     const prev = new Map([["A", rec("A", ["NowShowing"])]]);
     const cur = new Map([
-      ["A", rec("A", ["NowShowing", "AdvanceBooking"])], // gains AdvanceBooking -> preventa
-      ["B", rec("B", ["AdvanceBooking", "NowShowing"])], // new -> added only
-      ["C", rec("C", ["ComingSoon"])], // new -> added only
+      ["A", rec("A", ["NowShowing", "AdvanceBooking"])], // gains AdvanceBooking while in theaters -> none
+      ["B", rec("B", ["AdvanceBooking", "NowShowing"])], // new already in theaters -> now-in-theaters
+      ["C", rec("C", ["ComingSoon"])], // new coming soon -> added
+      ["D", rec("D", ["AdvanceBooking"])], // new preventa only -> preventa-opens
     ]);
     const events = diff(prev, cur, D).map((e) => `${e.type}:${e.filmId}`);
-    expect(events).toEqual(["added:B", "added:C", "preventa-opens:A"]);
+    expect(events).toEqual(["now-in-theaters:B", "added:C", "preventa-opens:D"]);
   });
 
   it("emits removed for films that leave the catalog", () => {
@@ -269,7 +273,7 @@ describe("applyLifecycle (removal debounce)", () => {
     expect(result.missingRuns).toEqual({});
   });
 
-  it("truly new film still emits added; gains still emit", () => {
+  it("truly new film announces at highest stage; gains still emit", () => {
     counter = 0;
     const prev = { films: [rec("A", ["ComingSoon"])] };
     const cur = [
@@ -278,7 +282,7 @@ describe("applyLifecycle (removal debounce)", () => {
     ];
     const result = applyLifecycle(prev, cur, D);
     expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual([
-      "added:B",
+      "now-in-theaters:B",
       "preventa-opens:A",
     ]);
     expect(result.missingRuns).toEqual({});
@@ -306,6 +310,216 @@ describe("applyLifecycle (removal debounce)", () => {
       D,
     );
     expect(afterNow.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
+  });
+
+  it("suppresses preventa-opens when film is already NowShowing", () => {
+    counter = 0;
+    const result = applyLifecycle(
+      { films: [rec("A", ["NowShowing"])] },
+      [rec("A", ["NowShowing", "AdvanceBooking"])],
+      D,
+    );
+    expect(result.events).toHaveLength(0);
+  });
+
+  it("new film with only AdvanceBooking announces preventa-opens", () => {
+    counter = 0;
+    const result = applyLifecycle({ films: [] }, [rec("A", ["AdvanceBooking"])], D);
+    expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["preventa-opens:A"]);
+  });
+});
+
+describe("announcementType / gainEvents / sanitizeArchivePosts", () => {
+  it("announcementType picks highest operational stage", () => {
+    expect(announcementType(["ComingSoon"])).toBe("added");
+    expect(announcementType(["AdvanceBooking"])).toBe("preventa-opens");
+    expect(announcementType(["NowShowing", "AdvanceBooking"])).toBe("now-in-theaters");
+    expect(announcementType([])).toBe("added");
+  });
+
+  it("gainEvents collapses same-run and suppresses preventa-in-theaters", () => {
+    expect(gainEvents(["ComingSoon"], ["ComingSoon", "AdvanceBooking", "NowShowing"])).toEqual([
+      "now-in-theaters",
+    ]);
+    expect(gainEvents(["NowShowing"], ["NowShowing", "AdvanceBooking"])).toEqual([]);
+    expect(gainEvents(["ComingSoon"], ["ComingSoon", "AdvanceBooking"])).toEqual([
+      "preventa-opens",
+    ]);
+    expect(gainEvents(["ComingSoon", "AdvanceBooking"], ["ComingSoon", "AdvanceBooking", "NowShowing"])).toEqual([
+      "now-in-theaters",
+    ]);
+  });
+
+  it("sanitizeArchivePosts drops same-timestamp preventa twins and restages added", () => {
+    const snap = (cats: string[]): FilmRecord => ({
+      id: "HO1",
+      title: "X",
+      shortSynopsis: "",
+      releaseDate: null,
+      runtimeInMinutes: null,
+      censorRating: "",
+      genres: [],
+      director: "",
+      webUrl: "",
+      categories: cats,
+      posterUrl: null,
+    });
+    const posts: Event[] = [
+      {
+        guid: "1",
+        type: "added",
+        filmId: "HO1",
+        createdAt: "2026-07-01T00:00:00.000Z",
+        snapshot: snap(["NowShowing"]),
+      },
+      {
+        guid: "2",
+        type: "preventa-opens",
+        filmId: "HO2",
+        createdAt: "2026-07-02T00:00:00.000Z",
+        snapshot: snap(["NowShowing", "AdvanceBooking"]),
+      },
+      {
+        guid: "3",
+        type: "now-in-theaters",
+        filmId: "HO2",
+        createdAt: "2026-07-02T00:00:00.000Z",
+        snapshot: snap(["NowShowing", "AdvanceBooking"]),
+      },
+      {
+        guid: "4",
+        type: "preventa-opens",
+        filmId: "HO3",
+        createdAt: "2026-07-03T00:00:00.000Z",
+        snapshot: snap(["AdvanceBooking"]),
+      },
+      {
+        guid: "5",
+        type: "added",
+        filmId: "HO4",
+        createdAt: "2026-07-04T00:00:00.000Z",
+        snapshot: snap(["ComingSoon"]),
+      },
+    ];
+    const cleaned = sanitizeArchivePosts(posts);
+    expect(cleaned.map((p) => `${p.guid}:${p.type}`)).toEqual([
+      "1:now-in-theaters",
+      "3:now-in-theaters",
+      "4:preventa-opens",
+      "5:added",
+    ]);
+  });
+
+  it("sanitizeArchivePosts drops preventa when snapshot already has NowShowing", () => {
+    const snap = (cats: string[]): FilmRecord => ({
+      id: "HO9",
+      title: "Y",
+      shortSynopsis: "",
+      releaseDate: null,
+      runtimeInMinutes: null,
+      censorRating: "",
+      genres: [],
+      director: "",
+      webUrl: "",
+      categories: cats,
+      posterUrl: null,
+    });
+    const posts: Event[] = [
+      {
+        guid: "n",
+        type: "now-in-theaters",
+        filmId: "HO9",
+        createdAt: "2026-07-01T00:00:00.000Z",
+        snapshot: snap(["NowShowing"]),
+      },
+      {
+        guid: "p",
+        type: "preventa-opens",
+        filmId: "HO9",
+        createdAt: "2026-07-02T00:00:00.000Z",
+        snapshot: snap(["NowShowing", "AdvanceBooking"]),
+      },
+    ];
+    expect(sanitizeArchivePosts(posts).map((p) => p.guid)).toEqual(["n"]);
+  });
+
+  it("sanitizeArchivePosts drops preventa twin of restaged added→now", () => {
+    const snap = (id: string, cats: string[]): FilmRecord => ({
+      id,
+      title: id,
+      shortSynopsis: "",
+      releaseDate: null,
+      runtimeInMinutes: null,
+      censorRating: "",
+      genres: [],
+      director: "",
+      webUrl: "",
+      categories: cats,
+      posterUrl: null,
+    });
+    // Restaged now key must kill same-ts preventa even if preventa snap lacks NowShowing.
+    const posts: Event[] = [
+      {
+        guid: "a",
+        type: "added",
+        filmId: "H1",
+        createdAt: "T1",
+        snapshot: snap("H1", ["NowShowing"]),
+      },
+      {
+        guid: "p",
+        type: "preventa-opens",
+        filmId: "H1",
+        createdAt: "T1",
+        snapshot: snap("H1", ["AdvanceBooking"]),
+      },
+    ];
+    expect(sanitizeArchivePosts(posts).map((p) => `${p.guid}:${p.type}`)).toEqual([
+      "a:now-in-theaters",
+    ]);
+  });
+
+  it("soft-missing return with upgraded categories emits gain only (no added)", () => {
+    counter = 0;
+    const soft = {
+      films: [
+        {
+          id: "A",
+          title: "A",
+          shortSynopsis: "",
+          releaseDate: null,
+          runtimeInMinutes: null,
+          censorRating: "",
+          genres: [],
+          director: "",
+          webUrl: "",
+          categories: ["ComingSoon"],
+          posterUrl: null,
+        },
+      ],
+      missingRuns: { A: 1 },
+    };
+    const returned = [
+      {
+        id: "A",
+        title: "A",
+        shortSynopsis: "",
+        releaseDate: null,
+        runtimeInMinutes: null,
+        censorRating: "",
+        genres: [],
+        director: "",
+        webUrl: "",
+        categories: ["ComingSoon", "NowShowing"],
+        posterUrl: null,
+      },
+    ];
+    const result = applyLifecycle(soft, returned, {
+      now: fixedNow,
+      uuid: fakeUuid,
+    });
+    expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
+    expect(result.missingRuns).toEqual({});
   });
 });
 
@@ -959,9 +1173,12 @@ describe("main (full scraper run)", () => {
       },
     });
     const posts = loadPosts(join(dataDir, "posts.json")).posts.map((p) => `${p.type}:${p.filmId}`);
+    // HO00000471 is ComingSoon → added; HO00000386 is NowShowing → highest-stage now-in-theaters
     expect(posts).toContain("added:HO00000471");
-    expect(posts).toContain("added:HO00000386");
-    expect(notified).toEqual(expect.arrayContaining(["added:HO00000471", "added:HO00000386"]));
+    expect(posts).toContain("now-in-theaters:HO00000386");
+    expect(notified).toEqual(
+      expect.arrayContaining(["added:HO00000471", "now-in-theaters:HO00000386"]),
+    );
   });
 
   it("aborts empty catalog without writing when previous films exist", async () => {

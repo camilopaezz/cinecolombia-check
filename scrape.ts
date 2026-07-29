@@ -169,6 +169,68 @@ const GAIN_EVENTS: { category: string; type: EventType }[] = [
   { category: "NowShowing", type: "now-in-theaters" },
 ];
 
+/**
+ * First public announcement for a newly seen film: highest operational stage only.
+ * NowShowing → now-in-theaters; else AdvanceBooking → preventa-opens; else added (Pronto).
+ */
+export function announcementType(categories: string[]): EventType {
+  if (categories.includes("NowShowing")) return "now-in-theaters";
+  if (categories.includes("AdvanceBooking")) return "preventa-opens";
+  return "added";
+}
+
+/**
+ * Category gains on a known film → 0–1 event.
+ * - Same-run AdvanceBooking + NowShowing → only now-in-theaters
+ * - AdvanceBooking while already/now NowShowing → suppress preventa (no value)
+ */
+export function gainEvents(
+  prevCategories: string[],
+  curCategories: string[],
+): EventType[] {
+  const gained = GAIN_EVENTS.filter(
+    ({ category }) => curCategories.includes(category) && !prevCategories.includes(category),
+  );
+  if (gained.length === 0) return [];
+  const gainedAdvance = gained.some((g) => g.category === "AdvanceBooking");
+  const gainedNow = gained.some((g) => g.category === "NowShowing");
+  if (gainedNow) return ["now-in-theaters"];
+  if (gainedAdvance) {
+    // Preventa is only meaningful before the film is in theaters.
+    if (curCategories.includes("NowShowing") || prevCategories.includes("NowShowing")) {
+      return [];
+    }
+    return ["preventa-opens"];
+  }
+  return [];
+}
+
+/**
+ * Offline archive hygiene (not called from main — scrapes only append).
+ * - re-stage historical `added` to the highest category on the snapshot (rule A)
+ * - drop preventa-opens whose snapshot already includes NowShowing (rule B)
+ * - drop same-timestamp preventa twins of now-in-theaters (incl. restaged rows)
+ */
+export function sanitizeArchivePosts(posts: Event[]): Event[] {
+  // Restage first so twin detection sees added→now as a now-in-theaters key.
+  const restaged = posts.map((p) => {
+    if (p.type !== "added") return p;
+    const next = announcementType(p.snapshot.categories);
+    if (next === "added") return p;
+    return { ...p, type: next };
+  });
+  const nowKeys = new Set(
+    restaged
+      .filter((p) => p.type === "now-in-theaters")
+      .map((p) => `${p.filmId}|${p.createdAt}`),
+  );
+  return restaged.filter((p) => {
+    if (p.type !== "preventa-opens") return true;
+    if (p.snapshot.categories.includes("NowShowing")) return false;
+    return !nowKeys.has(`${p.filmId}|${p.createdAt}`);
+  });
+}
+
 function ensureDir(dir: string): void {
   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
 }
@@ -292,19 +354,20 @@ export function diff(
     snapshot,
   });
 
-  // 1. New films -> a single "added" announcement (no duplicate preventa/now posts).
+  // 1. New films → single announcement at highest operational stage.
   for (const id of [...current.keys()].sort()) {
-    if (!prev.has(id)) events.push(mk("added", id, current.get(id)!));
+    if (!prev.has(id)) {
+      const snap = current.get(id)!;
+      events.push(mk(announcementType(snap.categories), id, snap));
+    }
   }
-  // 2. Existing films that gain a lifecycle category.
+  // 2. Existing films that gain a lifecycle category (collapsed / suppress preventa-in-theaters).
   for (const id of [...current.keys()].sort()) {
     const cur = current.get(id)!;
     const p = prev.get(id);
     if (!p) continue;
-    for (const { category, type } of GAIN_EVENTS) {
-      if (cur.categories.includes(category) && !p.categories.includes(category)) {
-        events.push(mk(type, id, cur));
-      }
+    for (const type of gainEvents(p.categories, cur.categories)) {
+      events.push(mk(type, id, cur));
     }
   }
   // 3. Films that left the catalog (immediate — tests / legacy).
@@ -338,25 +401,22 @@ export function applyLifecycle(
   });
 
   // 1. Truly new films (not in prev.films, which includes soft-missing).
+  // Highest operational stage only — never emit preventa+now on first sighting.
   for (const id of [...curMap.keys()].sort()) {
-    if (!prevMap.has(id)) events.push(mk("added", id, curMap.get(id)!));
+    if (!prevMap.has(id)) {
+      const snap = curMap.get(id)!;
+      events.push(mk(announcementType(snap.categories), id, snap));
+    }
   }
 
   // 2. Category gains on films already known (incl. soft-missing reappearance).
-  // Same-run AdvanceBooking + NowShowing → only now-in-theaters (prefer operational "in theaters").
+  // Same-run preventa+now → only now; preventa while already in theaters → suppress.
   for (const id of [...curMap.keys()].sort()) {
     const cur = curMap.get(id)!;
     const p = prevMap.get(id);
     if (!p) continue;
     if (missingRuns[id]) delete missingRuns[id];
-    const gained = GAIN_EVENTS.filter(
-      ({ category }) => cur.categories.includes(category) && !p.categories.includes(category),
-    );
-    const collapseToNow =
-      gained.some((g) => g.category === "AdvanceBooking") &&
-      gained.some((g) => g.category === "NowShowing");
-    for (const { category, type } of gained) {
-      if (collapseToNow && category === "AdvanceBooking") continue;
+    for (const type of gainEvents(p.categories, cur.categories)) {
       events.push(mk(type, id, cur));
     }
   }

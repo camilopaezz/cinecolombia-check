@@ -149,6 +149,20 @@ const EVENT_LABELS: Record<EventType, string> = {
   removed: "Ya no disponible",
 };
 
+/** Short mono codes + gloss for the HTML bitácora (es-CO). */
+const EVENT_CODES: Record<EventType, string> = {
+  added: "PRONTO",
+  "preventa-opens": "PREVENTA",
+  "now-in-theaters": "CARTELERA",
+  removed: "FUERA",
+};
+const EVENT_CODE_GLOSS: Record<EventType, string> = {
+  added: "estreno anunciado",
+  "preventa-opens": "preventa abierta",
+  "now-in-theaters": "en cartelera",
+  removed: "ya no disponible",
+};
+
 // Categories that, when gained, produce an event (ComingSoon produces none).
 const GAIN_EVENTS: { category: string; type: EventType }[] = [
   { category: "AdvanceBooking", type: "preventa-opens" },
@@ -425,6 +439,24 @@ function bogotaDate(iso: string): string {
   }).format(new Date(iso));
 }
 
+/** Compact Bogotá timestamp for the HTML when-column (date + time lines). */
+function bogotaWhen(iso: string): { date: string; time: string } {
+  const d = new Date(iso);
+  return {
+    date: new Intl.DateTimeFormat("es-CO", {
+      timeZone: "America/Bogota",
+      day: "numeric",
+      month: "short",
+      year: "numeric",
+    }).format(d),
+    time: new Intl.DateTimeFormat("es-CO", {
+      timeZone: "America/Bogota",
+      hour: "numeric",
+      minute: "2-digit",
+    }).format(d),
+  };
+}
+
 export function generateFeed(
   posts: Event[],
   opts: { feedTitle: string; feedUrl: string; language: string },
@@ -462,14 +494,145 @@ ${items}
 `;
 }
 
+// Ficha de Proyección — editorial bitácora (es-CO, Bogotá).
 const css = `
-* { font-family: system-ui, sans-serif; }
-body { max-width: 720px; margin: 0 auto; padding: 1rem; }
-.post { border-bottom: 1px solid #eee; padding: 1rem 0; }
-.post img { max-width: 140px; border-radius: 4px; }
-.label { color: #c0392b; font-weight: 600; }
-.meta { color: #666; font-size: 0.9rem; }
-@media (max-width: 480px) { .post img { max-width: 100%; } }
+:root {
+  --bg: #f6f4ef;
+  --ink: #1a1c1f;
+  --muted: #6a6f76;
+  --line: #d9d4c8;
+  --red: #b42318;
+  --panel: #e6e1d6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Newsreader", "Iowan Old Style", Palatino, Georgia, serif;
+  line-height: 1.5;
+}
+.site { max-width: 860px; margin: 0 auto; padding: 1.75rem 1.25rem 3rem; }
+.head {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: end;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: .9rem;
+  margin-bottom: 1.1rem;
+}
+.eyebrow {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .68rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin: 0 0 .35rem;
+  font-weight: 500;
+}
+h1 {
+  font-family: "Instrument Serif", "Iowan Old Style", Palatino, Georgia, serif;
+  font-size: clamp(1.85rem, 4.5vw, 2.6rem);
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: -.02em;
+  line-height: 1.08;
+}
+.aside {
+  text-align: right;
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .72rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem 1.2rem;
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .72rem;
+  color: var(--muted);
+  margin: 0 0 1rem;
+  padding-bottom: .85rem;
+  border-bottom: 1px solid var(--line);
+}
+.legend b { color: var(--ink); font-weight: 600; }
+.post {
+  display: grid;
+  grid-template-columns: 92px 1fr auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: start;
+}
+.post img, .ph {
+  width: 92px;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background: var(--panel);
+  display: block;
+}
+.ph {
+  display: grid;
+  place-items: center;
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .62rem;
+  color: var(--muted);
+  text-align: center;
+  padding: .35rem;
+}
+.code {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .68rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--red);
+  font-weight: 600;
+  margin: 0 0 .2rem;
+}
+.post h2 {
+  font-family: "Instrument Serif", "Iowan Old Style", Palatino, Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0 0 .3rem;
+  line-height: 1.15;
+}
+.syn {
+  margin: 0 0 .4rem;
+  color: var(--muted);
+  font-size: .95rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.facts {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .72rem;
+  color: #555a61;
+}
+.facts a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--ink);
+}
+.when {
+  font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  font-size: .72rem;
+  color: var(--muted);
+  text-align: right;
+  white-space: nowrap;
+  padding-top: .15rem;
+  line-height: 1.45;
+}
+@media (max-width: 640px) {
+  .head { grid-template-columns: 1fr; }
+  .aside { text-align: left; }
+  .post { grid-template-columns: 72px 1fr; }
+  .post img, .ph { width: 72px; }
+  .when { grid-column: 2; text-align: left; padding-top: 0; }
+}
 `;
 
 export function generateHTML(
@@ -481,28 +644,33 @@ export function generateHTML(
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
     .slice(0, FEED_LIMIT)
     .map((p) => {
-      const title = `${EVENT_LABELS[p.type]}: ${p.snapshot.title}`;
       const poster = p.snapshot.posterUrl
         ? `<img src="${escapeXml(p.snapshot.posterUrl)}" alt="${escapeXml(p.snapshot.title)}" />`
-        : "";
-      const facts = [
+        : `<div class="ph" aria-hidden="true">sin póster</div>`;
+      const factsBits = [
         p.snapshot.releaseDate,
         p.snapshot.runtimeInMinutes ? `${p.snapshot.runtimeInMinutes} min` : null,
         p.snapshot.censorRating,
-        p.snapshot.genres.join(", "),
-      ]
-        .filter(Boolean)
-        .join(" · ");
+        p.snapshot.genres.join(", ") || null,
+      ].filter(Boolean);
       const link = p.snapshot.webUrl
         ? `<a href="${escapeXml(p.snapshot.webUrl)}">Ver en CineColombia</a>`
         : "";
+      const facts = [...factsBits, link].filter(Boolean).join(" · ");
+      const when = bogotaWhen(p.createdAt);
+      const code = `${EVENT_CODES[p.type]} · ${EVENT_CODE_GLOSS[p.type]}`;
+      const syn = p.snapshot.shortSynopsis
+        ? `<p class="syn">${escapeXml(p.snapshot.shortSynopsis)}</p>`
+        : "";
       return `    <article class="post">
-      <h2><span class="label">${escapeXml(EVENT_LABELS[p.type])}</span> ${escapeXml(p.snapshot.title)}</h2>
       ${poster}
-      <p>${escapeXml(p.snapshot.shortSynopsis)}</p>
-      <p class="meta">${escapeXml(facts)}</p>
-      <p class="meta">${escapeXml(bogotaDate(p.createdAt))}</p>
-      ${link}
+      <div>
+        <p class="code">${escapeXml(code)}</p>
+        <h2>${escapeXml(p.snapshot.title)}</h2>
+        ${syn}
+        <div class="facts">${facts}</div>
+      </div>
+      <div class="when">${escapeXml(when.date)}<br />${escapeXml(when.time)}</div>
     </article>`;
     })
     .join("\n");
@@ -513,11 +681,32 @@ export function generateHTML(
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>${escapeXml(opts.feedTitle)}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
   <style>${css}</style>
 </head>
 <body>
-  <h1>${escapeXml(opts.feedTitle)}</h1>
+  <div class="site">
+    <header class="head">
+      <div>
+        <p class="eyebrow">Bogotá · bitácora de cartelera</p>
+        <h1>${escapeXml(opts.feedTitle)}</h1>
+      </div>
+      <div class="aside">
+        Bogotá, Colombia<br />
+        hora local (COT, UTC−5)<br />
+        últimos ${FEED_LIMIT} eventos
+      </div>
+    </header>
+    <div class="legend" aria-label="Leyenda de estados">
+      <span><b>PRONTO</b> estreno anunciado</span>
+      <span><b>PREVENTA</b> boletería abierta</span>
+      <span><b>CARTELERA</b> en salas</span>
+      <span><b>FUERA</b> ya no disponible</span>
+    </div>
 ${cards}
+  </div>
 </body>
 </html>
 `;

@@ -373,9 +373,13 @@ describe("generateHTML", () => {
     ];
     const html = generateHTML(posts, { feedTitle: "Feed", language: "es-CO" });
     expect(html).toContain("<html lang=\"es-CO\">");
-    expect(html).toContain("En cartelera");
+    expect(html).toContain("Bogotá");
+    expect(html).toContain("CARTELERA");
+    expect(html).toContain("en cartelera");
     expect(html).toContain("F9");
     expect(html).toContain('href="https://www.cinecolombia.com/x/"');
+    expect(html).toContain("Ver en CineColombia");
+    expect(html).toContain("sin póster");
   });
 });
 

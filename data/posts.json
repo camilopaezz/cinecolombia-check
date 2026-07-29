@@ -3287,6 +3287,341 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "f2b514b5-4383-4515-9b17-f9963479c83a",
+      "type": "added",
+      "filmId": "HO00000501",
+      "createdAt": "2026-07-29T12:37:06.609Z",
+      "snapshot": {
+        "id": "HO00000501",
+        "title": "Ternet Ninja 3",
+        "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 88,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Anders Matthesen",
+        "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "ff47d495-0c45-492b-8f5e-20cd521d4e1a",
+      "type": "added",
+      "filmId": "HO00000717",
+      "createdAt": "2026-07-29T12:37:06.609Z",
+      "snapshot": {
+        "id": "HO00000717",
+        "title": "Katy Perry: The Lifetimes Tour – Live From Paris",
+        "shortSynopsis": "Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.\n",
+        "releaseDate": "2026-09-02",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "Paul Dugdale",
+        "webUrl": "https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "35ee728f-0795-4534-9ec7-8aa510d4fcca",
+      "type": "added",
+      "filmId": "HO00000718",
+      "createdAt": "2026-07-29T12:37:06.609Z",
+      "snapshot": {
+        "id": "HO00000718",
+        "title": "Lupin the IIIrd the Movie: The Immortal Bloodline",
+        "shortSynopsis": "Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.\t",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 93,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Takeshi Koike",
+        "webUrl": "https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "66db536a-4a00-4282-b74e-a92081a8eb05",
+      "type": "added",
+      "filmId": "HO00000719",
+      "createdAt": "2026-07-29T12:37:06.609Z",
+      "snapshot": {
+        "id": "HO00000719",
+        "title": "Speed Demon",
+        "shortSynopsis": "A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.\t\n\t",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 93,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Jon Keeyes",
+        "webUrl": "https://www.cinecolombia.com/films/speed-demon/HO00000719/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "cd5c0907-39cd-41b1-9f8b-a3620489b799",
+      "type": "now-in-theaters",
+      "filmId": "HO00000658",
+      "createdAt": "2026-07-29T12:37:06.609Z",
+      "snapshot": {
+        "id": "HO00000658",
+        "title": "La petite dernière",
+        "shortSynopsis": "Fátima, de 17 años, la hija menor de una familia franco-argelina en un suburbio parisino juega fútbol y tiene un novio secreto, pero oculta su atracción por las mujeres.\n",
+        "releaseDate": "2026-07-30",
+        "runtimeInMinutes": 106,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Hafsia Herzi",
+        "webUrl": "https://www.cinecolombia.com/films/la-petite-derniere/HO00000658/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "7f84ae98-4691-4493-898a-fe5009f0d55a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000670",
+      "createdAt": "2026-07-29T12:37:06.609Z",
+      "snapshot": {
+        "id": "HO00000670",
+        "title": "Das Verschwinden des Josef Mengele",
+        "shortSynopsis": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. ",
+        "releaseDate": "2026-07-30",
+        "runtimeInMinutes": 135,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Biografía",
+          "Drama",
+          "Historia"
+        ],
+        "director": "Kirill Serebrennikov",
+        "webUrl": "https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "9edddc4b-4565-46e8-8ee0-e384b7bb2d93",
+      "type": "added",
+      "filmId": "HO00000720",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000720",
+        "title": "Bien Inmueble",
+        "shortSynopsis": "Es Gretel, una corredora de bienes raíces, quien nos guía por lugares cargados de valor sentimental y la memoria detrás de cada objeto, de cada espacio.",
+        "releaseDate": "2026-07-30",
+        "runtimeInMinutes": 90,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Emanuel Giraldo Betancur",
+        "webUrl": "https://www.cinecolombia.com/films/bien-inmueble/HO00000720/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "2e2daa83-3de5-4fc9-a341-80d4795e86da",
+      "type": "added",
+      "filmId": "HO00000721",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000721",
+        "title": "My Neighbor Totoro",
+        "shortSynopsis": "En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 86,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Hayao Miyazaki",
+        "webUrl": "https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "7f53baa5-a536-42dd-8764-b35ed1d25370",
+      "type": "added",
+      "filmId": "HO00000722",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000722",
+        "title": "Whalefall",
+        "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Brian Duffield",
+        "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
+        "tmdb": {
+          "tmdbId": 1255833,
+          "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d87780fa-fbc3-47d8-8625-de93166f04d5",
+      "type": "added",
+      "filmId": "HO00000723",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000723",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "shortSynopsis": "Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 152,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Chris Columbus",
+        "webUrl": "https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg",
+        "tmdb": {
+          "tmdbId": 671,
+          "posterPath": "/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c8e1a6ce-f0bf-445c-822f-f62c7b5efc78",
+      "type": "added",
+      "filmId": "HO00000724",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000724",
+        "title": "Other Mommy",
+        "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Rob Savage",
+        "webUrl": "https://www.cinecolombia.com/films/other-mommy/HO00000724/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
+        "tmdb": {
+          "tmdbId": 1400837,
+          "posterPath": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg"
+        }
+      }
+    },
+    {
+      "guid": "523e75e5-136f-4fe5-9a16-f0ca55a27c3b",
+      "type": "removed",
+      "filmId": "HO00000653",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000653",
+        "title": "Sia: Nostalgic For The Present",
+        "shortSynopsis": "Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 75,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Música"
+        ],
+        "director": "Sia",
+        "webUrl": "http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg",
+        "tmdb": {
+          "tmdbId": 1712586,
+          "posterPath": "/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5be21ba9-38f2-4cf2-995f-1efab0773910",
+      "type": "removed",
+      "filmId": "HO00000661",
+      "createdAt": "2026-07-29T17:00:38.124Z",
+      "snapshot": {
+        "id": "HO00000661",
+        "title": "WHAM! 10 Days in China",
+        "shortSynopsis": "En 1985, WHAM! tendió puentes entre culturas al convertirse en el primer grupo de pop occidental en actuar en China.",
+        "releaseDate": "2026-07-28",
+        "runtimeInMinutes": 90,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Mike Christie",
+        "webUrl": "http://www.cinecolombia.com/films/wham-10-days-in-china/HO00000661/",
+        "categories": [
+          "NowShowing",
+          "AdvanceBooking"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg",
+        "tmdb": {
+          "tmdbId": 1715914,
+          "posterPath": "/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg"
+        }
+      }
     }
   ]
 }

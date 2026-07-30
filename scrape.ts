@@ -336,51 +336,44 @@ export function buildFilmRecords(
   });
 }
 
-// ─── Diff / lifecycle ────────────────────────────────────────────────────────
+// ─── Lifecycle Run ───────────────────────────────────────────────────────────
+// Deep module: catalog transition + abort/cold-start/quiet/archive policy.
+// main() only fetches, enriches posters, persists, and notifies.
 
-export function diff(
-  prev: Map<string, FilmRecord>,
-  current: Map<string, FilmRecord>,
-  deps: { now: () => Date; uuid: () => string },
-): Event[] {
-  // Immediate add/gain/remove (no debounce). Prefer applyLifecycle in production.
-  const events: Event[] = [];
-  const createdAt = deps.now().toISOString();
-  const mk = (type: EventType, filmId: string, snapshot: FilmRecord): Event => ({
-    guid: deps.uuid(),
-    type,
-    filmId,
-    createdAt,
-    snapshot,
-  });
+export type LifecycleAbort =
+  | { kind: "empty-catalog"; knownFilms: number }
+  | { kind: "bulk-removal"; removed: number; cap: number; prevFilms: number };
 
-  // 1. New films → single announcement at highest operational stage.
-  for (const id of [...current.keys()].sort()) {
-    if (!prev.has(id)) {
-      const snap = current.get(id)!;
-      events.push(mk(announcementType(snap.categories), id, snap));
-    }
+export type LifecycleOutcome = {
+  coldStart: boolean;
+  /** Raw transitions this run (includes cold-start bulk announcements). */
+  events: Event[];
+  /** What posts.json / notify / git see (empty on virgin cold start). */
+  archivedEvents: Event[];
+  films: FilmRecord[];
+  missingRuns: Record<string, number>;
+  /** Already resolved quiet-run policy (unchanged when nothing meaningful moved). */
+  lastRun: string | undefined;
+  meaningfulChange: boolean;
+};
+
+export type LifecycleResult =
+  | { ok: true; outcome: LifecycleOutcome }
+  | { ok: false; abort: LifecycleAbort };
+
+/** Stable error text for aborts — main maps these to thrown Errors (fail before write). */
+export function lifecycleAbortMessage(abort: LifecycleAbort): string {
+  if (abort.kind === "empty-catalog") {
+    return `empty OCAPI catalog with ${abort.knownFilms} known films — aborting before write`;
   }
-  // 2. Existing films that gain a lifecycle category (collapsed / suppress preventa-in-theaters).
-  for (const id of [...current.keys()].sort()) {
-    const cur = current.get(id)!;
-    const p = prev.get(id);
-    if (!p) continue;
-    for (const type of gainEvents(p.categories, cur.categories)) {
-      events.push(mk(type, id, cur));
-    }
-  }
-  // 3. Films that left the catalog (immediate — tests / legacy).
-  for (const id of [...prev.keys()].sort()) {
-    if (!current.has(id)) events.push(mk("removed", id, prev.get(id)!));
-  }
-  return events;
+  return `refusing bulk removal: ${abort.removed} removed > cap ${abort.cap} (prev films=${abort.prevFilms}) — aborting before write`;
 }
 
 /**
- * Lifecycle with removal debounce.
+ * Core transition engine (removal debounce).
  * Soft-missing films stay in `films` until REMOVAL_THRESHOLD consecutive absences.
  * Reappearance under threshold clears the counter and does not emit `added`.
+ * Prefer `runLifecycle` for the full policy (aborts, cold start, quiet run).
  */
 export function applyLifecycle(
   prev: { films: FilmRecord[]; missingRuns?: Record<string, number> },
@@ -422,7 +415,7 @@ export function applyLifecycle(
   }
 
   // 3. Absent films: increment missingRuns; only emit removed at threshold.
-  // Empty current catalog is refused by main() before we get here.
+  // Empty current catalog with known films is refused by runLifecycle before this.
   const softKept: FilmRecord[] = [];
   for (const id of [...prevMap.keys()].sort()) {
     if (curMap.has(id)) continue;
@@ -439,6 +432,67 @@ export function applyLifecycle(
   // Present films (current snapshot) + soft-missing still under threshold.
   const nextFilms = [...current, ...softKept].sort((a, b) => a.id.localeCompare(b.id));
   return { events, films: nextFilms, missingRuns };
+}
+
+/**
+ * Full Lifecycle Run: empty/bulk guards, transitions, cold start, archive set, quiet lastRun.
+ * Pure domain — no fs, no fetch. Interface is the test surface for policy.
+ */
+export function runLifecycle(
+  prev: State,
+  current: FilmRecord[],
+  archivePostCount: number,
+  deps: { now: () => Date; uuid: () => string },
+): LifecycleResult {
+  // Empty HTTP-200 catalog would burn through removal debounce and wipe state.
+  if (current.length === 0 && prev.films.length > 0) {
+    return { ok: false, abort: { kind: "empty-catalog", knownFilms: prev.films.length } };
+  }
+
+  // prev.films includes soft-missing titles so reappearance is not mis-emitted as added.
+  const { events, films, missingRuns } = applyLifecycle(prev, current, deps);
+
+  const removalCount = events.filter((e) => e.type === "removed").length;
+  const removalCap = maxRemovalsAllowed(prev.films.length);
+  if (removalCount > removalCap) {
+    return {
+      ok: false,
+      abort: {
+        kind: "bulk-removal",
+        removed: removalCount,
+        cap: removalCap,
+        prevFilms: prev.films.length,
+      },
+    };
+  }
+
+  // Cold start = virgin install only. Empty films after a wipe (lastRun or feed history)
+  // must still archive re-adds — never suppress when history already exists.
+  const coldStart =
+    prev.films.length === 0 && !prev.lastRun && archivePostCount === 0;
+  // Cold start seeds state only — do not pollute the public feed with bulk "added" posts.
+  const archivedEvents = coldStart ? [] : events;
+
+  // Only bump lastRun when lifecycle/payload actually changed — keeps quiet runs commit-free.
+  const prevMissing = prev.missingRuns ?? {};
+  const meaningfulChange =
+    coldStart ||
+    archivedEvents.length > 0 ||
+    JSON.stringify(films) !== JSON.stringify(prev.films) ||
+    JSON.stringify(missingRuns) !== JSON.stringify(prevMissing);
+
+  return {
+    ok: true,
+    outcome: {
+      coldStart,
+      events,
+      archivedEvents,
+      films,
+      missingRuns,
+      lastRun: meaningfulChange ? deps.now().toISOString() : prev.lastRun,
+      meaningfulChange,
+    },
+  };
 }
 
 // ─── TMDB ────────────────────────────────────────────────────────────────────
@@ -978,48 +1032,28 @@ export async function main(options: MainOptions = {}): Promise<void> {
 
   // Gather everything before touching any file (hard rule: aborted scrape ≠ every film gone).
   const prev = loadState(statePath);
+  const archive = loadPosts(postsPath);
   const token = await deps.fetchToken();
   const filmsRes = (await deps.ocapi(token, "films")) as FilmsResponse;
   const availRes = (await deps.ocapi(token, "films/availability")) as AvailabilityResponse;
   const sitemapXml = await deps.fetchSitemap();
   const sitemap = parseSitemap(sitemapXml);
   const current = buildFilmRecords(filmsRes, availRes, sitemap);
-  // Empty HTTP-200 catalog would burn through removal debounce and wipe state.
-  if (current.length === 0 && prev.films.length > 0) {
-    throw new Error(
-      `empty OCAPI catalog with ${prev.films.length} known films — aborting before write`,
-    );
-  }
+  // Empty current is a free no-op here; runLifecycle still aborts empty-with-known before write.
   await enrichPosters(current, prev.tmdbCache, tmdbApiKey, deps.tmdb);
-  // prev.films includes soft-missing titles so reappearance is not mis-emitted as added.
-  const { events, films, missingRuns } = applyLifecycle(prev, current, deps);
-  const removalCount = events.filter((e) => e.type === "removed").length;
-  const removalCap = maxRemovalsAllowed(prev.films.length);
-  if (removalCount > removalCap) {
-    throw new Error(
-      `refusing bulk removal: ${removalCount} removed > cap ${removalCap} (prev films=${prev.films.length}) — aborting before write`,
-    );
+
+  const result = runLifecycle(prev, current, archive.posts.length, deps);
+  if (!result.ok) {
+    throw new Error(lifecycleAbortMessage(result.abort));
   }
-  const archive = loadPosts(postsPath);
-  // Cold start = virgin install only. Empty films after a wipe (lastRun or feed history present)
-  // must still archive re-adds — never suppress when history already exists.
-  const coldStart =
-    prev.films.length === 0 && !prev.lastRun && archive.posts.length === 0;
-  // Cold start seeds state only — do not pollute the public feed with bulk "added" posts.
-  const archivedEvents = coldStart ? [] : events;
+  const { coldStart, archivedEvents, films, missingRuns, lastRun } = result.outcome;
+
   if (archivedEvents.length > 0) archive.posts.push(...archivedEvents);
-  // Only bump lastRun when lifecycle/payload actually changed — keeps quiet runs commit-free.
-  const prevMissing = prev.missingRuns ?? {};
-  const meaningfulChange =
-    coldStart ||
-    archivedEvents.length > 0 ||
-    JSON.stringify(films) !== JSON.stringify(prev.films) ||
-    JSON.stringify(missingRuns) !== JSON.stringify(prevMissing);
   const newState: State = {
     films,
     tmdbCache: prev.tmdbCache,
     missingRuns,
-    lastRun: meaningfulChange ? deps.now().toISOString() : prev.lastRun,
+    lastRun,
   };
   const feed = generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" });
   const html = generateHTML(archive.posts, { feedTitle, language: "es-CO" });

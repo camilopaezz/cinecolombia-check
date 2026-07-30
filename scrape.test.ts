@@ -14,7 +14,6 @@ import {
   applyLifecycle,
   buildFilmRecords,
   buildDiscordEmbed,
-  diff,
   enrichPosters,
   extractAuthToken,
   FEED_LIMIT,
@@ -22,13 +21,16 @@ import {
   gainEvents,
   generateFeed,
   generateHTML,
+  lifecycleAbortMessage,
   loadPosts,
   loadState,
   main,
   maxRemovalsAllowed,
   parseSitemap,
   REMOVAL_THRESHOLD,
+  runLifecycle,
   sanitizeArchivePosts,
+  type State,
 } from "./scrape.ts";
 
 // ─── Fixtures ────────────────────────────────────────────────────────────────
@@ -178,67 +180,26 @@ describe("buildFilmRecords", () => {
   });
 });
 
-describe("diff", () => {
-  const rec = (id: string, categories: string[], title = id): FilmRecord => ({
-    id,
-    title,
-    shortSynopsis: "",
-    releaseDate: null,
-    runtimeInMinutes: null,
-    censorRating: "",
-    genres: [],
-    director: "",
-    webUrl: "",
-    categories,
-    posterUrl: null,
-  });
-  const D = { now: fixedNow, uuid: fakeUuid };
-
-  it("announces new films at highest stage; suppresses preventa while in theaters", () => {
-    const prev = new Map([["A", rec("A", ["NowShowing"])]]);
-    const cur = new Map([
-      ["A", rec("A", ["NowShowing", "AdvanceBooking"])], // gains AdvanceBooking while in theaters -> none
-      ["B", rec("B", ["AdvanceBooking", "NowShowing"])], // new already in theaters -> now-in-theaters
-      ["C", rec("C", ["ComingSoon"])], // new coming soon -> added
-      ["D", rec("D", ["AdvanceBooking"])], // new preventa only -> preventa-opens
-    ]);
-    const events = diff(prev, cur, D).map((e) => `${e.type}:${e.filmId}`);
-    expect(events).toEqual(["now-in-theaters:B", "added:C", "preventa-opens:D"]);
-  });
-
-  it("emits removed for films that leave the catalog", () => {
-    const prev = new Map([["A", rec("A", ["NowShowing"])]]);
-    const cur = new Map<string, ReturnType<typeof rec>>();
-    const events = diff(prev, cur, D).map((e) => `${e.type}:${e.filmId}`);
-    expect(events).toEqual(["removed:A"]);
-  });
-
-  it("is idempotent: same input yields no events", () => {
-    const prev = new Map([["A", rec("A", ["NowShowing"])]]);
-    const cur = new Map([["A", rec("A", ["NowShowing"])]]);
-    expect(diff(prev, cur, D)).toHaveLength(0);
-  });
+const filmRec = (id: string, categories: string[], title = id): FilmRecord => ({
+  id,
+  title,
+  shortSynopsis: "",
+  releaseDate: null,
+  runtimeInMinutes: null,
+  censorRating: "",
+  genres: [],
+  director: "",
+  webUrl: "",
+  categories,
+  posterUrl: null,
 });
 
 describe("applyLifecycle (removal debounce)", () => {
-  const rec = (id: string, categories: string[], title = id): FilmRecord => ({
-    id,
-    title,
-    shortSynopsis: "",
-    releaseDate: null,
-    runtimeInMinutes: null,
-    censorRating: "",
-    genres: [],
-    director: "",
-    webUrl: "",
-    categories,
-    posterUrl: null,
-  });
   const D = { now: fixedNow, uuid: fakeUuid };
 
   it("missing once: no removed, film stays soft-missing, missingRuns=1", () => {
     counter = 0;
-    const prev = { films: [rec("A", ["NowShowing"])], missingRuns: {} };
+    const prev = { films: [filmRec("A", ["NowShowing"])], missingRuns: {} };
     const result = applyLifecycle(prev, [], D);
     expect(result.events).toHaveLength(0);
     expect(result.films.map((f) => f.id)).toEqual(["A"]);
@@ -249,7 +210,7 @@ describe("applyLifecycle (removal debounce)", () => {
     counter = 0;
     expect(REMOVAL_THRESHOLD).toBe(2);
     const prev = {
-      films: [rec("A", ["NowShowing"], "Gone Film")],
+      films: [filmRec("A", ["NowShowing"], "Gone Film")],
       missingRuns: { A: 1 },
     };
     const result = applyLifecycle(prev, [], D);
@@ -262,10 +223,10 @@ describe("applyLifecycle (removal debounce)", () => {
   it("missing once then returns: no removed, no added, missingRuns cleared", () => {
     counter = 0;
     const soft = {
-      films: [rec("A", ["NowShowing"], "Old Title")],
+      films: [filmRec("A", ["NowShowing"], "Old Title")],
       missingRuns: { A: 1 },
     };
-    const returned = [rec("A", ["NowShowing"], "Updated Title")];
+    const returned = [filmRec("A", ["NowShowing"], "Updated Title")];
     const result = applyLifecycle(soft, returned, D);
     expect(result.events).toHaveLength(0);
     expect(result.films).toHaveLength(1);
@@ -275,10 +236,10 @@ describe("applyLifecycle (removal debounce)", () => {
 
   it("truly new film announces at highest stage; gains still emit", () => {
     counter = 0;
-    const prev = { films: [rec("A", ["ComingSoon"])] };
+    const prev = { films: [filmRec("A", ["ComingSoon"])] };
     const cur = [
-      rec("A", ["ComingSoon", "AdvanceBooking"]),
-      rec("B", ["NowShowing"]),
+      filmRec("A", ["ComingSoon", "AdvanceBooking"]),
+      filmRec("B", ["NowShowing"]),
     ];
     const result = applyLifecycle(prev, cur, D);
     expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual([
@@ -290,8 +251,8 @@ describe("applyLifecycle (removal debounce)", () => {
 
   it("same-run preventa + now collapses to only now-in-theaters for existing film", () => {
     counter = 0;
-    const prev = { films: [rec("A", ["ComingSoon"])] };
-    const cur = [rec("A", ["ComingSoon", "AdvanceBooking", "NowShowing"])];
+    const prev = { films: [filmRec("A", ["ComingSoon"])] };
+    const cur = [filmRec("A", ["ComingSoon", "AdvanceBooking", "NowShowing"])];
     const result = applyLifecycle(prev, cur, D);
     expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
   });
@@ -299,14 +260,14 @@ describe("applyLifecycle (removal debounce)", () => {
   it("separate runs still emit preventa then now independently", () => {
     counter = 0;
     const afterPreventa = applyLifecycle(
-      { films: [rec("A", ["ComingSoon"])] },
-      [rec("A", ["ComingSoon", "AdvanceBooking"])],
+      { films: [filmRec("A", ["ComingSoon"])] },
+      [filmRec("A", ["ComingSoon", "AdvanceBooking"])],
       D,
     );
     expect(afterPreventa.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["preventa-opens:A"]);
     const afterNow = applyLifecycle(
       { films: afterPreventa.films, missingRuns: afterPreventa.missingRuns },
-      [rec("A", ["ComingSoon", "AdvanceBooking", "NowShowing"])],
+      [filmRec("A", ["ComingSoon", "AdvanceBooking", "NowShowing"])],
       D,
     );
     expect(afterNow.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
@@ -315,8 +276,8 @@ describe("applyLifecycle (removal debounce)", () => {
   it("suppresses preventa-opens when film is already NowShowing", () => {
     counter = 0;
     const result = applyLifecycle(
-      { films: [rec("A", ["NowShowing"])] },
-      [rec("A", ["NowShowing", "AdvanceBooking"])],
+      { films: [filmRec("A", ["NowShowing"])] },
+      [filmRec("A", ["NowShowing", "AdvanceBooking"])],
       D,
     );
     expect(result.events).toHaveLength(0);
@@ -324,8 +285,120 @@ describe("applyLifecycle (removal debounce)", () => {
 
   it("new film with only AdvanceBooking announces preventa-opens", () => {
     counter = 0;
-    const result = applyLifecycle({ films: [] }, [rec("A", ["AdvanceBooking"])], D);
+    const result = applyLifecycle({ films: [] }, [filmRec("A", ["AdvanceBooking"])], D);
     expect(result.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["preventa-opens:A"]);
+  });
+
+  it("announces new films at highest stage; suppresses preventa while in theaters", () => {
+    counter = 0;
+    const prev = { films: [filmRec("A", ["NowShowing"])] };
+    const cur = [
+      filmRec("A", ["NowShowing", "AdvanceBooking"]),
+      filmRec("B", ["AdvanceBooking", "NowShowing"]),
+      filmRec("C", ["ComingSoon"]),
+      filmRec("D", ["AdvanceBooking"]),
+    ];
+    const events = applyLifecycle(prev, cur, D).events.map((e) => `${e.type}:${e.filmId}`);
+    expect(events).toEqual(["now-in-theaters:B", "added:C", "preventa-opens:D"]);
+  });
+
+  it("is idempotent: same input yields no events", () => {
+    counter = 0;
+    const films = [filmRec("A", ["NowShowing"])];
+    expect(applyLifecycle({ films }, films, D).events).toHaveLength(0);
+  });
+});
+
+describe("runLifecycle (full policy)", () => {
+  const D = { now: fixedNow, uuid: fakeUuid };
+  const emptyState = (): State => ({ films: [], tmdbCache: {} });
+
+  it("aborts empty catalog when previous films exist", () => {
+    const prev: State = { films: [filmRec("A", ["NowShowing"])], tmdbCache: {} };
+    const result = runLifecycle(prev, [], 0, D);
+    expect(result.ok).toBe(false);
+    if (result.ok) throw new Error("expected abort");
+    expect(result.abort).toEqual({ kind: "empty-catalog", knownFilms: 1 });
+    expect(lifecycleAbortMessage(result.abort)).toContain("empty OCAPI catalog");
+  });
+
+  it("virgin cold start seeds films but archives nothing", () => {
+    counter = 0;
+    const cur = [filmRec("A", ["ComingSoon"]), filmRec("B", ["NowShowing"])];
+    const result = runLifecycle(emptyState(), cur, 0, D);
+    expect(result.ok).toBe(true);
+    if (!result.ok) throw new Error("expected outcome");
+    expect(result.outcome.coldStart).toBe(true);
+    expect(result.outcome.events).toHaveLength(2);
+    expect(result.outcome.archivedEvents).toHaveLength(0);
+    expect(result.outcome.films).toHaveLength(2);
+    expect(result.outcome.meaningfulChange).toBe(true);
+    expect(result.outcome.lastRun).toBe(fixedNow().toISOString());
+  });
+
+  it("wipe with lastRun set archives re-adds (not cold start)", () => {
+    counter = 0;
+    const prev: State = {
+      films: [],
+      tmdbCache: {},
+      lastRun: "2026-01-01T00:00:00.000Z",
+    };
+    const result = runLifecycle(prev, [filmRec("A", ["NowShowing"])], 0, D);
+    expect(result.ok).toBe(true);
+    if (!result.ok) throw new Error("expected outcome");
+    expect(result.outcome.coldStart).toBe(false);
+    expect(result.outcome.archivedEvents.map((e) => e.type)).toEqual(["now-in-theaters"]);
+  });
+
+  it("quiet identical catalog keeps lastRun", () => {
+    counter = 0;
+    const films = [filmRec("A", ["NowShowing"])];
+    const prev: State = {
+      films,
+      tmdbCache: {},
+      missingRuns: {},
+      lastRun: "2026-01-01T00:00:00.000Z",
+    };
+    const result = runLifecycle(prev, films, 3, D);
+    expect(result.ok).toBe(true);
+    if (!result.ok) throw new Error("expected outcome");
+    expect(result.outcome.meaningfulChange).toBe(false);
+    expect(result.outcome.lastRun).toBe("2026-01-01T00:00:00.000Z");
+    expect(result.outcome.archivedEvents).toHaveLength(0);
+  });
+
+  it("aborts bulk removal above cap", () => {
+    counter = 0;
+    // 12 known films, all past soft-missing threshold → 12 removals; cap = max(10, floor(12*0.3))=10
+    const films = Array.from({ length: 12 }, (_, i) =>
+      filmRec(`F${String(i).padStart(2, "0")}`, ["NowShowing"]),
+    );
+    const missingRuns = Object.fromEntries(films.map((f) => [f.id, 1]));
+    const prev: State = { films, tmdbCache: {}, missingRuns, lastRun: "2026-01-01T00:00:00.000Z" };
+    // Keep 1 film so we don't hit empty-catalog abort; 11 removals > cap 10
+    const result = runLifecycle(prev, [films[0]!], 0, D);
+    expect(result.ok).toBe(false);
+    if (result.ok) throw new Error("expected abort");
+    expect(result.abort.kind).toBe("bulk-removal");
+    if (result.abort.kind !== "bulk-removal") throw new Error("expected bulk-removal");
+    expect(result.abort.removed).toBe(11);
+    expect(result.abort.cap).toBe(10);
+    expect(lifecycleAbortMessage(result.abort)).toContain("refusing bulk removal");
+  });
+
+  it("gain on known film archives the event", () => {
+    counter = 0;
+    const prev: State = {
+      films: [filmRec("A", ["ComingSoon"])],
+      tmdbCache: {},
+      lastRun: "2026-01-01T00:00:00.000Z",
+    };
+    const result = runLifecycle(prev, [filmRec("A", ["ComingSoon", "AdvanceBooking"])], 1, D);
+    expect(result.ok).toBe(true);
+    if (!result.ok) throw new Error("expected outcome");
+    expect(result.outcome.coldStart).toBe(false);
+    expect(result.outcome.archivedEvents.map((e) => e.type)).toEqual(["preventa-opens"]);
+    expect(result.outcome.meaningfulChange).toBe(true);
   });
 });
 

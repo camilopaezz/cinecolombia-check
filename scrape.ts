@@ -206,7 +206,7 @@ export function gainEvents(
 }
 
 /**
- * Offline archive hygiene (not called from main — scrapes only append).
+ * Offline archive hygiene (scrapes only append; invoke via `runArchiveHygiene` / CLI `--hygiene`).
  * - re-stage historical `added` to the highest category on the snapshot (rule A)
  * - drop preventa-opens whose snapshot already includes NowShowing (rule B)
  * - drop same-timestamp preventa twins of now-in-theaters (incl. restaged rows)
@@ -532,6 +532,9 @@ export async function enrichPosters(
 /** Newest N posts rendered in public feed/HTML; posts.json keeps full history. */
 export const FEED_LIMIT = 100;
 
+/** Discord embed description hard limit (chars, including ellipsis). */
+const SYNOPSIS_CLIP = 350;
+
 function escapeXml(s: string): string {
   return s
     .replace(/&/g, "&amp;")
@@ -571,21 +574,52 @@ function bogotaWhen(iso: string): { date: string; time: string } {
   };
 }
 
+// ─── Shared event projection (bitácora surfaces) ─────────────────────────────
+// Presentation facts shared by RSS / HTML / Discord; adapters stay thin formatters.
+
+/** Headline used by RSS and Discord: "Pronto: Toy Story 5". */
+export function eventTitle(e: Event): string {
+  return `${EVENT_LABELS[e.type]}: ${e.snapshot.title}`;
+}
+
+/** Compact ficha line: release · runtime · rating · genres (empty bits omitted). */
+export function factsLine(snap: FilmRecord): string {
+  return [
+    snap.releaseDate,
+    snap.runtimeInMinutes ? `${snap.runtimeInMinutes} min` : null,
+    snap.censorRating || null,
+    snap.genres.join(", ") || null,
+  ]
+    .filter(Boolean)
+    .join(" · ");
+}
+
+/** Clip synopsis to a hard char limit (Discord description); ellipsis is one char. */
+export function clipSynopsis(text: string, maxLen = SYNOPSIS_CLIP): string {
+  if (!text) return "";
+  if (text.length <= maxLen) return text;
+  return `${text.slice(0, maxLen - 1)}…`;
+}
+
+/** Newest-first public window; posts.json keeps full history. */
+export function windowNewest(posts: Event[], limit = FEED_LIMIT): Event[] {
+  return posts
+    .slice()
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+    .slice(0, limit);
+}
+
 export function generateFeed(
   posts: Event[],
   opts: { feedTitle: string; feedUrl: string; language: string },
 ): string {
-  const items = posts
-    .slice()
-    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-    .slice(0, FEED_LIMIT)
+  const items = windowNewest(posts)
     .map((p) => {
-      const title = `${EVENT_LABELS[p.type]}: ${p.snapshot.title}`;
       const media = p.snapshot.posterUrl
         ? `\n      <media:content url="${escapeXml(p.snapshot.posterUrl)}" medium="image" />`
         : "";
       return `    <item>
-      <title>${escapeXml(title)}</title>
+      <title>${escapeXml(eventTitle(p))}</title>
       <link>${escapeXml(p.snapshot.webUrl)}</link>
       <guid isPermaLink="false">${escapeXml(p.guid)}</guid>
       <pubDate>${rfc822(p.createdAt)}</pubDate>
@@ -753,24 +787,16 @@ export function generateHTML(
   posts: Event[],
   opts: { feedTitle: string; language: string },
 ): string {
-  const cards = posts
-    .slice()
-    .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
-    .slice(0, FEED_LIMIT)
+  const cards = windowNewest(posts)
     .map((p) => {
       const poster = p.snapshot.posterUrl
         ? `<img src="${escapeXml(p.snapshot.posterUrl)}" alt="${escapeXml(p.snapshot.title)}" />`
         : `<div class="ph" aria-hidden="true">sin póster</div>`;
-      const factsBits = [
-        p.snapshot.releaseDate,
-        p.snapshot.runtimeInMinutes ? `${p.snapshot.runtimeInMinutes} min` : null,
-        p.snapshot.censorRating,
-        p.snapshot.genres.join(", ") || null,
-      ].filter(Boolean);
       const link = p.snapshot.webUrl
         ? `<a href="${escapeXml(p.snapshot.webUrl)}">Ver en CineColombia</a>`
         : "";
-      const facts = [...factsBits, link].filter(Boolean).join(" · ");
+      const ficha = factsLine(p.snapshot);
+      const facts = [ficha, link].filter(Boolean).join(" · ");
       const when = bogotaWhen(p.createdAt);
       const code = `${EVENT_CODES[p.type]} · ${EVENT_CODE_GLOSS[p.type]}`;
       const syn = p.snapshot.shortSynopsis
@@ -835,22 +861,10 @@ const EVENT_COLORS: Record<EventType, number> = {
 
 export function buildDiscordEmbed(e: Event): Record<string, unknown> {
   const snap = e.snapshot;
-  const facts = [
-    snap.releaseDate,
-    snap.runtimeInMinutes ? `${snap.runtimeInMinutes} min` : null,
-    snap.censorRating,
-    snap.genres.join(", "),
-  ].filter(Boolean).join(" · ");
-
-  const description = snap.shortSynopsis
-    ? snap.shortSynopsis.length > 350
-      ? `${snap.shortSynopsis.slice(0, 349)}\u2026`
-      : snap.shortSynopsis
-    : "";
-
+  const facts = factsLine(snap);
   const embed: Record<string, unknown> = {
-    title: `${EVENT_LABELS[e.type]}: ${snap.title}`,
-    description,
+    title: eventTitle(e),
+    description: clipSynopsis(snap.shortSynopsis),
     color: EVENT_COLORS[e.type],
     timestamp: e.createdAt,
     footer: { text: bogotaDate(e.createdAt) },
@@ -860,7 +874,6 @@ export function buildDiscordEmbed(e: Event): Record<string, unknown> {
   if (facts) embed.fields = [{ name: "Ficha", value: facts, inline: true }];
   return embed;
 }
-
 // ─── Persistence ─────────────────────────────────────────────────────────────
 
 export function loadState(path: string): State {
@@ -1013,6 +1026,40 @@ async function tryGitPush(events: Event[]): Promise<void> {
   }
 }
 
+// ─── Offline archive hygiene ─────────────────────────────────────────────────
+
+/**
+ * One-shot offline repair for historical posts.json (restage + drop preventa twins).
+ * Scrapes stay append-only; call via CLI `--hygiene` / `hygiene` when lifecycle rules change.
+ * Rewrites posts atomically and regenerates feed/html so public surfaces match.
+ * No scrape, notify, or git.
+ */
+export function runArchiveHygiene(
+  options: Pick<MainOptions, "dataDir" | "docsDir" | "feedUrl" | "feedTitle"> = {},
+): { before: number; after: number } {
+  const dataDir = options.dataDir ?? "data";
+  const docsDir = options.docsDir ?? "docs";
+  const postsPath = join(dataDir, "posts.json");
+  const feedPath = join(docsDir, "feed.xml");
+  const htmlPath = join(docsDir, "index.html");
+  const feedUrl =
+    options.feedUrl ?? process.env.FEED_URL ?? "https://example.github.io/cinecolombia-check/feed.xml";
+  const feedTitle = options.feedTitle ?? process.env.FEED_TITLE ?? "CineColombia — Cartelera y Preventa";
+
+  const archive = loadPosts(postsPath);
+  const before = archive.posts.length;
+  archive.posts = sanitizeArchivePosts(archive.posts);
+  const after = archive.posts.length;
+
+  ensureDir(dataDir);
+  ensureDir(docsDir);
+  savePosts(postsPath, archive);
+  atomicWrite(feedPath, generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" }));
+  atomicWrite(htmlPath, generateHTML(archive.posts, { feedTitle, language: "es-CO" }));
+
+  return { before, after };
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 export async function main(options: MainOptions = {}): Promise<void> {
@@ -1099,8 +1146,23 @@ export async function main(options: MainOptions = {}): Promise<void> {
 }
 
 if (import.meta.main) {
-  main().catch((e) => {
-    console.error(e);
-    process.exit(1);
-  });
+  const argv = process.argv.slice(2);
+  const hygiene = argv.includes("--hygiene") || argv.includes("hygiene");
+  if (hygiene) {
+    try {
+      const { before, after } = runArchiveHygiene();
+      const dropped = before - after;
+      console.log(
+        `archive hygiene: ${before} -> ${after} posts${dropped > 0 ? ` (dropped ${dropped})` : ""}`,
+      );
+    } catch (e) {
+      console.error(e);
+      process.exit(1);
+    }
+  } else {
+    main().catch((e) => {
+      console.error(e);
+      process.exit(1);
+    });
+  }
 }

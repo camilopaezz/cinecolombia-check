@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it, afterAll } from "bun:test";
-import { mkdtempSync, rmSync } from "node:fs";
+import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import type {
@@ -14,8 +14,11 @@ import {
   applyLifecycle,
   buildFilmRecords,
   buildDiscordEmbed,
+  clipSynopsis,
   enrichPosters,
+  eventTitle,
   extractAuthToken,
+  factsLine,
   FEED_LIMIT,
   formatCommitMessage,
   gainEvents,
@@ -28,8 +31,10 @@ import {
   maxRemovalsAllowed,
   parseSitemap,
   REMOVAL_THRESHOLD,
+  runArchiveHygiene,
   runLifecycle,
   sanitizeArchivePosts,
+  windowNewest,
   type State,
 } from "./scrape.ts";
 
@@ -72,14 +77,19 @@ const fixedNow = () => new Date("2026-07-01T18:00:00Z");
 let counter = 0;
 const fakeUuid = () => `guid-${++counter}`;
 
-const deps = (): Deps => ({
+const DEFAULT_AVAIL: Record<string, string[]> = {
+  HO00000471: ["ComingSoon"],
+  HO00000386: ["NowShowing"],
+};
+
+/** Base test Deps bag; pass Partial overrides instead of rebuilding all 7 keys. */
+const deps = (overrides: Partial<Deps> = {}): Deps => ({
   async fetchToken() {
     return "tok";
   },
   async ocapi(_t, path) {
     if (path === "films") return filmsResponse();
-    if (path === "films/availability")
-      return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
+    if (path === "films/availability") return availability(DEFAULT_AVAIL);
     throw new Error(`unexpected path ${path}`);
   },
   async fetchSitemap() {
@@ -91,7 +101,54 @@ const deps = (): Deps => ({
   now: fixedNow,
   uuid: fakeUuid,
   async notify() {},
+  ...overrides,
 });
+
+type CatalogOpts = {
+  /** Static map or getter (getter when availability mutates across runs). */
+  availability?: Record<string, string[]> | (() => Record<string, string[]>);
+  /** Full films response or getter. Defaults to filmsResponse(). */
+  films?: FilmsResponse | (() => FilmsResponse);
+  /** Filter films to these ids (static or getter). Applied after films. */
+  filmIds?: string[] | (() => string[]);
+} & Partial<Omit<Deps, "ocapi">>;
+
+const resolve = <T>(v: T | (() => T)): T =>
+  typeof v === "function" ? (v as () => T)() : v;
+
+/**
+ * Catalog-shaped Deps: shared ocapi for films + availability, with optional
+ * overrides for notify/now/fetchToken/etc. Shrinks main() test boilerplate.
+ */
+const catalogDeps = (opts: CatalogOpts = {}): Deps => {
+  const { availability: availOpt, films: filmsOpt, filmIds: filmIdsOpt, ...rest } = opts;
+  return deps({
+    async ocapi(_t, path) {
+      if (path === "films") {
+        const full = filmsOpt !== undefined ? resolve(filmsOpt) : filmsResponse();
+        if (filmIdsOpt === undefined) return full;
+        const ids = new Set(resolve(filmIdsOpt));
+        return { ...full, films: full.films.filter((f) => ids.has(f.id)) };
+      }
+      if (path === "films/availability") {
+        return availability(availOpt !== undefined ? resolve(availOpt) : DEFAULT_AVAIL);
+      }
+      throw new Error(`unexpected path ${path}`);
+    },
+    ...rest,
+  });
+};
+
+/** Captures notify() calls so main() tests can assert without re-wiring the bag. */
+const recordingNotifier = () => {
+  const events: Event[] = [];
+  return {
+    events,
+    notify: async (evs: Event[]) => {
+      events.push(...evs);
+    },
+  };
+};
 
 // ─── Pure functions ──────────────────────────────────────────────────────────
 
@@ -552,6 +609,75 @@ describe("announcementType / gainEvents / sanitizeArchivePosts", () => {
     ]);
   });
 
+  it("runArchiveHygiene rewrites posts.json and regenerates public surfaces", () => {
+    const root = mkdtempSync(join(tmpdir(), "cineco-hygiene-"));
+    try {
+      const dataDir = join(root, "data");
+      const docsDir = join(root, "docs");
+      const snap = (cats: string[]): FilmRecord => ({
+        id: "HO1",
+        title: "X",
+        shortSynopsis: "sinopsis",
+        releaseDate: null,
+        runtimeInMinutes: null,
+        censorRating: "",
+        genres: [],
+        director: "",
+        webUrl: "https://example.com/x",
+        categories: cats,
+        posterUrl: null,
+      });
+      // Dirty archive: restage-worthy added + same-ts preventa twin of now.
+      const dirty: Event[] = [
+        {
+          guid: "1",
+          type: "added",
+          filmId: "HO1",
+          createdAt: "2026-07-01T00:00:00.000Z",
+          snapshot: snap(["NowShowing"]),
+        },
+        {
+          guid: "2",
+          type: "preventa-opens",
+          filmId: "HO2",
+          createdAt: "2026-07-02T00:00:00.000Z",
+          snapshot: snap(["NowShowing", "AdvanceBooking"]),
+        },
+        {
+          guid: "3",
+          type: "now-in-theaters",
+          filmId: "HO2",
+          createdAt: "2026-07-02T00:00:00.000Z",
+          snapshot: snap(["NowShowing", "AdvanceBooking"]),
+        },
+      ];
+      const postsPath = join(dataDir, "posts.json");
+      mkdirSync(dataDir, { recursive: true });
+      writeFileSync(postsPath, JSON.stringify({ posts: dirty }, null, 2) + "\n");
+
+      const result = runArchiveHygiene({
+        dataDir,
+        docsDir,
+        feedUrl: "https://x/feed.xml",
+        feedTitle: "Test Feed",
+      });
+      expect(result).toEqual({ before: 3, after: 2 });
+
+      const cleaned = loadPosts(postsPath).posts;
+      expect(cleaned.map((p) => `${p.guid}:${p.type}`)).toEqual([
+        "1:now-in-theaters",
+        "3:now-in-theaters",
+      ]);
+      // Feed/html regenerated from cleaned archive (no twin, restaged type in title path).
+      const feed = Bun.file(join(docsDir, "feed.xml"));
+      const html = Bun.file(join(docsDir, "index.html"));
+      expect(feed.size).toBeGreaterThan(0);
+      expect(html.size).toBeGreaterThan(0);
+    } finally {
+      rmSync(root, { recursive: true, force: true });
+    }
+  });
+
   it("soft-missing return with upgraded categories emits gain only (no added)", () => {
     counter = 0;
     const soft = {
@@ -597,6 +723,62 @@ describe("announcementType / gainEvents / sanitizeArchivePosts", () => {
 });
 
 // ─── Output generation ───────────────────────────────────────────────────────
+
+describe("event projection helpers", () => {
+  const snap: FilmRecord = {
+    id: "HO1",
+    title: "Toy Story 5",
+    shortSynopsis: "Sinopsis de Toy Story 5",
+    releaseDate: "2026-06-18",
+    runtimeInMinutes: 102,
+    censorRating: "Todos",
+    genres: ["Animación"],
+    director: "Pixar Director",
+    webUrl: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
+    categories: ["ComingSoon"],
+    posterUrl: "https://image.tmdb.org/t/p/w500/abc.jpg",
+  };
+
+  const ev = (type: Event["type"], overrides: Partial<Event> = {}): Event => ({
+    guid: "g1",
+    type,
+    filmId: "HO1",
+    createdAt: "2026-07-01T18:00:00Z",
+    snapshot: snap,
+    ...overrides,
+  });
+
+  it("eventTitle prefixes the Spanish label", () => {
+    expect(eventTitle(ev("added"))).toBe("Pronto: Toy Story 5");
+    expect(eventTitle(ev("now-in-theaters"))).toBe("En cartelera: Toy Story 5");
+  });
+
+  it("factsLine joins non-empty ficha bits", () => {
+    expect(factsLine(snap)).toBe("2026-06-18 · 102 min · Todos · Animación");
+    expect(factsLine({ ...snap, releaseDate: null, runtimeInMinutes: null, censorRating: "", genres: [] })).toBe("");
+  });
+
+  it("clipSynopsis respects the hard limit and ellipsis", () => {
+    expect(clipSynopsis("short")).toBe("short");
+    expect(clipSynopsis("")).toBe("");
+    const long = "A".repeat(500);
+    const clipped = clipSynopsis(long);
+    expect(clipped.length).toBe(350);
+    expect(clipped.endsWith("…")).toBe(true);
+  });
+
+  it("windowNewest sorts reverse-chrono and slices to limit", () => {
+    const posts: Event[] = [
+      ev("added", { guid: "old", createdAt: "2026-01-01T00:00:00Z", filmId: "A" }),
+      ev("added", { guid: "new", createdAt: "2026-06-01T00:00:00Z", filmId: "B" }),
+      ev("added", { guid: "mid", createdAt: "2026-03-01T00:00:00Z", filmId: "C" }),
+    ];
+    const window = windowNewest(posts, 2);
+    expect(window.map((p) => p.guid)).toEqual(["new", "mid"]);
+    // does not mutate input order
+    expect(posts.map((p) => p.guid)).toEqual(["old", "new", "mid"]);
+  });
+});
 
 describe("generateFeed", () => {
   it("produces valid-enough RSS with stable guids and media:content", () => {
@@ -842,14 +1024,7 @@ describe("main (full scraper run)", () => {
       HO00000471: ["ComingSoon"],
       HO00000386: ["NowShowing"],
     };
-    const runDeps = (): Deps => ({
-      ...deps(),
-      async ocapi(_t, path) {
-        if (path === "films") return filmsResponse();
-        if (path === "films/availability") return availability(avail);
-        throw new Error(`unexpected path ${path}`);
-      },
-    });
+    const runDeps = () => catalogDeps({ availability: () => avail });
 
     // Run 1: empty previous state (cold start) -> seed state, archive no events.
     await main({
@@ -898,9 +1073,11 @@ describe("main (full scraper run)", () => {
     // Seed a state file so we can prove it is left untouched.
     const statePath = join(dataDir, "state.json");
     await Bun.write(statePath, JSON.stringify({ films: [], tmdbCache: {} }));
-    const badDeps = { ...deps(), async fetchToken() {
-      throw new Error("cloudflare");
-    } };
+    const badDeps = deps({
+      async fetchToken() {
+        throw new Error("cloudflare");
+      },
+    });
     await expect(
       main({ dataDir, docsDir, gitPush: false, deps: badDeps }),
     ).rejects.toThrow("cloudflare");
@@ -916,18 +1093,9 @@ describe("main (full scraper run)", () => {
       HO00000471: ["ComingSoon"],
       HO00000386: ["NowShowing"],
     };
-    const notified: string[] = [];
-    const notifyDeps = (): Deps => ({
-      ...deps(),
-      async ocapi(_t, path) {
-        if (path === "films") return filmsResponse();
-        if (path === "films/availability") return availability(avail);
-        throw new Error(`unexpected path ${path}`);
-      },
-      async notify(events) {
-        notified.push(...events.map((e) => e.type));
-      },
-    });
+    const rec = recordingNotifier();
+    const notifyDeps = () =>
+      catalogDeps({ availability: () => avail, notify: rec.notify });
 
     // Run 1: cold start -> no archive, no notification.
     await main({
@@ -939,7 +1107,7 @@ describe("main (full scraper run)", () => {
       notifyWebhookUrl: "https://discord.example/webhook",
       deps: notifyDeps(),
     });
-    expect(notified).toEqual([]);
+    expect(rec.events).toEqual([]);
     expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
 
     // Run 2: transition -> notification fired with the preventa event.
@@ -953,7 +1121,7 @@ describe("main (full scraper run)", () => {
       notifyWebhookUrl: "https://discord.example/webhook",
       deps: notifyDeps(),
     });
-    expect(notified).toEqual(["preventa-opens"]);
+    expect(rec.events.map((e) => e.type)).toEqual(["preventa-opens"]);
   });
 
   it("skips notification when no webhook URL is configured", async () => {
@@ -983,21 +1151,6 @@ describe("main (full scraper run)", () => {
         lastRun: "2026-06-01T00:00:00.000Z",
       }),
     );
-    const notifyDeps = (): Deps => ({
-      ...deps(),
-      async ocapi(_t, path) {
-        if (path === "films") return filmsResponse();
-        if (path === "films/availability")
-          return availability({
-            HO00000471: ["ComingSoon", "AdvanceBooking"],
-            HO00000386: ["NowShowing"],
-          });
-        throw new Error(`unexpected path ${path}`);
-      },
-      async notify() {
-        notifyCalled = true;
-      },
-    });
 
     // Transition with no webhook URL — archive still written, notify must not run.
     await main({
@@ -1006,7 +1159,15 @@ describe("main (full scraper run)", () => {
       feedUrl: "https://x/feed.xml",
       tmdbApiKey: "k",
       gitPush: false,
-      deps: notifyDeps(),
+      deps: catalogDeps({
+        availability: {
+          HO00000471: ["ComingSoon", "AdvanceBooking"],
+          HO00000386: ["NowShowing"],
+        },
+        async notify() {
+          notifyCalled = true;
+        },
+      }),
     });
     expect(loadPosts(join(dataDir, "posts.json")).posts.map((p) => p.type)).toContain(
       "preventa-opens",
@@ -1040,19 +1201,6 @@ describe("main (full scraper run)", () => {
         lastRun: "2026-06-01T00:00:00.000Z",
       }),
     );
-    const failDeps = (): Deps => ({
-      ...deps(),
-      async ocapi(_t, path) {
-        if (path === "films") return filmsResponse();
-        if (path === "films/availability")
-          // Gains AdvanceBooking -> preventa-opens event -> triggers notify.
-          return availability({ HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] });
-        throw new Error(`unexpected path ${path}`);
-      },
-      async notify() {
-        throw new Error("discord 500");
-      },
-    });
 
     // Should complete successfully despite notify throwing.
     await expect(
@@ -1063,7 +1211,16 @@ describe("main (full scraper run)", () => {
         tmdbApiKey: "k",
         gitPush: false,
         notifyWebhookUrl: "https://discord.example/webhook",
-        deps: failDeps(),
+        deps: catalogDeps({
+          // Gains AdvanceBooking -> preventa-opens event -> triggers notify.
+          availability: {
+            HO00000471: ["ComingSoon", "AdvanceBooking"],
+            HO00000386: ["NowShowing"],
+          },
+          async notify() {
+            throw new Error("discord 500");
+          },
+        }),
       }),
     ).resolves.toBeUndefined();
 
@@ -1112,18 +1269,7 @@ describe("main (full scraper run)", () => {
     await Bun.write(join(dataDir, "posts.json"), JSON.stringify({ posts: [] }) + "\n");
 
     let filmIds = ["HO00000386"]; // A absent once
-    const runDeps = (): Deps => ({
-      ...deps(),
-      async ocapi(_t, path) {
-        if (path === "films") {
-          const full = filmsResponse();
-          return { ...full, films: full.films.filter((f) => filmIds.includes(f.id)) };
-        }
-        if (path === "films/availability")
-          return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
-        throw new Error(`unexpected path ${path}`);
-      },
-    });
+    const runDeps = () => catalogDeps({ filmIds: () => filmIds });
 
     await main({
       dataDir,
@@ -1230,7 +1376,7 @@ describe("main (full scraper run)", () => {
         ],
       }) + "\n",
     );
-    const notified: string[] = [];
+    const rec = recordingNotifier();
     await main({
       dataDir,
       docsDir,
@@ -1238,18 +1384,13 @@ describe("main (full scraper run)", () => {
       tmdbApiKey: "k",
       gitPush: false,
       notifyWebhookUrl: "https://discord.example/webhook",
-      deps: {
-        ...deps(),
-        async notify(events) {
-          notified.push(...events.map((e) => `${e.type}:${e.filmId}`));
-        },
-      },
+      deps: deps({ notify: rec.notify }),
     });
     const posts = loadPosts(join(dataDir, "posts.json")).posts.map((p) => `${p.type}:${p.filmId}`);
     // HO00000471 is ComingSoon → added; HO00000386 is NowShowing → highest-stage now-in-theaters
     expect(posts).toContain("added:HO00000471");
     expect(posts).toContain("now-in-theaters:HO00000386");
-    expect(notified).toEqual(
+    expect(rec.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(
       expect.arrayContaining(["added:HO00000471", "now-in-theaters:HO00000386"]),
     );
   });
@@ -1284,14 +1425,10 @@ describe("main (full scraper run)", () => {
         docsDir,
         feedUrl: "https://x/feed.xml",
         gitPush: false,
-        deps: {
-          ...deps(),
-          async ocapi(_t, path) {
-            if (path === "films") return { ...filmsResponse(), films: [] };
-            if (path === "films/availability") return availability({});
-            throw new Error(`unexpected path ${path}`);
-          },
-        },
+        deps: catalogDeps({
+          films: { ...filmsResponse(), films: [] },
+          availability: {},
+        }),
       }),
     ).rejects.toThrow("empty OCAPI catalog");
     expect(loadState(join(dataDir, "state.json")).films).toHaveLength(1);
@@ -1303,17 +1440,7 @@ describe("main (full scraper run)", () => {
     const docsDir = join(dir, "docs-quiet-lastrun");
     let tick = 0;
     const advancingNow = () => new Date(Date.UTC(2026, 6, 1, 18, tick++, 0));
-    const base = deps();
-    const runDeps = (): Deps => ({
-      ...base,
-      now: advancingNow,
-      async ocapi(_t, path) {
-        if (path === "films") return filmsResponse();
-        if (path === "films/availability")
-          return availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] });
-        throw new Error(`unexpected path ${path}`);
-      },
-    });
+    const runDeps = () => catalogDeps({ now: advancingNow });
     await main({
       dataDir,
       docsDir,
@@ -1384,32 +1511,25 @@ describe("main (full scraper run)", () => {
         docsDir,
         feedUrl: "https://x/feed.xml",
         gitPush: false,
-        deps: {
-          ...deps(),
-          async ocapi(_t, path) {
-            if (path === "films") {
-              return {
-                films: [
-                  {
-                    id: survivor.id,
-                    hopk: survivor.id,
-                    title: { text: survivor.title },
-                    shortSynopsis: { text: "" },
-                  },
-                ],
-                relatedData: {
-                  castAndCrew: [],
-                  genres: [],
-                  censorRatings: [],
-                  events: [],
-                },
-              } satisfies FilmsResponse;
-            }
-            if (path === "films/availability")
-              return availability({ [survivor.id]: ["NowShowing"] });
-            throw new Error(`unexpected path ${path}`);
+        deps: catalogDeps({
+          films: {
+            films: [
+              {
+                id: survivor.id,
+                hopk: survivor.id,
+                title: { text: survivor.title },
+                shortSynopsis: { text: "" },
+              },
+            ],
+            relatedData: {
+              castAndCrew: [],
+              genres: [],
+              censorRatings: [],
+              events: [],
+            },
           },
-        },
+          availability: { [survivor.id]: ["NowShowing"] },
+        }),
       }),
     ).rejects.toThrow("refusing bulk removal");
 

@@ -6,14 +6,16 @@ publishes them as a Spanish-language RSS feed + static HTML page, with optional
 Discord notifications on each transition.
 
 See [`issues/`](./issues/) for the original issue breakdown.
+Domain glossary + code seam map: [`CONTEXT.md`](./CONTEXT.md).
 
 ## Run
 
 ```bash
 bun install
-bun run scrape.ts   # one-shot scrape; writes data/ and docs/
-bun test            # tests
-bun run typecheck   # tsc --noEmit
+bun run scrape.ts            # one-shot scrape; writes data/ and docs/
+bun run scrape.ts --hygiene  # offline archive repair (restage + drop twins); no scrape/notify
+bun test                     # tests
+bun run typecheck            # tsc --noEmit
 ```
 
 The scraper reads `TMDB_API_KEY`, `FEED_URL`, `CINECO_GIT_PUSH`, and
@@ -25,6 +27,7 @@ fetch a fresh OCAPI token each run.
 
 ```
 scrape.ts            # the scraper (single file)
+CONTEXT.md           # domain glossary + seam map (AI / contributor nav)
 data/                # committed: posts.json (archive) + state.json (current)
 docs/                # GitHub Pages: feed.xml + index.html (newest 100 posts)
 systemd/             # cineco.service + cineco.timer
@@ -75,10 +78,18 @@ Notes:
 
 ## Public feed window
 
-`data/posts.json` is the full archive (append-only in normal scrapes). A one-time
-hygiene pass may restage or drop historical noise when lifecycle rules change;
-after that, scrapes only append. `docs/feed.xml` and `docs/index.html` render
-only the newest **`FEED_LIMIT` (100)** posts so the GitHub Pages surface stays small.
+`data/posts.json` is the full archive (append-only in normal scrapes). When
+lifecycle rules change, run a one-shot offline hygiene pass to restage historical
+`added` rows and drop preventa twins:
+
+```bash
+bun run scrape.ts --hygiene   # also accepts bare `hygiene`
+```
+
+That rewrites `data/posts.json` atomically and regenerates `docs/feed.xml` +
+`docs/index.html` from the cleaned archive (no scrape, notify, or git). After
+that, scrapes only append. Public surfaces still render only the newest
+**`FEED_LIMIT` (100)** posts so the GitHub Pages surface stays small.
 
 ## Notifications (optional, Discord)
 

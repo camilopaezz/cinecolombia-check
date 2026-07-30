@@ -4002,6 +4002,166 @@
           "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
         }
       }
+    },
+    {
+      "guid": "be0572d4-9f72-474e-bf58-d7adbd8172c6",
+      "type": "removed",
+      "filmId": "HO00000481",
+      "createdAt": "2026-07-30T11:00:39.070Z",
+      "snapshot": {
+        "id": "HO00000481",
+        "title": "Tuner",
+        "shortSynopsis": "Henry, afinador veterano que pierde el oído, trabaja con Niki, joven con hiperacusia. Su talento para abrir cajas fuertes vuelve su oficio un peligro inesperado.",
+        "releaseDate": "2026-05-28",
+        "runtimeInMinutes": 109,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "Daniel Roher",
+        "webUrl": "https://www.cinecolombia.com/films/tuner/HO00000481/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg",
+        "tmdb": {
+          "tmdbId": 1340206,
+          "posterPath": "/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg"
+        }
+      }
+    },
+    {
+      "guid": "1c7e3ef9-c0d0-4bd6-95e9-5b8ced0c4199",
+      "type": "removed",
+      "filmId": "HO00000631",
+      "createdAt": "2026-07-30T11:00:39.070Z",
+      "snapshot": {
+        "id": "HO00000631",
+        "title": "Couture",
+        "shortSynopsis": "La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 106,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Alice Winocour",
+        "webUrl": "https://www.cinecolombia.com/films/couture/HO00000631/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg",
+        "tmdb": {
+          "tmdbId": 1390382,
+          "posterPath": "/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg"
+        }
+      }
+    },
+    {
+      "guid": "37b0784a-6bce-47c3-8da6-3a781e134da7",
+      "type": "removed",
+      "filmId": "HO00000652",
+      "createdAt": "2026-07-30T11:00:39.070Z",
+      "snapshot": {
+        "id": "HO00000652",
+        "title": "Evil Dead Burn",
+        "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 110,
+        "censorRating": "+18 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Sébastien Vaniček",
+        "webUrl": "https://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
+        "tmdb": {
+          "tmdbId": 1212763,
+          "posterPath": "/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg"
+        }
+      }
+    },
+    {
+      "guid": "14d320a7-d3ae-4461-966c-9763f01c2a52",
+      "type": "removed",
+      "filmId": "HO00000672",
+      "createdAt": "2026-07-30T11:00:39.070Z",
+      "snapshot": {
+        "id": "HO00000672",
+        "title": "Diamanti",
+        "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 135,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Ferzan Özpetek",
+        "webUrl": "https://www.cinecolombia.com/films/diamanti/HO00000672/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg",
+        "tmdb": {
+          "tmdbId": 1299046,
+          "posterPath": "/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "daac32ce-9490-4da6-830c-0610dce1d484",
+      "type": "removed",
+      "filmId": "HO00000699",
+      "createdAt": "2026-07-30T11:00:39.070Z",
+      "snapshot": {
+        "id": "HO00000699",
+        "title": "Los futbolísimos 2. El misterio del tesoro pirata",
+        "shortSynopsis": "La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 95,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Miguel Ángel Lamata",
+        "webUrl": "https://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "d2b62905-b507-4e19-8f00-6c1d93d1327b",
+      "type": "removed",
+      "filmId": "HO00000715",
+      "createdAt": "2026-07-30T11:00:39.070Z",
+      "snapshot": {
+        "id": "HO00000715",
+        "title": "Habitante",
+        "shortSynopsis": "Dar una vuelta al mundo y filmar… Habitante emerge de los archivos del fotógrafo José Alejandro González, quien por dos décadas retrató conversaciones con desconocidos.",
+        "releaseDate": "2026-07-23",
+        "runtimeInMinutes": 89,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "José Alejandro González",
+        "webUrl": "https://www.cinecolombia.com/films/habitante/HO00000715/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/iZuAN6T5QT28OXwiORRmmfiugrS.jpg",
+        "tmdb": {
+          "tmdbId": 1711961,
+          "posterPath": "/iZuAN6T5QT28OXwiORRmmfiugrS.jpg"
+        }
+      }
     }
   ]
 }

@@ -112,28 +112,6 @@
       }
     },
     {
-      "id": "HO00000481",
-      "title": "Tuner",
-      "shortSynopsis": "Henry, afinador veterano que pierde el oído, trabaja con Niki, joven con hiperacusia. Su talento para abrir cajas fuertes vuelve su oficio un peligro inesperado.",
-      "releaseDate": "2026-05-28",
-      "runtimeInMinutes": 109,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Crimen",
-        "Suspenso"
-      ],
-      "director": "Daniel Roher",
-      "webUrl": "https://www.cinecolombia.com/films/tuner/HO00000481/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg",
-      "tmdb": {
-        "tmdbId": 1340206,
-        "posterPath": "/xIRryl8bWHFaMDssKFcPAXhfrRB.jpg"
-      }
-    },
-    {
       "id": "HO00000496",
       "title": "Moana",
       "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
@@ -421,27 +399,6 @@
       }
     },
     {
-      "id": "HO00000631",
-      "title": "Couture",
-      "shortSynopsis": "La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 106,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Alice Winocour",
-      "webUrl": "https://www.cinecolombia.com/films/couture/HO00000631/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg",
-      "tmdb": {
-        "tmdbId": 1390382,
-        "posterPath": "/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg"
-      }
-    },
-    {
       "id": "HO00000632",
       "title": "Paw Patrol: The Dino Movie",
       "shortSynopsis": "Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.",
@@ -640,27 +597,6 @@
       "tmdb": {
         "tmdbId": 1276521,
         "posterPath": "/whvkL0wzxgKmVbaPontq9NlVd5z.jpg"
-      }
-    },
-    {
-      "id": "HO00000652",
-      "title": "Evil Dead Burn",
-      "shortSynopsis": "Tras la pérdida de su esposo, una mujer busca consuelo con sus suegros. A medida que, se transforman en deadites, descubre que los votos que hizo en vida perduran.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 110,
-      "censorRating": "+18 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Sébastien Vaniček",
-      "webUrl": "https://www.cinecolombia.com/films/evil-dead-burn/HO00000652/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg",
-      "tmdb": {
-        "tmdbId": 1212763,
-        "posterPath": "/hDXmoQJ7EClgjv83Z0vEIQu2t7S.jpg"
       }
     },
     {
@@ -898,28 +834,6 @@
       }
     },
     {
-      "id": "HO00000672",
-      "title": "Diamanti",
-      "shortSynopsis": "Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 135,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Comedia",
-        "Drama"
-      ],
-      "director": "Ferzan Özpetek",
-      "webUrl": "https://www.cinecolombia.com/films/diamanti/HO00000672/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg",
-      "tmdb": {
-        "tmdbId": 1299046,
-        "posterPath": "/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg"
-      }
-    },
-    {
       "id": "HO00000691",
       "title": "Ice Cream Man",
       "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
@@ -1052,23 +966,6 @@
         "tmdbId": 1263337,
         "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
       }
-    },
-    {
-      "id": "HO00000699",
-      "title": "Los futbolísimos 2. El misterio del tesoro pirata",
-      "shortSynopsis": "La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 95,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Comedia"
-      ],
-      "director": "Miguel Ángel Lamata",
-      "webUrl": "https://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": null
     },
     {
       "id": "HO00000700",
@@ -1347,27 +1244,6 @@
       "tmdb": {
         "tmdbId": 1409850,
         "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
-      }
-    },
-    {
-      "id": "HO00000715",
-      "title": "Habitante",
-      "shortSynopsis": "Dar una vuelta al mundo y filmar… Habitante emerge de los archivos del fotógrafo José Alejandro González, quien por dos décadas retrató conversaciones con desconocidos.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 89,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "José Alejandro González",
-      "webUrl": "https://www.cinecolombia.com/films/habitante/HO00000715/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/iZuAN6T5QT28OXwiORRmmfiugrS.jpg",
-      "tmdb": {
-        "tmdbId": 1711961,
-        "posterPath": "/iZuAN6T5QT28OXwiORRmmfiugrS.jpg"
       }
     },
     {
@@ -1652,7 +1528,7 @@
       "runtimeInMinutes": 129,
       "censorRating": "Pendiente",
       "genres": [
-        "Teatro"
+        "Drama"
       ],
       "director": "Danny Boyle",
       "webUrl": "https://www.cinecolombia.com/films/frankenstein/HO00000729/",
@@ -1690,7 +1566,7 @@
       "runtimeInMinutes": 180,
       "censorRating": "Pendiente",
       "genres": [
-        "Teatro"
+        "Drama"
       ],
       "director": "Stephen Daldry",
       "webUrl": "https://www.cinecolombia.com/films/the-audience/HO00000731/",
@@ -2109,13 +1985,6 @@
       "posterPath": "/f2FeCAeOadqj3leou4XTsHDR8pX.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000481": 1,
-    "HO00000631": 1,
-    "HO00000652": 1,
-    "HO00000672": 1,
-    "HO00000699": 1,
-    "HO00000715": 1
-  },
-  "lastRun": "2026-07-30T05:00:39.725Z"
+  "missingRuns": {},
+  "lastRun": "2026-07-30T11:00:39.073Z"
 }

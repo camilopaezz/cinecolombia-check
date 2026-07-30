@@ -4192,6 +4192,34 @@
           "posterPath": "/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg"
         }
       }
+    },
+    {
+      "guid": "f2a8f517-4e9d-4f6b-acca-5c98aca95882",
+      "type": "now-in-theaters",
+      "filmId": "HO00000712",
+      "createdAt": "2026-07-30T23:00:38.668Z",
+      "snapshot": {
+        "id": "HO00000712",
+        "title": "Good Vibes Only",
+        "shortSynopsis": "Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 90,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Reem Kherici",
+        "webUrl": "https://www.cinecolombia.com/films/good-vibes-only/HO00000712/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+        "tmdb": {
+          "tmdbId": 1668267,
+          "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
+        }
+      }
     }
   ]
 }

@@ -677,8 +677,7 @@
       "director": "Radek Beran",
       "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
       "tmdb": {
@@ -1210,14 +1209,15 @@
       "shortSynopsis": "Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.",
       "releaseDate": "2026-08-06",
       "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Comedia"
       ],
       "director": "Reem Kherici",
       "webUrl": "https://www.cinecolombia.com/films/good-vibes-only/HO00000712/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
       "tmdb": {
@@ -1987,5 +1987,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-07-30T17:00:40.074Z"
+  "lastRun": "2026-07-30T23:00:38.671Z"
 }

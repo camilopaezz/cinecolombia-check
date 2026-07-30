@@ -995,6 +995,22 @@ function git(args: string[]): { ok: boolean; stdout: string; stderr: string } {
   };
 }
 
+function gitPushEnabled(options: MainOptions): boolean {
+  return (options.gitPush ?? process.env.CINECO_GIT_PUSH === "1") === true;
+}
+
+/**
+ * Rebase onto remote before scrape writes so a later push is fast-forward.
+ * Without this, a laptop push makes the server diverge and every feed commit fails non-ff.
+ */
+function tryGitPullRebase(): void {
+  const pull = git(["pull", "--rebase"]);
+  if (!pull.ok) {
+    console.error("git pull --rebase failed; refusing scrape+push on a diverged remote.");
+    throw new Error(`git pull --rebase failed: ${pull.stderr || pull.stdout}`);
+  }
+}
+
 /** Commit subject from this run's lifecycle events, e.g. "ci: update feed (added:2, removed:1)". */
 export function formatCommitMessage(events: Event[]): string {
   if (events.length === 0) return "ci: update feed (no events)";
@@ -1008,20 +1024,23 @@ export function formatCommitMessage(events: Event[]): string {
 
 async function tryGitPush(events: Event[]): Promise<void> {
   const status = git(["status", "--porcelain", "docs", "data"]).stdout.trim();
-  if (!status) return;
-  const add = git(["add", "docs", "data"]);
-  if (!add.ok) throw new Error(`git add failed: ${add.stderr || add.stdout}`);
-  const message = formatCommitMessage(events);
-  const commit = git(["commit", "-m", message]);
-  if (!commit.ok) {
-    const detail = `${commit.stdout}\n${commit.stderr}`.toLowerCase();
-    // Nothing staged (or working tree clean) — skip push; state already saved.
-    if (detail.includes("nothing to commit") || detail.includes("no changes added")) return;
-    throw new Error(`git commit failed: ${commit.stderr || commit.stdout}`);
+  if (status) {
+    const add = git(["add", "docs", "data"]);
+    if (!add.ok) throw new Error(`git add failed: ${add.stderr || add.stdout}`);
+    const message = formatCommitMessage(events);
+    const commit = git(["commit", "-m", message]);
+    if (!commit.ok) {
+      const detail = `${commit.stdout}\n${commit.stderr}`.toLowerCase();
+      // Nothing staged (or working tree clean) — still try push for leftover commits.
+      if (!(detail.includes("nothing to commit") || detail.includes("no changes added"))) {
+        throw new Error(`git commit failed: ${commit.stderr || commit.stdout}`);
+      }
+    }
   }
+  // Always push: recovers unpushed commits after a prior non-ff failure even on quiet runs.
   const push = git(["push"]);
   if (!push.ok) {
-    console.error("git push failed; state already saved. Next dirty scrape will retry push.");
+    console.error("git push failed; state already saved. Next scrape will pull --rebase and retry push.");
     throw new Error("git push failed (non-fast-forward?)");
   }
 }
@@ -1076,6 +1095,10 @@ export async function main(options: MainOptions = {}): Promise<void> {
   const tmdbApiKey = options.tmdbApiKey ?? process.env.TMDB_API_KEY;
   const notifyWebhookUrl = options.notifyWebhookUrl ?? process.env.NOTIFY_WEBHOOK_URL;
   const deps: Deps = { ...liveDeps, ...options.deps };
+  const doGitPush = gitPushEnabled(options);
+
+  // Sync with remote before any scrape writes so push stays fast-forward.
+  if (doGitPush) tryGitPullRebase();
 
   // Gather everything before touching any file (hard rule: aborted scrape ≠ every film gone).
   const prev = loadState(statePath);
@@ -1123,7 +1146,7 @@ export async function main(options: MainOptions = {}): Promise<void> {
     }
   }
 
-  if ((options.gitPush ?? process.env.CINECO_GIT_PUSH === "1") === true) {
+  if (doGitPush) {
     await tryGitPush(archivedEvents);
   }
 

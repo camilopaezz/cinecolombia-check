@@ -18,7 +18,7 @@ AI-navigability notes for the single-file scraper (`scrape.ts`). Product story l
 | `sanitizeArchivePosts` | Pure offline archive repair (restage + drop preventa twins); not on scrape path |
 | `runArchiveHygiene` | CLI home for hygiene: load/sanitize/save `posts.json` + regen feed/html; `--hygiene` / `hygiene` |
 
-`main()` fetches + enriches posters, calls `runLifecycle`, then writes posts → state → feed/html, notifies, optional git push. Prefer `runLifecycle` over calling `applyLifecycle` alone when testing policy.
+`main()` optionally `git pull --rebase` first (when `CINECO_GIT_PUSH`), then fetches + enriches posters, calls `runLifecycle`, writes posts → state → feed/html, notifies, optional git commit/push. Prefer `runLifecycle` over calling `applyLifecycle` alone when testing policy.
 
 ## Glossary
 
@@ -42,5 +42,5 @@ AI-navigability notes for the single-file scraper (`scrape.ts`). Product story l
 - Stay **single-file** unless a real second adapter appears.
 - Removal debounce **= 2**; fail-before-write on bad/empty/bulk catalogs.
 - Posts written **before** state (prefer re-emit over lost events).
-- Notify / git only on **archived** transitions (not virgin cold start).
+- Notify only on **archived** transitions (not virgin cold start). Git: pull --rebase before scrape; commit when dirty; push always when enabled.
 - Projection helpers shared; formatters (RSS/HTML/Discord) stay thin.

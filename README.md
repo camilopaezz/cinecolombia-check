@@ -138,8 +138,10 @@ scrape ok films=72 events=2 types=added:1,now-in-theaters:1 durationMs=4200
 cold start: 60 films seeded, 0 events archived durationMs=8000
 ```
 
-Git commits (when `CINECO_GIT_PUSH=1`) only happen if `data/` or `docs/` changed,
-with subjects like:
+When `CINECO_GIT_PUSH=1`, each run does `git pull --rebase` **first** (so a
+laptop push does not leave the server unable to push), then after a successful
+scrape commits only if `data/` or `docs/` changed, and always tries `git push`
+(so an earlier failed push is retried even on a quiet run). Subjects look like:
 
 ```
 ci: update feed (added:2, removed:1)
@@ -179,6 +181,12 @@ The service runs as `camilo` and execs `/usr/local/bin/bun` (see the install
 step above — `bun upgrade` only refreshes `~/.bun/bin/bun`, so re-run the
 `install` line to update the version the service uses). The unit sets
 `TimeoutStartSec=180`. Git push authenticates via an SSH deploy key in `~/.ssh`
-(add the public key as a write deploy key on the GitHub repo). The scraper only
-commits when `docs/` or `data/` changed, and aborts on a non-fast-forward push
-(local state is already saved; the next dirty run retries push).
+(add the public key as a write deploy key on the GitHub repo). Flow when
+`CINECO_GIT_PUSH=1`:
+
+```
+git pull --rebase → scrape → write files → git commit (if dirty) → git push
+```
+
+A failed pull aborts before scrape. A failed push leaves local state saved; the
+next run pulls again and retries push.

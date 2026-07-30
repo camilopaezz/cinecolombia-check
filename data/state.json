@@ -677,7 +677,8 @@
       "director": "Radek Beran",
       "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
       "tmdb": {
@@ -995,7 +996,7 @@
       "shortSynopsis": "Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.",
       "releaseDate": "2026-08-06",
       "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama"
       ],
@@ -1165,7 +1166,7 @@
       "id": "HO00000709",
       "title": "Seeking Haven for Mr. Rambo",
       "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
-      "releaseDate": "2026-08-06",
+      "releaseDate": "2026-10-08",
       "runtimeInMinutes": 100,
       "censorRating": "Pendiente",
       "genres": [
@@ -1186,7 +1187,7 @@
       "id": "HO00000710",
       "title": "Rally: From Paris to the Pyramids",
       "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
-      "releaseDate": "2026-08-06",
+      "releaseDate": "2026-09-03",
       "runtimeInMinutes": 81,
       "censorRating": "Pendiente",
       "genres": [
@@ -1207,7 +1208,7 @@
       "id": "HO00000712",
       "title": "Good Vibes Only",
       "shortSynopsis": "Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.",
-      "releaseDate": "2026-08-08",
+      "releaseDate": "2026-08-06",
       "runtimeInMinutes": 90,
       "censorRating": "Pendiente",
       "genres": [
@@ -1986,5 +1987,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-07-30T11:00:39.073Z"
+  "lastRun": "2026-07-30T17:00:40.074Z"
 }

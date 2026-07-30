@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: The Proud Princess</title>
+      <link>https://www.cinecolombia.com/films/the-proud-princess/HO00000662/</link>
+      <guid isPermaLink="false">8e029e67-4bb0-484a-8fde-c76d02a6eba8</guid>
+      <pubDate>Thu, 30 Jul 2026 17:00:40 GMT</pubDate>
+      <description>Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Tuner</title>
       <link>https://www.cinecolombia.com/films/tuner/HO00000481/</link>
       <guid isPermaLink="false">be0572d4-9f72-474e-bf58-d7adbd8172c6</guid>
@@ -773,14 +781,6 @@
       <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
       <description>Casi veinte años después de dar vida a los icónicos personajes Miranda, Andy, Emily y Nigel; Meryl Streep, Anne Hathaway, Emily Blunt y Stanley Tucci regresan</description>
       <media:content url="https://image.tmdb.org/t/p/w500/sz687EF7yJMS4VNEdHKT9ebkhA9.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Minions &amp; Monsters</title>
-      <link>http://www.cinecolombia.com/films/minions-monsters/HO00000451/</link>
-      <guid isPermaLink="false">d3647948-b894-4d58-b134-4e3e248d095a</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg" medium="image" />
     </item>
   </channel>
 </rss>

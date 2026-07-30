@@ -4162,6 +4162,36 @@
           "posterPath": "/iZuAN6T5QT28OXwiORRmmfiugrS.jpg"
         }
       }
+    },
+    {
+      "guid": "8e029e67-4bb0-484a-8fde-c76d02a6eba8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000662",
+      "createdAt": "2026-07-30T17:00:40.072Z",
+      "snapshot": {
+        "id": "HO00000662",
+        "title": "The Proud Princess",
+        "shortSynopsis": "Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 84,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Radek Beran",
+        "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
+        "tmdb": {
+          "tmdbId": 1134680,
+          "posterPath": "/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg"
+        }
+      }
     }
   ]
 }

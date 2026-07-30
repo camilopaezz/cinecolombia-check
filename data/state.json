@@ -237,7 +237,6 @@
       "director": "Destin Daniel Cretton",
       "webUrl": "https://www.cinecolombia.com/films/spider-man-brand-new-day/HO00000600/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ct7rSLY6OlQBETxQDzINzkhYIO2.jpg",
@@ -580,27 +579,6 @@
       }
     },
     {
-      "id": "HO00000646",
-      "title": "Franz",
-      "shortSynopsis": "Un retrato íntimo y fragmentado de Franz Kafka, siguiendo su vida desde la juventud en la Praga de principios del siglo XX hasta su muerte prematura.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 127,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Biografía"
-      ],
-      "director": "Agnieszka Holland",
-      "webUrl": "https://www.cinecolombia.com/films/franz/HO00000646/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg",
-      "tmdb": {
-        "tmdbId": 1157322,
-        "posterPath": "/4bzQ0ka5ru65dEVS6MF3kKWKWvV.jpg"
-      }
-    },
-    {
       "id": "HO00000647",
       "title": "The Invite",
       "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
@@ -686,27 +664,6 @@
       }
     },
     {
-      "id": "HO00000655",
-      "title": "Dandelion's Odyssey",
-      "shortSynopsis": "Cuatro semillas de un diente de león son las únicas supervivientes de una serie de explosiones nucleares que están destruyendo la Tierra.",
-      "releaseDate": "2026-07-23",
-      "runtimeInMinutes": 75,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación"
-      ],
-      "director": "Momoko Seto",
-      "webUrl": "https://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg",
-      "tmdb": {
-        "tmdbId": 999140,
-        "posterPath": "/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg"
-      }
-    },
-    {
       "id": "HO00000658",
       "title": "La petite dernière",
       "shortSynopsis": "Fátima, de 17 años, la hija menor de una familia franco-argelina en un suburbio parisino juega fútbol y tiene un novio secreto, pero oculta su atracción por las mujeres.\n",
@@ -719,7 +676,6 @@
       "director": "Hafsia Herzi",
       "webUrl": "https://www.cinecolombia.com/films/la-petite-derniere/HO00000658/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pae1NQnQW2fiVB4Aw3XwXJozd5u.jpg",
@@ -809,27 +765,6 @@
         "ComingSoon"
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000665",
-      "title": "Barrio triste",
-      "shortSynopsis": "A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.",
-      "releaseDate": "2026-07-16",
-      "runtimeInMinutes": 88,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Stillz",
-      "webUrl": "https://www.cinecolombia.com/films/barrio-triste/HO00000665/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg",
-      "tmdb": {
-        "tmdbId": 1310573,
-        "posterPath": "/w2zymRakHhwKUnRCLPKrBiL8inL.jpg"
-      }
     },
     {
       "id": "HO00000666",
@@ -932,7 +867,6 @@
       "director": "Kirill Serebrennikov",
       "webUrl": "https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg",
@@ -1540,7 +1474,6 @@
       "director": "Emanuel Giraldo Betancur",
       "webUrl": "https://www.cinecolombia.com/films/bien-inmueble/HO00000720/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -1630,6 +1563,192 @@
         "tmdbId": 1400837,
         "posterPath": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg"
       }
+    },
+    {
+      "id": "HO00000725",
+      "title": "Mrs. Warren's Profession",
+      "shortSynopsis": "Vivie Warren lucha por abrirse camino como abogada mientras enfrenta a su madre en un poderoso drama sobre moral, independencia y el precio del progreso.",
+      "releaseDate": "2026-08-28",
+      "runtimeInMinutes": 117,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Dominic Cooke",
+      "webUrl": "https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg",
+      "tmdb": {
+        "tmdbId": 1507563,
+        "posterPath": "/xh02VRO7Duh5LaU67cusKEcESTB.jpg"
+      }
+    },
+    {
+      "id": "HO00000726",
+      "title": "Hamlet",
+      "shortSynopsis": "Mientras un reino se prepara para la guerra, Hamlet enfrenta una lucha entre el deber y la duda que amenaza con destruir su cordura y el destino de Dinamarca.",
+      "releaseDate": "2026-09-11",
+      "runtimeInMinutes": 177,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Robert Hastie",
+      "webUrl": "https://www.cinecolombia.com/films/hamlet/HO00000726/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg",
+      "tmdb": {
+        "tmdbId": 843342,
+        "posterPath": "/7cBh6fWchOJY961A8F1rT98HDdA.jpg"
+      }
+    },
+    {
+      "id": "HO00000727",
+      "title": "Fleabag",
+      "shortSynopsis": "Fleabag enfrenta el caos de su vida con humor irreverente y honestidad brutal en el aclamado monólogo que inspiró la exitosa serie de la BBC.",
+      "releaseDate": "2026-09-25",
+      "runtimeInMinutes": 70,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Vicky Jones",
+      "webUrl": "https://www.cinecolombia.com/films/fleabag/HO00000727/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000728",
+      "title": "The Fifth Step",
+      "shortSynopsis": "Dos hombres forjan una frágil amistad durante su recuperación del alcoholismo, hasta que una confesión amenaza con destruir la confianza que los mantiene en pie.",
+      "releaseDate": "2026-10-09",
+      "runtimeInMinutes": 87,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Finn den Hertog",
+      "webUrl": "https://www.cinecolombia.com/films/the-fifth-step/HO00000728/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg",
+      "tmdb": {
+        "tmdbId": 1507573,
+        "posterPath": "/f2FeCAeOadqj3leou4XTsHDR8pX.jpg"
+      }
+    },
+    {
+      "id": "HO00000729",
+      "title": "Frankenstein",
+      "shortSynopsis": "Rechazada por su creador, la criatura de Frankenstein emprende una búsqueda de venganza que enfrenta la ciencia, la moral y los límites de la humanidad.",
+      "releaseDate": "2026-10-23",
+      "runtimeInMinutes": 129,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Danny Boyle",
+      "webUrl": "https://www.cinecolombia.com/films/frankenstein/HO00000729/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg",
+      "tmdb": {
+        "tmdbId": 1062722,
+        "posterPath": "/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg"
+      }
+    },
+    {
+      "id": "HO00000730",
+      "title": "All My Sons",
+      "shortSynopsis": "Tras la guerra, un hombre debe enfrentar las consecuencias de sus decisiones mientras el pasado amenaza con destruir a su familia y su sueño americano.",
+      "releaseDate": "2027-01-29",
+      "runtimeInMinutes": 135,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Ivo van Hove",
+      "webUrl": "https://www.cinecolombia.com/films/all-my-sons/HO00000730/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000731",
+      "title": "The Audience",
+      "shortSynopsis": "A través de encuentros privados con sus primeros ministros, la reina Isabel II revela el lado más humano de uno de los reinados más trascendentales de la historia.",
+      "releaseDate": "2027-02-12",
+      "runtimeInMinutes": 180,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Stephen Daldry",
+      "webUrl": "https://www.cinecolombia.com/films/the-audience/HO00000731/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000732",
+      "title": "The Playboy of the Western World",
+      "shortSynopsis": "Cuando un joven afirma haber matado a su padre, se convierte en el héroe del pueblo, hasta que la verdad amenaza con cambiarlo todo.",
+      "releaseDate": "2027-02-26",
+      "runtimeInMinutes": 150,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Caitríona McLaughlin",
+      "webUrl": "https://www.cinecolombia.com/films/the-playboy-of-the-western-world/HO00000732/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000733",
+      "title": "Les Liaisons Dangereuses",
+      "shortSynopsis": "La Marquesa de Merteuil y el Vizconde de Valmont convierten la seducción en un arma, hasta que su rivalidad amenaza con destruirlos a ellos y a quienes los rodean.",
+      "releaseDate": "2027-03-05",
+      "runtimeInMinutes": 180,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Marianne Elliott",
+      "webUrl": "https://www.cinecolombia.com/films/les-liaisons-dangereuses/HO00000733/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000734",
+      "title": "The Misanthrope",
+      "shortSynopsis": "Una escritora desafía las normas sociales y paga el precio de decir lo que piensa en esta audaz reinterpretación del clásico de Molière.",
+      "releaseDate": "2027-04-09",
+      "runtimeInMinutes": 105,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Teatro"
+      ],
+      "director": "Indhu Rubasingham",
+      "webUrl": "https://www.cinecolombia.com/films/the-misanthrope/HO00000734/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
     }
   ],
   "tmdbCache": {
@@ -1972,12 +2091,31 @@
     "HO00000722": {
       "tmdbId": 1255833,
       "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
+    },
+    "HO00000729": {
+      "tmdbId": 1062722,
+      "posterPath": "/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg"
+    },
+    "HO00000726": {
+      "tmdbId": 843342,
+      "posterPath": "/7cBh6fWchOJY961A8F1rT98HDdA.jpg"
+    },
+    "HO00000725": {
+      "tmdbId": 1507563,
+      "posterPath": "/xh02VRO7Duh5LaU67cusKEcESTB.jpg"
+    },
+    "HO00000728": {
+      "tmdbId": 1507573,
+      "posterPath": "/f2FeCAeOadqj3leou4XTsHDR8pX.jpg"
     }
   },
   "missingRuns": {
-    "HO00000646": 1,
-    "HO00000655": 1,
-    "HO00000665": 1
+    "HO00000481": 1,
+    "HO00000631": 1,
+    "HO00000652": 1,
+    "HO00000672": 1,
+    "HO00000699": 1,
+    "HO00000715": 1
   },
-  "lastRun": "2026-07-29T23:00:38.227Z"
+  "lastRun": "2026-07-30T05:00:39.725Z"
 }

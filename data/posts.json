@@ -4250,6 +4250,34 @@
           "posterPath": "/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg"
         }
       }
+    },
+    {
+      "guid": "783cd942-6d5e-4d62-9a8d-fdbf0064be56",
+      "type": "removed",
+      "filmId": "HO00000608",
+      "createdAt": "2026-07-31T11:00:39.682Z",
+      "snapshot": {
+        "id": "HO00000608",
+        "title": "Disclosure Day",
+        "shortSynopsis": "Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.",
+        "releaseDate": "2026-06-11",
+        "runtimeInMinutes": 145,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Steven Spielberg",
+        "webUrl": "https://www.cinecolombia.com/films/disclosure-day/HO00000608/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg",
+        "tmdb": {
+          "tmdbId": 1275779,
+          "posterPath": "/uGww4UrU3316Mld4p30dgdM09Du.jpg"
+        }
+      }
     }
   ]
 }

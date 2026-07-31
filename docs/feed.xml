@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Disclosure Day</title>
+      <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
+      <guid isPermaLink="false">783cd942-6d5e-4d62-9a8d-fdbf0064be56</guid>
+      <pubDate>Fri, 31 Jul 2026 11:00:39 GMT</pubDate>
+      <description>Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Harry Potter and the Sorcerer&apos;s Stone</title>
       <link>https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/</link>
       <guid isPermaLink="false">1cda3da1-4552-43f9-880e-44208b666d1d</guid>
@@ -773,14 +781,6 @@
       <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
       <description>El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Michael</title>
-      <link>http://www.cinecolombia.com/films/michael/HO00000401/</link>
-      <guid isPermaLink="false">e9ad7c28-fc48-4762-83af-4e6c861beb11</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>Michael es un retrato íntimo de la vida y el legado de uno de los artistas más influyentes que el mundo haya conocido.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -266,28 +266,6 @@
       }
     },
     {
-      "id": "HO00000608",
-      "title": "Disclosure Day",
-      "shortSynopsis": "Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.",
-      "releaseDate": "2026-06-11",
-      "runtimeInMinutes": 145,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Steven Spielberg",
-      "webUrl": "https://www.cinecolombia.com/films/disclosure-day/HO00000608/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg",
-      "tmdb": {
-        "tmdbId": 1275779,
-        "posterPath": "/uGww4UrU3316Mld4p30dgdM09Du.jpg"
-      }
-    },
-    {
       "id": "HO00000618",
       "title": "The End of Oak Street",
       "shortSynopsis": "Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.",
@@ -1987,8 +1965,6 @@
       "posterPath": "/f2FeCAeOadqj3leou4XTsHDR8pX.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000608": 1
-  },
-  "lastRun": "2026-07-31T05:00:39.280Z"
+  "missingRuns": {},
+  "lastRun": "2026-07-31T11:00:39.685Z"
 }

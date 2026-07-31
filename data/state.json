@@ -813,7 +813,7 @@
     },
     {
       "id": "HO00000671",
-      "title": "ATEEZ: LIGHT THE WAY IN CINEMAS",
+      "title": "Ateez: Light the Way in Cinemas",
       "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
       "releaseDate": "2026-08-06",
       "runtimeInMinutes": 65,
@@ -924,7 +924,7 @@
     },
     {
       "id": "HO00000697",
-      "title": "KATSEYE: WILD HEARTS",
+      "title": "Katseye: Wild Hearts",
       "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
       "releaseDate": "2026-08-12",
       "runtimeInMinutes": 80,
@@ -1249,7 +1249,7 @@
     },
     {
       "id": "HO00000716",
-      "title": "GHOST: 2 Big To Rig",
+      "title": "Ghost: 2 Big To Rig",
       "shortSynopsis": "2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. ",
       "releaseDate": "2026-08-26",
       "runtimeInMinutes": 115,
@@ -1412,7 +1412,8 @@
       "director": "Chris Columbus",
       "webUrl": "https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg",
       "tmdb": {
@@ -1986,6 +1987,8 @@
       "posterPath": "/f2FeCAeOadqj3leou4XTsHDR8pX.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-07-30T23:00:38.671Z"
+  "missingRuns": {
+    "HO00000608": 1
+  },
+  "lastRun": "2026-07-31T05:00:39.280Z"
 }

@@ -4220,6 +4220,36 @@
           "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
         }
       }
+    },
+    {
+      "guid": "1cda3da1-4552-43f9-880e-44208b666d1d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000723",
+      "createdAt": "2026-07-31T05:00:39.277Z",
+      "snapshot": {
+        "id": "HO00000723",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "shortSynopsis": "Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 152,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Chris Columbus",
+        "webUrl": "https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg",
+        "tmdb": {
+          "tmdbId": 671,
+          "posterPath": "/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg"
+        }
+      }
     }
   ]
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Harry Potter and the Sorcerer&apos;s Stone</title>
+      <link>https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/</link>
+      <guid isPermaLink="false">1cda3da1-4552-43f9-880e-44208b666d1d</guid>
+      <pubDate>Fri, 31 Jul 2026 05:00:39 GMT</pubDate>
+      <description>Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Good Vibes Only</title>
       <link>https://www.cinecolombia.com/films/good-vibes-only/HO00000712/</link>
       <guid isPermaLink="false">f2a8f517-4e9d-4f6b-acca-5c98aca95882</guid>
@@ -773,14 +781,6 @@
       <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
       <description>Michael es un retrato íntimo de la vida y el legado de uno de los artistas más influyentes que el mundo haya conocido.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Supergirl</title>
-      <link>http://www.cinecolombia.com/films/supergirl/HO00000427/</link>
-      <guid isPermaLink="false">347f5dbe-41e2-4954-8f4e-417f6247a4a6</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>Cuando un enemigo inesperado y despiadado golpea demasiado cerca, Supergirl, se ve obligada a unir fuerzas con un acompañante  improbable en un épico viaje interestelar</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/j1FSus4RoDJpY8zzfwjaqBktlUk.jpg" medium="image" />
     </item>
   </channel>
 </rss>

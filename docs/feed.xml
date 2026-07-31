@@ -7,6 +7,96 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Disclosure Day</title>
+      <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
+      <guid isPermaLink="false">10e3a774-9b58-4b06-93ae-fb1bf25a9477</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Paw Patrol: The Dino Movie</title>
+      <link>https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/</link>
+      <guid isPermaLink="false">b40c104e-9669-4f84-93fe-98f6ad9a3efc</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Mrs. Warren&apos;s Profession</title>
+      <link>https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/</link>
+      <guid isPermaLink="false">0008eb35-a560-4261-997a-c900c8bcfc96</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Vivie Warren lucha por abrirse camino como abogada mientras enfrenta a su madre en un poderoso drama sobre moral, independencia y el precio del progreso.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Hamlet</title>
+      <link>https://www.cinecolombia.com/films/hamlet/HO00000726/</link>
+      <guid isPermaLink="false">a1111d39-e584-4e1e-b294-b8afb5bc896f</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Mientras un reino se prepara para la guerra, Hamlet enfrenta una lucha entre el deber y la duda que amenaza con destruir su cordura y el destino de Dinamarca.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Fleabag</title>
+      <link>https://www.cinecolombia.com/films/fleabag/HO00000727/</link>
+      <guid isPermaLink="false">e03a54a0-ea58-4aaa-bb67-8e70c63b9748</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Fleabag enfrenta el caos de su vida con humor irreverente y honestidad brutal en el aclamado monólogo que inspiró la exitosa serie de la BBC.</description>
+    </item>
+    <item>
+      <title>En cartelera: The Fifth Step</title>
+      <link>https://www.cinecolombia.com/films/the-fifth-step/HO00000728/</link>
+      <guid isPermaLink="false">885ac586-c77f-4c6a-a735-c8244c707f6d</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Dos hombres forjan una frágil amistad durante su recuperación del alcoholismo, hasta que una confesión amenaza con destruir la confianza que los mantiene en pie.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Frankenstein</title>
+      <link>https://www.cinecolombia.com/films/frankenstein/HO00000729/</link>
+      <guid isPermaLink="false">942679dc-9258-459f-bc24-8830a5b7ebd5</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Rechazada por su creador, la criatura de Frankenstein emprende una búsqueda de venganza que enfrenta la ciencia, la moral y los límites de la humanidad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: All My Sons</title>
+      <link>https://www.cinecolombia.com/films/all-my-sons/HO00000730/</link>
+      <guid isPermaLink="false">cf28c465-eca6-443f-932b-62ad4c622134</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Tras la guerra, un hombre debe enfrentar las consecuencias de sus decisiones mientras el pasado amenaza con destruir a su familia y su sueño americano.</description>
+    </item>
+    <item>
+      <title>En cartelera: The Audience</title>
+      <link>https://www.cinecolombia.com/films/the-audience/HO00000731/</link>
+      <guid isPermaLink="false">2204dac9-7981-43a1-8dac-596906b82ed2</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>A través de encuentros privados con sus primeros ministros, la reina Isabel II revela el lado más humano de uno de los reinados más trascendentales de la historia.</description>
+    </item>
+    <item>
+      <title>En cartelera: The Playboy of the Western World</title>
+      <link>https://www.cinecolombia.com/films/the-playboy-of-the-western-world/HO00000732/</link>
+      <guid isPermaLink="false">f7e28582-30c5-478b-94c4-39a6c379fb87</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Cuando un joven afirma haber matado a su padre, se convierte en el héroe del pueblo, hasta que la verdad amenaza con cambiarlo todo.</description>
+    </item>
+    <item>
+      <title>En cartelera: Les Liaisons Dangereuses</title>
+      <link>https://www.cinecolombia.com/films/les-liaisons-dangereuses/HO00000733/</link>
+      <guid isPermaLink="false">d1994432-e081-4bfb-81e0-7cd823784af0</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>La Marquesa de Merteuil y el Vizconde de Valmont convierten la seducción en un arma, hasta que su rivalidad amenaza con destruirlos a ellos y a quienes los rodean.</description>
+    </item>
+    <item>
+      <title>En cartelera: The Misanthrope</title>
+      <link>https://www.cinecolombia.com/films/the-misanthrope/HO00000734/</link>
+      <guid isPermaLink="false">9891a8a4-6c32-4d24-a24a-64aa5ba4cb1e</guid>
+      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
+      <description>Una escritora desafía las normas sociales y paga el precio de decir lo que piensa en esta audaz reinterpretación del clásico de Molière.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Disclosure Day</title>
       <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
       <guid isPermaLink="false">783cd942-6d5e-4d62-9a8d-fdbf0064be56</guid>
@@ -689,98 +779,6 @@
       <pubDate>Thu, 09 Jul 2026 05:00:57 GMT</pubDate>
       <description>Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: La Guitarra flamenca de Yerai Cortés</title>
-      <link></link>
-      <guid isPermaLink="false">2276e688-49e8-4a2e-8169-e29e276221d7</guid>
-      <pubDate>Wed, 08 Jul 2026 23:00:58 GMT</pubDate>
-      <description>La exploración emocional y artística del guitarrista flamenco Yerai Cortés se funden con un drama familiar en el debut cinematográfico de Antón Álvarez.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/s1t3dpcwcVSNzas4AyCjLTV9ufL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: El juego de la vida</title>
-      <link></link>
-      <guid isPermaLink="false">08edd7b6-1987-46d1-8e2b-60ac96fef800</guid>
-      <pubDate>Wed, 08 Jul 2026 17:00:56 GMT</pubDate>
-      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
-    </item>
-    <item>
-      <title>En cartelera: Power Ballad</title>
-      <link></link>
-      <guid isPermaLink="false">0b44b7a5-c78c-45ca-b2d7-ceacc7e304c9</guid>
-      <pubDate>Wed, 08 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Ficciones Sin Futuro</title>
-      <link></link>
-      <guid isPermaLink="false">1c12183a-061a-49b6-b6e5-225e7ea398d9</guid>
-      <pubDate>Wed, 08 Jul 2026 05:00:57 GMT</pubDate>
-      <description>En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas</description>
-    </item>
-    <item>
-      <title>Pronto: Ficciones Sin Futuro</title>
-      <link></link>
-      <guid isPermaLink="false">f93c553c-d233-4196-b9d4-6e5cac67cfd5</guid>
-      <pubDate>Tue, 07 Jul 2026 23:00:57 GMT</pubDate>
-      <description>En una frenética noche en la ciudad de Pereira, un vagabundo dibuja en su viejo cuaderno la cotidianidad de diversos personajes que entrecruzan sus vidas</description>
-    </item>
-    <item>
-      <title>En cartelera: Lactar</title>
-      <link>http://www.cinecolombia.com/films/lactar/HO00000491/</link>
-      <guid isPermaLink="false">d38593f3-2087-4600-8bb2-de5412735ec6</guid>
-      <pubDate>Tue, 07 Jul 2026 17:00:56 GMT</pubDate>
-      <description>Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Ice Cream Man</title>
-      <link>http://www.cinecolombia.com/films/ice-cream-man/HO00000691/</link>
-      <guid isPermaLink="false">b009da54-f8e9-422c-87b4-153bb4bb07e5</guid>
-      <pubDate>Mon, 06 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Lactar</title>
-      <link>http://www.cinecolombia.com/films/lactar/HO00000491/</link>
-      <guid isPermaLink="false">0a470d39-85d0-488e-9fb3-07746d5c79d3</guid>
-      <pubDate>Sun, 05 Jul 2026 23:00:54 GMT</pubDate>
-      <description>Una mujer de 62 años, atrapada en una vida de privilegios vacíos, queda embarazada de su chofer. Enfrentándose al rechazo de su familia y de la sociedad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/zfqfD82FkdoKjMn6m6CwmvuoSyx.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: El juego de la vida</title>
-      <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
-      <guid isPermaLink="false">cff26cd8-2ef2-40c1-9b88-25cfa93355d3</guid>
-      <pubDate>Sun, 05 Jul 2026 23:00:54 GMT</pubDate>
-      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
-    </item>
-    <item>
-      <title>En cartelera: ATEEZ: LIGHT THE WAY IN CINEMAS</title>
-      <link>http://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/</link>
-      <guid isPermaLink="false">813e5e2d-d24d-42b9-8788-22353eb47cc6</guid>
-      <pubDate>Thu, 02 Jul 2026 23:00:56 GMT</pubDate>
-      <description>Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Digger</title>
-      <link>http://www.cinecolombia.com/films/digger/HO00000381/</link>
-      <guid isPermaLink="false">0136f802-4549-4560-91df-e00796bf6217</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Odyssey</title>
-      <link>http://www.cinecolombia.com/films/the-odyssey/HO00000386/</link>
-      <guid isPermaLink="false">d3165eb6-e7a6-4dfc-8fa3-6556f0b27356</guid>
-      <pubDate>Thu, 02 Jul 2026 05:44:13 GMT</pubDate>
-      <description>El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg" medium="image" />
     </item>
   </channel>
 </rss>

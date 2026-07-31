@@ -266,6 +266,28 @@
       }
     },
     {
+      "id": "HO00000608",
+      "title": "Disclosure Day",
+      "shortSynopsis": "Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.",
+      "releaseDate": "2026-06-11",
+      "runtimeInMinutes": 145,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Steven Spielberg",
+      "webUrl": "https://www.cinecolombia.com/films/disclosure-day/HO00000608/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg",
+      "tmdb": {
+        "tmdbId": 1275779,
+        "posterPath": "/uGww4UrU3316Mld4p30dgdM09Du.jpg"
+      }
+    },
+    {
       "id": "HO00000618",
       "title": "The End of Oak Street",
       "shortSynopsis": "Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.",
@@ -391,7 +413,8 @@
       "director": "Cal Brunker",
       "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
       "tmdb": {
@@ -1433,7 +1456,8 @@
       "director": "Dominic Cooke",
       "webUrl": "https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg",
       "tmdb": {
@@ -1454,7 +1478,8 @@
       "director": "Robert Hastie",
       "webUrl": "https://www.cinecolombia.com/films/hamlet/HO00000726/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg",
       "tmdb": {
@@ -1475,7 +1500,8 @@
       "director": "Vicky Jones",
       "webUrl": "https://www.cinecolombia.com/films/fleabag/HO00000727/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1492,7 +1518,8 @@
       "director": "Finn den Hertog",
       "webUrl": "https://www.cinecolombia.com/films/the-fifth-step/HO00000728/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg",
       "tmdb": {
@@ -1513,7 +1540,8 @@
       "director": "Danny Boyle",
       "webUrl": "https://www.cinecolombia.com/films/frankenstein/HO00000729/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg",
       "tmdb": {
@@ -1534,7 +1562,8 @@
       "director": "Ivo van Hove",
       "webUrl": "https://www.cinecolombia.com/films/all-my-sons/HO00000730/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1551,7 +1580,8 @@
       "director": "Stephen Daldry",
       "webUrl": "https://www.cinecolombia.com/films/the-audience/HO00000731/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1568,7 +1598,8 @@
       "director": "Caitríona McLaughlin",
       "webUrl": "https://www.cinecolombia.com/films/the-playboy-of-the-western-world/HO00000732/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1585,7 +1616,8 @@
       "director": "Marianne Elliott",
       "webUrl": "https://www.cinecolombia.com/films/les-liaisons-dangereuses/HO00000733/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1602,7 +1634,7 @@
       "director": "Indhu Rubasingham",
       "webUrl": "https://www.cinecolombia.com/films/the-misanthrope/HO00000734/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "posterUrl": null
     }
@@ -1966,5 +1998,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-07-31T11:00:39.685Z"
+  "lastRun": "2026-07-31T23:00:39.297Z"
 }

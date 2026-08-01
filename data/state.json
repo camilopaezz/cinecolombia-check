@@ -403,7 +403,7 @@
       "title": "Paw Patrol: The Dino Movie",
       "shortSynopsis": "Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.",
       "releaseDate": "2026-08-06",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 88,
       "censorRating": "Todos",
       "genres": [
         "Acción",
@@ -1015,7 +1015,7 @@
       "id": "HO00000702",
       "title": "Terminator 2: Judgement Day (35th Anniversary)",
       "shortSynopsis": "Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.",
-      "releaseDate": "2026-08-27",
+      "releaseDate": "2026-09-03",
       "runtimeInMinutes": 130,
       "censorRating": "Pendiente",
       "genres": [
@@ -1998,5 +1998,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-07-31T23:00:39.297Z"
+  "lastRun": "2026-08-01T05:00:39.384Z"
 }

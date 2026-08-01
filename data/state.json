@@ -413,8 +413,7 @@
       "director": "Cal Brunker",
       "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
       "tmdb": {
@@ -1998,5 +1997,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-01T05:00:39.384Z"
+  "lastRun": "2026-08-01T17:00:39.658Z"
 }

@@ -1633,6 +1633,7 @@
       "director": "Indhu Rubasingham",
       "webUrl": "https://www.cinecolombia.com/films/the-misanthrope/HO00000734/",
       "categories": [
+        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2101,5 +2102,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-04T05:00:40.493Z"
+  "lastRun": "2026-08-04T11:00:41.397Z"
 }

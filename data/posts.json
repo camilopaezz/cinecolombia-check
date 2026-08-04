@@ -4703,6 +4703,121 @@
           "posterPath": "/p73G56bJGPa5y52cyqWscHR6NnN.jpg"
         }
       }
+    },
+    {
+      "guid": "93c36873-79b3-42c7-b07c-03be3050edd2",
+      "type": "added",
+      "filmId": "HO00000739",
+      "createdAt": "2026-08-04T23:00:42.494Z",
+      "snapshot": {
+        "id": "HO00000739",
+        "title": "Las Bravas",
+        "shortSynopsis": "En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 91,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Diana Ojeda",
+        "webUrl": "https://www.cinecolombia.com/films/las-bravas/HO00000739/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg",
+        "tmdb": {
+          "tmdbId": 1733124,
+          "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b0b7f860-3b55-4cd5-a5c9-5e6f1713e46c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000618",
+      "createdAt": "2026-08-04T23:00:42.494Z",
+      "snapshot": {
+        "id": "HO00000618",
+        "title": "The End of Oak Street",
+        "shortSynopsis": "Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 120,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Fantasía"
+        ],
+        "director": "David Robert Mitchell",
+        "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
+        "tmdb": {
+          "tmdbId": 1101383,
+          "posterPath": "/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "762c07de-6ee5-4a07-a6c7-19eff2e3ed56",
+      "type": "now-in-theaters",
+      "filmId": "HO00000629",
+      "createdAt": "2026-08-04T23:00:42.494Z",
+      "snapshot": {
+        "id": "HO00000629",
+        "title": "Pressure",
+        "shortSynopsis": "Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 100,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Anthony Maras",
+        "webUrl": "https://www.cinecolombia.com/films/pressure/HO00000629/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg",
+        "tmdb": {
+          "tmdbId": 1318413,
+          "posterPath": "/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9522c700-2432-4034-a673-c77105f0d84c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000632",
+      "createdAt": "2026-08-04T23:00:42.494Z",
+      "snapshot": {
+        "id": "HO00000632",
+        "title": "Paw Patrol: The Dino Movie",
+        "shortSynopsis": "Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 88,
+        "censorRating": "Todos",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Cal Brunker",
+        "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
+        "tmdb": {
+          "tmdbId": 1185806,
+          "posterPath": "/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg"
+        }
+      }
     }
   ]
 }

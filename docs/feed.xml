@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Las Bravas</title>
+      <link>https://www.cinecolombia.com/films/las-bravas/HO00000739/</link>
+      <guid isPermaLink="false">93c36873-79b3-42c7-b07c-03be3050edd2</guid>
+      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
+      <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The End of Oak Street</title>
+      <link>https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/</link>
+      <guid isPermaLink="false">b0b7f860-3b55-4cd5-a5c9-5e6f1713e46c</guid>
+      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
+      <description>Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Pressure</title>
+      <link>https://www.cinecolombia.com/films/pressure/HO00000629/</link>
+      <guid isPermaLink="false">762c07de-6ee5-4a07-a6c7-19eff2e3ed56</guid>
+      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
+      <description>Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Paw Patrol: The Dino Movie</title>
+      <link>https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/</link>
+      <guid isPermaLink="false">9522c700-2432-4034-a673-c77105f0d84c</guid>
+      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
+      <description>Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Werwulf</title>
       <link>https://www.cinecolombia.com/films/werwulf/HO00000735/</link>
       <guid isPermaLink="false">e5564fe3-3ccf-4392-97a4-03362e76b2a9</guid>
@@ -748,38 +780,6 @@
       <pubDate>Sat, 11 Jul 2026 05:00:58 GMT</pubDate>
       <description>Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje</description>
       <media:content url="https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: KATSEYE: WILD HEARTS</title>
-      <link>http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
-      <guid isPermaLink="false">dc241ef7-f066-4846-820e-856f5088b9d7</guid>
-      <pubDate>Sat, 11 Jul 2026 05:00:58 GMT</pubDate>
-      <description>El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: KATSEYE: WILD HEARTS</title>
-      <link>http://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
-      <guid isPermaLink="false">45bf1363-fb4b-4aac-91f3-6c1d722d2c9d</guid>
-      <pubDate>Fri, 10 Jul 2026 23:00:57 GMT</pubDate>
-      <description>El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Saccharine</title>
-      <link>http://www.cinecolombia.com/films/saccharine/HO00000695/</link>
-      <guid isPermaLink="false">c89779cf-5852-417d-8d72-53af248ca7f3</guid>
-      <pubDate>Fri, 10 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: The Dog Stars</title>
-      <link>http://www.cinecolombia.com/films/the-dog-stars/HO00000696/</link>
-      <guid isPermaLink="false">11f999a3-f1bb-4549-95c4-1f9d38736b98</guid>
-      <pubDate>Fri, 10 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Scott cuenta la historia de Hig, un joven piloto que, junto a Bangley, un militar experto en supervivencia, ha construido un refugio eficiente pero aislado.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -302,7 +302,8 @@
       "director": "David Robert Mitchell",
       "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
       "tmdb": {
@@ -367,7 +368,8 @@
       "director": "Anthony Maras",
       "webUrl": "https://www.cinecolombia.com/films/pressure/HO00000629/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg",
       "tmdb": {
@@ -413,7 +415,8 @@
       "director": "Cal Brunker",
       "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
       "tmdb": {
@@ -817,7 +820,7 @@
       "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
       "releaseDate": "2026-08-06",
       "runtimeInMinutes": 65,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Música"
       ],
@@ -1725,6 +1728,27 @@
         "tmdbId": 1101412,
         "posterPath": "/p73G56bJGPa5y52cyqWscHR6NnN.jpg"
       }
+    },
+    {
+      "id": "HO00000739",
+      "title": "Las Bravas",
+      "shortSynopsis": "En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.",
+      "releaseDate": "2026-08-06",
+      "runtimeInMinutes": 91,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Diana Ojeda",
+      "webUrl": "https://www.cinecolombia.com/films/las-bravas/HO00000739/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg",
+      "tmdb": {
+        "tmdbId": 1733124,
+        "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -2099,8 +2123,14 @@
     "HO00000735": {
       "tmdbId": 1421903,
       "posterPath": "/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg"
+    },
+    "HO00000739": {
+      "tmdbId": 1733124,
+      "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-08-04T17:00:40.261Z"
+  "missingRuns": {
+    "HO00000650": 1
+  },
+  "lastRun": "2026-08-04T23:00:42.497Z"
 }

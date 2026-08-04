@@ -4591,6 +4591,118 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "e5564fe3-3ccf-4392-97a4-03362e76b2a9",
+      "type": "added",
+      "filmId": "HO00000735",
+      "createdAt": "2026-08-04T05:00:40.491Z",
+      "snapshot": {
+        "id": "HO00000735",
+        "title": "Werwulf",
+        "shortSynopsis": "En la Inglaterra medieval, una misteriosa criatura acecha entre la niebla, convirtiendo las leyendas locales en una realidad aterradora.",
+        "releaseDate": "2027-01-07",
+        "runtimeInMinutes": 84,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Robert Eggers",
+        "webUrl": "https://www.cinecolombia.com/films/werwulf/HO00000735/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
+        "tmdb": {
+          "tmdbId": 1421903,
+          "posterPath": "/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "875be085-e0c9-4da7-a2f9-d4dc54c436be",
+      "type": "added",
+      "filmId": "HO00000736",
+      "createdAt": "2026-08-04T05:00:40.491Z",
+      "snapshot": {
+        "id": "HO00000736",
+        "title": "Verity",
+        "shortSynopsis": "Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 114,
+        "censorRating": "Todos",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Michael Showalter",
+        "webUrl": "https://www.cinecolombia.com/films/verity/HO00000736/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+        "tmdb": {
+          "tmdbId": 1283515,
+          "posterPath": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "734decf6-9070-4770-93e7-812a235a936e",
+      "type": "added",
+      "filmId": "HO00000737",
+      "createdAt": "2026-08-04T05:00:40.491Z",
+      "snapshot": {
+        "id": "HO00000737",
+        "title": "One Piece The Movie",
+        "shortSynopsis": "Luffy y su tripulación emprenden la búsqueda del legendario tesoro de Woonan mientras enfrentan a un poderoso enemigo con habilidades de una Fruta del Diablo.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 57,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Drama"
+        ],
+        "director": "Atsuji Shimizu",
+        "webUrl": "https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg",
+        "tmdb": {
+          "tmdbId": 19576,
+          "posterPath": "/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg"
+        }
+      }
+    },
+    {
+      "guid": "98c9f6b7-ac8a-481b-b4b2-fedba70eb7f9",
+      "type": "added",
+      "filmId": "HO00000738",
+      "createdAt": "2026-08-04T05:00:40.491Z",
+      "snapshot": {
+        "id": "HO00000738",
+        "title": "Fall 2: Deadpoint",
+        "shortSynopsis": "Dos amigas desafían alturas extremas en Tailandia, donde el peligro, la adrenalina y la lucha por sobrevivir las llevan al límite.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Michael Spierig",
+        "webUrl": "https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
+        "tmdb": {
+          "tmdbId": 1101412,
+          "posterPath": "/p73G56bJGPa5y52cyqWscHR6NnN.jpg"
+        }
+      }
     }
   ]
 }

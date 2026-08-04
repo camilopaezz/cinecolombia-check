@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Werwulf</title>
+      <link>https://www.cinecolombia.com/films/werwulf/HO00000735/</link>
+      <guid isPermaLink="false">e5564fe3-3ccf-4392-97a4-03362e76b2a9</guid>
+      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
+      <description>En la Inglaterra medieval, una misteriosa criatura acecha entre la niebla, convirtiendo las leyendas locales en una realidad aterradora.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Verity</title>
+      <link>https://www.cinecolombia.com/films/verity/HO00000736/</link>
+      <guid isPermaLink="false">875be085-e0c9-4da7-a2f9-d4dc54c436be</guid>
+      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: One Piece The Movie</title>
+      <link>https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/</link>
+      <guid isPermaLink="false">734decf6-9070-4770-93e7-812a235a936e</guid>
+      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Luffy y su tripulación emprenden la búsqueda del legendario tesoro de Woonan mientras enfrentan a un poderoso enemigo con habilidades de una Fruta del Diablo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Fall 2: Deadpoint</title>
+      <link>https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/</link>
+      <guid isPermaLink="false">98c9f6b7-ac8a-481b-b4b2-fedba70eb7f9</guid>
+      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Dos amigas desafían alturas extremas en Tailandia, donde el peligro, la adrenalina y la lucha por sobrevivir las llevan al límite.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Disclosure Day</title>
       <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
       <guid isPermaLink="false">10e3a774-9b58-4b06-93ae-fb1bf25a9477</guid>
@@ -748,37 +780,6 @@
       <pubDate>Fri, 10 Jul 2026 05:00:57 GMT</pubDate>
       <description>Scott cuenta la historia de Hig, un joven piloto que, junto a Bangley, un militar experto en supervivencia, ha construido un refugio eficiente pero aislado.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Aida</title>
-      <link>http://www.cinecolombia.com/films/aida/HO00000693/</link>
-      <guid isPermaLink="false">00db9da6-ef48-4843-bd45-0556322b74e3</guid>
-      <pubDate>Thu, 09 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Merry Widow</title>
-      <link>http://www.cinecolombia.com/films/the-merry-widow/HO00000694/</link>
-      <guid isPermaLink="false">ddd7cf59-d00f-430f-84b5-ddda3934a845</guid>
-      <pubDate>Thu, 09 Jul 2026 23:00:57 GMT</pubDate>
-      <description>La aclamada soprano Renée Fleming da vida a la heredera que conquista a todo París en la ópera de Lehár.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Michael</title>
-      <link></link>
-      <guid isPermaLink="false">23513c6f-cf96-405c-bcbc-c89407e136d8</guid>
-      <pubDate>Thu, 09 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Michael es un retrato íntimo de la vida y el legado de uno de los artistas más influyentes que el mundo haya conocido.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/2uK36ujoDXOfNiJ5Yp3raVprB51.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Moscas</title>
-      <link></link>
-      <guid isPermaLink="false">859f1748-f1bf-4415-851e-e28720122f83</guid>
-      <pubDate>Thu, 09 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Olga vive una vida sin amigos ni relaciones, en un enorme bloque de pisos. Por necesidad económica, se ve obligada a alquilar una habitación.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/tff1IQnQIfx4akKYbD2rsGk31pU.jpg" medium="image" />
     </item>
   </channel>
 </rss>

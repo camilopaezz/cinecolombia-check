@@ -302,8 +302,7 @@
       "director": "David Robert Mitchell",
       "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
       "tmdb": {
@@ -2108,5 +2107,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-05T05:00:40.323Z"
+  "lastRun": "2026-08-05T17:00:41.332Z"
 }

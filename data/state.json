@@ -1058,7 +1058,7 @@
       "id": "HO00000705",
       "title": "Sense and Sensibility",
       "shortSynopsis": "Una nueva visión de la icónica novela de Jane Austen, Sensatez y sentimiento: Una historia encantadora, ingeniosa y profundamente cercana sobre el amor.",
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2026-10-29",
       "runtimeInMinutes": 120,
       "censorRating": "Pendiente",
       "genres": [
@@ -1211,7 +1211,7 @@
       "shortSynopsis": "Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.",
       "releaseDate": "2026-08-13",
       "runtimeInMinutes": 110,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Fantasía",
         "Terror"
@@ -2107,5 +2107,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-05T17:00:41.332Z"
+  "lastRun": "2026-08-05T23:00:39.235Z"
 }

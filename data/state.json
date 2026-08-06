@@ -514,6 +514,28 @@
       }
     },
     {
+      "id": "HO00000650",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "shortSynopsis": "La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. ",
+      "releaseDate": "2026-08-13",
+      "runtimeInMinutes": 112,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Comedia",
+        "Terror"
+      ],
+      "director": "Jane Schoenbrun",
+      "webUrl": "https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
+      "tmdb": {
+        "tmdbId": 1240889,
+        "posterPath": "/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg"
+      }
+    },
+    {
       "id": "HO00000651",
       "title": "Charlie the Wonderdog",
       "shortSynopsis": "Danny, un niño tímido, imagina un mundo extraordinario donde él y su querido perro Charlie protagonizan sus propias aventuras de superhéroes.",
@@ -2065,5 +2087,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-06T11:00:39.670Z"
+  "lastRun": "2026-08-06T17:00:39.487Z"
 }

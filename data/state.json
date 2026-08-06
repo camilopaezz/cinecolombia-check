@@ -367,7 +367,6 @@
       "director": "Anthony Maras",
       "webUrl": "https://www.cinecolombia.com/films/pressure/HO00000629/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg",
@@ -414,7 +413,6 @@
       "director": "Cal Brunker",
       "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
@@ -804,7 +802,6 @@
       "director": "JIAE KIM",
       "webUrl": "https://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
@@ -1196,7 +1193,6 @@
       "director": "Reem Kherici",
       "webUrl": "https://www.cinecolombia.com/films/good-vibes-only/HO00000712/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
@@ -1719,13 +1715,52 @@
       "director": "Diana Ojeda",
       "webUrl": "https://www.cinecolombia.com/films/las-bravas/HO00000739/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg",
       "tmdb": {
         "tmdbId": 1733124,
         "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
       }
+    },
+    {
+      "id": "HO00000740",
+      "title": "Calle Málaga",
+      "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 116,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Comedia",
+        "Drama"
+      ],
+      "director": "Maryam Touzani",
+      "webUrl": "https://www.cinecolombia.com/films/calle-malaga/HO00000740/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg",
+      "tmdb": {
+        "tmdbId": 1399462,
+        "posterPath": "/fWagBXNDk44UaupYtwQOAvDwGiT.jpg"
+      }
+    },
+    {
+      "id": "HO00000741",
+      "title": "Tow Women",
+      "shortSynopsis": "Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.",
+      "releaseDate": "2026-08-13",
+      "runtimeInMinutes": 100,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Chloé Robichaud",
+      "webUrl": "https://www.cinecolombia.com/films/tow-women/HO00000741/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
     }
   ],
   "tmdbCache": {
@@ -2104,8 +2139,17 @@
     "HO00000739": {
       "tmdbId": 1733124,
       "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
+    },
+    "HO00000740": {
+      "tmdbId": 1399462,
+      "posterPath": "/fWagBXNDk44UaupYtwQOAvDwGiT.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-08-05T23:00:39.235Z"
+  "missingRuns": {
+    "HO00000599": 1,
+    "HO00000608": 1,
+    "HO00000658": 1,
+    "HO00000720": 1
+  },
+  "lastRun": "2026-08-06T05:00:39.782Z"
 }

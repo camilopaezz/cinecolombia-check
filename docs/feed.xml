@@ -7,6 +7,29 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Calle Málaga</title>
+      <link>https://www.cinecolombia.com/films/calle-malaga/HO00000740/</link>
+      <guid isPermaLink="false">7cc09332-efd1-40aa-aebf-012f72b0bfcb</guid>
+      <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
+      <description>Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Tow Women</title>
+      <link>https://www.cinecolombia.com/films/tow-women/HO00000741/</link>
+      <guid isPermaLink="false">a58f0919-65ab-45e7-afda-2ce2220fc634</guid>
+      <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
+      <description>Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.</description>
+    </item>
+    <item>
+      <title>En cartelera: Las Bravas</title>
+      <link>https://www.cinecolombia.com/films/las-bravas/HO00000739/</link>
+      <guid isPermaLink="false">3d06db29-7e9c-4070-a43b-7ff251f87046</guid>
+      <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
+      <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Teenage Sex and Death at Camp Miasma</title>
       <link>https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/</link>
       <guid isPermaLink="false">481180dd-5929-4a22-83d5-2c0e0fb64966</guid>
@@ -756,30 +779,6 @@
       <guid isPermaLink="false">0e497024-1e3d-46ed-9462-d524eceed45c</guid>
       <pubDate>Wed, 15 Jul 2026 23:00:57 GMT</pubDate>
       <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Eagles of the Republic</title>
-      <link>http://www.cinecolombia.com/films/eagles-of-the-republic/HO00000657/</link>
-      <guid isPermaLink="false">56b71df2-b172-47f8-9d42-b9b2d9b99fc8</guid>
-      <pubDate>Wed, 15 Jul 2026 23:00:57 GMT</pubDate>
-      <description>El actor más querido de Egipto, George Fahmy, es presionado por las altas autoridades para protagonizar una película de propaganda sobre el presidente.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/hMyigZK9mVLa4p4BZht1aXHSZYo.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Fires</title>
-      <link>http://www.cinecolombia.com/films/the-fires/HO00000664/</link>
-      <guid isPermaLink="false">ad424905-b86e-4f71-98b5-e7d846c460a5</guid>
-      <pubDate>Wed, 15 Jul 2026 05:00:58 GMT</pubDate>
-      <description>Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Barrio triste</title>
-      <link>http://www.cinecolombia.com/films/barrio-triste/HO00000665/</link>
-      <guid isPermaLink="false">fcaaa59f-e2eb-4d4d-a772-b49310f21cb8</guid>
-      <pubDate>Tue, 14 Jul 2026 23:00:57 GMT</pubDate>
-      <description>A finales de los 80, en las afueras de Medellín, unos adolescentes roban la cámara de un reportero y registran sus vidas y extraños fenómenos en el barrio.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/w2zymRakHhwKUnRCLPKrBiL8inL.jpg" medium="image" />
     </item>
   </channel>
 </rss>

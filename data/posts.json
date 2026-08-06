@@ -4846,6 +4846,84 @@
           "posterPath": "/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg"
         }
       }
+    },
+    {
+      "guid": "7cc09332-efd1-40aa-aebf-012f72b0bfcb",
+      "type": "added",
+      "filmId": "HO00000740",
+      "createdAt": "2026-08-06T05:00:39.779Z",
+      "snapshot": {
+        "id": "HO00000740",
+        "title": "Calle Málaga",
+        "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 116,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Maryam Touzani",
+        "webUrl": "https://www.cinecolombia.com/films/calle-malaga/HO00000740/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg",
+        "tmdb": {
+          "tmdbId": 1399462,
+          "posterPath": "/fWagBXNDk44UaupYtwQOAvDwGiT.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a58f0919-65ab-45e7-afda-2ce2220fc634",
+      "type": "added",
+      "filmId": "HO00000741",
+      "createdAt": "2026-08-06T05:00:39.779Z",
+      "snapshot": {
+        "id": "HO00000741",
+        "title": "Tow Women",
+        "shortSynopsis": "Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 100,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Chloé Robichaud",
+        "webUrl": "https://www.cinecolombia.com/films/tow-women/HO00000741/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "3d06db29-7e9c-4070-a43b-7ff251f87046",
+      "type": "now-in-theaters",
+      "filmId": "HO00000739",
+      "createdAt": "2026-08-06T05:00:39.779Z",
+      "snapshot": {
+        "id": "HO00000739",
+        "title": "Las Bravas",
+        "shortSynopsis": "En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 91,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Diana Ojeda",
+        "webUrl": "https://www.cinecolombia.com/films/las-bravas/HO00000739/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg",
+        "tmdb": {
+          "tmdbId": 1733124,
+          "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
+        }
+      }
     }
   ]
 }

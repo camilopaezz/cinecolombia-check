@@ -181,27 +181,6 @@
       }
     },
     {
-      "id": "HO00000599",
-      "title": "Into The Mortal World",
-      "shortSynopsis": "Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.",
-      "releaseDate": "2026-08-06",
-      "runtimeInMinutes": 118,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Animación"
-      ],
-      "director": "Zhong Ding",
-      "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg",
-      "tmdb": {
-        "tmdbId": 1303336,
-        "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
-      }
-    },
-    {
       "id": "HO00000600",
       "title": "Spider-Man: Brand New Day",
       "shortSynopsis": "Han pasado cuatro años desde los acontecimientos de Sin regreso a casa, y Peter ahora es un adulto que vive completamente solo.",
@@ -263,28 +242,6 @@
       "tmdb": {
         "tmdbId": 1400336,
         "posterPath": "/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg"
-      }
-    },
-    {
-      "id": "HO00000608",
-      "title": "Disclosure Day",
-      "shortSynopsis": "Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.",
-      "releaseDate": "2026-06-11",
-      "runtimeInMinutes": 145,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Steven Spielberg",
-      "webUrl": "https://www.cinecolombia.com/films/disclosure-day/HO00000608/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg",
-      "tmdb": {
-        "tmdbId": 1275779,
-        "posterPath": "/uGww4UrU3316Mld4p30dgdM09Du.jpg"
       }
     },
     {
@@ -575,27 +532,6 @@
       "tmdb": {
         "tmdbId": 1276521,
         "posterPath": "/whvkL0wzxgKmVbaPontq9NlVd5z.jpg"
-      }
-    },
-    {
-      "id": "HO00000658",
-      "title": "La petite dernière",
-      "shortSynopsis": "Fátima, de 17 años, la hija menor de una familia franco-argelina en un suburbio parisino juega fútbol y tiene un novio secreto, pero oculta su atracción por las mujeres.\n",
-      "releaseDate": "2026-07-30",
-      "runtimeInMinutes": 106,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Hafsia Herzi",
-      "webUrl": "https://www.cinecolombia.com/films/la-petite-derniere/HO00000658/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pae1NQnQW2fiVB4Aw3XwXJozd5u.jpg",
-      "tmdb": {
-        "tmdbId": 961077,
-        "posterPath": "/pae1NQnQW2fiVB4Aw3XwXJozd5u.jpg"
       }
     },
     {
@@ -1313,23 +1249,6 @@
         "tmdbId": 1473878,
         "posterPath": "/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg"
       }
-    },
-    {
-      "id": "HO00000720",
-      "title": "Bien Inmueble",
-      "shortSynopsis": "Es Gretel, una corredora de bienes raíces, quien nos guía por lugares cargados de valor sentimental y la memoria detrás de cada objeto, de cada espacio.",
-      "releaseDate": "2026-07-30",
-      "runtimeInMinutes": 90,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Emanuel Giraldo Betancur",
-      "webUrl": "https://www.cinecolombia.com/films/bien-inmueble/HO00000720/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": null
     },
     {
       "id": "HO00000721",
@@ -2145,11 +2064,6 @@
       "posterPath": "/fWagBXNDk44UaupYtwQOAvDwGiT.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000599": 1,
-    "HO00000608": 1,
-    "HO00000658": 1,
-    "HO00000720": 1
-  },
-  "lastRun": "2026-08-06T05:00:39.782Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-06T11:00:39.670Z"
 }

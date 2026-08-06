@@ -815,8 +815,8 @@
       "id": "HO00000695",
       "title": "Saccharine",
       "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
-      "releaseDate": "2026-08-13",
-      "runtimeInMinutes": 10,
+      "releaseDate": "2026-09-24",
+      "runtimeInMinutes": 113,
       "censorRating": "Pendiente",
       "genres": [
         "Ciencia Ficción",
@@ -1668,7 +1668,7 @@
       "id": "HO00000740",
       "title": "Calle Málaga",
       "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2026-09-03",
       "runtimeInMinutes": 116,
       "censorRating": "Pendiente",
       "genres": [
@@ -1688,20 +1688,24 @@
     },
     {
       "id": "HO00000741",
-      "title": "Tow Women",
+      "title": "Deux Femmes En Or",
       "shortSynopsis": "Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.",
       "releaseDate": "2026-08-13",
       "runtimeInMinutes": 100,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Comedia"
       ],
       "director": "Chloé Robichaud",
-      "webUrl": "https://www.cinecolombia.com/films/tow-women/HO00000741/",
+      "webUrl": "https://www.cinecolombia.com/films/deux-femmes-en-or/HO00000741/",
       "categories": [
         "ComingSoon"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg",
+      "tmdb": {
+        "tmdbId": 1073588,
+        "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -2084,8 +2088,12 @@
     "HO00000740": {
       "tmdbId": 1399462,
       "posterPath": "/fWagBXNDk44UaupYtwQOAvDwGiT.jpg"
+    },
+    "HO00000741": {
+      "tmdbId": 1073588,
+      "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-06T17:00:39.487Z"
+  "lastRun": "2026-08-06T23:00:39.310Z"
 }

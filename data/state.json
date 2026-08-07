@@ -1706,6 +1706,181 @@
         "tmdbId": 1073588,
         "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
       }
+    },
+    {
+      "id": "HO00000742",
+      "title": "CORTIS PUT YOUR PHONE DOWN LIVE VIEWING",
+      "shortSynopsis": "La primera gira de CORTIS llega a los cines con un show lleno de energía, celebrando su música, su primer aniversario y la conexión con sus fans.",
+      "releaseDate": "2026-08-14",
+      "runtimeInMinutes": 116,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Música"
+      ],
+      "director": "Eunhye Kim",
+      "webUrl": "https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg",
+      "tmdb": {
+        "tmdbId": 1740308,
+        "posterPath": "/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg"
+      }
+    },
+    {
+      "id": "HO00000743",
+      "title": "Violent Night 2",
+      "shortSynopsis": "Santa Claus deberá recuperar el espíritu navideño y sus poderes para enfrentarse a un despiadado gánster que amenaza a toda una comunidad.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Comedia"
+      ],
+      "director": "Tommy Wirkola",
+      "webUrl": "https://www.cinecolombia.com/films/violent-night-2/HO00000743/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg",
+      "tmdb": {
+        "tmdbId": 1078446,
+        "posterPath": "/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg"
+      }
+    },
+    {
+      "id": "HO00000744",
+      "title": "Wild Horse Nine",
+      "shortSynopsis": "En vísperas del golpe de Estado chileno de 1973, dos agentes de la CIA viajan a Isla de Pascua, donde secretos y nuevas alianzas ponen en riesgo su misión.",
+      "releaseDate": "2026-11-05",
+      "runtimeInMinutes": 118,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Crimen",
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Martin McDonagh",
+      "webUrl": "https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "tmdb": {
+        "tmdbId": 891621,
+        "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
+      }
+    },
+    {
+      "id": "HO00000745",
+      "title": "Train to Busan (Re-release)",
+      "shortSynopsis": "Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.",
+      "releaseDate": "2026-09-03",
+      "runtimeInMinutes": 118,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Sang-ho Yeon",
+      "webUrl": "https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000746",
+      "title": "Masha And The Bears",
+      "shortSynopsis": "Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.",
+      "releaseDate": "2026-09-10",
+      "runtimeInMinutes": 80,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Aventura",
+        "Comedia",
+        "Familia"
+      ],
+      "director": "Antonina Ruzhe",
+      "webUrl": "https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg",
+      "tmdb": {
+        "tmdbId": 1448028,
+        "posterPath": "/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg"
+      }
+    },
+    {
+      "id": "HO00000747",
+      "title": "Dead Man's Wire",
+      "shortSynopsis": "Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.",
+      "releaseDate": "2026-10-01",
+      "runtimeInMinutes": 104,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Crimen",
+        "Drama",
+        "Historia"
+      ],
+      "director": "Gus Van Sant",
+      "webUrl": "https://www.cinecolombia.com/films/dead-mans-wire/HO00000747/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/19JQnXT21OtH24fBgexkDFVFEoS.jpg",
+      "tmdb": {
+        "tmdbId": 1263012,
+        "posterPath": "/19JQnXT21OtH24fBgexkDFVFEoS.jpg"
+      }
+    },
+    {
+      "id": "HO00000748",
+      "title": "Spa Weekend",
+      "shortSynopsis": "Tres amigas disfrutan de un fin de semana en un balneario, hasta que una inesperada acompañante convierte su escapada en un caos lleno de situaciones hilarantes.",
+      "releaseDate": "2026-09-10",
+      "runtimeInMinutes": 97,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Jon Lucas",
+      "webUrl": "https://www.cinecolombia.com/films/spa-weekend/HO00000748/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg",
+      "tmdb": {
+        "tmdbId": 1341138,
+        "posterPath": "/dShb891SRyGvQxOkgz72i0HsdEU.jpg"
+      }
+    },
+    {
+      "id": "HO00000749",
+      "title": "Practical Magic 2",
+      "shortSynopsis": "Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.",
+      "releaseDate": "2026-09-10",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Fantasía",
+        "Romance"
+      ],
+      "director": "Susanne Bier",
+      "webUrl": "https://www.cinecolombia.com/films/practical-magic-2/HO00000749/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg",
+      "tmdb": {
+        "tmdbId": 1302904,
+        "posterPath": "/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -2092,8 +2267,36 @@
     "HO00000741": {
       "tmdbId": 1073588,
       "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
+    },
+    "HO00000742": {
+      "tmdbId": 1740308,
+      "posterPath": "/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg"
+    },
+    "HO00000747": {
+      "tmdbId": 1263012,
+      "posterPath": "/19JQnXT21OtH24fBgexkDFVFEoS.jpg"
+    },
+    "HO00000746": {
+      "tmdbId": 1448028,
+      "posterPath": "/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg"
+    },
+    "HO00000749": {
+      "tmdbId": 1302904,
+      "posterPath": "/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg"
+    },
+    "HO00000748": {
+      "tmdbId": 1341138,
+      "posterPath": "/dShb891SRyGvQxOkgz72i0HsdEU.jpg"
+    },
+    "HO00000743": {
+      "tmdbId": 1078446,
+      "posterPath": "/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg"
+    },
+    "HO00000744": {
+      "tmdbId": 891621,
+      "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-06T23:00:39.310Z"
+  "lastRun": "2026-08-07T23:00:43.068Z"
 }

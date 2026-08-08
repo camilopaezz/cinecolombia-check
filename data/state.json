@@ -802,7 +802,6 @@
       "director": "",
       "webUrl": "https://www.cinecolombia.com/films/aida/HO00000693/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
@@ -2298,5 +2297,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-07T23:00:43.068Z"
+  "lastRun": "2026-08-08T05:00:41.295Z"
 }

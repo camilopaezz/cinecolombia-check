@@ -1361,7 +1361,7 @@
     {
       "id": "HO00000725",
       "title": "Mrs. Warren's Profession",
-      "shortSynopsis": "Vivie Warren lucha por abrirse camino como abogada mientras enfrenta a su madre en un poderoso drama sobre moral, independencia y el precio del progreso.",
+      "shortSynopsis": "Vivie Warren desafía las normas de su época mientras enfrenta a su madre en un intenso drama sobre moral, independencia y cambio social.",
       "releaseDate": "2026-08-28",
       "runtimeInMinutes": 117,
       "censorRating": "Pendiente",
@@ -1383,7 +1383,7 @@
     {
       "id": "HO00000726",
       "title": "Hamlet",
-      "shortSynopsis": "Mientras un reino se prepara para la guerra, Hamlet enfrenta una lucha entre el deber y la duda que amenaza con destruir su cordura y el destino de Dinamarca.",
+      "shortSynopsis": "Hamlet queda atrapado entre el deber y la duda al intentar vengar a su padre, mientras su lucha interior amenaza su cordura y el destino del reino.",
       "releaseDate": "2026-09-11",
       "runtimeInMinutes": 177,
       "censorRating": "Pendiente",
@@ -1405,7 +1405,7 @@
     {
       "id": "HO00000727",
       "title": "Fleabag",
-      "shortSynopsis": "Fleabag enfrenta el caos de su vida con humor irreverente y honestidad brutal en el aclamado monólogo que inspiró la exitosa serie de la BBC.",
+      "shortSynopsis": "Fleabag enfrenta el caos de su vida con humor irreverente y sin filtros, mientras lucha con sus relaciones y por mantener a flote su negocio.",
       "releaseDate": "2026-09-25",
       "runtimeInMinutes": 70,
       "censorRating": "Pendiente",
@@ -1423,7 +1423,7 @@
     {
       "id": "HO00000728",
       "title": "The Fifth Step",
-      "shortSynopsis": "Dos hombres forjan una frágil amistad durante su recuperación del alcoholismo, hasta que una confesión amenaza con destruir la confianza que los mantiene en pie.",
+      "shortSynopsis": "James y Luka forjan una frágil amistad durante su recuperación, hasta que una confesión revela verdades que amenazan la confianza entre ambos.",
       "releaseDate": "2026-10-09",
       "runtimeInMinutes": 87,
       "censorRating": "Pendiente",
@@ -1445,7 +1445,7 @@
     {
       "id": "HO00000729",
       "title": "Frankenstein",
-      "shortSynopsis": "Rechazada por su creador, la criatura de Frankenstein emprende una búsqueda de venganza que enfrenta la ciencia, la moral y los límites de la humanidad.",
+      "shortSynopsis": "Rechazada por su creador, la criatura de Frankenstein busca venganza y lo enfrenta a un aterrador trato que desafía los límites del bien y del mal.",
       "releaseDate": "2026-10-23",
       "runtimeInMinutes": 129,
       "censorRating": "Pendiente",
@@ -1467,7 +1467,7 @@
     {
       "id": "HO00000730",
       "title": "All My Sons",
-      "shortSynopsis": "Tras la guerra, un hombre debe enfrentar las consecuencias de sus decisiones mientras el pasado amenaza con destruir a su familia y su sueño americano.",
+      "shortSynopsis": "Tras la guerra, Joe enfrenta las consecuencias de sus decisiones mientras los secretos del pasado amenazan con destruir a su familia y su sueño americano.",
       "releaseDate": "2027-01-29",
       "runtimeInMinutes": 135,
       "censorRating": "Pendiente",
@@ -1485,7 +1485,7 @@
     {
       "id": "HO00000731",
       "title": "The Audience",
-      "shortSynopsis": "A través de encuentros privados con sus primeros ministros, la reina Isabel II revela el lado más humano de uno de los reinados más trascendentales de la historia.",
+      "shortSynopsis": "Las reuniones privadas de Isabel II con sus primeros ministros revelan a la mujer detrás de la corona y los momentos que marcaron su histórico reinado.",
       "releaseDate": "2027-02-12",
       "runtimeInMinutes": 180,
       "censorRating": "Pendiente",
@@ -1503,7 +1503,7 @@
     {
       "id": "HO00000732",
       "title": "The Playboy of the Western World",
-      "shortSynopsis": "Cuando un joven afirma haber matado a su padre, se convierte en el héroe del pueblo, hasta que la verdad amenaza con cambiarlo todo.",
+      "shortSynopsis": "Christy llega a una aldea afirmando haber matado a su padre y se convierte en héroe, hasta que una inesperada llegada amenaza con revelar la verdad.",
       "releaseDate": "2027-02-26",
       "runtimeInMinutes": 150,
       "censorRating": "Pendiente",
@@ -1521,7 +1521,7 @@
     {
       "id": "HO00000733",
       "title": "Les Liaisons Dangereuses",
-      "shortSynopsis": "La Marquesa de Merteuil y el Vizconde de Valmont convierten la seducción en un arma, hasta que su rivalidad amenaza con destruirlos a ellos y a quienes los rodean.",
+      "shortSynopsis": "Merteuil y Valmont convierten la seducción en un arma, hasta que su alianza se transforma en una rivalidad que amenaza con destruirlos a todos.",
       "releaseDate": "2027-03-05",
       "runtimeInMinutes": 180,
       "censorRating": "Pendiente",
@@ -1539,7 +1539,7 @@
     {
       "id": "HO00000734",
       "title": "The Misanthrope",
-      "shortSynopsis": "Una escritora desafía las normas sociales y paga el precio de decir lo que piensa en esta audaz reinterpretación del clásico de Molière.",
+      "shortSynopsis": "Una novelista desafía las normas sociales al decir lo que piensa, enfrentando críticas y rechazo que ponen en riesgo su carrera y sus relaciones.",
       "releaseDate": "2027-04-09",
       "runtimeInMinutes": 105,
       "censorRating": "Pendiente",
@@ -2297,5 +2297,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-08T05:00:41.295Z"
+  "lastRun": "2026-08-08T11:00:41.234Z"
 }

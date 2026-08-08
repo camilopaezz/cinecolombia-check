@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Aida</title>
+      <link>https://www.cinecolombia.com/films/aida/HO00000693/</link>
+      <guid isPermaLink="false">070ad2ce-5eef-40bc-946e-17b6199603e0</guid>
+      <pubDate>Sat, 08 Aug 2026 23:00:43 GMT</pubDate>
+      <description>Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: CORTIS PUT YOUR PHONE DOWN LIVE VIEWING</title>
       <link>https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/</link>
       <guid isPermaLink="false">ac2077fe-4baf-454d-b0c7-473b6ef4b4c0</guid>
@@ -773,14 +781,6 @@
       <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
       <description>Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje</description>
       <media:content url="https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Rally: From Paris to the Pyramids</title>
-      <link>http://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/</link>
-      <guid isPermaLink="false">2082e3a5-f5e5-45e1-9ffe-eec6b95f76f3</guid>
-      <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
-      <description>¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/w12EcNornUag78lk5rObTq2W0Ii.jpg" medium="image" />
     </item>
   </channel>
 </rss>

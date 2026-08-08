@@ -790,27 +790,6 @@
       }
     },
     {
-      "id": "HO00000693",
-      "title": "Aida",
-      "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
-      "releaseDate": "2026-08-08",
-      "runtimeInMinutes": 170,
-      "censorRating": "Contenido",
-      "genres": [
-        "Ópera"
-      ],
-      "director": "",
-      "webUrl": "https://www.cinecolombia.com/films/aida/HO00000693/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
-      "tmdb": {
-        "tmdbId": 1370123,
-        "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
-      }
-    },
-    {
       "id": "HO00000695",
       "title": "Saccharine",
       "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
@@ -2297,7 +2276,7 @@
     }
   },
   "missingRuns": {
-    "HO00000693": 1
+    "HO00000671": 1
   },
-  "lastRun": "2026-08-08T17:00:39.887Z"
+  "lastRun": "2026-08-08T23:00:43.941Z"
 }

@@ -5280,6 +5280,33 @@
           "posterPath": "/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg"
         }
       }
+    },
+    {
+      "guid": "070ad2ce-5eef-40bc-946e-17b6199603e0",
+      "type": "removed",
+      "filmId": "HO00000693",
+      "createdAt": "2026-08-08T23:00:43.938Z",
+      "snapshot": {
+        "id": "HO00000693",
+        "title": "Aida",
+        "shortSynopsis": "Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.",
+        "releaseDate": "2026-08-08",
+        "runtimeInMinutes": 170,
+        "censorRating": "Contenido",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "",
+        "webUrl": "https://www.cinecolombia.com/films/aida/HO00000693/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg",
+        "tmdb": {
+          "tmdbId": 1370123,
+          "posterPath": "/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg"
+        }
+      }
     }
   ]
 }

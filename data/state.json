@@ -748,27 +748,6 @@
       }
     },
     {
-      "id": "HO00000671",
-      "title": "Ateez: Light the Way in Cinemas",
-      "shortSynopsis": "Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.",
-      "releaseDate": "2026-08-06",
-      "runtimeInMinutes": 65,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "JIAE KIM",
-      "webUrl": "https://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg",
-      "tmdb": {
-        "tmdbId": 1722720,
-        "posterPath": "/jPtUs7hVAp08FjOR2YnojdPhayX.jpg"
-      }
-    },
-    {
       "id": "HO00000691",
       "title": "Ice Cream Man",
       "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
@@ -1397,7 +1376,11 @@
         "AdvanceBooking",
         "NowShowing"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg",
+      "tmdb": {
+        "tmdbId": 620350,
+        "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
+      }
     },
     {
       "id": "HO00000728",
@@ -2273,10 +2256,12 @@
     "HO00000744": {
       "tmdbId": 891621,
       "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
+    },
+    "HO00000727": {
+      "tmdbId": 620350,
+      "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000671": 1
-  },
-  "lastRun": "2026-08-08T23:00:43.941Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-09T05:00:39.882Z"
 }

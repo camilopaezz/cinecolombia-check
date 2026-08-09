@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Ateez: Light the Way in Cinemas</title>
+      <link>https://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/</link>
+      <guid isPermaLink="false">70f71a9c-e875-469c-b82d-91b3b17fac42</guid>
+      <pubDate>Sun, 09 Aug 2026 05:00:39 GMT</pubDate>
+      <description>Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Aida</title>
       <link>https://www.cinecolombia.com/films/aida/HO00000693/</link>
       <guid isPermaLink="false">070ad2ce-5eef-40bc-946e-17b6199603e0</guid>
@@ -773,14 +781,6 @@
       <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
       <description>La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Seeking Haven for Mr. Rambo</title>
-      <link>http://www.cinecolombia.com/films/seeking-haven-for-mr-rambo/HO00000709/</link>
-      <guid isPermaLink="false">5669b18a-0233-447e-b4ef-e7dabd3f7093</guid>
-      <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
-      <description>Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg" medium="image" />
     </item>
   </channel>
 </rss>

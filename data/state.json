@@ -249,7 +249,7 @@
       "title": "The End of Oak Street",
       "shortSynopsis": "Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.",
       "releaseDate": "2026-08-13",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 100,
       "censorRating": "+12 Años",
       "genres": [
         "Acción",
@@ -774,7 +774,7 @@
       "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
       "releaseDate": "2026-09-24",
       "runtimeInMinutes": 113,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Ciencia Ficción",
         "Drama",
@@ -1191,7 +1191,7 @@
       "shortSynopsis": "Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.\t",
       "releaseDate": "2026-08-13",
       "runtimeInMinutes": 93,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Acción",
         "Animación",
@@ -2263,5 +2263,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-09T05:00:39.882Z"
+  "lastRun": "2026-08-10T23:00:39.278Z"
 }

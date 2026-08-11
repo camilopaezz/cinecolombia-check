@@ -290,28 +290,6 @@
       }
     },
     {
-      "id": "HO00000628",
-      "title": "Finding Emily",
-      "shortSynopsis": "Cuando a un músico enamorado le dan un número equivocado para llamar a la chica de sus sueños, se une a una ambiciosa estudiante de psicología para encontrarla.",
-      "releaseDate": "2026-09-17",
-      "runtimeInMinutes": 111,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Comedia",
-        "Romance"
-      ],
-      "director": "Alicia MacDonald",
-      "webUrl": "https://www.cinecolombia.com/films/finding-emily/HO00000628/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg",
-      "tmdb": {
-        "tmdbId": 1339588,
-        "posterPath": "/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg"
-      }
-    },
-    {
       "id": "HO00000629",
       "title": "Pressure",
       "shortSynopsis": "Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.",
@@ -2262,8 +2240,6 @@
       "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000628": 1
-  },
-  "lastRun": "2026-08-11T05:00:39.442Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-11T11:00:40.415Z"
 }

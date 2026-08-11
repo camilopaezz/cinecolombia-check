@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Finding Emily</title>
+      <link>https://www.cinecolombia.com/films/finding-emily/HO00000628/</link>
+      <guid isPermaLink="false">f99e847a-6952-4f25-b40d-94321ed4f06e</guid>
+      <pubDate>Tue, 11 Aug 2026 11:00:40 GMT</pubDate>
+      <description>Cuando a un músico enamorado le dan un número equivocado para llamar a la chica de sus sueños, se une a una ambiciosa estudiante de psicología para encontrarla.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Ateez: Light the Way in Cinemas</title>
       <link>https://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/</link>
       <guid isPermaLink="false">70f71a9c-e875-469c-b82d-91b3b17fac42</guid>
@@ -773,14 +781,6 @@
       <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
       <description>Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: The Bride</title>
-      <link>http://www.cinecolombia.com/films/the-bride/HO00000708/</link>
-      <guid isPermaLink="false">017fbef4-cb8c-4abf-9663-2576047f9030</guid>
-      <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
-      <description>La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg" medium="image" />
     </item>
   </channel>
 </rss>

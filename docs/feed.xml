@@ -7,6 +7,46 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: The End of Oak Street</title>
+      <link>https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/</link>
+      <guid isPermaLink="false">1667d8cc-1bcb-4024-8705-f355d20b726e</guid>
+      <pubDate>Wed, 12 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Teenage Sex and Death at Camp Miasma</title>
+      <link>https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/</link>
+      <guid isPermaLink="false">f7f1752e-2b55-4aff-9d10-a557f5e55a6e</guid>
+      <pubDate>Wed, 12 Aug 2026 05:00:40 GMT</pubDate>
+      <description>La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Proud Princess</title>
+      <link>https://www.cinecolombia.com/films/the-proud-princess/HO00000662/</link>
+      <guid isPermaLink="false">caf0a5a2-337a-41fa-a1cc-5ff2312f088b</guid>
+      <pubDate>Wed, 12 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Ojo por ojo</title>
+      <link>https://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/</link>
+      <guid isPermaLink="false">b8610566-00f7-4a69-849f-186224f0b68f</guid>
+      <pubDate>Wed, 12 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Death of Snow White</title>
+      <link>https://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/</link>
+      <guid isPermaLink="false">4ef98f45-831a-4475-8199-06669c022673</guid>
+      <pubDate>Wed, 12 Aug 2026 05:00:40 GMT</pubDate>
+      <description>Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Finding Emily</title>
       <link>https://www.cinecolombia.com/films/finding-emily/HO00000628/</link>
       <guid isPermaLink="false">f99e847a-6952-4f25-b40d-94321ed4f06e</guid>
@@ -742,45 +782,6 @@
       <guid isPermaLink="false">b3d3de14-0005-4991-be9c-9cfe1a4852d0</guid>
       <pubDate>Sun, 19 Jul 2026 05:00:57 GMT</pubDate>
       <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Fuze</title>
-      <link>http://www.cinecolombia.com/films/fuze/HO00000500/</link>
-      <guid isPermaLink="false">3065af36-3d8a-4433-a832-e612d736cf6f</guid>
-      <pubDate>Sat, 18 Jul 2026 05:00:58 GMT</pubDate>
-      <description>Unos obreros de la construcción desentierran en Londres una bomba de la Segunda Guerra Mundial sin explotar, lo que obliga a evacuar la ciudad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: El juego de la vida</title>
-      <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
-      <guid isPermaLink="false">59f748e7-79b6-4115-9aed-7d592248fc06</guid>
-      <pubDate>Fri, 17 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
-    </item>
-    <item>
-      <title>Pronto: Klara and the Sun</title>
-      <link>http://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/</link>
-      <guid isPermaLink="false">d128a209-ff8e-4cef-b4c2-09340d08dda0</guid>
-      <pubDate>Fri, 17 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Una chica robot diseñada para prevenir la soledad intenta salvar a una familia humana con el corazón roto.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Sense and Sensibility</title>
-      <link>http://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/</link>
-      <guid isPermaLink="false">55e495d7-72d4-4479-a121-9d2dfe89ec01</guid>
-      <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
-      <description>Una nueva visión de la icónica novela de Jane Austen, Sensatez y sentimiento: Una historia encantadora, ingeniosa y profundamente cercana sobre el amor.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Nightborn</title>
-      <link>http://www.cinecolombia.com/films/nightborn/HO00000707/</link>
-      <guid isPermaLink="false">d3e67953-28df-4c28-8e67-c89631d28b3e</guid>
-      <pubDate>Thu, 16 Jul 2026 23:01:00 GMT</pubDate>
-      <description>Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg" medium="image" />
     </item>
   </channel>
 </rss>

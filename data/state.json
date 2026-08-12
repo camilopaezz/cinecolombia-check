@@ -259,7 +259,8 @@
       "director": "David Robert Mitchell",
       "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
       "tmdb": {
@@ -505,7 +506,8 @@
       "director": "Jane Schoenbrun",
       "webUrl": "https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
       "tmdb": {
@@ -591,7 +593,8 @@
       "director": "Radek Beran",
       "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
       "tmdb": {
@@ -805,7 +808,6 @@
       "director": "Nadia Hallgren",
       "webUrl": "https://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
@@ -872,7 +874,8 @@
       "director": "Eduardo Ayllón",
       "webUrl": "https://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg",
       "tmdb": {
@@ -1108,7 +1111,8 @@
       "director": "Jason Brooks",
       "webUrl": "https://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg",
       "tmdb": {
@@ -1167,7 +1171,7 @@
       "id": "HO00000718",
       "title": "Lupin the IIIrd the Movie: The Immortal Bloodline",
       "shortSynopsis": "Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.\t",
-      "releaseDate": "2026-08-13",
+      "releaseDate": "2026-08-20",
       "runtimeInMinutes": 93,
       "censorRating": "+12 Años",
       "genres": [
@@ -1629,7 +1633,7 @@
       "id": "HO00000741",
       "title": "Deux Femmes En Or",
       "shortSynopsis": "Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.",
-      "releaseDate": "2026-08-13",
+      "releaseDate": "2026-08-20",
       "runtimeInMinutes": 100,
       "censorRating": "+15 Años",
       "genres": [
@@ -2241,5 +2245,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-11T11:00:40.415Z"
+  "lastRun": "2026-08-12T05:00:40.265Z"
 }

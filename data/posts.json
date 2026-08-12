@@ -5362,6 +5362,152 @@
           "posterPath": "/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg"
         }
       }
+    },
+    {
+      "guid": "1667d8cc-1bcb-4024-8705-f355d20b726e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000618",
+      "createdAt": "2026-08-12T05:00:40.263Z",
+      "snapshot": {
+        "id": "HO00000618",
+        "title": "The End of Oak Street",
+        "shortSynopsis": "Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 100,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Fantasía"
+        ],
+        "director": "David Robert Mitchell",
+        "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
+        "tmdb": {
+          "tmdbId": 1101383,
+          "posterPath": "/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f7f1752e-2b55-4aff-9d10-a557f5e55a6e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000650",
+      "createdAt": "2026-08-12T05:00:40.263Z",
+      "snapshot": {
+        "id": "HO00000650",
+        "title": "Teenage Sex and Death at Camp Miasma",
+        "shortSynopsis": "La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. ",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 112,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia",
+          "Terror"
+        ],
+        "director": "Jane Schoenbrun",
+        "webUrl": "https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
+        "tmdb": {
+          "tmdbId": 1240889,
+          "posterPath": "/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg"
+        }
+      }
+    },
+    {
+      "guid": "caf0a5a2-337a-41fa-a1cc-5ff2312f088b",
+      "type": "now-in-theaters",
+      "filmId": "HO00000662",
+      "createdAt": "2026-08-12T05:00:40.263Z",
+      "snapshot": {
+        "id": "HO00000662",
+        "title": "The Proud Princess",
+        "shortSynopsis": "Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 84,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Radek Beran",
+        "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
+        "tmdb": {
+          "tmdbId": 1134680,
+          "posterPath": "/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b8610566-00f7-4a69-849f-186224f0b68f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000701",
+      "createdAt": "2026-08-12T05:00:40.263Z",
+      "snapshot": {
+        "id": "HO00000701",
+        "title": "Ojo por ojo",
+        "shortSynopsis": "Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 90,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Eduardo Ayllón",
+        "webUrl": "https://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg",
+        "tmdb": {
+          "tmdbId": 1199869,
+          "posterPath": "/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4ef98f45-831a-4475-8199-06669c022673",
+      "type": "now-in-theaters",
+      "filmId": "HO00000713",
+      "createdAt": "2026-08-12T05:00:40.263Z",
+      "snapshot": {
+        "id": "HO00000713",
+        "title": "The Death of Snow White",
+        "shortSynopsis": "Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 110,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Fantasía",
+          "Terror"
+        ],
+        "director": "Jason Brooks",
+        "webUrl": "https://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg",
+        "tmdb": {
+          "tmdbId": 1409850,
+          "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
+        }
+      }
     }
   ]
 }

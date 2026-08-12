@@ -5508,6 +5508,31 @@
           "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
         }
       }
+    },
+    {
+      "guid": "7930ffdf-d0c7-46ed-9a19-f2c9690318d3",
+      "type": "now-in-theaters",
+      "filmId": "HO00000702",
+      "createdAt": "2026-08-12T23:00:41.131Z",
+      "snapshot": {
+        "id": "HO00000702",
+        "title": "Terminator 2: Judgement Day (35th Anniversary)",
+        "shortSynopsis": "Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 130,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Ciencia Ficción"
+        ],
+        "director": "James Cameron",
+        "webUrl": "https://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

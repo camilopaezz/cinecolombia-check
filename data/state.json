@@ -669,7 +669,7 @@
       "shortSynopsis": "Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.",
       "releaseDate": "2026-08-20",
       "runtimeInMinutes": 106,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Suspenso"
       ],
@@ -897,7 +897,8 @@
       "director": "James Cameron",
       "webUrl": "https://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -2244,6 +2245,8 @@
       "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-08-12T05:00:40.265Z"
+  "missingRuns": {
+    "HO00000496": 1
+  },
+  "lastRun": "2026-08-12T23:00:41.133Z"
 }

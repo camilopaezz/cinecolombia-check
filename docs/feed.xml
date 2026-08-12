@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Terminator 2: Judgement Day (35th Anniversary)</title>
+      <link>https://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/</link>
+      <guid isPermaLink="false">7930ffdf-d0c7-46ed-9a19-f2c9690318d3</guid>
+      <pubDate>Wed, 12 Aug 2026 23:00:41 GMT</pubDate>
+      <description>Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.</description>
+    </item>
+    <item>
       <title>En cartelera: The End of Oak Street</title>
       <link>https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/</link>
       <guid isPermaLink="false">1667d8cc-1bcb-4024-8705-f355d20b726e</guid>
@@ -775,13 +782,6 @@
       <pubDate>Tue, 21 Jul 2026 23:00:57 GMT</pubDate>
       <description>Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: El juego de la vida</title>
-      <link>http://www.cinecolombia.com/films/el-juego-de-la-vida/HO00000494/</link>
-      <guid isPermaLink="false">b3d3de14-0005-4991-be9c-9cfe1a4852d0</guid>
-      <pubDate>Sun, 19 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Un documentalista sigue durante 14 años a cinco familias colombianas que luchan por avanzar en un país donde moverse no siempre significa progresar.</description>
     </item>
   </channel>
 </rss>

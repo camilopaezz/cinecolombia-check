@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Obsession</title>
+      <link>https://www.cinecolombia.com/films/obsession/HO00000604/</link>
+      <guid isPermaLink="false">b63828dc-48f2-44c6-bdf3-d1eabb842fb8</guid>
+      <pubDate>Thu, 13 Aug 2026 11:00:39 GMT</pubDate>
+      <description>La desesperada fijación romántica de un hombre por la persona que idealiza provoca un hechizo oscuro que transforma su deseo en una situación cada vez más perturbadora</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Las Bravas</title>
+      <link>https://www.cinecolombia.com/films/las-bravas/HO00000739/</link>
+      <guid isPermaLink="false">53595738-8cbe-45f3-8e48-a5fe40bcbfc7</guid>
+      <pubDate>Thu, 13 Aug 2026 11:00:39 GMT</pubDate>
+      <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Coyote vs. Acme</title>
       <link>https://www.cinecolombia.com/films/coyote-vs-acme/HO00000633/</link>
       <guid isPermaLink="false">0d5044d3-6bc1-422c-84f6-9ff8ff42c90c</guid>
@@ -767,22 +783,6 @@
       <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
       <description>La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Dandelion&apos;s Odyssey</title>
-      <link>http://www.cinecolombia.com/films/dandelions-odyssey/HO00000655/</link>
-      <guid isPermaLink="false">829e9f93-17b7-452f-9488-348d452c8c0c</guid>
-      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Cuatro semillas de un diente de león son las únicas supervivientes de una serie de explosiones nucleares que están destruyendo la Tierra.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/4EbiJTqpKCM4Cmj7Xpsji38mW9A.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Diamanti</title>
-      <link>http://www.cinecolombia.com/films/diamanti/HO00000672/</link>
-      <guid isPermaLink="false">ab20876c-47d0-4d8b-8fa3-4ffc41bc821a</guid>
-      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
-      <description>Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg" medium="image" />
     </item>
   </channel>
 </rss>

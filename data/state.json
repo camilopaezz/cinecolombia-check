@@ -180,27 +180,6 @@
       }
     },
     {
-      "id": "HO00000604",
-      "title": "Obsession",
-      "shortSynopsis": "La desesperada fijación romántica de un hombre por la persona que idealiza provoca un hechizo oscuro que transforma su deseo en una situación cada vez más perturbadora",
-      "releaseDate": "2026-05-14",
-      "runtimeInMinutes": 108,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Curry Barker",
-      "webUrl": "https://www.cinecolombia.com/films/obsession/HO00000604/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg",
-      "tmdb": {
-        "tmdbId": 1339713,
-        "posterPath": "/ohi9xvbBUymM4SuIOSlt1xbLRQQ.jpg"
-      }
-    },
-    {
       "id": "HO00000607",
       "title": "Focker-in-Law",
       "shortSynopsis": "Henry Focker, hijo de Greg y Pam, enfrenta caos familiar al decidir casarse con una mujer obstinada que parece ser su total opuesto.",
@@ -1561,27 +1540,6 @@
       }
     },
     {
-      "id": "HO00000739",
-      "title": "Las Bravas",
-      "shortSynopsis": "En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.",
-      "releaseDate": "2026-08-06",
-      "runtimeInMinutes": 91,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Diana Ojeda",
-      "webUrl": "https://www.cinecolombia.com/films/las-bravas/HO00000739/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg",
-      "tmdb": {
-        "tmdbId": 1733124,
-        "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
-      }
-    },
-    {
       "id": "HO00000740",
       "title": "Calle Málaga",
       "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
@@ -2218,9 +2176,6 @@
       "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000604": 1,
-    "HO00000739": 1
-  },
-  "lastRun": "2026-08-13T05:00:42.335Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-13T11:00:39.533Z"
 }

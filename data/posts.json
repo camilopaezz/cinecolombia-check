@@ -5533,6 +5533,65 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "0d5044d3-6bc1-422c-84f6-9ff8ff42c90c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000633",
+      "createdAt": "2026-08-13T05:00:42.333Z",
+      "snapshot": {
+        "id": "HO00000633",
+        "title": "Coyote vs. Acme",
+        "shortSynopsis": "Tras el fracaso de todos los productos ACME en su persecución del Correcaminos, Wile E. Coyote decide demandar a la corporación con ayuda del abogado Kevin Avery.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 103,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Dave Green",
+        "webUrl": "https://www.cinecolombia.com/films/coyote-vs-acme/HO00000633/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
+        "tmdb": {
+          "tmdbId": 1204680,
+          "posterPath": "/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d909e267-5e71-4aaa-b10a-4bf3cc74226e",
+      "type": "removed",
+      "filmId": "HO00000496",
+      "createdAt": "2026-08-13T05:00:42.333Z",
+      "snapshot": {
+        "id": "HO00000496",
+        "title": "Moana",
+        "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
+        "releaseDate": "2026-07-09",
+        "runtimeInMinutes": 120,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Thomas Kail",
+        "webUrl": "https://www.cinecolombia.com/films/moana/HO00000496/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
+        "tmdb": {
+          "tmdbId": 1108427,
+          "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
+        }
+      }
     }
   ]
 }

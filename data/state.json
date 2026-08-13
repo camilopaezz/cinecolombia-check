@@ -112,29 +112,6 @@
       }
     },
     {
-      "id": "HO00000496",
-      "title": "Moana",
-      "shortSynopsis": "Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.",
-      "releaseDate": "2026-07-09",
-      "runtimeInMinutes": 120,
-      "censorRating": "Todos",
-      "genres": [
-        "Aventura",
-        "Comedia",
-        "Familia"
-      ],
-      "director": "Thomas Kail",
-      "webUrl": "https://www.cinecolombia.com/films/moana/HO00000496/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg",
-      "tmdb": {
-        "tmdbId": 1108427,
-        "posterPath": "/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg"
-      }
-    },
-    {
       "id": "HO00000501",
       "title": "Ternet Ninja 3",
       "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
@@ -259,7 +236,6 @@
       "director": "David Robert Mitchell",
       "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
@@ -362,8 +338,8 @@
       "title": "Coyote vs. Acme",
       "shortSynopsis": "Tras el fracaso de todos los productos ACME en su persecución del Correcaminos, Wile E. Coyote decide demandar a la corporación con ayuda del abogado Kevin Avery.",
       "releaseDate": "2026-08-27",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 103,
+      "censorRating": "+7 Años",
       "genres": [
         "Acción",
         "Animación",
@@ -372,7 +348,8 @@
       "director": "Dave Green",
       "webUrl": "https://www.cinecolombia.com/films/coyote-vs-acme/HO00000633/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
       "tmdb": {
@@ -506,7 +483,6 @@
       "director": "Jane Schoenbrun",
       "webUrl": "https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
@@ -593,7 +569,6 @@
       "director": "Radek Beran",
       "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
@@ -874,7 +849,6 @@
       "director": "Eduardo Ayllón",
       "webUrl": "https://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg",
@@ -1112,7 +1086,6 @@
       "director": "Jason Brooks",
       "webUrl": "https://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg",
@@ -2246,7 +2219,8 @@
     }
   },
   "missingRuns": {
-    "HO00000496": 1
+    "HO00000604": 1,
+    "HO00000739": 1
   },
-  "lastRun": "2026-08-12T23:00:41.133Z"
+  "lastRun": "2026-08-13T05:00:42.335Z"
 }

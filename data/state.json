@@ -363,7 +363,7 @@
       "title": "One Night Only",
       "shortSynopsis": "Owen, recién dejado por su pareja, y Allie, una romántica esperanzada, podrían ser los únicos solteros en la ciudad que buscan algo más que un encuentro casual.",
       "releaseDate": "2026-08-27",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 102,
       "censorRating": "Pendiente",
       "genres": [
         "Comedia",
@@ -409,7 +409,7 @@
       "title": "Insidious: Out of the Further",
       "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
       "releaseDate": "2026-08-20",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 106,
       "censorRating": "Pendiente",
       "genres": [
         "Misterio",
@@ -419,7 +419,8 @@
       "director": "Jacob Chase",
       "webUrl": "https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg",
       "tmdb": {
@@ -430,7 +431,7 @@
     {
       "id": "HO00000647",
       "title": "The Invite",
-      "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
+      "shortSynopsis": "Joe y Angela están en la cuerda floja, y esta noche podría ser el momento en que todo se desmorone definitivamente. Por desgracia, sus vecinos de arriba están a punto de",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 107,
       "censorRating": "+15 Años",
@@ -731,7 +732,7 @@
       "title": "The Dog Stars",
       "shortSynopsis": "un virus ha acabado con la mayor parte de la humanidad Hig, un piloto que sobrevivió a la gripe que mató a todos sus conocidos, vive en el hangar de un pequeño aeropuerto",
       "releaseDate": "2026-08-27",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 118,
       "censorRating": "Pendiente",
       "genres": [
         "Acción",
@@ -1740,7 +1741,7 @@
       "title": "Practical Magic 2",
       "shortSynopsis": "Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.",
       "releaseDate": "2026-09-10",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 110,
       "censorRating": "Pendiente",
       "genres": [
         "Fantasía",
@@ -2177,5 +2178,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-13T11:00:39.533Z"
+  "lastRun": "2026-08-13T17:00:40.000Z"
 }

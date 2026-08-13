@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Insidious: Out of the Further</title>
+      <link>https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/</link>
+      <guid isPermaLink="false">a2455f5c-251c-45b5-8489-d53e6b2c57a6</guid>
+      <pubDate>Thu, 13 Aug 2026 17:00:39 GMT</pubDate>
+      <description>Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Obsession</title>
       <link>https://www.cinecolombia.com/films/obsession/HO00000604/</link>
       <guid isPermaLink="false">b63828dc-48f2-44c6-bdf3-d1eabb842fb8</guid>
@@ -775,14 +783,6 @@
       <pubDate>Wed, 22 Jul 2026 23:00:57 GMT</pubDate>
       <description>Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Couture</title>
-      <link>http://www.cinecolombia.com/films/couture/HO00000631/</link>
-      <guid isPermaLink="false">4261b1b3-f4ef-4780-9fa5-6fac9aba2e54</guid>
-      <pubDate>Wed, 22 Jul 2026 05:00:57 GMT</pubDate>
-      <description>La cineasta estadounidense Maxine llega a París para la Semana de la Moda en un viaje de vida o muerte en el que se enfrenta a desafíos y al descubrimiento de sí misma.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ivXtlBv1UhZhAdIj2OouEAOuGf1.jpg" medium="image" />
     </item>
   </channel>
 </rss>

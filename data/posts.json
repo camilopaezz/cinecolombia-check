@@ -5646,6 +5646,36 @@
           "posterPath": "/zBpFifzlifXiDxQyOjKZB6shddL.jpg"
         }
       }
+    },
+    {
+      "guid": "a2455f5c-251c-45b5-8489-d53e6b2c57a6",
+      "type": "now-in-theaters",
+      "filmId": "HO00000641",
+      "createdAt": "2026-08-13T17:00:39.998Z",
+      "snapshot": {
+        "id": "HO00000641",
+        "title": "Insidious: Out of the Further",
+        "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 106,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Jacob Chase",
+        "webUrl": "https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg",
+        "tmdb": {
+          "tmdbId": 1291595,
+          "posterPath": "/mM6M6jv1HFijAdxavvyKu9qN2De.jpg"
+        }
+      }
     }
   ]
 }

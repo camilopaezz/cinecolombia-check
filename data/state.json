@@ -1150,7 +1150,7 @@
       "shortSynopsis": "A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.\t\n\t",
       "releaseDate": "2026-08-20",
       "runtimeInMinutes": 93,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -1546,7 +1546,7 @@
       "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
       "releaseDate": "2026-09-03",
       "runtimeInMinutes": 116,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia",
         "Drama"
@@ -2176,6 +2176,8 @@
       "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-08-14T11:00:40.595Z"
+  "missingRuns": {
+    "HO00000742": 1
+  },
+  "lastRun": "2026-08-14T23:00:42.325Z"
 }

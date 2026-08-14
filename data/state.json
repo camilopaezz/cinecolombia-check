@@ -431,7 +431,7 @@
     {
       "id": "HO00000647",
       "title": "The Invite",
-      "shortSynopsis": "Joe y Angela están en la cuerda floja, y esta noche podría ser el momento en que todo se desmorone definitivamente. Por desgracia, sus vecinos de arriba están a punto de",
+      "shortSynopsis": "Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.",
       "releaseDate": "2026-07-23",
       "runtimeInMinutes": 107,
       "censorRating": "+15 Años",
@@ -1596,7 +1596,6 @@
       "director": "Eunhye Kim",
       "webUrl": "https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg",
@@ -2178,5 +2177,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-13T23:00:40.229Z"
+  "lastRun": "2026-08-14T11:00:40.595Z"
 }

@@ -5676,6 +5676,89 @@
           "posterPath": "/mM6M6jv1HFijAdxavvyKu9qN2De.jpg"
         }
       }
+    },
+    {
+      "guid": "1d6704a2-ee3f-4806-bcc0-21e826199a07",
+      "type": "added",
+      "filmId": "HO00000750",
+      "createdAt": "2026-08-15T05:00:41.426Z",
+      "snapshot": {
+        "id": "HO00000750",
+        "title": "CoComelon: The Movie",
+        "shortSynopsis": "JJ y sus amigos viajan a una tierra mágica para encontrar a su osito Boba, donde deberán enfrentarse a una princesa que ha prohibido cantar.",
+        "releaseDate": "2027-02-25",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Familia"
+        ],
+        "director": "Kat Good",
+        "webUrl": "https://www.cinecolombia.com/films/cocomelon-the-movie/HO00000750/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg",
+        "tmdb": {
+          "tmdbId": 1480503,
+          "posterPath": "/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b9ff1b9c-f7a8-4463-9ea3-8046a5a7936d",
+      "type": "added",
+      "filmId": "HO00000751",
+      "createdAt": "2026-08-15T05:00:41.426Z",
+      "snapshot": {
+        "id": "HO00000751",
+        "title": "Marsupilami",
+        "shortSynopsis": "David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 109,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Philippe Lacheau",
+        "webUrl": "https://www.cinecolombia.com/films/marsupilami/HO00000751/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+        "tmdb": {
+          "tmdbId": 1145899,
+          "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
+        }
+      }
+    },
+    {
+      "guid": "2f3e2e86-29d1-42ac-8a77-72093dd16c70",
+      "type": "removed",
+      "filmId": "HO00000742",
+      "createdAt": "2026-08-15T05:00:41.426Z",
+      "snapshot": {
+        "id": "HO00000742",
+        "title": "CORTIS PUT YOUR PHONE DOWN LIVE VIEWING",
+        "shortSynopsis": "La primera gira de CORTIS llega a los cines con un show lleno de energía, celebrando su música, su primer aniversario y la conexión con sus fans.",
+        "releaseDate": "2026-08-14",
+        "runtimeInMinutes": 116,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Música"
+        ],
+        "director": "Eunhye Kim",
+        "webUrl": "https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg",
+        "tmdb": {
+          "tmdbId": 1740308,
+          "posterPath": "/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg"
+        }
+      }
     }
   ]
 }

@@ -561,7 +561,7 @@
       "id": "HO00000663",
       "title": "Shadow of God",
       "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
-      "releaseDate": "2026-10-01",
+      "releaseDate": "2026-09-03",
       "runtimeInMinutes": 87,
       "censorRating": "Pendiente",
       "genres": [
@@ -599,7 +599,7 @@
       "id": "HO00000667",
       "title": "The Magic Faraway Tree",
       "shortSynopsis": "Polly, Tim, y sus tres hijos son una familia que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico",
-      "releaseDate": "2026-09-10",
+      "releaseDate": "2026-09-17",
       "runtimeInMinutes": 110,
       "censorRating": "Pendiente",
       "genres": [
@@ -622,7 +622,7 @@
       "id": "HO00000668",
       "title": "Deep Water",
       "shortSynopsis": "Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.",
-      "releaseDate": "2026-08-20",
+      "releaseDate": "2026-08-27",
       "runtimeInMinutes": 106,
       "censorRating": "+15 Años",
       "genres": [
@@ -1584,27 +1584,6 @@
       }
     },
     {
-      "id": "HO00000742",
-      "title": "CORTIS PUT YOUR PHONE DOWN LIVE VIEWING",
-      "shortSynopsis": "La primera gira de CORTIS llega a los cines con un show lleno de energía, celebrando su música, su primer aniversario y la conexión con sus fans.",
-      "releaseDate": "2026-08-14",
-      "runtimeInMinutes": 116,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "Eunhye Kim",
-      "webUrl": "https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg",
-      "tmdb": {
-        "tmdbId": 1740308,
-        "posterPath": "/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg"
-      }
-    },
-    {
       "id": "HO00000743",
       "title": "Violent Night 2",
       "shortSynopsis": "Santa Claus deberá recuperar el espíritu navideño y sus poderes para enfrentarse a un despiadado gánster que amenaza a toda una comunidad.",
@@ -1755,6 +1734,50 @@
       "tmdb": {
         "tmdbId": 1302904,
         "posterPath": "/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg"
+      }
+    },
+    {
+      "id": "HO00000750",
+      "title": "CoComelon: The Movie",
+      "shortSynopsis": "JJ y sus amigos viajan a una tierra mágica para encontrar a su osito Boba, donde deberán enfrentarse a una princesa que ha prohibido cantar.",
+      "releaseDate": "2027-02-25",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación",
+        "Familia"
+      ],
+      "director": "Kat Good",
+      "webUrl": "https://www.cinecolombia.com/films/cocomelon-the-movie/HO00000750/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg",
+      "tmdb": {
+        "tmdbId": 1480503,
+        "posterPath": "/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg"
+      }
+    },
+    {
+      "id": "HO00000751",
+      "title": "Marsupilami",
+      "shortSynopsis": "David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.",
+      "releaseDate": "2026-09-03",
+      "runtimeInMinutes": 109,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Aventura",
+        "Comedia"
+      ],
+      "director": "Philippe Lacheau",
+      "webUrl": "https://www.cinecolombia.com/films/marsupilami/HO00000751/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+      "tmdb": {
+        "tmdbId": 1145899,
+        "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
       }
     }
   ],
@@ -2174,10 +2197,16 @@
     "HO00000727": {
       "tmdbId": 620350,
       "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
+    },
+    "HO00000750": {
+      "tmdbId": 1480503,
+      "posterPath": "/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg"
+    },
+    "HO00000751": {
+      "tmdbId": 1145899,
+      "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000742": 1
-  },
-  "lastRun": "2026-08-14T23:00:42.325Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-15T05:00:41.429Z"
 }

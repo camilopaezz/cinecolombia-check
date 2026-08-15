@@ -7,6 +7,30 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: CoComelon: The Movie</title>
+      <link>https://www.cinecolombia.com/films/cocomelon-the-movie/HO00000750/</link>
+      <guid isPermaLink="false">1d6704a2-ee3f-4806-bcc0-21e826199a07</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:41 GMT</pubDate>
+      <description>JJ y sus amigos viajan a una tierra mágica para encontrar a su osito Boba, donde deberán enfrentarse a una princesa que ha prohibido cantar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Marsupilami</title>
+      <link>https://www.cinecolombia.com/films/marsupilami/HO00000751/</link>
+      <guid isPermaLink="false">b9ff1b9c-f7a8-4463-9ea3-8046a5a7936d</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:41 GMT</pubDate>
+      <description>David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: CORTIS PUT YOUR PHONE DOWN LIVE VIEWING</title>
+      <link>https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/</link>
+      <guid isPermaLink="false">2f3e2e86-29d1-42ac-8a77-72093dd16c70</guid>
+      <pubDate>Sat, 15 Aug 2026 05:00:41 GMT</pubDate>
+      <description>La primera gira de CORTIS llega a los cines con un show lleno de energía, celebrando su música, su primer aniversario y la conexión con sus fans.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Insidious: Out of the Further</title>
       <link>https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/</link>
       <guid isPermaLink="false">a2455f5c-251c-45b5-8489-d53e6b2c57a6</guid>
@@ -759,30 +783,6 @@
       <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
       <description>Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Fires</title>
-      <link>http://www.cinecolombia.com/films/the-fires/HO00000664/</link>
-      <guid isPermaLink="false">9da3e3be-c145-4bf3-8c53-e2fda5b8266a</guid>
-      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Una reconocida vulcanóloga detecta señales inequívocas de una inminente erupción volcánica que podría devastar la ciudad. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/a6Mv7zd2kDYhjv6In48ci80HD91.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Good Vibes Only</title>
-      <link>http://www.cinecolombia.com/films/good-vibes-only/HO00000712/</link>
-      <guid isPermaLink="false">7bff2b51-1197-429c-9749-fd80a7193393</guid>
-      <pubDate>Wed, 22 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: The Death of Snow White</title>
-      <link>http://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/</link>
-      <guid isPermaLink="false">e0745b7e-96ad-4278-b928-d0a38ffca17f</guid>
-      <pubDate>Wed, 22 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg" medium="image" />
     </item>
   </channel>
 </rss>

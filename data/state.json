@@ -526,7 +526,8 @@
       "director": "Saeed Roustaee",
       "webUrl": "https://www.cinecolombia.com/films/woman-and-child/HO00000660/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg",
       "tmdb": {
@@ -661,6 +662,29 @@
       }
     },
     {
+      "id": "HO00000670",
+      "title": "Das Verschwinden des Josef Mengele",
+      "shortSynopsis": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. ",
+      "releaseDate": "2026-07-30",
+      "runtimeInMinutes": 135,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Biografía",
+        "Drama",
+        "Historia"
+      ],
+      "director": "Kirill Serebrennikov",
+      "webUrl": "https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg",
+      "tmdb": {
+        "tmdbId": 1037264,
+        "posterPath": "/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg"
+      }
+    },
+    {
       "id": "HO00000691",
       "title": "Ice Cream Man",
       "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
@@ -785,7 +809,8 @@
       "director": "Michael Vaynberg",
       "webUrl": "https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
       "tmdb": {
@@ -1113,7 +1138,8 @@
       "director": "Takeshi Koike",
       "webUrl": "https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg",
       "tmdb": {
@@ -1134,7 +1160,8 @@
       "director": "Jon Keeyes",
       "webUrl": "https://www.cinecolombia.com/films/speed-demon/HO00000719/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg",
       "tmdb": {
@@ -1552,7 +1579,8 @@
       "director": "Chloé Robichaud",
       "webUrl": "https://www.cinecolombia.com/films/deux-femmes-en-or/HO00000741/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg",
       "tmdb": {
@@ -2185,5 +2213,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-19T05:00:53.732Z"
+  "lastRun": "2026-08-19T23:00:51.074Z"
 }

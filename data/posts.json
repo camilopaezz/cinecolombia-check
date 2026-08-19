@@ -5788,6 +5788,178 @@
           "posterPath": "/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg"
         }
       }
+    },
+    {
+      "guid": "0615f518-9951-429b-a9c0-50c1b3f0f6e2",
+      "type": "now-in-theaters",
+      "filmId": "HO00000670",
+      "createdAt": "2026-08-19T23:00:51.072Z",
+      "snapshot": {
+        "id": "HO00000670",
+        "title": "Das Verschwinden des Josef Mengele",
+        "shortSynopsis": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. ",
+        "releaseDate": "2026-07-30",
+        "runtimeInMinutes": 135,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Biografía",
+          "Drama",
+          "Historia"
+        ],
+        "director": "Kirill Serebrennikov",
+        "webUrl": "https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg",
+        "tmdb": {
+          "tmdbId": 1037264,
+          "posterPath": "/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg"
+        }
+      }
+    },
+    {
+      "guid": "16af2262-c82d-4282-ad33-18f52b3ccff9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000660",
+      "createdAt": "2026-08-19T23:00:51.072Z",
+      "snapshot": {
+        "id": "HO00000660",
+        "title": "Woman and Child",
+        "shortSynopsis": "Tras el fallecimiento de su esposo, Mahnaz, se ve obligada a mediar entre su profesión y la rebeldía de su hijo adolescente, quien acaba de ser expulsado del colegio.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 131,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Saeed Roustaee",
+        "webUrl": "https://www.cinecolombia.com/films/woman-and-child/HO00000660/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg",
+        "tmdb": {
+          "tmdbId": 1430386,
+          "posterPath": "/3tQm0pi2gLYfP0strNg0K6PATBK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9fd7701b-419f-4982-931d-594b64556a21",
+      "type": "now-in-theaters",
+      "filmId": "HO00000700",
+      "createdAt": "2026-08-19T23:00:51.072Z",
+      "snapshot": {
+        "id": "HO00000700",
+        "title": "Your Heart Will Be Broken",
+        "shortSynopsis": "Polina es una estudiante que llega a una nueva escuela con la esperanza de comenzar de cero, pero pronto se convierte en el blanco del acoso escolar, quedando aislada.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 134,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "director": "Michael Vaynberg",
+        "webUrl": "https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
+        "tmdb": {
+          "tmdbId": 1523145,
+          "posterPath": "/naOC89qeEygU44xM9EIot1m5AUQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "0e8c8e88-8e65-4659-b1a9-8f79cae1805c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000718",
+      "createdAt": "2026-08-19T23:00:51.072Z",
+      "snapshot": {
+        "id": "HO00000718",
+        "title": "Lupin the IIIrd the Movie: The Immortal Bloodline",
+        "shortSynopsis": "Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.\t",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Takeshi Koike",
+        "webUrl": "https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg",
+        "tmdb": {
+          "tmdbId": 1395140,
+          "posterPath": "/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "03ffc3cc-3188-4eea-ad27-4176e037b99a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000719",
+      "createdAt": "2026-08-19T23:00:51.072Z",
+      "snapshot": {
+        "id": "HO00000719",
+        "title": "Speed Demon",
+        "shortSynopsis": "A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.\t\n\t",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 93,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Jon Keeyes",
+        "webUrl": "https://www.cinecolombia.com/films/speed-demon/HO00000719/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg",
+        "tmdb": {
+          "tmdbId": 1473878,
+          "posterPath": "/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f301c2d6-bde0-4415-b3a5-644fcdcfb83d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000741",
+      "createdAt": "2026-08-19T23:00:51.072Z",
+      "snapshot": {
+        "id": "HO00000741",
+        "title": "Deux Femmes En Or",
+        "shortSynopsis": "Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 100,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Chloé Robichaud",
+        "webUrl": "https://www.cinecolombia.com/films/deux-femmes-en-or/HO00000741/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg",
+        "tmdb": {
+          "tmdbId": 1073588,
+          "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
+        }
+      }
     }
   ]
 }

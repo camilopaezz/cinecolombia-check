@@ -410,7 +410,7 @@
       "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
       "releaseDate": "2026-08-20",
       "runtimeInMinutes": 106,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Misterio",
         "Suspenso",
@@ -658,29 +658,6 @@
       "tmdb": {
         "tmdbId": 1423191,
         "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
-      }
-    },
-    {
-      "id": "HO00000670",
-      "title": "Das Verschwinden des Josef Mengele",
-      "shortSynopsis": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. ",
-      "releaseDate": "2026-07-30",
-      "runtimeInMinutes": 135,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Biografía",
-        "Drama",
-        "Historia"
-      ],
-      "director": "Kirill Serebrennikov",
-      "webUrl": "https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg",
-      "tmdb": {
-        "tmdbId": 1037264,
-        "posterPath": "/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg"
       }
     },
     {
@@ -2207,8 +2184,6 @@
       "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000670": 1
-  },
-  "lastRun": "2026-08-18T23:00:52.883Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-19T05:00:53.732Z"
 }

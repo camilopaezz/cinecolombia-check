@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Das Verschwinden des Josef Mengele</title>
+      <link>https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/</link>
+      <guid isPermaLink="false">f7e5e5a7-e0c8-4569-b962-5a5e36c462f4</guid>
+      <pubDate>Wed, 19 Aug 2026 05:00:53 GMT</pubDate>
+      <description>Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: CoComelon: The Movie</title>
       <link>https://www.cinecolombia.com/films/cocomelon-the-movie/HO00000750/</link>
       <guid isPermaLink="false">1d6704a2-ee3f-4806-bcc0-21e826199a07</guid>
@@ -775,14 +783,6 @@
       <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
       <description>Una extraña puerta aparece en el sótano de una sala de exposición de muebles.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/u3CfgxtnZRxbIm8JuVTzt3DXQhg.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Power Ballad</title>
-      <link>http://www.cinecolombia.com/films/power-ballad/HO00000637/</link>
-      <guid isPermaLink="false">8e7f4704-6e94-4dac-974b-abf333dfe3f8</guid>
-      <pubDate>Thu, 23 Jul 2026 23:00:57 GMT</pubDate>
-      <description>Una edificante historia musical sobre una cantante de bodas, una estrella del rock y la canción que se interpone entre ellas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/oYqsgYCaPjCvd3NPE43yNbhgCtG.jpg" medium="image" />
     </item>
   </channel>
 </rss>

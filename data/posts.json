@@ -6072,6 +6072,32 @@
           "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
         }
       }
+    },
+    {
+      "guid": "c36f9412-67ab-4d60-be2a-ed2989730b3d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000745",
+      "createdAt": "2026-08-20T17:00:50.854Z",
+      "snapshot": {
+        "id": "HO00000745",
+        "title": "Train to Busan (Re-release)",
+        "shortSynopsis": "Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 118,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Sang-ho Yeon",
+        "webUrl": "https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

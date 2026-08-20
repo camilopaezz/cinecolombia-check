@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Train to Busan (Re-release)</title>
+      <link>https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/</link>
+      <guid isPermaLink="false">c36f9412-67ab-4d60-be2a-ed2989730b3d</guid>
+      <pubDate>Thu, 20 Aug 2026 17:00:50 GMT</pubDate>
+      <description>Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Ternet Ninja 3</title>
       <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
       <guid isPermaLink="false">1ec25d05-ce6e-4445-92c5-b11ce28141c3</guid>
@@ -779,13 +786,6 @@
       <pubDate>Wed, 29 Jul 2026 12:37:06 GMT</pubDate>
       <description>Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.
 </description>
-    </item>
-    <item>
-      <title>Pronto: Lupin the IIIrd the Movie: The Immortal Bloodline</title>
-      <link>https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/</link>
-      <guid isPermaLink="false">35ee728f-0795-4534-9ec7-8aa510d4fcca</guid>
-      <pubDate>Wed, 29 Jul 2026 12:37:06 GMT</pubDate>
-      <description>Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.	</description>
     </item>
   </channel>
 </rss>

@@ -1554,7 +1554,8 @@
       "director": "Sang-ho Yeon",
       "webUrl": "https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -2119,5 +2120,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-20T11:00:51.012Z"
+  "lastRun": "2026-08-20T17:00:50.856Z"
 }

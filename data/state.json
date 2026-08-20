@@ -883,7 +883,7 @@
       "id": "HO00000707",
       "title": "Nightborn",
       "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
-      "releaseDate": "2026-10-08",
+      "releaseDate": "2026-10-01",
       "runtimeInMinutes": 92,
       "censorRating": "Pendiente",
       "genres": [
@@ -926,7 +926,7 @@
       "id": "HO00000709",
       "title": "Seeking Haven for Mr. Rambo",
       "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
-      "releaseDate": "2026-10-08",
+      "releaseDate": "2026-11-05",
       "runtimeInMinutes": 100,
       "censorRating": "Pendiente",
       "genres": [
@@ -947,7 +947,7 @@
       "id": "HO00000710",
       "title": "Rally: From Paris to the Pyramids",
       "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
-      "releaseDate": "2026-09-03",
+      "releaseDate": "2026-09-24",
       "runtimeInMinutes": 81,
       "censorRating": "Pendiente",
       "genres": [
@@ -1455,7 +1455,7 @@
       "id": "HO00000740",
       "title": "Calle Málaga",
       "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
-      "releaseDate": "2026-09-03",
+      "releaseDate": "2026-10-15",
       "runtimeInMinutes": 116,
       "censorRating": "+12 Años",
       "genres": [
@@ -1690,6 +1690,97 @@
       "tmdb": {
         "tmdbId": 1145899,
         "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
+      }
+    },
+    {
+      "id": "HO00000752",
+      "title": "Fatherland",
+      "shortSynopsis": "Thomas Mann regresa a una Alemania dividida por la Guerra Fría, donde deberá enfrentar tensiones políticas y una tragedia familiar que amenaza con separarlos.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 82,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Historia"
+      ],
+      "director": "Paweł Pawlikowski",
+      "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000752/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
+      "tmdb": {
+        "tmdbId": 1437696,
+        "posterPath": "/oNejN1l69nBF8LdQwy5FkAQZT44.jpg"
+      }
+    },
+    {
+      "id": "HO00000753",
+      "title": "Her private hell",
+      "shortSynopsis": "Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.",
+      "releaseDate": "2026-09-24",
+      "runtimeInMinutes": 110,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Crimen",
+        "Drama",
+        "Misterio"
+      ],
+      "director": "Nicolas Winding Refn",
+      "webUrl": "https://www.cinecolombia.com/films/her-private-hell/HO00000753/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
+      "tmdb": {
+        "tmdbId": 1469342,
+        "posterPath": "/kiFacg75KVjy0AM3S4QmbPas8zL.jpg"
+      }
+    },
+    {
+      "id": "HO00000754",
+      "title": "Pinocchio: Unstrung",
+      "shortSynopsis": "Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.",
+      "releaseDate": "2026-11-19",
+      "runtimeInMinutes": 82,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Fantasía",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Rhys Frake-Waterfield",
+      "webUrl": "https://www.cinecolombia.com/films/pinocchio-unstrung/HO00000754/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg",
+      "tmdb": {
+        "tmdbId": 1232569,
+        "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
+      }
+    },
+    {
+      "id": "HO00000755",
+      "title": "Animal Farm",
+      "shortSynopsis": "Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.",
+      "releaseDate": "2026-10-01",
+      "runtimeInMinutes": 95,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "director": "Andy Serkis",
+      "webUrl": "https://www.cinecolombia.com/films/animal-farm/HO00000755/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
+      "tmdb": {
+        "tmdbId": 539745,
+        "posterPath": "/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg"
       }
     }
   ],
@@ -2117,8 +2208,24 @@
     "HO00000751": {
       "tmdbId": 1145899,
       "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
+    },
+    "HO00000755": {
+      "tmdbId": 539745,
+      "posterPath": "/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg"
+    },
+    "HO00000752": {
+      "tmdbId": 1437696,
+      "posterPath": "/oNejN1l69nBF8LdQwy5FkAQZT44.jpg"
+    },
+    "HO00000753": {
+      "tmdbId": 1469342,
+      "posterPath": "/kiFacg75KVjy0AM3S4QmbPas8zL.jpg"
+    },
+    "HO00000754": {
+      "tmdbId": 1232569,
+      "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-20T17:00:50.856Z"
+  "lastRun": "2026-08-20T23:00:51.386Z"
 }

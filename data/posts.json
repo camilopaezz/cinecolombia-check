@@ -6098,6 +6098,121 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "a69ef75d-9f2d-4891-b365-437e5771ff3e",
+      "type": "added",
+      "filmId": "HO00000752",
+      "createdAt": "2026-08-20T23:00:51.383Z",
+      "snapshot": {
+        "id": "HO00000752",
+        "title": "Fatherland",
+        "shortSynopsis": "Thomas Mann regresa a una Alemania dividida por la Guerra Fría, donde deberá enfrentar tensiones políticas y una tragedia familiar que amenaza con separarlos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 82,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Historia"
+        ],
+        "director": "Paweł Pawlikowski",
+        "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000752/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
+        "tmdb": {
+          "tmdbId": 1437696,
+          "posterPath": "/oNejN1l69nBF8LdQwy5FkAQZT44.jpg"
+        }
+      }
+    },
+    {
+      "guid": "fbbfcea7-c675-4aef-915f-76f85eddc3ab",
+      "type": "added",
+      "filmId": "HO00000753",
+      "createdAt": "2026-08-20T23:00:51.383Z",
+      "snapshot": {
+        "id": "HO00000753",
+        "title": "Her private hell",
+        "shortSynopsis": "Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 110,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Crimen",
+          "Drama",
+          "Misterio"
+        ],
+        "director": "Nicolas Winding Refn",
+        "webUrl": "https://www.cinecolombia.com/films/her-private-hell/HO00000753/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
+        "tmdb": {
+          "tmdbId": 1469342,
+          "posterPath": "/kiFacg75KVjy0AM3S4QmbPas8zL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "3b14c8f6-9ff6-46c7-86bf-e03cb0f9b8fe",
+      "type": "added",
+      "filmId": "HO00000754",
+      "createdAt": "2026-08-20T23:00:51.383Z",
+      "snapshot": {
+        "id": "HO00000754",
+        "title": "Pinocchio: Unstrung",
+        "shortSynopsis": "Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 82,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Fantasía",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Rhys Frake-Waterfield",
+        "webUrl": "https://www.cinecolombia.com/films/pinocchio-unstrung/HO00000754/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg",
+        "tmdb": {
+          "tmdbId": 1232569,
+          "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ba3370de-b50c-4fe5-9c76-4b1da9d1b7f7",
+      "type": "added",
+      "filmId": "HO00000755",
+      "createdAt": "2026-08-20T23:00:51.383Z",
+      "snapshot": {
+        "id": "HO00000755",
+        "title": "Animal Farm",
+        "shortSynopsis": "Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 95,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Andy Serkis",
+        "webUrl": "https://www.cinecolombia.com/films/animal-farm/HO00000755/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
+        "tmdb": {
+          "tmdbId": 539745,
+          "posterPath": "/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg"
+        }
+      }
     }
   ]
 }

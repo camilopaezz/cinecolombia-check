@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Fatherland</title>
+      <link>https://www.cinecolombia.com/films/fatherland/HO00000752/</link>
+      <guid isPermaLink="false">a69ef75d-9f2d-4891-b365-437e5771ff3e</guid>
+      <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
+      <description>Thomas Mann regresa a una Alemania dividida por la Guerra Fría, donde deberá enfrentar tensiones políticas y una tragedia familiar que amenaza con separarlos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oNejN1l69nBF8LdQwy5FkAQZT44.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Her private hell</title>
+      <link>https://www.cinecolombia.com/films/her-private-hell/HO00000753/</link>
+      <guid isPermaLink="false">fbbfcea7-c675-4aef-915f-76f85eddc3ab</guid>
+      <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
+      <description>Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Pinocchio: Unstrung</title>
+      <link>https://www.cinecolombia.com/films/pinocchio-unstrung/HO00000754/</link>
+      <guid isPermaLink="false">3b14c8f6-9ff6-46c7-86bf-e03cb0f9b8fe</guid>
+      <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
+      <description>Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Animal Farm</title>
+      <link>https://www.cinecolombia.com/films/animal-farm/HO00000755/</link>
+      <guid isPermaLink="false">ba3370de-b50c-4fe5-9c76-4b1da9d1b7f7</guid>
+      <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
+      <description>Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Train to Busan (Re-release)</title>
       <link>https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/</link>
       <guid isPermaLink="false">c36f9412-67ab-4d60-be2a-ed2989730b3d</guid>
@@ -755,37 +787,6 @@
       <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
       <description>Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Sia: Nostalgic For The Present</title>
-      <link>http://www.cinecolombia.com/films/sia-nostalgic-for-the-present/HO00000653/</link>
-      <guid isPermaLink="false">523e75e5-136f-4fe5-9a16-f0ca55a27c3b</guid>
-      <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
-      <description>Una voz. Un espectáculo inolvidable. Sia: Nostalgic for the Present es una experiencia audaz que desafía los géneros y cambia el espectáculo pop por el arte.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/tJrqV5b12HbpNNDrA7Trc5mErGJ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: WHAM! 10 Days in China</title>
-      <link>http://www.cinecolombia.com/films/wham-10-days-in-china/HO00000661/</link>
-      <guid isPermaLink="false">5be21ba9-38f2-4cf2-995f-1efab0773910</guid>
-      <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
-      <description>En 1985, WHAM! tendió puentes entre culturas al convertirse en el primer grupo de pop occidental en actuar en China.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/fx8ErQNNf1YlvYJAOhwKM4NS3NN.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Ternet Ninja 3</title>
-      <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
-      <guid isPermaLink="false">f2b514b5-4383-4515-9b17-f9963479c83a</guid>
-      <pubDate>Wed, 29 Jul 2026 12:37:06 GMT</pubDate>
-      <description>El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.</description>
-    </item>
-    <item>
-      <title>Pronto: Katy Perry: The Lifetimes Tour – Live From Paris</title>
-      <link>https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/</link>
-      <guid isPermaLink="false">ff47d495-0c45-492b-8f5e-20cd521d4e1a</guid>
-      <pubDate>Wed, 29 Jul 2026 12:37:06 GMT</pubDate>
-      <description>Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.
-</description>
     </item>
   </channel>
 </rss>

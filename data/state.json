@@ -112,29 +112,6 @@
       }
     },
     {
-      "id": "HO00000501",
-      "title": "Ternet Ninja 3",
-      "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
-      "releaseDate": "2026-08-20",
-      "runtimeInMinutes": 88,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Animación",
-        "Comedia",
-        "Familia"
-      ],
-      "director": "Anders Matthesen",
-      "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
-      "tmdb": {
-        "tmdbId": 1215638,
-        "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
-      }
-    },
-    {
       "id": "HO00000596",
       "title": "Dune: Part Three",
       "shortSynopsis": "Diecisiete años después de su ascenso al trono, Paul Atreides reina como el Mesías desde Arrakis mientras la yihad librada en su nombre ha segado miles de millones de vid",
@@ -446,28 +423,6 @@
       "tmdb": {
         "tmdbId": 950028,
         "posterPath": "/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg"
-      }
-    },
-    {
-      "id": "HO00000650",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "shortSynopsis": "La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. ",
-      "releaseDate": "2026-08-13",
-      "runtimeInMinutes": 112,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Comedia",
-        "Terror"
-      ],
-      "director": "Jane Schoenbrun",
-      "webUrl": "https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg",
-      "tmdb": {
-        "tmdbId": 1240889,
-        "posterPath": "/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg"
       }
     },
     {
@@ -816,27 +771,6 @@
       }
     },
     {
-      "id": "HO00000701",
-      "title": "Ojo por ojo",
-      "shortSynopsis": "Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.",
-      "releaseDate": "2026-08-13",
-      "runtimeInMinutes": 90,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Eduardo Ayllón",
-      "webUrl": "https://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg",
-      "tmdb": {
-        "tmdbId": 1199869,
-        "posterPath": "/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg"
-      }
-    },
-    {
       "id": "HO00000702",
       "title": "Terminator 2: Judgement Day (35th Anniversary)",
       "shortSynopsis": "Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.",
@@ -1049,28 +983,6 @@
       "tmdb": {
         "tmdbId": 1668267,
         "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
-      }
-    },
-    {
-      "id": "HO00000713",
-      "title": "The Death of Snow White",
-      "shortSynopsis": "Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.",
-      "releaseDate": "2026-08-13",
-      "runtimeInMinutes": 110,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Fantasía",
-        "Terror"
-      ],
-      "director": "Jason Brooks",
-      "webUrl": "https://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg",
-      "tmdb": {
-        "tmdbId": 1409850,
-        "posterPath": "/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg"
       }
     },
     {
@@ -2206,11 +2118,6 @@
       "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000501": 1,
-    "HO00000650": 1,
-    "HO00000701": 1,
-    "HO00000713": 1
-  },
-  "lastRun": "2026-08-20T05:00:53.896Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-20T11:00:51.012Z"
 }

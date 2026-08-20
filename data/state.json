@@ -419,7 +419,6 @@
       "director": "Jacob Chase",
       "webUrl": "https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg",
@@ -526,7 +525,6 @@
       "director": "Saeed Roustaee",
       "webUrl": "https://www.cinecolombia.com/films/woman-and-child/HO00000660/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg",
@@ -809,7 +807,6 @@
       "director": "Michael Vaynberg",
       "webUrl": "https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
@@ -1138,7 +1135,6 @@
       "director": "Takeshi Koike",
       "webUrl": "https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg",
@@ -1160,7 +1156,6 @@
       "director": "Jon Keeyes",
       "webUrl": "https://www.cinecolombia.com/films/speed-demon/HO00000719/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg",
@@ -1579,7 +1574,6 @@
       "director": "Chloé Robichaud",
       "webUrl": "https://www.cinecolombia.com/films/deux-femmes-en-or/HO00000741/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg",
@@ -2212,6 +2206,11 @@
       "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-08-19T23:00:51.074Z"
+  "missingRuns": {
+    "HO00000501": 1,
+    "HO00000650": 1,
+    "HO00000701": 1,
+    "HO00000713": 1
+  },
+  "lastRun": "2026-08-20T05:00:53.896Z"
 }

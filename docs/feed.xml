@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Queen Budapest</title>
+      <link>https://www.cinecolombia.com/films/queen-budapest/HO00000756/</link>
+      <guid isPermaLink="false">3667010e-fb3a-4dad-8d4e-0b52ce6e60c7</guid>
+      <pubDate>Fri, 21 Aug 2026 17:00:52 GMT</pubDate>
+      <description>El 27 de julio de 1986, ante 80.000 fans, Queen ofreció un histórico concierto en el Népstadion de Budapest, el último con Freddie Mercury como vocalista principal.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dCsCez4aVeXqMiALdWYp4LFsztI.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Fatherland</title>
       <link>https://www.cinecolombia.com/films/fatherland/HO00000752/</link>
       <guid isPermaLink="false">a69ef75d-9f2d-4891-b365-437e5771ff3e</guid>
@@ -779,14 +787,6 @@
       <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
       <description>Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Other Mommy</title>
-      <link>https://www.cinecolombia.com/films/other-mommy/HO00000724/</link>
-      <guid isPermaLink="false">c8e1a6ce-f0bf-445c-822f-f62c7b5efc78</guid>
-      <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
-      <description>Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg" medium="image" />
     </item>
   </channel>
 </rss>

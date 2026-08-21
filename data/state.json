@@ -1782,6 +1782,28 @@
         "tmdbId": 539745,
         "posterPath": "/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg"
       }
+    },
+    {
+      "id": "HO00000756",
+      "title": "Queen Budapest",
+      "shortSynopsis": "El 27 de julio de 1986, ante 80.000 fans, Queen ofreció un histórico concierto en el Népstadion de Budapest, el último con Freddie Mercury como vocalista principal.",
+      "releaseDate": "2026-10-07",
+      "runtimeInMinutes": 97,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Concierto",
+        "Música"
+      ],
+      "director": "János Zsombolyai",
+      "webUrl": "https://www.cinecolombia.com/films/queen-budapest/HO00000756/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dCsCez4aVeXqMiALdWYp4LFsztI.jpg",
+      "tmdb": {
+        "tmdbId": 142773,
+        "posterPath": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -2224,8 +2246,12 @@
     "HO00000754": {
       "tmdbId": 1232569,
       "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
+    },
+    "HO00000756": {
+      "tmdbId": 142773,
+      "posterPath": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-21T11:00:50.925Z"
+  "lastRun": "2026-08-21T17:00:52.184Z"
 }

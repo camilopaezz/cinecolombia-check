@@ -341,7 +341,7 @@
       "shortSynopsis": "Owen, recién dejado por su pareja, y Allie, una romántica esperanzada, podrían ser los únicos solteros en la ciudad que buscan algo más que un encuentro casual.",
       "releaseDate": "2026-08-27",
       "runtimeInMinutes": 102,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia",
         "Drama",
@@ -754,7 +754,7 @@
       "title": "Terminator 2: Judgement Day (35th Anniversary)",
       "shortSynopsis": "Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.",
       "releaseDate": "2026-09-03",
-      "runtimeInMinutes": 130,
+      "runtimeInMinutes": 137,
       "censorRating": "+12 Años",
       "genres": [
         "Acción",
@@ -1524,7 +1524,7 @@
       "shortSynopsis": "Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.",
       "releaseDate": "2026-09-03",
       "runtimeInMinutes": 118,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Acción",
         "Suspenso",
@@ -2232,5 +2232,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-24T05:00:53.269Z"
+  "lastRun": "2026-08-24T23:00:50.955Z"
 }

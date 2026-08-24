@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Katseye: Wild Hearts</title>
+      <link>https://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
+      <guid isPermaLink="false">a80cef9d-2d58-470c-8ca2-226e4524d76e</guid>
+      <pubDate>Mon, 24 Aug 2026 05:00:53 GMT</pubDate>
+      <description>El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Queen Budapest</title>
       <link>https://www.cinecolombia.com/films/queen-budapest/HO00000756/</link>
       <guid isPermaLink="false">3667010e-fb3a-4dad-8d4e-0b52ce6e60c7</guid>
@@ -779,14 +787,6 @@
       <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
       <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Harry Potter and the Sorcerer&apos;s Stone</title>
-      <link>https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/</link>
-      <guid isPermaLink="false">d87780fa-fbc3-47d8-8625-de93166f04d5</guid>
-      <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
-      <description>Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg" medium="image" />
     </item>
   </channel>
 </rss>

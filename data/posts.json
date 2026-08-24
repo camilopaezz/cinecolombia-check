@@ -6241,6 +6241,33 @@
           "posterPath": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg"
         }
       }
+    },
+    {
+      "guid": "a80cef9d-2d58-470c-8ca2-226e4524d76e",
+      "type": "removed",
+      "filmId": "HO00000697",
+      "createdAt": "2026-08-24T05:00:53.267Z",
+      "snapshot": {
+        "id": "HO00000697",
+        "title": "Katseye: Wild Hearts",
+        "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
+        "releaseDate": "2026-08-12",
+        "runtimeInMinutes": 80,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Música"
+        ],
+        "director": "Nadia Hallgren",
+        "webUrl": "https://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
+        "tmdb": {
+          "tmdbId": 1728113,
+          "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
+        }
+      }
     }
   ]
 }

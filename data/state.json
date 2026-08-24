@@ -705,27 +705,6 @@
       }
     },
     {
-      "id": "HO00000697",
-      "title": "Katseye: Wild Hearts",
-      "shortSynopsis": "El grupo femenino internacional KATSEYE, dos veces nominado a los premios GRAMMY®, llega a los cines de todo el mundo con un estreno especial en salas.",
-      "releaseDate": "2026-08-12",
-      "runtimeInMinutes": 80,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Música"
-      ],
-      "director": "Nadia Hallgren",
-      "webUrl": "https://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg",
-      "tmdb": {
-        "tmdbId": 1728113,
-        "posterPath": "/bcAxxRpiBIT3JWXAYUAf10UG4LD.jpg"
-      }
-    },
-    {
       "id": "HO00000698",
       "title": "Heart of the Beast",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
@@ -2252,8 +2231,6 @@
       "posterPath": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000697": 1
-  },
-  "lastRun": "2026-08-23T23:00:50.047Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-24T05:00:53.269Z"
 }

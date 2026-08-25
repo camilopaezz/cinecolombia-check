@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Queen Budapest</title>
+      <link>https://www.cinecolombia.com/films/queen-budapest/HO00000756/</link>
+      <guid isPermaLink="false">c5ae8251-aacd-4cca-82fd-f29ec433287f</guid>
+      <pubDate>Tue, 25 Aug 2026 05:00:50 GMT</pubDate>
+      <description>El 27 de julio de 1986, ante 80.000 fans, Queen ofreció un histórico concierto en el Népstadion de Budapest, el último con Freddie Mercury como vocalista principal.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dCsCez4aVeXqMiALdWYp4LFsztI.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Katseye: Wild Hearts</title>
       <link>https://www.cinecolombia.com/films/katseye-wild-hearts/HO00000697/</link>
       <guid isPermaLink="false">a80cef9d-2d58-470c-8ca2-226e4524d76e</guid>
@@ -779,14 +787,6 @@
       <guid isPermaLink="false">2e2daa83-3de5-4fc9-a341-80d4795e86da</guid>
       <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
       <description>En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque</description>
-    </item>
-    <item>
-      <title>Pronto: Whalefall</title>
-      <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
-      <guid isPermaLink="false">7f53baa5-a536-42dd-8764-b35ed1d25370</guid>
-      <pubDate>Wed, 29 Jul 2026 17:00:38 GMT</pubDate>
-      <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
     </item>
   </channel>
 </rss>

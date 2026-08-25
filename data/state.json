@@ -1776,7 +1776,8 @@
       "director": "János Zsombolyai",
       "webUrl": "https://www.cinecolombia.com/films/queen-budapest/HO00000756/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dCsCez4aVeXqMiALdWYp4LFsztI.jpg",
       "tmdb": {
@@ -2232,5 +2233,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-24T23:00:50.955Z"
+  "lastRun": "2026-08-25T05:00:50.571Z"
 }

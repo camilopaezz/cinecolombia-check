@@ -6297,6 +6297,420 @@
           "posterPath": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg"
         }
       }
+    },
+    {
+      "guid": "002dcc6a-0f37-4f9c-ba04-4babe450bad9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000757",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000757",
+        "title": "Twenty Years of the Met in Cinemas",
+        "shortSynopsis": "The Met: Live in HD' celebra 20 años llevando ópera a cines de 70 países. Con Renée Fleming, arias de 185 óperas y más de 33 millones de boletos vendidos.",
+        "releaseDate": "2026-09-19",
+        "runtimeInMinutes": 150,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/twenty-years-of-the-met-in-cinemas/HO00000757/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
+        "tmdb": {
+          "tmdbId": 1703617,
+          "posterPath": "/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg"
+        }
+      }
+    },
+    {
+      "guid": "79a42da9-8a39-4db1-83e6-8a74ad5d13bf",
+      "type": "now-in-theaters",
+      "filmId": "HO00000758",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000758",
+        "title": "Carmen",
+        "shortSynopsis": "Carmen' de Bizet, con Elīna Garanča y Roberto Alagna, en la icónica producción de Richard Eyre (Met 2010). Pasión, magnetismo y destrucción.",
+        "releaseDate": "2026-11-21",
+        "runtimeInMinutes": 180,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "Georges Bizet",
+        "webUrl": "https://www.cinecolombia.com/films/carmen/HO00000758/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7jRPTuYdxXXRLddO4FQG22axu9e.jpg",
+        "tmdb": {
+          "tmdbId": 1061821,
+          "posterPath": "/7jRPTuYdxXXRLddO4FQG22axu9e.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5cc3e92a-4993-471a-b462-ed0bdc02c9a9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000759",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000759",
+        "title": "The Magic Flute",
+        "shortSynopsis": "Hace 20 años, el Met transmitió por primera vez en HD 'La flauta mágica' de Mozart. Regresa en Navidad con Polenzani, Gunn y la puesta de Julie Taymor.",
+        "releaseDate": "2026-12-12",
+        "runtimeInMinutes": 115,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "James Levine",
+        "webUrl": "https://www.cinecolombia.com/films/the-magic-flute/HO00000759/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/qjUjatQEMIHtCngnyTib943x7TU.jpg",
+        "tmdb": {
+          "tmdbId": 37028,
+          "posterPath": "/qjUjatQEMIHtCngnyTib943x7TU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "7742f425-bee2-4453-bd64-06d8f7761c57",
+      "type": "now-in-theaters",
+      "filmId": "HO00000760",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000760",
+        "title": "Tosca",
+        "shortSynopsis": "Tosca' de Puccini, con Lise Davidsen, Freddie De Tommaso y Quinn Kelsey, en la producción de David McVicar (Met 2024). Pasión y drama en Roma.",
+        "releaseDate": "2027-05-15",
+        "runtimeInMinutes": 140,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "Giacomo Puccini",
+        "webUrl": "https://www.cinecolombia.com/films/tosca/HO00000760/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg",
+        "tmdb": {
+          "tmdbId": 1702784,
+          "posterPath": "/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5f37fb8f-7af7-4eaf-b814-dcbbb9185d0e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000761",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000761",
+        "title": "Così fan tutte",
+        "shortSynopsis": "Così fan tutte' de Mozart, con puesta de Phelim McDermott en un parque tipo Coney Island años 50. Sátira en 2 actos sobre el amor y la fidelidad.",
+        "releaseDate": "2026-10-03",
+        "runtimeInMinutes": 240,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/cosi-fan-tutte/HO00000761/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1669983,
+          "posterPath": null
+        }
+      }
+    },
+    {
+      "guid": "8a92dcee-239b-4e47-b124-c92b1aad7f92",
+      "type": "now-in-theaters",
+      "filmId": "HO00000762",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000762",
+        "title": "Macbeth",
+        "shortSynopsis": "Verdi's 'Macbeth' con Lise Davidsen y Quinn Kelsey, dirigido por Louisa Proske en su debut en el Met. Ambición, poder y destrucción en 4 actos.",
+        "releaseDate": "2026-10-17",
+        "runtimeInMinutes": 210,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/macbeth/HO00000762/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1696713,
+          "posterPath": null
+        }
+      }
+    },
+    {
+      "guid": "a82763bd-fb5c-4e62-8562-fc1564b67b65",
+      "type": "now-in-theaters",
+      "filmId": "HO00000763",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000763",
+        "title": "Samson et Dalila",
+        "shortSynopsis": "Sansón y Dalila' de Saint-Saëns, con Aigul Akhmetshina y Clay Hilley, bajo la dirección de Sagripanti. Pasión, traición y fe en la gran ópera francesa.",
+        "releaseDate": "2026-12-05",
+        "runtimeInMinutes": 235,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/samson-et-dalila/HO00000763/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kg4bIJ65Q13UWtbyR8W0u7VQUU7.jpg",
+        "tmdb": {
+          "tmdbId": 1703624,
+          "posterPath": "/kg4bIJ65Q13UWtbyR8W0u7VQUU7.jpg"
+        }
+      }
+    },
+    {
+      "guid": "7119393e-81a4-4190-89fd-be90f50f192c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000764",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000764",
+        "title": "La Fanciulla del West",
+        "shortSynopsis": "La Fanciulla del West' de Puccini, con Vida Miknevičiūtė y SeokJong Baek, dirigida por Richard Jones. Amor, justicia y redención en el Lejano Oeste.",
+        "releaseDate": "2027-01-23",
+        "runtimeInMinutes": 195,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/la-fanciulla-del-west/HO00000764/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/73lJaerj5Z5I9BJdLkSXWPwhkCf.jpg",
+        "tmdb": {
+          "tmdbId": 1703629,
+          "posterPath": "/73lJaerj5Z5I9BJdLkSXWPwhkCf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d58ff002-c334-4240-8868-29963f03dee8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000765",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000765",
+        "title": "Avengers Endgame Re release",
+        "shortSynopsis": "Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 185,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Ciencia Ficción"
+        ],
+        "director": "Anthony Russo",
+        "webUrl": "https://www.cinecolombia.com/films/avengers-endgame-re-release/HO00000765/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "6c0dc3ba-d935-424f-ae7a-3875dc2b6c3f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000766",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000766",
+        "title": "Silent Night",
+        "shortSynopsis": "Silent Night' de Kevin Puts (Pulitzer 2012) llega al Met: soldados de distintas naciones deponen las armas en la Tregua de Navidad de 1914. 2 actos.",
+        "releaseDate": "2027-03-20",
+        "runtimeInMinutes": 180,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/silent-night/HO00000766/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gUaKPSw6fpqCR4spnwBwmYSEXtU.jpg",
+        "tmdb": {
+          "tmdbId": 1707867,
+          "posterPath": "/gUaKPSw6fpqCR4spnwBwmYSEXtU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "bcfe0b43-593c-4527-acb5-cfce996ab886",
+      "type": "now-in-theaters",
+      "filmId": "HO00000767",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000767",
+        "title": "Manon",
+        "shortSynopsis": "Manon' de Massenet, con Nadine Sierra y Matthew Polenzani, dirigida por Laurent Pelly en la Belle Époque francesa. Amor, lujo y caída en 5 actos.",
+        "releaseDate": "2027-04-03",
+        "runtimeInMinutes": 265,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/manon/HO00000767/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gy1dSADR6FdIL8jpUonLNYeCREk.jpg",
+        "tmdb": {
+          "tmdbId": 1703631,
+          "posterPath": "/gy1dSADR6FdIL8jpUonLNYeCREk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c65ca95f-ac17-430a-9484-b09133b976a7",
+      "type": "now-in-theaters",
+      "filmId": "HO00000768",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000768",
+        "title": "Otello",
+        "shortSynopsis": "Otello' de Verdi, con Brian Jagde, Ailyn Pérez y Artur Ruciński, dirigida por Michele Mariotti. Celos, manipulación y tragedia en 4 actos.",
+        "releaseDate": "2027-04-24",
+        "runtimeInMinutes": 200,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/otello/HO00000768/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dnF9OwgVcDKClhAf4ZPKQBRWyDh.jpg",
+        "tmdb": {
+          "tmdbId": 1703634,
+          "posterPath": "/dnF9OwgVcDKClhAf4ZPKQBRWyDh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6c645f6d-413d-437f-a9c7-d819f40876df",
+      "type": "now-in-theaters",
+      "filmId": "HO00000769",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000769",
+        "title": "Parsifal",
+        "shortSynopsis": "Parsifal', última ópera de Wagner, con Piotr Beczała y Elīna Garanča, dirigida por Yannick Nézet-Séguin. Fe, compasión y redención en 3 actos.",
+        "releaseDate": "2027-06-05",
+        "runtimeInMinutes": 365,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "The Metropolitan Opera",
+        "webUrl": "https://www.cinecolombia.com/films/parsifal/HO00000769/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/68bLPfddedoqUeFaWunUOk2wfKf.jpg",
+        "tmdb": {
+          "tmdbId": 1703636,
+          "posterPath": "/68bLPfddedoqUeFaWunUOk2wfKf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d4359863-760d-4e38-8514-a18c3df995a5",
+      "type": "added",
+      "filmId": "HO00000771",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000771",
+        "title": "Mr. Nobody Against Putin",
+        "shortSynopsis": "Ganadora del Óscar 2026 a Mejor Documental: en plena invasión rusa a Ucrania, el profesor Pavel Talankin graba en secreto la propaganda dentro de su escuela",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 90,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "David Borenstein",
+        "webUrl": "https://www.cinecolombia.com/films/mr-nobody-against-putin/HO00000771/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg",
+        "tmdb": {
+          "tmdbId": 1393151,
+          "posterPath": "/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg"
+        }
+      }
+    },
+    {
+      "guid": "287e4723-e976-469b-9f9a-191453fcbf23",
+      "type": "added",
+      "filmId": "HO00000772",
+      "createdAt": "2026-08-25T23:00:54.589Z",
+      "snapshot": {
+        "id": "HO00000772",
+        "title": "Resurrection",
+        "shortSynopsis": "En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 159,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Bi Gan",
+        "webUrl": "https://www.cinecolombia.com/films/resurrection/HO00000772/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vQZK421erWKR5PgF4pbz0lp4o3o.jpg",
+        "tmdb": {
+          "tmdbId": 878608,
+          "posterPath": "/vQZK421erWKR5PgF4pbz0lp4o3o.jpg"
+        }
+      }
     }
   ]
 }

@@ -350,7 +350,8 @@
       "director": "Will Gluck",
       "webUrl": "https://www.cinecolombia.com/films/one-night-only/HO00000636/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
       "tmdb": {
@@ -585,7 +586,8 @@
       "director": "Renny Harlin",
       "webUrl": "https://www.cinecolombia.com/films/deep-water/HO00000668/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg",
       "tmdb": {
@@ -696,7 +698,8 @@
       "director": "Ridley Scott",
       "webUrl": "https://www.cinecolombia.com/films/the-dog-stars/HO00000696/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg",
       "tmdb": {
@@ -893,7 +896,8 @@
       "director": "Lee Thongkham",
       "webUrl": "https://www.cinecolombia.com/films/the-bride/HO00000708/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg",
       "tmdb": {
@@ -979,7 +983,6 @@
       "director": "Amir Juan Chamdin",
       "webUrl": "https://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
@@ -2613,5 +2616,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-25T23:00:54.710Z"
+  "lastRun": "2026-08-26T05:00:51.284Z"
 }

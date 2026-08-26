@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: One Night Only</title>
+      <link>https://www.cinecolombia.com/films/one-night-only/HO00000636/</link>
+      <guid isPermaLink="false">6917d169-7283-4715-a936-c87aeae033d6</guid>
+      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
+      <description>Owen, recién dejado por su pareja, y Allie, una romántica esperanzada, podrían ser los únicos solteros en la ciudad que buscan algo más que un encuentro casual.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Deep Water</title>
+      <link>https://www.cinecolombia.com/films/deep-water/HO00000668/</link>
+      <guid isPermaLink="false">7410cbd3-c8e7-4444-a7ac-8840a2489e09</guid>
+      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
+      <description>Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Dog Stars</title>
+      <link>https://www.cinecolombia.com/films/the-dog-stars/HO00000696/</link>
+      <guid isPermaLink="false">65976377-376d-4e75-9e7c-d2ce053400d9</guid>
+      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
+      <description>un virus ha acabado con la mayor parte de la humanidad Hig, un piloto que sobrevivió a la gripe que mató a todos sus conocidos, vive en el hangar de un pequeño aeropuerto</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Bride</title>
+      <link>https://www.cinecolombia.com/films/the-bride/HO00000708/</link>
+      <guid isPermaLink="false">5092fd33-b83b-40e9-b0f0-03e660b685f6</guid>
+      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
+      <description>La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Twenty Years of the Met in Cinemas</title>
       <link>https://www.cinecolombia.com/films/twenty-years-of-the-met-in-cinemas/HO00000757/</link>
       <guid isPermaLink="false">002dcc6a-0f37-4f9c-ba04-4babe450bad9</guid>
@@ -761,37 +793,6 @@
       <pubDate>Thu, 30 Jul 2026 11:00:39 GMT</pubDate>
       <description>Un director convoca a una comida a sus actrices favoritas, con las que ha trabajado y a las que ha amado, para proponerles una nueva película sobre mujeres.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/h5NmlaR7LDwlh9ROEucaElP7HNZ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Los futbolísimos 2. El misterio del tesoro pirata</title>
-      <link>https://www.cinecolombia.com/films/los-futbolisimos-2-el-misterio-del-tesoro-pirata/HO00000699/</link>
-      <guid isPermaLink="false">daac32ce-9490-4da6-830c-0610dce1d484</guid>
-      <pubDate>Thu, 30 Jul 2026 11:00:39 GMT</pubDate>
-      <description>La continuidad del equipo de fútbol Soto Alto formado por Pakete y sus amigos está en riesgo de ser excluido de la liga.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Habitante</title>
-      <link>https://www.cinecolombia.com/films/habitante/HO00000715/</link>
-      <guid isPermaLink="false">d2b62905-b507-4e19-8f00-6c1d93d1327b</guid>
-      <pubDate>Thu, 30 Jul 2026 11:00:39 GMT</pubDate>
-      <description>Dar una vuelta al mundo y filmar… Habitante emerge de los archivos del fotógrafo José Alejandro González, quien por dos décadas retrató conversaciones con desconocidos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/iZuAN6T5QT28OXwiORRmmfiugrS.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Mrs. Warren&apos;s Profession</title>
-      <link>https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/</link>
-      <guid isPermaLink="false">0ea45d6e-b680-4ac0-91d1-98c729e238bd</guid>
-      <pubDate>Thu, 30 Jul 2026 05:00:39 GMT</pubDate>
-      <description>Vivie Warren lucha por abrirse camino como abogada mientras enfrenta a su madre en un poderoso drama sobre moral, independencia y el precio del progreso.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Hamlet</title>
-      <link>https://www.cinecolombia.com/films/hamlet/HO00000726/</link>
-      <guid isPermaLink="false">a2d2bdd6-1226-419a-aa64-981aa20bea13</guid>
-      <pubDate>Thu, 30 Jul 2026 05:00:39 GMT</pubDate>
-      <description>Mientras un reino se prepara para la guerra, Hamlet enfrenta una lucha entre el deber y la duda que amenaza con destruir su cordura y el destino de Dinamarca.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg" medium="image" />
     </item>
   </channel>
 </rss>

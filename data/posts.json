@@ -6711,6 +6711,122 @@
           "posterPath": "/vQZK421erWKR5PgF4pbz0lp4o3o.jpg"
         }
       }
+    },
+    {
+      "guid": "6917d169-7283-4715-a936-c87aeae033d6",
+      "type": "now-in-theaters",
+      "filmId": "HO00000636",
+      "createdAt": "2026-08-26T05:00:51.267Z",
+      "snapshot": {
+        "id": "HO00000636",
+        "title": "One Night Only",
+        "shortSynopsis": "Owen, recién dejado por su pareja, y Allie, una romántica esperanzada, podrían ser los únicos solteros en la ciudad que buscan algo más que un encuentro casual.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 102,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia",
+          "Drama",
+          "Romance"
+        ],
+        "director": "Will Gluck",
+        "webUrl": "https://www.cinecolombia.com/films/one-night-only/HO00000636/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
+        "tmdb": {
+          "tmdbId": 1433367,
+          "posterPath": "/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg"
+        }
+      }
+    },
+    {
+      "guid": "7410cbd3-c8e7-4444-a7ac-8840a2489e09",
+      "type": "now-in-theaters",
+      "filmId": "HO00000668",
+      "createdAt": "2026-08-26T05:00:51.267Z",
+      "snapshot": {
+        "id": "HO00000668",
+        "title": "Deep Water",
+        "shortSynopsis": "Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 106,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Renny Harlin",
+        "webUrl": "https://www.cinecolombia.com/films/deep-water/HO00000668/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg",
+        "tmdb": {
+          "tmdbId": 1127384,
+          "posterPath": "/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg"
+        }
+      }
+    },
+    {
+      "guid": "65976377-376d-4e75-9e7c-d2ce053400d9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000696",
+      "createdAt": "2026-08-26T05:00:51.267Z",
+      "snapshot": {
+        "id": "HO00000696",
+        "title": "The Dog Stars",
+        "shortSynopsis": "un virus ha acabado con la mayor parte de la humanidad Hig, un piloto que sobrevivió a la gripe que mató a todos sus conocidos, vive en el hangar de un pequeño aeropuerto",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 118,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Ridley Scott",
+        "webUrl": "https://www.cinecolombia.com/films/the-dog-stars/HO00000696/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg",
+        "tmdb": {
+          "tmdbId": 1384216,
+          "posterPath": "/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5092fd33-b83b-40e9-b0f0-03e660b685f6",
+      "type": "now-in-theaters",
+      "filmId": "HO00000708",
+      "createdAt": "2026-08-26T05:00:51.267Z",
+      "snapshot": {
+        "id": "HO00000708",
+        "title": "The Bride",
+        "shortSynopsis": "La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Lee Thongkham",
+        "webUrl": "https://www.cinecolombia.com/films/the-bride/HO00000708/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg",
+        "tmdb": {
+          "tmdbId": 1159831,
+          "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
+        }
+      }
     }
   ]
 }

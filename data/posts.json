@@ -6827,6 +6827,121 @@
           "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
         }
       }
+    },
+    {
+      "guid": "f1ed6bb1-de29-4381-8aeb-b4ab39f889dd",
+      "type": "added",
+      "filmId": "HO00000770",
+      "createdAt": "2026-08-27T05:00:50.983Z",
+      "snapshot": {
+        "id": "HO00000770",
+        "title": "Les digo \"Almas\"",
+        "shortSynopsis": "Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 108,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Libia Stella Gómez",
+        "webUrl": "https://www.cinecolombia.com/films/les-digo-almas/HO00000770/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg",
+        "tmdb": {
+          "tmdbId": 1354672,
+          "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
+        }
+      }
+    },
+    {
+      "guid": "24620c69-4c00-428c-9f2b-d10bef18f303",
+      "type": "now-in-theaters",
+      "filmId": "HO00000737",
+      "createdAt": "2026-08-27T05:00:50.983Z",
+      "snapshot": {
+        "id": "HO00000737",
+        "title": "One Piece The Movie",
+        "shortSynopsis": "Luffy y su tripulación emprenden la búsqueda del legendario tesoro de Woonan mientras enfrentan a un poderoso enemigo con habilidades de una Fruta del Diablo.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 57,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Drama"
+        ],
+        "director": "Atsuji Shimizu",
+        "webUrl": "https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg",
+        "tmdb": {
+          "tmdbId": 19576,
+          "posterPath": "/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg"
+        }
+      }
+    },
+    {
+      "guid": "317e5184-4c39-4587-bc68-69bca9a52e3b",
+      "type": "removed",
+      "filmId": "HO00000662",
+      "createdAt": "2026-08-27T05:00:50.983Z",
+      "snapshot": {
+        "id": "HO00000662",
+        "title": "The Proud Princess",
+        "shortSynopsis": "Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 84,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Radek Beran",
+        "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
+        "tmdb": {
+          "tmdbId": 1134680,
+          "posterPath": "/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4a046dcf-b1c0-4ec8-bf8d-42a340711ee5",
+      "type": "removed",
+      "filmId": "HO00000718",
+      "createdAt": "2026-08-27T05:00:50.983Z",
+      "snapshot": {
+        "id": "HO00000718",
+        "title": "Lupin the IIIrd the Movie: The Immortal Bloodline",
+        "shortSynopsis": "Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.\t",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Takeshi Koike",
+        "webUrl": "https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg",
+        "tmdb": {
+          "tmdbId": 1395140,
+          "posterPath": "/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg"
+        }
+      }
     }
   ]
 }

@@ -304,7 +304,6 @@
       "director": "Dave Green",
       "webUrl": "https://www.cinecolombia.com/films/coyote-vs-acme/HO00000633/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
@@ -350,7 +349,6 @@
       "director": "Will Gluck",
       "webUrl": "https://www.cinecolombia.com/films/one-night-only/HO00000636/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg",
@@ -490,29 +488,6 @@
       }
     },
     {
-      "id": "HO00000662",
-      "title": "The Proud Princess",
-      "shortSynopsis": "Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.",
-      "releaseDate": "2026-08-13",
-      "runtimeInMinutes": 84,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Radek Beran",
-      "webUrl": "https://www.cinecolombia.com/films/the-proud-princess/HO00000662/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg",
-      "tmdb": {
-        "tmdbId": 1134680,
-        "posterPath": "/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg"
-      }
-    },
-    {
       "id": "HO00000663",
       "title": "Shadow of God",
       "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
@@ -586,7 +561,6 @@
       "director": "Renny Harlin",
       "webUrl": "https://www.cinecolombia.com/films/deep-water/HO00000668/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg",
@@ -698,7 +672,6 @@
       "director": "Ridley Scott",
       "webUrl": "https://www.cinecolombia.com/films/the-dog-stars/HO00000696/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg",
@@ -896,7 +869,6 @@
       "director": "Lee Thongkham",
       "webUrl": "https://www.cinecolombia.com/films/the-bride/HO00000708/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg",
@@ -1015,29 +987,6 @@
       }
     },
     {
-      "id": "HO00000718",
-      "title": "Lupin the IIIrd the Movie: The Immortal Bloodline",
-      "shortSynopsis": "Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.\t",
-      "releaseDate": "2026-08-20",
-      "runtimeInMinutes": 93,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Animación",
-        "Aventura"
-      ],
-      "director": "Takeshi Koike",
-      "webUrl": "https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg",
-      "tmdb": {
-        "tmdbId": 1395140,
-        "posterPath": "/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg"
-      }
-    },
-    {
       "id": "HO00000719",
       "title": "Speed Demon",
       "shortSynopsis": "A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.\t\n\t",
@@ -1115,7 +1064,6 @@
       "director": "Chris Columbus",
       "webUrl": "https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg",
@@ -1402,7 +1350,8 @@
       "director": "Atsuji Shimizu",
       "webUrl": "https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg",
       "tmdb": {
@@ -1867,6 +1816,7 @@
       "director": "Giacomo Puccini",
       "webUrl": "https://www.cinecolombia.com/films/tosca/HO00000760/",
       "categories": [
+        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg",
@@ -1965,7 +1915,7 @@
     },
     {
       "id": "HO00000765",
-      "title": "Avengers Endgame Re release",
+      "title": "Avengers Endgame Encore",
       "shortSynopsis": "Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.",
       "releaseDate": "2026-09-24",
       "runtimeInMinutes": 185,
@@ -1976,12 +1926,16 @@
         "Ciencia Ficción"
       ],
       "director": "Anthony Russo",
-      "webUrl": "https://www.cinecolombia.com/films/avengers-endgame-re-release/HO00000765/",
+      "webUrl": "https://www.cinecolombia.com/films/avengers-endgame-encore/HO00000765/",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+      "tmdb": {
+        "tmdbId": 299534,
+        "posterPath": "/br6krBFpaYmCSglLBWRuhui7tPc.jpg"
+      }
     },
     {
       "id": "HO00000766",
@@ -2062,12 +2016,34 @@
       "director": "The Metropolitan Opera",
       "webUrl": "https://www.cinecolombia.com/films/parsifal/HO00000769/",
       "categories": [
+        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/68bLPfddedoqUeFaWunUOk2wfKf.jpg",
       "tmdb": {
         "tmdbId": 1703636,
         "posterPath": "/68bLPfddedoqUeFaWunUOk2wfKf.jpg"
+      }
+    },
+    {
+      "id": "HO00000770",
+      "title": "Les digo \"Almas\"",
+      "shortSynopsis": "Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.",
+      "releaseDate": "2026-09-10",
+      "runtimeInMinutes": 108,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Suspenso"
+      ],
+      "director": "Libia Stella Gómez",
+      "webUrl": "https://www.cinecolombia.com/films/les-digo-almas/HO00000770/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg",
+      "tmdb": {
+        "tmdbId": 1354672,
+        "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
       }
     },
     {
@@ -2613,11 +2589,20 @@
     "HO00000757": {
       "tmdbId": 1703617,
       "posterPath": "/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg"
+    },
+    "HO00000765": {
+      "tmdbId": 299534,
+      "posterPath": "/br6krBFpaYmCSglLBWRuhui7tPc.jpg"
+    },
+    "HO00000770": {
+      "tmdbId": 1354672,
+      "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
     }
   },
   "missingRuns": {
-    "HO00000662": 1,
-    "HO00000718": 1
+    "HO00000700": 1,
+    "HO00000719": 1,
+    "HO00000771": 1
   },
-  "lastRun": "2026-08-26T23:00:50.395Z"
+  "lastRun": "2026-08-27T05:00:50.986Z"
 }

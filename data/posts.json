@@ -6942,6 +6942,88 @@
           "posterPath": "/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg"
         }
       }
+    },
+    {
+      "guid": "ee4ae05b-a338-48b8-995e-aa25926fcc6b",
+      "type": "removed",
+      "filmId": "HO00000700",
+      "createdAt": "2026-08-27T11:00:52.685Z",
+      "snapshot": {
+        "id": "HO00000700",
+        "title": "Your Heart Will Be Broken",
+        "shortSynopsis": "Polina es una estudiante que llega a una nueva escuela con la esperanza de comenzar de cero, pero pronto se convierte en el blanco del acoso escolar, quedando aislada.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 134,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "director": "Michael Vaynberg",
+        "webUrl": "https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
+        "tmdb": {
+          "tmdbId": 1523145,
+          "posterPath": "/naOC89qeEygU44xM9EIot1m5AUQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8ee953db-62a1-4cfe-a1fc-4dc477563296",
+      "type": "removed",
+      "filmId": "HO00000719",
+      "createdAt": "2026-08-27T11:00:52.685Z",
+      "snapshot": {
+        "id": "HO00000719",
+        "title": "Speed Demon",
+        "shortSynopsis": "A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.\t\n\t",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 93,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Jon Keeyes",
+        "webUrl": "https://www.cinecolombia.com/films/speed-demon/HO00000719/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg",
+        "tmdb": {
+          "tmdbId": 1473878,
+          "posterPath": "/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg"
+        }
+      }
+    },
+    {
+      "guid": "40e05a6a-4251-4e93-adab-22d3bf3028f3",
+      "type": "removed",
+      "filmId": "HO00000771",
+      "createdAt": "2026-08-27T11:00:52.685Z",
+      "snapshot": {
+        "id": "HO00000771",
+        "title": "Mr. Nobody Against Putin",
+        "shortSynopsis": "Ganadora del Óscar 2026 a Mejor Documental: en plena invasión rusa a Ucrania, el profesor Pavel Talankin graba en secreto la propaganda dentro de su escuela",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 90,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "David Borenstein",
+        "webUrl": "https://www.cinecolombia.com/films/mr-nobody-against-putin/HO00000771/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg",
+        "tmdb": {
+          "tmdbId": 1393151,
+          "posterPath": "/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg"
+        }
+      }
     }
   ]
 }

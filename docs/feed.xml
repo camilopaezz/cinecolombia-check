@@ -7,6 +7,31 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Your Heart Will Be Broken</title>
+      <link>https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/</link>
+      <guid isPermaLink="false">ee4ae05b-a338-48b8-995e-aa25926fcc6b</guid>
+      <pubDate>Thu, 27 Aug 2026 11:00:52 GMT</pubDate>
+      <description>Polina es una estudiante que llega a una nueva escuela con la esperanza de comenzar de cero, pero pronto se convierte en el blanco del acoso escolar, quedando aislada.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Speed Demon</title>
+      <link>https://www.cinecolombia.com/films/speed-demon/HO00000719/</link>
+      <guid isPermaLink="false">8ee953db-62a1-4cfe-a1fc-4dc477563296</guid>
+      <pubDate>Thu, 27 Aug 2026 11:00:52 GMT</pubDate>
+      <description>A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.	
+	</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Mr. Nobody Against Putin</title>
+      <link>https://www.cinecolombia.com/films/mr-nobody-against-putin/HO00000771/</link>
+      <guid isPermaLink="false">40e05a6a-4251-4e93-adab-22d3bf3028f3</guid>
+      <pubDate>Thu, 27 Aug 2026 11:00:52 GMT</pubDate>
+      <description>Ganadora del Óscar 2026 a Mejor Documental: en plena invasión rusa a Ucrania, el profesor Pavel Talankin graba en secreto la propaganda dentro de su escuela</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Les digo &quot;Almas&quot;</title>
       <link>https://www.cinecolombia.com/films/les-digo-almas/HO00000770/</link>
       <guid isPermaLink="false">f1ed6bb1-de29-4381-8aeb-b4ab39f889dd</guid>
@@ -769,30 +794,6 @@
       <pubDate>Fri, 31 Jul 2026 11:00:39 GMT</pubDate>
       <description>Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Harry Potter and the Sorcerer&apos;s Stone</title>
-      <link>https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/</link>
-      <guid isPermaLink="false">1cda3da1-4552-43f9-880e-44208b666d1d</guid>
-      <pubDate>Fri, 31 Jul 2026 05:00:39 GMT</pubDate>
-      <description>Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Good Vibes Only</title>
-      <link>https://www.cinecolombia.com/films/good-vibes-only/HO00000712/</link>
-      <guid isPermaLink="false">f2a8f517-4e9d-4f6b-acca-5c98aca95882</guid>
-      <pubDate>Thu, 30 Jul 2026 23:00:38 GMT</pubDate>
-      <description>Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Proud Princess</title>
-      <link>https://www.cinecolombia.com/films/the-proud-princess/HO00000662/</link>
-      <guid isPermaLink="false">8e029e67-4bb0-484a-8fde-c76d02a6eba8</guid>
-      <pubDate>Thu, 30 Jul 2026 17:00:40 GMT</pubDate>
-      <description>Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg" medium="image" />
     </item>
   </channel>
 </rss>

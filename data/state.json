@@ -704,28 +704,6 @@
       }
     },
     {
-      "id": "HO00000700",
-      "title": "Your Heart Will Be Broken",
-      "shortSynopsis": "Polina es una estudiante que llega a una nueva escuela con la esperanza de comenzar de cero, pero pronto se convierte en el blanco del acoso escolar, quedando aislada.",
-      "releaseDate": "2026-08-20",
-      "runtimeInMinutes": 134,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "director": "Michael Vaynberg",
-      "webUrl": "https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
-      "tmdb": {
-        "tmdbId": 1523145,
-        "posterPath": "/naOC89qeEygU44xM9EIot1m5AUQ.jpg"
-      }
-    },
-    {
       "id": "HO00000702",
       "title": "Terminator 2: Judgement Day (35th Anniversary)",
       "shortSynopsis": "Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.",
@@ -984,27 +962,6 @@
       "tmdb": {
         "tmdbId": 1684016,
         "posterPath": "/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg"
-      }
-    },
-    {
-      "id": "HO00000719",
-      "title": "Speed Demon",
-      "shortSynopsis": "A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.\t\n\t",
-      "releaseDate": "2026-08-20",
-      "runtimeInMinutes": 93,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Jon Keeyes",
-      "webUrl": "https://www.cinecolombia.com/films/speed-demon/HO00000719/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg",
-      "tmdb": {
-        "tmdbId": 1473878,
-        "posterPath": "/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg"
       }
     },
     {
@@ -2047,27 +2004,6 @@
       }
     },
     {
-      "id": "HO00000771",
-      "title": "Mr. Nobody Against Putin",
-      "shortSynopsis": "Ganadora del Óscar 2026 a Mejor Documental: en plena invasión rusa a Ucrania, el profesor Pavel Talankin graba en secreto la propaganda dentro de su escuela",
-      "releaseDate": "2026-08-27",
-      "runtimeInMinutes": 90,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "David Borenstein",
-      "webUrl": "https://www.cinecolombia.com/films/mr-nobody-against-putin/HO00000771/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg",
-      "tmdb": {
-        "tmdbId": 1393151,
-        "posterPath": "/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg"
-      }
-    },
-    {
       "id": "HO00000772",
       "title": "Resurrection",
       "shortSynopsis": "En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.",
@@ -2599,10 +2535,6 @@
       "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000700": 1,
-    "HO00000719": 1,
-    "HO00000771": 1
-  },
-  "lastRun": "2026-08-27T05:00:50.986Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-27T11:00:52.687Z"
 }

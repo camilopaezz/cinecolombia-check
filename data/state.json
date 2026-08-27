@@ -970,7 +970,7 @@
       "shortSynopsis": "En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque",
       "releaseDate": "2026-09-03",
       "runtimeInMinutes": 86,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación",
         "Familia",
@@ -1987,8 +1987,8 @@
       "title": "Les digo \"Almas\"",
       "shortSynopsis": "Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.",
       "releaseDate": "2026-09-10",
-      "runtimeInMinutes": 108,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 129,
+      "censorRating": "+15 Años",
       "genres": [
         "Suspenso"
       ],
@@ -2535,6 +2535,8 @@
       "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-08-27T17:00:12.901Z"
+  "missingRuns": {
+    "HO00000659": 1
+  },
+  "lastRun": "2026-08-27T23:00:50.900Z"
 }

@@ -1541,8 +1541,8 @@
       "title": "Marsupilami",
       "shortSynopsis": "David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.",
       "releaseDate": "2026-09-03",
-      "runtimeInMinutes": 109,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 99,
+      "censorRating": "+7 Años",
       "genres": [
         "Aventura",
         "Comedia"
@@ -2514,5 +2514,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-28T05:00:53.612Z"
+  "lastRun": "2026-08-28T17:00:52.933Z"
 }

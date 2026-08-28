@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Piedras preciosas</title>
+      <link>https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/</link>
+      <guid isPermaLink="false">db1fc9a3-509d-4f41-b1eb-afa80d9e9413</guid>
+      <pubDate>Fri, 28 Aug 2026 05:00:53 GMT</pubDate>
+      <description>Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Your Heart Will Be Broken</title>
       <link>https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/</link>
       <guid isPermaLink="false">ee4ae05b-a338-48b8-995e-aa25926fcc6b</guid>
@@ -786,14 +794,6 @@
       <guid isPermaLink="false">9891a8a4-6c32-4d24-a24a-64aa5ba4cb1e</guid>
       <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
       <description>Una escritora desafía las normas sociales y paga el precio de decir lo que piensa en esta audaz reinterpretación del clásico de Molière.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Disclosure Day</title>
-      <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
-      <guid isPermaLink="false">783cd942-6d5e-4d62-9a8d-fdbf0064be56</guid>
-      <pubDate>Fri, 31 Jul 2026 11:00:39 GMT</pubDate>
-      <description>Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg" medium="image" />
     </item>
   </channel>
 </rss>

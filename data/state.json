@@ -446,27 +446,6 @@
       }
     },
     {
-      "id": "HO00000659",
-      "title": "Piedras preciosas",
-      "shortSynopsis": "Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.",
-      "releaseDate": "2026-09-10",
-      "runtimeInMinutes": 70,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Suspenso"
-      ],
-      "director": "Simón Vélez",
-      "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
-      "tmdb": {
-        "tmdbId": 1426106,
-        "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
-      }
-    },
-    {
       "id": "HO00000660",
       "title": "Woman and Child",
       "shortSynopsis": "Tras el fallecimiento de su esposo, Mahnaz, se ve obligada a mediar entre su profesión y la rebeldía de su hijo adolescente, quien acaba de ser expulsado del colegio.",
@@ -1063,7 +1042,6 @@
       "director": "Dominic Cooke",
       "webUrl": "https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg",
@@ -2535,8 +2513,6 @@
       "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000659": 1
-  },
-  "lastRun": "2026-08-27T23:00:50.900Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-28T05:00:53.612Z"
 }

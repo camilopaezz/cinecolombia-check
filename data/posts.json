@@ -7024,6 +7024,33 @@
           "posterPath": "/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg"
         }
       }
+    },
+    {
+      "guid": "db1fc9a3-509d-4f41-b1eb-afa80d9e9413",
+      "type": "removed",
+      "filmId": "HO00000659",
+      "createdAt": "2026-08-28T05:00:53.610Z",
+      "snapshot": {
+        "id": "HO00000659",
+        "title": "Piedras preciosas",
+        "shortSynopsis": "Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 70,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Simón Vélez",
+        "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
+        "tmdb": {
+          "tmdbId": 1426106,
+          "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
+        }
+      }
     }
   ]
 }

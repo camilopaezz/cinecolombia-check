@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Mrs. Warren&apos;s Profession</title>
+      <link>https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/</link>
+      <guid isPermaLink="false">e0b03fd0-3c20-48fe-a137-298054c901c5</guid>
+      <pubDate>Sun, 30 Aug 2026 23:00:51 GMT</pubDate>
+      <description>Vivie Warren desafía las normas de su época mientras enfrenta a su madre en un intenso drama sobre moral, independencia y cambio social.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Ghost: 2 Big To Rig</title>
       <link>https://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/</link>
       <guid isPermaLink="false">93261292-9506-4fc1-b741-3e037aace90e</guid>
@@ -788,13 +796,6 @@
       <guid isPermaLink="false">f7e28582-30c5-478b-94c4-39a6c379fb87</guid>
       <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
       <description>Cuando un joven afirma haber matado a su padre, se convierte en el héroe del pueblo, hasta que la verdad amenaza con cambiarlo todo.</description>
-    </item>
-    <item>
-      <title>En cartelera: Les Liaisons Dangereuses</title>
-      <link>https://www.cinecolombia.com/films/les-liaisons-dangereuses/HO00000733/</link>
-      <guid isPermaLink="false">d1994432-e081-4bfb-81e0-7cd823784af0</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>La Marquesa de Merteuil y el Vizconde de Valmont convierten la seducción en un arma, hasta que su rivalidad amenaza con destruirlos a ellos y a quienes los rodean.</description>
     </item>
   </channel>
 </rss>

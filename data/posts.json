@@ -7080,6 +7080,33 @@
           "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
         }
       }
+    },
+    {
+      "guid": "e0b03fd0-3c20-48fe-a137-298054c901c5",
+      "type": "removed",
+      "filmId": "HO00000725",
+      "createdAt": "2026-08-30T23:00:51.000Z",
+      "snapshot": {
+        "id": "HO00000725",
+        "title": "Mrs. Warren's Profession",
+        "shortSynopsis": "Vivie Warren desafía las normas de su época mientras enfrenta a su madre en un intenso drama sobre moral, independencia y cambio social.",
+        "releaseDate": "2026-08-28",
+        "runtimeInMinutes": 117,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Teatro"
+        ],
+        "director": "Dominic Cooke",
+        "webUrl": "https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg",
+        "tmdb": {
+          "tmdbId": 1507563,
+          "posterPath": "/xh02VRO7Duh5LaU67cusKEcESTB.jpg"
+        }
+      }
     }
   ]
 }

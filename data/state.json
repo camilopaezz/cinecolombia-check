@@ -1007,27 +1007,6 @@
       }
     },
     {
-      "id": "HO00000725",
-      "title": "Mrs. Warren's Profession",
-      "shortSynopsis": "Vivie Warren desafía las normas de su época mientras enfrenta a su madre en un intenso drama sobre moral, independencia y cambio social.",
-      "releaseDate": "2026-08-28",
-      "runtimeInMinutes": 117,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Teatro"
-      ],
-      "director": "Dominic Cooke",
-      "webUrl": "https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg",
-      "tmdb": {
-        "tmdbId": 1507563,
-        "posterPath": "/xh02VRO7Duh5LaU67cusKEcESTB.jpg"
-      }
-    },
-    {
       "id": "HO00000726",
       "title": "Hamlet",
       "shortSynopsis": "Hamlet queda atrapado entre el deber y la duda al intentar vengar a su padre, mientras su lucha interior amenaza su cordura y el destino del reino.",
@@ -2490,8 +2469,6 @@
       "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000725": 1
-  },
-  "lastRun": "2026-08-30T17:00:50.546Z"
+  "missingRuns": {},
+  "lastRun": "2026-08-30T23:00:51.002Z"
 }

@@ -7051,6 +7051,35 @@
           "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
         }
       }
+    },
+    {
+      "guid": "93261292-9506-4fc1-b741-3e037aace90e",
+      "type": "removed",
+      "filmId": "HO00000716",
+      "createdAt": "2026-08-30T11:00:51.400Z",
+      "snapshot": {
+        "id": "HO00000716",
+        "title": "Ghost: 2 Big To Rig",
+        "shortSynopsis": "2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. ",
+        "releaseDate": "2026-08-26",
+        "runtimeInMinutes": 115,
+        "censorRating": "Concierto",
+        "genres": [
+          "Concierto",
+          "Documental",
+          "Música"
+        ],
+        "director": "Amir Juan Chamdin",
+        "webUrl": "https://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg",
+        "tmdb": {
+          "tmdbId": 1693400,
+          "posterPath": "/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg"
+        }
+      }
     }
   ]
 }

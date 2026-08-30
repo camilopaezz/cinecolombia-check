@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Ghost: 2 Big To Rig</title>
+      <link>https://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/</link>
+      <guid isPermaLink="false">93261292-9506-4fc1-b741-3e037aace90e</guid>
+      <pubDate>Sun, 30 Aug 2026 11:00:51 GMT</pubDate>
+      <description>2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Piedras preciosas</title>
       <link>https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/</link>
       <guid isPermaLink="false">db1fc9a3-509d-4f41-b1eb-afa80d9e9413</guid>
@@ -787,13 +795,6 @@
       <guid isPermaLink="false">d1994432-e081-4bfb-81e0-7cd823784af0</guid>
       <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
       <description>La Marquesa de Merteuil y el Vizconde de Valmont convierten la seducción en un arma, hasta que su rivalidad amenaza con destruirlos a ellos y a quienes los rodean.</description>
-    </item>
-    <item>
-      <title>En cartelera: The Misanthrope</title>
-      <link>https://www.cinecolombia.com/films/the-misanthrope/HO00000734/</link>
-      <guid isPermaLink="false">9891a8a4-6c32-4d24-a24a-64aa5ba4cb1e</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Una escritora desafía las normas sociales y paga el precio de decir lo que piensa en esta audaz reinterpretación del clásico de Molière.</description>
     </item>
   </channel>
 </rss>

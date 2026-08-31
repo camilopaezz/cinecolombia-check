@@ -1453,8 +1453,8 @@
       "title": "Practical Magic 2",
       "shortSynopsis": "Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.",
       "releaseDate": "2026-09-10",
-      "runtimeInMinutes": 110,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 125,
+      "censorRating": "+12 Años",
       "genres": [
         "Fantasía",
         "Romance"
@@ -2470,5 +2470,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-08-30T23:00:51.002Z"
+  "lastRun": "2026-08-31T17:00:52.854Z"
 }

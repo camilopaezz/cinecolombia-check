@@ -7,6 +7,28 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Shadow of God</title>
+      <link>https://www.cinecolombia.com/films/shadow-of-god/HO00000663/</link>
+      <guid isPermaLink="false">10982989-1071-4901-9757-7ff05cc98e47</guid>
+      <pubDate>Wed, 02 Sep 2026 11:00:50 GMT</pubDate>
+      <description>Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.</description>
+    </item>
+    <item>
+      <title>En cartelera: My Neighbor Totoro</title>
+      <link>https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/</link>
+      <guid isPermaLink="false">51a2d2ac-8b34-42d4-b27a-ad5320142960</guid>
+      <pubDate>Wed, 02 Sep 2026 11:00:50 GMT</pubDate>
+      <description>En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque</description>
+    </item>
+    <item>
+      <title>En cartelera: Marsupilami</title>
+      <link>https://www.cinecolombia.com/films/marsupilami/HO00000751/</link>
+      <guid isPermaLink="false">597e978f-4774-4fa1-84da-b8331eede4ac</guid>
+      <pubDate>Wed, 02 Sep 2026 11:00:50 GMT</pubDate>
+      <description>David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Ice Cream Man</title>
       <link>https://www.cinecolombia.com/films/ice-cream-man/HO00000691/</link>
       <guid isPermaLink="false">15e56b30-1d89-411d-8b3a-f1fd072bcc6e</guid>
@@ -775,28 +797,6 @@
       <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
       <description>Dos hombres forjan una frágil amistad durante su recuperación del alcoholismo, hasta que una confesión amenaza con destruir la confianza que los mantiene en pie.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Frankenstein</title>
-      <link>https://www.cinecolombia.com/films/frankenstein/HO00000729/</link>
-      <guid isPermaLink="false">942679dc-9258-459f-bc24-8830a5b7ebd5</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Rechazada por su creador, la criatura de Frankenstein emprende una búsqueda de venganza que enfrenta la ciencia, la moral y los límites de la humanidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: All My Sons</title>
-      <link>https://www.cinecolombia.com/films/all-my-sons/HO00000730/</link>
-      <guid isPermaLink="false">cf28c465-eca6-443f-932b-62ad4c622134</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Tras la guerra, un hombre debe enfrentar las consecuencias de sus decisiones mientras el pasado amenaza con destruir a su familia y su sueño americano.</description>
-    </item>
-    <item>
-      <title>En cartelera: The Audience</title>
-      <link>https://www.cinecolombia.com/films/the-audience/HO00000731/</link>
-      <guid isPermaLink="false">2204dac9-7981-43a1-8dac-596906b82ed2</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>A través de encuentros privados con sus primeros ministros, la reina Isabel II revela el lado más humano de uno de los reinados más trascendentales de la historia.</description>
     </item>
   </channel>
 </rss>

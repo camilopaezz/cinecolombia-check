@@ -479,7 +479,8 @@
       "director": "Michael Peterson",
       "webUrl": "https://www.cinecolombia.com/films/shadow-of-god/HO00000663/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -935,7 +936,8 @@
       "director": "Hayao Miyazaki",
       "webUrl": "https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1506,7 +1508,8 @@
       "director": "Philippe Lacheau",
       "webUrl": "https://www.cinecolombia.com/films/marsupilami/HO00000751/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
       "tmdb": {
@@ -2470,5 +2473,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-02T05:00:50.427Z"
+  "lastRun": "2026-09-02T11:00:50.899Z"
 }

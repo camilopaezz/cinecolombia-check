@@ -7135,6 +7135,85 @@
           "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
         }
       }
+    },
+    {
+      "guid": "10982989-1071-4901-9757-7ff05cc98e47",
+      "type": "now-in-theaters",
+      "filmId": "HO00000663",
+      "createdAt": "2026-09-02T11:00:50.896Z",
+      "snapshot": {
+        "id": "HO00000663",
+        "title": "Shadow of God",
+        "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 87,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Michael Peterson",
+        "webUrl": "https://www.cinecolombia.com/films/shadow-of-god/HO00000663/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "51a2d2ac-8b34-42d4-b27a-ad5320142960",
+      "type": "now-in-theaters",
+      "filmId": "HO00000721",
+      "createdAt": "2026-09-02T11:00:50.896Z",
+      "snapshot": {
+        "id": "HO00000721",
+        "title": "My Neighbor Totoro",
+        "shortSynopsis": "En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 86,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Hayao Miyazaki",
+        "webUrl": "https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "597e978f-4774-4fa1-84da-b8331eede4ac",
+      "type": "now-in-theaters",
+      "filmId": "HO00000751",
+      "createdAt": "2026-09-02T11:00:50.896Z",
+      "snapshot": {
+        "id": "HO00000751",
+        "title": "Marsupilami",
+        "shortSynopsis": "David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 99,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Philippe Lacheau",
+        "webUrl": "https://www.cinecolombia.com/films/marsupilami/HO00000751/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+        "tmdb": {
+          "tmdbId": 1145899,
+          "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
+        }
+      }
     }
   ]
 }

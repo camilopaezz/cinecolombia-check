@@ -7,6 +7,54 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Piedras preciosas</title>
+      <link>https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/</link>
+      <guid isPermaLink="false">38d9b97a-378f-4590-b991-b3ad7ffdd471</guid>
+      <pubDate>Wed, 02 Sep 2026 23:00:50 GMT</pubDate>
+      <description>Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Oasis: Don&apos;t Look Back In Anger</title>
+      <link>https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/</link>
+      <guid isPermaLink="false">f871d792-ec83-4027-936c-265fefec060a</guid>
+      <pubDate>Wed, 02 Sep 2026 23:00:50 GMT</pubDate>
+      <description>Oasis: Don&apos;t Look Back in Anger&apos; documenta la gira de reencuentro &apos;Oasis Live &apos;25&apos; de Liam y Noel Gallagher, con ensayos, backstage y sus primeras entrevistas juntos en 2</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: The Get Out</title>
+      <link>https://www.cinecolombia.com/films/the-get-out/HO00000775/</link>
+      <guid isPermaLink="false">a085f456-fea2-4774-ba3e-91d77982aaf4</guid>
+      <pubDate>Wed, 02 Sep 2026 23:00:50 GMT</pubDate>
+      <description>Basada en &apos;Strip&apos; de Thomas Perry: un dueño de club nocturno listo para retirarse enfrenta traiciones tras un violento asalto, en una lucha por sobrevivir.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Colony</title>
+      <link>https://www.cinecolombia.com/films/colony/HO00000776/</link>
+      <guid isPermaLink="false">185fc9e3-6c2b-4731-91d2-7a7f4c254474</guid>
+      <pubDate>Wed, 02 Sep 2026 23:00:50 GMT</pubDate>
+      <description>En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: The Whistler</title>
+      <link>https://www.cinecolombia.com/films/the-whistler/HO00000777/</link>
+      <guid isPermaLink="false">18b6e5de-dacd-49a4-9d22-0f0c98f3e5b9</guid>
+      <pubDate>Wed, 02 Sep 2026 23:00:50 GMT</pubDate>
+      <description>Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: A Useful Ghost</title>
+      <link>https://www.cinecolombia.com/films/a-useful-ghost/HO00000778/</link>
+      <guid isPermaLink="false">727cd138-a138-4efa-9a35-00c883297586</guid>
+      <pubDate>Wed, 02 Sep 2026 23:00:50 GMT</pubDate>
+      <description>March descubre que su esposa Nat, muerta por polvo, reencarnó en una aspiradora. Mientras su familia rechaza el vínculo, un poderoso político cambia sus planes.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Shadow of God</title>
       <link>https://www.cinecolombia.com/films/shadow-of-god/HO00000663/</link>
       <guid isPermaLink="false">10982989-1071-4901-9757-7ff05cc98e47</guid>
@@ -750,53 +798,6 @@
       <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
       <description>Dos amigas desafían alturas extremas en Tailandia, donde el peligro, la adrenalina y la lucha por sobrevivir las llevan al límite.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Disclosure Day</title>
-      <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
-      <guid isPermaLink="false">10e3a774-9b58-4b06-93ae-fb1bf25a9477</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Paw Patrol: The Dino Movie</title>
-      <link>https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/</link>
-      <guid isPermaLink="false">b40c104e-9669-4f84-93fe-98f6ad9a3efc</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Mrs. Warren&apos;s Profession</title>
-      <link>https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/</link>
-      <guid isPermaLink="false">0008eb35-a560-4261-997a-c900c8bcfc96</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Vivie Warren lucha por abrirse camino como abogada mientras enfrenta a su madre en un poderoso drama sobre moral, independencia y el precio del progreso.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Hamlet</title>
-      <link>https://www.cinecolombia.com/films/hamlet/HO00000726/</link>
-      <guid isPermaLink="false">a1111d39-e584-4e1e-b294-b8afb5bc896f</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Mientras un reino se prepara para la guerra, Hamlet enfrenta una lucha entre el deber y la duda que amenaza con destruir su cordura y el destino de Dinamarca.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Fleabag</title>
-      <link>https://www.cinecolombia.com/films/fleabag/HO00000727/</link>
-      <guid isPermaLink="false">e03a54a0-ea58-4aaa-bb67-8e70c63b9748</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Fleabag enfrenta el caos de su vida con humor irreverente y honestidad brutal en el aclamado monólogo que inspiró la exitosa serie de la BBC.</description>
-    </item>
-    <item>
-      <title>En cartelera: The Fifth Step</title>
-      <link>https://www.cinecolombia.com/films/the-fifth-step/HO00000728/</link>
-      <guid isPermaLink="false">885ac586-c77f-4c6a-a735-c8244c707f6d</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Dos hombres forjan una frágil amistad durante su recuperación del alcoholismo, hasta que una confesión amenaza con destruir la confianza que los mantiene en pie.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg" medium="image" />
     </item>
   </channel>
 </rss>

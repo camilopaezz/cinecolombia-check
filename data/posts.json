@@ -7214,6 +7214,174 @@
           "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
         }
       }
+    },
+    {
+      "guid": "38d9b97a-378f-4590-b991-b3ad7ffdd471",
+      "type": "added",
+      "filmId": "HO00000659",
+      "createdAt": "2026-09-02T23:00:50.834Z",
+      "snapshot": {
+        "id": "HO00000659",
+        "title": "Piedras preciosas",
+        "shortSynopsis": "Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 70,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Simón Vélez",
+        "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
+        "tmdb": {
+          "tmdbId": 1426106,
+          "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f871d792-ec83-4027-936c-265fefec060a",
+      "type": "added",
+      "filmId": "HO00000774",
+      "createdAt": "2026-09-02T23:00:50.834Z",
+      "snapshot": {
+        "id": "HO00000774",
+        "title": "Oasis: Don't Look Back In Anger",
+        "shortSynopsis": "Oasis: Don't Look Back in Anger' documenta la gira de reencuentro 'Oasis Live '25' de Liam y Noel Gallagher, con ensayos, backstage y sus primeras entrevistas juntos en 2",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 122,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental",
+          "Música"
+        ],
+        "director": "Dylan Southern",
+        "webUrl": "https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
+        "tmdb": {
+          "tmdbId": 1447853,
+          "posterPath": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a085f456-fea2-4774-ba3e-91d77982aaf4",
+      "type": "added",
+      "filmId": "HO00000775",
+      "createdAt": "2026-09-02T23:00:50.834Z",
+      "snapshot": {
+        "id": "HO00000775",
+        "title": "The Get Out",
+        "shortSynopsis": "Basada en 'Strip' de Thomas Perry: un dueño de club nocturno listo para retirarse enfrenta traiciones tras un violento asalto, en una lucha por sobrevivir.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 96,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Derrick Borte",
+        "webUrl": "https://www.cinecolombia.com/films/the-get-out/HO00000775/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+        "tmdb": {
+          "tmdbId": 1279493,
+          "posterPath": "/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg"
+        }
+      }
+    },
+    {
+      "guid": "185fc9e3-6c2b-4731-91d2-7a7f4c254474",
+      "type": "added",
+      "filmId": "HO00000776",
+      "createdAt": "2026-09-02T23:00:50.834Z",
+      "snapshot": {
+        "id": "HO00000776",
+        "title": "Colony",
+        "shortSynopsis": "En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Yeon Sang-ho",
+        "webUrl": "https://www.cinecolombia.com/films/colony/HO00000776/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg",
+        "tmdb": {
+          "tmdbId": 1375646,
+          "posterPath": "/pQIpfeenClb2ws9G0kMg3HREjoA.jpg"
+        }
+      }
+    },
+    {
+      "guid": "18b6e5de-dacd-49a4-9d22-0f0c98f3e5b9",
+      "type": "added",
+      "filmId": "HO00000777",
+      "createdAt": "2026-09-02T23:00:50.834Z",
+      "snapshot": {
+        "id": "HO00000777",
+        "title": "The Whistler",
+        "shortSynopsis": "Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 96,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Diego Velasco",
+        "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
+        "tmdb": {
+          "tmdbId": 1280300,
+          "posterPath": "/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg"
+        }
+      }
+    },
+    {
+      "guid": "727cd138-a138-4efa-9a35-00c883297586",
+      "type": "added",
+      "filmId": "HO00000778",
+      "createdAt": "2026-09-02T23:00:50.834Z",
+      "snapshot": {
+        "id": "HO00000778",
+        "title": "A Useful Ghost",
+        "shortSynopsis": "March descubre que su esposa Nat, muerta por polvo, reencarnó en una aspiradora. Mientras su familia rechaza el vínculo, un poderoso político cambia sus planes.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 130,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Ratchapoom Boonbunchachoke",
+        "webUrl": "https://www.cinecolombia.com/films/a-useful-ghost/HO00000778/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg",
+        "tmdb": {
+          "tmdbId": 1364904,
+          "posterPath": "/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg"
+        }
+      }
     }
   ]
 }

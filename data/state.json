@@ -605,7 +605,8 @@
       "director": "Eli Roth",
       "webUrl": "https://www.cinecolombia.com/films/ice-cream-man/HO00000691/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg",
       "tmdb": {
@@ -911,7 +912,6 @@
       "director": "Paul Dugdale",
       "webUrl": "https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg",
@@ -2470,5 +2470,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-01T23:00:50.415Z"
+  "lastRun": "2026-09-02T05:00:50.427Z"
 }

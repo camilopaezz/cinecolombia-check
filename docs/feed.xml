@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Ice Cream Man</title>
+      <link>https://www.cinecolombia.com/films/ice-cream-man/HO00000691/</link>
+      <guid isPermaLink="false">15e56b30-1d89-411d-8b3a-f1fd072bcc6e</guid>
+      <pubDate>Wed, 02 Sep 2026 05:00:50 GMT</pubDate>
+      <description>Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Mrs. Warren&apos;s Profession</title>
       <link>https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/</link>
       <guid isPermaLink="false">e0b03fd0-3c20-48fe-a137-298054c901c5</guid>
@@ -789,13 +797,6 @@
       <guid isPermaLink="false">2204dac9-7981-43a1-8dac-596906b82ed2</guid>
       <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
       <description>A través de encuentros privados con sus primeros ministros, la reina Isabel II revela el lado más humano de uno de los reinados más trascendentales de la historia.</description>
-    </item>
-    <item>
-      <title>En cartelera: The Playboy of the Western World</title>
-      <link>https://www.cinecolombia.com/films/the-playboy-of-the-western-world/HO00000732/</link>
-      <guid isPermaLink="false">f7e28582-30c5-478b-94c4-39a6c379fb87</guid>
-      <pubDate>Fri, 31 Jul 2026 23:00:39 GMT</pubDate>
-      <description>Cuando un joven afirma haber matado a su padre, se convierte en el héroe del pueblo, hasta que la verdad amenaza con cambiarlo todo.</description>
     </item>
   </channel>
 </rss>

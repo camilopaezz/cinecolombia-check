@@ -1862,6 +1862,7 @@
       "director": "Dylan Southern",
       "webUrl": "https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/",
       "categories": [
+        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
@@ -2491,5 +2492,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-03T12:56:21.610Z"
+  "lastRun": "2026-09-03T17:00:13.415Z"
 }

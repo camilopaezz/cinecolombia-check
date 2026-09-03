@@ -7,6 +7,46 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Deep Water</title>
+      <link>https://www.cinecolombia.com/films/deep-water/HO00000668/</link>
+      <guid isPermaLink="false">58143d40-e04f-49fe-aa58-0e8e48974af9</guid>
+      <pubDate>Thu, 03 Sep 2026 12:56:21 GMT</pubDate>
+      <description>Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: The Bride</title>
+      <link>https://www.cinecolombia.com/films/the-bride/HO00000708/</link>
+      <guid isPermaLink="false">c96c9b2d-6070-4d74-b9d3-888eb4e5ece9</guid>
+      <pubDate>Thu, 03 Sep 2026 12:56:21 GMT</pubDate>
+      <description>La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Good Vibes Only</title>
+      <link>https://www.cinecolombia.com/films/good-vibes-only/HO00000712/</link>
+      <guid isPermaLink="false">4bf24baa-3671-45de-8110-4c32cac61457</guid>
+      <pubDate>Thu, 03 Sep 2026 12:56:21 GMT</pubDate>
+      <description>Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Harry Potter and the Sorcerer&apos;s Stone</title>
+      <link>https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/</link>
+      <guid isPermaLink="false">c6e4797c-9a11-4719-a85f-52f122e3ba04</guid>
+      <pubDate>Thu, 03 Sep 2026 12:56:21 GMT</pubDate>
+      <description>Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Deux Femmes En Or</title>
+      <link>https://www.cinecolombia.com/films/deux-femmes-en-or/HO00000741/</link>
+      <guid isPermaLink="false">369b5b55-6e1f-42c3-89fa-5be235090355</guid>
+      <pubDate>Thu, 03 Sep 2026 12:56:21 GMT</pubDate>
+      <description>Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Oasis: Don&apos;t Look Back In Anger</title>
       <link>https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/</link>
       <guid isPermaLink="false">7a19cca8-17f8-47bc-be69-f0b456491597</guid>
@@ -758,46 +798,6 @@
       <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
       <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The End of Oak Street</title>
-      <link>https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/</link>
-      <guid isPermaLink="false">b0b7f860-3b55-4cd5-a5c9-5e6f1713e46c</guid>
-      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
-      <description>Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Pressure</title>
-      <link>https://www.cinecolombia.com/films/pressure/HO00000629/</link>
-      <guid isPermaLink="false">762c07de-6ee5-4a07-a6c7-19eff2e3ed56</guid>
-      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
-      <description>Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Paw Patrol: The Dino Movie</title>
-      <link>https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/</link>
-      <guid isPermaLink="false">9522c700-2432-4034-a673-c77105f0d84c</guid>
-      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
-      <description>Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Werwulf</title>
-      <link>https://www.cinecolombia.com/films/werwulf/HO00000735/</link>
-      <guid isPermaLink="false">e5564fe3-3ccf-4392-97a4-03362e76b2a9</guid>
-      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
-      <description>En la Inglaterra medieval, una misteriosa criatura acecha entre la niebla, convirtiendo las leyendas locales en una realidad aterradora.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Verity</title>
-      <link>https://www.cinecolombia.com/films/verity/HO00000736/</link>
-      <guid isPermaLink="false">875be085-e0c9-4da7-a2f9-d4dc54c436be</guid>
-      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
-      <description>Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg" medium="image" />
     </item>
   </channel>
 </rss>

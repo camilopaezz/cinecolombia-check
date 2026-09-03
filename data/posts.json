@@ -7437,6 +7437,143 @@
           "posterPath": "/3tQm0pi2gLYfP0strNg0K6PATBK.jpg"
         }
       }
+    },
+    {
+      "guid": "58143d40-e04f-49fe-aa58-0e8e48974af9",
+      "type": "removed",
+      "filmId": "HO00000668",
+      "createdAt": "2026-09-03T12:56:21.607Z",
+      "snapshot": {
+        "id": "HO00000668",
+        "title": "Deep Water",
+        "shortSynopsis": "Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 106,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Renny Harlin",
+        "webUrl": "https://www.cinecolombia.com/films/deep-water/HO00000668/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg",
+        "tmdb": {
+          "tmdbId": 1127384,
+          "posterPath": "/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c96c9b2d-6070-4d74-b9d3-888eb4e5ece9",
+      "type": "removed",
+      "filmId": "HO00000708",
+      "createdAt": "2026-09-03T12:56:21.607Z",
+      "snapshot": {
+        "id": "HO00000708",
+        "title": "The Bride",
+        "shortSynopsis": "La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Lee Thongkham",
+        "webUrl": "https://www.cinecolombia.com/films/the-bride/HO00000708/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg",
+        "tmdb": {
+          "tmdbId": 1159831,
+          "posterPath": "/4xC5IfnCekweHkTFjqQsMOC1gca.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4bf24baa-3671-45de-8110-4c32cac61457",
+      "type": "removed",
+      "filmId": "HO00000712",
+      "createdAt": "2026-09-03T12:56:21.607Z",
+      "snapshot": {
+        "id": "HO00000712",
+        "title": "Good Vibes Only",
+        "shortSynopsis": "Fanny y Tom llevan 20 años felizmente casados. Sin embargo, un día sale a la luz un secreto revelador: Fanny nunca ha tenido un orgasmo.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 90,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Reem Kherici",
+        "webUrl": "https://www.cinecolombia.com/films/good-vibes-only/HO00000712/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/BVn2aFapUWU4KpWBqgipW8BUFI.jpg",
+        "tmdb": {
+          "tmdbId": 1668267,
+          "posterPath": "/BVn2aFapUWU4KpWBqgipW8BUFI.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c6e4797c-9a11-4719-a85f-52f122e3ba04",
+      "type": "removed",
+      "filmId": "HO00000723",
+      "createdAt": "2026-09-03T12:56:21.607Z",
+      "snapshot": {
+        "id": "HO00000723",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "shortSynopsis": "Un niño huérfano ingresa a una escuela de magia, donde descubre la verdad sobre su pasado y enfrenta una amenaza que acecha al mundo mágico.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 167,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Chris Columbus",
+        "webUrl": "https://www.cinecolombia.com/films/harry-potter-and-the-sorcerers-stone/HO00000723/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg",
+        "tmdb": {
+          "tmdbId": 671,
+          "posterPath": "/roKMM6S9DRGFNujmvqlk8l5YbN3.jpg"
+        }
+      }
+    },
+    {
+      "guid": "369b5b55-6e1f-42c3-89fa-5be235090355",
+      "type": "removed",
+      "filmId": "HO00000741",
+      "createdAt": "2026-09-03T12:56:21.607Z",
+      "snapshot": {
+        "id": "HO00000741",
+        "title": "Deux Femmes En Or",
+        "shortSynopsis": "Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 100,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Chloé Robichaud",
+        "webUrl": "https://www.cinecolombia.com/films/deux-femmes-en-or/HO00000741/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg",
+        "tmdb": {
+          "tmdbId": 1073588,
+          "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
+        }
+      }
     }
   ]
 }

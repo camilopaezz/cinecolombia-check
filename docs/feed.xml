@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Oasis: Don&apos;t Look Back In Anger</title>
+      <link>https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/</link>
+      <guid isPermaLink="false">7a19cca8-17f8-47bc-be69-f0b456491597</guid>
+      <pubDate>Thu, 03 Sep 2026 05:00:52 GMT</pubDate>
+      <description>Oasis: Don&apos;t Look Back in Anger&apos; documenta la gira de reencuentro &apos;Oasis Live &apos;25&apos; de Liam y Noel Gallagher, con ensayos, backstage y sus primeras entrevistas juntos en 2</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Woman and Child</title>
+      <link>https://www.cinecolombia.com/films/woman-and-child/HO00000660/</link>
+      <guid isPermaLink="false">9407cee4-0006-4706-b4c5-73568880c090</guid>
+      <pubDate>Thu, 03 Sep 2026 05:00:52 GMT</pubDate>
+      <description>Tras el fallecimiento de su esposo, Mahnaz, se ve obligada a mediar entre su profesión y la rebeldía de su hijo adolescente, quien acaba de ser expulsado del colegio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Piedras preciosas</title>
       <link>https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/</link>
       <guid isPermaLink="false">38d9b97a-378f-4590-b991-b3ad7ffdd471</guid>
@@ -782,22 +798,6 @@
       <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
       <description>Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: One Piece The Movie</title>
-      <link>https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/</link>
-      <guid isPermaLink="false">734decf6-9070-4770-93e7-812a235a936e</guid>
-      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
-      <description>Luffy y su tripulación emprenden la búsqueda del legendario tesoro de Woonan mientras enfrentan a un poderoso enemigo con habilidades de una Fruta del Diablo.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Fall 2: Deadpoint</title>
-      <link>https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/</link>
-      <guid isPermaLink="false">98c9f6b7-ac8a-481b-b4b2-fedba70eb7f9</guid>
-      <pubDate>Tue, 04 Aug 2026 05:00:40 GMT</pubDate>
-      <description>Dos amigas desafían alturas extremas en Tailandia, donde el peligro, la adrenalina y la lucha por sobrevivir las llevan al límite.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg" medium="image" />
     </item>
   </channel>
 </rss>

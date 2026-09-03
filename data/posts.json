@@ -7382,6 +7382,61 @@
           "posterPath": "/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg"
         }
       }
+    },
+    {
+      "guid": "7a19cca8-17f8-47bc-be69-f0b456491597",
+      "type": "now-in-theaters",
+      "filmId": "HO00000774",
+      "createdAt": "2026-09-03T05:00:52.723Z",
+      "snapshot": {
+        "id": "HO00000774",
+        "title": "Oasis: Don't Look Back In Anger",
+        "shortSynopsis": "Oasis: Don't Look Back in Anger' documenta la gira de reencuentro 'Oasis Live '25' de Liam y Noel Gallagher, con ensayos, backstage y sus primeras entrevistas juntos en 2",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 122,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental",
+          "Música"
+        ],
+        "director": "Dylan Southern",
+        "webUrl": "https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
+        "tmdb": {
+          "tmdbId": 1447853,
+          "posterPath": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9407cee4-0006-4706-b4c5-73568880c090",
+      "type": "removed",
+      "filmId": "HO00000660",
+      "createdAt": "2026-09-03T05:00:52.723Z",
+      "snapshot": {
+        "id": "HO00000660",
+        "title": "Woman and Child",
+        "shortSynopsis": "Tras el fallecimiento de su esposo, Mahnaz, se ve obligada a mediar entre su profesión y la rebeldía de su hijo adolescente, quien acaba de ser expulsado del colegio.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 131,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Saeed Roustaee",
+        "webUrl": "https://www.cinecolombia.com/films/woman-and-child/HO00000660/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg",
+        "tmdb": {
+          "tmdbId": 1430386,
+          "posterPath": "/3tQm0pi2gLYfP0strNg0K6PATBK.jpg"
+        }
+      }
     }
   ]
 }

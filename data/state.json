@@ -467,27 +467,6 @@
       }
     },
     {
-      "id": "HO00000660",
-      "title": "Woman and Child",
-      "shortSynopsis": "Tras el fallecimiento de su esposo, Mahnaz, se ve obligada a mediar entre su profesión y la rebeldía de su hijo adolescente, quien acaba de ser expulsado del colegio.",
-      "releaseDate": "2026-08-20",
-      "runtimeInMinutes": 131,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Saeed Roustaee",
-      "webUrl": "https://www.cinecolombia.com/films/woman-and-child/HO00000660/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg",
-      "tmdb": {
-        "tmdbId": 1430386,
-        "posterPath": "/3tQm0pi2gLYfP0strNg0K6PATBK.jpg"
-      }
-    },
-    {
       "id": "HO00000663",
       "title": "Shadow of God",
       "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
@@ -500,7 +479,6 @@
       "director": "Michael Peterson",
       "webUrl": "https://www.cinecolombia.com/films/shadow-of-god/HO00000663/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -627,7 +605,6 @@
       "director": "Eli Roth",
       "webUrl": "https://www.cinecolombia.com/films/ice-cream-man/HO00000691/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg",
@@ -719,7 +696,6 @@
       "director": "James Cameron",
       "webUrl": "https://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -957,7 +933,6 @@
       "director": "Hayao Miyazaki",
       "webUrl": "https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -1399,7 +1374,6 @@
       "director": "Sang-ho Yeon",
       "webUrl": "https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -1529,7 +1503,6 @@
       "director": "Philippe Lacheau",
       "webUrl": "https://www.cinecolombia.com/films/marsupilami/HO00000751/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
@@ -1996,7 +1969,7 @@
       "director": "Dylan Southern",
       "webUrl": "https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
       "tmdb": {
@@ -2625,7 +2598,11 @@
     }
   },
   "missingRuns": {
-    "HO00000660": 1
+    "HO00000668": 1,
+    "HO00000708": 1,
+    "HO00000712": 1,
+    "HO00000723": 1,
+    "HO00000741": 1
   },
-  "lastRun": "2026-09-02T23:00:50.837Z"
+  "lastRun": "2026-09-03T05:00:52.725Z"
 }

@@ -451,7 +451,7 @@
       "shortSynopsis": "Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.",
       "releaseDate": "2026-09-10",
       "runtimeInMinutes": 70,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Suspenso"
       ],
@@ -481,7 +481,11 @@
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9rhDgD5lB3S0W1bqDiPs8asJW1G.jpg",
+      "tmdb": {
+        "tmdbId": 1227003,
+        "posterPath": "/9rhDgD5lB3S0W1bqDiPs8asJW1G.jpg"
+      }
     },
     {
       "id": "HO00000666",
@@ -2489,8 +2493,12 @@
     "HO00000777": {
       "tmdbId": 1280300,
       "posterPath": "/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg"
+    },
+    "HO00000663": {
+      "tmdbId": 1227003,
+      "posterPath": "/9rhDgD5lB3S0W1bqDiPs8asJW1G.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-03T17:00:13.415Z"
+  "lastRun": "2026-09-03T23:00:15.342Z"
 }

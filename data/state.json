@@ -1327,7 +1327,7 @@
       "shortSynopsis": "Tres amigas disfrutan de un fin de semana en un spa, hasta que una amiga caótica se une al viaje y convierte la escapada en un divertido desastre.",
       "releaseDate": "2026-09-10",
       "runtimeInMinutes": 97,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia"
       ],
@@ -1858,7 +1858,7 @@
       "shortSynopsis": "Oasis: Don't Look Back in Anger' documenta la gira de reencuentro 'Oasis Live '25' de Liam y Noel Gallagher, con ensayos, backstage y sus primeras entrevistas juntos en 2",
       "releaseDate": "2026-09-10",
       "runtimeInMinutes": 122,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Documental",
         "Música"
@@ -2500,5 +2500,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-03T23:00:15.342Z"
+  "lastRun": "2026-09-04T23:00:10.567Z"
 }

@@ -490,7 +490,7 @@
     {
       "id": "HO00000666",
       "title": "Street Fighter",
-      "shortSynopsis": "Adaptación cinematográfica del emblemático videojuego de combate, centrada en un conflicto de acción y artes marciales entre personajes icónicos de la franquicia.",
+      "shortSynopsis": "En 1993, Ryu (Andrew Koji) y Ken Masters (Noah Centineo) son reclutados por Chun-Li para el Torneo Mundial de Guerreros, en medio de una conspiración mortal.",
       "releaseDate": "2026-10-15",
       "runtimeInMinutes": 120,
       "censorRating": "Pendiente",
@@ -2478,5 +2478,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-06T05:00:28.599Z"
+  "lastRun": "2026-09-06T11:00:30.252Z"
 }

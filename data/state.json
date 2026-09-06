@@ -1941,6 +1941,28 @@
         "tmdbId": 1364904,
         "posterPath": "/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg"
       }
+    },
+    {
+      "id": "HO00000779",
+      "title": "Always Lalisa",
+      "shortSynopsis": "Always Lalisa' documenta un año de LISA fuera de Blackpink: su álbum 'Alter Ego', su debut en 'The White Lotus' y su show en Coachella 2025.",
+      "releaseDate": "2026-10-12",
+      "runtimeInMinutes": 100,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental",
+        "Música"
+      ],
+      "director": "Sue Kim",
+      "webUrl": "https://www.cinecolombia.com/films/always-lalisa/HO00000779/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg",
+      "tmdb": {
+        "tmdbId": 1489932,
+        "posterPath": "/OqM61w87XqOO3SPZjHRxC75HGI.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -2475,8 +2497,12 @@
     "HO00000663": {
       "tmdbId": 1227003,
       "posterPath": "/9rhDgD5lB3S0W1bqDiPs8asJW1G.jpg"
+    },
+    "HO00000779": {
+      "tmdbId": 1489932,
+      "posterPath": "/OqM61w87XqOO3SPZjHRxC75HGI.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-06T11:00:30.252Z"
+  "lastRun": "2026-09-06T17:00:31.693Z"
 }

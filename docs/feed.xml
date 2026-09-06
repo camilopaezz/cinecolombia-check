@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Always Lalisa</title>
+      <link>https://www.cinecolombia.com/films/always-lalisa/HO00000779/</link>
+      <guid isPermaLink="false">f27a57b0-4bcb-43c9-adba-154ebd77365a</guid>
+      <pubDate>Sun, 06 Sep 2026 17:00:31 GMT</pubDate>
+      <description>Always Lalisa&apos; documenta un año de LISA fuera de Blackpink: su álbum &apos;Alter Ego&apos;, su debut en &apos;The White Lotus&apos; y su show en Coachella 2025.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Katy Perry: The Lifetimes Tour – Live From Paris</title>
       <link>https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/</link>
       <guid isPermaLink="false">bc7f7917-0342-4830-957f-54ee38828c5d</guid>
@@ -791,14 +799,6 @@
       <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
       <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Teenage Sex and Death at Camp Miasma</title>
-      <link>https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/</link>
-      <guid isPermaLink="false">481180dd-5929-4a22-83d5-2c0e0fb64966</guid>
-      <pubDate>Wed, 05 Aug 2026 05:00:40 GMT</pubDate>
-      <description>La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -7574,6 +7574,34 @@
           "posterPath": "/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg"
         }
       }
+    },
+    {
+      "guid": "bc7f7917-0342-4830-957f-54ee38828c5d",
+      "type": "removed",
+      "filmId": "HO00000717",
+      "createdAt": "2026-09-06T05:00:28.597Z",
+      "snapshot": {
+        "id": "HO00000717",
+        "title": "Katy Perry: The Lifetimes Tour – Live From Paris",
+        "shortSynopsis": "Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.\n",
+        "releaseDate": "2026-09-02",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "Paul Dugdale",
+        "webUrl": "https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg",
+        "tmdb": {
+          "tmdbId": 1684016,
+          "posterPath": "/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg"
+        }
+      }
     }
   ]
 }

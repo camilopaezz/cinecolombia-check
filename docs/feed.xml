@@ -7,6 +7,15 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Katy Perry: The Lifetimes Tour – Live From Paris</title>
+      <link>https://www.cinecolombia.com/films/katy-perry-the-lifetimes-tour-live-from-paris/HO00000717/</link>
+      <guid isPermaLink="false">bc7f7917-0342-4830-957f-54ee38828c5d</guid>
+      <pubDate>Sun, 06 Sep 2026 05:00:28 GMT</pubDate>
+      <description>Grabada en el icónico Accor Arena de París durante los conciertos de la gira Katy Perry: The Lifetime Tour – Live From Paris, con todas las entradas agotadas.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/hMhQBN3fyGtR3zlO8GntrpYzrKp.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Deep Water</title>
       <link>https://www.cinecolombia.com/films/deep-water/HO00000668/</link>
       <guid isPermaLink="false">58143d40-e04f-49fe-aa58-0e8e48974af9</guid>
@@ -790,14 +799,6 @@
       <pubDate>Wed, 05 Aug 2026 05:00:40 GMT</pubDate>
       <description>La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. </description>
       <media:content url="https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Las Bravas</title>
-      <link>https://www.cinecolombia.com/films/las-bravas/HO00000739/</link>
-      <guid isPermaLink="false">93c36873-79b3-42c7-b07c-03be3050edd2</guid>
-      <pubDate>Tue, 04 Aug 2026 23:00:42 GMT</pubDate>
-      <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
     </item>
   </channel>
 </rss>

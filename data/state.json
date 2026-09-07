@@ -317,8 +317,8 @@
       "title": "Mutiny",
       "shortSynopsis": "Tras presenciar el asesinato de su jefe multimillonario y ser incriminado por el crimen, Cole Reed aborda un barco de carga en una misión en solitario.",
       "releaseDate": "2026-09-10",
-      "runtimeInMinutes": 95,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 96,
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Suspenso"
@@ -1770,13 +1770,13 @@
       "id": "HO00000769",
       "title": "Parsifal",
       "shortSynopsis": "Parsifal', última ópera de Wagner, con Piotr Beczała y Elīna Garanča, dirigida por Yannick Nézet-Séguin. Fe, compasión y redención en 3 actos.",
-      "releaseDate": "2027-06-05",
+      "releaseDate": "2026-10-01",
       "runtimeInMinutes": 365,
       "censorRating": "Pendiente",
       "genres": [
         "Ópera"
       ],
-      "director": "The Metropolitan Opera",
+      "director": "",
       "webUrl": "https://www.cinecolombia.com/films/parsifal/HO00000769/",
       "categories": [
         "AdvanceBooking",
@@ -2504,5 +2504,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-07T17:00:28.012Z"
+  "lastRun": "2026-09-07T23:00:28.837Z"
 }

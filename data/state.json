@@ -112,6 +112,29 @@
       }
     },
     {
+      "id": "HO00000501",
+      "title": "Ternet Ninja 3",
+      "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 88,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "director": "Anders Matthesen",
+      "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
+      "tmdb": {
+        "tmdbId": 1215638,
+        "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
+      }
+    },
+    {
       "id": "HO00000596",
       "title": "Dune: Part Three",
       "shortSynopsis": "Diecisiete años después de su ascenso al trono, Paul Atreides reina como el Mesías desde Arrakis mientras la yihad librada en su nombre ha segado miles de millones de vid",
@@ -132,6 +155,27 @@
       "tmdb": {
         "tmdbId": 1170608,
         "posterPath": "/ceKywESF1WPVlfdYRTrvZbTkSXV.jpg"
+      }
+    },
+    {
+      "id": "HO00000599",
+      "title": "Into The Mortal World",
+      "shortSynopsis": "Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.",
+      "releaseDate": "2026-10-01",
+      "runtimeInMinutes": 118,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Animación"
+      ],
+      "director": "Zhong Ding",
+      "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg",
+      "tmdb": {
+        "tmdbId": 1303336,
+        "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
       }
     },
     {
@@ -1927,7 +1971,7 @@
       "shortSynopsis": "March descubre que su esposa Nat, muerta por polvo, reencarnó en una aspiradora. Mientras su familia rechaza el vínculo, un poderoso político cambia sus planes.",
       "releaseDate": "2026-09-10",
       "runtimeInMinutes": 130,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama"
       ],
@@ -2504,5 +2548,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-08T11:00:28.707Z"
+  "lastRun": "2026-09-08T17:00:31.313Z"
 }

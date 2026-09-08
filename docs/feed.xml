@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Ternet Ninja 3</title>
+      <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
+      <guid isPermaLink="false">9e56ac88-b2f5-4f25-8318-f1ef785f5dcf</guid>
+      <pubDate>Tue, 08 Sep 2026 17:00:31 GMT</pubDate>
+      <description>El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Into The Mortal World</title>
+      <link>https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/</link>
+      <guid isPermaLink="false">d967e7e3-04ba-45b9-81ed-b5667ccb5b77</guid>
+      <pubDate>Tue, 08 Sep 2026 17:00:31 GMT</pubDate>
+      <description>Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Always Lalisa</title>
       <link>https://www.cinecolombia.com/films/always-lalisa/HO00000779/</link>
       <guid isPermaLink="false">4e8731bf-67d6-4c6d-a3cf-92ab82aa31a8</guid>
@@ -784,21 +800,6 @@
       <guid isPermaLink="false">4f1e7287-67a2-4254-a26a-aba6019b8370</guid>
       <pubDate>Thu, 06 Aug 2026 11:00:39 GMT</pubDate>
       <description>Es Gretel, una corredora de bienes raíces, quien nos guía por lugares cargados de valor sentimental y la memoria detrás de cada objeto, de cada espacio.</description>
-    </item>
-    <item>
-      <title>Pronto: Calle Málaga</title>
-      <link>https://www.cinecolombia.com/films/calle-malaga/HO00000740/</link>
-      <guid isPermaLink="false">7cc09332-efd1-40aa-aebf-012f72b0bfcb</guid>
-      <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
-      <description>Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Tow Women</title>
-      <link>https://www.cinecolombia.com/films/tow-women/HO00000741/</link>
-      <guid isPermaLink="false">a58f0919-65ab-45e7-afda-2ce2220fc634</guid>
-      <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
-      <description>Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.</description>
     </item>
   </channel>
 </rss>

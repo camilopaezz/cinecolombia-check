@@ -7658,6 +7658,62 @@
           "posterPath": "/OqM61w87XqOO3SPZjHRxC75HGI.jpg"
         }
       }
+    },
+    {
+      "guid": "9e56ac88-b2f5-4f25-8318-f1ef785f5dcf",
+      "type": "added",
+      "filmId": "HO00000501",
+      "createdAt": "2026-09-08T17:00:31.310Z",
+      "snapshot": {
+        "id": "HO00000501",
+        "title": "Ternet Ninja 3",
+        "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 88,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Anders Matthesen",
+        "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
+        "tmdb": {
+          "tmdbId": 1215638,
+          "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d967e7e3-04ba-45b9-81ed-b5667ccb5b77",
+      "type": "added",
+      "filmId": "HO00000599",
+      "createdAt": "2026-09-08T17:00:31.310Z",
+      "snapshot": {
+        "id": "HO00000599",
+        "title": "Into The Mortal World",
+        "shortSynopsis": "Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 118,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Zhong Ding",
+        "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg",
+        "tmdb": {
+          "tmdbId": 1303336,
+          "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
+        }
+      }
     }
   ]
 }

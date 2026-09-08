@@ -1776,7 +1776,7 @@
       "genres": [
         "Ópera"
       ],
-      "director": "",
+      "director": "The Metropolitan Opera",
       "webUrl": "https://www.cinecolombia.com/films/parsifal/HO00000769/",
       "categories": [
         "AdvanceBooking",
@@ -2504,5 +2504,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-08T05:00:28.408Z"
+  "lastRun": "2026-09-08T11:00:28.707Z"
 }

@@ -370,7 +370,8 @@
       "director": "Jean-François Richet",
       "webUrl": "https://www.cinecolombia.com/films/mutiny/HO00000634/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg",
       "tmdb": {
@@ -1312,7 +1313,8 @@
       "director": "Antonina Ruzhe",
       "webUrl": "https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg",
       "tmdb": {
@@ -1356,7 +1358,8 @@
       "director": "Jon Lucas",
       "webUrl": "https://www.cinecolombia.com/films/spa-weekend/HO00000748/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg",
       "tmdb": {
@@ -1378,7 +1381,8 @@
       "director": "Susanne Bier",
       "webUrl": "https://www.cinecolombia.com/films/practical-magic-2/HO00000749/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg",
       "tmdb": {
@@ -1845,7 +1849,8 @@
       "director": "Libia Stella Gómez",
       "webUrl": "https://www.cinecolombia.com/films/les-digo-almas/HO00000770/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg",
       "tmdb": {
@@ -2006,6 +2011,29 @@
       "tmdb": {
         "tmdbId": 1489932,
         "posterPath": "/OqM61w87XqOO3SPZjHRxC75HGI.jpg"
+      }
+    },
+    {
+      "id": "HO00000780",
+      "title": "Climax",
+      "shortSynopsis": "Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.",
+      "releaseDate": "2026-09-24",
+      "runtimeInMinutes": 97,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Musical",
+        "Terror"
+      ],
+      "director": "Gaspar Noé",
+      "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
+      "tmdb": {
+        "tmdbId": 1723396,
+        "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
       }
     }
   ],
@@ -2545,8 +2573,12 @@
     "HO00000779": {
       "tmdbId": 1489932,
       "posterPath": "/OqM61w87XqOO3SPZjHRxC75HGI.jpg"
+    },
+    "HO00000780": {
+      "tmdbId": 1723396,
+      "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-08T17:00:31.313Z"
+  "lastRun": "2026-09-08T23:00:32.408Z"
 }

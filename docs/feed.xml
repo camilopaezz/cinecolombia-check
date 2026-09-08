@@ -7,6 +7,54 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Climax</title>
+      <link>https://www.cinecolombia.com/films/climax/HO00000780/</link>
+      <guid isPermaLink="false">7df151b8-8542-49e0-aa05-6cb85a2ae0f5</guid>
+      <pubDate>Tue, 08 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Mutiny</title>
+      <link>https://www.cinecolombia.com/films/mutiny/HO00000634/</link>
+      <guid isPermaLink="false">4177f4a8-0731-4226-b717-d94bdc53a6bb</guid>
+      <pubDate>Tue, 08 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Tras presenciar el asesinato de su jefe multimillonario y ser incriminado por el crimen, Cole Reed aborda un barco de carga en una misión en solitario.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Masha And The Bears</title>
+      <link>https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/</link>
+      <guid isPermaLink="false">148ea8b6-f086-44c0-9634-1bd36dbf0041</guid>
+      <pubDate>Tue, 08 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Spa Weekend</title>
+      <link>https://www.cinecolombia.com/films/spa-weekend/HO00000748/</link>
+      <guid isPermaLink="false">4950cf7b-22dc-4a41-b133-aaa0decd3a58</guid>
+      <pubDate>Tue, 08 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Tres amigas disfrutan de un fin de semana en un spa, hasta que una amiga caótica se une al viaje y convierte la escapada en un divertido desastre.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Practical Magic 2</title>
+      <link>https://www.cinecolombia.com/films/practical-magic-2/HO00000749/</link>
+      <guid isPermaLink="false">9d2d2fca-4e67-4af6-bedf-a0ce7e677fcc</guid>
+      <pubDate>Tue, 08 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Les digo &quot;Almas&quot;</title>
+      <link>https://www.cinecolombia.com/films/les-digo-almas/HO00000770/</link>
+      <guid isPermaLink="false">e2470449-99fd-4444-a7d9-4403e9932bff</guid>
+      <pubDate>Tue, 08 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Ternet Ninja 3</title>
       <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
       <guid isPermaLink="false">9e56ac88-b2f5-4f25-8318-f1ef785f5dcf</guid>
@@ -752,54 +800,6 @@
       <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
       <description>Tres amigas disfrutan de un fin de semana en un balneario, hasta que una inesperada acompañante convierte su escapada en un caos lleno de situaciones hilarantes.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Practical Magic 2</title>
-      <link>https://www.cinecolombia.com/films/practical-magic-2/HO00000749/</link>
-      <guid isPermaLink="false">8e8a38e1-5fc8-4144-9757-801a9d9b9118</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Teenage Sex and Death at Camp Miasma</title>
-      <link>https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/</link>
-      <guid isPermaLink="false">f1f26815-6588-4ebb-94d8-628da2407aa2</guid>
-      <pubDate>Thu, 06 Aug 2026 17:00:39 GMT</pubDate>
-      <description>La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Into The Mortal World</title>
-      <link>https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/</link>
-      <guid isPermaLink="false">a8eb93ef-e95a-456d-902d-578ae8c191fe</guid>
-      <pubDate>Thu, 06 Aug 2026 11:00:39 GMT</pubDate>
-      <description>Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Disclosure Day</title>
-      <link>https://www.cinecolombia.com/films/disclosure-day/HO00000608/</link>
-      <guid isPermaLink="false">b78855a7-8801-4553-998b-d62bc08e180c</guid>
-      <pubDate>Thu, 06 Aug 2026 11:00:39 GMT</pubDate>
-      <description>Un evento global sin precedentes ocurre cuando se confirma oficialmente la presencia de inteligencia no humana en la Tierra, desencadenando una serie de encuentros.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/uGww4UrU3316Mld4p30dgdM09Du.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: La petite dernière</title>
-      <link>https://www.cinecolombia.com/films/la-petite-derniere/HO00000658/</link>
-      <guid isPermaLink="false">f8933a14-a2d7-4a4a-bf48-652607205d8b</guid>
-      <pubDate>Thu, 06 Aug 2026 11:00:39 GMT</pubDate>
-      <description>Fátima, de 17 años, la hija menor de una familia franco-argelina en un suburbio parisino juega fútbol y tiene un novio secreto, pero oculta su atracción por las mujeres.
-</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pae1NQnQW2fiVB4Aw3XwXJozd5u.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Bien Inmueble</title>
-      <link>https://www.cinecolombia.com/films/bien-inmueble/HO00000720/</link>
-      <guid isPermaLink="false">4f1e7287-67a2-4254-a26a-aba6019b8370</guid>
-      <pubDate>Thu, 06 Aug 2026 11:00:39 GMT</pubDate>
-      <description>Es Gretel, una corredora de bienes raíces, quien nos guía por lugares cargados de valor sentimental y la memoria detrás de cada objeto, de cada espacio.</description>
     </item>
   </channel>
 </rss>

@@ -7714,6 +7714,179 @@
           "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
         }
       }
+    },
+    {
+      "guid": "7df151b8-8542-49e0-aa05-6cb85a2ae0f5",
+      "type": "added",
+      "filmId": "HO00000780",
+      "createdAt": "2026-09-08T23:00:32.405Z",
+      "snapshot": {
+        "id": "HO00000780",
+        "title": "Climax",
+        "shortSynopsis": "Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 97,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Musical",
+          "Terror"
+        ],
+        "director": "Gaspar Noé",
+        "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
+        "tmdb": {
+          "tmdbId": 1723396,
+          "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4177f4a8-0731-4226-b717-d94bdc53a6bb",
+      "type": "now-in-theaters",
+      "filmId": "HO00000634",
+      "createdAt": "2026-09-08T23:00:32.405Z",
+      "snapshot": {
+        "id": "HO00000634",
+        "title": "Mutiny",
+        "shortSynopsis": "Tras presenciar el asesinato de su jefe multimillonario y ser incriminado por el crimen, Cole Reed aborda un barco de carga en una misión en solitario.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jean-François Richet",
+        "webUrl": "https://www.cinecolombia.com/films/mutiny/HO00000634/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg",
+        "tmdb": {
+          "tmdbId": 1288445,
+          "posterPath": "/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg"
+        }
+      }
+    },
+    {
+      "guid": "148ea8b6-f086-44c0-9634-1bd36dbf0041",
+      "type": "now-in-theaters",
+      "filmId": "HO00000746",
+      "createdAt": "2026-09-08T23:00:32.405Z",
+      "snapshot": {
+        "id": "HO00000746",
+        "title": "Masha And The Bears",
+        "shortSynopsis": "Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 80,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Antonina Ruzhe",
+        "webUrl": "https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg",
+        "tmdb": {
+          "tmdbId": 1448028,
+          "posterPath": "/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4950cf7b-22dc-4a41-b133-aaa0decd3a58",
+      "type": "now-in-theaters",
+      "filmId": "HO00000748",
+      "createdAt": "2026-09-08T23:00:32.405Z",
+      "snapshot": {
+        "id": "HO00000748",
+        "title": "Spa Weekend",
+        "shortSynopsis": "Tres amigas disfrutan de un fin de semana en un spa, hasta que una amiga caótica se une al viaje y convierte la escapada en un divertido desastre.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 97,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Jon Lucas",
+        "webUrl": "https://www.cinecolombia.com/films/spa-weekend/HO00000748/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg",
+        "tmdb": {
+          "tmdbId": 1341138,
+          "posterPath": "/dShb891SRyGvQxOkgz72i0HsdEU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9d2d2fca-4e67-4af6-bedf-a0ce7e677fcc",
+      "type": "now-in-theaters",
+      "filmId": "HO00000749",
+      "createdAt": "2026-09-08T23:00:32.405Z",
+      "snapshot": {
+        "id": "HO00000749",
+        "title": "Practical Magic 2",
+        "shortSynopsis": "Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 125,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Fantasía",
+          "Romance"
+        ],
+        "director": "Susanne Bier",
+        "webUrl": "https://www.cinecolombia.com/films/practical-magic-2/HO00000749/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg",
+        "tmdb": {
+          "tmdbId": 1302904,
+          "posterPath": "/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e2470449-99fd-4444-a7d9-4403e9932bff",
+      "type": "now-in-theaters",
+      "filmId": "HO00000770",
+      "createdAt": "2026-09-08T23:00:32.405Z",
+      "snapshot": {
+        "id": "HO00000770",
+        "title": "Les digo \"Almas\"",
+        "shortSynopsis": "Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 109,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Libia Stella Gómez",
+        "webUrl": "https://www.cinecolombia.com/films/les-digo-almas/HO00000770/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg",
+        "tmdb": {
+          "tmdbId": 1354672,
+          "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
+        }
+      }
     }
   ]
 }

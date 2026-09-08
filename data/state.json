@@ -1956,7 +1956,7 @@
       "director": "Sue Kim",
       "webUrl": "https://www.cinecolombia.com/films/always-lalisa/HO00000779/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg",
       "tmdb": {
@@ -2504,5 +2504,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-07T23:00:28.837Z"
+  "lastRun": "2026-09-08T05:00:28.408Z"
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Always Lalisa</title>
+      <link>https://www.cinecolombia.com/films/always-lalisa/HO00000779/</link>
+      <guid isPermaLink="false">4e8731bf-67d6-4c6d-a3cf-92ab82aa31a8</guid>
+      <pubDate>Tue, 08 Sep 2026 05:00:28 GMT</pubDate>
+      <description>Always Lalisa&apos; documenta un año de LISA fuera de Blackpink: su álbum &apos;Alter Ego&apos;, su debut en &apos;The White Lotus&apos; y su show en Coachella 2025.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Always Lalisa</title>
       <link>https://www.cinecolombia.com/films/always-lalisa/HO00000779/</link>
       <guid isPermaLink="false">f27a57b0-4bcb-43c9-adba-154ebd77365a</guid>
@@ -791,14 +799,6 @@
       <guid isPermaLink="false">a58f0919-65ab-45e7-afda-2ce2220fc634</guid>
       <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
       <description>Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.</description>
-    </item>
-    <item>
-      <title>En cartelera: Las Bravas</title>
-      <link>https://www.cinecolombia.com/films/las-bravas/HO00000739/</link>
-      <guid isPermaLink="false">3d06db29-7e9c-4070-a43b-7ff251f87046</guid>
-      <pubDate>Thu, 06 Aug 2026 05:00:39 GMT</pubDate>
-      <description>En Bucaramanga, cinco mujeres desafían un mundo dominado por hombres para conquistar su lugar en la tribuna y vivir su pasión por el fútbol.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/zBpFifzlifXiDxQyOjKZB6shddL.jpg" medium="image" />
     </item>
   </channel>
 </rss>

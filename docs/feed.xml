@@ -7,6 +7,54 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Unicornio</title>
+      <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
+      <guid isPermaLink="false">f0a1b772-2bbd-47dc-b43d-b70854f24091</guid>
+      <pubDate>Wed, 09 Sep 2026 05:00:31 GMT</pubDate>
+      <description>Unicornio&apos;, con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: The Drift</title>
+      <link>https://www.cinecolombia.com/films/the-drift/HO00000781/</link>
+      <guid isPermaLink="false">893a1128-12c5-47d4-90d0-bd11f22ca5af</guid>
+      <pubDate>Wed, 09 Sep 2026 05:00:31 GMT</pubDate>
+      <description>Un patinador queda atrapado en un témpano a la deriva en el Ártico. Mientras el hielo se derrite rumbo al sur, deberá hacer lo imposible para sobrevivir.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Tres Hermanas</title>
+      <link>https://www.cinecolombia.com/films/tres-hermanas/HO00000782/</link>
+      <guid isPermaLink="false">6a2ce9b2-129c-42df-a327-00e58587a7f0</guid>
+      <pubDate>Wed, 09 Sep 2026 05:00:31 GMT</pubDate>
+      <description>Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Cars</title>
+      <link>https://www.cinecolombia.com/films/cars/HO00000783/</link>
+      <guid isPermaLink="false">86de92e0-8380-4841-b9e9-9e421d2ec2b4</guid>
+      <pubDate>Wed, 09 Sep 2026 05:00:31 GMT</pubDate>
+      <description>Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Piedras preciosas</title>
+      <link>https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/</link>
+      <guid isPermaLink="false">6958c036-dd05-4585-8cb6-c5baa2778ece</guid>
+      <pubDate>Wed, 09 Sep 2026 05:00:31 GMT</pubDate>
+      <description>Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: A Useful Ghost</title>
+      <link>https://www.cinecolombia.com/films/a-useful-ghost/HO00000778/</link>
+      <guid isPermaLink="false">8f6a5846-62cd-4dfd-86b0-5197da14e711</guid>
+      <pubDate>Wed, 09 Sep 2026 05:00:31 GMT</pubDate>
+      <description>March descubre que su esposa Nat, muerta por polvo, reencarnó en una aspiradora. Mientras su familia rechaza el vínculo, un poderoso político cambia sus planes.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Climax</title>
       <link>https://www.cinecolombia.com/films/climax/HO00000780/</link>
       <guid isPermaLink="false">7df151b8-8542-49e0-aa05-6cb85a2ae0f5</guid>
@@ -753,53 +801,6 @@
       <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
       <description>La primera gira de CORTIS llega a los cines con un show lleno de energía, celebrando su música, su primer aniversario y la conexión con sus fans.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Violent Night 2</title>
-      <link>https://www.cinecolombia.com/films/violent-night-2/HO00000743/</link>
-      <guid isPermaLink="false">8f806b5c-c64d-4959-9fd1-87cbc5171fb2</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Santa Claus deberá recuperar el espíritu navideño y sus poderes para enfrentarse a un despiadado gánster que amenaza a toda una comunidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Wild Horse Nine</title>
-      <link>https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/</link>
-      <guid isPermaLink="false">1e2d4e70-70d0-41be-89e7-ceab5cf24e44</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>En vísperas del golpe de Estado chileno de 1973, dos agentes de la CIA viajan a Isla de Pascua, donde secretos y nuevas alianzas ponen en riesgo su misión.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Train to Busan (Re-release)</title>
-      <link>https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/</link>
-      <guid isPermaLink="false">e8bdce2f-f380-415a-8246-b36ef2997848</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.</description>
-    </item>
-    <item>
-      <title>Pronto: Masha And The Bears</title>
-      <link>https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/</link>
-      <guid isPermaLink="false">a901ba97-8833-4f36-bbb1-db50ce261f53</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Dead Man&apos;s Wire</title>
-      <link>https://www.cinecolombia.com/films/dead-mans-wire/HO00000747/</link>
-      <guid isPermaLink="false">89113186-19f6-4d47-a9fa-e3ec54b57374</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/19JQnXT21OtH24fBgexkDFVFEoS.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Spa Weekend</title>
-      <link>https://www.cinecolombia.com/films/spa-weekend/HO00000748/</link>
-      <guid isPermaLink="false">991a2a4d-cb7c-41a6-946a-17c3cc73f0be</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Tres amigas disfrutan de un fin de semana en un balneario, hasta que una inesperada acompañante convierte su escapada en un caos lleno de situaciones hilarantes.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -503,7 +503,8 @@
       "director": "Simón Vélez",
       "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
       "tmdb": {
@@ -1818,7 +1819,7 @@
       "id": "HO00000769",
       "title": "Parsifal",
       "shortSynopsis": "Parsifal', última ópera de Wagner, con Piotr Beczała y Elīna Garanča, dirigida por Yannick Nézet-Séguin. Fe, compasión y redención en 3 actos.",
-      "releaseDate": "2026-10-01",
+      "releaseDate": "2027-06-05",
       "runtimeInMinutes": 365,
       "censorRating": "Pendiente",
       "genres": [
@@ -1877,6 +1878,27 @@
       "tmdb": {
         "tmdbId": 878608,
         "posterPath": "/vQZK421erWKR5PgF4pbz0lp4o3o.jpg"
+      }
+    },
+    {
+      "id": "HO00000773",
+      "title": "Unicornio",
+      "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
+      "releaseDate": "2026-09-17",
+      "runtimeInMinutes": 113,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Natural Arpajou",
+      "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+      "tmdb": {
+        "tmdbId": 1153714,
+        "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
       }
     },
     {
@@ -1983,7 +2005,8 @@
       "director": "Ratchapoom Boonbunchachoke",
       "webUrl": "https://www.cinecolombia.com/films/a-useful-ghost/HO00000778/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg",
       "tmdb": {
@@ -2034,6 +2057,72 @@
       "tmdb": {
         "tmdbId": 1723396,
         "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+      }
+    },
+    {
+      "id": "HO00000781",
+      "title": "The Drift",
+      "shortSynopsis": "Un patinador queda atrapado en un témpano a la deriva en el Ártico. Mientras el hielo se derrite rumbo al sur, deberá hacer lo imposible para sobrevivir.",
+      "releaseDate": "2026-09-17",
+      "runtimeInMinutes": 83,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Taavi Vartia",
+      "webUrl": "https://www.cinecolombia.com/films/the-drift/HO00000781/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
+      "tmdb": {
+        "tmdbId": 9615,
+        "posterPath": "/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg"
+      }
+    },
+    {
+      "id": "HO00000782",
+      "title": "Tres Hermanas",
+      "shortSynopsis": "Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. ",
+      "releaseDate": "2026-09-17",
+      "runtimeInMinutes": 79,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental",
+        "Drama"
+      ],
+      "director": "Joyce Ventura",
+      "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
+      "tmdb": {
+        "tmdbId": 1227852,
+        "posterPath": "/cOuwEupfObFw7FZSQrssFehG3F0.jpg"
+      }
+    },
+    {
+      "id": "HO00000783",
+      "title": "Cars",
+      "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 116,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "director": "John Lasseter",
+      "webUrl": "https://www.cinecolombia.com/films/cars/HO00000783/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg",
+      "tmdb": {
+        "tmdbId": 920,
+        "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
       }
     }
   ],
@@ -2577,8 +2666,24 @@
     "HO00000780": {
       "tmdbId": 1723396,
       "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+    },
+    "HO00000783": {
+      "tmdbId": 920,
+      "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
+    },
+    "HO00000781": {
+      "tmdbId": 9615,
+      "posterPath": "/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg"
+    },
+    "HO00000782": {
+      "tmdbId": 1227852,
+      "posterPath": "/cOuwEupfObFw7FZSQrssFehG3F0.jpg"
+    },
+    "HO00000773": {
+      "tmdbId": 1153714,
+      "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-08T23:00:32.408Z"
+  "lastRun": "2026-09-09T05:00:31.504Z"
 }

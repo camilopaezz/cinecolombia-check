@@ -7887,6 +7887,173 @@
           "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
         }
       }
+    },
+    {
+      "guid": "f0a1b772-2bbd-47dc-b43d-b70854f24091",
+      "type": "added",
+      "filmId": "HO00000773",
+      "createdAt": "2026-09-09T05:00:31.501Z",
+      "snapshot": {
+        "id": "HO00000773",
+        "title": "Unicornio",
+        "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 113,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Natural Arpajou",
+        "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+        "tmdb": {
+          "tmdbId": 1153714,
+          "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "893a1128-12c5-47d4-90d0-bd11f22ca5af",
+      "type": "added",
+      "filmId": "HO00000781",
+      "createdAt": "2026-09-09T05:00:31.501Z",
+      "snapshot": {
+        "id": "HO00000781",
+        "title": "The Drift",
+        "shortSynopsis": "Un patinador queda atrapado en un témpano a la deriva en el Ártico. Mientras el hielo se derrite rumbo al sur, deberá hacer lo imposible para sobrevivir.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 83,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Taavi Vartia",
+        "webUrl": "https://www.cinecolombia.com/films/the-drift/HO00000781/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
+        "tmdb": {
+          "tmdbId": 9615,
+          "posterPath": "/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6a2ce9b2-129c-42df-a327-00e58587a7f0",
+      "type": "added",
+      "filmId": "HO00000782",
+      "createdAt": "2026-09-09T05:00:31.501Z",
+      "snapshot": {
+        "id": "HO00000782",
+        "title": "Tres Hermanas",
+        "shortSynopsis": "Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. ",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 79,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental",
+          "Drama"
+        ],
+        "director": "Joyce Ventura",
+        "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
+        "tmdb": {
+          "tmdbId": 1227852,
+          "posterPath": "/cOuwEupfObFw7FZSQrssFehG3F0.jpg"
+        }
+      }
+    },
+    {
+      "guid": "86de92e0-8380-4841-b9e9-9e421d2ec2b4",
+      "type": "added",
+      "filmId": "HO00000783",
+      "createdAt": "2026-09-09T05:00:31.501Z",
+      "snapshot": {
+        "id": "HO00000783",
+        "title": "Cars",
+        "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 116,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "John Lasseter",
+        "webUrl": "https://www.cinecolombia.com/films/cars/HO00000783/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg",
+        "tmdb": {
+          "tmdbId": 920,
+          "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6958c036-dd05-4585-8cb6-c5baa2778ece",
+      "type": "now-in-theaters",
+      "filmId": "HO00000659",
+      "createdAt": "2026-09-09T05:00:31.501Z",
+      "snapshot": {
+        "id": "HO00000659",
+        "title": "Piedras preciosas",
+        "shortSynopsis": "Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 70,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Simón Vélez",
+        "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
+        "tmdb": {
+          "tmdbId": 1426106,
+          "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8f6a5846-62cd-4dfd-86b0-5197da14e711",
+      "type": "now-in-theaters",
+      "filmId": "HO00000778",
+      "createdAt": "2026-09-09T05:00:31.501Z",
+      "snapshot": {
+        "id": "HO00000778",
+        "title": "A Useful Ghost",
+        "shortSynopsis": "March descubre que su esposa Nat, muerta por polvo, reencarnó en una aspiradora. Mientras su familia rechaza el vínculo, un poderoso político cambia sus planes.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 130,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Ratchapoom Boonbunchachoke",
+        "webUrl": "https://www.cinecolombia.com/films/a-useful-ghost/HO00000778/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg",
+        "tmdb": {
+          "tmdbId": 1364904,
+          "posterPath": "/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg"
+        }
+      }
     }
   ]
 }

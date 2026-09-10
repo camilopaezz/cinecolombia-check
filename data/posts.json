@@ -8165,6 +8165,147 @@
           "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
         }
       }
+    },
+    {
+      "guid": "36badc2b-8c5a-489a-bfe1-06f42eed1657",
+      "type": "now-in-theaters",
+      "filmId": "HO00000596",
+      "createdAt": "2026-09-10T11:00:30.274Z",
+      "snapshot": {
+        "id": "HO00000596",
+        "title": "Dune: Part Three",
+        "shortSynopsis": "Diecisiete años después de su ascenso al trono, Paul Atreides reina como el Mesías desde Arrakis mientras la yihad librada en su nombre ha segado miles de millones de vid",
+        "releaseDate": "2026-12-17",
+        "runtimeInMinutes": 166,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Ciencia Ficción"
+        ],
+        "director": "Denis Villeneuve",
+        "webUrl": "https://www.cinecolombia.com/films/dune-part-three/HO00000596/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ceKywESF1WPVlfdYRTrvZbTkSXV.jpg",
+        "tmdb": {
+          "tmdbId": 1170608,
+          "posterPath": "/ceKywESF1WPVlfdYRTrvZbTkSXV.jpg"
+        }
+      }
+    },
+    {
+      "guid": "26f6a5ef-1c36-4c1d-9b02-3a84f2f06220",
+      "type": "removed",
+      "filmId": "HO00000618",
+      "createdAt": "2026-09-10T11:00:30.274Z",
+      "snapshot": {
+        "id": "HO00000618",
+        "title": "The End of Oak Street",
+        "shortSynopsis": "Después de que un misterioso fenómeno cósmico arranque Oak Street de su entorno suburbano y transporte a sus habitantes a un lugar desconocido.",
+        "releaseDate": "2026-08-13",
+        "runtimeInMinutes": 100,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Fantasía"
+        ],
+        "director": "David Robert Mitchell",
+        "webUrl": "https://www.cinecolombia.com/films/the-end-of-oak-street/HO00000618/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg",
+        "tmdb": {
+          "tmdbId": 1101383,
+          "posterPath": "/60bRdW7JTXTaSMFgLHjcoS1fXHh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "dde8486a-43f5-4ad6-8c91-fba26846fa72",
+      "type": "removed",
+      "filmId": "HO00000663",
+      "createdAt": "2026-09-10T11:00:30.274Z",
+      "snapshot": {
+        "id": "HO00000663",
+        "title": "Shadow of God",
+        "shortSynopsis": "Mientras realiza un exorcismo no autorizado a su padre, un exorcista de élite sospecha que la entidad con la que está batallando podría ser un ser santo.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 87,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Michael Peterson",
+        "webUrl": "https://www.cinecolombia.com/films/shadow-of-god/HO00000663/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9rhDgD5lB3S0W1bqDiPs8asJW1G.jpg",
+        "tmdb": {
+          "tmdbId": 1227003,
+          "posterPath": "/9rhDgD5lB3S0W1bqDiPs8asJW1G.jpg"
+        }
+      }
+    },
+    {
+      "guid": "7b5f36b8-567c-4f1c-afc3-9e38e37344ae",
+      "type": "removed",
+      "filmId": "HO00000691",
+      "createdAt": "2026-09-10T11:00:30.274Z",
+      "snapshot": {
+        "id": "HO00000691",
+        "title": "Ice Cream Man",
+        "shortSynopsis": "Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 86,
+        "censorRating": "+18 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Eli Roth",
+        "webUrl": "https://www.cinecolombia.com/films/ice-cream-man/HO00000691/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg",
+        "tmdb": {
+          "tmdbId": 1477712,
+          "posterPath": "/42k9fYJX7RMCxA4w2YVRv393dRG.jpg"
+        }
+      }
+    },
+    {
+      "guid": "062671cd-298f-4aa7-af0e-27d0c2c4e817",
+      "type": "removed",
+      "filmId": "HO00000751",
+      "createdAt": "2026-09-10T11:00:30.274Z",
+      "snapshot": {
+        "id": "HO00000751",
+        "title": "Marsupilami",
+        "shortSynopsis": "David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 99,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Philippe Lacheau",
+        "webUrl": "https://www.cinecolombia.com/films/marsupilami/HO00000751/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg",
+        "tmdb": {
+          "tmdbId": 1145899,
+          "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
+        }
+      }
     }
   ]
 }

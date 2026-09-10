@@ -8306,6 +8306,34 @@
           "posterPath": "/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg"
         }
       }
+    },
+    {
+      "guid": "0636bd58-9097-4132-ab49-78f98c50548e",
+      "type": "added",
+      "filmId": "HO00000786",
+      "createdAt": "2026-09-10T23:00:29.935Z",
+      "snapshot": {
+        "id": "HO00000786",
+        "title": "Pacífico",
+        "shortSynopsis": "Pacífico' sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Riccardo Gabrielli R.",
+        "webUrl": "https://www.cinecolombia.com/films/pacifico/HO00000786/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg",
+        "tmdb": {
+          "tmdbId": 890216,
+          "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
+        }
+      }
     }
   ]
 }

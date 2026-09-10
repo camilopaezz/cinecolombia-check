@@ -452,7 +452,7 @@
       "shortSynopsis": "Danny, un niño tímido, imagina un mundo extraordinario donde él y su querido perro Charlie protagonizan sus propias aventuras de superhéroes.",
       "releaseDate": "2026-09-17",
       "runtimeInMinutes": 91,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación"
       ],
@@ -1935,6 +1935,7 @@
       "director": "Sue Kim",
       "webUrl": "https://www.cinecolombia.com/films/always-lalisa/HO00000779/",
       "categories": [
+        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg",
@@ -1972,7 +1973,7 @@
       "shortSynopsis": "Un patinador queda atrapado en un témpano a la deriva en el Ártico. Mientras el hielo se derrite rumbo al sur, deberá hacer lo imposible para sobrevivir.",
       "releaseDate": "2026-09-17",
       "runtimeInMinutes": 83,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Drama"
       ],
@@ -2071,6 +2072,28 @@
       "tmdb": {
         "tmdbId": 1432596,
         "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
+      }
+    },
+    {
+      "id": "HO00000786",
+      "title": "Pacífico",
+      "shortSynopsis": "Pacífico' sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 93,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Aventura",
+        "Drama"
+      ],
+      "director": "Riccardo Gabrielli R.",
+      "webUrl": "https://www.cinecolombia.com/films/pacifico/HO00000786/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg",
+      "tmdb": {
+        "tmdbId": 890216,
+        "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
       }
     }
   ],
@@ -2634,8 +2657,12 @@
     "HO00000785": {
       "tmdbId": 1432596,
       "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
+    },
+    "HO00000786": {
+      "tmdbId": 890216,
+      "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-10T17:00:12.857Z"
+  "lastRun": "2026-09-10T23:00:29.938Z"
 }

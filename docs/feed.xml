@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Pacífico</title>
+      <link>https://www.cinecolombia.com/films/pacifico/HO00000786/</link>
+      <guid isPermaLink="false">0636bd58-9097-4132-ab49-78f98c50548e</guid>
+      <pubDate>Thu, 10 Sep 2026 23:00:29 GMT</pubDate>
+      <description>Pacífico&apos; sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Dune: Part Three</title>
       <link>https://www.cinecolombia.com/films/dune-part-three/HO00000596/</link>
       <guid isPermaLink="false">36badc2b-8c5a-489a-bfe1-06f42eed1657</guid>
@@ -793,13 +801,6 @@
       <pubDate>Thu, 13 Aug 2026 05:00:42 GMT</pubDate>
       <description>Moana que quiere ser una viajera marinera. Cuando su isla natal se ve amenazada, Moana debe adentrarse en el mar junto a un semidiós llamado Maui para salvar a su pueblo.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wC27PIEqSthbUhaVMdYEhaTzYmo.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Terminator 2: Judgement Day (35th Anniversary)</title>
-      <link>https://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/</link>
-      <guid isPermaLink="false">7930ffdf-d0c7-46ed-9a19-f2c9690318d3</guid>
-      <pubDate>Wed, 12 Aug 2026 23:00:41 GMT</pubDate>
-      <description>Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.</description>
     </item>
   </channel>
 </rss>

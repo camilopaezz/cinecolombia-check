@@ -7,6 +7,37 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Clave de Amor</title>
+      <link>https://www.cinecolombia.com/films/clave-de-amor/HO00000784/</link>
+      <guid isPermaLink="false">da319163-1c3c-424b-aa91-518d37d8fab9</guid>
+      <pubDate>Thu, 10 Sep 2026 05:00:30 GMT</pubDate>
+      <description>Impulsado por el sueño de su padre, un joven campesino deja su pueblo para estudiar en el Conservatorio del Tolima, descubriendo el amor y sus raíces culturales.</description>
+    </item>
+    <item>
+      <title>Pronto: Palestine 36</title>
+      <link>https://www.cinecolombia.com/films/palestine-36/HO00000785/</link>
+      <guid isPermaLink="false">2c7b7ee0-d54d-46b1-8a22-3b003642bb90</guid>
+      <pubDate>Thu, 10 Sep 2026 05:00:30 GMT</pubDate>
+      <description>En 1936, en plena revuelta palestina contra el dominio británico, Yusuf sueña con un futuro mejor hasta verse arrastrado a un conflicto que cambiará su destino.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Resident Evil</title>
+      <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
+      <guid isPermaLink="false">aabcadd0-12d2-4720-996c-99f8e1503676</guid>
+      <pubDate>Thu, 10 Sep 2026 05:00:30 GMT</pubDate>
+      <description>En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Heart of the Beast</title>
+      <link>https://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/</link>
+      <guid isPermaLink="false">e8daa7d2-878c-4495-b9d4-1e03b46650ac</guid>
+      <pubDate>Thu, 10 Sep 2026 05:00:30 GMT</pubDate>
+      <description>Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Unicornio</title>
       <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
       <guid isPermaLink="false">f0a1b772-2bbd-47dc-b43d-b70854f24091</guid>
@@ -769,38 +800,6 @@
       <pubDate>Wed, 12 Aug 2026 05:00:40 GMT</pubDate>
       <description>Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Finding Emily</title>
-      <link>https://www.cinecolombia.com/films/finding-emily/HO00000628/</link>
-      <guid isPermaLink="false">f99e847a-6952-4f25-b40d-94321ed4f06e</guid>
-      <pubDate>Tue, 11 Aug 2026 11:00:40 GMT</pubDate>
-      <description>Cuando a un músico enamorado le dan un número equivocado para llamar a la chica de sus sueños, se une a una ambiciosa estudiante de psicología para encontrarla.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Ateez: Light the Way in Cinemas</title>
-      <link>https://www.cinecolombia.com/films/ateez-light-the-way-in-cinemas/HO00000671/</link>
-      <guid isPermaLink="false">70f71a9c-e875-469c-b82d-91b3b17fac42</guid>
-      <pubDate>Sun, 09 Aug 2026 05:00:39 GMT</pubDate>
-      <description>Un día, llega un misterioso mensaje para ATEEZ, quienes habían estado pasando unos días tranquilos en su escondite. En ese momento, todo empezó a cambiar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/jPtUs7hVAp08FjOR2YnojdPhayX.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Aida</title>
-      <link>https://www.cinecolombia.com/films/aida/HO00000693/</link>
-      <guid isPermaLink="false">070ad2ce-5eef-40bc-946e-17b6199603e0</guid>
-      <pubDate>Sat, 08 Aug 2026 23:00:43 GMT</pubDate>
-      <description>Una impactante puesta en escena de esta grandiosa ópera, con un telón de fondo épico para una historia de amor ambientada en el antiguo Egipto.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/k3Bk1v28P0ZVQKFL90WtttpQhEP.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: CORTIS PUT YOUR PHONE DOWN LIVE VIEWING</title>
-      <link>https://www.cinecolombia.com/films/cortis-put-your-phone-down-live-viewing/HO00000742/</link>
-      <guid isPermaLink="false">ac2077fe-4baf-454d-b0c7-473b6ef4b4c0</guid>
-      <pubDate>Fri, 07 Aug 2026 23:00:43 GMT</pubDate>
-      <description>La primera gira de CORTIS llega a los cines con un show lleno de energía, celebrando su música, su primer aniversario y la conexión con sus fans.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wL2JQiKVhpyVZGdYnJnp86hQ6If.jpg" medium="image" />
     </item>
   </channel>
 </rss>

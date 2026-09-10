@@ -8054,6 +8054,117 @@
           "posterPath": "/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg"
         }
       }
+    },
+    {
+      "guid": "da319163-1c3c-424b-aa91-518d37d8fab9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000784",
+      "createdAt": "2026-09-10T05:00:30.104Z",
+      "snapshot": {
+        "id": "HO00000784",
+        "title": "Clave de Amor",
+        "shortSynopsis": "Impulsado por el sueño de su padre, un joven campesino deja su pueblo para estudiar en el Conservatorio del Tolima, descubriendo el amor y sus raíces culturales.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 100,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Drama",
+          "Música",
+          "Romance"
+        ],
+        "director": "Luis Fernando Bernal Polo",
+        "webUrl": "https://www.cinecolombia.com/films/clave-de-amor/HO00000784/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "2c7b7ee0-d54d-46b1-8a22-3b003642bb90",
+      "type": "added",
+      "filmId": "HO00000785",
+      "createdAt": "2026-09-10T05:00:30.104Z",
+      "snapshot": {
+        "id": "HO00000785",
+        "title": "Palestine 36",
+        "shortSynopsis": "En 1936, en plena revuelta palestina contra el dominio británico, Yusuf sueña con un futuro mejor hasta verse arrastrado a un conflicto que cambiará su destino.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 119,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Historia"
+        ],
+        "director": "Annemarie Jacir",
+        "webUrl": "https://www.cinecolombia.com/films/palestine-36/HO00000785/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg",
+        "tmdb": {
+          "tmdbId": 1432596,
+          "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "aabcadd0-12d2-4720-996c-99f8e1503676",
+      "type": "now-in-theaters",
+      "filmId": "HO00000669",
+      "createdAt": "2026-09-10T05:00:30.104Z",
+      "snapshot": {
+        "id": "HO00000669",
+        "title": "Resident Evil",
+        "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Zach Cregger",
+        "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
+        "tmdb": {
+          "tmdbId": 1423191,
+          "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e8daa7d2-878c-4495-b9d4-1e03b46650ac",
+      "type": "now-in-theaters",
+      "filmId": "HO00000698",
+      "createdAt": "2026-09-10T05:00:30.104Z",
+      "snapshot": {
+        "id": "HO00000698",
+        "title": "Heart of the Beast",
+        "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 101,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "David Ayer",
+        "webUrl": "https://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+        "tmdb": {
+          "tmdbId": 1263337,
+          "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
+        }
+      }
     }
   ]
 }

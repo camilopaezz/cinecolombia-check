@@ -139,7 +139,7 @@
       "title": "Dune: Part Three",
       "shortSynopsis": "Diecisiete años después de su ascenso al trono, Paul Atreides reina como el Mesías desde Arrakis mientras la yihad librada en su nombre ha segado miles de millones de vid",
       "releaseDate": "2026-12-17",
-      "runtimeInMinutes": 123,
+      "runtimeInMinutes": 166,
       "censorRating": "Pendiente",
       "genres": [
         "Acción",
@@ -370,7 +370,6 @@
       "director": "Jean-François Richet",
       "webUrl": "https://www.cinecolombia.com/films/mutiny/HO00000634/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg",
@@ -503,7 +502,6 @@
       "director": "Simón Vélez",
       "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
@@ -590,7 +588,8 @@
       "director": "Zach Cregger",
       "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
       "tmdb": {
@@ -693,7 +692,7 @@
       "title": "Heart of the Beast",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
       "releaseDate": "2026-09-24",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 101,
       "censorRating": "Pendiente",
       "genres": [
         "Aventura",
@@ -703,7 +702,8 @@
       "director": "David Ayer",
       "webUrl": "https://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "tmdb": {
@@ -1181,7 +1181,6 @@
       "director": "Atsuji Shimizu",
       "webUrl": "https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg",
@@ -1314,7 +1313,6 @@
       "director": "Antonina Ruzhe",
       "webUrl": "https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg",
@@ -1359,7 +1357,6 @@
       "director": "Jon Lucas",
       "webUrl": "https://www.cinecolombia.com/films/spa-weekend/HO00000748/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg",
@@ -1382,7 +1379,6 @@
       "director": "Susanne Bier",
       "webUrl": "https://www.cinecolombia.com/films/practical-magic-2/HO00000749/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg",
@@ -1850,7 +1846,6 @@
       "director": "Libia Stella Gómez",
       "webUrl": "https://www.cinecolombia.com/films/les-digo-almas/HO00000770/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg",
@@ -1915,7 +1910,6 @@
       "director": "Dylan Southern",
       "webUrl": "https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
@@ -2005,7 +1999,6 @@
       "director": "Ratchapoom Boonbunchachoke",
       "webUrl": "https://www.cinecolombia.com/films/a-useful-ghost/HO00000778/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7bUn53aMQGlj1GGlIuxptyNtI3G.jpg",
@@ -2123,6 +2116,47 @@
       "tmdb": {
         "tmdbId": 920,
         "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
+      }
+    },
+    {
+      "id": "HO00000784",
+      "title": "Clave de Amor",
+      "shortSynopsis": "Impulsado por el sueño de su padre, un joven campesino deja su pueblo para estudiar en el Conservatorio del Tolima, descubriendo el amor y sus raíces culturales.",
+      "releaseDate": "2026-08-20",
+      "runtimeInMinutes": 100,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Drama",
+        "Música",
+        "Romance"
+      ],
+      "director": "Luis Fernando Bernal Polo",
+      "webUrl": "https://www.cinecolombia.com/films/clave-de-amor/HO00000784/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000785",
+      "title": "Palestine 36",
+      "shortSynopsis": "En 1936, en plena revuelta palestina contra el dominio británico, Yusuf sueña con un futuro mejor hasta verse arrastrado a un conflicto que cambiará su destino.",
+      "releaseDate": "2026-10-01",
+      "runtimeInMinutes": 119,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Historia"
+      ],
+      "director": "Annemarie Jacir",
+      "webUrl": "https://www.cinecolombia.com/films/palestine-36/HO00000785/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg",
+      "tmdb": {
+        "tmdbId": 1432596,
+        "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
       }
     }
   ],
@@ -2682,8 +2716,17 @@
     "HO00000773": {
       "tmdbId": 1153714,
       "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
+    },
+    "HO00000785": {
+      "tmdbId": 1432596,
+      "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-09-09T05:00:31.504Z"
+  "missingRuns": {
+    "HO00000618": 1,
+    "HO00000663": 1,
+    "HO00000691": 1,
+    "HO00000751": 1
+  },
+  "lastRun": "2026-09-10T05:00:30.107Z"
 }

@@ -140,7 +140,7 @@
       "shortSynopsis": "Diecisiete años después de su ascenso al trono, Paul Atreides reina como el Mesías desde Arrakis mientras la yihad librada en su nombre ha segado miles de millones de vid",
       "releaseDate": "2026-12-17",
       "runtimeInMinutes": 166,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Acción",
         "Aventura",
@@ -538,7 +538,7 @@
       "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
       "releaseDate": "2026-09-17",
       "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -629,7 +629,7 @@
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
       "releaseDate": "2026-09-24",
       "runtimeInMinutes": 101,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Aventura",
         "Drama",
@@ -2637,5 +2637,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-10T11:00:30.277Z"
+  "lastRun": "2026-09-10T17:00:12.857Z"
 }

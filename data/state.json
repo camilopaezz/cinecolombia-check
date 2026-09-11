@@ -895,7 +895,6 @@
       "director": "Robert Hastie",
       "webUrl": "https://www.cinecolombia.com/films/hamlet/HO00000726/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg",
@@ -1858,7 +1857,7 @@
       "id": "HO00000776",
       "title": "Colony",
       "shortSynopsis": "En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.",
-      "releaseDate": "2026-10-08",
+      "releaseDate": "2026-10-15",
       "runtimeInMinutes": 90,
       "censorRating": "Pendiente",
       "genres": [
@@ -2664,5 +2663,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-10T23:00:29.938Z"
+  "lastRun": "2026-09-11T05:00:30.868Z"
 }

@@ -2094,6 +2094,178 @@
         "tmdbId": 890216,
         "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
       }
+    },
+    {
+      "id": "HO00000787",
+      "title": "Renoir & Love",
+      "shortSynopsis": "Organizada por la National Gallery, Orsay y el MFA Boston, \"Renoir and Love\" explora el amor y la vida cotidiana en 40 obras del periodo dorado del artista (1860-1880).",
+      "releaseDate": "2027-02-18",
+      "runtimeInMinutes": 90,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Ali Ray",
+      "webUrl": "https://www.cinecolombia.com/films/renoir-love/HO00000787/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
+      "tmdb": {
+        "tmdbId": 1747216,
+        "posterPath": "/bx3HUEuH738asEZdkQspG9quvkA.jpg"
+      }
+    },
+    {
+      "id": "HO00000788",
+      "title": "James McNeill Whistler",
+      "shortSynopsis": "Exhibition on Screen lleva a los cines la primera gran retrospectiva de Whistler en tres décadas: un innovador del siglo XIX admirado por Van Gogh y Manet.",
+      "releaseDate": "2027-02-04",
+      "runtimeInMinutes": 90,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental"
+      ],
+      "director": "David Bickerstaff",
+      "webUrl": "https://www.cinecolombia.com/films/james-mcneill-whistler/HO00000788/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000789",
+      "title": "Caravaggio",
+      "shortSynopsis": "Premio del Público a Mejor Documental en Chichester: cinco años de rodaje tras las huellas de Caravaggio, entre autorretratos ocultos y los lugares que marcaron su vida.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 100,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Phil Grabsky",
+      "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
+      "tmdb": {
+        "tmdbId": 20537,
+        "posterPath": "/q2rGfOAJcwAIYUWPi716goAypFD.jpg"
+      }
+    },
+    {
+      "id": "HO00000790",
+      "title": "Turner & Constable",
+      "shortSynopsis": "A partir de la exposición del Tate Britain, Exhibition on Screen retrata la rivalidad \"fuego y agua\" entre Turner y Constable: dos visiones opuestas del paisaje británico",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 91,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental"
+      ],
+      "director": "David Bickerstaff",
+      "webUrl": "https://www.cinecolombia.com/films/turner-constable/HO00000790/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
+      "tmdb": {
+        "tmdbId": 1547768,
+        "posterPath": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg"
+      }
+    },
+    {
+      "id": "HO00000791",
+      "title": "The Hunger Games",
+      "shortSynopsis": "Cuando su hermana es elegida para los mortales Juegos del Hambre, Katniss Everdeen se ofrece en su lugar y deberá sobrevivir a una brutal competencia televisada en Panem.",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 142,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Suspenso"
+      ],
+      "director": "Gary Ross",
+      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games/HO00000791/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg",
+      "tmdb": {
+        "tmdbId": 70160,
+        "posterPath": "/qSEn7KsGchT7qB08HlviyeTPrEr.jpg"
+      }
+    },
+    {
+      "id": "HO00000792",
+      "title": "The Hunger Games: Catching Fire",
+      "shortSynopsis": "Katniss y Peeta recorren Panem como vencedores, pero su desafío enciende una rebelión. Snow altera las reglas de los 75.º Juegos del Hambre para silenciarlos.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 146,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Suspenso"
+      ],
+      "director": "Francis Lawrence",
+      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
+      "tmdb": {
+        "tmdbId": 101299,
+        "posterPath": "/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg"
+      }
+    },
+    {
+      "id": "HO00000793",
+      "title": "The Hunger Games: Mockingjay - Part 1",
+      "shortSynopsis": "En el Distrito 13, Katniss se convierte en símbolo de la rebelión contra el Capitolio, mientras Peeta sigue cautivo de Snow y una nación empieza a levantarse.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 123,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Suspenso"
+      ],
+      "director": "Francis Lawrence",
+      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-1/HO00000793/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg",
+      "tmdb": {
+        "tmdbId": 131631,
+        "posterPath": "/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg"
+      }
+    },
+    {
+      "id": "HO00000794",
+      "title": "The Hunger Games: Mockingjay - Part 2",
+      "shortSynopsis": "Tras destruir los Juegos del Hambre, Katniss halla refugio en el Distrito 13 y se convierte en el rostro de la rebelión, mientras Peeta sigue prisionero del Capitolio.",
+      "releaseDate": "2026-11-05",
+      "runtimeInMinutes": 137,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Suspenso"
+      ],
+      "director": "Francis Lawrence",
+      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-2/HO00000794/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
+      "tmdb": {
+        "tmdbId": 131634,
+        "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -2660,8 +2832,36 @@
     "HO00000786": {
       "tmdbId": 890216,
       "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
+    },
+    "HO00000789": {
+      "tmdbId": 20537,
+      "posterPath": "/q2rGfOAJcwAIYUWPi716goAypFD.jpg"
+    },
+    "HO00000787": {
+      "tmdbId": 1747216,
+      "posterPath": "/bx3HUEuH738asEZdkQspG9quvkA.jpg"
+    },
+    "HO00000791": {
+      "tmdbId": 70160,
+      "posterPath": "/qSEn7KsGchT7qB08HlviyeTPrEr.jpg"
+    },
+    "HO00000792": {
+      "tmdbId": 101299,
+      "posterPath": "/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg"
+    },
+    "HO00000793": {
+      "tmdbId": 131631,
+      "posterPath": "/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg"
+    },
+    "HO00000794": {
+      "tmdbId": 131634,
+      "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
+    },
+    "HO00000790": {
+      "tmdbId": 1547768,
+      "posterPath": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-11T05:00:30.868Z"
+  "lastRun": "2026-09-12T23:00:31.372Z"
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Hamlet</title>
+      <link>https://www.cinecolombia.com/films/hamlet/HO00000726/</link>
+      <guid isPermaLink="false">4041d9dc-e245-4194-8b06-619db7f3d591</guid>
+      <pubDate>Sun, 13 Sep 2026 23:00:28 GMT</pubDate>
+      <description>Hamlet queda atrapado entre el deber y la duda al intentar vengar a su padre, mientras su lucha interior amenaza su cordura y el destino del reino.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7cBh6fWchOJY961A8F1rT98HDdA.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Renoir &amp; Love</title>
       <link>https://www.cinecolombia.com/films/renoir-love/HO00000787/</link>
       <guid isPermaLink="false">29d547f9-be05-41db-be66-7332836b6fb4</guid>
@@ -792,14 +800,6 @@
       <pubDate>Wed, 19 Aug 2026 23:00:51 GMT</pubDate>
       <description>Dos madres enfrentan las presiones de la vida familiar y profesional, mientras un inesperado romance las lleva a replantear sus prioridades.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/4TCAsaSIUTLNRfzGIYsmiyBW3E9.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Das Verschwinden des Josef Mengele</title>
-      <link>https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/</link>
-      <guid isPermaLink="false">f7e5e5a7-e0c8-4569-b962-5a5e36c462f4</guid>
-      <pubDate>Wed, 19 Aug 2026 05:00:53 GMT</pubDate>
-      <description>Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg" medium="image" />
     </item>
   </channel>
 </rss>

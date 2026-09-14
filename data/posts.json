@@ -8581,6 +8581,114 @@
           "posterPath": "/7cBh6fWchOJY961A8F1rT98HDdA.jpg"
         }
       }
+    },
+    {
+      "guid": "6f216f0d-3dc0-4e6f-8f49-edf8c6b5e93f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000787",
+      "createdAt": "2026-09-14T23:00:31.535Z",
+      "snapshot": {
+        "id": "HO00000787",
+        "title": "Renoir & Love",
+        "shortSynopsis": "Organizada por la National Gallery, Orsay y el MFA Boston, \"Renoir and Love\" explora el amor y la vida cotidiana en 40 obras del periodo dorado del artista (1860-1880).",
+        "releaseDate": "2027-02-18",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Ali Ray",
+        "webUrl": "https://www.cinecolombia.com/films/renoir-love/HO00000787/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
+        "tmdb": {
+          "tmdbId": 1747216,
+          "posterPath": "/bx3HUEuH738asEZdkQspG9quvkA.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8c178c63-e283-4c80-8afa-760f8cbd410e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000788",
+      "createdAt": "2026-09-14T23:00:31.535Z",
+      "snapshot": {
+        "id": "HO00000788",
+        "title": "James McNeill Whistler",
+        "shortSynopsis": "Exhibition on Screen lleva a los cines la primera gran retrospectiva de Whistler en tres décadas: un innovador del siglo XIX admirado por Van Gogh y Manet.",
+        "releaseDate": "2027-02-04",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "David Bickerstaff",
+        "webUrl": "https://www.cinecolombia.com/films/james-mcneill-whistler/HO00000788/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "a5befb68-4bc6-46d1-bb51-61beacf1a9ab",
+      "type": "now-in-theaters",
+      "filmId": "HO00000789",
+      "createdAt": "2026-09-14T23:00:31.535Z",
+      "snapshot": {
+        "id": "HO00000789",
+        "title": "Caravaggio",
+        "shortSynopsis": "Premio del Público a Mejor Documental en Chichester: cinco años de rodaje tras las huellas de Caravaggio, entre autorretratos ocultos y los lugares que marcaron su vida.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 100,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Phil Grabsky",
+        "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
+        "tmdb": {
+          "tmdbId": 20537,
+          "posterPath": "/q2rGfOAJcwAIYUWPi716goAypFD.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ef82e1a4-9b25-4344-b4d8-6658ea4c6c3f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000790",
+      "createdAt": "2026-09-14T23:00:31.535Z",
+      "snapshot": {
+        "id": "HO00000790",
+        "title": "Turner & Constable",
+        "shortSynopsis": "A partir de la exposición del Tate Britain, Exhibition on Screen retrata la rivalidad \"fuego y agua\" entre Turner y Constable: dos visiones opuestas del paisaje británico",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "David Bickerstaff",
+        "webUrl": "https://www.cinecolombia.com/films/turner-constable/HO00000790/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
+        "tmdb": {
+          "tmdbId": 1547768,
+          "posterPath": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg"
+        }
+      }
     }
   ]
 }

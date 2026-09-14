@@ -1972,7 +1972,7 @@
       "shortSynopsis": "Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. ",
       "releaseDate": "2026-09-17",
       "runtimeInMinutes": 79,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Documental",
         "Drama"
@@ -2087,7 +2087,8 @@
       "director": "Ali Ray",
       "webUrl": "https://www.cinecolombia.com/films/renoir-love/HO00000787/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
       "tmdb": {
@@ -2108,7 +2109,8 @@
       "director": "David Bickerstaff",
       "webUrl": "https://www.cinecolombia.com/films/james-mcneill-whistler/HO00000788/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -2125,7 +2127,8 @@
       "director": "Phil Grabsky",
       "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
       "tmdb": {
@@ -2138,7 +2141,7 @@
       "title": "Turner & Constable",
       "shortSynopsis": "A partir de la exposición del Tate Britain, Exhibition on Screen retrata la rivalidad \"fuego y agua\" entre Turner y Constable: dos visiones opuestas del paisaje británico",
       "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 91,
+      "runtimeInMinutes": 90,
       "censorRating": "Pendiente",
       "genres": [
         "Documental"
@@ -2146,7 +2149,8 @@
       "director": "David Bickerstaff",
       "webUrl": "https://www.cinecolombia.com/films/turner-constable/HO00000790/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
       "tmdb": {
@@ -2842,5 +2846,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-14T17:00:28.661Z"
+  "lastRun": "2026-09-14T23:00:31.538Z"
 }

@@ -2087,8 +2087,7 @@
       "director": "Ali Ray",
       "webUrl": "https://www.cinecolombia.com/films/renoir-love/HO00000787/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
       "tmdb": {
@@ -2109,8 +2108,7 @@
       "director": "David Bickerstaff",
       "webUrl": "https://www.cinecolombia.com/films/james-mcneill-whistler/HO00000788/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": null
     },
@@ -2127,8 +2125,7 @@
       "director": "Phil Grabsky",
       "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
       "tmdb": {
@@ -2149,8 +2146,7 @@
       "director": "David Bickerstaff",
       "webUrl": "https://www.cinecolombia.com/films/turner-constable/HO00000790/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
       "tmdb": {
@@ -2173,7 +2169,8 @@
       "director": "Gary Ross",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games/HO00000791/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg",
       "tmdb": {
@@ -2196,7 +2193,8 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
       "tmdb": {
@@ -2219,7 +2217,8 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-1/HO00000793/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg",
       "tmdb": {
@@ -2242,12 +2241,57 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-2/HO00000794/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
       "tmdb": {
         "tmdbId": 131634,
         "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
+      }
+    },
+    {
+      "id": "HO00000795",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE",
+      "shortSynopsis": "La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.\n",
+      "releaseDate": "2026-10-24",
+      "runtimeInMinutes": 195,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto",
+        "Documental"
+      ],
+      "director": "Jungjae HA",
+      "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+      "tmdb": {
+        "tmdbId": 1770237,
+        "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+      }
+    },
+    {
+      "id": "HO00000796",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
+      "shortSynopsis": "Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.",
+      "releaseDate": "2026-10-30",
+      "runtimeInMinutes": 195,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto",
+        "Documental"
+      ],
+      "director": "Jungjae HA",
+      "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+      "tmdb": {
+        "tmdbId": 1770234,
+        "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
       }
     }
   ],
@@ -2843,8 +2887,18 @@
     "HO00000790": {
       "tmdbId": 1547768,
       "posterPath": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg"
+    },
+    "HO00000795": {
+      "tmdbId": 1770237,
+      "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+    },
+    "HO00000796": {
+      "tmdbId": 1770234,
+      "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-09-14T23:00:31.538Z"
+  "missingRuns": {
+    "HO00000706": 1
+  },
+  "lastRun": "2026-09-15T05:00:29.450Z"
 }

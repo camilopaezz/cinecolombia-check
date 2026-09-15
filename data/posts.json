@@ -8689,6 +8689,182 @@
           "posterPath": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg"
         }
       }
+    },
+    {
+      "guid": "7080d98f-9412-42ca-bf2a-5c5f1ff93e84",
+      "type": "added",
+      "filmId": "HO00000795",
+      "createdAt": "2026-09-15T05:00:29.447Z",
+      "snapshot": {
+        "id": "HO00000795",
+        "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE",
+        "shortSynopsis": "La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.\n",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Documental"
+        ],
+        "director": "Jungjae HA",
+        "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+        "tmdb": {
+          "tmdbId": 1770237,
+          "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "490b5848-9a8b-4b39-b98b-7b81ae519b90",
+      "type": "added",
+      "filmId": "HO00000796",
+      "createdAt": "2026-09-15T05:00:29.447Z",
+      "snapshot": {
+        "id": "HO00000796",
+        "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
+        "shortSynopsis": "Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.",
+        "releaseDate": "2026-10-30",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Documental"
+        ],
+        "director": "Jungjae HA",
+        "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+        "tmdb": {
+          "tmdbId": 1770234,
+          "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "1f28642e-2f83-4971-ac6a-e265cf35e8f7",
+      "type": "now-in-theaters",
+      "filmId": "HO00000791",
+      "createdAt": "2026-09-15T05:00:29.447Z",
+      "snapshot": {
+        "id": "HO00000791",
+        "title": "The Hunger Games",
+        "shortSynopsis": "Cuando su hermana es elegida para los mortales Juegos del Hambre, Katniss Everdeen se ofrece en su lugar y deberá sobrevivir a una brutal competencia televisada en Panem.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 142,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Gary Ross",
+        "webUrl": "https://www.cinecolombia.com/films/the-hunger-games/HO00000791/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg",
+        "tmdb": {
+          "tmdbId": 70160,
+          "posterPath": "/qSEn7KsGchT7qB08HlviyeTPrEr.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a8165e75-78b0-4f14-9c94-164674c4b087",
+      "type": "now-in-theaters",
+      "filmId": "HO00000792",
+      "createdAt": "2026-09-15T05:00:29.447Z",
+      "snapshot": {
+        "id": "HO00000792",
+        "title": "The Hunger Games: Catching Fire",
+        "shortSynopsis": "Katniss y Peeta recorren Panem como vencedores, pero su desafío enciende una rebelión. Snow altera las reglas de los 75.º Juegos del Hambre para silenciarlos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 146,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Francis Lawrence",
+        "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
+        "tmdb": {
+          "tmdbId": 101299,
+          "posterPath": "/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d42026e7-d73e-4a24-84ec-4e4b9a347c40",
+      "type": "now-in-theaters",
+      "filmId": "HO00000793",
+      "createdAt": "2026-09-15T05:00:29.447Z",
+      "snapshot": {
+        "id": "HO00000793",
+        "title": "The Hunger Games: Mockingjay - Part 1",
+        "shortSynopsis": "En el Distrito 13, Katniss se convierte en símbolo de la rebelión contra el Capitolio, mientras Peeta sigue cautivo de Snow y una nación empieza a levantarse.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 123,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Francis Lawrence",
+        "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-1/HO00000793/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg",
+        "tmdb": {
+          "tmdbId": 131631,
+          "posterPath": "/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c5a31442-c628-43de-93ae-2ad82d136b37",
+      "type": "now-in-theaters",
+      "filmId": "HO00000794",
+      "createdAt": "2026-09-15T05:00:29.447Z",
+      "snapshot": {
+        "id": "HO00000794",
+        "title": "The Hunger Games: Mockingjay - Part 2",
+        "shortSynopsis": "Tras destruir los Juegos del Hambre, Katniss halla refugio en el Distrito 13 y se convierte en el rostro de la rebelión, mientras Peeta sigue prisionero del Capitolio.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 137,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Francis Lawrence",
+        "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-2/HO00000794/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
+        "tmdb": {
+          "tmdbId": 131634,
+          "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
+        }
+      }
     }
   ]
 }

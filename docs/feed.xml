@@ -7,6 +7,55 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: BTS WORLD TOUR &apos;ARIRANG&apos; IN BUENOS AIRES: LIVE</title>
+      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/</link>
+      <guid isPermaLink="false">7080d98f-9412-42ca-bf2a-5c5f1ff93e84</guid>
+      <pubDate>Tue, 15 Sep 2026 05:00:29 GMT</pubDate>
+      <description>La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: BTS WORLD TOUR &apos;ARIRANG&apos; IN SÃO PAULO: LIVE</title>
+      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/</link>
+      <guid isPermaLink="false">490b5848-9a8b-4b39-b98b-7b81ae519b90</guid>
+      <pubDate>Tue, 15 Sep 2026 05:00:29 GMT</pubDate>
+      <description>Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Hunger Games</title>
+      <link>https://www.cinecolombia.com/films/the-hunger-games/HO00000791/</link>
+      <guid isPermaLink="false">1f28642e-2f83-4971-ac6a-e265cf35e8f7</guid>
+      <pubDate>Tue, 15 Sep 2026 05:00:29 GMT</pubDate>
+      <description>Cuando su hermana es elegida para los mortales Juegos del Hambre, Katniss Everdeen se ofrece en su lugar y deberá sobrevivir a una brutal competencia televisada en Panem.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Hunger Games: Catching Fire</title>
+      <link>https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/</link>
+      <guid isPermaLink="false">a8165e75-78b0-4f14-9c94-164674c4b087</guid>
+      <pubDate>Tue, 15 Sep 2026 05:00:29 GMT</pubDate>
+      <description>Katniss y Peeta recorren Panem como vencedores, pero su desafío enciende una rebelión. Snow altera las reglas de los 75.º Juegos del Hambre para silenciarlos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Hunger Games: Mockingjay - Part 1</title>
+      <link>https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-1/HO00000793/</link>
+      <guid isPermaLink="false">d42026e7-d73e-4a24-84ec-4e4b9a347c40</guid>
+      <pubDate>Tue, 15 Sep 2026 05:00:29 GMT</pubDate>
+      <description>En el Distrito 13, Katniss se convierte en símbolo de la rebelión contra el Capitolio, mientras Peeta sigue cautivo de Snow y una nación empieza a levantarse.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Hunger Games: Mockingjay - Part 2</title>
+      <link>https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-2/HO00000794/</link>
+      <guid isPermaLink="false">c5a31442-c628-43de-93ae-2ad82d136b37</guid>
+      <pubDate>Tue, 15 Sep 2026 05:00:29 GMT</pubDate>
+      <description>Tras destruir los Juegos del Hambre, Katniss halla refugio en el Distrito 13 y se convierte en el rostro de la rebelión, mientras Peeta sigue prisionero del Capitolio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Renoir &amp; Love</title>
       <link>https://www.cinecolombia.com/films/renoir-love/HO00000787/</link>
       <guid isPermaLink="false">6f216f0d-3dc0-4e6f-8f49-edf8c6b5e93f</guid>
@@ -750,54 +799,6 @@
       <guid isPermaLink="false">c36f9412-67ab-4d60-be2a-ed2989730b3d</guid>
       <pubDate>Thu, 20 Aug 2026 17:00:50 GMT</pubDate>
       <description>Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Ternet Ninja 3</title>
-      <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
-      <guid isPermaLink="false">1ec25d05-ce6e-4445-92c5-b11ce28141c3</guid>
-      <pubDate>Thu, 20 Aug 2026 11:00:51 GMT</pubDate>
-      <description>El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Teenage Sex and Death at Camp Miasma</title>
-      <link>https://www.cinecolombia.com/films/teenage-sex-and-death-at-camp-miasma/HO00000650/</link>
-      <guid isPermaLink="false">b09ce704-ee89-4d22-a0b2-570674b05baf</guid>
-      <pubDate>Thu, 20 Aug 2026 11:00:51 GMT</pubDate>
-      <description>La franquicia slasher Camp Miasma es entregada a una joven y entusiasta directora para intentar revivirla. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8UTCpwvHxWPllCJ7YnaCbffmYyD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Ojo por ojo</title>
-      <link>https://www.cinecolombia.com/films/ojo-por-ojo/HO00000701/</link>
-      <guid isPermaLink="false">0c2e3748-4c5c-447f-b6d4-7d899c4499bf</guid>
-      <pubDate>Thu, 20 Aug 2026 11:00:51 GMT</pubDate>
-      <description>Ojo por ojo es un intenso drama psicológico y social que explora la venganza, la justicia y la moralidad a través de la historia de Raquel.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/msozC7mBPKH2E5sb2g6ItfGHYXD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Death of Snow White</title>
-      <link>https://www.cinecolombia.com/films/the-death-of-snow-white/HO00000713/</link>
-      <guid isPermaLink="false">098b9d3c-376d-45a3-b905-87c5504da4da</guid>
-      <pubDate>Thu, 20 Aug 2026 11:00:51 GMT</pubDate>
-      <description>Perseguida por su madrastra en busca de belleza eterna, Blancanieves huye a un bosque aterrador y se alinea con siete enanos sedientos de sangre.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ol9SNDTQI26VIqCvV4gsn8OMQco.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Das Verschwinden des Josef Mengele</title>
-      <link>https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/</link>
-      <guid isPermaLink="false">0615f518-9951-429b-a9c0-50c1b3f0f6e2</guid>
-      <pubDate>Wed, 19 Aug 2026 23:00:51 GMT</pubDate>
-      <description>Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Woman and Child</title>
-      <link>https://www.cinecolombia.com/films/woman-and-child/HO00000660/</link>
-      <guid isPermaLink="false">16af2262-c82d-4282-ad33-18f52b3ccff9</guid>
-      <pubDate>Wed, 19 Aug 2026 23:00:51 GMT</pubDate>
-      <description>Tras el fallecimiento de su esposo, Mahnaz, se ve obligada a mediar entre su profesión y la rebeldía de su hijo adolescente, quien acaba de ser expulsado del colegio.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/3tQm0pi2gLYfP0strNg0K6PATBK.jpg" medium="image" />
     </item>
   </channel>
 </rss>

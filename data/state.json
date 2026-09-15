@@ -734,28 +734,6 @@
       }
     },
     {
-      "id": "HO00000706",
-      "title": "Klara and the Sun",
-      "shortSynopsis": "Una chica robot diseñada para prevenir la soledad intenta salvar a una familia humana con el corazón roto.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Ciencia Ficción",
-        "Drama"
-      ],
-      "director": "Taika Waititi",
-      "webUrl": "https://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
-      "tmdb": {
-        "tmdbId": 858035,
-        "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
-      }
-    },
-    {
       "id": "HO00000707",
       "title": "Nightborn",
       "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
@@ -2897,8 +2875,6 @@
       "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000706": 1
-  },
-  "lastRun": "2026-09-15T05:00:29.450Z"
+  "missingRuns": {},
+  "lastRun": "2026-09-15T11:00:30.138Z"
 }

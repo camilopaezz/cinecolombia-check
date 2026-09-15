@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Klara and the Sun</title>
+      <link>https://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/</link>
+      <guid isPermaLink="false">30e969ef-6d12-47e9-b5ef-bd1013f3ab77</guid>
+      <pubDate>Tue, 15 Sep 2026 11:00:30 GMT</pubDate>
+      <description>Una chica robot diseñada para prevenir la soledad intenta salvar a una familia humana con el corazón roto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: BTS WORLD TOUR &apos;ARIRANG&apos; IN BUENOS AIRES: LIVE</title>
       <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/</link>
       <guid isPermaLink="false">7080d98f-9412-42ca-bf2a-5c5f1ff93e84</guid>
@@ -792,13 +800,6 @@
       <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
       <description>Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Train to Busan (Re-release)</title>
-      <link>https://www.cinecolombia.com/films/train-to-busan-re-release/HO00000745/</link>
-      <guid isPermaLink="false">c36f9412-67ab-4d60-be2a-ed2989730b3d</guid>
-      <pubDate>Thu, 20 Aug 2026 17:00:50 GMT</pubDate>
-      <description>Un virus mortal invade Corea del Sur y los pasajeros de un tren a Busan deberán luchar por sobrevivir mientras el contagio avanza vagón tras vagón.</description>
     </item>
   </channel>
 </rss>

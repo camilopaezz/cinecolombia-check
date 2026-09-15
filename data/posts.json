@@ -8865,6 +8865,34 @@
           "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
         }
       }
+    },
+    {
+      "guid": "30e969ef-6d12-47e9-b5ef-bd1013f3ab77",
+      "type": "removed",
+      "filmId": "HO00000706",
+      "createdAt": "2026-09-15T11:00:30.136Z",
+      "snapshot": {
+        "id": "HO00000706",
+        "title": "Klara and the Sun",
+        "shortSynopsis": "Una chica robot diseñada para prevenir la soledad intenta salvar a una familia humana con el corazón roto.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ciencia Ficción",
+          "Drama"
+        ],
+        "director": "Taika Waititi",
+        "webUrl": "https://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
+        "tmdb": {
+          "tmdbId": 858035,
+          "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
+        }
+      }
     }
   ]
 }

@@ -2242,7 +2242,8 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
       "tmdb": {
@@ -2264,7 +2265,8 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
       "tmdb": {
@@ -2876,5 +2878,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-15T11:00:30.138Z"
+  "lastRun": "2026-09-15T17:00:29.280Z"
 }

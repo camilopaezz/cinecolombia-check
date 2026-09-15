@@ -8893,6 +8893,64 @@
           "posterPath": "/xqovj2p6HRsgHxN81qYAYF4StgM.jpg"
         }
       }
+    },
+    {
+      "guid": "ef9f1d95-502a-406e-8900-f9bd44e396c2",
+      "type": "now-in-theaters",
+      "filmId": "HO00000795",
+      "createdAt": "2026-09-15T17:00:29.277Z",
+      "snapshot": {
+        "id": "HO00000795",
+        "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE",
+        "shortSynopsis": "La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.\n",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Documental"
+        ],
+        "director": "Jungjae HA",
+        "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+        "tmdb": {
+          "tmdbId": 1770237,
+          "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5dda136f-e411-4fb4-8ccf-1c5215043e36",
+      "type": "now-in-theaters",
+      "filmId": "HO00000796",
+      "createdAt": "2026-09-15T17:00:29.277Z",
+      "snapshot": {
+        "id": "HO00000796",
+        "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
+        "shortSynopsis": "Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.",
+        "releaseDate": "2026-10-30",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Documental"
+        ],
+        "director": "Jungjae HA",
+        "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+        "tmdb": {
+          "tmdbId": 1770234,
+          "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+        }
+      }
     }
   ]
 }

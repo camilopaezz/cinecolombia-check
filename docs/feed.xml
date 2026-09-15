@@ -7,6 +7,23 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: BTS WORLD TOUR &apos;ARIRANG&apos; IN BUENOS AIRES: LIVE</title>
+      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/</link>
+      <guid isPermaLink="false">ef9f1d95-502a-406e-8900-f9bd44e396c2</guid>
+      <pubDate>Tue, 15 Sep 2026 17:00:29 GMT</pubDate>
+      <description>La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: BTS WORLD TOUR &apos;ARIRANG&apos; IN SÃO PAULO: LIVE</title>
+      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/</link>
+      <guid isPermaLink="false">5dda136f-e411-4fb4-8ccf-1c5215043e36</guid>
+      <pubDate>Tue, 15 Sep 2026 17:00:29 GMT</pubDate>
+      <description>Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Klara and the Sun</title>
       <link>https://www.cinecolombia.com/films/klara-and-the-sun/HO00000706/</link>
       <guid isPermaLink="false">30e969ef-6d12-47e9-b5ef-bd1013f3ab77</guid>
@@ -784,22 +801,6 @@
       <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
       <description>Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Pinocchio: Unstrung</title>
-      <link>https://www.cinecolombia.com/films/pinocchio-unstrung/HO00000754/</link>
-      <guid isPermaLink="false">3b14c8f6-9ff6-46c7-86bf-e03cb0f9b8fe</guid>
-      <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
-      <description>Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Animal Farm</title>
-      <link>https://www.cinecolombia.com/films/animal-farm/HO00000755/</link>
-      <guid isPermaLink="false">ba3370de-b50c-4fe5-9c76-4b1da9d1b7f7</guid>
-      <pubDate>Thu, 20 Aug 2026 23:00:51 GMT</pubDate>
-      <description>Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg" medium="image" />
     </item>
   </channel>
 </rss>

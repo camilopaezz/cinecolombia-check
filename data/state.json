@@ -1045,7 +1045,7 @@
       "shortSynopsis": "Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.",
       "releaseDate": "2026-10-01",
       "runtimeInMinutes": 114,
-      "censorRating": "Todos",
+      "censorRating": "+12 Años",
       "genres": [
         "Suspenso"
       ],
@@ -2882,6 +2882,9 @@
       "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-09-16T11:00:29.152Z"
+  "missingRuns": {
+    "HO00000670": 1,
+    "HO00000721": 1
+  },
+  "lastRun": "2026-09-16T23:00:27.580Z"
 }

@@ -8951,6 +8951,149 @@
           "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
         }
       }
+    },
+    {
+      "guid": "c7ec9180-20b0-4db3-a47c-be77bd93ddf9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000651",
+      "createdAt": "2026-09-16T05:00:29.231Z",
+      "snapshot": {
+        "id": "HO00000651",
+        "title": "Charlie the Wonderdog",
+        "shortSynopsis": "Danny, un niño tímido, imagina un mundo extraordinario donde él y su querido perro Charlie protagonizan sus propias aventuras de superhéroes.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 91,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Shea Wageman",
+        "webUrl": "https://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
+        "tmdb": {
+          "tmdbId": 1276521,
+          "posterPath": "/whvkL0wzxgKmVbaPontq9NlVd5z.jpg"
+        }
+      }
+    },
+    {
+      "guid": "acce476e-24f7-41dd-9559-63b4f5ecfceb",
+      "type": "now-in-theaters",
+      "filmId": "HO00000667",
+      "createdAt": "2026-09-16T05:00:29.231Z",
+      "snapshot": {
+        "id": "HO00000667",
+        "title": "The Magic Faraway Tree",
+        "shortSynopsis": "Polly, Tim, y sus tres hijos son una familia que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 110,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Ben Gregor",
+        "webUrl": "https://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+        "tmdb": {
+          "tmdbId": 1140521,
+          "posterPath": "/udXvLxC5gAqN8SinemyFBEcHpTf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8518914b-d724-4160-898c-85a211339304",
+      "type": "now-in-theaters",
+      "filmId": "HO00000773",
+      "createdAt": "2026-09-16T05:00:29.231Z",
+      "snapshot": {
+        "id": "HO00000773",
+        "title": "Unicornio",
+        "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 113,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Natural Arpajou",
+        "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+        "tmdb": {
+          "tmdbId": 1153714,
+          "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c320e931-9e5d-458e-902e-9ad50a9a7764",
+      "type": "now-in-theaters",
+      "filmId": "HO00000781",
+      "createdAt": "2026-09-16T05:00:29.231Z",
+      "snapshot": {
+        "id": "HO00000781",
+        "title": "The Drift",
+        "shortSynopsis": "Un patinador queda atrapado en un témpano a la deriva en el Ártico. Mientras el hielo se derrite rumbo al sur, deberá hacer lo imposible para sobrevivir.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 83,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Taavi Vartia",
+        "webUrl": "https://www.cinecolombia.com/films/the-drift/HO00000781/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
+        "tmdb": {
+          "tmdbId": 9615,
+          "posterPath": "/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "3f9f4b9d-b331-4203-a471-17cef702d9d7",
+      "type": "now-in-theaters",
+      "filmId": "HO00000782",
+      "createdAt": "2026-09-16T05:00:29.231Z",
+      "snapshot": {
+        "id": "HO00000782",
+        "title": "Tres Hermanas",
+        "shortSynopsis": "Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. ",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 79,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental",
+          "Drama"
+        ],
+        "director": "Joyce Ventura",
+        "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
+        "tmdb": {
+          "tmdbId": 1227852,
+          "posterPath": "/cOuwEupfObFw7FZSQrssFehG3F0.jpg"
+        }
+      }
     }
   ]
 }

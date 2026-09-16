@@ -459,7 +459,8 @@
       "director": "Shea Wageman",
       "webUrl": "https://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
       "tmdb": {
@@ -524,7 +525,8 @@
       "director": "Ben Gregor",
       "webUrl": "https://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
       "tmdb": {
@@ -1758,7 +1760,8 @@
       "director": "Natural Arpajou",
       "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
       "tmdb": {
@@ -1936,7 +1939,8 @@
       "director": "Taavi Vartia",
       "webUrl": "https://www.cinecolombia.com/films/the-drift/HO00000781/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
       "tmdb": {
@@ -1958,7 +1962,8 @@
       "director": "Joyce Ventura",
       "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
       "tmdb": {
@@ -2878,5 +2883,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-15T17:00:29.280Z"
+  "lastRun": "2026-09-16T05:00:29.235Z"
 }

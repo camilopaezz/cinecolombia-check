@@ -9942,6 +9942,250 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "b6eb3b56-8014-46a3-9052-c069ccb8fd63",
+      "type": "now-in-theaters",
+      "filmId": "HO00000736",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000736",
+        "title": "Verity",
+        "shortSynopsis": "Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 114,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Michael Showalter",
+        "webUrl": "https://www.cinecolombia.com/films/verity/HO00000736/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+        "tmdb": {
+          "tmdbId": 1283515,
+          "posterPath": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "3f54fdce-06cb-490f-b9df-6672db27cfc2",
+      "type": "now-in-theaters",
+      "filmId": "HO00000785",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000785",
+        "title": "Palestine 36",
+        "shortSynopsis": "En 1936, en plena revuelta palestina contra el dominio británico, Yusuf sueña con un futuro mejor hasta verse arrastrado a un conflicto que cambiará su destino.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 119,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Historia"
+        ],
+        "director": "Annemarie Jacir",
+        "webUrl": "https://www.cinecolombia.com/films/palestine-36/HO00000785/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg",
+        "tmdb": {
+          "tmdbId": 1432596,
+          "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b5a78ec8-569b-48dd-8636-6500438052ce",
+      "type": "removed",
+      "filmId": "HO00000659",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000659",
+        "title": "Piedras preciosas",
+        "shortSynopsis": "Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 70,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Simón Vélez",
+        "webUrl": "https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg",
+        "tmdb": {
+          "tmdbId": 1426106,
+          "posterPath": "/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "60a57cef-96dd-4dbb-a2fe-e3e8ac325574",
+      "type": "removed",
+      "filmId": "HO00000702",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000702",
+        "title": "Terminator 2: Judgement Day (35th Anniversary)",
+        "shortSynopsis": "Diez años después de los acontecimientos de la película original, el androide T-800 es reprogramado y enviado al pasado para proteger al joven John Connor del T-1000.",
+        "releaseDate": "2026-09-03",
+        "runtimeInMinutes": 137,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Ciencia Ficción"
+        ],
+        "director": "James Cameron",
+        "webUrl": "https://www.cinecolombia.com/films/terminator-2-judgement-day-35th-anniversary/HO00000702/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "cf651f6c-d73e-4c1b-9d3d-5968cead0793",
+      "type": "removed",
+      "filmId": "HO00000737",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000737",
+        "title": "One Piece The Movie",
+        "shortSynopsis": "Luffy y su tripulación emprenden la búsqueda del legendario tesoro de Woonan mientras enfrentan a un poderoso enemigo con habilidades de una Fruta del Diablo.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 57,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Drama"
+        ],
+        "director": "Atsuji Shimizu",
+        "webUrl": "https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg",
+        "tmdb": {
+          "tmdbId": 19576,
+          "posterPath": "/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg"
+        }
+      }
+    },
+    {
+      "guid": "2e3281ab-725e-4f0c-b1b9-59f507e1bedd",
+      "type": "removed",
+      "filmId": "HO00000748",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000748",
+        "title": "Spa Weekend",
+        "shortSynopsis": "Tres amigas disfrutan de un fin de semana en un spa, hasta que una amiga caótica se une al viaje y convierte la escapada en un divertido desastre.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 97,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Jon Lucas",
+        "webUrl": "https://www.cinecolombia.com/films/spa-weekend/HO00000748/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dShb891SRyGvQxOkgz72i0HsdEU.jpg",
+        "tmdb": {
+          "tmdbId": 1341138,
+          "posterPath": "/dShb891SRyGvQxOkgz72i0HsdEU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ba842012-eeb8-4300-b85e-9e44a5abe218",
+      "type": "removed",
+      "filmId": "HO00000770",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000770",
+        "title": "Les digo \"Almas\"",
+        "shortSynopsis": "Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 109,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Libia Stella Gómez",
+        "webUrl": "https://www.cinecolombia.com/films/les-digo-almas/HO00000770/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg",
+        "tmdb": {
+          "tmdbId": 1354672,
+          "posterPath": "/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5e39e2b5-2bec-4d6a-8ef7-a221d765dc8d",
+      "type": "removed",
+      "filmId": "HO00000774",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000774",
+        "title": "Oasis: Don't Look Back In Anger",
+        "shortSynopsis": "Oasis: Don't Look Back in Anger' documenta la gira de reencuentro 'Oasis Live '25' de Liam y Noel Gallagher, con ensayos, backstage y sus primeras entrevistas juntos en 2",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 122,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Documental",
+          "Música"
+        ],
+        "director": "Dylan Southern",
+        "webUrl": "https://www.cinecolombia.com/films/oasis-dont-look-back-in-anger/HO00000774/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg",
+        "tmdb": {
+          "tmdbId": 1447853,
+          "posterPath": "/nuNfPuFZKtkrglYnz2F9weQm3Ng.jpg"
+        }
+      }
+    },
+    {
+      "guid": "72162b12-0c90-4077-a5d8-218e48888f5f",
+      "type": "removed",
+      "filmId": "HO00000784",
+      "createdAt": "2026-09-17T11:00:31.291Z",
+      "snapshot": {
+        "id": "HO00000784",
+        "title": "Clave de Amor",
+        "shortSynopsis": "Impulsado por el sueño de su padre, un joven campesino deja su pueblo para estudiar en el Conservatorio del Tolima, descubriendo el amor y sus raíces culturales.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 100,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Drama",
+          "Música",
+          "Romance"
+        ],
+        "director": "Luis Fernando Bernal Polo",
+        "webUrl": "https://www.cinecolombia.com/films/clave-de-amor/HO00000784/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

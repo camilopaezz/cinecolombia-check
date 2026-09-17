@@ -459,7 +459,6 @@
       "director": "Shea Wageman",
       "webUrl": "https://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
@@ -525,7 +524,6 @@
       "director": "Ben Gregor",
       "webUrl": "https://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
@@ -547,36 +545,12 @@
       "director": "Zach Cregger",
       "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
       "tmdb": {
         "tmdbId": 1423191,
         "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
-      }
-    },
-    {
-      "id": "HO00000670",
-      "title": "Das Verschwinden des Josef Mengele",
-      "shortSynopsis": "Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. ",
-      "releaseDate": "2026-07-30",
-      "runtimeInMinutes": 135,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Biografía",
-        "Drama",
-        "Historia"
-      ],
-      "director": "Kirill Serebrennikov",
-      "webUrl": "https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg",
-      "tmdb": {
-        "tmdbId": 1037264,
-        "posterPath": "/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg"
       }
     },
     {
@@ -798,25 +772,6 @@
         "tmdbId": 1016069,
         "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
       }
-    },
-    {
-      "id": "HO00000721",
-      "title": "My Neighbor Totoro",
-      "shortSynopsis": "En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque",
-      "releaseDate": "2026-09-03",
-      "runtimeInMinutes": 86,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Familia",
-        "Fantasía"
-      ],
-      "director": "Hayao Miyazaki",
-      "webUrl": "https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": null
     },
     {
       "id": "HO00000722",
@@ -1760,7 +1715,6 @@
       "director": "Natural Arpajou",
       "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
@@ -1939,7 +1893,6 @@
       "director": "Taavi Vartia",
       "webUrl": "https://www.cinecolombia.com/films/the-drift/HO00000781/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
@@ -1962,7 +1915,6 @@
       "director": "Joyce Ventura",
       "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
@@ -2277,6 +2229,626 @@
       "tmdb": {
         "tmdbId": 1770234,
         "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+      }
+    },
+    {
+      "id": "HO00000797",
+      "title": "Les pires",
+      "shortSynopsis": "En Boulogne-Sur-Mer, un rodaje elige a cuatro niños del barrio Picasso para participar. Todos se preguntan por qué eligieron a 'los peores.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 99,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Lise Akoka",
+      "webUrl": "https://www.cinecolombia.com/films/les-pires/HO00000797/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000798",
+      "title": "La famille Bélier",
+      "shortSynopsis": "En la familia Bélier, todos son sordos excepto Paula, de 16 años. Al unirse al coro por un chico, descubre su talento para el canto.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 105,
+      "censorRating": "Todos",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Eric Lartigau",
+      "webUrl": "https://www.cinecolombia.com/films/la-famille-belier/HO00000798/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg",
+      "tmdb": {
+        "tmdbId": 304410,
+        "posterPath": "/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg"
+      }
+    },
+    {
+      "id": "HO00000799",
+      "title": "Le Royaume",
+      "shortSynopsis": "Córcega, 1995. Lesia descubre a su padre escondido tras estallar una guerra en los bajos fondos. Obligados a huir, aprenderán a entenderse y amarse.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 108,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Julien Colonna",
+      "webUrl": "https://www.cinecolombia.com/films/le-royaume/HO00000799/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg",
+      "tmdb": {
+        "tmdbId": 1079311,
+        "posterPath": "/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg"
+      }
+    },
+    {
+      "id": "HO00000800",
+      "title": "L’Attachement",
+      "shortSynopsis": "Sandra, dueña de una librería feminista, comparte la intimidad de su vecino y sus dos hijos, involucrándose poco a poco con esta familia adoptiva.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 106,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Carine Tardieu",
+      "webUrl": "https://www.cinecolombia.com/films/l-attachement/HO00000800/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/113xZCRj3ak30zh1xUFv6hQoPgn.jpg",
+      "tmdb": {
+        "tmdbId": 1096642,
+        "posterPath": "/113xZCRj3ak30zh1xUFv6hQoPgn.jpg"
+      }
+    },
+    {
+      "id": "HO00000801",
+      "title": "Le Redoutable",
+      "shortSynopsis": "En los 60, durante 'La chinoise', Jean-Luc Godard se enamora de Anne Wiazemsky, de 17 años. La fría recepción del filme desata su crisis creativa",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 102,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Biografía",
+        "Comedia",
+        "Drama"
+      ],
+      "director": "Michel Hazanavicius",
+      "webUrl": "https://www.cinecolombia.com/films/le-redoutable/HO00000801/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000802",
+      "title": "Climax",
+      "shortSynopsis": "Una compañía de baile ensaya en una escuela abandonada durante una tormenta de nieve. Al descubrir que su sangría tenía LSD, la noche se vuelve un caos de paranoia y vio",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 95,
+      "censorRating": "+18 Años",
+      "genres": [
+        "Drama",
+        "Musical",
+        "Terror"
+      ],
+      "director": "Gaspar Noé",
+      "webUrl": "https://www.cinecolombia.com/films/climax/HO00000802/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
+      "tmdb": {
+        "tmdbId": 1723396,
+        "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+      }
+    },
+    {
+      "id": "HO00000803",
+      "title": "Demain Je Tombe Amoureux",
+      "shortSynopsis": "El día de su jubilación, Émile, profesor de literatura, da su última clase sobre el amor. Al llegar a casa, descubre que su esposa lo ha abandonado.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 114,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Martin Provost",
+      "webUrl": "https://www.cinecolombia.com/films/demain-je-tombe-amoureux/HO00000803/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg",
+      "tmdb": {
+        "tmdbId": 1306291,
+        "posterPath": "/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg"
+      }
+    },
+    {
+      "id": "HO00000804",
+      "title": "Les plages d’Agnès",
+      "shortSynopsis": "Documental autobiográfico de Agnès Varda que recorre sus memorias cronológicamente, a través de fotos, videos, entrevistas y las playas que marcaron su existencia.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 110,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Biografía",
+        "Documental"
+      ],
+      "director": "Agnès Varda",
+      "webUrl": "https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000805",
+      "title": "En Nous",
+      "shortSynopsis": "En 2007, Juliette Binoche y Akram Khan crearon 'In-I'. Hoy, Binoche revisita ese viaje, reflexionando sobre la creación y la transformación personal",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 156,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Juliette Binoche",
+      "webUrl": "https://www.cinecolombia.com/films/en-nous/HO00000805/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg",
+      "tmdb": {
+        "tmdbId": 1532477,
+        "posterPath": "/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg"
+      }
+    },
+    {
+      "id": "HO00000806",
+      "title": "Triplettes de Belleville",
+      "shortSynopsis": "Champion, apasionado del ciclismo, es secuestrado durante el Tour de Francia. Su abuela Madame Souza, junto a su perro Bruno, corre a rescatarlo.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 80,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Drama"
+      ],
+      "director": "Sylvain Chomet",
+      "webUrl": "https://www.cinecolombia.com/films/triplettes-de-belleville/HO00000806/",
+      "categories": [
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000807",
+      "title": "L'affaire Bojarski",
+      "shortSynopsis": "Jan Bojarski, ingeniero polaco refugiado, falsifica documentos para la Resistencia. Sin identidad legal, un gánster lo recluta para falsificar billetes en secreto.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 128,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Jean-Paul Salomé",
+      "webUrl": "https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
+      "tmdb": {
+        "tmdbId": 1376415,
+        "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+      }
+    },
+    {
+      "id": "HO00000808",
+      "title": "Soudain",
+      "shortSynopsis": "Marie-Lou Fontaine (Virginie Efira), directora de una residencia, lucha por una atención más humana. Su amistad con Mari Morisaki (Tal Okamoto) transforma su vida.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 196,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Ryûsuke Hamaguchi",
+      "webUrl": "https://www.cinecolombia.com/films/soudain/HO00000808/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg",
+      "tmdb": {
+        "tmdbId": 843843,
+        "posterPath": "/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg"
+      }
+    },
+    {
+      "id": "HO00000809",
+      "title": "¡Lumière! L’aventure commence",
+      "shortSynopsis": "Thierry Frémaux narra un recorrido por más de cien cortos restaurados de los hermanos Lumière (1895-1905), revelando cómo anticiparon el lenguaje del cine moderno.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 90,
+      "censorRating": "Todos",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Thierry Frémaux",
+      "webUrl": "https://www.cinecolombia.com/films/lumière-l-aventure-commence/HO00000809/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000810",
+      "title": "Le Parc",
+      "shortSynopsis": "En un jardín francés, cuatro cupidos guían juegos de deseo hasta que el orgullo cede. Ballet de Preljocaj (1994), célebre por su emotivo pas de deux final.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 93,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Ballet"
+      ],
+      "director": "Yannis Pouspourikas",
+      "webUrl": "https://www.cinecolombia.com/films/le-parc/HO00000810/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg",
+      "tmdb": {
+        "tmdbId": 1564072,
+        "posterPath": "/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg"
+      }
+    },
+    {
+      "id": "HO00000811",
+      "title": "Sarah Bernhardt, la Divine",
+      "shortSynopsis": "En 1915, Sarah Bernhardt, 'La Divine', primera celebridad del mundo, desafía las normas sociales. Este biopic narra la historia de amor que marcó su vida.",
+      "releaseDate": "2027-09-23",
+      "runtimeInMinutes": 98,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Biografía",
+        "Drama"
+      ],
+      "director": "Guillaume Nicloux",
+      "webUrl": "https://www.cinecolombia.com/films/sarah-bernhardt-la-divine/HO00000811/",
+      "categories": [
+        "AdvanceBooking",
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000812",
+      "title": "Les choristes",
+      "shortSynopsis": "En 1949, Clément Mathieu, profesor desempleado, llega como supervisor a un internado con métodos represivos. Al enseñarles a cantar, transforma la vida de los chicos.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 95,
+      "censorRating": "Todos",
+      "genres": [
+        "Drama",
+        "Musical"
+      ],
+      "director": "Christophe Barratier",
+      "webUrl": "https://www.cinecolombia.com/films/les-choristes/HO00000812/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000813",
+      "title": "La haine",
+      "shortSynopsis": "Tras disturbios en las afueras de París, Vinz, Saïd y Hubert vagan 24 horas por la ciudad entre violencia, tensión policial y la rabia por la agresión a su amigo.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Crimen",
+        "Drama"
+      ],
+      "director": "Mathieu Kassovitz",
+      "webUrl": "https://www.cinecolombia.com/films/la-haine/HO00000813/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg",
+      "tmdb": {
+        "tmdbId": 406,
+        "posterPath": "/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg"
+      }
+    },
+    {
+      "id": "HO00000814",
+      "title": "Dossier 137",
+      "shortSynopsis": "Stéphanie, investigadora de la IGPN, indaga un caso de un joven herido por LBD en una manifestación, pero algo inesperado hace que el caso deje de ser uno más para ella.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 116,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Crimen",
+        "Drama"
+      ],
+      "director": "Dominik Moll",
+      "webUrl": "https://www.cinecolombia.com/films/dossier-137/HO00000814/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg",
+      "tmdb": {
+        "tmdbId": 1294698,
+        "posterPath": "/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg"
+      }
+    },
+    {
+      "id": "HO00000815",
+      "title": "Mateo",
+      "shortSynopsis": "Mateo, de 16 años, cobra extorsiones para su tío criminal. Enviado a infiltrar un grupo de teatro, queda atrapado entre la lealtad familiar y un mundo nuevo.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 86,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Maria Gamboa",
+      "webUrl": "https://www.cinecolombia.com/films/mateo/HO00000815/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg",
+      "tmdb": {
+        "tmdbId": 1711956,
+        "posterPath": "/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg"
+      }
+    },
+    {
+      "id": "HO00000816",
+      "title": "Sois belle et tais-toi",
+      "shortSynopsis": "Delphine Seyrig entrevista a veinticuatro actrices francesas y estadounidenses sobre su carrera, revelando el sexismo que atraviesa la industria del cine.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 111,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Delphine Seyrig",
+      "webUrl": "https://www.cinecolombia.com/films/sois-belle-et-tais-toi/HO00000816/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000817",
+      "title": "Litigante",
+      "shortSynopsis": "Silvia, abogada y madre soltera al límite, cuida a su hijo y a su madre enferma mientras enfrenta una acusación de corrupción, justo cuando el amor reaparece en su vida.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Franco Lolli",
+      "webUrl": "https://www.cinecolombia.com/films/litigante/HO00000817/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg",
+      "tmdb": {
+        "tmdbId": 585073,
+        "posterPath": "/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg"
+      }
+    },
+    {
+      "id": "HO00000818",
+      "title": "Trois couleurs: Bleu",
+      "shortSynopsis": "Julie sobrevive a un accidente que mata a su esposo e hija y busca aislarse. Olivier la ayuda a reconectar con la vida y completar la obra inacabada de su marido.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 98,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama",
+        "Misterio",
+        "Musical"
+      ],
+      "director": "Krzysztof Kieslowski",
+      "webUrl": "https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg",
+      "tmdb": {
+        "tmdbId": 108,
+        "posterPath": "/acF0MZyMhe1svIxp17xxIstPIqi.jpg"
+      }
+    },
+    {
+      "id": "HO00000819",
+      "title": "Persepolis",
+      "shortSynopsis": "Marji, niña iraní rebelde, crece en Teherán durante la Revolución Islámica, enfrenta represión y guerra, y luego el exilio en Viena, buscando su identidad entre dos mundo",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Animación",
+        "Biografía",
+        "Drama"
+      ],
+      "director": "Vincent Paronnaud",
+      "webUrl": "https://www.cinecolombia.com/films/persepolis/HO00000819/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg",
+      "tmdb": {
+        "tmdbId": 2011,
+        "posterPath": "/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg"
+      }
+    },
+    {
+      "id": "HO00000820",
+      "title": "Jericó, el infinito vuelo de los días",
+      "shortSynopsis": "Jericó, el infinito vuelo de los días' retrata a mujeres del pueblo de Jericó, revelando sus historias, su humor y sabiduría, preservando el patrimonio inmaterial.",
+      "releaseDate": "2026-09-23",
+      "runtimeInMinutes": 78,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Catalina Mesa",
+      "webUrl": "https://www.cinecolombia.com/films/jerico-el-infinito-vuelo-de-los-dias/HO00000820/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000821",
+      "title": "Sacrifice",
+      "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
+      "releaseDate": "2026-11-05",
+      "runtimeInMinutes": 103,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Comedia"
+      ],
+      "director": "Romain Gavras",
+      "webUrl": "https://www.cinecolombia.com/films/sacrifice/HO00000821/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg",
+      "tmdb": {
+        "tmdbId": 1284186,
+        "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
+      }
+    },
+    {
+      "id": "HO00000822",
+      "title": "Runner",
+      "shortSynopsis": "Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 97,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Comedia",
+        "Suspenso"
+      ],
+      "director": "Scott Waugh",
+      "webUrl": "https://www.cinecolombia.com/films/runner/HO00000822/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg",
+      "tmdb": {
+        "tmdbId": 1386315,
+        "posterPath": "/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg"
+      }
+    },
+    {
+      "id": "HO00000823",
+      "title": "By Any Means",
+      "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 107,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Crimen",
+        "Suspenso"
+      ],
+      "director": "Elegance Bratton",
+      "webUrl": "https://www.cinecolombia.com/films/by-any-means/HO00000823/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
+      "tmdb": {
+        "tmdbId": 1380417,
+        "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
+      }
+    },
+    {
+      "id": "HO00000824",
+      "title": "Lockbox",
+      "shortSynopsis": "Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.\n",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 105,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Daniel Stamm",
+      "webUrl": "https://www.cinecolombia.com/films/lockbox/HO00000824/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg",
+      "tmdb": {
+        "tmdbId": 1500890,
+        "posterPath": "/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg"
+      }
+    },
+    {
+      "id": "HO00000825",
+      "title": "Onslaught",
+      "shortSynopsis": "Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 92,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Adam Wingard",
+      "webUrl": "https://www.cinecolombia.com/films/onslaught/HO00000825/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg",
+      "tmdb": {
+        "tmdbId": 1284046,
+        "posterPath": "/tRVR2QNr7ua6xEL226N0zRVeDI.jpg"
       }
     }
   ],
@@ -2880,11 +3452,96 @@
     "HO00000796": {
       "tmdbId": 1770234,
       "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+    },
+    "HO00000823": {
+      "tmdbId": 1380417,
+      "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
+    },
+    "HO00000824": {
+      "tmdbId": 1500890,
+      "posterPath": "/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg"
+    },
+    "HO00000825": {
+      "tmdbId": 1284046,
+      "posterPath": "/tRVR2QNr7ua6xEL226N0zRVeDI.jpg"
+    },
+    "HO00000822": {
+      "tmdbId": 1386315,
+      "posterPath": "/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg"
+    },
+    "HO00000821": {
+      "tmdbId": 1284186,
+      "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
+    },
+    "HO00000802": {
+      "tmdbId": 1723396,
+      "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+    },
+    "HO00000803": {
+      "tmdbId": 1306291,
+      "posterPath": "/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg"
+    },
+    "HO00000814": {
+      "tmdbId": 1294698,
+      "posterPath": "/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg"
+    },
+    "HO00000805": {
+      "tmdbId": 1532477,
+      "posterPath": "/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg"
+    },
+    "HO00000807": {
+      "tmdbId": 1376415,
+      "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+    },
+    "HO00000800": {
+      "tmdbId": 1096642,
+      "posterPath": "/113xZCRj3ak30zh1xUFv6hQoPgn.jpg"
+    },
+    "HO00000798": {
+      "tmdbId": 304410,
+      "posterPath": "/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg"
+    },
+    "HO00000813": {
+      "tmdbId": 406,
+      "posterPath": "/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg"
+    },
+    "HO00000810": {
+      "tmdbId": 1564072,
+      "posterPath": "/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg"
+    },
+    "HO00000799": {
+      "tmdbId": 1079311,
+      "posterPath": "/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg"
+    },
+    "HO00000817": {
+      "tmdbId": 585073,
+      "posterPath": "/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg"
+    },
+    "HO00000815": {
+      "tmdbId": 1711956,
+      "posterPath": "/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg"
+    },
+    "HO00000819": {
+      "tmdbId": 2011,
+      "posterPath": "/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg"
+    },
+    "HO00000808": {
+      "tmdbId": 843843,
+      "posterPath": "/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg"
+    },
+    "HO00000818": {
+      "tmdbId": 108,
+      "posterPath": "/acF0MZyMhe1svIxp17xxIstPIqi.jpg"
     }
   },
   "missingRuns": {
-    "HO00000670": 1,
-    "HO00000721": 1
+    "HO00000659": 1,
+    "HO00000702": 1,
+    "HO00000737": 1,
+    "HO00000748": 1,
+    "HO00000770": 1,
+    "HO00000774": 1,
+    "HO00000784": 1
   },
-  "lastRun": "2026-09-16T23:00:27.580Z"
+  "lastRun": "2026-09-17T05:00:33.562Z"
 }

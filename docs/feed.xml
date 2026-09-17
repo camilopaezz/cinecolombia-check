@@ -7,6 +7,245 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Les pires</title>
+      <link>https://www.cinecolombia.com/films/les-pires/HO00000797/</link>
+      <guid isPermaLink="false">21653d85-73b0-4c81-9724-db906e21be03</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En Boulogne-Sur-Mer, un rodaje elige a cuatro niños del barrio Picasso para participar. Todos se preguntan por qué eligieron a &apos;los peores.</description>
+    </item>
+    <item>
+      <title>En cartelera: La famille Bélier</title>
+      <link>https://www.cinecolombia.com/films/la-famille-belier/HO00000798/</link>
+      <guid isPermaLink="false">d4378d4b-1540-40eb-8650-2ce2c66cf327</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En la familia Bélier, todos son sordos excepto Paula, de 16 años. Al unirse al coro por un chico, descubre su talento para el canto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Le Royaume</title>
+      <link>https://www.cinecolombia.com/films/le-royaume/HO00000799/</link>
+      <guid isPermaLink="false">b52c92da-407a-4609-bee7-ab43aab8edcf</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Córcega, 1995. Lesia descubre a su padre escondido tras estallar una guerra en los bajos fondos. Obligados a huir, aprenderán a entenderse y amarse.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: L’Attachement</title>
+      <link>https://www.cinecolombia.com/films/l-attachement/HO00000800/</link>
+      <guid isPermaLink="false">73012e43-f400-486d-882a-e7b0392f7144</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Sandra, dueña de una librería feminista, comparte la intimidad de su vecino y sus dos hijos, involucrándose poco a poco con esta familia adoptiva.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/113xZCRj3ak30zh1xUFv6hQoPgn.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Le Redoutable</title>
+      <link>https://www.cinecolombia.com/films/le-redoutable/HO00000801/</link>
+      <guid isPermaLink="false">f6c2983e-6694-4df6-98f2-1a0f9ae9b70d</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En los 60, durante &apos;La chinoise&apos;, Jean-Luc Godard se enamora de Anne Wiazemsky, de 17 años. La fría recepción del filme desata su crisis creativa</description>
+    </item>
+    <item>
+      <title>En cartelera: Climax</title>
+      <link>https://www.cinecolombia.com/films/climax/HO00000802/</link>
+      <guid isPermaLink="false">6fdfdb36-7ff0-47eb-823c-8bb583fb936d</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Una compañía de baile ensaya en una escuela abandonada durante una tormenta de nieve. Al descubrir que su sangría tenía LSD, la noche se vuelve un caos de paranoia y vio</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Demain Je Tombe Amoureux</title>
+      <link>https://www.cinecolombia.com/films/demain-je-tombe-amoureux/HO00000803/</link>
+      <guid isPermaLink="false">d5edd68a-3051-466f-bdf2-ea51701db5d6</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>El día de su jubilación, Émile, profesor de literatura, da su última clase sobre el amor. Al llegar a casa, descubre que su esposa lo ha abandonado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Les plages d’Agnès</title>
+      <link>https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/</link>
+      <guid isPermaLink="false">231b1d6f-bf98-40a2-8b4b-3166ce58151c</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Documental autobiográfico de Agnès Varda que recorre sus memorias cronológicamente, a través de fotos, videos, entrevistas y las playas que marcaron su existencia.</description>
+    </item>
+    <item>
+      <title>En cartelera: En Nous</title>
+      <link>https://www.cinecolombia.com/films/en-nous/HO00000805/</link>
+      <guid isPermaLink="false">4147ae1f-f686-4bc2-8af2-d59a56a84366</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En 2007, Juliette Binoche y Akram Khan crearon &apos;In-I&apos;. Hoy, Binoche revisita ese viaje, reflexionando sobre la creación y la transformación personal</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Triplettes de Belleville</title>
+      <link>https://www.cinecolombia.com/films/triplettes-de-belleville/HO00000806/</link>
+      <guid isPermaLink="false">f73b416a-66e0-4ec9-bb67-676585f51a02</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Champion, apasionado del ciclismo, es secuestrado durante el Tour de Francia. Su abuela Madame Souza, junto a su perro Bruno, corre a rescatarlo.</description>
+    </item>
+    <item>
+      <title>En cartelera: L&apos;affaire Bojarski</title>
+      <link>https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/</link>
+      <guid isPermaLink="false">a424d84b-9a14-475f-8063-854d5cd297fc</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Jan Bojarski, ingeniero polaco refugiado, falsifica documentos para la Resistencia. Sin identidad legal, un gánster lo recluta para falsificar billetes en secreto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Soudain</title>
+      <link>https://www.cinecolombia.com/films/soudain/HO00000808/</link>
+      <guid isPermaLink="false">7a39fd9e-494b-4546-be3c-a9785337da2d</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Marie-Lou Fontaine (Virginie Efira), directora de una residencia, lucha por una atención más humana. Su amistad con Mari Morisaki (Tal Okamoto) transforma su vida.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: ¡Lumière! L’aventure commence</title>
+      <link>https://www.cinecolombia.com/films/lumière-l-aventure-commence/HO00000809/</link>
+      <guid isPermaLink="false">faf6dd99-76f8-4355-a040-f6b6ebb5f61a</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Thierry Frémaux narra un recorrido por más de cien cortos restaurados de los hermanos Lumière (1895-1905), revelando cómo anticiparon el lenguaje del cine moderno.</description>
+    </item>
+    <item>
+      <title>En cartelera: Le Parc</title>
+      <link>https://www.cinecolombia.com/films/le-parc/HO00000810/</link>
+      <guid isPermaLink="false">7c0a36c5-13bd-41c1-936d-7086ebe1952f</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En un jardín francés, cuatro cupidos guían juegos de deseo hasta que el orgullo cede. Ballet de Preljocaj (1994), célebre por su emotivo pas de deux final.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Preventa abierta: Sarah Bernhardt, la Divine</title>
+      <link>https://www.cinecolombia.com/films/sarah-bernhardt-la-divine/HO00000811/</link>
+      <guid isPermaLink="false">b55ccc82-624c-4c1d-81c8-bd425ebbfb77</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En 1915, Sarah Bernhardt, &apos;La Divine&apos;, primera celebridad del mundo, desafía las normas sociales. Este biopic narra la historia de amor que marcó su vida.</description>
+    </item>
+    <item>
+      <title>En cartelera: Les choristes</title>
+      <link>https://www.cinecolombia.com/films/les-choristes/HO00000812/</link>
+      <guid isPermaLink="false">2b02675b-14d6-418a-b4ed-b2bb9ba60367</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En 1949, Clément Mathieu, profesor desempleado, llega como supervisor a un internado con métodos represivos. Al enseñarles a cantar, transforma la vida de los chicos.</description>
+    </item>
+    <item>
+      <title>En cartelera: La haine</title>
+      <link>https://www.cinecolombia.com/films/la-haine/HO00000813/</link>
+      <guid isPermaLink="false">530cd976-79e4-4527-bf43-3cfeb1bac7b2</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Tras disturbios en las afueras de París, Vinz, Saïd y Hubert vagan 24 horas por la ciudad entre violencia, tensión policial y la rabia por la agresión a su amigo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Dossier 137</title>
+      <link>https://www.cinecolombia.com/films/dossier-137/HO00000814/</link>
+      <guid isPermaLink="false">49a60291-6ab2-4836-a238-fba18b6712cd</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Stéphanie, investigadora de la IGPN, indaga un caso de un joven herido por LBD en una manifestación, pero algo inesperado hace que el caso deje de ser uno más para ella.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Mateo</title>
+      <link>https://www.cinecolombia.com/films/mateo/HO00000815/</link>
+      <guid isPermaLink="false">8928f14e-1743-42d7-9442-617e3b5d541e</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Mateo, de 16 años, cobra extorsiones para su tío criminal. Enviado a infiltrar un grupo de teatro, queda atrapado entre la lealtad familiar y un mundo nuevo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Sois belle et tais-toi</title>
+      <link>https://www.cinecolombia.com/films/sois-belle-et-tais-toi/HO00000816/</link>
+      <guid isPermaLink="false">fdbb5f25-3160-4d1a-a3dc-351b5de69da8</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Delphine Seyrig entrevista a veinticuatro actrices francesas y estadounidenses sobre su carrera, revelando el sexismo que atraviesa la industria del cine.</description>
+    </item>
+    <item>
+      <title>En cartelera: Litigante</title>
+      <link>https://www.cinecolombia.com/films/litigante/HO00000817/</link>
+      <guid isPermaLink="false">fa3eddd4-ca7a-4016-9833-aa03e11494ed</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Silvia, abogada y madre soltera al límite, cuida a su hijo y a su madre enferma mientras enfrenta una acusación de corrupción, justo cuando el amor reaparece en su vida.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Trois couleurs: Bleu</title>
+      <link>https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/</link>
+      <guid isPermaLink="false">10f94908-4ae1-4cbc-8285-290c42676902</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Julie sobrevive a un accidente que mata a su esposo e hija y busca aislarse. Olivier la ayuda a reconectar con la vida y completar la obra inacabada de su marido.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Persepolis</title>
+      <link>https://www.cinecolombia.com/films/persepolis/HO00000819/</link>
+      <guid isPermaLink="false">1fc449fd-02e9-4166-b837-e6376af94db4</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Marji, niña iraní rebelde, crece en Teherán durante la Revolución Islámica, enfrenta represión y guerra, y luego el exilio en Viena, buscando su identidad entre dos mundo</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Jericó, el infinito vuelo de los días</title>
+      <link>https://www.cinecolombia.com/films/jerico-el-infinito-vuelo-de-los-dias/HO00000820/</link>
+      <guid isPermaLink="false">7fdd61f7-8ece-4194-91a3-b21bb66cbf16</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Jericó, el infinito vuelo de los días&apos; retrata a mujeres del pueblo de Jericó, revelando sus historias, su humor y sabiduría, preservando el patrimonio inmaterial.</description>
+    </item>
+    <item>
+      <title>Pronto: Sacrifice</title>
+      <link>https://www.cinecolombia.com/films/sacrifice/HO00000821/</link>
+      <guid isPermaLink="false">57e1ba4f-657f-4e32-933b-6d97c32ae52f</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Runner</title>
+      <link>https://www.cinecolombia.com/films/runner/HO00000822/</link>
+      <guid isPermaLink="false">0e54d8ea-7940-4cc0-809e-22b340e839a1</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: By Any Means</title>
+      <link>https://www.cinecolombia.com/films/by-any-means/HO00000823/</link>
+      <guid isPermaLink="false">1c9f1d1a-c195-4c35-8c99-9b0e5d00f65d</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Lockbox</title>
+      <link>https://www.cinecolombia.com/films/lockbox/HO00000824/</link>
+      <guid isPermaLink="false">6c379dcd-7405-4904-8d4e-4d46f7a7066b</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Onslaught</title>
+      <link>https://www.cinecolombia.com/films/onslaught/HO00000825/</link>
+      <guid isPermaLink="false">7cc0b2d9-8b66-46b4-ae10-ae4b3a848b8e</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Das Verschwinden des Josef Mengele</title>
+      <link>https://www.cinecolombia.com/films/das-verschwinden-des-josef-mengele/HO00000670/</link>
+      <guid isPermaLink="false">f707ca56-3bcb-4827-a91b-783a085c285b</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>Tras la Segunda Guerra Mundial, Josef Mengele, el médico nazi de Auschwitz, escapa a Sudamérica para rehacer su vida en la clandestinidad. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tFaU7LpfbWiLs9rt0igjuBaDEOX.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: My Neighbor Totoro</title>
+      <link>https://www.cinecolombia.com/films/my-neighbor-totoro/HO00000721/</link>
+      <guid isPermaLink="false">b753a23f-d01f-4c60-b93c-3dcf1ee94036</guid>
+      <pubDate>Thu, 17 Sep 2026 05:00:33 GMT</pubDate>
+      <description>En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque</description>
+    </item>
+    <item>
       <title>En cartelera: Charlie the Wonderdog</title>
       <link>https://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/</link>
       <guid isPermaLink="false">c7ec9180-20b0-4db3-a47c-be77bd93ddf9</guid>
@@ -555,252 +794,6 @@
       <guid isPermaLink="false">51a2d2ac-8b34-42d4-b27a-ad5320142960</guid>
       <pubDate>Wed, 02 Sep 2026 11:00:50 GMT</pubDate>
       <description>En los años 50, una familia japonesa se traslada al campo. Las dos hijas, Satsuki y Mei, entablan amistad con Totoro, un espíritu del bosque</description>
-    </item>
-    <item>
-      <title>En cartelera: Marsupilami</title>
-      <link>https://www.cinecolombia.com/films/marsupilami/HO00000751/</link>
-      <guid isPermaLink="false">597e978f-4774-4fa1-84da-b8331eede4ac</guid>
-      <pubDate>Wed, 02 Sep 2026 11:00:50 GMT</pubDate>
-      <description>David emprende una misión secreta que se convierte en un caos cuando libera a un bebé marsupilami durante un crucero familiar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/rJNHFa07Id2ylQgw0ttzGwpeczE.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Ice Cream Man</title>
-      <link>https://www.cinecolombia.com/films/ice-cream-man/HO00000691/</link>
-      <guid isPermaLink="false">15e56b30-1d89-411d-8b3a-f1fd072bcc6e</guid>
-      <pubDate>Wed, 02 Sep 2026 05:00:50 GMT</pubDate>
-      <description>Un pueblo veraniego ideal cae en la locura cuando un heladero sirve a los niños dulces delicias con resultados terroríficos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/42k9fYJX7RMCxA4w2YVRv393dRG.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Mrs. Warren&apos;s Profession</title>
-      <link>https://www.cinecolombia.com/films/mrs-warrens-profession/HO00000725/</link>
-      <guid isPermaLink="false">e0b03fd0-3c20-48fe-a137-298054c901c5</guid>
-      <pubDate>Sun, 30 Aug 2026 23:00:51 GMT</pubDate>
-      <description>Vivie Warren desafía las normas de su época mientras enfrenta a su madre en un intenso drama sobre moral, independencia y cambio social.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xh02VRO7Duh5LaU67cusKEcESTB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Ghost: 2 Big To Rig</title>
-      <link>https://www.cinecolombia.com/films/ghost-2-big-to-rig/HO00000716/</link>
-      <guid isPermaLink="false">93261292-9506-4fc1-b741-3e037aace90e</guid>
-      <pubDate>Sun, 30 Aug 2026 11:00:51 GMT</pubDate>
-      <description>2 BIG TO RIG nació para compartir el SKELETOUR con los fans en los lugares donde no era posible llevar a cabo el espectáculo y es una carta de amor para todos. </description>
-      <media:content url="https://image.tmdb.org/t/p/w500/nZnCOQNa4UcBNGjqbw12HPIFqBY.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Piedras preciosas</title>
-      <link>https://www.cinecolombia.com/films/piedras-preciosas/HO00000659/</link>
-      <guid isPermaLink="false">db1fc9a3-509d-4f41-b1eb-afa80d9e9413</guid>
-      <pubDate>Fri, 28 Aug 2026 05:00:53 GMT</pubDate>
-      <description>Machado, un colombiano que vive en Francia, es contratado para regresar a su tierra natal en Medellín y robar una esmeralda.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dVwPsLV4Pi9CPmbOHeIYs4k2lpk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Your Heart Will Be Broken</title>
-      <link>https://www.cinecolombia.com/films/your-heart-will-be-broken/HO00000700/</link>
-      <guid isPermaLink="false">ee4ae05b-a338-48b8-995e-aa25926fcc6b</guid>
-      <pubDate>Thu, 27 Aug 2026 11:00:52 GMT</pubDate>
-      <description>Polina es una estudiante que llega a una nueva escuela con la esperanza de comenzar de cero, pero pronto se convierte en el blanco del acoso escolar, quedando aislada.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/naOC89qeEygU44xM9EIot1m5AUQ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Speed Demon</title>
-      <link>https://www.cinecolombia.com/films/speed-demon/HO00000719/</link>
-      <guid isPermaLink="false">8ee953db-62a1-4cfe-a1fc-4dc477563296</guid>
-      <pubDate>Thu, 27 Aug 2026 11:00:52 GMT</pubDate>
-      <description>A bordo de un tren de alta velocidad, una monja que ha perdido la fe debe llevar a cabo su primer exorcismo sobre un pasajero poseído empeñado en descarrilar el tren.	
-	</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/gP7maqMVoQPXYi1rtCJ1kpSpNTA.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Mr. Nobody Against Putin</title>
-      <link>https://www.cinecolombia.com/films/mr-nobody-against-putin/HO00000771/</link>
-      <guid isPermaLink="false">40e05a6a-4251-4e93-adab-22d3bf3028f3</guid>
-      <pubDate>Thu, 27 Aug 2026 11:00:52 GMT</pubDate>
-      <description>Ganadora del Óscar 2026 a Mejor Documental: en plena invasión rusa a Ucrania, el profesor Pavel Talankin graba en secreto la propaganda dentro de su escuela</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Les digo &quot;Almas&quot;</title>
-      <link>https://www.cinecolombia.com/films/les-digo-almas/HO00000770/</link>
-      <guid isPermaLink="false">f1ed6bb1-de29-4381-8aeb-b4ab39f889dd</guid>
-      <pubDate>Thu, 27 Aug 2026 05:00:50 GMT</pubDate>
-      <description>Un disparo lo cambia todo: los agentes Ángela Rojas y Daniel Díaz cometen un crimen que no pueden deshacer. Perseguidos, el reloj corre en su contra.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lUH1zgvriFO6t6GBHYxil4Bx9Su.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: One Piece The Movie</title>
-      <link>https://www.cinecolombia.com/films/one-piece-the-movie/HO00000737/</link>
-      <guid isPermaLink="false">24620c69-4c00-428c-9f2b-d10bef18f303</guid>
-      <pubDate>Thu, 27 Aug 2026 05:00:50 GMT</pubDate>
-      <description>Luffy y su tripulación emprenden la búsqueda del legendario tesoro de Woonan mientras enfrentan a un poderoso enemigo con habilidades de una Fruta del Diablo.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/g8Gaj5qlM0S0NTZSP05ETs7aFst.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Proud Princess</title>
-      <link>https://www.cinecolombia.com/films/the-proud-princess/HO00000662/</link>
-      <guid isPermaLink="false">317e5184-4c39-4587-bc68-69bca9a52e3b</guid>
-      <pubDate>Thu, 27 Aug 2026 05:00:50 GMT</pubDate>
-      <description>Ha llegado el momento de que el joven y apuesto rey Benjamín encuentre esposa. Cuando le presentan el retrato de la bella princesa Carolina, queda encantado.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/5F8ObaJZoXQuhgazlzEyieyZQtH.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Lupin the IIIrd the Movie: The Immortal Bloodline</title>
-      <link>https://www.cinecolombia.com/films/lupin-the-iiird-the-movie-the-immortal-bloodline/HO00000718/</link>
-      <guid isPermaLink="false">4a046dcf-b1c0-4ec8-bf8d-42a340711ee5</guid>
-      <pubDate>Thu, 27 Aug 2026 05:00:50 GMT</pubDate>
-      <description>Lupin y su pandilla localizan una isla desierta en busca de tesoros, pero se meten en una batalla por sobrevivir con los misteriosos residentes de la isla.	</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/b2MPK6pGFrdNHG41CyzY0z03bBQ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: One Night Only</title>
-      <link>https://www.cinecolombia.com/films/one-night-only/HO00000636/</link>
-      <guid isPermaLink="false">6917d169-7283-4715-a936-c87aeae033d6</guid>
-      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
-      <description>Owen, recién dejado por su pareja, y Allie, una romántica esperanzada, podrían ser los únicos solteros en la ciudad que buscan algo más que un encuentro casual.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Deep Water</title>
-      <link>https://www.cinecolombia.com/films/deep-water/HO00000668/</link>
-      <guid isPermaLink="false">7410cbd3-c8e7-4444-a7ac-8840a2489e09</guid>
-      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
-      <description>Un grupo de pasajeros internacionales en ruta de Los Ángeles a Shanghai se ven obligados a realizar un aterrizaje de emergencia en aguas infestadas de tiburones.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/2yXnZvLxfi0paO0HnjpO4rLfocr.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Dog Stars</title>
-      <link>https://www.cinecolombia.com/films/the-dog-stars/HO00000696/</link>
-      <guid isPermaLink="false">65976377-376d-4e75-9e7c-d2ce053400d9</guid>
-      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
-      <description>un virus ha acabado con la mayor parte de la humanidad Hig, un piloto que sobrevivió a la gripe que mató a todos sus conocidos, vive en el hangar de un pequeño aeropuerto</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Bride</title>
-      <link>https://www.cinecolombia.com/films/the-bride/HO00000708/</link>
-      <guid isPermaLink="false">5092fd33-b83b-40e9-b0f0-03e660b685f6</guid>
-      <pubDate>Wed, 26 Aug 2026 05:00:51 GMT</pubDate>
-      <description>La historia se centra en Yến, una joven vietnamita que viaja a una zona rural de Tailandia para casarse con Bank, su prometido perteneciente a una familia rica.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/4xC5IfnCekweHkTFjqQsMOC1gca.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Twenty Years of the Met in Cinemas</title>
-      <link>https://www.cinecolombia.com/films/twenty-years-of-the-met-in-cinemas/HO00000757/</link>
-      <guid isPermaLink="false">002dcc6a-0f37-4f9c-ba04-4babe450bad9</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>The Met: Live in HD&apos; celebra 20 años llevando ópera a cines de 70 países. Con Renée Fleming, arias de 185 óperas y más de 33 millones de boletos vendidos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Carmen</title>
-      <link>https://www.cinecolombia.com/films/carmen/HO00000758/</link>
-      <guid isPermaLink="false">79a42da9-8a39-4db1-83e6-8a74ad5d13bf</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Carmen&apos; de Bizet, con Elīna Garanča y Roberto Alagna, en la icónica producción de Richard Eyre (Met 2010). Pasión, magnetismo y destrucción.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7jRPTuYdxXXRLddO4FQG22axu9e.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Magic Flute</title>
-      <link>https://www.cinecolombia.com/films/the-magic-flute/HO00000759/</link>
-      <guid isPermaLink="false">5cc3e92a-4993-471a-b462-ed0bdc02c9a9</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Hace 20 años, el Met transmitió por primera vez en HD &apos;La flauta mágica&apos; de Mozart. Regresa en Navidad con Polenzani, Gunn y la puesta de Julie Taymor.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/qjUjatQEMIHtCngnyTib943x7TU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Tosca</title>
-      <link>https://www.cinecolombia.com/films/tosca/HO00000760/</link>
-      <guid isPermaLink="false">7742f425-bee2-4453-bd64-06d8f7761c57</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Tosca&apos; de Puccini, con Lise Davidsen, Freddie De Tommaso y Quinn Kelsey, en la producción de David McVicar (Met 2024). Pasión y drama en Roma.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Così fan tutte</title>
-      <link>https://www.cinecolombia.com/films/cosi-fan-tutte/HO00000761/</link>
-      <guid isPermaLink="false">5f37fb8f-7af7-4eaf-b814-dcbbb9185d0e</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Così fan tutte&apos; de Mozart, con puesta de Phelim McDermott en un parque tipo Coney Island años 50. Sátira en 2 actos sobre el amor y la fidelidad.</description>
-    </item>
-    <item>
-      <title>En cartelera: Macbeth</title>
-      <link>https://www.cinecolombia.com/films/macbeth/HO00000762/</link>
-      <guid isPermaLink="false">8a92dcee-239b-4e47-b124-c92b1aad7f92</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Verdi&apos;s &apos;Macbeth&apos; con Lise Davidsen y Quinn Kelsey, dirigido por Louisa Proske en su debut en el Met. Ambición, poder y destrucción en 4 actos.</description>
-    </item>
-    <item>
-      <title>En cartelera: Samson et Dalila</title>
-      <link>https://www.cinecolombia.com/films/samson-et-dalila/HO00000763/</link>
-      <guid isPermaLink="false">a82763bd-fb5c-4e62-8562-fc1564b67b65</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Sansón y Dalila&apos; de Saint-Saëns, con Aigul Akhmetshina y Clay Hilley, bajo la dirección de Sagripanti. Pasión, traición y fe en la gran ópera francesa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kg4bIJ65Q13UWtbyR8W0u7VQUU7.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: La Fanciulla del West</title>
-      <link>https://www.cinecolombia.com/films/la-fanciulla-del-west/HO00000764/</link>
-      <guid isPermaLink="false">7119393e-81a4-4190-89fd-be90f50f192c</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>La Fanciulla del West&apos; de Puccini, con Vida Miknevičiūtė y SeokJong Baek, dirigida por Richard Jones. Amor, justicia y redención en el Lejano Oeste.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/73lJaerj5Z5I9BJdLkSXWPwhkCf.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Avengers Endgame Re release</title>
-      <link>https://www.cinecolombia.com/films/avengers-endgame-re-release/HO00000765/</link>
-      <guid isPermaLink="false">d58ff002-c334-4240-8868-29963f03dee8</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.</description>
-    </item>
-    <item>
-      <title>En cartelera: Silent Night</title>
-      <link>https://www.cinecolombia.com/films/silent-night/HO00000766/</link>
-      <guid isPermaLink="false">6c0dc3ba-d935-424f-ae7a-3875dc2b6c3f</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Silent Night&apos; de Kevin Puts (Pulitzer 2012) llega al Met: soldados de distintas naciones deponen las armas en la Tregua de Navidad de 1914. 2 actos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/gUaKPSw6fpqCR4spnwBwmYSEXtU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Manon</title>
-      <link>https://www.cinecolombia.com/films/manon/HO00000767/</link>
-      <guid isPermaLink="false">bcfe0b43-593c-4527-acb5-cfce996ab886</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Manon&apos; de Massenet, con Nadine Sierra y Matthew Polenzani, dirigida por Laurent Pelly en la Belle Époque francesa. Amor, lujo y caída en 5 actos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/gy1dSADR6FdIL8jpUonLNYeCREk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Otello</title>
-      <link>https://www.cinecolombia.com/films/otello/HO00000768/</link>
-      <guid isPermaLink="false">c65ca95f-ac17-430a-9484-b09133b976a7</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Otello&apos; de Verdi, con Brian Jagde, Ailyn Pérez y Artur Ruciński, dirigida por Michele Mariotti. Celos, manipulación y tragedia en 4 actos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dnF9OwgVcDKClhAf4ZPKQBRWyDh.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Parsifal</title>
-      <link>https://www.cinecolombia.com/films/parsifal/HO00000769/</link>
-      <guid isPermaLink="false">6c645f6d-413d-437f-a9c7-d819f40876df</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Parsifal&apos;, última ópera de Wagner, con Piotr Beczała y Elīna Garanča, dirigida por Yannick Nézet-Séguin. Fe, compasión y redención en 3 actos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/68bLPfddedoqUeFaWunUOk2wfKf.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Mr. Nobody Against Putin</title>
-      <link>https://www.cinecolombia.com/films/mr-nobody-against-putin/HO00000771/</link>
-      <guid isPermaLink="false">d4359863-760d-4e38-8514-a18c3df995a5</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>Ganadora del Óscar 2026 a Mejor Documental: en plena invasión rusa a Ucrania, el profesor Pavel Talankin graba en secreto la propaganda dentro de su escuela</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vnP69Zp2V79QCzZHVBiE5isRA4O.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Resurrection</title>
-      <link>https://www.cinecolombia.com/films/resurrection/HO00000772/</link>
-      <guid isPermaLink="false">287e4723-e976-469b-9f9a-191453fcbf23</guid>
-      <pubDate>Tue, 25 Aug 2026 23:00:54 GMT</pubDate>
-      <description>En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vQZK421erWKR5PgF4pbz0lp4o3o.jpg" medium="image" />
     </item>
   </channel>
 </rss>

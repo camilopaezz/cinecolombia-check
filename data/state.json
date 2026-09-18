@@ -1204,7 +1204,7 @@
       "shortSynopsis": "Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.",
       "releaseDate": "2026-09-24",
       "runtimeInMinutes": 110,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Crimen",
         "Drama",
@@ -1296,7 +1296,7 @@
       "shortSynopsis": "The Met: Live in HD' celebra 20 años llevando ópera a cines de 70 países. Con Renée Fleming, arias de 185 óperas y más de 33 millones de boletos vendidos.",
       "releaseDate": "2026-09-19",
       "runtimeInMinutes": 150,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Documental"
       ],
@@ -1879,7 +1879,8 @@
       "director": "Ali Ray",
       "webUrl": "https://www.cinecolombia.com/films/renoir-love/HO00000787/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
       "tmdb": {
@@ -1900,7 +1901,8 @@
       "director": "David Bickerstaff",
       "webUrl": "https://www.cinecolombia.com/films/james-mcneill-whistler/HO00000788/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -1917,7 +1919,8 @@
       "director": "Phil Grabsky",
       "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
       "tmdb": {
@@ -1938,7 +1941,8 @@
       "director": "David Bickerstaff",
       "webUrl": "https://www.cinecolombia.com/films/turner-constable/HO00000790/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
       "tmdb": {
@@ -2707,6 +2711,548 @@
         "tmdbId": 1284046,
         "posterPath": "/tRVR2QNr7ua6xEL226N0zRVeDI.jpg"
       }
+    },
+    {
+      "id": "HO00000826",
+      "title": "6 meses en el edificio rosa con azul",
+      "shortSynopsis": "Ciudad de México, años 90. El día que Bruno cumple 11, sus sentimientos por Vladimir chocan con que su padre tiene VIH. Su familia enfrenta el dolor con salsa.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 104,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Bruno Santamaría Razo",
+      "webUrl": "https://www.cinecolombia.com/films/6-meses-en-el-edificio-rosa-con-azul/HO00000826/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg",
+      "tmdb": {
+        "tmdbId": 1025407,
+        "posterPath": "/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg"
+      }
+    },
+    {
+      "id": "HO00000827",
+      "title": "Aquí",
+      "shortSynopsis": "Simón se hace cargo de David, un niño huérfano, y busca en Inés una madre para él. Juntos reinventan la idea de familia, mientras David se resiste a las normas.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 204,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Tiago Guedes",
+      "webUrl": "https://www.cinecolombia.com/films/aqui/HO00000827/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg",
+      "tmdb": {
+        "tmdbId": 1000837,
+        "posterPath": "/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg"
+      }
+    },
+    {
+      "id": "HO00000828",
+      "title": "Coward",
+      "shortSynopsis": "En plena Primera Guerra Mundial, Pierre conoce a Francis, quien organiza una obra de teatro para levantar el ánimo. Juntos buscan escapar de la brutalidad.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 125,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Lukas Dhont",
+      "webUrl": "https://www.cinecolombia.com/films/coward/HO00000828/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg",
+      "tmdb": {
+        "tmdbId": 1437981,
+        "posterPath": "/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg"
+      }
+    },
+    {
+      "id": "HO00000829",
+      "title": "Dua",
+      "shortSynopsis": "En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 101,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Blerta Basholli",
+      "webUrl": "https://www.cinecolombia.com/films/dua/HO00000829/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg",
+      "tmdb": {
+        "tmdbId": 1472825,
+        "posterPath": "/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg"
+      }
+    },
+    {
+      "id": "HO00000830",
+      "title": "El Deshielo",
+      "shortSynopsis": "Chile, 1992. Inés, de 9 años, hace amistad con Hanna, joven esquiadora alemana, cerca de una estación de esquí andina. Su desaparición desvela verdades ocultas.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 88,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Manuela Martelli",
+      "webUrl": "https://www.cinecolombia.com/films/el-deshielo/HO00000830/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg",
+      "tmdb": {
+        "tmdbId": 1210268,
+        "posterPath": "/qia4SpH0shPlNboorBgbFnfIhKf.jpg"
+      }
+    },
+    {
+      "id": "HO00000831",
+      "title": "El prófugo",
+      "shortSynopsis": "Inés, actriz de doblaje en Buenos Aires, desarrolla pesadillas vívidas tras un trauma. Paranoica, cree que los personajes de sus sueños intentan poseer su cuerpo",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Natalia Meta",
+      "webUrl": "https://www.cinecolombia.com/films/el-profugo/HO00000831/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000832",
+      "title": "El rapto",
+      "shortSynopsis": "Buenos Aires, años 80. Julio Levy regresa del exilio al secuestrar su hermano. A cargo del rescate, descubre las fuerzas que aún operan tras la democracia argentina.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Daniela Goggi",
+      "webUrl": "https://www.cinecolombia.com/films/el-rapto/HO00000832/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg",
+      "tmdb": {
+        "tmdbId": 801112,
+        "posterPath": "/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg"
+      }
+    },
+    {
+      "id": "HO00000833",
+      "title": "Everytime",
+      "shortSynopsis": "Una tragedia une a una madre, su hija y un adolescente. El trío viaja a Tenerife para vivir las vacaciones familiares que nunca tuvieron.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 124,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Sandra Wollner",
+      "webUrl": "https://www.cinecolombia.com/films/everytime/HO00000833/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
+      "tmdb": {
+        "tmdbId": 1655419,
+        "posterPath": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg"
+      }
+    },
+    {
+      "id": "HO00000834",
+      "title": "Fatherland",
+      "shortSynopsis": "En 1949, Thomas Mann (Hanns Zischler) y su hija Erika (Sandra Hüller) viajan por una Alemania dividida en 'Fatherland', de Pawlikowski. Identidad, familia y culpa.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 82,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama",
+        "Historia"
+      ],
+      "director": "Paweł Pawlikowski",
+      "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000834/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
+      "tmdb": {
+        "tmdbId": 1437696,
+        "posterPath": "/7VjwmvDG5mksJBXMcmK6PudqH88.jpg"
+      }
+    },
+    {
+      "id": "HO00000835",
+      "title": "Filipiñana",
+      "shortSynopsis": "Isabel, nueva empleada de un club de campo, se siente atraída por el Dr. Palanca, hasta descubrir un pasado siniestro tras la fachada del lugar.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 99,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Rafael Manuel",
+      "webUrl": "https://www.cinecolombia.com/films/filipinana/HO00000835/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg",
+      "tmdb": {
+        "tmdbId": 1417935,
+        "posterPath": "/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg"
+      }
+    },
+    {
+      "id": "HO00000836",
+      "title": "Hangar rojo",
+      "shortSynopsis": "Durante el golpe de 1973 en Chile, el Capitán Jorge Silva debe transformar una academia militar en centro de tortura. 'Hangar Rojo', thriller sobre el poder militar.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 83,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Juan Pablo Sallato",
+      "webUrl": "https://www.cinecolombia.com/films/hangar-rojo/HO00000836/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg",
+      "tmdb": {
+        "tmdbId": 1563588,
+        "posterPath": "/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg"
+      }
+    },
+    {
+      "id": "HO00000837",
+      "title": "Heat",
+      "shortSynopsis": "Bajo un calor sin precedentes, las vidas y las estructuras sociales comienzan a transformarse. Más allá de las advertencias distópicas, ¿cómo afecta el calor a los seres.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 84,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Jacqueline Zünd",
+      "webUrl": "https://www.cinecolombia.com/films/heat/HO00000837/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg",
+      "tmdb": {
+        "tmdbId": 949,
+        "posterPath": "/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg"
+      }
+    },
+    {
+      "id": "HO00000838",
+      "title": "Historia del miedo",
+      "shortSynopsis": "Un verano caluroso en una ciudad con cortes de luz. Un barrio privado con un gran parque y un terreno abandonado desatan una ola de humo, incertidumbre y caos.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 79,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Benjamín Naishtat",
+      "webUrl": "https://www.cinecolombia.com/films/historia-del-miedo/HO00000838/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000839",
+      "title": "Iluminada",
+      "shortSynopsis": "Iluminada, joven con visiones que plasma en su poesía, vive entre dificultades en la periferia de Bogotá. Su relación con Juan no es bien vista en el barrio",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Nicolás Rincón Gille",
+      "webUrl": "https://www.cinecolombia.com/films/iluminada/HO00000839/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000840",
+      "title": "La Bola Negra",
+      "shortSynopsis": "LA BOLA NEGRA entrelaza las vidas de tres hombres en 1932, 1937 y 2017, unidas por el deseo, el dolor y la herencia. Inspirada en una obra inacabada de Lorca.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 155,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Javier Ambrossi",
+      "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000840/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qCUSOso8PSkVvZjSZ9awZpS1DQj.jpg",
+      "tmdb": {
+        "tmdbId": 1422041,
+        "posterPath": "/qCUSOso8PSkVvZjSZ9awZpS1DQj.jpg"
+      }
+    },
+    {
+      "id": "HO00000841",
+      "title": "La libertad doble",
+      "shortSynopsis": "Misael, leñador solitario, ve su vida trastocada por una responsabilidad inesperada, mientras la naturaleza le revela que la razón humana carece de sentido",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 100,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Lisandro Alonso",
+      "webUrl": "https://www.cinecolombia.com/films/la-libertad-doble/HO00000841/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg",
+      "tmdb": {
+        "tmdbId": 1387981,
+        "posterPath": "/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg"
+      }
+    },
+    {
+      "id": "HO00000842",
+      "title": "Lejos de los Árboles",
+      "shortSynopsis": "Adela, artista sonora mexicana, viaja con Lucho por la selva y los Andes, creando un mapa sonoro de lenguas en peligro. Un viaje íntimo hacia sus orígenes.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 121,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Meritxell Colell Aparicio",
+      "webUrl": "https://www.cinecolombia.com/films/lejos-de-los-arboles/HO00000842/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg",
+      "tmdb": {
+        "tmdbId": 1025391,
+        "posterPath": "/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg"
+      }
+    },
+    {
+      "id": "HO00000843",
+      "title": "Light Pillar",
+      "shortSynopsis": "Zha, solitario conserje de un estudio en quiebra, escapa a un mundo virtual donde sueña con viajar a la Luna. La destrucción real se vuelve set de ciencia ficción.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 90,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Animación",
+        "Drama",
+        "Romance"
+      ],
+      "director": "Xu Zao",
+      "webUrl": "https://www.cinecolombia.com/films/light-pillar/HO00000843/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/taet4dtOhKE4LZImCxPZuzeQwmb.jpg",
+      "tmdb": {
+        "tmdbId": 1601885,
+        "posterPath": "/taet4dtOhKE4LZImCxPZuzeQwmb.jpg"
+      }
+    },
+    {
+      "id": "HO00000844",
+      "title": "Los nuevos",
+      "shortSynopsis": "Tiana y su familia buscan refugio en el pueblo de Mateo y Tomás, pero la contaminación los alcanza. Los niños y la perra Nube buscan qué envenena los ríos.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 79,
+      "censorRating": "Todos",
+      "genres": [
+        "Aventura",
+        "Drama",
+        "Familia"
+      ],
+      "director": "Rodrigo Plá",
+      "webUrl": "https://www.cinecolombia.com/films/los-nuevos/HO00000844/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9tGOAAcn2P9f0IYlinRwkKqwJKI.jpg",
+      "tmdb": {
+        "tmdbId": 1735053,
+        "posterPath": "/9tGOAAcn2P9f0IYlinRwkKqwJKI.jpg"
+      }
+    },
+    {
+      "id": "HO00000845",
+      "title": "Mariinka",
+      "shortSynopsis": "En Ucrania oriental, vecinos de la infancia enfrentan la guerra: Natasha es paramédica, y los hermanos Mark y Ruslan luchan en bandos opuestos. 'Mariinka'.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 94,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Pieter-Jan De Pue",
+      "webUrl": "https://www.cinecolombia.com/films/mariinka/HO00000845/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg",
+      "tmdb": {
+        "tmdbId": 1625655,
+        "posterPath": "/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg"
+      }
+    },
+    {
+      "id": "HO00000846",
+      "title": "Minotaur",
+      "shortSynopsis": "Rusia, 2022. Gleb, exitoso director de empresa, ve colapsar su vida ordenada hacia la violencia, acorralado por presiones corporativas y un mundo inestable.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 141,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Andrey Zviaguintsev",
+      "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000846/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+      "tmdb": {
+        "tmdbId": 848700,
+        "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
+      }
+    },
+    {
+      "id": "HO00000847",
+      "title": "Nina Roza",
+      "shortSynopsis": "Un video viral de una niña artista búlgara atrae a un coleccionista, quien envía a Mihail a evaluar su obra, treinta años después de dejar su país natal.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 103,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Geneviève Dulude-De Celles",
+      "webUrl": "https://www.cinecolombia.com/films/nina-roza/HO00000847/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kxdTf63duqsc2bA8erZy4rn5Rr5.jpg",
+      "tmdb": {
+        "tmdbId": 1527449,
+        "posterPath": "/kxdTf63duqsc2bA8erZy4rn5Rr5.jpg"
+      }
+    },
+    {
+      "id": "HO00000848",
+      "title": "Objet A",
+      "shortSynopsis": "Ingeborg y Adam, cirujanos unidos por la obsesión, ven alterado su delicado equilibrio cuando la enigmática Gaia entra en sus vidas tras un accidente.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 95,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Ann Oren",
+      "webUrl": "https://www.cinecolombia.com/films/objet-a/HO00000848/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6NG5Gjb9Kit3jZmed0BZQmLxxGq.jpg",
+      "tmdb": {
+        "tmdbId": 1228841,
+        "posterPath": "/6NG5Gjb9Kit3jZmed0BZQmLxxGq.jpg"
+      }
+    },
+    {
+      "id": "HO00000849",
+      "title": "Papaya",
+      "shortSynopsis": "Una diminuta semilla de papaya en la selva amazónica huye de echar raíces, hasta descubrir el poder de las suyas, desencadenando una revolución inesperada.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 75,
+      "censorRating": "Todos",
+      "genres": [
+        "Animación"
+      ],
+      "director": "Priscilla Kellen",
+      "webUrl": "https://www.cinecolombia.com/films/papaya/HO00000849/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/fET69vh3XIeSmxanlgKKN8x23hC.jpg",
+      "tmdb": {
+        "tmdbId": 1534205,
+        "posterPath": "/fET69vh3XIeSmxanlgKKN8x23hC.jpg"
+      }
+    },
+    {
+      "id": "HO00000850",
+      "title": "Princesa Burro",
+      "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la lleva a recuperar su amor perdido.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 90,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Fantasía"
+      ],
+      "director": "Cristóbal León",
+      "webUrl": "https://www.cinecolombia.com/films/princesa-burro/HO00000850/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg",
+      "tmdb": {
+        "tmdbId": 1536431,
+        "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
+      }
+    },
+    {
+      "id": "HO00000851",
+      "title": "A Providência e a Guitarra",
+      "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la ayuda a recuperar su amor perdido",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 125,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "João Nicolau",
+      "webUrl": "https://www.cinecolombia.com/films/a-providencia-e-a-guitarra/HO00000851/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg",
+      "tmdb": {
+        "tmdbId": 1440397,
+        "posterPath": "/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -3389,8 +3935,100 @@
     "HO00000818": {
       "tmdbId": 108,
       "posterPath": "/acF0MZyMhe1svIxp17xxIstPIqi.jpg"
+    },
+    "HO00000826": {
+      "tmdbId": 1025407,
+      "posterPath": "/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg"
+    },
+    "HO00000851": {
+      "tmdbId": 1440397,
+      "posterPath": "/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg"
+    },
+    "HO00000827": {
+      "tmdbId": 1000837,
+      "posterPath": "/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg"
+    },
+    "HO00000828": {
+      "tmdbId": 1437981,
+      "posterPath": "/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg"
+    },
+    "HO00000829": {
+      "tmdbId": 1472825,
+      "posterPath": "/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg"
+    },
+    "HO00000830": {
+      "tmdbId": 1210268,
+      "posterPath": "/qia4SpH0shPlNboorBgbFnfIhKf.jpg"
+    },
+    "HO00000832": {
+      "tmdbId": 801112,
+      "posterPath": "/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg"
+    },
+    "HO00000833": {
+      "tmdbId": 1655419,
+      "posterPath": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg"
+    },
+    "HO00000834": {
+      "tmdbId": 1437696,
+      "posterPath": "/7VjwmvDG5mksJBXMcmK6PudqH88.jpg"
+    },
+    "HO00000835": {
+      "tmdbId": 1417935,
+      "posterPath": "/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg"
+    },
+    "HO00000836": {
+      "tmdbId": 1563588,
+      "posterPath": "/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg"
+    },
+    "HO00000837": {
+      "tmdbId": 949,
+      "posterPath": "/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg"
+    },
+    "HO00000840": {
+      "tmdbId": 1422041,
+      "posterPath": "/qCUSOso8PSkVvZjSZ9awZpS1DQj.jpg"
+    },
+    "HO00000841": {
+      "tmdbId": 1387981,
+      "posterPath": "/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg"
+    },
+    "HO00000842": {
+      "tmdbId": 1025391,
+      "posterPath": "/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg"
+    },
+    "HO00000843": {
+      "tmdbId": 1601885,
+      "posterPath": "/taet4dtOhKE4LZImCxPZuzeQwmb.jpg"
+    },
+    "HO00000844": {
+      "tmdbId": 1735053,
+      "posterPath": "/9tGOAAcn2P9f0IYlinRwkKqwJKI.jpg"
+    },
+    "HO00000845": {
+      "tmdbId": 1625655,
+      "posterPath": "/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg"
+    },
+    "HO00000846": {
+      "tmdbId": 848700,
+      "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
+    },
+    "HO00000847": {
+      "tmdbId": 1527449,
+      "posterPath": "/kxdTf63duqsc2bA8erZy4rn5Rr5.jpg"
+    },
+    "HO00000848": {
+      "tmdbId": 1228841,
+      "posterPath": "/6NG5Gjb9Kit3jZmed0BZQmLxxGq.jpg"
+    },
+    "HO00000849": {
+      "tmdbId": 1534205,
+      "posterPath": "/fET69vh3XIeSmxanlgKKN8x23hC.jpg"
+    },
+    "HO00000850": {
+      "tmdbId": 1536431,
+      "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-17T11:00:31.295Z"
+  "lastRun": "2026-09-18T05:00:32.046Z"
 }

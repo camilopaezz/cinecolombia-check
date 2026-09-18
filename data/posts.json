@@ -10992,6 +10992,713 @@
           "posterPath": "/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg"
         }
       }
+    },
+    {
+      "guid": "eadecb13-ffc0-4d3a-9dce-5ed00e381d04",
+      "type": "added",
+      "filmId": "HO00000852",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000852",
+        "title": "Les roches rouges",
+        "shortSynopsis": "En la Costa Azul, dos pandillas de niños compiten saltando desde acantilados. Géo, de cinco años, vive un verano de amistad, rivalidad y primeros sentimientos.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 90,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "director": "Bruno Dumont",
+        "webUrl": "https://www.cinecolombia.com/films/les-roches-rouges/HO00000852/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg",
+        "tmdb": {
+          "tmdbId": 1265831,
+          "posterPath": "/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "72c61073-b3eb-4612-b0c1-d4a8b24cac06",
+      "type": "added",
+      "filmId": "HO00000853",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000853",
+        "title": "Siempre soy tu animal materno",
+        "shortSynopsis": "Elsa regresa a Costa Rica y halla a su hermana aislada mientras sus padres viven absortos en lo suyo. Su vuelta enfrenta a las tres mujeres a lo que aún las une.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 108,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Valentina Maurel",
+        "webUrl": "https://www.cinecolombia.com/films/siempre-soy-tu-animal-materno/HO00000853/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg",
+        "tmdb": {
+          "tmdbId": 1661932,
+          "posterPath": "/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8d793c8c-43af-4f83-a7b9-517d52fa54b1",
+      "type": "added",
+      "filmId": "HO00000854",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000854",
+        "title": "Soumsoum, la nuit des astres",
+        "shortSynopsis": "En el desierto de Ennedi, Kellou, atormentada por visiones, encuentra en Aya una hermandad que enfrenta a la hostilidad del pueblo mientras lucha por su libertad.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 101,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Mahamat-Saleh Haroun",
+        "webUrl": "https://www.cinecolombia.com/films/soumsoum-la-nuit-des-astres/HO00000854/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg",
+        "tmdb": {
+          "tmdbId": 1376457,
+          "posterPath": "/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "53209bfb-479e-4fda-9f36-6604004fbabf",
+      "type": "added",
+      "filmId": "HO00000855",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000855",
+        "title": "Temporada de caza",
+        "shortSynopsis": "Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 105,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Natalia Garagiola",
+        "webUrl": "https://www.cinecolombia.com/films/temporada-de-caza/HO00000855/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg",
+        "tmdb": {
+          "tmdbId": 1387382,
+          "posterPath": "/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b5439637-ea2a-497d-b053-2a7e2afab95e",
+      "type": "added",
+      "filmId": "HO00000856",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000856",
+        "title": "Der Heimatlose",
+        "shortSynopsis": "Pacífico' sigue a buzos que desaparecen en el Pacífico cuando una corriente los arrastra y separa. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 122,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Kai Stänicke",
+        "webUrl": "https://www.cinecolombia.com/films/der-heimatlose/HO00000856/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wghpbjfWAkvXVCq5GVs2j56tTdA.jpg",
+        "tmdb": {
+          "tmdbId": 1476466,
+          "posterPath": "/wghpbjfWAkvXVCq5GVs2j56tTdA.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e105013b-369c-4a73-b872-7a058db4ad39",
+      "type": "added",
+      "filmId": "HO00000857",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000857",
+        "title": "Tristan Forever",
+        "shortSynopsis": "Loran Bonnardot, médico parisino, regresa a Tristán da Cunha buscando convertirse en residente permanente. ¿Lo aceptará el consejo de la isla?",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 90,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Loran Bonnardot",
+        "webUrl": "https://www.cinecolombia.com/films/tristan-forever/HO00000857/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9DPBGoVwxnGtEkUaB0YwpBTPaSc.jpg",
+        "tmdb": {
+          "tmdbId": 1616138,
+          "posterPath": "/9DPBGoVwxnGtEkUaB0YwpBTPaSc.jpg"
+        }
+      }
+    },
+    {
+      "guid": "095de1bd-aeb0-415d-a5fb-d5796a535d54",
+      "type": "added",
+      "filmId": "HO00000858",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000858",
+        "title": "Variasies op ‘n Tema",
+        "shortSynopsis": "Una anciana pastora sudafricana es estafada con una falsa indemnización de guerra. Mientras espera un dinero que no llega, su cumpleaños 80 amenaza su independencia.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 65,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Devon Delmar",
+        "webUrl": "https://www.cinecolombia.com/films/variasies-op-n-tema/HO00000858/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg",
+        "tmdb": {
+          "tmdbId": 1599249,
+          "posterPath": "/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e3dcfaa1-e54a-4c5a-b189-b61545f7e4ea",
+      "type": "added",
+      "filmId": "HO00000859",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000859",
+        "title": "We Are Aliens",
+        "shortSynopsis": "¿Y si te dijera que soy un extraterrestre?'. En un pequeño pueblo japonés, la traición de un chico común desata algo que intentará olvidar toda su vida.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 117,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Kohei Kadowaki",
+        "webUrl": "https://www.cinecolombia.com/films/we-are-aliens/HO00000859/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg",
+        "tmdb": {
+          "tmdbId": 1496928,
+          "posterPath": "/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg"
+        }
+      }
+    },
+    {
+      "guid": "002d8f50-2019-4957-a56e-d88b6a144a3b",
+      "type": "added",
+      "filmId": "HO00000860",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000860",
+        "title": "Zama",
+        "shortSynopsis": "Diego de Zama, funcionario colonial, espera años una carta del Rey que nunca llega. Tras perderlo todo, se une a una partida en busca de un peligroso bandido.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 115,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Lucrecia Martel",
+        "webUrl": "https://www.cinecolombia.com/films/zama/HO00000860/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg",
+        "tmdb": {
+          "tmdbId": 1753085,
+          "posterPath": "/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg"
+        }
+      }
+    },
+    {
+      "guid": "30d00582-05cf-4c79-95b9-6f55c275ea32",
+      "type": "added",
+      "filmId": "HO00000861",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000861",
+        "title": "9 Temples to Heaven",
+        "shortSynopsis": "Tras una profecía sobre la muerte de su madre, Sakol emprende con toda su familia una peregrinación de un día por nueve templos tailandeses para intentar salvarla.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 140,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Sompot Chidgasornpongse",
+        "webUrl": "https://www.cinecolombia.com/films/9-temples-to-heaven/HO00000861/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9nBRqy5RS3HP9ru86ySVOB0PcqB.jpg",
+        "tmdb": {
+          "tmdbId": 1046304,
+          "posterPath": "/9nBRqy5RS3HP9ru86ySVOB0PcqB.jpg"
+        }
+      }
+    },
+    {
+      "guid": "edff8ef1-cda2-4bbe-b3a5-5127d86bae49",
+      "type": "added",
+      "filmId": "HO00000862",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000862",
+        "title": "Como todo mortal",
+        "shortSynopsis": "Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. 'Como Todo Mortal' mezcla documental y ciencia ficción.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "María Molina Peiró",
+        "webUrl": "https://www.cinecolombia.com/films/como-todo-mortal/HO00000862/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg",
+        "tmdb": {
+          "tmdbId": 1651710,
+          "posterPath": "/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg"
+        }
+      }
+    },
+    {
+      "guid": "de0dbc4f-8fef-4212-8b47-83269c2cc205",
+      "type": "added",
+      "filmId": "HO00000863",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000863",
+        "title": "Donde comienza el río",
+        "shortSynopsis": "Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 102,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Juan Andrés Arango",
+        "webUrl": "https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000863/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg",
+        "tmdb": {
+          "tmdbId": 865567,
+          "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ac809fc0-22cb-4685-b027-81c3f3f6ebf2",
+      "type": "added",
+      "filmId": "HO00000864",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000864",
+        "title": "Eklipse",
+        "shortSynopsis": "Tomy y Chris pasan el verano de 1999 en una granja alpina. Al descubrir que el padre de Tomy tiene \"la enfermedad de los gays\", Tomy enfrenta el rechazo familiar.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 91,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Manuel Wetscher",
+        "webUrl": "https://www.cinecolombia.com/films/eklipse/HO00000864/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg",
+        "tmdb": {
+          "tmdbId": 1724831,
+          "posterPath": "/lUg40on46lGnLSvITablDllDQEc.jpg"
+        }
+      }
+    },
+    {
+      "guid": "46724921-96b2-4113-86f1-498a2cb237b6",
+      "type": "added",
+      "filmId": "HO00000865",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000865",
+        "title": "El despertar",
+        "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 96,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jaime Osorio Marquez",
+        "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000865/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg",
+        "tmdb": {
+          "tmdbId": 1341137,
+          "posterPath": "/wsFm0g25tE15M8MsitmxHZkTqRL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b162fbfd-7bec-4b2f-a7bc-d09d954884f7",
+      "type": "added",
+      "filmId": "HO00000866",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000866",
+        "title": "Elephants in the fog",
+        "shortSynopsis": "Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 108,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Abinash Bikram Shah",
+        "webUrl": "https://www.cinecolombia.com/films/elephants-in-the-fog/HO00000866/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg",
+        "tmdb": {
+          "tmdbId": 1661926,
+          "posterPath": "/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg"
+        }
+      }
+    },
+    {
+      "guid": "2975e32a-458f-4878-bf70-a8969045852c",
+      "type": "added",
+      "filmId": "HO00000867",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000867",
+        "title": "Fjord",
+        "shortSynopsis": "Los Gheorghiu se instalan en un pueblo noruego y entablan amistad con los Halberg. Al aparecer moretones en Elia, la comunidad sospecha de su educación tradicional.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 146,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Cristian Mungiu",
+        "webUrl": "https://www.cinecolombia.com/films/fjord/HO00000867/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg",
+        "tmdb": {
+          "tmdbId": 1401459,
+          "posterPath": "/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg"
+        }
+      }
+    },
+    {
+      "guid": "afe09815-fd86-40ab-ac54-828ffbf86628",
+      "type": "added",
+      "filmId": "HO00000868",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000868",
+        "title": "Gabin",
+        "shortSynopsis": "Gabin, destinado a heredar la carnicería familiar, sueña con criar animales y salvar la granja de su madre. Su historia se sigue desde los 8 hasta los 18 años.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 105,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Maxence Voiseux",
+        "webUrl": "https://www.cinecolombia.com/films/gabin/HO00000868/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg",
+        "tmdb": {
+          "tmdbId": 1312310,
+          "posterPath": "/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg"
+        }
+      }
+    },
+    {
+      "guid": "05818a10-5cce-42c9-967e-10ed0ea71d67",
+      "type": "added",
+      "filmId": "HO00000869",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000869",
+        "title": "Adieu Monde Cruel",
+        "shortSynopsis": "Otto, de 14 años, desaparece tras enviar cartas de despedida a sus compañeros. Aunque todos lo creen muerto, Lena lo reconoce deambulando por la ciudad.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Félix de Givry",
+        "webUrl": "https://www.cinecolombia.com/films/adieu-monde-cruel/HO00000869/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg",
+        "tmdb": {
+          "tmdbId": 1352304,
+          "posterPath": "/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "7694ffaa-ad25-4131-a347-b512cfbad35b",
+      "type": "added",
+      "filmId": "HO00000870",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000870",
+        "title": "Hermanas",
+        "shortSynopsis": "Chelo y Marta, hermanas, ven su vínculo puesto a prueba cuando un suceso sacude a su familia, obligándolas a decidir hasta dónde llegar para proteger a los suyos.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 101,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Ione Hernández Sáenz",
+        "webUrl": "https://www.cinecolombia.com/films/hermanas/HO00000870/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1556887,
+          "posterPath": null
+        }
+      }
+    },
+    {
+      "guid": "71e99d08-d429-4416-898c-44f981ba9546",
+      "type": "added",
+      "filmId": "HO00000871",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000871",
+        "title": "La Gradiva",
+        "shortSynopsis": "Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 145,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Marine Atlan",
+        "webUrl": "https://www.cinecolombia.com/films/la-gradiva/HO00000871/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg",
+        "tmdb": {
+          "tmdbId": 1154730,
+          "posterPath": "/xT6h3UFA8wseou1CpryLPjddJlv.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e4fe4c82-a1ac-4dc1-b0ba-9108b7a632f9",
+      "type": "added",
+      "filmId": "HO00000872",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000872",
+        "title": "Makikiraan Po",
+        "shortSynopsis": "El padre Enciso, encomendero cruel en Filipinas, construye una iglesia con mármol robado. Encarga a su hijo Dungwen supervisar el peligroso transporte de las piedras.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 151,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Lav Diaz",
+        "webUrl": "https://www.cinecolombia.com/films/makikiraan-po/HO00000872/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg",
+        "tmdb": {
+          "tmdbId": 1736478,
+          "posterPath": "/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg"
+        }
+      }
+    },
+    {
+      "guid": "1cdced57-219a-4749-bd40-3729d76f296c",
+      "type": "added",
+      "filmId": "HO00000873",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000873",
+        "title": "Luis Tercero",
+        "shortSynopsis": "Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 115,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Familia"
+        ],
+        "director": "Iván David Gaona",
+        "webUrl": "https://www.cinecolombia.com/films/luis-tercero/HO00000873/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "84ac7add-b3ec-4a2c-a772-e63b9c0f7c5c",
+      "type": "added",
+      "filmId": "HO00000874",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000874",
+        "title": "Sants",
+        "shortSynopsis": "Mientras lidia con la inminente muerte de su madre, Lali entra a formar parte de una banda de ladrones de figuras religiosas.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 103,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Mikel Gurrea",
+        "webUrl": "https://www.cinecolombia.com/films/sants/HO00000874/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg",
+        "tmdb": {
+          "tmdbId": 1736709,
+          "posterPath": "/r3mtqymqNjHaQbHqXX5snxuPUng.jpg"
+        }
+      }
+    },
+    {
+      "guid": "112f753f-3e56-4130-a02e-a4c3ce12d6c9",
+      "type": "added",
+      "filmId": "HO00000875",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000875",
+        "title": "Yak Mai",
+        "shortSynopsis": "Un humo misterioso en Tailandia desata una extraña enfermedad. Un aldeano karen, en cuarentena, sueña con volver a casa, mientras guardabosques amenazan su aldea.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 118,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Fantasía"
+        ],
+        "director": "Phuttiphong Aroonpheng",
+        "webUrl": "https://www.cinecolombia.com/films/yak-mai/HO00000875/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg",
+        "tmdb": {
+          "tmdbId": 1730542,
+          "posterPath": "/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg"
+        }
+      }
+    },
+    {
+      "guid": "668c2d54-00f2-4280-8e55-50ab26dc845d",
+      "type": "added",
+      "filmId": "HO00000876",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000876",
+        "title": "The man I love",
+        "shortSynopsis": "Fin de los 80 en Nueva York, Jimmy George se rebela contra su mortalidad con un nuevo papel, un romance imprudente y el abrazo de su comunidad creativa.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 97,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Música",
+          "Romance"
+        ],
+        "director": "Ira Sachs",
+        "webUrl": "https://www.cinecolombia.com/films/the-man-i-love/HO00000876/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg",
+        "tmdb": {
+          "tmdbId": 1458914,
+          "posterPath": "/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg"
+        }
+      }
+    },
+    {
+      "guid": "439c1873-e9bb-4d18-934c-8a3bab37d01c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000811",
+      "createdAt": "2026-09-18T23:00:34.582Z",
+      "snapshot": {
+        "id": "HO00000811",
+        "title": "Sarah Bernhardt, la Divine",
+        "shortSynopsis": "En 1915, Sarah Bernhardt, 'La Divine', primera celebridad del mundo, desafía las normas sociales. Este biopic narra la historia de amor que marcó su vida.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 98,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Biografía",
+          "Drama"
+        ],
+        "director": "Guillaume Nicloux",
+        "webUrl": "https://www.cinecolombia.com/films/sarah-bernhardt-la-divine/HO00000811/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/o2cijwdTdlKQTZekD2ioI6nrUKa.jpg",
+        "tmdb": {
+          "tmdbId": 1228322,
+          "posterPath": "/o2cijwdTdlKQTZekD2ioI6nrUKa.jpg"
+        }
+      }
     }
   ]
 }

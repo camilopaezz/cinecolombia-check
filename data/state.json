@@ -1303,7 +1303,6 @@
       "director": "The Metropolitan Opera",
       "webUrl": "https://www.cinecolombia.com/films/twenty-years-of-the-met-in-cinemas/HO00000757/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
@@ -4662,5 +4661,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-18T23:00:34.585Z"
+  "lastRun": "2026-09-19T05:00:33.922Z"
 }

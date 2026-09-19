@@ -1290,27 +1290,6 @@
       }
     },
     {
-      "id": "HO00000757",
-      "title": "Twenty Years of the Met in Cinemas",
-      "shortSynopsis": "The Met: Live in HD' celebra 20 años llevando ópera a cines de 70 países. Con Renée Fleming, arias de 185 óperas y más de 33 millones de boletos vendidos.",
-      "releaseDate": "2026-09-19",
-      "runtimeInMinutes": 150,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/twenty-years-of-the-met-in-cinemas/HO00000757/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg",
-      "tmdb": {
-        "tmdbId": 1703617,
-        "posterPath": "/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg"
-      }
-    },
-    {
       "id": "HO00000758",
       "title": "Carmen",
       "shortSynopsis": "Carmen' de Bizet, con Elīna Garanča y Roberto Alagna, en la icónica producción de Richard Eyre (Met 2010). Pasión, magnetismo y destrucción.",
@@ -2727,7 +2706,8 @@
       "director": "Bruno Santamaría Razo",
       "webUrl": "https://www.cinecolombia.com/films/6-meses-en-el-edificio-rosa-con-azul/HO00000826/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg",
       "tmdb": {
@@ -2748,7 +2728,8 @@
       "director": "Tiago Guedes",
       "webUrl": "https://www.cinecolombia.com/films/aqui/HO00000827/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg",
       "tmdb": {
@@ -2769,7 +2750,8 @@
       "director": "Lukas Dhont",
       "webUrl": "https://www.cinecolombia.com/films/coward/HO00000828/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg",
       "tmdb": {
@@ -2790,7 +2772,8 @@
       "director": "Blerta Basholli",
       "webUrl": "https://www.cinecolombia.com/films/dua/HO00000829/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg",
       "tmdb": {
@@ -2811,7 +2794,8 @@
       "director": "Manuela Martelli",
       "webUrl": "https://www.cinecolombia.com/films/el-deshielo/HO00000830/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg",
       "tmdb": {
@@ -2833,7 +2817,8 @@
       "director": "Natalia Meta",
       "webUrl": "https://www.cinecolombia.com/films/el-profugo/HO00000831/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -2850,7 +2835,8 @@
       "director": "Daniela Goggi",
       "webUrl": "https://www.cinecolombia.com/films/el-rapto/HO00000832/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg",
       "tmdb": {
@@ -2871,7 +2857,8 @@
       "director": "Sandra Wollner",
       "webUrl": "https://www.cinecolombia.com/films/everytime/HO00000833/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
       "tmdb": {
@@ -2893,7 +2880,8 @@
       "director": "Paweł Pawlikowski",
       "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000834/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
       "tmdb": {
@@ -2914,7 +2902,8 @@
       "director": "Rafael Manuel",
       "webUrl": "https://www.cinecolombia.com/films/filipinana/HO00000835/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg",
       "tmdb": {
@@ -2935,7 +2924,8 @@
       "director": "Juan Pablo Sallato",
       "webUrl": "https://www.cinecolombia.com/films/hangar-rojo/HO00000836/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg",
       "tmdb": {
@@ -2956,7 +2946,8 @@
       "director": "Jacqueline Zünd",
       "webUrl": "https://www.cinecolombia.com/films/heat/HO00000837/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg",
       "tmdb": {
@@ -2978,7 +2969,8 @@
       "director": "Benjamín Naishtat",
       "webUrl": "https://www.cinecolombia.com/films/historia-del-miedo/HO00000838/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -2995,7 +2987,8 @@
       "director": "Nicolás Rincón Gille",
       "webUrl": "https://www.cinecolombia.com/films/iluminada/HO00000839/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null
     },
@@ -3012,7 +3005,8 @@
       "director": "Javier Ambrossi",
       "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000840/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qCUSOso8PSkVvZjSZ9awZpS1DQj.jpg",
       "tmdb": {
@@ -3033,7 +3027,8 @@
       "director": "Lisandro Alonso",
       "webUrl": "https://www.cinecolombia.com/films/la-libertad-doble/HO00000841/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg",
       "tmdb": {
@@ -3054,7 +3049,8 @@
       "director": "Meritxell Colell Aparicio",
       "webUrl": "https://www.cinecolombia.com/films/lejos-de-los-arboles/HO00000842/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg",
       "tmdb": {
@@ -3077,7 +3073,8 @@
       "director": "Xu Zao",
       "webUrl": "https://www.cinecolombia.com/films/light-pillar/HO00000843/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/taet4dtOhKE4LZImCxPZuzeQwmb.jpg",
       "tmdb": {
@@ -3100,7 +3097,8 @@
       "director": "Rodrigo Plá",
       "webUrl": "https://www.cinecolombia.com/films/los-nuevos/HO00000844/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9tGOAAcn2P9f0IYlinRwkKqwJKI.jpg",
       "tmdb": {
@@ -3121,7 +3119,8 @@
       "director": "Pieter-Jan De Pue",
       "webUrl": "https://www.cinecolombia.com/films/mariinka/HO00000845/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg",
       "tmdb": {
@@ -3142,7 +3141,8 @@
       "director": "Andrey Zviaguintsev",
       "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000846/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
       "tmdb": {
@@ -3163,7 +3163,8 @@
       "director": "Geneviève Dulude-De Celles",
       "webUrl": "https://www.cinecolombia.com/films/nina-roza/HO00000847/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kxdTf63duqsc2bA8erZy4rn5Rr5.jpg",
       "tmdb": {
@@ -3185,7 +3186,8 @@
       "director": "Ann Oren",
       "webUrl": "https://www.cinecolombia.com/films/objet-a/HO00000848/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/6NG5Gjb9Kit3jZmed0BZQmLxxGq.jpg",
       "tmdb": {
@@ -3206,7 +3208,8 @@
       "director": "Priscilla Kellen",
       "webUrl": "https://www.cinecolombia.com/films/papaya/HO00000849/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/fET69vh3XIeSmxanlgKKN8x23hC.jpg",
       "tmdb": {
@@ -3227,7 +3230,8 @@
       "director": "Cristóbal León",
       "webUrl": "https://www.cinecolombia.com/films/princesa-burro/HO00000850/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg",
       "tmdb": {
@@ -3248,7 +3252,8 @@
       "director": "João Nicolau",
       "webUrl": "https://www.cinecolombia.com/films/a-providencia-e-a-guitarra/HO00000851/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg",
       "tmdb": {
@@ -3270,7 +3275,8 @@
       "director": "Bruno Dumont",
       "webUrl": "https://www.cinecolombia.com/films/les-roches-rouges/HO00000852/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg",
       "tmdb": {
@@ -3291,7 +3297,8 @@
       "director": "Valentina Maurel",
       "webUrl": "https://www.cinecolombia.com/films/siempre-soy-tu-animal-materno/HO00000853/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg",
       "tmdb": {
@@ -3312,7 +3319,8 @@
       "director": "Mahamat-Saleh Haroun",
       "webUrl": "https://www.cinecolombia.com/films/soumsoum-la-nuit-des-astres/HO00000854/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg",
       "tmdb": {
@@ -3333,7 +3341,8 @@
       "director": "Natalia Garagiola",
       "webUrl": "https://www.cinecolombia.com/films/temporada-de-caza/HO00000855/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg",
       "tmdb": {
@@ -3354,7 +3363,8 @@
       "director": "Kai Stänicke",
       "webUrl": "https://www.cinecolombia.com/films/der-heimatlose/HO00000856/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wghpbjfWAkvXVCq5GVs2j56tTdA.jpg",
       "tmdb": {
@@ -3375,7 +3385,8 @@
       "director": "Loran Bonnardot",
       "webUrl": "https://www.cinecolombia.com/films/tristan-forever/HO00000857/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9DPBGoVwxnGtEkUaB0YwpBTPaSc.jpg",
       "tmdb": {
@@ -3396,7 +3407,8 @@
       "director": "Devon Delmar",
       "webUrl": "https://www.cinecolombia.com/films/variasies-op-n-tema/HO00000858/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg",
       "tmdb": {
@@ -3417,7 +3429,8 @@
       "director": "Kohei Kadowaki",
       "webUrl": "https://www.cinecolombia.com/films/we-are-aliens/HO00000859/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg",
       "tmdb": {
@@ -3438,7 +3451,8 @@
       "director": "Lucrecia Martel",
       "webUrl": "https://www.cinecolombia.com/films/zama/HO00000860/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg",
       "tmdb": {
@@ -3459,7 +3473,8 @@
       "director": "Sompot Chidgasornpongse",
       "webUrl": "https://www.cinecolombia.com/films/9-temples-to-heaven/HO00000861/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9nBRqy5RS3HP9ru86ySVOB0PcqB.jpg",
       "tmdb": {
@@ -3480,7 +3495,8 @@
       "director": "María Molina Peiró",
       "webUrl": "https://www.cinecolombia.com/films/como-todo-mortal/HO00000862/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg",
       "tmdb": {
@@ -3501,7 +3517,8 @@
       "director": "Juan Andrés Arango",
       "webUrl": "https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000863/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg",
       "tmdb": {
@@ -3522,7 +3539,8 @@
       "director": "Manuel Wetscher",
       "webUrl": "https://www.cinecolombia.com/films/eklipse/HO00000864/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg",
       "tmdb": {
@@ -3544,7 +3562,8 @@
       "director": "Jaime Osorio Marquez",
       "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000865/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg",
       "tmdb": {
@@ -3565,7 +3584,8 @@
       "director": "Abinash Bikram Shah",
       "webUrl": "https://www.cinecolombia.com/films/elephants-in-the-fog/HO00000866/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg",
       "tmdb": {
@@ -3586,7 +3606,8 @@
       "director": "Cristian Mungiu",
       "webUrl": "https://www.cinecolombia.com/films/fjord/HO00000867/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg",
       "tmdb": {
@@ -3607,7 +3628,8 @@
       "director": "Maxence Voiseux",
       "webUrl": "https://www.cinecolombia.com/films/gabin/HO00000868/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg",
       "tmdb": {
@@ -3628,7 +3650,8 @@
       "director": "Félix de Givry",
       "webUrl": "https://www.cinecolombia.com/films/adieu-monde-cruel/HO00000869/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg",
       "tmdb": {
@@ -3649,7 +3672,8 @@
       "director": "Ione Hernández Sáenz",
       "webUrl": "https://www.cinecolombia.com/films/hermanas/HO00000870/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": null,
       "tmdb": {
@@ -3671,7 +3695,8 @@
       "director": "Marine Atlan",
       "webUrl": "https://www.cinecolombia.com/films/la-gradiva/HO00000871/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg",
       "tmdb": {
@@ -3692,7 +3717,8 @@
       "director": "Lav Diaz",
       "webUrl": "https://www.cinecolombia.com/films/makikiraan-po/HO00000872/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg",
       "tmdb": {
@@ -3714,7 +3740,8 @@
       "director": "Iván David Gaona",
       "webUrl": "https://www.cinecolombia.com/films/luis-tercero/HO00000873/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
       "tmdb": {
@@ -3735,7 +3762,8 @@
       "director": "Mikel Gurrea",
       "webUrl": "https://www.cinecolombia.com/films/sants/HO00000874/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg",
       "tmdb": {
@@ -3757,7 +3785,8 @@
       "director": "Phuttiphong Aroonpheng",
       "webUrl": "https://www.cinecolombia.com/films/yak-mai/HO00000875/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg",
       "tmdb": {
@@ -3780,7 +3809,8 @@
       "director": "Ira Sachs",
       "webUrl": "https://www.cinecolombia.com/films/the-man-i-love/HO00000876/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg",
       "tmdb": {
@@ -4667,8 +4697,6 @@
       "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000757": 1
-  },
-  "lastRun": "2026-09-19T17:00:30.087Z"
+  "missingRuns": {},
+  "lastRun": "2026-09-19T23:00:29.629Z"
 }

@@ -3717,7 +3717,11 @@
       "categories": [
         "ComingSoon"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
+      "tmdb": {
+        "tmdbId": 1774071,
+        "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
+      }
     },
     {
       "id": "HO00000874",
@@ -4658,8 +4662,12 @@
     "HO00000860": {
       "tmdbId": 1753085,
       "posterPath": "/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg"
+    },
+    "HO00000873": {
+      "tmdbId": 1774071,
+      "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-19T05:00:33.922Z"
+  "lastRun": "2026-09-19T11:00:32.743Z"
 }

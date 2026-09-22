@@ -5,8 +5,8 @@
       "title": "Digger",
       "shortSynopsis": "El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.",
       "releaseDate": "2026-10-01",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 128,
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia",
         "Drama"
@@ -2991,7 +2991,11 @@
         "AdvanceBooking",
         "NowShowing"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg",
+      "tmdb": {
+        "tmdbId": 1000097,
+        "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
+      }
     },
     {
       "id": "HO00000840",
@@ -4696,8 +4700,12 @@
     "HO00000873": {
       "tmdbId": 1774071,
       "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
+    },
+    "HO00000839": {
+      "tmdbId": 1000097,
+      "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-22T05:00:31.742Z"
+  "lastRun": "2026-09-22T17:00:31.721Z"
 }

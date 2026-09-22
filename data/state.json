@@ -14,6 +14,7 @@
       "director": "Alejandro González Iñárritu",
       "webUrl": "https://www.cinecolombia.com/films/digger/HO00000381/",
       "categories": [
+        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg",
@@ -676,7 +677,7 @@
       "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
       "releaseDate": "2026-10-01",
       "runtimeInMinutes": 92,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama",
         "Suspenso"
@@ -784,7 +785,7 @@
       "shortSynopsis": "Fleabag enfrenta el caos de su vida con humor irreverente y sin filtros, mientras lucha con sus relaciones y por mantener a flote su negocio.",
       "releaseDate": "2026-09-25",
       "runtimeInMinutes": 70,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Teatro"
       ],
@@ -806,7 +807,7 @@
       "shortSynopsis": "James y Luka forjan una frágil amistad durante su recuperación, hasta que una confesión revela verdades que amenazan la confianza entre ambos.",
       "releaseDate": "2026-10-09",
       "runtimeInMinutes": 87,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Teatro"
       ],
@@ -828,7 +829,7 @@
       "shortSynopsis": "Rechazada por su creador, la criatura de Frankenstein busca venganza y lo enfrenta a un aterrador trato que desafía los límites del bien y del mal.",
       "releaseDate": "2026-10-23",
       "runtimeInMinutes": 129,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Drama"
       ],
@@ -850,7 +851,7 @@
       "shortSynopsis": "Tras la guerra, Joe enfrenta las consecuencias de sus decisiones mientras los secretos del pasado amenazan con destruir a su familia y su sueño americano.",
       "releaseDate": "2027-01-29",
       "runtimeInMinutes": 135,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Teatro"
       ],
@@ -868,7 +869,7 @@
       "shortSynopsis": "Las reuniones privadas de Isabel II con sus primeros ministros revelan a la mujer detrás de la corona y los momentos que marcaron su histórico reinado.",
       "releaseDate": "2027-02-12",
       "runtimeInMinutes": 180,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Drama"
       ],
@@ -886,7 +887,7 @@
       "shortSynopsis": "Christy llega a una aldea afirmando haber matado a su padre y se convierte en héroe, hasta que una inesperada llegada amenaza con revelar la verdad.",
       "releaseDate": "2027-02-26",
       "runtimeInMinutes": 150,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Teatro"
       ],
@@ -904,7 +905,7 @@
       "shortSynopsis": "Merteuil y Valmont convierten la seducción en un arma, hasta que su alianza se transforma en una rivalidad que amenaza con destruirlos a todos.",
       "releaseDate": "2027-03-05",
       "runtimeInMinutes": 180,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Teatro"
       ],
@@ -922,7 +923,7 @@
       "shortSynopsis": "Una novelista desafía las normas sociales al decir lo que piensa, enfrentando críticas y rechazo que ponen en riesgo su carrera y sus relaciones.",
       "releaseDate": "2027-04-09",
       "runtimeInMinutes": 105,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Teatro"
       ],
@@ -961,7 +962,7 @@
       "shortSynopsis": "Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.",
       "releaseDate": "2026-10-01",
       "runtimeInMinutes": 114,
-      "censorRating": "+12 Años",
+      "censorRating": "+15 Años",
       "genres": [
         "Suspenso"
       ],
@@ -1712,11 +1713,11 @@
     },
     {
       "id": "HO00000780",
-      "title": "Climax",
+      "title": "Climax.",
       "shortSynopsis": "Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.",
       "releaseDate": "2026-09-24",
       "runtimeInMinutes": 97,
-      "censorRating": "Pendiente",
+      "censorRating": "+18 Años",
       "genres": [
         "Drama",
         "Musical",
@@ -1850,7 +1851,7 @@
       "shortSynopsis": "Organizada por la National Gallery, Orsay y el MFA Boston, \"Renoir and Love\" explora el amor y la vida cotidiana en 40 obras del periodo dorado del artista (1860-1880).",
       "releaseDate": "2027-02-18",
       "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Documental"
       ],
@@ -4707,5 +4708,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-22T17:00:31.721Z"
+  "lastRun": "2026-09-22T23:00:29.852Z"
 }

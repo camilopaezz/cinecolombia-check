@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Digger</title>
+      <link>https://www.cinecolombia.com/films/digger/HO00000381/</link>
+      <guid isPermaLink="false">5d3a170a-fe55-429a-b3dc-a03c5f8dad87</guid>
+      <pubDate>Tue, 22 Sep 2026 05:00:31 GMT</pubDate>
+      <description>El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: 6 meses en el edificio rosa con azul</title>
       <link>https://www.cinecolombia.com/films/6-meses-en-el-edificio-rosa-con-azul/HO00000826/</link>
       <guid isPermaLink="false">531b15a9-cc85-469c-9e1f-ac003e52809c</guid>
@@ -788,14 +796,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>Rusia, 2022. Gleb, exitoso director de empresa, ve colapsar su vida ordenada hacia la violencia, acorralado por presiones corporativas y un mundo inestable.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Nina Roza</title>
-      <link>https://www.cinecolombia.com/films/nina-roza/HO00000847/</link>
-      <guid isPermaLink="false">6e223196-5337-4535-9bf6-48bcfcc3d6ba</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Un video viral de una niña artista búlgara atrae a un coleccionista, quien envía a Mihail a evaluar su obra, treinta años después de dejar su país natal.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kxdTf63duqsc2bA8erZy4rn5Rr5.jpg" medium="image" />
     </item>
   </channel>
 </rss>

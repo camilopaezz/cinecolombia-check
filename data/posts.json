@@ -13157,6 +13157,34 @@
           "posterPath": "/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg"
         }
       }
+    },
+    {
+      "guid": "5d3a170a-fe55-429a-b3dc-a03c5f8dad87",
+      "type": "now-in-theaters",
+      "filmId": "HO00000381",
+      "createdAt": "2026-09-22T05:00:31.738Z",
+      "snapshot": {
+        "id": "HO00000381",
+        "title": "Digger",
+        "shortSynopsis": "El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Alejandro González Iñárritu",
+        "webUrl": "https://www.cinecolombia.com/films/digger/HO00000381/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg",
+        "tmdb": {
+          "tmdbId": 1248832,
+          "posterPath": "/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg"
+        }
+      }
     }
   ]
 }

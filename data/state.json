@@ -14,7 +14,7 @@
       "director": "Alejandro González Iñárritu",
       "webUrl": "https://www.cinecolombia.com/films/digger/HO00000381/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg",
       "tmdb": {
@@ -4699,5 +4699,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-21T23:00:29.972Z"
+  "lastRun": "2026-09-22T05:00:31.742Z"
 }

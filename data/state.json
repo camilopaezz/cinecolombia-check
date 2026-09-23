@@ -548,7 +548,8 @@
       "director": "Natalie Erika James",
       "webUrl": "https://www.cinecolombia.com/films/saccharine/HO00000695/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
       "tmdb": {
@@ -1214,7 +1215,8 @@
       "director": "Nicolas Winding Refn",
       "webUrl": "https://www.cinecolombia.com/films/her-private-hell/HO00000753/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
       "tmdb": {
@@ -1260,7 +1262,8 @@
       "director": "Andy Serkis",
       "webUrl": "https://www.cinecolombia.com/films/animal-farm/HO00000755/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
       "tmdb": {
@@ -1659,7 +1662,8 @@
       "director": "Diego Velasco",
       "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
       "tmdb": {
@@ -1726,7 +1730,8 @@
       "director": "Gaspar Noé",
       "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
       "tmdb": {
@@ -2084,7 +2089,6 @@
       "director": "Lise Akoka",
       "webUrl": "https://www.cinecolombia.com/films/les-pires/HO00000797/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2102,7 +2106,6 @@
       "director": "Eric Lartigau",
       "webUrl": "https://www.cinecolombia.com/films/la-famille-belier/HO00000798/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg",
@@ -2125,7 +2128,6 @@
       "director": "Julien Colonna",
       "webUrl": "https://www.cinecolombia.com/films/le-royaume/HO00000799/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg",
@@ -2147,7 +2149,6 @@
       "director": "Carine Tardieu",
       "webUrl": "https://www.cinecolombia.com/films/l-attachement/HO00000800/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/113xZCRj3ak30zh1xUFv6hQoPgn.jpg",
@@ -2171,7 +2172,6 @@
       "director": "Michel Hazanavicius",
       "webUrl": "https://www.cinecolombia.com/films/le-redoutable/HO00000801/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2191,7 +2191,6 @@
       "director": "Gaspar Noé",
       "webUrl": "https://www.cinecolombia.com/films/climax/HO00000802/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
@@ -2213,7 +2212,6 @@
       "director": "Martin Provost",
       "webUrl": "https://www.cinecolombia.com/films/demain-je-tombe-amoureux/HO00000803/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg",
@@ -2236,7 +2234,6 @@
       "director": "Agnès Varda",
       "webUrl": "https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2254,7 +2251,6 @@
       "director": "Juliette Binoche",
       "webUrl": "https://www.cinecolombia.com/films/en-nous/HO00000805/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg",
@@ -2295,7 +2291,6 @@
       "director": "Jean-Paul Salomé",
       "webUrl": "https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
@@ -2317,7 +2312,6 @@
       "director": "Ryûsuke Hamaguchi",
       "webUrl": "https://www.cinecolombia.com/films/soudain/HO00000808/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg",
@@ -2339,7 +2333,6 @@
       "director": "Thierry Frémaux",
       "webUrl": "https://www.cinecolombia.com/films/lumière-l-aventure-commence/HO00000809/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2357,7 +2350,6 @@
       "director": "Yannis Pouspourikas",
       "webUrl": "https://www.cinecolombia.com/films/le-parc/HO00000810/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg",
@@ -2380,7 +2372,6 @@
       "director": "Guillaume Nicloux",
       "webUrl": "https://www.cinecolombia.com/films/sarah-bernhardt-la-divine/HO00000811/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/o2cijwdTdlKQTZekD2ioI6nrUKa.jpg",
@@ -2403,7 +2394,6 @@
       "director": "Christophe Barratier",
       "webUrl": "https://www.cinecolombia.com/films/les-choristes/HO00000812/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2422,7 +2412,6 @@
       "director": "Mathieu Kassovitz",
       "webUrl": "https://www.cinecolombia.com/films/la-haine/HO00000813/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg",
@@ -2445,7 +2434,6 @@
       "director": "Dominik Moll",
       "webUrl": "https://www.cinecolombia.com/films/dossier-137/HO00000814/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg",
@@ -2467,7 +2455,6 @@
       "director": "Maria Gamboa",
       "webUrl": "https://www.cinecolombia.com/films/mateo/HO00000815/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg",
@@ -2489,7 +2476,6 @@
       "director": "Delphine Seyrig",
       "webUrl": "https://www.cinecolombia.com/films/sois-belle-et-tais-toi/HO00000816/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -2507,7 +2493,6 @@
       "director": "Franco Lolli",
       "webUrl": "https://www.cinecolombia.com/films/litigante/HO00000817/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg",
@@ -2531,7 +2516,6 @@
       "director": "Krzysztof Kieslowski",
       "webUrl": "https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg",
@@ -2555,7 +2539,6 @@
       "director": "Vincent Paronnaud",
       "webUrl": "https://www.cinecolombia.com/films/persepolis/HO00000819/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg",
@@ -2577,7 +2560,6 @@
       "director": "Catalina Mesa",
       "webUrl": "https://www.cinecolombia.com/films/jerico-el-infinito-vuelo-de-los-dias/HO00000820/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": null
@@ -4708,5 +4690,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-22T23:00:29.852Z"
+  "lastRun": "2026-09-23T05:00:32.674Z"
 }

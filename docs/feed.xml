@@ -7,6 +7,46 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Saccharine</title>
+      <link>https://www.cinecolombia.com/films/saccharine/HO00000695/</link>
+      <guid isPermaLink="false">7fdf33d1-8ec5-430e-8bae-840bf822817f</guid>
+      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Her private hell</title>
+      <link>https://www.cinecolombia.com/films/her-private-hell/HO00000753/</link>
+      <guid isPermaLink="false">77885dd8-fc6f-401d-a83b-b79c2c3df53d</guid>
+      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Animal Farm</title>
+      <link>https://www.cinecolombia.com/films/animal-farm/HO00000755/</link>
+      <guid isPermaLink="false">6153bd26-8e8a-49f3-b862-94266f8e2a3e</guid>
+      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: The Whistler</title>
+      <link>https://www.cinecolombia.com/films/the-whistler/HO00000777/</link>
+      <guid isPermaLink="false">87ac9ce0-196c-4088-8017-ea4598f343b6</guid>
+      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Climax.</title>
+      <link>https://www.cinecolombia.com/films/climax/HO00000780/</link>
+      <guid isPermaLink="false">491c079a-692e-4efd-a050-28e0bf62274e</guid>
+      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Digger</title>
       <link>https://www.cinecolombia.com/films/digger/HO00000381/</link>
       <guid isPermaLink="false">5d3a170a-fe55-429a-b3dc-a03c5f8dad87</guid>
@@ -756,46 +796,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>Misael, leñador solitario, ve su vida trastocada por una responsabilidad inesperada, mientras la naturaleza le revela que la razón humana carece de sentido</description>
       <media:content url="https://image.tmdb.org/t/p/w500/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Lejos de los Árboles</title>
-      <link>https://www.cinecolombia.com/films/lejos-de-los-arboles/HO00000842/</link>
-      <guid isPermaLink="false">7c03c0a2-1a6c-466a-8c13-966f2be9d780</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Adela, artista sonora mexicana, viaja con Lucho por la selva y los Andes, creando un mapa sonoro de lenguas en peligro. Un viaje íntimo hacia sus orígenes.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Light Pillar</title>
-      <link>https://www.cinecolombia.com/films/light-pillar/HO00000843/</link>
-      <guid isPermaLink="false">26aac2cb-8d09-446f-bc75-204641ace281</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Zha, solitario conserje de un estudio en quiebra, escapa a un mundo virtual donde sueña con viajar a la Luna. La destrucción real se vuelve set de ciencia ficción.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/taet4dtOhKE4LZImCxPZuzeQwmb.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Los nuevos</title>
-      <link>https://www.cinecolombia.com/films/los-nuevos/HO00000844/</link>
-      <guid isPermaLink="false">707fd935-f9bc-4c4f-9773-85c6b7378f48</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Tiana y su familia buscan refugio en el pueblo de Mateo y Tomás, pero la contaminación los alcanza. Los niños y la perra Nube buscan qué envenena los ríos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9tGOAAcn2P9f0IYlinRwkKqwJKI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Mariinka</title>
-      <link>https://www.cinecolombia.com/films/mariinka/HO00000845/</link>
-      <guid isPermaLink="false">e824d679-1e40-40de-ac2d-db24d12766d0</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>En Ucrania oriental, vecinos de la infancia enfrentan la guerra: Natasha es paramédica, y los hermanos Mark y Ruslan luchan en bandos opuestos. &apos;Mariinka&apos;.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Minotaur</title>
-      <link>https://www.cinecolombia.com/films/minotaur/HO00000846/</link>
-      <guid isPermaLink="false">19234dba-8ce8-4dc2-9051-dd034adcd13f</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Rusia, 2022. Gleb, exitoso director de empresa, ve colapsar su vida ordenada hacia la violencia, acorralado por presiones corporativas y un mundo inestable.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg" medium="image" />
     </item>
   </channel>
 </rss>

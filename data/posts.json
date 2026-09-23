@@ -13185,6 +13185,156 @@
           "posterPath": "/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg"
         }
       }
+    },
+    {
+      "guid": "7fdf33d1-8ec5-430e-8bae-840bf822817f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000695",
+      "createdAt": "2026-09-23T05:00:32.670Z",
+      "snapshot": {
+        "id": "HO00000695",
+        "title": "Saccharine",
+        "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 113,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Ciencia Ficción",
+          "Drama",
+          "Terror"
+        ],
+        "director": "Natalie Erika James",
+        "webUrl": "https://www.cinecolombia.com/films/saccharine/HO00000695/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
+        "tmdb": {
+          "tmdbId": 1363387,
+          "posterPath": "/zMYFsfuHttGtHnXquWkIWI9Min8.jpg"
+        }
+      }
+    },
+    {
+      "guid": "77885dd8-fc6f-401d-a83b-b79c2c3df53d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000753",
+      "createdAt": "2026-09-23T05:00:32.670Z",
+      "snapshot": {
+        "id": "HO00000753",
+        "title": "Her private hell",
+        "shortSynopsis": "Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 110,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Crimen",
+          "Drama",
+          "Misterio"
+        ],
+        "director": "Nicolas Winding Refn",
+        "webUrl": "https://www.cinecolombia.com/films/her-private-hell/HO00000753/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
+        "tmdb": {
+          "tmdbId": 1469342,
+          "posterPath": "/kiFacg75KVjy0AM3S4QmbPas8zL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6153bd26-8e8a-49f3-b862-94266f8e2a3e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000755",
+      "createdAt": "2026-09-23T05:00:32.670Z",
+      "snapshot": {
+        "id": "HO00000755",
+        "title": "Animal Farm",
+        "shortSynopsis": "Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 95,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Andy Serkis",
+        "webUrl": "https://www.cinecolombia.com/films/animal-farm/HO00000755/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
+        "tmdb": {
+          "tmdbId": 539745,
+          "posterPath": "/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg"
+        }
+      }
+    },
+    {
+      "guid": "87ac9ce0-196c-4088-8017-ea4598f343b6",
+      "type": "now-in-theaters",
+      "filmId": "HO00000777",
+      "createdAt": "2026-09-23T05:00:32.670Z",
+      "snapshot": {
+        "id": "HO00000777",
+        "title": "The Whistler",
+        "shortSynopsis": "Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Diego Velasco",
+        "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
+        "tmdb": {
+          "tmdbId": 1280300,
+          "posterPath": "/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg"
+        }
+      }
+    },
+    {
+      "guid": "491c079a-692e-4efd-a050-28e0bf62274e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000780",
+      "createdAt": "2026-09-23T05:00:32.670Z",
+      "snapshot": {
+        "id": "HO00000780",
+        "title": "Climax.",
+        "shortSynopsis": "Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 97,
+        "censorRating": "+18 Años",
+        "genres": [
+          "Drama",
+          "Musical",
+          "Terror"
+        ],
+        "director": "Gaspar Noé",
+        "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
+        "tmdb": {
+          "tmdbId": 1723396,
+          "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+        }
+      }
     }
   ]
 }

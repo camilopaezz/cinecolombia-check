@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Linkin Park: Unshatter</title>
+      <link>https://www.cinecolombia.com/films/linkin-park-unshatter/HO00000877/</link>
+      <guid isPermaLink="false">65eb91af-9261-4b5a-9933-49cc0a928e3d</guid>
+      <pubDate>Thu, 24 Sep 2026 23:00:29 GMT</pubDate>
+      <description>Tras siete años de pausa, Linkin Park se reinventa en esta película que sigue su regreso, desde sesiones íntimas de 2022 hasta su concierto en São Paulo en 2024.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: One Night Only</title>
       <link>https://www.cinecolombia.com/films/one-night-only/HO00000636/</link>
       <guid isPermaLink="false">4011dba3-a201-46af-92e0-ef6c2f7498c1</guid>
@@ -789,14 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>Buenos Aires, años 80. Julio Levy regresa del exilio al secuestrar su hermano. A cargo del rescate, descubre las fuerzas que aún operan tras la democracia argentina.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Everytime</title>
-      <link>https://www.cinecolombia.com/films/everytime/HO00000833/</link>
-      <guid isPermaLink="false">b058de34-89c2-440e-9f6a-6469076b5c84</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Una tragedia une a una madre, su hija y un adolescente. El trío viaja a Tenerife para vivir las vacaciones familiares que nunca tuvieron.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg" medium="image" />
     </item>
   </channel>
 </rss>

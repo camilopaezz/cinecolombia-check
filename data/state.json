@@ -3624,6 +3624,28 @@
         "tmdbId": 1458914,
         "posterPath": "/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg"
       }
+    },
+    {
+      "id": "HO00000877",
+      "title": "Linkin Park: Unshatter",
+      "shortSynopsis": "Tras siete años de pausa, Linkin Park se reinventa en esta película que sigue su regreso, desde sesiones íntimas de 2022 hasta su concierto en São Paulo en 2024.",
+      "releaseDate": "2026-09-30",
+      "runtimeInMinutes": 108,
+      "censorRating": "Concierto",
+      "genres": [
+        "Concierto"
+      ],
+      "director": "Joe Hahn",
+      "webUrl": "https://www.cinecolombia.com/films/linkin-park-unshatter/HO00000877/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg",
+      "tmdb": {
+        "tmdbId": 1388805,
+        "posterPath": "/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -4506,8 +4528,12 @@
     "HO00000839": {
       "tmdbId": 1000097,
       "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
+    },
+    "HO00000877": {
+      "tmdbId": 1388805,
+      "posterPath": "/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-24T11:00:29.697Z"
+  "lastRun": "2026-09-24T23:00:29.530Z"
 }

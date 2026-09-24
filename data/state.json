@@ -67,29 +67,6 @@
       }
     },
     {
-      "id": "HO00000471",
-      "title": "Toy Story 5",
-      "shortSynopsis": "Los juguetes están de regreso y esta vez, el propósito de jugar de Buzz Lightyear, Woody, Jessie y el resto del grupo se ve amenazado cuando se enfrentan a Lilypad.",
-      "releaseDate": "2026-06-18",
-      "runtimeInMinutes": 102,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Andrew Stanton",
-      "webUrl": "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg",
-      "tmdb": {
-        "tmdbId": 1084244,
-        "posterPath": "/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg"
-      }
-    },
-    {
       "id": "HO00000480",
       "title": "The Hunger Games: Sunrise on the Reaping",
       "shortSynopsis": "Ambientada 24 años antes de la saga de Katniss, un joven Haymitch Abernathy es seleccionado para competir en los 50º Juegos del Hambre.",
@@ -548,7 +525,6 @@
       "director": "Natalie Erika James",
       "webUrl": "https://www.cinecolombia.com/films/saccharine/HO00000695/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
@@ -595,7 +571,6 @@
       "director": "David Ayer",
       "webUrl": "https://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
@@ -1089,29 +1064,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000746",
-      "title": "Masha And The Bears",
-      "shortSynopsis": "Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.",
-      "releaseDate": "2026-09-10",
-      "runtimeInMinutes": 80,
-      "censorRating": "Todos",
-      "genres": [
-        "Aventura",
-        "Comedia",
-        "Familia"
-      ],
-      "director": "Antonina Ruzhe",
-      "webUrl": "https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg",
-      "tmdb": {
-        "tmdbId": 1448028,
-        "posterPath": "/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg"
-      }
-    },
-    {
       "id": "HO00000747",
       "title": "Dead Man's Wire",
       "shortSynopsis": "Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.",
@@ -1215,7 +1167,6 @@
       "director": "Nicolas Winding Refn",
       "webUrl": "https://www.cinecolombia.com/films/her-private-hell/HO00000753/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
@@ -1262,7 +1213,6 @@
       "director": "Andy Serkis",
       "webUrl": "https://www.cinecolombia.com/films/animal-farm/HO00000755/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
@@ -1463,7 +1413,6 @@
       "director": "Anthony Russo",
       "webUrl": "https://www.cinecolombia.com/films/avengers-endgame-encore/HO00000765/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
@@ -1662,7 +1611,6 @@
       "director": "Diego Velasco",
       "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
@@ -1730,7 +1678,6 @@
       "director": "Gaspar Noé",
       "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
@@ -4690,8 +4637,12 @@
     }
   },
   "missingRuns": {
-    "HO00000471": 1,
-    "HO00000746": 1
+    "HO00000636": 1,
+    "HO00000696": 1,
+    "HO00000710": 1,
+    "HO00000745": 1,
+    "HO00000778": 1,
+    "HO00000781": 1
   },
-  "lastRun": "2026-09-23T23:00:29.289Z"
+  "lastRun": "2026-09-24T05:00:32.713Z"
 }

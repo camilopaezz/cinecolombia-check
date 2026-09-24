@@ -13335,6 +13335,64 @@
           "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
         }
       }
+    },
+    {
+      "guid": "d17020f0-b9ac-4b24-90d3-18b161e31316",
+      "type": "removed",
+      "filmId": "HO00000471",
+      "createdAt": "2026-09-24T05:00:32.709Z",
+      "snapshot": {
+        "id": "HO00000471",
+        "title": "Toy Story 5",
+        "shortSynopsis": "Los juguetes están de regreso y esta vez, el propósito de jugar de Buzz Lightyear, Woody, Jessie y el resto del grupo se ve amenazado cuando se enfrentan a Lilypad.",
+        "releaseDate": "2026-06-18",
+        "runtimeInMinutes": 102,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Andrew Stanton",
+        "webUrl": "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg",
+        "tmdb": {
+          "tmdbId": 1084244,
+          "posterPath": "/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg"
+        }
+      }
+    },
+    {
+      "guid": "dcdc1481-9cf7-4215-b888-e07f4041aa7e",
+      "type": "removed",
+      "filmId": "HO00000746",
+      "createdAt": "2026-09-24T05:00:32.709Z",
+      "snapshot": {
+        "id": "HO00000746",
+        "title": "Masha And The Bears",
+        "shortSynopsis": "Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 80,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Antonina Ruzhe",
+        "webUrl": "https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg",
+        "tmdb": {
+          "tmdbId": 1448028,
+          "posterPath": "/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg"
+        }
+      }
     }
   ]
 }

@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Toy Story 5</title>
+      <link>https://www.cinecolombia.com/films/toy-story-5/HO00000471/</link>
+      <guid isPermaLink="false">d17020f0-b9ac-4b24-90d3-18b161e31316</guid>
+      <pubDate>Thu, 24 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Los juguetes están de regreso y esta vez, el propósito de jugar de Buzz Lightyear, Woody, Jessie y el resto del grupo se ve amenazado cuando se enfrentan a Lilypad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Masha And The Bears</title>
+      <link>https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/</link>
+      <guid isPermaLink="false">dcdc1481-9cf7-4215-b888-e07f4041aa7e</guid>
+      <pubDate>Thu, 24 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Saccharine</title>
       <link>https://www.cinecolombia.com/films/saccharine/HO00000695/</link>
       <guid isPermaLink="false">7fdf33d1-8ec5-430e-8bae-840bf822817f</guid>
@@ -780,22 +796,6 @@
       <guid isPermaLink="false">49d864c3-d1c4-4557-a87e-5e7fbbcaee6a</guid>
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>Iluminada, joven con visiones que plasma en su poesía, vive entre dificultades en la periferia de Bogotá. Su relación con Juan no es bien vista en el barrio</description>
-    </item>
-    <item>
-      <title>Pronto: La Bola Negra</title>
-      <link>https://www.cinecolombia.com/films/la-bola-negra/HO00000840/</link>
-      <guid isPermaLink="false">ed433557-5660-4fbc-8ec4-be83d970b49a</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>LA BOLA NEGRA entrelaza las vidas de tres hombres en 1932, 1937 y 2017, unidas por el deseo, el dolor y la herencia. Inspirada en una obra inacabada de Lorca.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/qCUSOso8PSkVvZjSZ9awZpS1DQj.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: La libertad doble</title>
-      <link>https://www.cinecolombia.com/films/la-libertad-doble/HO00000841/</link>
-      <guid isPermaLink="false">c408163f-7e65-4d03-86c0-a51475f8e3d1</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Misael, leñador solitario, ve su vida trastocada por una responsabilidad inesperada, mientras la naturaleza le revela que la razón humana carece de sentido</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg" medium="image" />
     </item>
   </channel>
 </rss>

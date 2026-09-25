@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Forgotten Island</title>
+      <link>https://www.cinecolombia.com/films/forgotten-island/HO00000630/</link>
+      <guid isPermaLink="false">e11e2f4f-c5aa-408d-84e0-3d28a0e42f74</guid>
+      <pubDate>Fri, 25 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Avengers: Doomsday</title>
       <link>https://www.cinecolombia.com/films/avengers-doomsday/HO00000878/</link>
       <guid isPermaLink="false">fc2bcd4b-aa0e-4fb9-a75f-d4308a05edcb</guid>
@@ -791,13 +799,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>Chile, 1992. Inés, de 9 años, hace amistad con Hanna, joven esquiadora alemana, cerca de una estación de esquí andina. Su desaparición desvela verdades ocultas.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: El prófugo</title>
-      <link>https://www.cinecolombia.com/films/el-profugo/HO00000831/</link>
-      <guid isPermaLink="false">b75cfc85-85df-437b-9418-d4f5f70060da</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Inés, actriz de doblaje en Buenos Aires, desarrolla pesadillas vívidas tras un trauma. Paranoica, cree que los personajes de sus sueños intentan poseer su cuerpo</description>
     </item>
   </channel>
 </rss>

@@ -258,7 +258,8 @@
       "director": "Joel Crawford",
       "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
       "tmdb": {
@@ -3651,8 +3652,8 @@
       "title": "Avengers: Doomsday",
       "shortSynopsis": "En 'Avengers: Doomsday', héroes de tres universos distintos chocan en un curso mortal y enfrentan una amenaza existencial sin precedentes.\n",
       "releaseDate": "2026-12-17",
-      "runtimeInMinutes": 130,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 166,
+      "censorRating": "+12 Años",
       "genres": [
         "Acción"
       ],
@@ -4558,6 +4559,8 @@
       "posterPath": "/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg"
     }
   },
-  "missingRuns": {},
-  "lastRun": "2026-09-25T17:00:29.802Z"
+  "missingRuns": {
+    "HO00000801": 1
+  },
+  "lastRun": "2026-09-25T23:00:32.815Z"
 }

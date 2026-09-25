@@ -701,7 +701,6 @@
       "director": "Vicky Jones",
       "webUrl": "https://www.cinecolombia.com/films/fleabag/HO00000727/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg",
@@ -4535,5 +4534,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-24T23:00:29.530Z"
+  "lastRun": "2026-09-25T05:00:29.463Z"
 }

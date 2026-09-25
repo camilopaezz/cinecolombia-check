@@ -3645,6 +3645,27 @@
         "tmdbId": 1388805,
         "posterPath": "/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg"
       }
+    },
+    {
+      "id": "HO00000878",
+      "title": "Avengers: Doomsday",
+      "shortSynopsis": "En 'Avengers: Doomsday', héroes de tres universos distintos chocan en un curso mortal y enfrentan una amenaza existencial sin precedentes.\n",
+      "releaseDate": "2026-12-17",
+      "runtimeInMinutes": 130,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción"
+      ],
+      "director": "Anthony Russo",
+      "webUrl": "https://www.cinecolombia.com/films/avengers-doomsday/HO00000878/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg",
+      "tmdb": {
+        "tmdbId": 1003596,
+        "posterPath": "/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -4531,8 +4552,12 @@
     "HO00000877": {
       "tmdbId": 1388805,
       "posterPath": "/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg"
+    },
+    "HO00000878": {
+      "tmdbId": 1003596,
+      "posterPath": "/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-25T05:00:29.463Z"
+  "lastRun": "2026-09-25T17:00:29.802Z"
 }

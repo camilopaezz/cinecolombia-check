@@ -258,8 +258,7 @@
       "director": "Joel Crawford",
       "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
       "tmdb": {
@@ -1910,7 +1909,11 @@
       "categories": [
         "NowShowing"
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg",
+      "tmdb": {
+        "tmdbId": 195589,
+        "posterPath": "/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg"
+      }
     },
     {
       "id": "HO00000798",
@@ -4538,8 +4541,12 @@
     "HO00000878": {
       "tmdbId": 1003596,
       "posterPath": "/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg"
+    },
+    "HO00000797": {
+      "tmdbId": 195589,
+      "posterPath": "/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg"
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-26T05:00:32.733Z"
+  "lastRun": "2026-09-26T17:00:32.486Z"
 }

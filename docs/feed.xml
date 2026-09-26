@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Le Redoutable</title>
+      <link>https://www.cinecolombia.com/films/le-redoutable/HO00000801/</link>
+      <guid isPermaLink="false">c4a6d8ac-66a4-40b3-bc87-74d70428389b</guid>
+      <pubDate>Sat, 26 Sep 2026 05:00:32 GMT</pubDate>
+      <description>En los 60, durante &apos;La chinoise&apos;, Jean-Luc Godard se enamora de Anne Wiazemsky, de 17 años. La fría recepción del filme desata su crisis creativa</description>
+    </item>
+    <item>
       <title>En cartelera: Forgotten Island</title>
       <link>https://www.cinecolombia.com/films/forgotten-island/HO00000630/</link>
       <guid isPermaLink="false">e11e2f4f-c5aa-408d-84e0-3d28a0e42f74</guid>
@@ -791,14 +798,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: El Deshielo</title>
-      <link>https://www.cinecolombia.com/films/el-deshielo/HO00000830/</link>
-      <guid isPermaLink="false">bf6aa6d7-c56d-45de-8285-32e1245d9633</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Chile, 1992. Inés, de 9 años, hace amistad con Hanna, joven esquiadora alemana, cerca de una estación de esquí andina. Su desaparición desvela verdades ocultas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg" medium="image" />
     </item>
   </channel>
 </rss>

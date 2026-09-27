@@ -689,27 +689,6 @@
       }
     },
     {
-      "id": "HO00000727",
-      "title": "Fleabag",
-      "shortSynopsis": "Fleabag enfrenta el caos de su vida con humor irreverente y sin filtros, mientras lucha con sus relaciones y por mantener a flote su negocio.",
-      "releaseDate": "2026-09-25",
-      "runtimeInMinutes": 70,
-      "censorRating": "Contenido",
-      "genres": [
-        "Teatro"
-      ],
-      "director": "Vicky Jones",
-      "webUrl": "https://www.cinecolombia.com/films/fleabag/HO00000727/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg",
-      "tmdb": {
-        "tmdbId": 620350,
-        "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
-      }
-    },
-    {
       "id": "HO00000728",
       "title": "The Fifth Step",
       "shortSynopsis": "James y Luka forjan una frágil amistad durante su recuperación, hasta que una confesión revela verdades que amenazan la confianza entre ambos.",
@@ -4588,7 +4567,7 @@
     }
   },
   "missingRuns": {
-    "HO00000727": 1
+    "HO00000806": 1
   },
-  "lastRun": "2026-09-27T17:00:29.369Z"
+  "lastRun": "2026-09-27T23:00:32.100Z"
 }

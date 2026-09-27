@@ -13803,6 +13803,33 @@
           "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
         }
       }
+    },
+    {
+      "guid": "f5cd46fd-7cd1-44de-a623-daf7092dacc0",
+      "type": "removed",
+      "filmId": "HO00000727",
+      "createdAt": "2026-09-27T23:00:32.096Z",
+      "snapshot": {
+        "id": "HO00000727",
+        "title": "Fleabag",
+        "shortSynopsis": "Fleabag enfrenta el caos de su vida con humor irreverente y sin filtros, mientras lucha con sus relaciones y por mantener a flote su negocio.",
+        "releaseDate": "2026-09-25",
+        "runtimeInMinutes": 70,
+        "censorRating": "Contenido",
+        "genres": [
+          "Teatro"
+        ],
+        "director": "Vicky Jones",
+        "webUrl": "https://www.cinecolombia.com/films/fleabag/HO00000727/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg",
+        "tmdb": {
+          "tmdbId": 620350,
+          "posterPath": "/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg"
+        }
+      }
     }
   ]
 }

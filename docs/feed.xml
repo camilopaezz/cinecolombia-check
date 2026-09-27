@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Fleabag</title>
+      <link>https://www.cinecolombia.com/films/fleabag/HO00000727/</link>
+      <guid isPermaLink="false">f5cd46fd-7cd1-44de-a623-daf7092dacc0</guid>
+      <pubDate>Sun, 27 Sep 2026 23:00:32 GMT</pubDate>
+      <description>Fleabag enfrenta el caos de su vida con humor irreverente y sin filtros, mientras lucha con sus relaciones y por mantener a flote su negocio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ym3Jo2mo2dK9Z27ryMr5mmkDljx.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Everest: The Other Side</title>
       <link>https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/</link>
       <guid isPermaLink="false">ffa5637f-7b72-401f-b386-566a17a030e4</guid>
@@ -789,14 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Un humo misterioso en Tailandia desata una extraña enfermedad. Un aldeano karen, en cuarentena, sueña con volver a casa, mientras guardabosques amenazan su aldea.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: The man I love</title>
-      <link>https://www.cinecolombia.com/films/the-man-i-love/HO00000876/</link>
-      <guid isPermaLink="false">668c2d54-00f2-4280-8e55-50ab26dc845d</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Fin de los 80 en Nueva York, Jimmy George se rebela contra su mortalidad con un nuevo papel, un romance imprudente y el abrazo de su comunidad creativa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg" medium="image" />
     </item>
   </channel>
 </rss>

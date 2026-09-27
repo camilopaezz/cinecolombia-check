@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Les plages d’Agnès</title>
+      <link>https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/</link>
+      <guid isPermaLink="false">23757073-24dc-4e19-aff0-d1643e64d447</guid>
+      <pubDate>Sun, 27 Sep 2026 05:00:32 GMT</pubDate>
+      <description>Documental autobiográfico de Agnès Varda que recorre sus memorias cronológicamente, a través de fotos, videos, entrevistas y las playas que marcaron su existencia.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Le Redoutable</title>
       <link>https://www.cinecolombia.com/films/le-redoutable/HO00000801/</link>
       <guid isPermaLink="false">c4a6d8ac-66a4-40b3-bc87-74d70428389b</guid>
@@ -790,14 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>En plena Primera Guerra Mundial, Pierre conoce a Francis, quien organiza una obra de teatro para levantar el ánimo. Juntos buscan escapar de la brutalidad.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Dua</title>
-      <link>https://www.cinecolombia.com/films/dua/HO00000829/</link>
-      <guid isPermaLink="false">d0c67e14-fd8d-4403-b977-927eec6eead0</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg" medium="image" />
     </item>
   </channel>
 </rss>

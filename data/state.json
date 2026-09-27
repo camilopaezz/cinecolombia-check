@@ -2024,24 +2024,6 @@
       }
     },
     {
-      "id": "HO00000804",
-      "title": "Les plages d’Agnès",
-      "shortSynopsis": "Documental autobiográfico de Agnès Varda que recorre sus memorias cronológicamente, a través de fotos, videos, entrevistas y las playas que marcaron su existencia.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 110,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Biografía",
-        "Documental"
-      ],
-      "director": "Agnès Varda",
-      "webUrl": "https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000805",
       "title": "En Nous",
       "shortSynopsis": "En 2007, Juliette Binoche y Akram Khan crearon 'In-I'. Hoy, Binoche revisita ese viaje, reflexionando sobre la creación y la transformación personal",
@@ -4548,7 +4530,7 @@
     }
   },
   "missingRuns": {
-    "HO00000804": 1
+    "HO00000805": 1
   },
-  "lastRun": "2026-09-26T23:00:32.826Z"
+  "lastRun": "2026-09-27T05:00:32.807Z"
 }

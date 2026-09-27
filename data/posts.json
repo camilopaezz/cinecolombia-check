@@ -13667,6 +13667,30 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "23757073-24dc-4e19-aff0-d1643e64d447",
+      "type": "removed",
+      "filmId": "HO00000804",
+      "createdAt": "2026-09-27T05:00:32.804Z",
+      "snapshot": {
+        "id": "HO00000804",
+        "title": "Les plages d’Agnès",
+        "shortSynopsis": "Documental autobiográfico de Agnès Varda que recorre sus memorias cronológicamente, a través de fotos, videos, entrevistas y las playas que marcaron su existencia.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 110,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Biografía",
+          "Documental"
+        ],
+        "director": "Agnès Varda",
+        "webUrl": "https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

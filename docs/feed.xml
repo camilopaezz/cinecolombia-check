@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: En Nous</title>
+      <link>https://www.cinecolombia.com/films/en-nous/HO00000805/</link>
+      <guid isPermaLink="false">46e943fe-060d-4b9a-8bea-9c2d5b7be456</guid>
+      <pubDate>Sun, 27 Sep 2026 11:00:33 GMT</pubDate>
+      <description>En 2007, Juliette Binoche y Akram Khan crearon &apos;In-I&apos;. Hoy, Binoche revisita ese viaje, reflexionando sobre la creación y la transformación personal</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Les plages d’Agnès</title>
       <link>https://www.cinecolombia.com/films/les-plages-d-agnes/HO00000804/</link>
       <guid isPermaLink="false">23757073-24dc-4e19-aff0-d1643e64d447</guid>
@@ -789,14 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
       <description>Simón se hace cargo de David, un niño huérfano, y busca en Inés una madre para él. Juntos reinventan la idea de familia, mientras David se resiste a las normas.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Coward</title>
-      <link>https://www.cinecolombia.com/films/coward/HO00000828/</link>
-      <guid isPermaLink="false">13103616-9e83-4f43-8f4c-2be02647f0c7</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>En plena Primera Guerra Mundial, Pierre conoce a Francis, quien organiza una obra de teatro para levantar el ánimo. Juntos buscan escapar de la brutalidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg" medium="image" />
     </item>
   </channel>
 </rss>

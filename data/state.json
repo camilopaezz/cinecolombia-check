@@ -2024,27 +2024,6 @@
       }
     },
     {
-      "id": "HO00000805",
-      "title": "En Nous",
-      "shortSynopsis": "En 2007, Juliette Binoche y Akram Khan crearon 'In-I'. Hoy, Binoche revisita ese viaje, reflexionando sobre la creación y la transformación personal",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 156,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Juliette Binoche",
-      "webUrl": "https://www.cinecolombia.com/films/en-nous/HO00000805/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg",
-      "tmdb": {
-        "tmdbId": 1532477,
-        "posterPath": "/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg"
-      }
-    },
-    {
       "id": "HO00000806",
       "title": "Triplettes de Belleville",
       "shortSynopsis": "Champion, apasionado del ciclismo, es secuestrado durante el Tour de Francia. Su abuela Madame Souza, junto a su perro Bruno, corre a rescatarlo.",
@@ -4529,8 +4508,6 @@
       "posterPath": "/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000805": 1
-  },
-  "lastRun": "2026-09-27T05:00:32.807Z"
+  "missingRuns": {},
+  "lastRun": "2026-09-27T11:00:33.566Z"
 }

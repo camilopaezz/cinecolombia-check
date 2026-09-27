@@ -13718,6 +13718,91 @@
           "posterPath": "/z9jHEg0tit56FWFeObU3AB9VKeQ.jpg"
         }
       }
+    },
+    {
+      "guid": "ffa5637f-7b72-401f-b386-566a17a030e4",
+      "type": "added",
+      "filmId": "HO00000879",
+      "createdAt": "2026-09-27T17:00:29.365Z",
+      "snapshot": {
+        "id": "HO00000879",
+        "title": "Everest: The Other Side",
+        "shortSynopsis": "Los esquiadores Jim Morrison e Hilaree Nelson sueñan con escalar y esquiar la cara norte del Everest, la ruta más peligrosa, que nadie ha logrado descender con esquís.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 110,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Biografía",
+          "Drama",
+          "Historia"
+        ],
+        "director": "Doug Liman",
+        "webUrl": "https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+        "tmdb": {
+          "tmdbId": 1603262,
+          "posterPath": "/2m9ts8LfjG8d4xcUtx66aApngJL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d7287d8f-8b81-4636-84a3-57bc7c47ceca",
+      "type": "added",
+      "filmId": "HO00000880",
+      "createdAt": "2026-09-27T17:00:29.365Z",
+      "snapshot": {
+        "id": "HO00000880",
+        "title": "Tales From the Magic Garden",
+        "shortSynopsis": "Tres niños pasan la noche en casa de su abuelo. Ante la ausencia de su abuela, quien narraba cuentos, inventan sus historias y descubren el poder de imaginar.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 71,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación"
+        ],
+        "director": "David Súkup",
+        "webUrl": "https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg",
+        "tmdb": {
+          "tmdbId": 587370,
+          "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
+        }
+      }
+    },
+    {
+      "guid": "41d12c5c-0851-4feb-a8d6-bae5d1ae8fa3",
+      "type": "added",
+      "filmId": "HO00000881",
+      "createdAt": "2026-09-27T17:00:29.365Z",
+      "snapshot": {
+        "id": "HO00000881",
+        "title": "Godzilla Minus Zero",
+        "shortSynopsis": "Ambientada en 1949, dos años después de 'Godzilla Minus One', la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 135,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Takashi Yamazaki",
+        "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg",
+        "tmdb": {
+          "tmdbId": 1381071,
+          "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
+        }
+      }
     }
   ]
 }

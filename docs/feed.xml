@@ -7,6 +7,30 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Everest: The Other Side</title>
+      <link>https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/</link>
+      <guid isPermaLink="false">ffa5637f-7b72-401f-b386-566a17a030e4</guid>
+      <pubDate>Sun, 27 Sep 2026 17:00:29 GMT</pubDate>
+      <description>Los esquiadores Jim Morrison e Hilaree Nelson sueñan con escalar y esquiar la cara norte del Everest, la ruta más peligrosa, que nadie ha logrado descender con esquís.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Tales From the Magic Garden</title>
+      <link>https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/</link>
+      <guid isPermaLink="false">d7287d8f-8b81-4636-84a3-57bc7c47ceca</guid>
+      <pubDate>Sun, 27 Sep 2026 17:00:29 GMT</pubDate>
+      <description>Tres niños pasan la noche en casa de su abuelo. Ante la ausencia de su abuela, quien narraba cuentos, inventan sus historias y descubren el poder de imaginar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Godzilla Minus Zero</title>
+      <link>https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/</link>
+      <guid isPermaLink="false">41d12c5c-0851-4feb-a8d6-bae5d1ae8fa3</guid>
+      <pubDate>Sun, 27 Sep 2026 17:00:29 GMT</pubDate>
+      <description>Ambientada en 1949, dos años después de &apos;Godzilla Minus One&apos;, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: En Nous</title>
       <link>https://www.cinecolombia.com/films/en-nous/HO00000805/</link>
       <guid isPermaLink="false">46e943fe-060d-4b9a-8bea-9c2d5b7be456</guid>
@@ -773,30 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Fin de los 80 en Nueva York, Jimmy George se rebela contra su mortalidad con un nuevo papel, un romance imprudente y el abrazo de su comunidad creativa.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Sarah Bernhardt, la Divine</title>
-      <link>https://www.cinecolombia.com/films/sarah-bernhardt-la-divine/HO00000811/</link>
-      <guid isPermaLink="false">439c1873-e9bb-4d18-934c-8a3bab37d01c</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>En 1915, Sarah Bernhardt, &apos;La Divine&apos;, primera celebridad del mundo, desafía las normas sociales. Este biopic narra la historia de amor que marcó su vida.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/o2cijwdTdlKQTZekD2ioI6nrUKa.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: 6 meses en el edificio rosa con azul</title>
-      <link>https://www.cinecolombia.com/films/6-meses-en-el-edificio-rosa-con-azul/HO00000826/</link>
-      <guid isPermaLink="false">9597a371-9b38-4454-9a3f-3c65c0d6dfa0</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Ciudad de México, años 90. El día que Bruno cumple 11, sus sentimientos por Vladimir chocan con que su padre tiene VIH. Su familia enfrenta el dolor con salsa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Aquí</title>
-      <link>https://www.cinecolombia.com/films/aqui/HO00000827/</link>
-      <guid isPermaLink="false">7c147e2d-323f-470a-a7b9-84f37c9b9b2a</guid>
-      <pubDate>Fri, 18 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Simón se hace cargo de David, un niño huérfano, y busca en Inés una madre para él. Juntos reinventan la idea de familia, mientras David se resiste a las normas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg" medium="image" />
     </item>
   </channel>
 </rss>

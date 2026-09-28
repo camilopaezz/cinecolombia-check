@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Avengers: Doomsday</title>
+      <link>https://www.cinecolombia.com/films/avengers-doomsday/HO00000878/</link>
+      <guid isPermaLink="false">f619f053-7f82-433f-b9fa-7b926b463b42</guid>
+      <pubDate>Mon, 28 Sep 2026 05:00:14 GMT</pubDate>
+      <description>En &apos;Avengers: Doomsday&apos;, héroes de tres universos distintos chocan en un curso mortal y enfrentan una amenaza existencial sin precedentes.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Triplettes de Belleville</title>
+      <link>https://www.cinecolombia.com/films/triplettes-de-belleville/HO00000806/</link>
+      <guid isPermaLink="false">54e4ea7d-56fa-46f6-bfdc-40d607d38614</guid>
+      <pubDate>Mon, 28 Sep 2026 05:00:14 GMT</pubDate>
+      <description>Champion, apasionado del ciclismo, es secuestrado durante el Tour de Francia. Su abuela Madame Souza, junto a su perro Bruno, corre a rescatarlo.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Fleabag</title>
       <link>https://www.cinecolombia.com/films/fleabag/HO00000727/</link>
       <guid isPermaLink="false">f5cd46fd-7cd1-44de-a623-daf7092dacc0</guid>
@@ -781,22 +797,6 @@
       <guid isPermaLink="false">1cdced57-219a-4749-bd40-3729d76f296c</guid>
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
-    </item>
-    <item>
-      <title>Pronto: Sants</title>
-      <link>https://www.cinecolombia.com/films/sants/HO00000874/</link>
-      <guid isPermaLink="false">84ac7add-b3ec-4a2c-a772-e63b9c0f7c5c</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Mientras lidia con la inminente muerte de su madre, Lali entra a formar parte de una banda de ladrones de figuras religiosas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Yak Mai</title>
-      <link>https://www.cinecolombia.com/films/yak-mai/HO00000875/</link>
-      <guid isPermaLink="false">112f753f-3e56-4130-a02e-a4c3ce12d6c9</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Un humo misterioso en Tailandia desata una extraña enfermedad. Un aldeano karen, en cuarentena, sueña con volver a casa, mientras guardabosques amenazan su aldea.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -1142,7 +1142,7 @@
       "shortSynopsis": "Carmen' de Bizet, con Elīna Garanča y Roberto Alagna, en la icónica producción de Richard Eyre (Met 2010). Pasión, magnetismo y destrucción.",
       "releaseDate": "2026-11-21",
       "runtimeInMinutes": 180,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Ópera"
       ],
@@ -1164,7 +1164,7 @@
       "shortSynopsis": "Hace 20 años, el Met transmitió por primera vez en HD 'La flauta mágica' de Mozart. Regresa en Navidad con Polenzani, Gunn y la puesta de Julie Taymor.",
       "releaseDate": "2026-12-12",
       "runtimeInMinutes": 115,
-      "censorRating": "Pendiente",
+      "censorRating": "Contenido",
       "genres": [
         "Ópera"
       ],
@@ -4549,5 +4549,5 @@
     }
   },
   "missingRuns": {},
-  "lastRun": "2026-09-28T05:00:14.558Z"
+  "lastRun": "2026-09-28T17:01:01.430Z"
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Les pires</title>
+      <link>https://www.cinecolombia.com/films/les-pires/HO00000797/</link>
+      <guid isPermaLink="false">564a0425-daa3-4bd7-94c2-c84ea53029c8</guid>
+      <pubDate>Tue, 29 Sep 2026 01:20:09 GMT</pubDate>
+      <description>En Boulogne-Sur-Mer, un rodaje elige a cuatro niños del barrio Picasso para participar. Todos se preguntan por qué eligieron a &apos;los peores.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Avengers: Doomsday</title>
       <link>https://www.cinecolombia.com/films/avengers-doomsday/HO00000878/</link>
       <guid isPermaLink="false">f619f053-7f82-433f-b9fa-7b926b463b42</guid>
@@ -790,13 +798,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>El padre Enciso, encomendero cruel en Filipinas, construye una iglesia con mármol robado. Encarga a su hijo Dungwen supervisar el peligroso transporte de las piedras.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Luis Tercero</title>
-      <link>https://www.cinecolombia.com/films/luis-tercero/HO00000873/</link>
-      <guid isPermaLink="false">1cdced57-219a-4749-bd40-3729d76f296c</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
     </item>
   </channel>
 </rss>

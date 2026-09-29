@@ -17,6 +17,21 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000010"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg",
       "tmdb": {
         "tmdbId": 1248832,
@@ -37,6 +52,19 @@
       "webUrl": "https://www.cinecolombia.com/films/the-odyssey/HO00000386/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg",
       "tmdb": {
@@ -59,6 +87,18 @@
       "webUrl": "https://www.cinecolombia.com/films/minions-monsters/HO00000451/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
       "tmdb": {
@@ -83,6 +123,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg",
       "tmdb": {
         "tmdbId": 1300968,
@@ -105,6 +153,14 @@
       "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
       "tmdb": {
@@ -130,6 +186,24 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000002",
+            "0000000004",
+            "0000000005",
+            "0000000007",
+            "0000000008",
+            "0000000009",
+            "0000000010"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ceKywESF1WPVlfdYRTrvZbTkSXV.jpg",
       "tmdb": {
         "tmdbId": 1170608,
@@ -150,6 +224,14 @@
       "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg",
       "tmdb": {
@@ -173,6 +255,19 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ct7rSLY6OlQBETxQDzINzkhYIO2.jpg",
       "tmdb": {
         "tmdbId": 969681,
@@ -193,6 +288,14 @@
       "webUrl": "https://www.cinecolombia.com/films/focker-in-law/HO00000607/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg",
       "tmdb": {
@@ -216,6 +319,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
       "tmdb": {
         "tmdbId": 1400940,
@@ -236,6 +347,18 @@
       "webUrl": "https://www.cinecolombia.com/films/pressure/HO00000629/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg",
       "tmdb": {
@@ -260,6 +383,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
       "tmdb": {
         "tmdbId": 1465063,
@@ -282,6 +413,19 @@
       "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
       "tmdb": {
@@ -306,6 +450,19 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
       "tmdb": {
         "tmdbId": 1204680,
@@ -327,6 +484,18 @@
       "webUrl": "https://www.cinecolombia.com/films/mutiny/HO00000634/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg",
       "tmdb": {
@@ -351,6 +520,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
       "tmdb": {
         "tmdbId": 1117898,
@@ -374,6 +551,19 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg",
       "tmdb": {
         "tmdbId": 1291595,
@@ -394,6 +584,18 @@
       "webUrl": "https://www.cinecolombia.com/films/the-invite/HO00000647/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg",
       "tmdb": {
@@ -416,6 +618,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
       "tmdb": {
         "tmdbId": 1276521,
@@ -436,6 +650,14 @@
       "webUrl": "https://www.cinecolombia.com/films/street-fighter/HO00000666/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg",
       "tmdb": {
@@ -460,6 +682,19 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
       "tmdb": {
         "tmdbId": 1140521,
@@ -480,6 +715,19 @@
       "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
       "tmdb": {
@@ -504,6 +752,19 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
       "tmdb": {
         "tmdbId": 1363387,
@@ -526,6 +787,21 @@
       "webUrl": "https://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000003",
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
       "tmdb": {
@@ -550,6 +826,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
       "tmdb": {
         "tmdbId": 1187326,
@@ -573,6 +857,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg",
       "tmdb": {
         "tmdbId": 1300926,
@@ -594,6 +886,14 @@
       "webUrl": "https://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg",
       "tmdb": {
@@ -617,6 +917,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg",
       "tmdb": {
         "tmdbId": 964849,
@@ -637,6 +945,14 @@
       "webUrl": "https://www.cinecolombia.com/films/seeking-haven-for-mr-rambo/HO00000709/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg",
       "tmdb": {
@@ -661,6 +977,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
       "tmdb": {
         "tmdbId": 1255833,
@@ -681,6 +1005,14 @@
       "webUrl": "https://www.cinecolombia.com/films/other-mommy/HO00000724/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
       "tmdb": {
@@ -704,6 +1036,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg",
       "tmdb": {
         "tmdbId": 1507573,
@@ -725,6 +1071,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg",
       "tmdb": {
@@ -748,6 +1108,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -765,6 +1139,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": null
     },
@@ -784,6 +1172,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -801,6 +1203,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": null
     },
@@ -820,6 +1236,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -836,6 +1266,14 @@
       "webUrl": "https://www.cinecolombia.com/films/werwulf/HO00000735/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
       "tmdb": {
@@ -858,6 +1296,21 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
       "tmdb": {
@@ -882,6 +1335,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
       "tmdb": {
         "tmdbId": 1101412,
@@ -904,6 +1365,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg",
       "tmdb": {
         "tmdbId": 1399462,
@@ -925,6 +1394,14 @@
       "webUrl": "https://www.cinecolombia.com/films/violent-night-2/HO00000743/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg",
       "tmdb": {
@@ -949,6 +1426,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
       "tmdb": {
         "tmdbId": 891621,
@@ -972,6 +1457,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/19JQnXT21OtH24fBgexkDFVFEoS.jpg",
       "tmdb": {
         "tmdbId": 1263012,
@@ -993,6 +1486,19 @@
       "webUrl": "https://www.cinecolombia.com/films/practical-magic-2/HO00000749/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg",
       "tmdb": {
@@ -1016,6 +1522,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg",
       "tmdb": {
         "tmdbId": 1480503,
@@ -1037,6 +1551,14 @@
       "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000752/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
       "tmdb": {
@@ -1061,6 +1583,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
       "tmdb": {
         "tmdbId": 1469342,
@@ -1083,6 +1617,14 @@
       "webUrl": "https://www.cinecolombia.com/films/pinocchio-unstrung/HO00000754/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg",
       "tmdb": {
@@ -1107,6 +1649,19 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg",
       "tmdb": {
         "tmdbId": 539745,
@@ -1130,6 +1685,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000010"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dCsCez4aVeXqMiALdWYp4LFsztI.jpg",
       "tmdb": {
         "tmdbId": 142773,
@@ -1151,6 +1720,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7jRPTuYdxXXRLddO4FQG22axu9e.jpg",
       "tmdb": {
@@ -1174,6 +1757,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qjUjatQEMIHtCngnyTib943x7TU.jpg",
       "tmdb": {
         "tmdbId": 37028,
@@ -1195,6 +1792,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg",
       "tmdb": {
@@ -1218,6 +1829,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": null,
       "tmdb": {
         "tmdbId": 1669983,
@@ -1239,6 +1864,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": null,
       "tmdb": {
@@ -1262,6 +1901,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kg4bIJ65Q13UWtbyR8W0u7VQUU7.jpg",
       "tmdb": {
         "tmdbId": 1703624,
@@ -1283,6 +1936,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/73lJaerj5Z5I9BJdLkSXWPwhkCf.jpg",
       "tmdb": {
@@ -1307,6 +1974,24 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000002",
+            "0000000004",
+            "0000000005",
+            "0000000007",
+            "0000000008",
+            "0000000009",
+            "0000000010",
+            "0000000014"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
       "tmdb": {
         "tmdbId": 299534,
@@ -1328,6 +2013,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gUaKPSw6fpqCR4spnwBwmYSEXtU.jpg",
       "tmdb": {
@@ -1351,6 +2050,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gy1dSADR6FdIL8jpUonLNYeCREk.jpg",
       "tmdb": {
         "tmdbId": 1703631,
@@ -1372,6 +2085,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dnF9OwgVcDKClhAf4ZPKQBRWyDh.jpg",
       "tmdb": {
@@ -1395,6 +2122,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/68bLPfddedoqUeFaWunUOk2wfKf.jpg",
       "tmdb": {
         "tmdbId": 1703636,
@@ -1415,6 +2156,14 @@
       "webUrl": "https://www.cinecolombia.com/films/resurrection/HO00000772/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vQZK421erWKR5PgF4pbz0lp4o3o.jpg",
       "tmdb": {
@@ -1437,6 +2186,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
       "tmdb": {
         "tmdbId": 1153714,
@@ -1458,6 +2219,14 @@
       "webUrl": "https://www.cinecolombia.com/films/the-get-out/HO00000775/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
       "tmdb": {
@@ -1482,6 +2251,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg",
       "tmdb": {
         "tmdbId": 1375646,
@@ -1504,6 +2281,19 @@
       "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
       "tmdb": {
@@ -1528,6 +2318,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000010"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg",
       "tmdb": {
         "tmdbId": 1489932,
@@ -1551,6 +2355,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
       "tmdb": {
         "tmdbId": 1723396,
@@ -1572,6 +2388,18 @@
       "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
       "tmdb": {
@@ -1596,6 +2424,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg",
       "tmdb": {
         "tmdbId": 920,
@@ -1619,6 +2455,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg",
       "tmdb": {
         "tmdbId": 1432596,
@@ -1640,6 +2489,14 @@
       "webUrl": "https://www.cinecolombia.com/films/pacifico/HO00000786/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg",
       "tmdb": {
@@ -1663,6 +2520,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
       "tmdb": {
         "tmdbId": 1747216,
@@ -1685,6 +2555,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -1702,6 +2585,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
       "tmdb": {
@@ -1724,6 +2620,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg",
       "tmdb": {
@@ -1749,6 +2658,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg",
       "tmdb": {
         "tmdbId": 70160,
@@ -1772,6 +2695,20 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
       "tmdb": {
@@ -1797,6 +2734,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg",
       "tmdb": {
         "tmdbId": 131631,
@@ -1821,6 +2772,20 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
       "tmdb": {
         "tmdbId": 131634,
@@ -1843,6 +2808,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
       "tmdb": {
@@ -1867,31 +2845,23 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
       "tmdb": {
         "tmdbId": 1770234,
         "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
-      }
-    },
-    {
-      "id": "HO00000797",
-      "title": "Les pires",
-      "shortSynopsis": "En Boulogne-Sur-Mer, un rodaje elige a cuatro niños del barrio Picasso para participar. Todos se preguntan por qué eligieron a 'los peores.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 99,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Lise Akoka",
-      "webUrl": "https://www.cinecolombia.com/films/les-pires/HO00000797/",
-      "categories": [
-        "NowShowing"
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg",
-      "tmdb": {
-        "tmdbId": 195589,
-        "posterPath": "/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg"
       }
     },
     {
@@ -1908,6 +2878,18 @@
       "webUrl": "https://www.cinecolombia.com/films/la-famille-belier/HO00000798/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg",
       "tmdb": {
@@ -1931,6 +2913,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg",
       "tmdb": {
         "tmdbId": 1079311,
@@ -1951,6 +2945,18 @@
       "webUrl": "https://www.cinecolombia.com/films/l-attachement/HO00000800/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/113xZCRj3ak30zh1xUFv6hQoPgn.jpg",
       "tmdb": {
@@ -1975,6 +2981,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
       "tmdb": {
         "tmdbId": 1723396,
@@ -1995,6 +3013,18 @@
       "webUrl": "https://www.cinecolombia.com/films/demain-je-tombe-amoureux/HO00000803/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg",
       "tmdb": {
@@ -2017,6 +3047,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
       "tmdb": {
         "tmdbId": 1376415,
@@ -2037,6 +3079,18 @@
       "webUrl": "https://www.cinecolombia.com/films/soudain/HO00000808/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg",
       "tmdb": {
@@ -2059,6 +3113,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -2075,6 +3141,18 @@
       "webUrl": "https://www.cinecolombia.com/films/le-parc/HO00000810/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg",
       "tmdb": {
@@ -2098,6 +3176,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/o2cijwdTdlKQTZekD2ioI6nrUKa.jpg",
       "tmdb": {
         "tmdbId": 1228322,
@@ -2120,6 +3210,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -2137,6 +3239,18 @@
       "webUrl": "https://www.cinecolombia.com/films/la-haine/HO00000813/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg",
       "tmdb": {
@@ -2160,6 +3274,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg",
       "tmdb": {
         "tmdbId": 1294698,
@@ -2180,6 +3306,18 @@
       "webUrl": "https://www.cinecolombia.com/films/mateo/HO00000815/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg",
       "tmdb": {
@@ -2202,6 +3340,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -2218,6 +3368,18 @@
       "webUrl": "https://www.cinecolombia.com/films/litigante/HO00000817/",
       "categories": [
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg",
       "tmdb": {
@@ -2242,6 +3404,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg",
       "tmdb": {
         "tmdbId": 108,
@@ -2265,6 +3439,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg",
       "tmdb": {
         "tmdbId": 2011,
@@ -2286,6 +3472,18 @@
       "categories": [
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -2304,6 +3502,14 @@
       "webUrl": "https://www.cinecolombia.com/films/sacrifice/HO00000821/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg",
       "tmdb": {
@@ -2328,6 +3534,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg",
       "tmdb": {
         "tmdbId": 1386315,
@@ -2350,6 +3564,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
       "tmdb": {
         "tmdbId": 1380417,
@@ -2371,6 +3593,14 @@
       "webUrl": "https://www.cinecolombia.com/films/lockbox/HO00000824/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg",
       "tmdb": {
@@ -2395,6 +3625,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg",
       "tmdb": {
         "tmdbId": 1284046,
@@ -2416,6 +3654,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg",
       "tmdb": {
@@ -2439,6 +3690,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg",
       "tmdb": {
         "tmdbId": 1000837,
@@ -2460,6 +3724,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg",
       "tmdb": {
@@ -2483,6 +3760,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg",
       "tmdb": {
         "tmdbId": 1472825,
@@ -2504,6 +3794,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg",
       "tmdb": {
@@ -2528,6 +3831,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -2545,6 +3861,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg",
       "tmdb": {
@@ -2567,6 +3896,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
       "tmdb": {
@@ -2591,6 +3933,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg",
       "tmdb": {
         "tmdbId": 1437696,
@@ -2612,6 +3967,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg",
       "tmdb": {
@@ -2635,6 +4003,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg",
       "tmdb": {
         "tmdbId": 1563588,
@@ -2656,6 +4037,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg",
       "tmdb": {
@@ -2680,6 +4074,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": null
     },
     {
@@ -2697,6 +4104,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg",
       "tmdb": {
@@ -2720,6 +4140,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/qCUSOso8PSkVvZjSZ9awZpS1DQj.jpg",
       "tmdb": {
         "tmdbId": 1422041,
@@ -2742,6 +4175,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/sBX05RMcO8eFcpV9hI7o2qA7mbH.jpg",
       "tmdb": {
         "tmdbId": 1387981,
@@ -2763,6 +4209,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg",
       "tmdb": {
@@ -2788,6 +4247,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/taet4dtOhKE4LZImCxPZuzeQwmb.jpg",
       "tmdb": {
         "tmdbId": 1601885,
@@ -2812,6 +4284,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9tGOAAcn2P9f0IYlinRwkKqwJKI.jpg",
       "tmdb": {
         "tmdbId": 1735053,
@@ -2833,6 +4318,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/76pWgZ8umio8Kx2k8ujkb9wETLG.jpg",
       "tmdb": {
@@ -2856,6 +4354,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
       "tmdb": {
         "tmdbId": 848700,
@@ -2877,6 +4388,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/kxdTf63duqsc2bA8erZy4rn5Rr5.jpg",
       "tmdb": {
@@ -2901,6 +4425,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/6NG5Gjb9Kit3jZmed0BZQmLxxGq.jpg",
       "tmdb": {
         "tmdbId": 1228841,
@@ -2922,6 +4459,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/fET69vh3XIeSmxanlgKKN8x23hC.jpg",
       "tmdb": {
@@ -2945,6 +4495,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg",
       "tmdb": {
         "tmdbId": 1536431,
@@ -2966,6 +4529,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg",
       "tmdb": {
@@ -2990,6 +4566,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg",
       "tmdb": {
         "tmdbId": 1265831,
@@ -3011,6 +4600,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg",
       "tmdb": {
@@ -3034,6 +4636,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg",
       "tmdb": {
         "tmdbId": 1376457,
@@ -3055,6 +4670,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg",
       "tmdb": {
@@ -3078,6 +4706,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wghpbjfWAkvXVCq5GVs2j56tTdA.jpg",
       "tmdb": {
         "tmdbId": 1476466,
@@ -3099,6 +4740,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9DPBGoVwxnGtEkUaB0YwpBTPaSc.jpg",
       "tmdb": {
@@ -3122,6 +4776,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg",
       "tmdb": {
         "tmdbId": 1599249,
@@ -3143,6 +4810,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg",
       "tmdb": {
@@ -3166,6 +4846,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg",
       "tmdb": {
         "tmdbId": 1753085,
@@ -3187,6 +4880,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9nBRqy5RS3HP9ru86ySVOB0PcqB.jpg",
       "tmdb": {
@@ -3210,6 +4916,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg",
       "tmdb": {
         "tmdbId": 1651710,
@@ -3232,6 +4951,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg",
       "tmdb": {
         "tmdbId": 865567,
@@ -3253,6 +4985,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg",
       "tmdb": {
@@ -3277,6 +5022,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg",
       "tmdb": {
         "tmdbId": 1341137,
@@ -3298,6 +5056,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg",
       "tmdb": {
@@ -3321,6 +5092,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg",
       "tmdb": {
         "tmdbId": 1401459,
@@ -3342,6 +5126,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg",
       "tmdb": {
@@ -3365,6 +5162,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg",
       "tmdb": {
         "tmdbId": 1352304,
@@ -3386,6 +5196,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": null,
       "tmdb": {
@@ -3410,6 +5233,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg",
       "tmdb": {
         "tmdbId": 1154730,
@@ -3431,6 +5267,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg",
       "tmdb": {
@@ -3455,6 +5304,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
       "tmdb": {
         "tmdbId": 1774071,
@@ -3476,6 +5338,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg",
       "tmdb": {
@@ -3499,6 +5374,19 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg",
       "tmdb": {
@@ -3524,6 +5412,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg",
       "tmdb": {
         "tmdbId": 1458914,
@@ -3546,6 +5447,19 @@
         "AdvanceBooking",
         "NowShowing"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg",
       "tmdb": {
         "tmdbId": 1388805,
@@ -3567,6 +5481,24 @@
       "categories": [
         "AdvanceBooking",
         "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000002",
+            "0000000003",
+            "0000000004",
+            "0000000005",
+            "0000000007",
+            "0000000008",
+            "0000000014"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg",
       "tmdb": {
@@ -3591,6 +5523,14 @@
       "categories": [
         "ComingSoon"
       ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
       "tmdb": {
         "tmdbId": 1603262,
@@ -3611,6 +5551,14 @@
       "webUrl": "https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg",
       "tmdb": {
@@ -3634,6 +5582,14 @@
       "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
       "categories": [
         "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
       ],
       "posterUrl": "https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg",
       "tmdb": {
@@ -4548,8 +6504,7 @@
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000797": 1
-  },
-  "lastRun": "2026-09-28T23:01:00.402Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-09-29T01:20:09.821Z"
 }

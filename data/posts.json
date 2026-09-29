@@ -13883,6 +13883,33 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "564a0425-daa3-4bd7-94c2-c84ea53029c8",
+      "type": "removed",
+      "filmId": "HO00000797",
+      "createdAt": "2026-09-29T01:20:09.816Z",
+      "snapshot": {
+        "id": "HO00000797",
+        "title": "Les pires",
+        "shortSynopsis": "En Boulogne-Sur-Mer, un rodaje elige a cuatro niños del barrio Picasso para participar. Todos se preguntan por qué eligieron a 'los peores.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 99,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Lise Akoka",
+        "webUrl": "https://www.cinecolombia.com/films/les-pires/HO00000797/",
+        "categories": [
+          "NowShowing"
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg",
+        "tmdb": {
+          "tmdbId": 195589,
+          "posterPath": "/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg"
+        }
+      }
     }
   ]
 }

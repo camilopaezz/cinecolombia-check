@@ -1,46 +1,36 @@
-# Context — domain glossary & seam map
+# Cinecolombia catalog language
 
-AI-navigability notes for the single-file scraper (`scrape.ts`). Product story lives in `README.md`; issue history in `issues/`.
+Terms for interpreting the catalog and its announcements. The catalog is an observation of Cinecolombia's reported data, not a screening schedule.
 
-## Layout (seams)
+## Language
 
-| Path / symbol | Role |
-|---|---|
-| `scrape.ts` | Entire app: fetch → lifecycle → persist → project → notify/git |
-| `scrape.test.ts` | Policy + projection + main integration tests |
-| `data/state.json` | **State**: current `films`, `missingRuns`, `tmdbCache`, `lastRun` |
-| `data/posts.json` | **Archive** (`PostArchive`): append-only lifecycle events |
-| `docs/feed.xml`, `docs/index.html` | Public surfaces (newest `FEED_LIMIT` = 100) |
-| `Deps` / `liveDeps` / `MainOptions.deps` | Injectable I/O (token, OCAPI, sitemap, TMDB, now, uuid, notify) for tests |
-| `applyLifecycle` | Core transition engine (new / gains / soft-missing removals) |
-| `runLifecycle` | Full policy wrap: empty/bulk guards, cold start, archive set, quiet `lastRun` |
-| Event projection | `eventTitle`, `factsLine`, `clipSynopsis`, `windowNewest` → RSS / HTML bitácora / Discord |
-| `sanitizeArchivePosts` | Pure offline archive repair (restage + drop preventa twins); not on scrape path |
-| `runArchiveHygiene` | CLI home for hygiene: load/sanitize/save `posts.json` + regen feed/html; `--hygiene` / `hygiene` |
+**Observation**:
+A successful check of the Cinecolombia catalog at a point in time. It shows what the source reported then, not whether a screening took place.
 
-`main()` optionally `git pull --rebase` first (when `CINECO_GIT_PUSH`), then fetches + enriches posters, calls `runLifecycle`, writes posts → state → feed/html, notifies, optional git commit/push. Prefer `runLifecycle` over calling `applyLifecycle` alone when testing policy.
+**Reported availability**:
+The categories Cinecolombia assigns to a film across availability rows, such as `ComingSoon`, `AdvanceBooking`, or `NowShowing`. A row may identify a site, but contains no screening dates or showtimes.
+_Avoid_: Confirmed screening
 
-## Glossary
+**Current catalog**:
+The latest accepted view of films and their reported availability. It can include briefly retained films that were absent from the latest observation; categories on films seen in that observation reflect what was reported then. It is not a guarantee that tickets are available now.
+_Avoid_: Live showtimes
 
-| Term | Meaning |
-|---|---|
-| **EventType** | `added` · `preventa-opens` · `now-in-theaters` · `removed` (labels es-CO: Pronto / Preventa abierta / En cartelera / Ya no disponible) |
-| **Highest stage / first sight** | New `filmId` emits one event via `announcementType`: NowShowing → `now-in-theaters`, else AdvanceBooking → `preventa-opens`, else `added` |
-| **Soft-missing** | Absent film still kept in `state.films` with `missingRuns[id]` under threshold; reappearance clears counter, no `added` |
-| **REMOVAL_THRESHOLD** | `2` consecutive successful absences before `removed` (debounce one-run catalog blips) |
-| **Cold start** | Virgin install only: empty `prev.films`, no `lastRun`, empty archive → seed state, **no** archive/notify. Wipe with history still archives re-adds at highest stage |
-| **Quiet run** | No meaningful change → `lastRun` unchanged → no dirty git on identical catalogs |
-| **Bulk guard** | Abort before write if empty OCAPI catalog with known films, or removals > `max(10, 30% of prev)` when prev ≥ 10 (`maxRemovalsAllowed` / `MAX_REMOVAL_FRACTION`) |
-| **Archive** | `posts.json` full history; public feed/HTML window via `windowNewest` |
-| **Bitácora** | Editorial HTML page (es-CO, Bogotá) — ficha cards, mono event codes |
-| **sanitizeArchivePosts** | Pure one-shot repair: restage historical `added` to highest stage from snapshot; drop same-timestamp preventa twins / preventa while NowShowing |
-| **runArchiveHygiene / `--hygiene`** | Offline entry (not scheduled): sanitize `data/posts.json`, rewrite feed/html; no scrape/notify/git |
-| **Deps** | Pure domain stays free of fs/network; adapters injected for tests and live curl/fetch |
+**Future-dated `NowShowing`**:
+A film reported in `NowShowing` whose release date is still in the future. The category is a source report, not proof that the film is playing today; the release date is film metadata, not a screening date.
 
-## Decisions (short)
+**Historical announcement**:
+A dated record of a newly observed film, a reported category gain, or a confirmed catalog removal. Its film details describe the announcement at that time; later metadata corrections belong in the current catalog, not in the old record.
+_Avoid_: Current availability
 
-- Stay **single-file** unless a real second adapter appears.
-- Removal debounce **= 2**; fail-before-write on bad/empty/bulk catalogs.
-- Posts written **before** state (prefer re-emit over lost events).
-- Notify only on **archived** transitions (not virgin cold start). Git: pull --rebase before scrape; commit when dirty; push always when enabled.
-- Projection helpers shared; formatters (RSS/HTML/Discord) stay thin.
+**Soft-missing film**:
+A previously known film absent from the latest observation but retained until repeated successful absences confirm its removal. A prompt return does not count as a new film.
+
+**Pending category loss**:
+A previously reported category absent from one observation, whose loss is not yet confirmed for deciding whether a later return merits another announcement. Its return cancels the pending loss; the current catalog still shows the observed category set.
+
+**Cold start**:
+The first observation with no previous catalog or announcement history. It establishes the current catalog without announcing every existing film as new.
+
+**Catalog change time**:
+The time of the last accepted change to the current catalog or its uncertainty, not the time of the last successful check. A quiet check has no new public timestamp, though the check is logged.
+_Avoid_: Last checked

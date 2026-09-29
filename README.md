@@ -6,7 +6,7 @@ publishes them as a Spanish-language RSS feed + static HTML page, with optional
 Discord notifications on each transition.
 
 See [`issues/`](./issues/) for the original issue breakdown.
-Domain glossary + code seam map: [`CONTEXT.md`](./CONTEXT.md).
+Domain terms: [`CONTEXT.md`](./CONTEXT.md).
 
 ## Run
 
@@ -27,11 +27,43 @@ fetch a fresh OCAPI token each run.
 
 ```
 scrape.ts            # the scraper (single file)
-CONTEXT.md           # domain glossary + seam map (AI / contributor nav)
-data/                # committed: posts.json (archive) + state.json (current)
-docs/                # GitHub Pages: feed.xml + index.html (newest 100 posts)
+CONTEXT.md           # domain glossary
+data/                # committed: posts.json (announcements) + state.json (current catalog)
+docs/                # GitHub Pages: feed.xml (newest 100 posts) + index.html (catalog and history)
 systemd/             # cineco.service + cineco.timer
 ```
+
+The main path in `scrape.ts` fetches and enriches the catalog, calls
+`runLifecycle`, saves posts before state, then renders RSS and HTML before
+optional notification and git push. `applyLifecycle` handles transitions;
+`runLifecycle` also applies abort guards, cold-start policy, and change tracking.
+`generateFeed` projects posts; `generateHTML` projects posts plus current state.
+The `Deps` adapter supplies network, clock, UUID, and notification operations to
+tests and the live run. `sanitizeArchivePosts` and `runArchiveHygiene` belong to
+the offline repair path, not scheduled scrapes. Policy, projection, and main-path
+tests live in `scrape.test.ts`.
+
+## What the data says
+
+The scraper observes Cinecolombia's OCAPI catalog at each successful check. A film's
+reported availability comes from its per-site category rows, such as `ComingSoon`,
+`AdvanceBooking`, and `NowShowing`. A row may identify a site, but it does not
+contain screening dates or prove that tickets or showtimes exist on a particular
+day. The film's `releaseDate` is metadata, not a screening schedule. The current
+catalog keeps per-site details in optional `availabilityRows`; older records may
+have only merged categories. A future-dated film can already carry `NowShowing`.
+The current catalog marks the future release rather than claiming it is playing
+now. Its per-site categories are available in expandable details when the scraper
+has captured them; site identifiers are not cinema names.
+
+The HTML page combines the latest accepted catalog with a history of announcements.
+The catalog is a changing observation, not a guarantee of availability. A missing
+film stays visible briefly with an uncertainty warning; a missing category leaves
+the current record immediately but needs confirmation before a later return can
+trigger a repeat announcement. Event posts in the RSS feed and HTML history
+describe what the scraper announced at the time, not what is available today.
+Later metadata corrections update the current catalog,
+not old announcement snapshots.
 
 ## Lifecycle events
 
@@ -39,18 +71,22 @@ systemd/             # cineco.service + cineco.timer
 |---|---|---|
 | `added` | new `filmId` at ComingSoon (or no higher stage) | Pronto |
 | `preventa-opens` | new film already in `AdvanceBooking`, or known film gains it (and is not in theaters) | Preventa abierta |
-| `now-in-theaters` | new film already in `NowShowing`, or known film gains it | En cartelera |
+| `now-in-theaters` | new film already reports `NowShowing`, or known film gains that category | En cartelera |
 | `removed` | film absent for `REMOVAL_THRESHOLD` (2) consecutive successful runs | Ya no disponible |
 
 Notes:
 
 - **Cold start (virgin install only):** empty previous films, no `lastRun`, and empty
-  `posts.json` → seed `state.json` only. No archive entries, no Discord spam.
+  `posts.json` → seed the current catalog without archive entries or Discord spam.
   After a real wipe (history present), reappearing films archive at **highest stage**
   (not always `added`).
-- **Removal debounce:** a one-run catalog blip does not emit `removed`. The film
-  stays soft-kept in `state.films` with `missingRuns[id]`. At threshold 2 it is
-  removed. If it returns under threshold, no `removed` and no re-announcement.
+- **Loss debounce:** the current record reflects category losses immediately.
+  `pendingCategoryLosses` delays only the decision to announce a later regain:
+  a return after one observed absence is not a new opening; two observed
+  absences confirm the loss, so a later gain may produce another event.
+  Likewise, an absent film stays soft-kept with `missingRuns[id]` until two
+  consecutive successful absences trigger `removed`. A return before that does
+  not cause a removal or re-announcement.
 - **First announcement is highest stage:** a newly seen film emits one event —
   `now-in-theaters` if it already has `NowShowing`, else `preventa-opens` if it has
   `AdvanceBooking`, else `added` (Pronto). Never spam preventa+now on first sight.
@@ -58,11 +94,17 @@ Notes:
   scrape emits only `now-in-theaters` (not two notifications).
 - **Preventa while in theaters:** gaining `AdvanceBooking` when the film already
   has (or also gains) `NowShowing` does not emit `preventa-opens`.
-- **Empty / bulk bad catalogs:** empty OCAPI catalog with known films aborts
+- **Empty / bulk bad catalogs:** an empty OCAPI film catalog with known films,
+  malformed availability, a missing availability row for a previously categorized
+  film, or an all-empty category response after a categorized catalog aborts
   before write. A run that would emit more removals than
   `max(10, 30% of previous film count)` (for catalogs ≥ 10) also aborts.
-- **Quiet runs:** `lastRun` is only updated when films / missingRuns / posts
-  actually change, so git is not dirtied every 6 hours.
+- **Quiet checks:** `lastRun` records the last catalog/state change, not the last
+  successful scrape. An unchanged check leaves it alone and writes a success line
+  to the service log instead of inventing a fresh public timestamp. The page
+  compares release dates with that last-change date, so an unchanged overnight
+  check does not silently rewrite the page. Changes to pending loss counters or
+  corrected film metadata can advance `lastRun` without creating an announcement.
 
 ## Hard rules
 
@@ -87,9 +129,12 @@ bun run scrape.ts --hygiene   # also accepts bare `hygiene`
 ```
 
 That rewrites `data/posts.json` atomically and regenerates `docs/feed.xml` +
-`docs/index.html` from the cleaned archive (no scrape, notify, or git). After
-that, scrapes only append. Public surfaces still render only the newest
-**`FEED_LIMIT` (100)** posts so the GitHub Pages surface stays small.
+`docs/index.html` without scraping, notifying, or using git. This is a one-off
+historical repair, not the normal response to a corrected title, date, poster,
+or other film metadata. Normal scrapes append announcements; the current catalog
+uses the latest accepted metadata without rewriting old posts. The RSS feed and
+HTML history show only the newest **`FEED_LIMIT` (100)** posts; the HTML current
+catalog is separate from that window.
 
 ## Notifications (optional, Discord)
 
@@ -130,11 +175,14 @@ To disable: comment out the line and restart. No code changes needed.
 
 ## Ops / logs
 
-Each successful run prints one line to stdout (captured by journald):
+A successful fetch and save logs its observation time before notification and
+optional git push. The summary line follows a successful push; if a push fails,
+the observation remains in journald even though `scrape ok` is absent:
 
 ```
+observedAt=2026-09-25T23:00:32.815Z
 scrape ok films=72 events=2 types=added:1,now-in-theaters:1 durationMs=4200
-# or
+# or, after the observation line on a virgin install:
 cold start: 60 films seeded, 0 events archived durationMs=8000
 ```
 

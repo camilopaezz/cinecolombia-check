@@ -1,5 +1,5 @@
-import { beforeAll, describe, expect, it, afterAll } from "bun:test";
-import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
+import { beforeAll, describe, expect, it, afterAll, spyOn } from "bun:test";
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import type {
@@ -34,6 +34,7 @@ import {
   runArchiveHygiene,
   runLifecycle,
   sanitizeArchivePosts,
+  validateAvailabilityResponse,
   windowNewest,
   type State,
 } from "./scrape.ts";
@@ -235,6 +236,64 @@ describe("buildFilmRecords", () => {
     const ts = recs.find((r) => r.id === "HO00000471")!;
     expect(ts.categories).toEqual(["AdvanceBooking", "NowShowing"]);
   });
+
+  it("sorts and deduplicates site rows, categories and showtime attributes without conflating sites", () => {
+    const rows: AvailabilityResponse = { filmAvailabilities: [
+      { filmId: "HO00000471", siteId: "z", categories: ["NowShowing", "ComingSoon", "NowShowing"], showtimeAttributeIds: ["vip", "2d", "vip"] },
+      { filmId: "HO00000471", siteId: "a", categories: ["AdvanceBooking"], showtimeAttributeIds: [] },
+      { filmId: "HO00000471", siteId: "z", categories: ["ComingSoon", "NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
+      { filmId: "HO00000471", siteId: null, categories: [], showtimeAttributeIds: ["dub"] },
+    ] };
+    const record = buildFilmRecords(filmsResponse(), rows, {})[0]!;
+    expect(record.categories).toEqual(["AdvanceBooking", "ComingSoon", "NowShowing"]);
+    expect(record.availabilityRows).toEqual([
+      { siteId: null, categories: [], showtimeAttributeIds: ["dub"] },
+      { siteId: "a", categories: ["AdvanceBooking"] },
+      { siteId: "z", categories: ["ComingSoon", "NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
+    ]);
+    expect(buildFilmRecords(filmsResponse(), availability({ HO00000386: ["NowShowing"] }), {})[0]!.availabilityRows).toEqual([]);
+  });
+
+  it("normalizes omitted and empty showtimeAttributeIds to the same persisted shape", () => {
+    const row = (attrs?: string[]): AvailabilityResponse => ({
+      filmAvailabilities: [
+        {
+          filmId: "HO00000471",
+          siteId: "s",
+          categories: ["NowShowing"],
+          ...(attrs === undefined ? {} : { showtimeAttributeIds: attrs }),
+        },
+      ],
+    });
+    const omitted = buildFilmRecords(filmsResponse(), row(), {})[0]!.availabilityRows;
+    const empty = buildFilmRecords(filmsResponse(), row([]), {})[0]!.availabilityRows;
+    expect(omitted).toEqual(empty);
+    expect(omitted).toEqual([{ siteId: "s", categories: ["NowShowing"] }]);
+    expect(buildFilmRecords(filmsResponse(), row(["vip", "2d", "vip"]), {})[0]!.availabilityRows).toEqual([
+      { siteId: "s", categories: ["NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
+    ]);
+  });
+});
+
+describe("availability validation", () => {
+  it("rejects malformed rows, wrong container and all-unmatched rows for a populated catalog", () => {
+    const ids = ["HO00000471"];
+    expect(() => validateAvailabilityResponse({ filmAvailabilities: null }, ids)).toThrow("filmAvailabilities must be an array");
+    for (const row of [
+      { filmId: "", siteId: null, categories: [] },
+      { filmId: "HO00000471", siteId: undefined, categories: [] },
+      { filmId: "HO00000471", siteId: "", categories: [] },
+      { filmId: "HO00000471", siteId: null, categories: "NowShowing" },
+      { filmId: "HO00000471", siteId: null, categories: [42] },
+      { filmId: "HO00000471", siteId: null, categories: [], showtimeAttributeIds: [null] },
+    ]) {
+      expect(() => validateAvailabilityResponse({ filmAvailabilities: [row] }, ids)).toThrow("malformed film availability row");
+    }
+    expect(() => validateAvailabilityResponse({ filmAvailabilities: [] }, ids)).toThrow("empty OCAPI availability");
+    expect(() => validateAvailabilityResponse({ filmAvailabilities: [{ filmId: "OTHER", siteId: null, categories: [] }] }, ids)).toThrow("empty OCAPI availability");
+    expect(() => validateAvailabilityResponse({ filmAvailabilities: [] }, [])).not.toThrow();
+    expect(() => validateAvailabilityResponse({ filmAvailabilities: [{ filmId: ids[0], siteId: null, categories: [] }] }, ids)).not.toThrow();
+  });
 });
 
 const filmRec = (id: string, categories: string[], title = id): FilmRecord => ({
@@ -359,6 +418,52 @@ describe("applyLifecycle (removal debounce)", () => {
     expect(events).toEqual(["now-in-theaters:B", "added:C", "preventa-opens:D"]);
   });
 
+  it("suppresses a duplicate when NowShowing disappears for one observation and returns", () => {
+    const first = applyLifecycle({ films: [filmRec("A", ["NowShowing"])] }, [filmRec("A", ["ComingSoon"])], D);
+    expect(first.events).toEqual([]);
+    expect(first.pendingCategoryLosses).toEqual({ A: { NowShowing: 1 } });
+    const second = applyLifecycle({ ...first }, [filmRec("A", ["NowShowing"])], D);
+    expect(second.events).toEqual([]);
+    expect(second.pendingCategoryLosses).toEqual({});
+    expect(second.films[0]!.categories).toEqual(["NowShowing"]);
+  });
+
+  it("emits a fresh gain only after two observed category losses", () => {
+    let state = applyLifecycle({ films: [filmRec("A", ["AdvanceBooking"]) ] }, [filmRec("A", [])], D);
+    expect(state.pendingCategoryLosses).toEqual({ A: { AdvanceBooking: 1 } });
+    expect(state.events).toEqual([]);
+    state = applyLifecycle(state, [filmRec("A", [])], D);
+    expect(state.pendingCategoryLosses).toEqual({});
+    expect(state.events).toEqual([]);
+    state = applyLifecycle(state, [filmRec("A", ["AdvanceBooking"])], D);
+    expect(state.events.map((e) => e.type)).toEqual(["preventa-opens"]);
+  });
+
+  it("does not count a soft-missing film as an observed category loss", () => {
+    const lostOnce = applyLifecycle({ films: [filmRec("A", ["NowShowing"]), filmRec("B", [])] }, [filmRec("A", []), filmRec("B", [])], D);
+    expect(lostOnce.pendingCategoryLosses).toEqual({ A: { NowShowing: 1 } });
+    const absent = applyLifecycle(lostOnce, [filmRec("B", [])], D);
+    expect(absent.missingRuns).toEqual({ A: 1 });
+    expect(absent.pendingCategoryLosses).toEqual({ A: { NowShowing: 1 } });
+    const back = applyLifecycle(absent, [filmRec("A", ["NowShowing"]), filmRec("B", [])], D);
+    expect(back.events).toEqual([]);
+    expect(back.missingRuns).toEqual({});
+    expect(back.pendingCategoryLosses).toEqual({});
+
+    const missing = applyLifecycle({ films: [filmRec("A", ["ComingSoon"]), filmRec("B", [])] }, [filmRec("B", [])], D);
+    const upgraded = applyLifecycle(missing, [filmRec("A", ["NowShowing"]), filmRec("B", [])], D);
+    expect(upgraded.events.map((e) => `${e.type}:${e.filmId}`)).toEqual(["now-in-theaters:A"]);
+    expect(upgraded.missingRuns).toEqual({});
+  });
+
+  it("clears pending losses when the film crosses the removal threshold", () => {
+    const pending = applyLifecycle({ films: [filmRec("A", ["NowShowing"]), filmRec("B", [])] }, [filmRec("A", []), filmRec("B", [])], D);
+    const missing = applyLifecycle(pending, [filmRec("B", [])], D);
+    const removed = applyLifecycle(missing, [filmRec("B", [])], D);
+    expect(removed.events.map((e) => e.type)).toEqual(["removed"]);
+    expect(removed.pendingCategoryLosses).toEqual({});
+  });
+
   it("is idempotent: same input yields no events", () => {
     counter = 0;
     const films = [filmRec("A", ["NowShowing"])];
@@ -456,6 +561,116 @@ describe("runLifecycle (full policy)", () => {
     expect(result.outcome.coldStart).toBe(false);
     expect(result.outcome.archivedEvents.map((e) => e.type)).toEqual(["preventa-opens"]);
     expect(result.outcome.meaningfulChange).toBe(true);
+  });
+
+  it("aborts when a categorized film is still in the catalog with no availability rows", () => {
+    counter = 0;
+    const prev: State = {
+      films: [{ ...filmRec("A", ["NowShowing"]), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] }],
+      tmdbCache: {},
+      lastRun: "2026-01-01T00:00:00.000Z",
+    };
+    const truncated = [{ ...filmRec("A", []), availabilityRows: [] }];
+    const restored = [{ ...filmRec("A", ["NowShowing"]), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] }];
+    for (const _ of [1, 2]) {
+      const result = runLifecycle(prev, truncated, 1, D);
+      expect(result.ok).toBe(false);
+      if (result.ok) throw new Error("expected abort");
+      expect(result.abort).toEqual({ kind: "partial-availability", filmIds: ["A"] });
+      expect(lifecycleAbortMessage(result.abort)).toContain("partial OCAPI availability");
+    }
+    const after = runLifecycle(prev, restored, 1, D);
+    expect(after.ok).toBe(true);
+    if (!after.ok) throw new Error("expected outcome");
+    expect(after.outcome.archivedEvents).toHaveLength(0);
+    expect(after.outcome.meaningfulChange).toBe(false);
+  });
+
+  it("does not let a missing availability row confirm a pending category loss", () => {
+    counter = 0;
+    const row = (id: string, categories: string[]) => ({
+      ...filmRec(id, categories),
+      availabilityRows: [{ siteId: null, categories }],
+    });
+    const prev: State = {
+      films: [row("A", ["NowShowing"]), row("B", ["ComingSoon"])],
+      tmdbCache: {},
+      lastRun: "2026-01-01T00:00:00.000Z",
+    };
+    const afterEmpty = runLifecycle(prev, [row("A", []), row("B", ["ComingSoon"])], 1, D);
+    expect(afterEmpty.ok).toBe(true);
+    if (!afterEmpty.ok) throw new Error("expected outcome");
+    expect(afterEmpty.outcome.pendingCategoryLosses).toEqual({ A: { NowShowing: 1 } });
+    expect(afterEmpty.outcome.films.find((f) => f.id === "A")?.categories).toEqual([]);
+
+    const mid: State = {
+      ...prev,
+      films: afterEmpty.outcome.films,
+      pendingCategoryLosses: afterEmpty.outcome.pendingCategoryLosses,
+      lastRun: afterEmpty.outcome.lastRun,
+    };
+    const truncated = [
+      { ...filmRec("A", []), availabilityRows: [] },
+      row("B", ["ComingSoon"]),
+    ];
+    const aborted = runLifecycle(mid, truncated, 1, D);
+    expect(aborted.ok).toBe(false);
+    if (aborted.ok) throw new Error("expected abort");
+    expect(aborted.abort).toEqual({ kind: "partial-availability", filmIds: ["A"] });
+
+    const restored = runLifecycle(mid, [row("A", ["NowShowing"]), row("B", ["ComingSoon"])], 1, D);
+    expect(restored.ok).toBe(true);
+    if (!restored.ok) throw new Error("expected outcome");
+    expect(restored.outcome.archivedEvents).toHaveLength(0);
+    expect(restored.outcome.pendingCategoryLosses).toEqual({});
+  });
+
+  it("treats a returned empty-category row as an observed loss", () => {
+    counter = 0;
+    const withNow = [{ ...filmRec("A", ["NowShowing"]), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] }];
+    const emptyRow = [{ ...filmRec("A", []), availabilityRows: [{ siteId: null, categories: [] }] }];
+    const prev: State = { films: withNow, tmdbCache: {}, lastRun: "2026-01-01T00:00:00.000Z" };
+    const first = runLifecycle(prev, emptyRow, 1, D);
+    expect(first.ok).toBe(true);
+    if (!first.ok) throw new Error("expected outcome");
+    expect(first.outcome.archivedEvents).toHaveLength(0);
+    expect(first.outcome.pendingCategoryLosses).toEqual({ A: { NowShowing: 1 } });
+    const second = runLifecycle(
+      { ...prev, films: first.outcome.films, pendingCategoryLosses: first.outcome.pendingCategoryLosses, lastRun: first.outcome.lastRun },
+      emptyRow,
+      1,
+      D,
+    );
+    expect(second.ok).toBe(true);
+    if (!second.ok) throw new Error("expected outcome");
+    expect(second.outcome.pendingCategoryLosses).toEqual({});
+    const restored = runLifecycle(
+      { ...prev, films: second.outcome.films, pendingCategoryLosses: second.outcome.pendingCategoryLosses, lastRun: second.outcome.lastRun },
+      withNow,
+      1,
+      D,
+    );
+    expect(restored.ok).toBe(true);
+    if (!restored.ok) throw new Error("expected outcome");
+    expect(restored.outcome.archivedEvents.map((e) => e.type)).toEqual(["now-in-theaters"]);
+  });
+
+  it("cold start and a never-categorized film with no rows are not truncated", () => {
+    counter = 0;
+    const uncategorized = [{ ...filmRec("A", []), availabilityRows: [] }];
+    const cold = runLifecycle(emptyState(), uncategorized, 0, D);
+    expect(cold.ok).toBe(true);
+    if (!cold.ok) throw new Error("expected outcome");
+    expect(cold.outcome.coldStart).toBe(true);
+    const knownEmpty: State = {
+      films: uncategorized,
+      tmdbCache: {},
+      lastRun: "2026-01-01T00:00:00.000Z",
+    };
+    const again = runLifecycle(knownEmpty, uncategorized, 1, D);
+    expect(again.ok).toBe(true);
+    if (!again.ok) throw new Error("expected outcome");
+    expect(again.outcome.meaningfulChange).toBe(false);
   });
 });
 
@@ -654,6 +869,10 @@ describe("announcementType / gainEvents / sanitizeArchivePosts", () => {
       const postsPath = join(dataDir, "posts.json");
       mkdirSync(dataDir, { recursive: true });
       writeFileSync(postsPath, JSON.stringify({ posts: dirty }, null, 2) + "\n");
+      writeFileSync(join(dataDir, "state.json"), JSON.stringify({
+        films: [{ ...snap(["ComingSoon"]), title: "Título actual", availabilityRows: [{ siteId: null, categories: ["ComingSoon"] }] }],
+        tmdbCache: {},
+      }) + "\n");
 
       const result = runArchiveHygiene({
         dataDir,
@@ -673,6 +892,11 @@ describe("announcementType / gainEvents / sanitizeArchivePosts", () => {
       const html = Bun.file(join(docsDir, "index.html"));
       expect(feed.size).toBeGreaterThan(0);
       expect(html.size).toBeGreaterThan(0);
+      const htmlText = readFileSync(join(docsDir, "index.html"), "utf8");
+      expect(htmlText).toContain("Título actual");
+      expect(htmlText).toContain("Próximos estrenos</h3>");
+      expect((htmlText.match(/<article class="post">/g) ?? [])).toHaveLength(2);
+      expect(readFileSync(join(docsDir, "feed.xml"), "utf8")).not.toContain("Preventa abierta:");
     } finally {
       rmSync(root, { recursive: true, force: true });
     }
@@ -840,15 +1064,74 @@ describe("generateHTML", () => {
         },
       },
     ];
-    const html = generateHTML(posts, { feedTitle: "Feed", language: "es-CO" });
+    const html = generateHTML(posts, { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, { films: [posts[0]!.snapshot], tmdbCache: {} });
     expect(html).toContain("<html lang=\"es-CO\">");
     expect(html).toContain("Bogotá");
     expect(html).toContain("CARTELERA");
-    expect(html).toContain("en cartelera");
+    expect(html).toContain("CARTELERA · cartelera reportada");
     expect(html).toContain("F9");
     expect(html).toContain('href="https://www.cinecolombia.com/x/"');
     expect(html).toContain("Ver en CineColombia");
     expect(html).toContain("sin póster");
+  });
+
+  it("places future-dated NowShowing in upcoming without claiming a screening today", () => {
+    const future = { ...filmRec("F", ["NowShowing"], "Estreno futuro"), releaseDate: "2026-07-02", availabilityRows: [{ siteId: "bogota", categories: ["NowShowing"] }] };
+    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, { films: [future], tmdbCache: {} });
+    expect(html).toContain("Próximos estrenos</h3>");
+    expect(html).not.toContain("Cartelera reportada</h3>");
+    expect(html).toContain("El sitio marcó cartelera con estreno posterior al último cambio del catálogo; no confirma funciones para esa fecha.");
+    expect(html).toContain("Estreno: 2026-07-02");
+    expect(html).not.toContain('<article class="post">');
+    const withBooking = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, {
+      films: [{ ...future, categories: ["AdvanceBooking", "NowShowing"] }], tmdbCache: {},
+    });
+    expect(withBooking).toContain("Preventa reportada");
+  });
+
+  it("uses the last catalog change as the public as-of date without inventing a last check", () => {
+    const future = { ...filmRec("F", ["NowShowing"], "Estreno futuro"), releaseDate: "2026-07-02" };
+    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO" }, {
+      films: [future], tmdbCache: {}, lastRun: "2026-07-01T18:00:00.000Z",
+    });
+    expect(html).toContain("Próximos estrenos</h3>");
+    expect(html).toContain("Último cambio del catálogo:");
+    expect(html).toContain('datetime="2026-07-01T18:00:00.000Z"');
+    expect(html).toContain('href="#historial"');
+  });
+
+  it("distinguishes null-site evidence, explicit no rows, and legacy unknown rows", () => {
+    const known = { ...filmRec("A", ["NowShowing"], "Con sede nula"), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] };
+    const noRows = { ...filmRec("B", ["NowShowing"], "Sin filas"), availabilityRows: [] };
+    const legacy = filmRec("C", ["NowShowing"], "Registro anterior");
+    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, {
+      films: [known, noRows, legacy], tmdbCache: {},
+    });
+    const current = html.slice(html.indexOf('<section class="catalog"'), html.indexOf('<section class="history"'));
+    const playing = current.slice(current.indexOf("Cartelera reportada</h3>"), current.indexOf("</section>"));
+    const uncertain = current.slice(current.indexOf("Disponibilidad sin confirmar</h3>"), current.lastIndexOf("</section>"));
+    expect(playing).toContain("Con sede nula");
+    expect(playing).toContain("Categorías por sede (1)");
+    expect(playing).toContain("Sede no especificada");
+    expect(playing).toContain("<code>NowShowing</code>");
+    expect(playing).toContain("Registro anterior");
+    expect(playing).toContain("sin detalle por sede guardado");
+    expect(playing).not.toContain("Sin filas");
+    expect(uncertain).toContain("Sin filas");
+    expect(uncertain).not.toContain("Registro anterior");
+    expect(uncertain).toContain("Sin filas de disponibilidad en la última consulta; estado sin confirmar.");
+  });
+
+  it("labels soft-missing rows uncertain even when their old categories say NowShowing", () => {
+    const current = { ...filmRec("A", ["NowShowing"], "Ausente"), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] };
+    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, {
+      films: [current], tmdbCache: {}, missingRuns: { A: 1 },
+    });
+    expect(html).toContain("Disponibilidad sin confirmar</h3>");
+    expect(html).not.toContain("Cartelera reportada</h3>");
+    expect(html).toContain("No apareció en la última consulta (1 ausencia); disponibilidad sin confirmar.");
+    expect(html).toContain("Última ficha observada");
+    expect(html).toContain("Últimas categorías observadas: <code>NowShowing</code>");
   });
 });
 
@@ -1051,7 +1334,10 @@ describe("main (full scraper run)", () => {
     expect(feed).not.toContain("Pronto: F9");
 
     const html = await Bun.file(join(docsDir, "index.html")).text();
-    expect(html).not.toContain("Toy Story 5");
+    expect(html).toContain("Toy Story 5");
+    expect(html).toContain("F9");
+    expect(html).toContain("Películas registradas");
+    expect(html).not.toContain('<article class="post">');
 
     // Run 2: HO00000471 gains AdvanceBooking -> preventa opens (archived).
     avail = { HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] };
@@ -1435,12 +1721,168 @@ describe("main (full scraper run)", () => {
     expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
   });
 
+  it("aborts malformed and all-unmatched availability before any output changes", async () => {
+    for (const [label, payload] of [
+      ["malformed", { filmAvailabilities: [{ filmId: "HO00000471", siteId: null, categories: [false] }] }],
+      ["unmatched", { filmAvailabilities: [{ filmId: "OTHER", siteId: null, categories: [] }] }],
+      ["empty", { filmAvailabilities: [] }],
+    ] as const) {
+      const dataDir = join(dir, `data-avail-${label}`);
+      const docsDir = join(dir, `docs-avail-${label}`);
+      mkdirSync(dataDir, { recursive: true });
+      mkdirSync(docsDir, { recursive: true });
+      const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+      const contents = [JSON.stringify({ films: [], tmdbCache: {} }) + "\n", JSON.stringify({ posts: [] }) + "\n", "sentinel-feed\n", "sentinel-html\n"];
+      paths.forEach((path, i) => writeFileSync(path, contents[i]!));
+      await expect(main({ dataDir, docsDir, gitPush: false, deps: deps({
+        async ocapi(_token, path) {
+          return path === "films" ? filmsResponse() : payload;
+        },
+      }) })).rejects.toThrow(label === "malformed" ? "malformed film availability row" : "empty OCAPI availability");
+      paths.forEach((path, i) => expect(readFileSync(path, "utf8")).toBe(contents[i]!));
+    }
+  });
+
+  it("rejects an all-empty category response after a previously categorized catalog", async () => {
+    const dataDir = join(dir, "data-empty-categories");
+    const docsDir = join(dir, "docs-empty-categories");
+    await main({ dataDir, docsDir, gitPush: false, deps: catalogDeps() });
+    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+    const before = paths.map((path) => readFileSync(path));
+    await expect(main({ dataDir, docsDir, gitPush: false, deps: catalogDeps({
+      availability: { HO00000471: [], HO00000386: [] },
+    }) })).rejects.toThrow("empty OCAPI availability categories");
+    paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
+  });
+
+  it("aborts two truncated availability runs without writing and stays quiet on restore", async () => {
+    const dataDir = join(dir, "data-partial-avail");
+    const docsDir = join(dir, "docs-partial-avail");
+    const rec = recordingNotifier();
+    const options = (availabilityMap: Record<string, string[]>) => ({
+      dataDir,
+      docsDir,
+      gitPush: false,
+      notifyWebhookUrl: "https://discord.example/webhook",
+      deps: catalogDeps({ availability: availabilityMap, notify: rec.notify }),
+    });
+    await main(options(DEFAULT_AVAIL));
+    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+    const before = paths.map((path) => readFileSync(path));
+    // F9 stays in /films but disappears from availability — truncated, not a NowShowing loss.
+    const truncated = { HO00000471: ["ComingSoon"] };
+    for (const _ of [1, 2]) {
+      await expect(main(options(truncated))).rejects.toThrow("partial OCAPI availability");
+      paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
+    }
+    await main(options(DEFAULT_AVAIL));
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
+    expect(rec.events).toHaveLength(0);
+    paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
+  });
+
+  it("cold start still accepts one catalog film with no availability rows", async () => {
+    const dataDir = join(dir, "data-cold-missing-row");
+    const docsDir = join(dir, "docs-cold-missing-row");
+    await main({
+      dataDir,
+      docsDir,
+      gitPush: false,
+      deps: catalogDeps({ availability: { HO00000386: ["NowShowing"] } }),
+    });
+    const state = loadState(join(dataDir, "state.json"));
+    expect(state.films.map((f) => f.id)).toEqual(["HO00000386", "HO00000471"]);
+    expect(state.films.find((f) => f.id === "HO00000471")).toMatchObject({
+      categories: [],
+      availabilityRows: [],
+    });
+    expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
+  });
+
+  it("treats omitted and empty showtimeAttributeIds as a quiet identical catalog", async () => {
+    const dataDir = join(dir, "data-attr-shape");
+    const docsDir = join(dir, "docs-attr-shape");
+    const payload = (attrs?: string[]): AvailabilityResponse => ({
+      filmAvailabilities: [
+        { filmId: "HO00000471", siteId: null, categories: ["ComingSoon"], ...(attrs === undefined ? {} : { showtimeAttributeIds: attrs }) },
+        { filmId: "HO00000386", siteId: null, categories: ["NowShowing"], ...(attrs === undefined ? {} : { showtimeAttributeIds: attrs }) },
+      ],
+    });
+    const run = (avail: AvailabilityResponse) => main({
+      dataDir,
+      docsDir,
+      gitPush: false,
+      deps: deps({
+        async ocapi(_t, path) {
+          if (path === "films") return filmsResponse();
+          if (path === "films/availability") return avail;
+          throw new Error(`unexpected path ${path}`);
+        },
+      }),
+    });
+    await run(payload());
+    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+    const before = paths.map((path) => readFileSync(path));
+    const lastRun = loadState(join(dataDir, "state.json")).lastRun;
+    await run(payload([]));
+    expect(loadState(join(dataDir, "state.json")).lastRun).toBe(lastRun);
+    paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
+    await run(payload(["vip", "2d"]));
+    const rows = loadState(join(dataDir, "state.json")).films.flatMap((f) => f.availabilityRows ?? []);
+    expect(rows.every((row) => JSON.stringify(row.showtimeAttributeIds) === JSON.stringify(["2d", "vip"]))).toBe(true);
+  });
+
+  it("updates current metadata without changing archived posts, RSS or notifications", async () => {
+    const dataDir = join(dir, "data-metadata");
+    const docsDir = join(dir, "docs-metadata");
+    const notifier = recordingNotifier();
+    let title = "Título anterior";
+    let categories = ["ComingSoon"];
+    let day = 1;
+    const runDeps = () => catalogDeps({
+      films: () => ({ ...filmsResponse(), films: filmsResponse().films.map((f) =>
+        f.id === "HO00000471" ? { ...f, title: { text: title }, shortSynopsis: { text: title } } : f) }),
+      availability: () => ({ HO00000471: categories, HO00000386: ["NowShowing"] }),
+      now: () => new Date(`2026-07-0${day}T18:00:00Z`),
+      notify: notifier.notify,
+    });
+    const options = () => ({ dataDir, docsDir, gitPush: false, notifyWebhookUrl: "https://discord.example/webhook", deps: runDeps() });
+    await main(options());
+    categories = ["ComingSoon", "AdvanceBooking"];
+    day = 2;
+    await main(options());
+    expect(notifier.events.map((e) => e.type)).toEqual(["preventa-opens"]);
+    const originalLastRun = loadState(join(dataDir, "state.json")).lastRun;
+    const postsBefore = readFileSync(join(dataDir, "posts.json"));
+    const feedBefore = readFileSync(join(docsDir, "feed.xml"));
+    title = "Título actualizado";
+    day = 3;
+    await main(options());
+    const current = loadState(join(dataDir, "state.json"));
+    expect(current.films.find((f) => f.id === "HO00000471")?.title).toBe(title);
+    expect(current.lastRun).toBe("2026-07-03T18:00:00.000Z");
+    expect(current.lastRun).not.toBe(originalLastRun);
+    const html = readFileSync(join(docsDir, "index.html"), "utf8");
+    expect(html).toContain(title);
+    expect(html).toContain("Ficha actual");
+    expect(current.films.find((f) => f.id === "HO00000471")?.shortSynopsis).toBe(title);
+    expect(html).toContain("Título anterior"); // immutable historical card
+    expect((html.match(/<article class="post">/g) ?? [])).toHaveLength(1);
+    expect(loadPosts(join(dataDir, "posts.json")).posts[0]!.snapshot.title).toBe("Título anterior");
+    expect(readFileSync(join(dataDir, "posts.json")).equals(postsBefore)).toBe(true);
+    expect(readFileSync(join(docsDir, "feed.xml")).equals(feedBefore)).toBe(true);
+    expect(notifier.events).toHaveLength(1);
+  });
+
   it("does not bump lastRun on a quiet identical rerun", async () => {
     const dataDir = join(dir, "data-quiet-lastrun");
     const docsDir = join(dir, "docs-quiet-lastrun");
-    let tick = 0;
-    const advancingNow = () => new Date(Date.UTC(2026, 6, 1, 18, tick++, 0));
-    const runDeps = () => catalogDeps({ now: advancingNow });
+    let observation = new Date("2026-07-01T18:00:00.000Z");
+    const runDeps = () => catalogDeps({
+      now: () => observation,
+      films: () => ({ ...filmsResponse(), films: filmsResponse().films.map((f) =>
+        f.id === "HO00000386" ? { ...f, releaseDate: "2026-07-02" } : f) }),
+    });
     await main({
       dataDir,
       docsDir,
@@ -1451,20 +1893,33 @@ describe("main (full scraper run)", () => {
     });
     const last1 = loadState(join(dataDir, "state.json")).lastRun;
     expect(last1).toBeTruthy();
-    const stateJson1 = await Bun.file(join(dataDir, "state.json")).text();
-    const postsJson1 = await Bun.file(join(dataDir, "posts.json")).text();
-    await main({
-      dataDir,
-      docsDir,
-      feedUrl: "https://x/feed.xml",
-      tmdbApiKey: "k",
-      gitPush: false,
-      deps: runDeps(),
-    });
+    const paths = ["state.json", "posts.json"].map((file) => join(dataDir, file))
+      .concat(["feed.xml", "index.html"].map((file) => join(docsDir, file)));
+    const snapshot = () => paths.map((path) => ({ bytes: readFileSync(path), mtimeNs: statSync(path, { bigint: true }).mtimeNs }));
+    const before = snapshot();
+    expect(before[3]!.bytes.toString()).toContain("Próximos estrenos</h3>");
+    observation = new Date("2026-07-03T18:00:00.000Z"); // Cross the release-date boundary on a quiet run.
+    const log = spyOn(console, "log").mockImplementation(() => {});
+    try {
+      await main({
+        dataDir,
+        docsDir,
+        feedUrl: "https://x/feed.xml",
+        tmdbApiKey: "k",
+        gitPush: false,
+        deps: runDeps(),
+      });
+      expect(log.mock.calls.some(([message]) => message === "observedAt=2026-07-03T18:00:00.000Z")).toBe(true);
+    } finally {
+      log.mockRestore();
+    }
     const last2 = loadState(join(dataDir, "state.json")).lastRun;
     expect(last2).toBe(last1);
-    expect(await Bun.file(join(dataDir, "state.json")).text()).toBe(stateJson1);
-    expect(await Bun.file(join(dataDir, "posts.json")).text()).toBe(postsJson1);
+    const after = snapshot();
+    for (let i = 0; i < paths.length; i++) {
+      expect(after[i]!.bytes.equals(before[i]!.bytes)).toBe(true);
+      expect(after[i]!.mtimeNs).toBe(before[i]!.mtimeNs);
+    }
   });
 
   it("aborts bulk removal above cap without writing", async () => {

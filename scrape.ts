@@ -60,6 +60,12 @@ export interface AvailabilityResponse {
 
 export type EventType = "added" | "preventa-opens" | "now-in-theaters" | "removed";
 
+export interface AvailabilityRow {
+  siteId: string | null;
+  categories: string[];
+  showtimeAttributeIds?: string[];
+}
+
 export interface FilmRecord {
   id: string;
   title: string;
@@ -70,7 +76,8 @@ export interface FilmRecord {
   genres: string[];
   director: string;
   webUrl: string;
-  categories: string[];
+  categories: string[]; // raw union of observed site categories; not a lifecycle status
+  availabilityRows?: AvailabilityRow[]; // absent on records persisted before this field existed
   posterUrl: string | null;
   tmdb?: { tmdbId: number; posterPath: string | null };
 }
@@ -88,7 +95,9 @@ export interface State {
   tmdbCache: Record<string, { tmdbId: number; posterPath: string | null }>;
   /** Consecutive runs a film was absent while still soft-kept in `films`. */
   missingRuns?: Record<string, number>;
-  lastRun?: string;
+  /** One observed absence per category; the next observed absence confirms the loss. */
+  pendingCategoryLosses?: Record<string, Partial<Record<"AdvanceBooking" | "NowShowing", number>>>;
+  lastRun?: string; // last meaningful change, not the most recent fetch
 }
 
 /** Emit `removed` only after this many consecutive absent runs (debounce flaps). */
@@ -159,12 +168,12 @@ const EVENT_CODES: Record<EventType, string> = {
 const EVENT_CODE_GLOSS: Record<EventType, string> = {
   added: "estreno anunciado",
   "preventa-opens": "preventa abierta",
-  "now-in-theaters": "en cartelera",
+  "now-in-theaters": "cartelera reportada",
   removed: "ya no disponible",
 };
 
 // Categories that, when gained, produce an event (ComingSoon produces none).
-const GAIN_EVENTS: { category: string; type: EventType }[] = [
+const GAIN_EVENTS: { category: "AdvanceBooking" | "NowShowing"; type: EventType }[] = [
   { category: "AdvanceBooking", type: "preventa-opens" },
   { category: "NowShowing", type: "now-in-theaters" },
 ];
@@ -236,6 +245,7 @@ function ensureDir(dir: string): void {
 }
 
 function atomicWrite(path: string, contents: string): void {
+  if (existsSync(path) && readFileSync(path, "utf8") === contents) return;
   const tmp = `${path}.tmp`;
   writeFileSync(tmp, contents);
   renameSync(tmp, path);
@@ -295,6 +305,27 @@ function sortedUnique(values: string[]): string[] {
   return [...new Set(values)].sort((a, b) => a.localeCompare(b, "en"));
 }
 
+/** Reject broken availability payloads before a category wipe can reach persistence. */
+export function validateAvailabilityResponse(value: unknown, catalogIds: string[]): asserts value is AvailabilityResponse {
+  if (!value || typeof value !== "object" || !Array.isArray((value as AvailabilityResponse).filmAvailabilities)) {
+    throw new Error("invalid OCAPI availability response: filmAvailabilities must be an array");
+  }
+  const rows = (value as AvailabilityResponse).filmAvailabilities;
+  for (const row of rows) {
+    if (!row || typeof row.filmId !== "string" || !row.filmId ||
+        !(row.siteId === null || (typeof row.siteId === "string" && row.siteId)) ||
+        !Array.isArray(row.categories) || !row.categories.every((c) => typeof c === "string") ||
+        (row.showtimeAttributeIds !== undefined &&
+          (!Array.isArray(row.showtimeAttributeIds) ||
+            !row.showtimeAttributeIds.every((id) => typeof id === "string")))) {
+      throw new Error("invalid OCAPI availability response: malformed film availability row");
+    }
+  }
+  if (catalogIds.length > 0 && !rows.some((row) => catalogIds.includes(row.filmId))) {
+    throw new Error("empty OCAPI availability for populated catalog — aborting before write");
+  }
+}
+
 /** Union availability categories across all site rows for each filmId. */
 export function mergeAvailabilityCategories(
   rows: AvailabilityResponse["filmAvailabilities"],
@@ -316,6 +347,25 @@ export function buildFilmRecords(
   const genres = new Map(filmsRes.relatedData.genres.map((g) => [g.id, txt(g.name)]));
   const censor = new Map(filmsRes.relatedData.censorRatings.map((c) => [c.id, txt(c.classification)]));
   const avail = mergeAvailabilityCategories(availRes.filmAvailabilities);
+  const rowsByFilm = new Map<string, AvailabilityRow[]>();
+  for (const row of availRes.filmAvailabilities) {
+    const attrs = sortedUnique(row.showtimeAttributeIds ?? []);
+    const normalized: AvailabilityRow = {
+      siteId: row.siteId,
+      categories: sortedUnique(row.categories),
+      ...(attrs.length > 0 ? { showtimeAttributeIds: attrs } : {}),
+    };
+    const rows = rowsByFilm.get(row.filmId) ?? [];
+    rows.push(normalized);
+    rowsByFilm.set(row.filmId, rows);
+  }
+  for (const [filmId, rows] of rowsByFilm) {
+    rows.sort((a, b) =>
+      (a.siteId ?? "").localeCompare(b.siteId ?? "", "en") ||
+      JSON.stringify(a).localeCompare(JSON.stringify(b), "en"),
+    );
+    rowsByFilm.set(filmId, rows.filter((row, i) => i === 0 || JSON.stringify(row) !== JSON.stringify(rows[i - 1])));
+  }
 
   return filmsRes.films.map((f): FilmRecord => {
     const directorId = f.directors?.[0]?.castAndCrewMemberId;
@@ -331,6 +381,7 @@ export function buildFilmRecords(
       director,
       webUrl: sitemap[f.id] ?? "",
       categories: avail.get(f.id) ?? [],
+      availabilityRows: rowsByFilm.get(f.id) ?? [],
       posterUrl: null,
     };
   });
@@ -342,7 +393,8 @@ export function buildFilmRecords(
 
 export type LifecycleAbort =
   | { kind: "empty-catalog"; knownFilms: number }
-  | { kind: "bulk-removal"; removed: number; cap: number; prevFilms: number };
+  | { kind: "bulk-removal"; removed: number; cap: number; prevFilms: number }
+  | { kind: "partial-availability"; filmIds: string[] };
 
 export type LifecycleOutcome = {
   coldStart: boolean;
@@ -352,6 +404,7 @@ export type LifecycleOutcome = {
   archivedEvents: Event[];
   films: FilmRecord[];
   missingRuns: Record<string, number>;
+  pendingCategoryLosses: NonNullable<State["pendingCategoryLosses"]>;
   /** Already resolved quiet-run policy (unchanged when nothing meaningful moved). */
   lastRun: string | undefined;
   meaningfulChange: boolean;
@@ -366,6 +419,9 @@ export function lifecycleAbortMessage(abort: LifecycleAbort): string {
   if (abort.kind === "empty-catalog") {
     return `empty OCAPI catalog with ${abort.knownFilms} known films — aborting before write`;
   }
+  if (abort.kind === "partial-availability") {
+    return `partial OCAPI availability for categorized films (${abort.filmIds.join(",")}) — aborting before write`;
+  }
   return `refusing bulk removal: ${abort.removed} removed > cap ${abort.cap} (prev films=${abort.prevFilms}) — aborting before write`;
 }
 
@@ -376,13 +432,16 @@ export function lifecycleAbortMessage(abort: LifecycleAbort): string {
  * Prefer `runLifecycle` for the full policy (aborts, cold start, quiet run).
  */
 export function applyLifecycle(
-  prev: { films: FilmRecord[]; missingRuns?: Record<string, number> },
+  prev: Pick<State, "films" | "missingRuns" | "pendingCategoryLosses">,
   current: FilmRecord[],
   deps: { now: () => Date; uuid: () => string },
-): { events: Event[]; films: FilmRecord[]; missingRuns: Record<string, number> } {
+): Pick<LifecycleOutcome, "events" | "films" | "missingRuns" | "pendingCategoryLosses"> {
   const prevMap = filmsToMap(prev.films);
   const curMap = filmsToMap(current);
   const missingRuns: Record<string, number> = { ...(prev.missingRuns ?? {}) };
+  const pendingCategoryLosses: NonNullable<State["pendingCategoryLosses"]> = {
+    ...(prev.pendingCategoryLosses ?? {}),
+  };
   const events: Event[] = [];
   const createdAt = deps.now().toISOString();
   const mk = (type: EventType, filmId: string, snapshot: FilmRecord): Event => ({
@@ -409,7 +468,29 @@ export function applyLifecycle(
     const p = prevMap.get(id);
     if (!p) continue;
     if (missingRuns[id]) delete missingRuns[id];
-    for (const type of gainEvents(p.categories, cur.categories)) {
+    const pending = { ...(pendingCategoryLosses[id] ?? {}) };
+    const regained: string[] = [];
+    for (const { category } of GAIN_EVENTS) {
+      const wasPresent = p.categories.includes(category);
+      const isPresent = cur.categories.includes(category);
+      if (isPresent && pending[category]) {
+        // A one-observation loss followed by regain was a flap, not a new opening.
+        regained.push(category);
+        delete pending[category];
+      } else if (!isPresent) {
+        if (pending[category]) {
+          delete pending[category]; // second observed loss
+        } else if (wasPresent) {
+          pending[category] = 1;
+        }
+      }
+    }
+    if (Object.keys(pending).length) {
+      pendingCategoryLosses[id] = pending;
+    } else {
+      delete pendingCategoryLosses[id];
+    }
+    for (const type of gainEvents([...p.categories, ...regained], cur.categories)) {
       events.push(mk(type, id, cur));
     }
   }
@@ -423,6 +504,7 @@ export function applyLifecycle(
     if (count >= REMOVAL_THRESHOLD) {
       events.push(mk("removed", id, prevMap.get(id)!));
       delete missingRuns[id];
+      delete pendingCategoryLosses[id];
     } else {
       missingRuns[id] = count;
       softKept.push(prevMap.get(id)!);
@@ -431,7 +513,7 @@ export function applyLifecycle(
 
   // Present films (current snapshot) + soft-missing still under threshold.
   const nextFilms = [...current, ...softKept].sort((a, b) => a.id.localeCompare(b.id));
-  return { events, films: nextFilms, missingRuns };
+  return { events, films: nextFilms, missingRuns, pendingCategoryLosses };
 }
 
 /**
@@ -449,8 +531,27 @@ export function runLifecycle(
     return { ok: false, abort: { kind: "empty-catalog", knownFilms: prev.films.length } };
   }
 
+  // A film still in /films with zero availability rows is a truncated payload, not an
+  // observed category wipe — including after a pending loss already cleared categories.
+  // A returned row with categories [] is not truncated.
+  const truncatedIds = prev.films
+    .filter((p) => {
+      const cur = current.find((c) => c.id === p.id);
+      if (cur === undefined || cur.availabilityRows?.length !== 0) return false;
+      return (
+        p.categories.length > 0 ||
+        (p.availabilityRows?.length ?? 0) > 0 ||
+        Object.keys(prev.pendingCategoryLosses?.[p.id] ?? {}).length > 0
+      );
+    })
+    .map((p) => p.id)
+    .sort((a, b) => a.localeCompare(b));
+  if (truncatedIds.length > 0) {
+    return { ok: false, abort: { kind: "partial-availability", filmIds: truncatedIds } };
+  }
+
   // prev.films includes soft-missing titles so reappearance is not mis-emitted as added.
-  const { events, films, missingRuns } = applyLifecycle(prev, current, deps);
+  const { events, films, missingRuns, pendingCategoryLosses } = applyLifecycle(prev, current, deps);
 
   const removalCount = events.filter((e) => e.type === "removed").length;
   const removalCap = maxRemovalsAllowed(prev.films.length);
@@ -479,7 +580,8 @@ export function runLifecycle(
     coldStart ||
     archivedEvents.length > 0 ||
     JSON.stringify(films) !== JSON.stringify(prev.films) ||
-    JSON.stringify(missingRuns) !== JSON.stringify(prevMissing);
+    JSON.stringify(missingRuns) !== JSON.stringify(prevMissing) ||
+    JSON.stringify(pendingCategoryLosses) !== JSON.stringify(prev.pendingCategoryLosses ?? {});
 
   return {
     ok: true,
@@ -489,6 +591,7 @@ export function runLifecycle(
       archivedEvents,
       films,
       missingRuns,
+      pendingCategoryLosses,
       lastRun: meaningfulChange ? deps.now().toISOString() : prev.lastRun,
       meaningfulChange,
     },
@@ -765,6 +868,41 @@ h1 {
   text-decoration: none;
   border-bottom: 1px solid var(--ink);
 }
+.catalog { margin: 1.25rem 0 2.5rem; }
+.catalog h2, .history h2 {
+  font-family: "Instrument Serif", "Iowan Old Style", Palatino, Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 400;
+  margin: 0;
+}
+.catalog-intro { color: var(--muted); font-size: .9rem; margin: .15rem 0 1rem; }
+.section-nav { display: flex; gap: 1rem; font-size: .85rem; margin: .25rem 0 1rem; }
+.section-nav a { color: var(--ink); text-underline-offset: .2em; }
+.catalog-evidence { grid-column: 1 / -1; color: var(--muted); font-size: .78rem; }
+.catalog-evidence summary { cursor: pointer; width: fit-content; }
+.catalog-detail { display: flex; gap: .8rem; max-width: 45rem; padding: .5rem 0; }
+.catalog-detail img { width: 64px; height: 96px; object-fit: cover; flex: none; }
+.catalog-detail p { margin: 0 0 .35rem; }
+.catalog-evidence ul { margin: .3rem 0 .15rem; padding-left: 1.25rem; }
+.catalog-evidence code { overflow-wrap: anywhere; }
+.catalog-group { margin: 1rem 0; }
+.catalog-group h3 { font-size: 1rem; font-weight: 600; margin: 0 0 .35rem; }
+.catalog-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.catalog-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(130px, 210px);
+  gap: .5rem 1rem;
+  padding: .5rem 0;
+  border-bottom: 1px solid var(--line);
+  align-items: baseline;
+}
+.catalog-row a { color: var(--ink); text-decoration-color: var(--red); text-underline-offset: .14em; }
+.catalog-badge { color: var(--red); font-size: .75rem; margin-left: .5rem; white-space: nowrap; }
+.catalog-row small { color: var(--muted); font-size: .78rem; text-align: right; }
+.catalog-note { grid-column: 1 / -1; color: var(--muted); font-size: .78rem; }
+.history { border-top: 1px solid var(--ink); padding-top: .7rem; }
+.history p { color: var(--muted); font-size: .83rem; margin: .2rem 0 .8rem; }
+a:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
 .when {
   font-family: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   font-size: .72rem;
@@ -780,13 +918,73 @@ h1 {
   .post { grid-template-columns: 72px 1fr; }
   .post img, .ph { width: 72px; }
   .when { grid-column: 2; text-align: left; padding-top: 0; }
+  .catalog-row { grid-template-columns: 1fr; gap: .1rem; }
+  .catalog-row small { text-align: left; }
 }
 `;
 
 export function generateHTML(
   posts: Event[],
-  opts: { feedTitle: string; language: string },
+  opts: { feedTitle: string; language: string; asOf?: Date },
+  state: State = { films: [], tmdbCache: {} },
 ): string {
+  // A change-based page must not silently reclassify films at midnight on a quiet scrape.
+  const asOf = opts.asOf ?? (state.lastRun ? new Date(state.lastRun) : new Date(0));
+  const today = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Bogota", year: "numeric", month: "2-digit", day: "2-digit",
+  }).format(asOf);
+  const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
+  const groups: { title: string; films: FilmRecord[] }[] = [
+    { title: "Cartelera reportada", films: [] },
+    { title: "Preventa", films: [] },
+    { title: "Próximos estrenos", films: [] },
+    { title: "Disponibilidad sin confirmar", films: [] },
+  ];
+  for (const film of state.films) {
+    const future = !!film.releaseDate && film.releaseDate.slice(0, 10) > today;
+    const isNow = film.categories.includes("NowShowing");
+    const isAdvance = film.categories.includes("AdvanceBooking");
+    const uncertain = (state.missingRuns?.[film.id] ?? 0) > 0 || film.availabilityRows?.length === 0;
+    const group = uncertain ? groups[3]! : future && isNow ? groups[2]!
+      : isNow ? groups[0]! : isAdvance ? groups[1]!
+      : film.categories.includes("ComingSoon") || future ? groups[2]! : groups[3]!;
+    group.films.push(film);
+  }
+  const catalog = groups.filter((g) => g.films.length).map((group) => {
+    const entries = group.films.sort((a, b) => a.title.localeCompare(b.title, "es") || a.id.localeCompare(b.id))
+      .map((film) => {
+        const future = !!film.releaseDate && film.releaseDate.slice(0, 10) > today;
+        const date = film.releaseDate ? `Estreno: ${film.releaseDate}` : "Fecha por confirmar";
+        const siteEvidence = film.availabilityRows === undefined ? " · sin detalle por sede guardado" : "";
+        const title = escapeXml(film.title);
+        const name = film.webUrl
+          ? `<a href="${escapeXml(film.webUrl)}">${title}</a>` : title;
+        const booking = future && film.categories.includes("AdvanceBooking")
+          ? `<span class="catalog-badge">Preventa reportada</span>` : "";
+        const notes: string[] = [];
+        if (future && film.categories.includes("NowShowing")) {
+          notes.push("El sitio marcó cartelera con estreno posterior al último cambio del catálogo; no confirma funciones para esa fecha.");
+        }
+        const misses = state.missingRuns?.[film.id] ?? 0;
+        if (misses) notes.push(`No apareció en la última consulta (${misses} ausencia${misses === 1 ? "" : "s"}); disponibilidad sin confirmar.`);
+        if (film.availabilityRows?.length === 0) notes.push("Sin filas de disponibilidad en la última consulta; estado sin confirmar.");
+        const note = notes.length ? `<span class="catalog-note">${escapeXml(notes.join(" "))}</span>` : "";
+        const rows = film.availabilityRows ?? [];
+        const poster = film.posterUrl
+          ? `<img src="${escapeXml(film.posterUrl)}" alt="" loading="lazy" />` : "";
+        const synopsis = film.shortSynopsis ? `<p>${escapeXml(film.shortSynopsis)}</p>` : "";
+        const facts = factsLine(film);
+        const ficha = facts ? `<p>${escapeXml(facts)}</p>` : "";
+        const director = film.director ? `<p>Dirección: ${escapeXml(film.director)}</p>` : "";
+        const categories = `<p>${misses ? "Últimas categorías observadas" : "Categorías reportadas"}: <code>${escapeXml(film.categories.join(", ") || "sin categoría")}</code></p>`;
+        const sites = rows.length ? `<p>Categorías por sede (${rows.length}):</p><ul>${rows.map((row) =>
+          `<li>${escapeXml(row.siteId ?? "Sede no especificada")}: <code>${escapeXml(row.categories.join(", ") || "sin categoría")}</code></li>`,
+        ).join("")}</ul>` : "";
+        const detail = `<details class="catalog-evidence"><summary>${misses ? "Última ficha observada" : "Ficha actual"}${rows.length ? ` y categorías por sede (${rows.length})` : ""}</summary><div class="catalog-detail">${poster}<div>${synopsis}${ficha}${director}${categories}${sites}</div></div></details>`;
+        return `        <li class="catalog-row"><span>${name}${booking}</span><small>${escapeXml(date + siteEvidence)}</small>${note}${detail}</li>`;
+      }).join("\n");
+    return `    <section class="catalog-group"><h3>${escapeXml(group.title)}</h3><ul class="catalog-list">\n${entries}\n    </ul></section>`;
+  }).join("\n");
   const cards = windowNewest(posts)
     .map((p) => {
       const poster = p.snapshot.posterUrl
@@ -839,13 +1037,23 @@ export function generateHTML(
         últimos ${FEED_LIMIT} eventos
       </div>
     </header>
-    <div class="legend" aria-label="Leyenda de estados">
-      <span><b>PRONTO</b> estreno anunciado</span>
-      <span><b>PREVENTA</b> boletería abierta</span>
-      <span><b>CARTELERA</b> en salas</span>
-      <span><b>FUERA</b> ya no disponible</span>
-    </div>
+    <nav class="section-nav" aria-label="Secciones"><a href="#catalogo">Catálogo observado</a><a href="#historial">Historial de cambios</a></nav>
+    <section class="catalog" id="catalogo" aria-label="Catálogo observado">
+      <h2>Películas registradas</h2>
+      <p class="catalog-intro">Categorías informadas por CineColombia. La fecha de estreno no confirma funciones para el día del registro. Los datos guardados antes de este cambio no conservan el detalle por sede.${changed ? ` Último cambio del catálogo: <time datetime="${escapeXml(state.lastRun!)}">${escapeXml(changed.date)} ${escapeXml(changed.time)}</time>. No indica la hora de la última consulta.` : ""}</p>
+${catalog || "      <p class=\"catalog-intro\">No hay películas registradas.</p>"}
+    </section>
+    <section class="history" id="historial" aria-label="Historial de cambios">
+      <h2>Historial de cambios</h2>
+      <p>Los eventos conservan los datos vistos cuando se registraron; no son el estado actual. CARTELERA indica una categoría reportada, no confirma una función en esa fecha.</p>
+      <div class="legend" aria-label="Leyenda de eventos">
+        <span><b>PRONTO</b> estreno anunciado</span>
+        <span><b>PREVENTA</b> boletería abierta</span>
+        <span><b>CARTELERA</b> categoría reportada</span>
+        <span><b>FUERA</b> ya no disponible</span>
+      </div>
 ${cards}
+    </section>
   </div>
 </body>
 </html>
@@ -1059,6 +1267,7 @@ export function runArchiveHygiene(
   const dataDir = options.dataDir ?? "data";
   const docsDir = options.docsDir ?? "docs";
   const postsPath = join(dataDir, "posts.json");
+  const statePath = join(dataDir, "state.json");
   const feedPath = join(docsDir, "feed.xml");
   const htmlPath = join(docsDir, "index.html");
   const feedUrl =
@@ -1066,6 +1275,7 @@ export function runArchiveHygiene(
   const feedTitle = options.feedTitle ?? process.env.FEED_TITLE ?? "CineColombia — Cartelera y Preventa";
 
   const archive = loadPosts(postsPath);
+  const state = loadState(statePath);
   const before = archive.posts.length;
   archive.posts = sanitizeArchivePosts(archive.posts);
   const after = archive.posts.length;
@@ -1074,7 +1284,7 @@ export function runArchiveHygiene(
   ensureDir(docsDir);
   savePosts(postsPath, archive);
   atomicWrite(feedPath, generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" }));
-  atomicWrite(htmlPath, generateHTML(archive.posts, { feedTitle, language: "es-CO" }));
+  atomicWrite(htmlPath, generateHTML(archive.posts, { feedTitle, language: "es-CO" }, state));
 
   return { before, after };
 }
@@ -1105,7 +1315,14 @@ export async function main(options: MainOptions = {}): Promise<void> {
   const archive = loadPosts(postsPath);
   const token = await deps.fetchToken();
   const filmsRes = (await deps.ocapi(token, "films")) as FilmsResponse;
-  const availRes = (await deps.ocapi(token, "films/availability")) as AvailabilityResponse;
+  if (!Array.isArray(filmsRes?.films)) throw new Error("invalid OCAPI films response: films must be an array");
+  const availRes: unknown = await deps.ocapi(token, "films/availability");
+  validateAvailabilityResponse(availRes, filmsRes.films.map((f) => f.id));
+  const catalogIds = new Set(filmsRes.films.map((f) => f.id));
+  if (catalogIds.size > 0 && prev.films.some((f) => f.categories.length > 0) &&
+      !availRes.filmAvailabilities.some((row) => catalogIds.has(row.filmId) && row.categories.length > 0)) {
+    throw new Error("empty OCAPI availability categories for populated catalog — aborting before write");
+  }
   const sitemapXml = await deps.fetchSitemap();
   const sitemap = parseSitemap(sitemapXml);
   const current = buildFilmRecords(filmsRes, availRes, sitemap);
@@ -1116,17 +1333,18 @@ export async function main(options: MainOptions = {}): Promise<void> {
   if (!result.ok) {
     throw new Error(lifecycleAbortMessage(result.abort));
   }
-  const { coldStart, archivedEvents, films, missingRuns, lastRun } = result.outcome;
+  const { coldStart, archivedEvents, films, missingRuns, pendingCategoryLosses, lastRun } = result.outcome;
 
   if (archivedEvents.length > 0) archive.posts.push(...archivedEvents);
   const newState: State = {
     films,
     tmdbCache: prev.tmdbCache,
     missingRuns,
+    pendingCategoryLosses,
     lastRun,
   };
   const feed = generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" });
-  const html = generateHTML(archive.posts, { feedTitle, language: "es-CO" });
+  const html = generateHTML(archive.posts, { feedTitle, language: "es-CO" }, newState);
 
   // Everything succeeded — now persist.
   // Posts before state so a crash mid-write prefers re-emitting events over losing them.
@@ -1136,6 +1354,8 @@ export async function main(options: MainOptions = {}): Promise<void> {
   saveState(statePath, newState);
   atomicWrite(feedPath, feed);
   atomicWrite(htmlPath, html);
+  // Fetch/persist time belongs in the run log, not tracked state on quiet runs.
+  console.log(`observedAt=${deps.now().toISOString()}`);
 
   // Notify on transitions only — never on a cold start (virgin previous state).
   if (archivedEvents.length > 0 && notifyWebhookUrl) {

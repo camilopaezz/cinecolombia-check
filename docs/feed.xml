@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Forgotten Island</title>
+      <link>https://www.cinecolombia.com/films/forgotten-island/HO00000630/</link>
+      <guid isPermaLink="false">03d27d99-a106-440f-b0ae-23ecc60dd4f5</guid>
+      <pubDate>Tue, 29 Sep 2026 23:01:02 GMT</pubDate>
+      <description>Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Les pires</title>
       <link>https://www.cinecolombia.com/films/les-pires/HO00000797/</link>
       <guid isPermaLink="false">564a0425-daa3-4bd7-94c2-c84ea53029c8</guid>
@@ -790,14 +798,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Makikiraan Po</title>
-      <link>https://www.cinecolombia.com/films/makikiraan-po/HO00000872/</link>
-      <guid isPermaLink="false">e4fe4c82-a1ac-4dc1-b0ba-9108b7a632f9</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>El padre Enciso, encomendero cruel en Filipinas, construye una iglesia con mármol robado. Encarga a su hijo Dungwen supervisar el peligroso transporte de las piedras.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg" medium="image" />
     </item>
   </channel>
 </rss>

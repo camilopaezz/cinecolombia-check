@@ -381,13 +381,19 @@
       "director": "Joel Crawford",
       "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -815,7 +821,7 @@
       "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
       "releaseDate": "2026-10-08",
       "runtimeInMinutes": 94,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación",
         "Comedia",
@@ -1495,7 +1501,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -5437,7 +5442,7 @@
       "shortSynopsis": "Tras siete años de pausa, Linkin Park se reinventa en esta película que sigue su regreso, desde sesiones íntimas de 2022 hasta su concierto en São Paulo en 2024.",
       "releaseDate": "2026-09-30",
       "runtimeInMinutes": 108,
-      "censorRating": "Concierto",
+      "censorRating": "+7 Años",
       "genres": [
         "Concierto"
       ],
@@ -6506,5 +6511,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-09-29T05:00:57.507Z"
+  "lastRun": "2026-09-29T23:01:02.523Z"
 }

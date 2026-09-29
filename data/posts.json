@@ -13910,6 +13910,49 @@
           "posterPath": "/f3zFfLgh0snxZxcOHxDYAyczXGA.jpg"
         }
       }
+    },
+    {
+      "guid": "03d27d99-a106-440f-b0ae-23ecc60dd4f5",
+      "type": "now-in-theaters",
+      "filmId": "HO00000630",
+      "createdAt": "2026-09-29T23:01:02.519Z",
+      "snapshot": {
+        "id": "HO00000630",
+        "title": "Forgotten Island",
+        "shortSynopsis": "Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 109,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Joel Crawford",
+        "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+        "tmdb": {
+          "tmdbId": 1465063,
+          "posterPath": "/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg"
+        }
+      }
     }
   ]
 }

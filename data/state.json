@@ -1323,7 +1323,7 @@
       "title": "Fall 2: Deadpoint",
       "shortSynopsis": "En 'Vértigo 2: Punto Muerto', Jax y Luce escalan las montañas de Tailandia, enfrentando un vacío de 1.500 metros y sus miedos más profundos.",
       "releaseDate": "2026-10-01",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 100,
       "censorRating": "Pendiente",
       "genres": [
         "Aventura",
@@ -6506,5 +6506,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-09-29T01:20:09.821Z"
+  "lastRun": "2026-09-29T05:00:57.507Z"
 }

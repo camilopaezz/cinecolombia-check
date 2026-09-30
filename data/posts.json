@@ -13953,6 +13953,219 @@
           "posterPath": "/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg"
         }
       }
+    },
+    {
+      "guid": "101f1aab-1f7b-456a-a20b-8fda5da5b2d3",
+      "type": "now-in-theaters",
+      "filmId": "HO00000599",
+      "createdAt": "2026-09-30T05:01:02.553Z",
+      "snapshot": {
+        "id": "HO00000599",
+        "title": "Into The Mortal World",
+        "shortSynopsis": "Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 102,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Zhong Ding",
+        "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg",
+        "tmdb": {
+          "tmdbId": 1303336,
+          "posterPath": "/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg"
+        }
+      }
+    },
+    {
+      "guid": "330ba195-70a4-495b-9be3-368868645fa9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000703",
+      "createdAt": "2026-09-30T05:01:02.553Z",
+      "snapshot": {
+        "id": "HO00000703",
+        "title": "Tadeo Jones y la lámpara maravillosa",
+        "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 94,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Enrique Gato",
+        "webUrl": "https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
+        "tmdb": {
+          "tmdbId": 1187326,
+          "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
+        }
+      }
+    },
+    {
+      "guid": "3c073383-3fcb-42bf-859c-1262f6e22f05",
+      "type": "now-in-theaters",
+      "filmId": "HO00000738",
+      "createdAt": "2026-09-30T05:01:02.553Z",
+      "snapshot": {
+        "id": "HO00000738",
+        "title": "Fall 2: Deadpoint",
+        "shortSynopsis": "En 'Vértigo 2: Punto Muerto', Jax y Luce escalan las montañas de Tailandia, enfrentando un vacío de 1.500 metros y sus miedos más profundos.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 100,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Michael Spierig",
+        "webUrl": "https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg",
+        "tmdb": {
+          "tmdbId": 1101412,
+          "posterPath": "/p73G56bJGPa5y52cyqWscHR6NnN.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4eba7d90-abf9-4f81-bfdf-22801d196565",
+      "type": "now-in-theaters",
+      "filmId": "HO00000786",
+      "createdAt": "2026-09-30T05:01:02.553Z",
+      "snapshot": {
+        "id": "HO00000786",
+        "title": "Pacífico",
+        "shortSynopsis": "Pacífico' sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 95,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Riccardo Gabrielli R.",
+        "webUrl": "https://www.cinecolombia.com/films/pacifico/HO00000786/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg",
+        "tmdb": {
+          "tmdbId": 890216,
+          "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
+        }
+      }
+    },
+    {
+      "guid": "10a2db93-33a5-4327-893d-149c35cc6a56",
+      "type": "now-in-theaters",
+      "filmId": "HO00000880",
+      "createdAt": "2026-09-30T05:01:02.553Z",
+      "snapshot": {
+        "id": "HO00000880",
+        "title": "Tales From the Magic Garden",
+        "shortSynopsis": "Tres niños pasan la noche en casa de su abuelo. Ante la ausencia de su abuela, quien narraba cuentos, inventan sus historias y descubren el poder de imaginar.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 71,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación"
+        ],
+        "director": "David Súkup",
+        "webUrl": "https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg",
+        "tmdb": {
+          "tmdbId": 587370,
+          "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
+        }
+      }
     }
   ]
 }

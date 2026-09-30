@@ -7,6 +7,46 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Into The Mortal World</title>
+      <link>https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/</link>
+      <guid isPermaLink="false">101f1aab-1f7b-456a-a20b-8fda5da5b2d3</guid>
+      <pubDate>Wed, 30 Sep 2026 05:01:02 GMT</pubDate>
+      <description>Fanning, una joven mortal, emprende un viaje al mundo divino en busca de su madre y conoce a Jin Feng, un discípulo celestial que intenta expiar los pecados de la suya.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/2nXWDju83nclC4vEJ4dkKnLN8gl.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Tadeo Jones y la lámpara maravillosa</title>
+      <link>https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/</link>
+      <guid isPermaLink="false">330ba195-70a4-495b-9be3-368868645fa9</guid>
+      <pubDate>Wed, 30 Sep 2026 05:01:02 GMT</pubDate>
+      <description>Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Fall 2: Deadpoint</title>
+      <link>https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/</link>
+      <guid isPermaLink="false">3c073383-3fcb-42bf-859c-1262f6e22f05</guid>
+      <pubDate>Wed, 30 Sep 2026 05:01:02 GMT</pubDate>
+      <description>En &apos;Vértigo 2: Punto Muerto&apos;, Jax y Luce escalan las montañas de Tailandia, enfrentando un vacío de 1.500 metros y sus miedos más profundos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Pacífico</title>
+      <link>https://www.cinecolombia.com/films/pacifico/HO00000786/</link>
+      <guid isPermaLink="false">4eba7d90-abf9-4f81-bfdf-22801d196565</guid>
+      <pubDate>Wed, 30 Sep 2026 05:01:02 GMT</pubDate>
+      <description>Pacífico&apos; sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Tales From the Magic Garden</title>
+      <link>https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/</link>
+      <guid isPermaLink="false">10a2db93-33a5-4327-893d-149c35cc6a56</guid>
+      <pubDate>Wed, 30 Sep 2026 05:01:02 GMT</pubDate>
+      <description>Tres niños pasan la noche en casa de su abuelo. Ante la ausencia de su abuela, quien narraba cuentos, inventan sus historias y descubren el poder de imaginar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Forgotten Island</title>
       <link>https://www.cinecolombia.com/films/forgotten-island/HO00000630/</link>
       <guid isPermaLink="false">03d27d99-a106-440f-b0ae-23ecc60dd4f5</guid>
@@ -759,45 +799,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Fjord</title>
-      <link>https://www.cinecolombia.com/films/fjord/HO00000867/</link>
-      <guid isPermaLink="false">2975e32a-458f-4878-bf70-a8969045852c</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Los Gheorghiu se instalan en un pueblo noruego y entablan amistad con los Halberg. Al aparecer moretones en Elia, la comunidad sospecha de su educación tradicional.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Gabin</title>
-      <link>https://www.cinecolombia.com/films/gabin/HO00000868/</link>
-      <guid isPermaLink="false">afe09815-fd86-40ab-ac54-828ffbf86628</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Gabin, destinado a heredar la carnicería familiar, sueña con criar animales y salvar la granja de su madre. Su historia se sigue desde los 8 hasta los 18 años.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Adieu Monde Cruel</title>
-      <link>https://www.cinecolombia.com/films/adieu-monde-cruel/HO00000869/</link>
-      <guid isPermaLink="false">05818a10-5cce-42c9-967e-10ed0ea71d67</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Otto, de 14 años, desaparece tras enviar cartas de despedida a sus compañeros. Aunque todos lo creen muerto, Lena lo reconoce deambulando por la ciudad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Hermanas</title>
-      <link>https://www.cinecolombia.com/films/hermanas/HO00000870/</link>
-      <guid isPermaLink="false">7694ffaa-ad25-4131-a347-b512cfbad35b</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Chelo y Marta, hermanas, ven su vínculo puesto a prueba cuando un suceso sacude a su familia, obligándolas a decidir hasta dónde llegar para proteger a los suyos.</description>
-    </item>
-    <item>
-      <title>Pronto: La Gradiva</title>
-      <link>https://www.cinecolombia.com/films/la-gradiva/HO00000871/</link>
-      <guid isPermaLink="false">71e99d08-d429-4416-898c-44f981ba9546</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg" medium="image" />
     </item>
   </channel>
 </rss>

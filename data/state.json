@@ -223,13 +223,20 @@
       "director": "Zhong Ding",
       "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -393,7 +400,8 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -830,13 +838,19 @@
       "director": "Enrique Gato",
       "webUrl": "https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -1339,13 +1353,20 @@
       "director": "Michael Spierig",
       "webUrl": "https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1501,6 +1522,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
+            "0000000007",
             "0000000008"
           ]
         }
@@ -1987,6 +2009,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000002",
+            "0000000003",
             "0000000004",
             "0000000005",
             "0000000007",
@@ -2484,7 +2507,7 @@
       "title": "Pacífico",
       "shortSynopsis": "Pacífico' sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.",
       "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 93,
+      "runtimeInMinutes": 95,
       "censorRating": "+12 Años",
       "genres": [
         "Aventura",
@@ -2493,13 +2516,19 @@
       "director": "Riccardo Gabrielli R.",
       "webUrl": "https://www.cinecolombia.com/films/pacifico/HO00000786/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -5449,14 +5478,12 @@
       "director": "Joe Hahn",
       "webUrl": "https://www.cinecolombia.com/films/linkin-park-unshatter/HO00000877/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -5555,13 +5582,20 @@
       "director": "David Súkup",
       "webUrl": "https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -6509,7 +6543,14 @@
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
     }
   },
-  "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-09-29T23:01:02.523Z"
+  "missingRuns": {
+    "HO00000773": 1,
+    "HO00000813": 1
+  },
+  "pendingCategoryLosses": {
+    "HO00000877": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-09-30T05:01:02.557Z"
 }

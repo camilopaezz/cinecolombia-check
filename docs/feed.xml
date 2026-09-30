@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Unicornio</title>
+      <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
+      <guid isPermaLink="false">a9b68c8f-6c74-4d47-8d53-9a1c6ed22f8c</guid>
+      <pubDate>Wed, 30 Sep 2026 11:01:01 GMT</pubDate>
+      <description>Unicornio&apos;, con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: La haine</title>
+      <link>https://www.cinecolombia.com/films/la-haine/HO00000813/</link>
+      <guid isPermaLink="false">52775059-8f3c-4eff-bee0-d555133abbf3</guid>
+      <pubDate>Wed, 30 Sep 2026 11:01:01 GMT</pubDate>
+      <description>Tras disturbios en las afueras de París, Vinz, Saïd y Hubert vagan 24 horas por la ciudad entre violencia, tensión policial y la rabia por la agresión a su amigo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Into The Mortal World</title>
       <link>https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/</link>
       <guid isPermaLink="false">101f1aab-1f7b-456a-a20b-8fda5da5b2d3</guid>
@@ -783,22 +799,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Tomy y Chris pasan el verano de 1999 en una granja alpina. Al descubrir que el padre de Tomy tiene &quot;la enfermedad de los gays&quot;, Tomy enfrenta el rechazo familiar.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: El despertar</title>
-      <link>https://www.cinecolombia.com/films/el-despertar/HO00000865/</link>
-      <guid isPermaLink="false">46724921-96b2-4113-86f1-498a2cb237b6</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Elephants in the fog</title>
-      <link>https://www.cinecolombia.com/films/elephants-in-the-fog/HO00000866/</link>
-      <guid isPermaLink="false">b162fbfd-7bec-4b2f-a7bc-d09d954884f7</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg" medium="image" />
     </item>
   </channel>
 </rss>

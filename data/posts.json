@@ -14166,6 +14166,85 @@
           "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
         }
       }
+    },
+    {
+      "guid": "a9b68c8f-6c74-4d47-8d53-9a1c6ed22f8c",
+      "type": "removed",
+      "filmId": "HO00000773",
+      "createdAt": "2026-09-30T11:01:01.682Z",
+      "snapshot": {
+        "id": "HO00000773",
+        "title": "Unicornio",
+        "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 113,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Natural Arpajou",
+        "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+        "tmdb": {
+          "tmdbId": 1153714,
+          "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "52775059-8f3c-4eff-bee0-d555133abbf3",
+      "type": "removed",
+      "filmId": "HO00000813",
+      "createdAt": "2026-09-30T11:01:01.682Z",
+      "snapshot": {
+        "id": "HO00000813",
+        "title": "La haine",
+        "shortSynopsis": "Tras disturbios en las afueras de París, Vinz, Saïd y Hubert vagan 24 horas por la ciudad entre violencia, tensión policial y la rabia por la agresión a su amigo.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 95,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Crimen",
+          "Drama"
+        ],
+        "director": "Mathieu Kassovitz",
+        "webUrl": "https://www.cinecolombia.com/films/la-haine/HO00000813/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg",
+        "tmdb": {
+          "tmdbId": 406,
+          "posterPath": "/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg"
+        }
+      }
     }
   ]
 }

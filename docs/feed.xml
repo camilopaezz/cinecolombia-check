@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Unicornio</title>
+      <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
+      <guid isPermaLink="false">ecf5cf85-99e1-4778-aa30-3c4f3e42e9c3</guid>
+      <pubDate>Wed, 30 Sep 2026 17:01:02 GMT</pubDate>
+      <description>Unicornio&apos;, con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Happy Little Submarines: Adventure Island</title>
+      <link>https://www.cinecolombia.com/films/happy-little-submarines-adventure-island/HO00000883/</link>
+      <guid isPermaLink="false">95251ccd-2b33-43df-981f-8df49b9c5dfc</guid>
+      <pubDate>Wed, 30 Sep 2026 17:01:02 GMT</pubDate>
+      <description>Peter, el submarinito, despierta a Overlord, un monstruo marino ancestral. Fusionado con un guerrero, debe encontrar el coraje y la sabiduría para vencerlo.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Unicornio</title>
       <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
       <guid isPermaLink="false">a9b68c8f-6c74-4d47-8d53-9a1c6ed22f8c</guid>
@@ -783,22 +798,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. &apos;Como Todo Mortal&apos; mezcla documental y ciencia ficción.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Donde comienza el río</title>
-      <link>https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000863/</link>
-      <guid isPermaLink="false">de0dbc4f-8fef-4212-8b47-83269c2cc205</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Eklipse</title>
-      <link>https://www.cinecolombia.com/films/eklipse/HO00000864/</link>
-      <guid isPermaLink="false">ac809fc0-22cb-4685-b027-81c3f3f6ebf2</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Tomy y Chris pasan el verano de 1999 en una granja alpina. Al descubrir que el padre de Tomy tiene &quot;la enfermedad de los gays&quot;, Tomy enfrenta el rechazo familiar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg" medium="image" />
     </item>
   </channel>
 </rss>

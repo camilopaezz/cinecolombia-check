@@ -14245,6 +14245,76 @@
           "posterPath": "/cRhjRtGfUvm9pOVid2BrrNUnjR5.jpg"
         }
       }
+    },
+    {
+      "guid": "ecf5cf85-99e1-4778-aa30-3c4f3e42e9c3",
+      "type": "now-in-theaters",
+      "filmId": "HO00000773",
+      "createdAt": "2026-09-30T17:01:02.366Z",
+      "snapshot": {
+        "id": "HO00000773",
+        "title": "Unicornio",
+        "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 113,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Natural Arpajou",
+        "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+        "tmdb": {
+          "tmdbId": 1153714,
+          "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
+        }
+      }
+    },
+    {
+      "guid": "95251ccd-2b33-43df-981f-8df49b9c5dfc",
+      "type": "added",
+      "filmId": "HO00000883",
+      "createdAt": "2026-09-30T17:01:02.366Z",
+      "snapshot": {
+        "id": "HO00000883",
+        "title": "Happy Little Submarines: Adventure Island",
+        "shortSynopsis": "Peter, el submarinito, despierta a Overlord, un monstruo marino ancestral. Fusionado con un guerrero, debe encontrar el coraje y la sabiduría para vencerlo.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 86,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Chen Xi",
+        "webUrl": "https://www.cinecolombia.com/films/happy-little-submarines-adventure-island/HO00000883/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

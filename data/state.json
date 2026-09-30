@@ -915,7 +915,7 @@
       "id": "HO00000707",
       "title": "Nightborn",
       "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
-      "releaseDate": "2026-10-01",
+      "releaseDate": "2026-10-08",
       "runtimeInMinutes": 92,
       "censorRating": "+15 Años",
       "genres": [
@@ -1443,7 +1443,7 @@
       "id": "HO00000747",
       "title": "Dead Man's Wire",
       "shortSynopsis": "Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.",
-      "releaseDate": "2026-10-01",
+      "releaseDate": "2026-10-08",
       "runtimeInMinutes": 104,
       "censorRating": "Pendiente",
       "genres": [
@@ -2145,6 +2145,39 @@
       "tmdb": {
         "tmdbId": 878608,
         "posterPath": "/vQZK421erWKR5PgF4pbz0lp4o3o.jpg"
+      }
+    },
+    {
+      "id": "HO00000773",
+      "title": "Unicornio",
+      "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
+      "releaseDate": "2026-09-17",
+      "runtimeInMinutes": 113,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Natural Arpajou",
+      "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
+      "tmdb": {
+        "tmdbId": 1153714,
+        "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
       }
     },
     {
@@ -5384,6 +5417,31 @@
         "tmdbId": 1381071,
         "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
       }
+    },
+    {
+      "id": "HO00000883",
+      "title": "Happy Little Submarines: Adventure Island",
+      "shortSynopsis": "Peter, el submarinito, despierta a Overlord, un monstruo marino ancestral. Fusionado con un guerrero, debe encontrar el coraje y la sabiduría para vencerlo.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 86,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación"
+      ],
+      "director": "Chen Xi",
+      "webUrl": "https://www.cinecolombia.com/films/happy-little-submarines-adventure-island/HO00000883/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
     }
   ],
   "tmdbCache": {
@@ -6293,283 +6351,6 @@
     }
   },
   "missingRuns": {},
-  "pendingCategoryLosses": {
-    "HO00000381": {
-      "AdvanceBooking": 1
-    },
-    "HO00000596": {
-      "AdvanceBooking": 1
-    },
-    "HO00000599": {
-      "AdvanceBooking": 1
-    },
-    "HO00000630": {
-      "AdvanceBooking": 1
-    },
-    "HO00000703": {
-      "AdvanceBooking": 1
-    },
-    "HO00000728": {
-      "AdvanceBooking": 1
-    },
-    "HO00000729": {
-      "AdvanceBooking": 1
-    },
-    "HO00000730": {
-      "AdvanceBooking": 1
-    },
-    "HO00000731": {
-      "AdvanceBooking": 1
-    },
-    "HO00000732": {
-      "AdvanceBooking": 1
-    },
-    "HO00000733": {
-      "AdvanceBooking": 1
-    },
-    "HO00000734": {
-      "AdvanceBooking": 1
-    },
-    "HO00000736": {
-      "AdvanceBooking": 1
-    },
-    "HO00000738": {
-      "AdvanceBooking": 1
-    },
-    "HO00000756": {
-      "AdvanceBooking": 1
-    },
-    "HO00000758": {
-      "AdvanceBooking": 1
-    },
-    "HO00000759": {
-      "AdvanceBooking": 1
-    },
-    "HO00000760": {
-      "AdvanceBooking": 1
-    },
-    "HO00000761": {
-      "AdvanceBooking": 1
-    },
-    "HO00000762": {
-      "AdvanceBooking": 1
-    },
-    "HO00000763": {
-      "AdvanceBooking": 1
-    },
-    "HO00000764": {
-      "AdvanceBooking": 1
-    },
-    "HO00000766": {
-      "AdvanceBooking": 1
-    },
-    "HO00000767": {
-      "AdvanceBooking": 1
-    },
-    "HO00000768": {
-      "AdvanceBooking": 1
-    },
-    "HO00000769": {
-      "AdvanceBooking": 1
-    },
-    "HO00000779": {
-      "AdvanceBooking": 1
-    },
-    "HO00000785": {
-      "AdvanceBooking": 1
-    },
-    "HO00000786": {
-      "AdvanceBooking": 1
-    },
-    "HO00000787": {
-      "AdvanceBooking": 1
-    },
-    "HO00000788": {
-      "AdvanceBooking": 1
-    },
-    "HO00000789": {
-      "AdvanceBooking": 1
-    },
-    "HO00000790": {
-      "AdvanceBooking": 1
-    },
-    "HO00000791": {
-      "AdvanceBooking": 1
-    },
-    "HO00000792": {
-      "AdvanceBooking": 1
-    },
-    "HO00000793": {
-      "AdvanceBooking": 1
-    },
-    "HO00000794": {
-      "AdvanceBooking": 1
-    },
-    "HO00000795": {
-      "AdvanceBooking": 1
-    },
-    "HO00000796": {
-      "AdvanceBooking": 1
-    },
-    "HO00000826": {
-      "AdvanceBooking": 1
-    },
-    "HO00000827": {
-      "AdvanceBooking": 1
-    },
-    "HO00000828": {
-      "AdvanceBooking": 1
-    },
-    "HO00000829": {
-      "AdvanceBooking": 1
-    },
-    "HO00000830": {
-      "AdvanceBooking": 1
-    },
-    "HO00000831": {
-      "AdvanceBooking": 1
-    },
-    "HO00000832": {
-      "AdvanceBooking": 1
-    },
-    "HO00000833": {
-      "AdvanceBooking": 1
-    },
-    "HO00000834": {
-      "AdvanceBooking": 1
-    },
-    "HO00000835": {
-      "AdvanceBooking": 1
-    },
-    "HO00000836": {
-      "AdvanceBooking": 1
-    },
-    "HO00000837": {
-      "AdvanceBooking": 1
-    },
-    "HO00000838": {
-      "AdvanceBooking": 1
-    },
-    "HO00000839": {
-      "AdvanceBooking": 1
-    },
-    "HO00000840": {
-      "AdvanceBooking": 1
-    },
-    "HO00000841": {
-      "AdvanceBooking": 1
-    },
-    "HO00000842": {
-      "AdvanceBooking": 1
-    },
-    "HO00000843": {
-      "AdvanceBooking": 1
-    },
-    "HO00000844": {
-      "AdvanceBooking": 1
-    },
-    "HO00000845": {
-      "AdvanceBooking": 1
-    },
-    "HO00000846": {
-      "AdvanceBooking": 1
-    },
-    "HO00000847": {
-      "AdvanceBooking": 1
-    },
-    "HO00000848": {
-      "AdvanceBooking": 1
-    },
-    "HO00000849": {
-      "AdvanceBooking": 1
-    },
-    "HO00000850": {
-      "AdvanceBooking": 1
-    },
-    "HO00000851": {
-      "AdvanceBooking": 1
-    },
-    "HO00000852": {
-      "AdvanceBooking": 1
-    },
-    "HO00000853": {
-      "AdvanceBooking": 1
-    },
-    "HO00000854": {
-      "AdvanceBooking": 1
-    },
-    "HO00000855": {
-      "AdvanceBooking": 1
-    },
-    "HO00000856": {
-      "AdvanceBooking": 1
-    },
-    "HO00000857": {
-      "AdvanceBooking": 1
-    },
-    "HO00000858": {
-      "AdvanceBooking": 1
-    },
-    "HO00000859": {
-      "AdvanceBooking": 1
-    },
-    "HO00000860": {
-      "AdvanceBooking": 1
-    },
-    "HO00000861": {
-      "AdvanceBooking": 1
-    },
-    "HO00000862": {
-      "AdvanceBooking": 1
-    },
-    "HO00000863": {
-      "AdvanceBooking": 1
-    },
-    "HO00000864": {
-      "AdvanceBooking": 1
-    },
-    "HO00000865": {
-      "AdvanceBooking": 1
-    },
-    "HO00000866": {
-      "AdvanceBooking": 1
-    },
-    "HO00000867": {
-      "AdvanceBooking": 1
-    },
-    "HO00000868": {
-      "AdvanceBooking": 1
-    },
-    "HO00000869": {
-      "AdvanceBooking": 1
-    },
-    "HO00000870": {
-      "AdvanceBooking": 1
-    },
-    "HO00000871": {
-      "AdvanceBooking": 1
-    },
-    "HO00000872": {
-      "AdvanceBooking": 1
-    },
-    "HO00000873": {
-      "AdvanceBooking": 1
-    },
-    "HO00000874": {
-      "AdvanceBooking": 1
-    },
-    "HO00000875": {
-      "AdvanceBooking": 1
-    },
-    "HO00000876": {
-      "AdvanceBooking": 1
-    },
-    "HO00000878": {
-      "AdvanceBooking": 1
-    },
-    "HO00000880": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-09-30T11:01:01.687Z"
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-09-30T17:01:02.371Z"
 }

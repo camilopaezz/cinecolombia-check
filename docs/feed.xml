@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Rally: From Paris to the Pyramids</title>
+      <link>https://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/</link>
+      <guid isPermaLink="false">338c757e-2beb-4db1-8261-b133b3b52f54</guid>
+      <pubDate>Wed, 30 Sep 2026 23:00:45 GMT</pubDate>
+      <description>¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/w12EcNornUag78lk5rObTq2W0Ii.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Torah Tropical</title>
+      <link>https://www.cinecolombia.com/films/torah-tropical/HO00000882/</link>
+      <guid isPermaLink="false">24eb34c5-6180-418f-a60e-8032034894a8</guid>
+      <pubDate>Wed, 30 Sep 2026 23:00:45 GMT</pubDate>
+      <description>En Cali, Colombia, la familia de Isska y Menajem, convertida al judaísmo ortodoxo, busca emigrar a Israel con sus hijas en &apos;Torah Tropical&apos;, pese a las dificultades.</description>
+    </item>
+    <item>
       <title>En cartelera: Unicornio</title>
       <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
       <guid isPermaLink="false">ecf5cf85-99e1-4778-aa30-3c4f3e42e9c3</guid>
@@ -782,22 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Diego de Zama, funcionario colonial, espera años una carta del Rey que nunca llega. Tras perderlo todo, se une a una partida en busca de un peligroso bandido.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: 9 Temples to Heaven</title>
-      <link>https://www.cinecolombia.com/films/9-temples-to-heaven/HO00000861/</link>
-      <guid isPermaLink="false">30d00582-05cf-4c79-95b9-6f55c275ea32</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Tras una profecía sobre la muerte de su madre, Sakol emprende con toda su familia una peregrinación de un día por nueve templos tailandeses para intentar salvarla.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9nBRqy5RS3HP9ru86ySVOB0PcqB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Como todo mortal</title>
-      <link>https://www.cinecolombia.com/films/como-todo-mortal/HO00000862/</link>
-      <guid isPermaLink="false">edff8ef1-cda2-4bbe-b3a5-5127d86bae49</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. &apos;Como Todo Mortal&apos; mezcla documental y ciencia ficción.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg" medium="image" />
     </item>
   </channel>
 </rss>

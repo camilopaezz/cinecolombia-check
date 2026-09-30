@@ -14315,6 +14315,72 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "338c757e-2beb-4db1-8261-b133b3b52f54",
+      "type": "added",
+      "filmId": "HO00000710",
+      "createdAt": "2026-09-30T23:00:45.202Z",
+      "snapshot": {
+        "id": "HO00000710",
+        "title": "Rally: From Paris to the Pyramids",
+        "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
+        "releaseDate": "2026-12-03",
+        "runtimeInMinutes": 81,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Rasmus A. Sivertsen",
+        "webUrl": "https://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/w12EcNornUag78lk5rObTq2W0Ii.jpg",
+        "tmdb": {
+          "tmdbId": 1016069,
+          "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
+        }
+      }
+    },
+    {
+      "guid": "24eb34c5-6180-418f-a60e-8032034894a8",
+      "type": "added",
+      "filmId": "HO00000882",
+      "createdAt": "2026-09-30T23:00:45.202Z",
+      "snapshot": {
+        "id": "HO00000882",
+        "title": "Torah Tropical",
+        "shortSynopsis": "En Cali, Colombia, la familia de Isska y Menajem, convertida al judaísmo ortodoxo, busca emigrar a Israel con sus hijas en 'Torah Tropical', pese a las dificultades.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 100,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Jimmy Ferguson",
+        "webUrl": "https://www.cinecolombia.com/films/torah-tropical/HO00000882/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

@@ -7,6 +7,69 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Pressure</title>
+      <link>https://www.cinecolombia.com/films/pressure/HO00000629/</link>
+      <guid isPermaLink="false">0e10e3d3-fa2d-46e9-8da3-5a82ee2a00a7</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Mutiny</title>
+      <link>https://www.cinecolombia.com/films/mutiny/HO00000634/</link>
+      <guid isPermaLink="false">04a11faa-d71d-4a88-9fd7-c26ec445c3ee</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Tras presenciar el asesinato de su jefe multimillonario y ser incriminado por el crimen, Cole Reed aborda un barco de carga en una misión en solitario.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Insidious: Out of the Further</title>
+      <link>https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/</link>
+      <guid isPermaLink="false">87ef51b4-7f8b-458d-b242-003b7ef73df4</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Saccharine</title>
+      <link>https://www.cinecolombia.com/films/saccharine/HO00000695/</link>
+      <guid isPermaLink="false">13f52fef-919f-408e-bbf9-14a9f0508862</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Practical Magic 2</title>
+      <link>https://www.cinecolombia.com/films/practical-magic-2/HO00000749/</link>
+      <guid isPermaLink="false">ccfcd62b-1c7a-4e4c-8db1-23c01b4e8f3f</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Her private hell</title>
+      <link>https://www.cinecolombia.com/films/her-private-hell/HO00000753/</link>
+      <guid isPermaLink="false">452de01b-6be9-4370-8d10-9436bd3eadc2</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Tres Hermanas</title>
+      <link>https://www.cinecolombia.com/films/tres-hermanas/HO00000782/</link>
+      <guid isPermaLink="false">39465088-7b6d-4274-9009-d13e2fb7cb83</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. </description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Sois belle et tais-toi</title>
+      <link>https://www.cinecolombia.com/films/sois-belle-et-tais-toi/HO00000816/</link>
+      <guid isPermaLink="false">89f8a60a-96cb-411d-8c08-4236044236a2</guid>
+      <pubDate>Thu, 01 Oct 2026 11:00:58 GMT</pubDate>
+      <description>Delphine Seyrig entrevista a veinticuatro actrices francesas y estadounidenses sobre su carrera, revelando el sexismo que atraviesa la industria del cine.</description>
+    </item>
+    <item>
       <title>En cartelera: Street Fighter</title>
       <link>https://www.cinecolombia.com/films/street-fighter/HO00000666/</link>
       <guid isPermaLink="false">fb6eeaa9-8982-4ca5-8620-0dc4ff324460</guid>
@@ -733,70 +796,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Makikiraan Po</title>
-      <link>https://www.cinecolombia.com/films/makikiraan-po/HO00000872/</link>
-      <guid isPermaLink="false">3ebb6907-1007-45f7-9ca8-02201e61985c</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>El padre Enciso, encomendero cruel en Filipinas, construye una iglesia con mármol robado. Encarga a su hijo Dungwen supervisar el peligroso transporte de las piedras.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Luis Tercero</title>
-      <link>https://www.cinecolombia.com/films/luis-tercero/HO00000873/</link>
-      <guid isPermaLink="false">0cebd5e5-0992-4d17-8d98-6c2d73f422ff</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Sants</title>
-      <link>https://www.cinecolombia.com/films/sants/HO00000874/</link>
-      <guid isPermaLink="false">896e0eee-1194-4eb4-a13b-a7beeacc6be5</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Mientras lidia con la inminente muerte de su madre, Lali entra a formar parte de una banda de ladrones de figuras religiosas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Yak Mai</title>
-      <link>https://www.cinecolombia.com/films/yak-mai/HO00000875/</link>
-      <guid isPermaLink="false">fcec566a-6a13-4ce5-b524-1475e3e7442e</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Un humo misterioso en Tailandia desata una extraña enfermedad. Un aldeano karen, en cuarentena, sueña con volver a casa, mientras guardabosques amenazan su aldea.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The man I love</title>
-      <link>https://www.cinecolombia.com/films/the-man-i-love/HO00000876/</link>
-      <guid isPermaLink="false">794c038d-2547-48d2-8cfb-a600f4aec073</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Fin de los 80 en Nueva York, Jimmy George se rebela contra su mortalidad con un nuevo papel, un romance imprudente y el abrazo de su comunidad creativa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Twenty Years of the Met in Cinemas</title>
-      <link>https://www.cinecolombia.com/films/twenty-years-of-the-met-in-cinemas/HO00000757/</link>
-      <guid isPermaLink="false">f5d12ff6-30aa-415c-9a4b-9fe630443a04</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>The Met: Live in HD&apos; celebra 20 años llevando ópera a cines de 70 países. Con Renée Fleming, arias de 185 óperas y más de 33 millones de boletos vendidos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dm7qMSsA7XJc2eB55Zsg8YvsTby.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Les roches rouges</title>
-      <link>https://www.cinecolombia.com/films/les-roches-rouges/HO00000852/</link>
-      <guid isPermaLink="false">eadecb13-ffc0-4d3a-9dce-5ed00e381d04</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>En la Costa Azul, dos pandillas de niños compiten saltando desde acantilados. Géo, de cinco años, vive un verano de amistad, rivalidad y primeros sentimientos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Siempre soy tu animal materno</title>
-      <link>https://www.cinecolombia.com/films/siempre-soy-tu-animal-materno/HO00000853/</link>
-      <guid isPermaLink="false">72c61073-b3eb-4612-b0c1-d4a8b24cac06</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Elsa regresa a Costa Rica y halla a su hermana aislada mientras sus padres viven absortos en lo suyo. Su vuelta enfrenta a las tres mujeres a lo que aún las une.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg" medium="image" />
     </item>
   </channel>
 </rss>

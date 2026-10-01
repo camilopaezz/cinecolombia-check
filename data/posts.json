@@ -14664,6 +14664,326 @@
           "posterPath": "/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg"
         }
       }
+    },
+    {
+      "guid": "0e10e3d3-fa2d-46e9-8da3-5a82ee2a00a7",
+      "type": "removed",
+      "filmId": "HO00000629",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000629",
+        "title": "Pressure",
+        "shortSynopsis": "Sigue las 72 horas decisivas previas al Día D, cuando un grupo de figuras clave enfrenta una presión extrema ante la inminencia de la invasión aliada.",
+        "releaseDate": "2026-08-06",
+        "runtimeInMinutes": 100,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Anthony Maras",
+        "webUrl": "https://www.cinecolombia.com/films/pressure/HO00000629/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg",
+        "tmdb": {
+          "tmdbId": 1318413,
+          "posterPath": "/d0PeqfICHgKnQ2f8YxyRJAg62fK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "04a11faa-d71d-4a88-9fd7-c26ec445c3ee",
+      "type": "removed",
+      "filmId": "HO00000634",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000634",
+        "title": "Mutiny",
+        "shortSynopsis": "Tras presenciar el asesinato de su jefe multimillonario y ser incriminado por el crimen, Cole Reed aborda un barco de carga en una misión en solitario.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jean-François Richet",
+        "webUrl": "https://www.cinecolombia.com/films/mutiny/HO00000634/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg",
+        "tmdb": {
+          "tmdbId": 1288445,
+          "posterPath": "/aAnTt6KpmbbHbd6xH3FQFlppZjc.jpg"
+        }
+      }
+    },
+    {
+      "guid": "87ef51b4-7f8b-458d-b242-003b7ef73df4",
+      "type": "removed",
+      "filmId": "HO00000641",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000641",
+        "title": "Insidious: Out of the Further",
+        "shortSynopsis": "Amelia Eve interpreta a Gemma, una joven madre que cría a su hija en la casa donde creció y descubre que puede viajar al Más Allá, el reino purgatorial de las almas.",
+        "releaseDate": "2026-08-20",
+        "runtimeInMinutes": 106,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Jacob Chase",
+        "webUrl": "https://www.cinecolombia.com/films/insidious-out-of-the-further/HO00000641/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mM6M6jv1HFijAdxavvyKu9qN2De.jpg",
+        "tmdb": {
+          "tmdbId": 1291595,
+          "posterPath": "/mM6M6jv1HFijAdxavvyKu9qN2De.jpg"
+        }
+      }
+    },
+    {
+      "guid": "13f52fef-919f-408e-bbf9-14a9f0508862",
+      "type": "removed",
+      "filmId": "HO00000695",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000695",
+        "title": "Saccharine",
+        "shortSynopsis": "Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 113,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Ciencia Ficción",
+          "Drama",
+          "Terror"
+        ],
+        "director": "Natalie Erika James",
+        "webUrl": "https://www.cinecolombia.com/films/saccharine/HO00000695/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg",
+        "tmdb": {
+          "tmdbId": 1363387,
+          "posterPath": "/zMYFsfuHttGtHnXquWkIWI9Min8.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ccfcd62b-1c7a-4e4c-8db1-23c01b4e8f3f",
+      "type": "removed",
+      "filmId": "HO00000749",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000749",
+        "title": "Practical Magic 2",
+        "shortSynopsis": "Una familia multigeneracional de brujas, condenada a no tener amor durante siglos, intenta romper el hechizo enfrentándose a oscuros secretos.",
+        "releaseDate": "2026-09-10",
+        "runtimeInMinutes": 125,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Fantasía",
+          "Romance"
+        ],
+        "director": "Susanne Bier",
+        "webUrl": "https://www.cinecolombia.com/films/practical-magic-2/HO00000749/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg",
+        "tmdb": {
+          "tmdbId": 1302904,
+          "posterPath": "/ycnfDX7shszJ0xqUEONt9RnDwhK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "452de01b-6be9-4370-8d10-9436bd3eadc2",
+      "type": "removed",
+      "filmId": "HO00000753",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000753",
+        "title": "Her private hell",
+        "shortSynopsis": "Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 110,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Crimen",
+          "Drama",
+          "Misterio"
+        ],
+        "director": "Nicolas Winding Refn",
+        "webUrl": "https://www.cinecolombia.com/films/her-private-hell/HO00000753/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg",
+        "tmdb": {
+          "tmdbId": 1469342,
+          "posterPath": "/kiFacg75KVjy0AM3S4QmbPas8zL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "39465088-7b6d-4274-9009-d13e2fb7cb83",
+      "type": "removed",
+      "filmId": "HO00000782",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000782",
+        "title": "Tres Hermanas",
+        "shortSynopsis": "Tres hermanas es un retrato íntimo y lúcido sobre el paso del tiempo y la fragilidad de los vínculos. ",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 79,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental",
+          "Drama"
+        ],
+        "director": "Joyce Ventura",
+        "webUrl": "https://www.cinecolombia.com/films/tres-hermanas/HO00000782/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cOuwEupfObFw7FZSQrssFehG3F0.jpg",
+        "tmdb": {
+          "tmdbId": 1227852,
+          "posterPath": "/cOuwEupfObFw7FZSQrssFehG3F0.jpg"
+        }
+      }
+    },
+    {
+      "guid": "89f8a60a-96cb-411d-8c08-4236044236a2",
+      "type": "removed",
+      "filmId": "HO00000816",
+      "createdAt": "2026-10-01T11:00:58.559Z",
+      "snapshot": {
+        "id": "HO00000816",
+        "title": "Sois belle et tais-toi",
+        "shortSynopsis": "Delphine Seyrig entrevista a veinticuatro actrices francesas y estadounidenses sobre su carrera, revelando el sexismo que atraviesa la industria del cine.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 111,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Delphine Seyrig",
+        "webUrl": "https://www.cinecolombia.com/films/sois-belle-et-tais-toi/HO00000816/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

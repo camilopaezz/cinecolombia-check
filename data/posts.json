@@ -14984,6 +14984,47 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "85fc9075-1915-4cd3-90fa-daed0ab7098a",
+      "type": "removed",
+      "filmId": "HO00000667",
+      "createdAt": "2026-10-01T17:00:57.457Z",
+      "snapshot": {
+        "id": "HO00000667",
+        "title": "The Magic Faraway Tree",
+        "shortSynopsis": "Polly, Tim, y sus tres hijos son una familia que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 110,
+        "censorRating": "Todos",
+        "genres": [
+          "Aventura",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Ben Gregor",
+        "webUrl": "https://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg",
+        "tmdb": {
+          "tmdbId": 1140521,
+          "posterPath": "/udXvLxC5gAqN8SinemyFBEcHpTf.jpg"
+        }
+      }
     }
   ]
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: The Magic Faraway Tree</title>
+      <link>https://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/</link>
+      <guid isPermaLink="false">85fc9075-1915-4cd3-90fa-daed0ab7098a</guid>
+      <pubDate>Thu, 01 Oct 2026 17:00:57 GMT</pubDate>
+      <description>Polly, Tim, y sus tres hijos son una familia que se ve obligada a mudarse a la remota campiña inglesa. Poco después de su llegada, los niños descubren un árbol mágico</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/udXvLxC5gAqN8SinemyFBEcHpTf.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Pressure</title>
       <link>https://www.cinecolombia.com/films/pressure/HO00000629/</link>
       <guid isPermaLink="false">0e10e3d3-fa2d-46e9-8da3-5a82ee2a00a7</guid>
@@ -788,14 +796,6 @@
       <guid isPermaLink="false">9ac9097d-4b82-4e83-b4b6-5b24e90ebaaa</guid>
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Chelo y Marta, hermanas, ven su vínculo puesto a prueba cuando un suceso sacude a su familia, obligándolas a decidir hasta dónde llegar para proteger a los suyos.</description>
-    </item>
-    <item>
-      <title>En cartelera: La Gradiva</title>
-      <link>https://www.cinecolombia.com/films/la-gradiva/HO00000871/</link>
-      <guid isPermaLink="false">f98c0d74-e0b0-4ee8-8267-89c495ce6312</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg" medium="image" />
     </item>
   </channel>
 </rss>

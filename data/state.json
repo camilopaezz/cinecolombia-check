@@ -14,14 +14,12 @@
       "director": "Alejandro González Iñárritu",
       "webUrl": "https://www.cinecolombia.com/films/digger/HO00000381/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -70,40 +68,6 @@
       "tmdb": {
         "tmdbId": 1368337,
         "posterPath": "/bheY17L6wtB0SdJn6EYyh1X5iry.jpg"
-      }
-    },
-    {
-      "id": "HO00000451",
-      "title": "Minions & Monsters",
-      "shortSynopsis": "Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.",
-      "releaseDate": "2026-07-02",
-      "runtimeInMinutes": 90,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Comedia"
-      ],
-      "director": "Pierre Coffin",
-      "webUrl": "https://www.cinecolombia.com/films/minions-monsters/HO00000451/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg",
-      "tmdb": {
-        "tmdbId": 1315772,
-        "posterPath": "/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg"
       }
     },
     {
@@ -223,14 +187,12 @@
       "director": "Zhong Ding",
       "webUrl": "https://www.cinecolombia.com/films/into-the-mortal-world/HO00000599/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -388,14 +350,12 @@
       "director": "Joel Crawford",
       "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -409,42 +369,6 @@
       "tmdb": {
         "tmdbId": 1465063,
         "posterPath": "/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg"
-      }
-    },
-    {
-      "id": "HO00000632",
-      "title": "Paw Patrol: The Dino Movie",
-      "shortSynopsis": "Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.",
-      "releaseDate": "2026-08-06",
-      "runtimeInMinutes": 88,
-      "censorRating": "Todos",
-      "genres": [
-        "Acción",
-        "Animación",
-        "Aventura"
-      ],
-      "director": "Cal Brunker",
-      "webUrl": "https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg",
-      "tmdb": {
-        "tmdbId": 1185806,
-        "posterPath": "/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg"
       }
     },
     {
@@ -618,39 +542,6 @@
       }
     },
     {
-      "id": "HO00000651",
-      "title": "Charlie the Wonderdog",
-      "shortSynopsis": "Danny, un niño tímido, imagina un mundo extraordinario donde él y su querido perro Charlie protagonizan sus propias aventuras de superhéroes.",
-      "releaseDate": "2026-09-17",
-      "runtimeInMinutes": 91,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación"
-      ],
-      "director": "Shea Wageman",
-      "webUrl": "https://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/whvkL0wzxgKmVbaPontq9NlVd5z.jpg",
-      "tmdb": {
-        "tmdbId": 1276521,
-        "posterPath": "/whvkL0wzxgKmVbaPontq9NlVd5z.jpg"
-      }
-    },
-    {
       "id": "HO00000666",
       "title": "Street Fighter",
       "shortSynopsis": "En 1993, Ryu (Andrew Koji) y Ken Masters (Noah Centineo) son reclutados por Chun-Li para el Torneo Mundial de Guerreros, en medio de una conspiración mortal.",
@@ -663,13 +554,22 @@
       "director": "Kitao Sakurai",
       "webUrl": "https://www.cinecolombia.com/films/street-fighter/HO00000666/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000003",
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000010"
           ]
         }
       ],
@@ -704,8 +604,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -838,19 +737,13 @@
       "director": "Enrique Gato",
       "webUrl": "https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
+            "ComingSoon"
           ]
         }
       ],
@@ -1343,14 +1236,12 @@
       "director": "Michael Showalter",
       "webUrl": "https://www.cinecolombia.com/films/verity/HO00000736/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1382,14 +1273,12 @@
       "director": "Michael Spierig",
       "webUrl": "https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2042,8 +1931,6 @@
             "0000000005",
             "0000000007",
             "0000000008",
-            "0000000009",
-            "0000000010",
             "0000000014"
           ]
         }
@@ -2228,39 +2115,6 @@
       }
     },
     {
-      "id": "HO00000773",
-      "title": "Unicornio",
-      "shortSynopsis": "Unicornio', con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.",
-      "releaseDate": "2026-09-17",
-      "runtimeInMinutes": 113,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Natural Arpajou",
-      "webUrl": "https://www.cinecolombia.com/films/unicornio/HO00000773/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg",
-      "tmdb": {
-        "tmdbId": 1153714,
-        "posterPath": "/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg"
-      }
-    },
-    {
       "id": "HO00000775",
       "title": "The Get Out",
       "shortSynopsis": "Basada en 'Strip' de Thomas Perry: un dueño de club nocturno listo para retirarse enfrenta traiciones tras un violento asalto, en una lucha por sobrevivir.",
@@ -2346,8 +2200,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -2508,14 +2361,12 @@
       "director": "Annemarie Jacir",
       "webUrl": "https://www.cinecolombia.com/films/palestine-36/HO00000785/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3285,73 +3136,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000814",
-      "title": "Dossier 137",
-      "shortSynopsis": "Stéphanie, investigadora de la IGPN, indaga un caso de un joven herido por LBD en una manifestación, pero algo inesperado hace que el caso deje de ser uno más para ella.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 116,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Crimen",
-        "Drama"
-      ],
-      "director": "Dominik Moll",
-      "webUrl": "https://www.cinecolombia.com/films/dossier-137/HO00000814/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg",
-      "tmdb": {
-        "tmdbId": 1294698,
-        "posterPath": "/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg"
-      }
-    },
-    {
-      "id": "HO00000815",
-      "title": "Mateo",
-      "shortSynopsis": "Mateo, de 16 años, cobra extorsiones para su tío criminal. Enviado a infiltrar un grupo de teatro, queda atrapado entre la lealtad familiar y un mundo nuevo.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 86,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Maria Gamboa",
-      "webUrl": "https://www.cinecolombia.com/films/mateo/HO00000815/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg",
-      "tmdb": {
-        "tmdbId": 1711956,
-        "posterPath": "/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg"
-      }
     },
     {
       "id": "HO00000816",
@@ -5576,14 +5360,12 @@
       "director": "David Súkup",
       "webUrl": "https://www.cinecolombia.com/films/tales-from-the-magic-garden/HO00000880/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -6588,14 +6370,41 @@
     }
   },
   "missingRuns": {
-    "HO00000451": 1,
-    "HO00000632": 1,
-    "HO00000651": 1,
-    "HO00000667": 1,
-    "HO00000773": 1,
-    "HO00000814": 1,
-    "HO00000815": 1
+    "HO00000629": 1,
+    "HO00000634": 1,
+    "HO00000641": 1,
+    "HO00000695": 1,
+    "HO00000749": 1,
+    "HO00000753": 1,
+    "HO00000782": 1,
+    "HO00000816": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-09-30T23:00:45.207Z"
+  "pendingCategoryLosses": {
+    "HO00000381": {
+      "AdvanceBooking": 1
+    },
+    "HO00000599": {
+      "AdvanceBooking": 1
+    },
+    "HO00000630": {
+      "AdvanceBooking": 1
+    },
+    "HO00000703": {
+      "AdvanceBooking": 1,
+      "NowShowing": 1
+    },
+    "HO00000736": {
+      "AdvanceBooking": 1
+    },
+    "HO00000738": {
+      "AdvanceBooking": 1
+    },
+    "HO00000785": {
+      "AdvanceBooking": 1
+    },
+    "HO00000880": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-01T05:00:59.920Z"
 }

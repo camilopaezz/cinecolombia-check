@@ -7,6 +7,62 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Street Fighter</title>
+      <link>https://www.cinecolombia.com/films/street-fighter/HO00000666/</link>
+      <guid isPermaLink="false">fb6eeaa9-8982-4ca5-8620-0dc4ff324460</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>En 1993, Ryu (Andrew Koji) y Ken Masters (Noah Centineo) son reclutados por Chun-Li para el Torneo Mundial de Guerreros, en medio de una conspiración mortal.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Minions &amp; Monsters</title>
+      <link>https://www.cinecolombia.com/films/minions-monsters/HO00000451/</link>
+      <guid isPermaLink="false">7fb9cf5f-b953-4b40-a2cc-6a57b09174d0</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Regresan los Minions con una historia sobre cómo conquistaron Hollywood,  lo perdieron todo, desataron monstruos en el mundo y luego se unieron para salvar al planeta.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7DUzo8Ys7BfmZpqnzIwG4qA0egl.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Paw Patrol: The Dino Movie</title>
+      <link>https://www.cinecolombia.com/films/paw-patrol-the-dino-movie/HO00000632/</link>
+      <guid isPermaLink="false">8d038e1f-a613-4d96-a242-abf41f8b7a5d</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Tras quedar atrapados en una misteriosa tormenta, los cachorros de la Patrulla Canina aterrizan forzosamente en una isla tropical inexplorada, habitada por dinosaurios.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mVx2O7ikolw0lQC3XEIM4C2uYwd.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Charlie the Wonderdog</title>
+      <link>https://www.cinecolombia.com/films/charlie-the-wonderdog/HO00000651/</link>
+      <guid isPermaLink="false">4162dd0d-8de3-4e7f-a65b-a389b4a2a223</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Danny, un niño tímido, imagina un mundo extraordinario donde él y su querido perro Charlie protagonizan sus propias aventuras de superhéroes.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/whvkL0wzxgKmVbaPontq9NlVd5z.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Unicornio</title>
+      <link>https://www.cinecolombia.com/films/unicornio/HO00000773/</link>
+      <guid isPermaLink="false">b79a4971-6871-4902-83a2-7bcee3dfe3a0</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Unicornio&apos;, con Carolina Ramírez: cuatro mujeres marcadas por el abuso se cruzan en Constitución, Buenos Aires, en una historia de amistad, resiliencia y esperanza.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7ONypZBnKXAAzr1zCNDo88AD6qf.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Dossier 137</title>
+      <link>https://www.cinecolombia.com/films/dossier-137/HO00000814/</link>
+      <guid isPermaLink="false">6bd61758-4ba6-4a7c-bc3d-5c02719860b1</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Stéphanie, investigadora de la IGPN, indaga un caso de un joven herido por LBD en una manifestación, pero algo inesperado hace que el caso deje de ser uno más para ella.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kROhtE1DPiU8kY9QRUUJDto4Bw4.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Mateo</title>
+      <link>https://www.cinecolombia.com/films/mateo/HO00000815/</link>
+      <guid isPermaLink="false">b0db27d5-ca11-4fab-9101-c182cd19110d</guid>
+      <pubDate>Thu, 01 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Mateo, de 16 años, cobra extorsiones para su tío criminal. Enviado a infiltrar un grupo de teatro, queda atrapado entre la lealtad familiar y un mundo nuevo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cEktGsCaL4vVMV5nyKlNUPBXhPo.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Rally: From Paris to the Pyramids</title>
       <link>https://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/</link>
       <guid isPermaLink="false">338c757e-2beb-4db1-8261-b133b3b52f54</guid>
@@ -741,62 +797,6 @@
       <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
       <description>Elsa regresa a Costa Rica y halla a su hermana aislada mientras sus padres viven absortos en lo suyo. Su vuelta enfrenta a las tres mujeres a lo que aún las une.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/2z1ce203n8qJzR6PFoi5wNs2Shj.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Soumsoum, la nuit des astres</title>
-      <link>https://www.cinecolombia.com/films/soumsoum-la-nuit-des-astres/HO00000854/</link>
-      <guid isPermaLink="false">8d793c8c-43af-4f83-a7b9-517d52fa54b1</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>En el desierto de Ennedi, Kellou, atormentada por visiones, encuentra en Aya una hermandad que enfrenta a la hostilidad del pueblo mientras lucha por su libertad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Temporada de caza</title>
-      <link>https://www.cinecolombia.com/films/temporada-de-caza/HO00000855/</link>
-      <guid isPermaLink="false">53209bfb-479e-4fda-9f36-6604004fbabf</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Der Heimatlose</title>
-      <link>https://www.cinecolombia.com/films/der-heimatlose/HO00000856/</link>
-      <guid isPermaLink="false">b5439637-ea2a-497d-b053-2a7e2afab95e</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Pacífico&apos; sigue a buzos que desaparecen en el Pacífico cuando una corriente los arrastra y separa. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wghpbjfWAkvXVCq5GVs2j56tTdA.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Tristan Forever</title>
-      <link>https://www.cinecolombia.com/films/tristan-forever/HO00000857/</link>
-      <guid isPermaLink="false">e105013b-369c-4a73-b872-7a058db4ad39</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Loran Bonnardot, médico parisino, regresa a Tristán da Cunha buscando convertirse en residente permanente. ¿Lo aceptará el consejo de la isla?</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9DPBGoVwxnGtEkUaB0YwpBTPaSc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Variasies op ‘n Tema</title>
-      <link>https://www.cinecolombia.com/films/variasies-op-n-tema/HO00000858/</link>
-      <guid isPermaLink="false">095de1bd-aeb0-415d-a5fb-d5796a535d54</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Una anciana pastora sudafricana es estafada con una falsa indemnización de guerra. Mientras espera un dinero que no llega, su cumpleaños 80 amenaza su independencia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: We Are Aliens</title>
-      <link>https://www.cinecolombia.com/films/we-are-aliens/HO00000859/</link>
-      <guid isPermaLink="false">e3dcfaa1-e54a-4c5a-b189-b61545f7e4ea</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>¿Y si te dijera que soy un extraterrestre?&apos;. En un pequeño pueblo japonés, la traición de un chico común desata algo que intentará olvidar toda su vida.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Zama</title>
-      <link>https://www.cinecolombia.com/films/zama/HO00000860/</link>
-      <guid isPermaLink="false">002d8f50-2019-4957-a56e-d88b6a144a3b</guid>
-      <pubDate>Fri, 18 Sep 2026 23:00:34 GMT</pubDate>
-      <description>Diego de Zama, funcionario colonial, espera años una carta del Rey que nunca llega. Tras perderlo todo, se une a una partida en busca de un peligroso bandido.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg" medium="image" />
     </item>
   </channel>
 </rss>

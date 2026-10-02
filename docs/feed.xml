@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Les choristes</title>
+      <link>https://www.cinecolombia.com/films/les-choristes/HO00000812/</link>
+      <guid isPermaLink="false">2c7a6309-dfbc-460d-b8dd-cba67ad28451</guid>
+      <pubDate>Fri, 02 Oct 2026 05:00:59 GMT</pubDate>
+      <description>En 1949, Clément Mathieu, profesor desempleado, llega como supervisor a un internado con métodos represivos. Al enseñarles a cantar, transforma la vida de los chicos.</description>
+    </item>
+    <item>
+      <title>Ya no disponible: Litigante</title>
+      <link>https://www.cinecolombia.com/films/litigante/HO00000817/</link>
+      <guid isPermaLink="false">d81d4677-539f-4c06-8b24-d2f16a3e15a3</guid>
+      <pubDate>Fri, 02 Oct 2026 05:00:59 GMT</pubDate>
+      <description>Silvia, abogada y madre soltera al límite, cuida a su hijo y a su madre enferma mientras enfrenta una acusación de corrupción, justo cuando el amor reaparece en su vida.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: The Magic Faraway Tree</title>
       <link>https://www.cinecolombia.com/films/the-magic-faraway-tree/HO00000667/</link>
       <guid isPermaLink="false">85fc9075-1915-4cd3-90fa-daed0ab7098a</guid>
@@ -781,21 +796,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Gabin, destinado a heredar la carnicería familiar, sueña con criar animales y salvar la granja de su madre. Su historia se sigue desde los 8 hasta los 18 años.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Adieu Monde Cruel</title>
-      <link>https://www.cinecolombia.com/films/adieu-monde-cruel/HO00000869/</link>
-      <guid isPermaLink="false">1042937b-78e7-44b7-af6b-37e08ca278f3</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Otto, de 14 años, desaparece tras enviar cartas de despedida a sus compañeros. Aunque todos lo creen muerto, Lena lo reconoce deambulando por la ciudad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Hermanas</title>
-      <link>https://www.cinecolombia.com/films/hermanas/HO00000870/</link>
-      <guid isPermaLink="false">9ac9097d-4b82-4e83-b4b6-5b24e90ebaaa</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Chelo y Marta, hermanas, ven su vínculo puesto a prueba cuando un suceso sacude a su familia, obligándolas a decidir hasta dónde llegar para proteger a los suyos.</description>
     </item>
   </channel>
 </rss>

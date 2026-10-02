@@ -2832,69 +2832,6 @@
       }
     },
     {
-      "id": "HO00000812",
-      "title": "Les choristes",
-      "shortSynopsis": "En 1949, Clément Mathieu, profesor desempleado, llega como supervisor a un internado con métodos represivos. Al enseñarles a cantar, transforma la vida de los chicos.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 95,
-      "censorRating": "Todos",
-      "genres": [
-        "Drama",
-        "Musical"
-      ],
-      "director": "Christophe Barratier",
-      "webUrl": "https://www.cinecolombia.com/films/les-choristes/HO00000812/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": null
-    },
-    {
-      "id": "HO00000817",
-      "title": "Litigante",
-      "shortSynopsis": "Silvia, abogada y madre soltera al límite, cuida a su hijo y a su madre enferma mientras enfrenta una acusación de corrupción, justo cuando el amor reaparece en su vida.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 95,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Franco Lolli",
-      "webUrl": "https://www.cinecolombia.com/films/litigante/HO00000817/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg",
-      "tmdb": {
-        "tmdbId": 585073,
-        "posterPath": "/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg"
-      }
-    },
-    {
       "id": "HO00000818",
       "title": "Trois couleurs: Bleu",
       "shortSynopsis": "Julie sobrevive a un accidente que mata a su esposo e hija y busca aislarse. Olivier la ayuda a reconectar con la vida y completar la obra inacabada de su marido.",
@@ -6065,9 +6002,8 @@
     }
   },
   "missingRuns": {
-    "HO00000812": 1,
-    "HO00000817": 1
+    "HO00000818": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-01T23:01:00.245Z"
+  "lastRun": "2026-10-02T05:00:59.951Z"
 }

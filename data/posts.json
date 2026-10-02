@@ -15100,6 +15100,47 @@
           "posterPath": "/irB8Y0Kmuo5X3LThmgId4fwAidT.jpg"
         }
       }
+    },
+    {
+      "guid": "dae1a48c-6026-467d-acdd-6c663cb41c0a",
+      "type": "removed",
+      "filmId": "HO00000818",
+      "createdAt": "2026-10-02T11:01:01.332Z",
+      "snapshot": {
+        "id": "HO00000818",
+        "title": "Trois couleurs: Bleu",
+        "shortSynopsis": "Julie sobrevive a un accidente que mata a su esposo e hija y busca aislarse. Olivier la ayuda a reconectar con la vida y completar la obra inacabada de su marido.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 98,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Misterio",
+          "Musical"
+        ],
+        "director": "Krzysztof Kieslowski",
+        "webUrl": "https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg",
+        "tmdb": {
+          "tmdbId": 108,
+          "posterPath": "/acF0MZyMhe1svIxp17xxIstPIqi.jpg"
+        }
+      }
     }
   ]
 }

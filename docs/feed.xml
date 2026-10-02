@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Trois couleurs: Bleu</title>
+      <link>https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/</link>
+      <guid isPermaLink="false">dae1a48c-6026-467d-acdd-6c663cb41c0a</guid>
+      <pubDate>Fri, 02 Oct 2026 11:01:01 GMT</pubDate>
+      <description>Julie sobrevive a un accidente que mata a su esposo e hija y busca aislarse. Olivier la ayuda a reconectar con la vida y completar la obra inacabada de su marido.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Les choristes</title>
       <link>https://www.cinecolombia.com/films/les-choristes/HO00000812/</link>
       <guid isPermaLink="false">2c7a6309-dfbc-460d-b8dd-cba67ad28451</guid>
@@ -788,14 +796,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Los Gheorghiu se instalan en un pueblo noruego y entablan amistad con los Halberg. Al aparecer moretones en Elia, la comunidad sospecha de su educación tradicional.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Gabin</title>
-      <link>https://www.cinecolombia.com/films/gabin/HO00000868/</link>
-      <guid isPermaLink="false">fc052690-8cdb-47af-a13f-5cf1578bb2da</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Gabin, destinado a heredar la carnicería familiar, sueña con criar animales y salvar la granja de su madre. Su historia se sigue desde los 8 hasta los 18 años.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg" medium="image" />
     </item>
   </channel>
 </rss>

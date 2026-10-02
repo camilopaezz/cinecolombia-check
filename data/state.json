@@ -2832,41 +2832,6 @@
       }
     },
     {
-      "id": "HO00000818",
-      "title": "Trois couleurs: Bleu",
-      "shortSynopsis": "Julie sobrevive a un accidente que mata a su esposo e hija y busca aislarse. Olivier la ayuda a reconectar con la vida y completar la obra inacabada de su marido.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 98,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama",
-        "Misterio",
-        "Musical"
-      ],
-      "director": "Krzysztof Kieslowski",
-      "webUrl": "https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/acF0MZyMhe1svIxp17xxIstPIqi.jpg",
-      "tmdb": {
-        "tmdbId": 108,
-        "posterPath": "/acF0MZyMhe1svIxp17xxIstPIqi.jpg"
-      }
-    },
-    {
       "id": "HO00000819",
       "title": "Persepolis",
       "shortSynopsis": "Marji, niña iraní rebelde, crece en Teherán durante la Revolución Islámica, enfrenta represión y guerra, y luego el exilio en Viena, buscando su identidad entre dos mundo",
@@ -4938,6 +4903,7 @@
             "0000000005",
             "0000000007",
             "0000000008",
+            "0000000009",
             "0000000014"
           ]
         }
@@ -6001,9 +5967,7 @@
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000818": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-02T05:00:59.951Z"
+  "lastRun": "2026-10-02T11:01:01.335Z"
 }

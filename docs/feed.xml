@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Tadeo Jones y la lámpara maravillosa</title>
+      <link>https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/</link>
+      <guid isPermaLink="false">2e9054c1-4303-4192-a70c-051bfa25040a</guid>
+      <pubDate>Fri, 02 Oct 2026 23:00:59 GMT</pubDate>
+      <description>Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Trois couleurs: Bleu</title>
       <link>https://www.cinecolombia.com/films/trois-couleurs-bleu/HO00000818/</link>
       <guid isPermaLink="false">dae1a48c-6026-467d-acdd-6c663cb41c0a</guid>
@@ -788,14 +796,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Fjord</title>
-      <link>https://www.cinecolombia.com/films/fjord/HO00000867/</link>
-      <guid isPermaLink="false">4f8cfd77-92f3-4bca-9a76-c12654edeab4</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Los Gheorghiu se instalan en un pueblo noruego y entablan amistad con los Halberg. Al aparecer moretones en Elia, la comunidad sospecha de su educación tradicional.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg" medium="image" />
     </item>
   </channel>
 </rss>

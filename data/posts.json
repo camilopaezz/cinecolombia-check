@@ -15141,6 +15141,49 @@
           "posterPath": "/acF0MZyMhe1svIxp17xxIstPIqi.jpg"
         }
       }
+    },
+    {
+      "guid": "2e9054c1-4303-4192-a70c-051bfa25040a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000703",
+      "createdAt": "2026-10-02T23:00:59.531Z",
+      "snapshot": {
+        "id": "HO00000703",
+        "title": "Tadeo Jones y la lámpara maravillosa",
+        "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 94,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Enrique Gato",
+        "webUrl": "https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
+        "tmdb": {
+          "tmdbId": 1187326,
+          "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
+        }
+      }
     }
   ]
 }

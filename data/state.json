@@ -565,13 +565,19 @@
       "director": "Enrique Gato",
       "webUrl": "https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -1907,8 +1913,8 @@
       "title": "Colony",
       "shortSynopsis": "En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.",
       "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 122,
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Suspenso",
@@ -5969,5 +5975,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-02T11:01:01.335Z"
+  "lastRun": "2026-10-02T23:00:59.535Z"
 }

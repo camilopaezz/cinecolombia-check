@@ -1534,14 +1534,12 @@
       "director": "The Metropolitan Opera",
       "webUrl": "https://www.cinecolombia.com/films/cosi-fan-tutte/HO00000761/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -5973,7 +5971,13 @@
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
     }
   },
-  "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-02T23:00:59.535Z"
+  "missingRuns": {
+    "HO00000802": 1
+  },
+  "pendingCategoryLosses": {
+    "HO00000761": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-03T05:01:00.567Z"
 }

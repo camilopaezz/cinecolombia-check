@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Climax</title>
+      <link>https://www.cinecolombia.com/films/climax/HO00000802/</link>
+      <guid isPermaLink="false">6e89ede9-8179-44c7-bc3a-ac6bd8555fee</guid>
+      <pubDate>Sat, 03 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Una compañía de baile ensaya en una escuela abandonada durante una tormenta de nieve. Al descubrir que su sangría tenía LSD, la noche se vuelve un caos de paranoia y vio</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Tadeo Jones y la lámpara maravillosa</title>
       <link>https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/</link>
       <guid isPermaLink="false">2e9054c1-4303-4192-a70c-051bfa25040a</guid>
@@ -788,14 +796,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Elephants in the fog</title>
-      <link>https://www.cinecolombia.com/films/elephants-in-the-fog/HO00000866/</link>
-      <guid isPermaLink="false">b86d7d38-673b-4b3b-bfb5-7b34d1e6cbde</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg" medium="image" />
     </item>
   </channel>
 </rss>

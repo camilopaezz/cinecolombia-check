@@ -15184,6 +15184,47 @@
           "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
         }
       }
+    },
+    {
+      "guid": "6e89ede9-8179-44c7-bc3a-ac6bd8555fee",
+      "type": "removed",
+      "filmId": "HO00000802",
+      "createdAt": "2026-10-03T11:01:00.500Z",
+      "snapshot": {
+        "id": "HO00000802",
+        "title": "Climax",
+        "shortSynopsis": "Una compañía de baile ensaya en una escuela abandonada durante una tormenta de nieve. Al descubrir que su sangría tenía LSD, la noche se vuelve un caos de paranoia y vio",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 95,
+        "censorRating": "+18 Años",
+        "genres": [
+          "Drama",
+          "Musical",
+          "Terror"
+        ],
+        "director": "Gaspar Noé",
+        "webUrl": "https://www.cinecolombia.com/films/climax/HO00000802/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
+        "tmdb": {
+          "tmdbId": 1723396,
+          "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+        }
+      }
     }
   ]
 }

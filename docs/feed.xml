@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Così fan tutte</title>
+      <link>https://www.cinecolombia.com/films/cosi-fan-tutte/HO00000761/</link>
+      <guid isPermaLink="false">5a8f8400-d13e-4339-ac6b-f1e8ebcd946e</guid>
+      <pubDate>Sun, 04 Oct 2026 05:01:00 GMT</pubDate>
+      <description>Così fan tutte&apos; de Mozart, con puesta de Phelim McDermott en un parque tipo Coney Island años 50. Sátira en 2 actos sobre el amor y la fidelidad.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Climax</title>
       <link>https://www.cinecolombia.com/films/climax/HO00000802/</link>
       <guid isPermaLink="false">6e89ede9-8179-44c7-bc3a-ac6bd8555fee</guid>
@@ -788,14 +795,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Tomy y Chris pasan el verano de 1999 en una granja alpina. Al descubrir que el padre de Tomy tiene &quot;la enfermedad de los gays&quot;, Tomy enfrenta el rechazo familiar.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: El despertar</title>
-      <link>https://www.cinecolombia.com/films/el-despertar/HO00000865/</link>
-      <guid isPermaLink="false">2cbbff3b-efc5-4746-85f8-80f1c6c8e537</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg" medium="image" />
     </item>
   </channel>
 </rss>

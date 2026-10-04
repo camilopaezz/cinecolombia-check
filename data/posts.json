@@ -15265,6 +15265,84 @@
           "posterPath": null
         }
       }
+    },
+    {
+      "guid": "7b72bbd0-024c-47cb-b514-ae8b3298db7f",
+      "type": "removed",
+      "filmId": "HO00000807",
+      "createdAt": "2026-10-04T11:01:00.562Z",
+      "snapshot": {
+        "id": "HO00000807",
+        "title": "L'affaire Bojarski",
+        "shortSynopsis": "Jan Bojarski, ingeniero polaco refugiado, falsifica documentos para la Resistencia. Sin identidad legal, un gánster lo recluta para falsificar billetes en secreto.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 128,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Jean-Paul Salomé",
+        "webUrl": "https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
+        "tmdb": {
+          "tmdbId": 1376415,
+          "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d310b367-376c-4534-a7c9-02792763345a",
+      "type": "removed",
+      "filmId": "HO00000808",
+      "createdAt": "2026-10-04T11:01:00.562Z",
+      "snapshot": {
+        "id": "HO00000808",
+        "title": "Soudain",
+        "shortSynopsis": "Marie-Lou Fontaine (Virginie Efira), directora de una residencia, lucha por una atención más humana. Su amistad con Mari Morisaki (Tal Okamoto) transforma su vida.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 196,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Ryûsuke Hamaguchi",
+        "webUrl": "https://www.cinecolombia.com/films/soudain/HO00000808/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg",
+        "tmdb": {
+          "tmdbId": 843843,
+          "posterPath": "/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg"
+        }
+      }
     }
   ]
 }

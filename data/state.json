@@ -2604,72 +2604,6 @@
       }
     },
     {
-      "id": "HO00000807",
-      "title": "L'affaire Bojarski",
-      "shortSynopsis": "Jan Bojarski, ingeniero polaco refugiado, falsifica documentos para la Resistencia. Sin identidad legal, un gánster lo recluta para falsificar billetes en secreto.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 128,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Jean-Paul Salomé",
-      "webUrl": "https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
-      "tmdb": {
-        "tmdbId": 1376415,
-        "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
-      }
-    },
-    {
-      "id": "HO00000808",
-      "title": "Soudain",
-      "shortSynopsis": "Marie-Lou Fontaine (Virginie Efira), directora de una residencia, lucha por una atención más humana. Su amistad con Mari Morisaki (Tal Okamoto) transforma su vida.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 196,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Ryûsuke Hamaguchi",
-      "webUrl": "https://www.cinecolombia.com/films/soudain/HO00000808/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg",
-      "tmdb": {
-        "tmdbId": 843843,
-        "posterPath": "/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg"
-      }
-    },
-    {
       "id": "HO00000809",
       "title": "¡Lumière! L’aventure commence",
       "shortSynopsis": "Thierry Frémaux narra un recorrido por más de cien cortos restaurados de los hermanos Lumière (1895-1905), revelando cómo anticiparon el lenguaje del cine moderno.",
@@ -5900,10 +5834,7 @@
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000807": 1,
-    "HO00000808": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-04T05:01:00.844Z"
+  "lastRun": "2026-10-04T11:01:00.564Z"
 }

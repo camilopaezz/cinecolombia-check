@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: L&apos;affaire Bojarski</title>
+      <link>https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/</link>
+      <guid isPermaLink="false">7b72bbd0-024c-47cb-b514-ae8b3298db7f</guid>
+      <pubDate>Sun, 04 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Jan Bojarski, ingeniero polaco refugiado, falsifica documentos para la Resistencia. Sin identidad legal, un gánster lo recluta para falsificar billetes en secreto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Soudain</title>
+      <link>https://www.cinecolombia.com/films/soudain/HO00000808/</link>
+      <guid isPermaLink="false">d310b367-376c-4534-a7c9-02792763345a</guid>
+      <pubDate>Sun, 04 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Marie-Lou Fontaine (Virginie Efira), directora de una residencia, lucha por una atención más humana. Su amistad con Mari Morisaki (Tal Okamoto) transforma su vida.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pGCCjlq4D6g3JZQdaLQt1FqGTm.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Così fan tutte</title>
       <link>https://www.cinecolombia.com/films/cosi-fan-tutte/HO00000761/</link>
       <guid isPermaLink="false">5a8f8400-d13e-4339-ac6b-f1e8ebcd946e</guid>
@@ -779,22 +795,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. &apos;Como Todo Mortal&apos; mezcla documental y ciencia ficción.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Donde comienza el río</title>
-      <link>https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000863/</link>
-      <guid isPermaLink="false">cabae51d-a3dc-4ec1-b350-8df79c58d579</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Eklipse</title>
-      <link>https://www.cinecolombia.com/films/eklipse/HO00000864/</link>
-      <guid isPermaLink="false">dbad5a32-c242-47b5-9ae3-9113afbe0424</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Tomy y Chris pasan el verano de 1999 en una granja alpina. Al descubrir que el padre de Tomy tiene &quot;la enfermedad de los gays&quot;, Tomy enfrenta el rechazo familiar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -15501,6 +15501,214 @@
           "posterPath": "/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg"
         }
       }
+    },
+    {
+      "guid": "f52e448f-a152-4323-9259-c423e90d10cf",
+      "type": "added",
+      "filmId": "HO00000884",
+      "createdAt": "2026-10-05T23:01:01.156Z",
+      "snapshot": {
+        "id": "HO00000884",
+        "title": "The Containment",
+        "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 85,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Jack Zagha Kababie",
+        "webUrl": "https://www.cinecolombia.com/films/the-containment/HO00000884/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg",
+        "tmdb": {
+          "tmdbId": 1703468,
+          "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f62d0ae5-2284-422d-a929-185864b08b4f",
+      "type": "added",
+      "filmId": "HO00000885",
+      "createdAt": "2026-10-05T23:01:01.156Z",
+      "snapshot": {
+        "id": "HO00000885",
+        "title": "Mimì - Il principe delle tenebre",
+        "shortSynopsis": "Mimì, huérfano marginado en Nápoles, conoce a Carmilla, quien cree ser descendiente de Drácula. Juntos emprenden un viaje en busca de libertad e identidad.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 103,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Brando De Sica",
+        "webUrl": "https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "97d609ce-d0f3-47fd-9210-6881735977af",
+      "type": "added",
+      "filmId": "HO00000886",
+      "createdAt": "2026-10-05T23:01:01.156Z",
+      "snapshot": {
+        "id": "HO00000886",
+        "title": "Minotaur",
+        "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 140,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Andrey Zviaguintsev",
+        "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000886/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1781858,
+          "posterPath": null
+        }
+      }
+    },
+    {
+      "guid": "254f7efd-bcc5-450f-b998-6ce8fb7d5d34",
+      "type": "added",
+      "filmId": "HO00000887",
+      "createdAt": "2026-10-05T23:01:01.156Z",
+      "snapshot": {
+        "id": "HO00000887",
+        "title": "L’affaire Bojarski",
+        "shortSynopsis": "Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 128,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Jean-Paul Salomé",
+        "webUrl": "https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
+        "tmdb": {
+          "tmdbId": 1376415,
+          "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f04c6c30-6152-454b-8342-d0189bb59810",
+      "type": "added",
+      "filmId": "HO00000888",
+      "createdAt": "2026-10-05T23:01:01.156Z",
+      "snapshot": {
+        "id": "HO00000888",
+        "title": "Beware Boiúna",
+        "shortSynopsis": "Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el \"Boiúna\".",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 104,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Terror"
+        ],
+        "director": "Mike P. Nelson",
+        "webUrl": "https://www.cinecolombia.com/films/beware-boiuna/HO00000888/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/akm6jAZWebBOKweMp6G9TgkefrZ.jpg",
+        "tmdb": {
+          "tmdbId": 1244523,
+          "posterPath": "/akm6jAZWebBOKweMp6G9TgkefrZ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "026e45d7-560f-471b-bdd4-a8f2560a77ca",
+      "type": "added",
+      "filmId": "HO00000889",
+      "createdAt": "2026-10-05T23:01:01.156Z",
+      "snapshot": {
+        "id": "HO00000889",
+        "title": "El Despertar",
+        "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 96,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jaime Osorio Marquez",
+        "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
+        "tmdb": {
+          "tmdbId": 713704,
+          "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+        }
+      }
     }
   ]
 }

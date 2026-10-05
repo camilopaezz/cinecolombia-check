@@ -771,8 +771,8 @@
       "title": "Other Mommy",
       "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
       "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 92,
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -1224,7 +1224,7 @@
       "shortSynopsis": "Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.",
       "releaseDate": "2026-10-08",
       "runtimeInMinutes": 104,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Crimen",
         "Drama",
@@ -1381,7 +1381,7 @@
       "shortSynopsis": "El 27 de julio de 1986, ante 80.000 fans, Queen ofreció un histórico concierto en el Népstadion de Budapest, el último con Freddie Mercury como vocalista principal.",
       "releaseDate": "2026-10-07",
       "runtimeInMinutes": 97,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Concierto",
         "Música"
@@ -2015,7 +2015,7 @@
       "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
       "releaseDate": "2026-10-08",
       "runtimeInMinutes": 116,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación",
         "Comedia",
@@ -2728,7 +2728,7 @@
       "id": "HO00000823",
       "title": "By Any Means",
       "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2026-10-22",
       "runtimeInMinutes": 107,
       "censorRating": "Pendiente",
       "genres": [
@@ -2788,7 +2788,7 @@
       "id": "HO00000825",
       "title": "Onslaught",
       "shortSynopsis": "Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.",
-      "releaseDate": "2026-10-08",
+      "releaseDate": "2026-10-15",
       "runtimeInMinutes": 92,
       "censorRating": "Pendiente",
       "genres": [
@@ -4748,8 +4748,8 @@
       "title": "Torah Tropical",
       "shortSynopsis": "En Cali, Colombia, la familia de Isska y Menajem, convertida al judaísmo ortodoxo, busca emigrar a Israel con sus hijas en 'Torah Tropical', pese a las dificultades.",
       "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 100,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 101,
+      "censorRating": "+12 Años",
       "genres": [
         "Documental"
       ],
@@ -4792,6 +4792,178 @@
         }
       ],
       "posterUrl": null
+    },
+    {
+      "id": "HO00000884",
+      "title": "The Containment",
+      "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 85,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Jack Zagha Kababie",
+      "webUrl": "https://www.cinecolombia.com/films/the-containment/HO00000884/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg",
+      "tmdb": {
+        "tmdbId": 1703468,
+        "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
+      }
+    },
+    {
+      "id": "HO00000885",
+      "title": "Mimì - Il principe delle tenebre",
+      "shortSynopsis": "Mimì, huérfano marginado en Nápoles, conoce a Carmilla, quien cree ser descendiente de Drácula. Juntos emprenden un viaje en busca de libertad e identidad.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 103,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Brando De Sica",
+      "webUrl": "https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000886",
+      "title": "Minotaur",
+      "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
+      "releaseDate": "2026-11-19",
+      "runtimeInMinutes": 140,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Andrey Zviaguintsev",
+      "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000886/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null,
+      "tmdb": {
+        "tmdbId": 1781858,
+        "posterPath": null
+      }
+    },
+    {
+      "id": "HO00000887",
+      "title": "L’affaire Bojarski",
+      "shortSynopsis": "Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.",
+      "releaseDate": "2026-11-05",
+      "runtimeInMinutes": 128,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Jean-Paul Salomé",
+      "webUrl": "https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
+      "tmdb": {
+        "tmdbId": 1376415,
+        "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+      }
+    },
+    {
+      "id": "HO00000888",
+      "title": "Beware Boiúna",
+      "shortSynopsis": "Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el \"Boiúna\".",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 104,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Terror"
+      ],
+      "director": "Mike P. Nelson",
+      "webUrl": "https://www.cinecolombia.com/films/beware-boiuna/HO00000888/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/akm6jAZWebBOKweMp6G9TgkefrZ.jpg",
+      "tmdb": {
+        "tmdbId": 1244523,
+        "posterPath": "/akm6jAZWebBOKweMp6G9TgkefrZ.jpg"
+      }
+    },
+    {
+      "id": "HO00000889",
+      "title": "El Despertar",
+      "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 96,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Suspenso"
+      ],
+      "director": "Jaime Osorio Marquez",
+      "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
+      "tmdb": {
+        "tmdbId": 713704,
+        "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -5698,9 +5870,31 @@
     "HO00000880": {
       "tmdbId": 587370,
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
+    },
+    "HO00000888": {
+      "tmdbId": 1244523,
+      "posterPath": "/akm6jAZWebBOKweMp6G9TgkefrZ.jpg"
+    },
+    "HO00000889": {
+      "tmdbId": 713704,
+      "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+    },
+    "HO00000887": {
+      "tmdbId": 1376415,
+      "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+    },
+    "HO00000886": {
+      "tmdbId": 1781858,
+      "posterPath": null
+    },
+    "HO00000884": {
+      "tmdbId": 1703468,
+      "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000799": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-05T17:00:59.895Z"
+  "lastRun": "2026-10-05T23:01:01.161Z"
 }

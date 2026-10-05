@@ -2538,39 +2538,6 @@
       }
     },
     {
-      "id": "HO00000803",
-      "title": "Demain Je Tombe Amoureux",
-      "shortSynopsis": "El día de su jubilación, Émile, profesor de literatura, da su última clase sobre el amor. Al llegar a casa, descubre que su esposa lo ha abandonado.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 114,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Comedia"
-      ],
-      "director": "Martin Provost",
-      "webUrl": "https://www.cinecolombia.com/films/demain-je-tombe-amoureux/HO00000803/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg",
-      "tmdb": {
-        "tmdbId": 1306291,
-        "posterPath": "/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg"
-      }
-    },
-    {
       "id": "HO00000809",
       "title": "¡Lumière! L’aventure commence",
       "shortSynopsis": "Thierry Frémaux narra un recorrido por más de cien cortos restaurados de los hermanos Lumière (1895-1905), revelando cómo anticiparon el lenguaje del cine moderno.",
@@ -5733,9 +5700,7 @@
       "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000803": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-05T05:00:58.461Z"
+  "lastRun": "2026-10-05T17:00:59.895Z"
 }

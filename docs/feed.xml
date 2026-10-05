@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Demain Je Tombe Amoureux</title>
+      <link>https://www.cinecolombia.com/films/demain-je-tombe-amoureux/HO00000803/</link>
+      <guid isPermaLink="false">290a15da-1b77-4233-ab38-ea9868e13d66</guid>
+      <pubDate>Mon, 05 Oct 2026 17:00:59 GMT</pubDate>
+      <description>El día de su jubilación, Émile, profesor de literatura, da su última clase sobre el amor. Al llegar a casa, descubre que su esposa lo ha abandonado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/q0CefWHHoYHR5dBTY9n6Jm9LIAN.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: La famille Bélier</title>
       <link>https://www.cinecolombia.com/films/la-famille-belier/HO00000798/</link>
       <guid isPermaLink="false">10e2f8c7-9664-4fe7-8fe2-259826d5646b</guid>
@@ -787,14 +795,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Una anciana pastora sudafricana es estafada con una falsa indemnización de guerra. Mientras espera un dinero que no llega, su cumpleaños 80 amenaza su independencia.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: We Are Aliens</title>
-      <link>https://www.cinecolombia.com/films/we-are-aliens/HO00000859/</link>
-      <guid isPermaLink="false">c2c8257f-5657-4262-ad42-a05248f321b3</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>¿Y si te dijera que soy un extraterrestre?&apos;. En un pequeño pueblo japonés, la traición de un chico común desata algo que intentará olvidar toda su vida.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg" medium="image" />
     </item>
   </channel>
 </rss>

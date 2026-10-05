@@ -7,6 +7,30 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: La famille Bélier</title>
+      <link>https://www.cinecolombia.com/films/la-famille-belier/HO00000798/</link>
+      <guid isPermaLink="false">10e2f8c7-9664-4fe7-8fe2-259826d5646b</guid>
+      <pubDate>Mon, 05 Oct 2026 05:00:58 GMT</pubDate>
+      <description>En la familia Bélier, todos son sordos excepto Paula, de 16 años. Al unirse al coro por un chico, descubre su talento para el canto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Persepolis</title>
+      <link>https://www.cinecolombia.com/films/persepolis/HO00000819/</link>
+      <guid isPermaLink="false">6b101d00-42a8-4920-b738-9fc2672ba98c</guid>
+      <pubDate>Mon, 05 Oct 2026 05:00:58 GMT</pubDate>
+      <description>Marji, niña iraní rebelde, crece en Teherán durante la Revolución Islámica, enfrenta represión y guerra, y luego el exilio en Viena, buscando su identidad entre dos mundo</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Linkin Park: Unshatter</title>
+      <link>https://www.cinecolombia.com/films/linkin-park-unshatter/HO00000877/</link>
+      <guid isPermaLink="false">9451e38f-935a-40bb-b8c4-bf684e5f96ef</guid>
+      <pubDate>Mon, 05 Oct 2026 05:00:58 GMT</pubDate>
+      <description>Tras siete años de pausa, Linkin Park se reinventa en esta película que sigue su regreso, desde sesiones íntimas de 2022 hasta su concierto en São Paulo en 2024.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: L&apos;affaire Bojarski</title>
       <link>https://www.cinecolombia.com/films/laffaire-bojarski/HO00000807/</link>
       <guid isPermaLink="false">7b72bbd0-024c-47cb-b514-ae8b3298db7f</guid>
@@ -771,30 +795,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>¿Y si te dijera que soy un extraterrestre?&apos;. En un pequeño pueblo japonés, la traición de un chico común desata algo que intentará olvidar toda su vida.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Zama</title>
-      <link>https://www.cinecolombia.com/films/zama/HO00000860/</link>
-      <guid isPermaLink="false">45a38cf9-0697-42fc-bb42-6b16d0cdd05f</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Diego de Zama, funcionario colonial, espera años una carta del Rey que nunca llega. Tras perderlo todo, se une a una partida en busca de un peligroso bandido.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: 9 Temples to Heaven</title>
-      <link>https://www.cinecolombia.com/films/9-temples-to-heaven/HO00000861/</link>
-      <guid isPermaLink="false">40f67277-38e4-48f0-92fb-f04854a8c347</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Tras una profecía sobre la muerte de su madre, Sakol emprende con toda su familia una peregrinación de un día por nueve templos tailandeses para intentar salvarla.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9nBRqy5RS3HP9ru86ySVOB0PcqB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Como todo mortal</title>
-      <link>https://www.cinecolombia.com/films/como-todo-mortal/HO00000862/</link>
-      <guid isPermaLink="false">a3c1137d-2bd2-4334-9185-e0597077ebc5</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. &apos;Como Todo Mortal&apos; mezcla documental y ciencia ficción.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg" medium="image" />
     </item>
   </channel>
 </rss>

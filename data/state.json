@@ -2471,39 +2471,6 @@
       }
     },
     {
-      "id": "HO00000798",
-      "title": "La famille Bélier",
-      "shortSynopsis": "En la familia Bélier, todos son sordos excepto Paula, de 16 años. Al unirse al coro por un chico, descubre su talento para el canto.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 105,
-      "censorRating": "Todos",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Eric Lartigau",
-      "webUrl": "https://www.cinecolombia.com/films/la-famille-belier/HO00000798/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg",
-      "tmdb": {
-        "tmdbId": 304410,
-        "posterPath": "/3mU5y9kc6Zkg4FMf3KRzL1kCCzV.jpg"
-      }
-    },
-    {
       "id": "HO00000799",
       "title": "Le Royaume",
       "shortSynopsis": "Córcega, 1995. Lesia descubre a su padre escondido tras estallar una guerra en los bajos fondos. Obligados a huir, aprenderán a entenderse y amarse.",
@@ -2697,41 +2664,6 @@
       "tmdb": {
         "tmdbId": 1228322,
         "posterPath": "/o2cijwdTdlKQTZekD2ioI6nrUKa.jpg"
-      }
-    },
-    {
-      "id": "HO00000819",
-      "title": "Persepolis",
-      "shortSynopsis": "Marji, niña iraní rebelde, crece en Teherán durante la Revolución Islámica, enfrenta represión y guerra, y luego el exilio en Viena, buscando su identidad entre dos mundo",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 95,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Animación",
-        "Biografía",
-        "Drama"
-      ],
-      "director": "Vincent Paronnaud",
-      "webUrl": "https://www.cinecolombia.com/films/persepolis/HO00000819/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg",
-      "tmdb": {
-        "tmdbId": 2011,
-        "posterPath": "/1XSTjORhsqSQgdYTzHrAuPDVC2.jpg"
       }
     },
     {
@@ -4709,39 +4641,6 @@
       }
     },
     {
-      "id": "HO00000877",
-      "title": "Linkin Park: Unshatter",
-      "shortSynopsis": "Tras siete años de pausa, Linkin Park se reinventa en esta película que sigue su regreso, desde sesiones íntimas de 2022 hasta su concierto en São Paulo en 2024.",
-      "releaseDate": "2026-09-30",
-      "runtimeInMinutes": 108,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Concierto"
-      ],
-      "director": "Joe Hahn",
-      "webUrl": "https://www.cinecolombia.com/films/linkin-park-unshatter/HO00000877/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg",
-      "tmdb": {
-        "tmdbId": 1388805,
-        "posterPath": "/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg"
-      }
-    },
-    {
       "id": "HO00000878",
       "title": "Avengers: Doomsday",
       "shortSynopsis": "En 'Avengers: Doomsday', héroes de tres universos distintos chocan en un curso mortal y enfrentan una amenaza existencial sin precedentes.\n",
@@ -5835,10 +5734,8 @@
     }
   },
   "missingRuns": {
-    "HO00000798": 1,
-    "HO00000819": 1,
-    "HO00000877": 1
+    "HO00000803": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-04T23:01:00.921Z"
+  "lastRun": "2026-10-05T05:00:58.461Z"
 }

@@ -711,8 +711,8 @@
       "title": "Rally: From Paris to the Pyramids",
       "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
       "releaseDate": "2026-12-03",
-      "runtimeInMinutes": 81,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 82,
+      "censorRating": "Todos",
       "genres": [
         "Animación"
       ],
@@ -1818,7 +1818,7 @@
       "shortSynopsis": "En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 159,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Drama"
       ],
@@ -4664,21 +4664,13 @@
       "director": "Takashi Yamazaki",
       "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
       "categories": [
-        "AdvanceBooking",
-        "NowShowing"
+        "ComingSoon"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000002",
-            "0000000004",
-            "0000000007",
-            "0000000008"
+            "ComingSoon"
           ]
         }
       ],
@@ -5837,7 +5829,14 @@
       "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
     }
   },
-  "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-06T17:01:00.798Z"
+  "missingRuns": {
+    "HO00000800": 1
+  },
+  "pendingCategoryLosses": {
+    "HO00000881": {
+      "AdvanceBooking": 1,
+      "NowShowing": 1
+    }
+  },
+  "lastRun": "2026-10-06T23:00:59.072Z"
 }

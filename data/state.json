@@ -2471,40 +2471,6 @@
       }
     },
     {
-      "id": "HO00000799",
-      "title": "Le Royaume",
-      "shortSynopsis": "Córcega, 1995. Lesia descubre a su padre escondido tras estallar una guerra en los bajos fondos. Obligados a huir, aprenderán a entenderse y amarse.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 108,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Julien Colonna",
-      "webUrl": "https://www.cinecolombia.com/films/le-royaume/HO00000799/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg",
-      "tmdb": {
-        "tmdbId": 1079311,
-        "posterPath": "/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg"
-      }
-    },
-    {
       "id": "HO00000800",
       "title": "L’Attachement",
       "shortSynopsis": "Sandra, dueña de una librería feminista, comparte la intimidad de su vecino y sus dos hijos, involucrándose poco a poco con esta familia adoptiva.",
@@ -4727,13 +4693,20 @@
       "director": "Takashi Yamazaki",
       "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -5893,8 +5866,8 @@
     }
   },
   "missingRuns": {
-    "HO00000799": 1
+    "HO00000820": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-05T23:01:01.161Z"
+  "lastRun": "2026-10-06T05:00:58.925Z"
 }

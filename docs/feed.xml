@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Godzilla Minus Zero</title>
+      <link>https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/</link>
+      <guid isPermaLink="false">343cf888-85b0-4ae9-a12a-c37f13aacee4</guid>
+      <pubDate>Tue, 06 Oct 2026 05:00:58 GMT</pubDate>
+      <description>Ambientada en 1949, dos años después de &apos;Godzilla Minus One&apos;, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Le Royaume</title>
+      <link>https://www.cinecolombia.com/films/le-royaume/HO00000799/</link>
+      <guid isPermaLink="false">6ad1df92-aa9a-4bd4-b2f1-766b192d50e1</guid>
+      <pubDate>Tue, 06 Oct 2026 05:00:58 GMT</pubDate>
+      <description>Córcega, 1995. Lesia descubre a su padre escondido tras estallar una guerra en los bajos fondos. Obligados a huir, aprenderán a entenderse y amarse.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: The Containment</title>
       <link>https://www.cinecolombia.com/films/the-containment/HO00000884/</link>
       <guid isPermaLink="false">f52e448f-a152-4323-9259-c423e90d10cf</guid>
@@ -777,22 +793,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la lleva a recuperar su amor perdido.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: A Providência e a Guitarra</title>
-      <link>https://www.cinecolombia.com/films/a-providencia-e-a-guitarra/HO00000851/</link>
-      <guid isPermaLink="false">bed870fb-c1a2-4666-bb79-fcdf7be8b799</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la ayuda a recuperar su amor perdido</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Les roches rouges</title>
-      <link>https://www.cinecolombia.com/films/les-roches-rouges/HO00000852/</link>
-      <guid isPermaLink="false">c60ce8e0-105e-4b6e-96a5-93dc0b9d0aa5</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>En la Costa Azul, dos pandillas de niños compiten saltando desde acantilados. Géo, de cinco años, vive un verano de amistad, rivalidad y primeros sentimientos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/6q3zCTkbrHw0AhdfWtK0mTQW9tP.jpg" medium="image" />
     </item>
   </channel>
 </rss>

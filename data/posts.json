@@ -15709,6 +15709,90 @@
           "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
         }
       }
+    },
+    {
+      "guid": "343cf888-85b0-4ae9-a12a-c37f13aacee4",
+      "type": "now-in-theaters",
+      "filmId": "HO00000881",
+      "createdAt": "2026-10-06T05:00:58.921Z",
+      "snapshot": {
+        "id": "HO00000881",
+        "title": "Godzilla Minus Zero",
+        "shortSynopsis": "Ambientada en 1949, dos años después de 'Godzilla Minus One', la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 135,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Takashi Yamazaki",
+        "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg",
+        "tmdb": {
+          "tmdbId": 1381071,
+          "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6ad1df92-aa9a-4bd4-b2f1-766b192d50e1",
+      "type": "removed",
+      "filmId": "HO00000799",
+      "createdAt": "2026-10-06T05:00:58.921Z",
+      "snapshot": {
+        "id": "HO00000799",
+        "title": "Le Royaume",
+        "shortSynopsis": "Córcega, 1995. Lesia descubre a su padre escondido tras estallar una guerra en los bajos fondos. Obligados a huir, aprenderán a entenderse y amarse.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 108,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Julien Colonna",
+        "webUrl": "https://www.cinecolombia.com/films/le-royaume/HO00000799/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg",
+        "tmdb": {
+          "tmdbId": 1079311,
+          "posterPath": "/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg"
+        }
+      }
     }
   ]
 }

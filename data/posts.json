@@ -15793,6 +15793,41 @@
           "posterPath": "/dr0fcM8n7Hb09t67ekgH5Zp1FEz.jpg"
         }
       }
+    },
+    {
+      "guid": "b31dca2b-c432-480f-96a9-c52a858d5772",
+      "type": "removed",
+      "filmId": "HO00000820",
+      "createdAt": "2026-10-06T11:01:00.527Z",
+      "snapshot": {
+        "id": "HO00000820",
+        "title": "Jericó, el infinito vuelo de los días",
+        "shortSynopsis": "Jericó, el infinito vuelo de los días' retrata a mujeres del pueblo de Jericó, revelando sus historias, su humor y sabiduría, preservando el patrimonio inmaterial.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 78,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Catalina Mesa",
+        "webUrl": "https://www.cinecolombia.com/films/jerico-el-infinito-vuelo-de-los-dias/HO00000820/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

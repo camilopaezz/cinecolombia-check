@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Jericó, el infinito vuelo de los días</title>
+      <link>https://www.cinecolombia.com/films/jerico-el-infinito-vuelo-de-los-dias/HO00000820/</link>
+      <guid isPermaLink="false">b31dca2b-c432-480f-96a9-c52a858d5772</guid>
+      <pubDate>Tue, 06 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Jericó, el infinito vuelo de los días&apos; retrata a mujeres del pueblo de Jericó, revelando sus historias, su humor y sabiduría, preservando el patrimonio inmaterial.</description>
+    </item>
+    <item>
       <title>En cartelera: Godzilla Minus Zero</title>
       <link>https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/</link>
       <guid isPermaLink="false">343cf888-85b0-4ae9-a12a-c37f13aacee4</guid>
@@ -785,14 +792,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Una diminuta semilla de papaya en la selva amazónica huye de echar raíces, hasta descubrir el poder de las suyas, desencadenando una revolución inesperada.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/fET69vh3XIeSmxanlgKKN8x23hC.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Princesa Burro</title>
-      <link>https://www.cinecolombia.com/films/princesa-burro/HO00000850/</link>
-      <guid isPermaLink="false">5a9215a1-24ee-4f8a-9742-3c25a934d548</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la lleva a recuperar su amor perdido.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg" medium="image" />
     </item>
   </channel>
 </rss>

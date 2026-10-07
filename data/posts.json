@@ -15828,6 +15828,484 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "0326394f-8a55-42c2-a274-dce6013c9e5c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000890",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000890",
+        "title": "HYBE CHEERING PARTY",
+        "shortSynopsis": "Experiencia interactiva donde los fans corean, cantan con letras en 3D y agitan sus lightsticks al ritmo de videos de BTS, SEVENTEEN, TXT, ENHYPEN y más de HYBE.",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 60,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "SANGGEUN PARK",
+        "webUrl": "https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000005",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "241f1f3a-7b37-4715-abcd-4f78fcd1de74",
+      "type": "now-in-theaters",
+      "filmId": "HO00000891",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000891",
+        "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+        "shortSynopsis": "La cuarta gira mundial de TOMORROW X TOGETHER, 'ACT : TOMORROW', llega a la pantalla grande con narrativa cinematográfica y poderosas actuaciones en vivo.",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 97,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "TAEHWAN YUM",
+        "webUrl": "https://www.cinecolombia.com/films/tomorrow-x-together-world-tour-act-tomorrow/HO00000891/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg",
+        "tmdb": {
+          "tmdbId": 1288843,
+          "posterPath": "/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ffbf8118-ae8a-4893-9d18-9dca946f0a39",
+      "type": "now-in-theaters",
+      "filmId": "HO00000892",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000892",
+        "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+        "shortSynopsis": "La gira 'BLOOD SAGA' de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 101,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "YUNJEONG KIM",
+        "webUrl": "https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1785968,
+          "posterPath": null
+        }
+      }
+    },
+    {
+      "guid": "9e6fae51-e9a8-4113-9415-b4f61cef38d8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000893",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000893",
+        "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+        "shortSynopsis": "Tras su décimo aniversario, SEVENTEEN inicia una nueva era con la gira 'NEW_', con su energía explosiva y el encanto único de cada integrante en pantalla grande.",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 102,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "",
+        "webUrl": "https://www.cinecolombia.com/films/seventeen-world-tour-new_/HO00000893/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aourQLTQ57XHpElS299J0X6TETb.jpg",
+        "tmdb": {
+          "tmdbId": 1662735,
+          "posterPath": "/aourQLTQ57XHpElS299J0X6TETb.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a8fd534e-ccfd-4d53-8a18-f79971a32065",
+      "type": "added",
+      "filmId": "HO00000894",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000894",
+        "title": "I Play Rocky",
+        "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 128,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Peter Farrelly",
+        "webUrl": "https://www.cinecolombia.com/films/i-play-rocky/HO00000894/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg",
+        "tmdb": {
+          "tmdbId": 1286656,
+          "posterPath": "/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f3430102-b192-4476-97f8-60c069986b48",
+      "type": "added",
+      "filmId": "HO00000895",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000895",
+        "title": "Monster Mia",
+        "shortSynopsis": "Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 81,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Verena Fels",
+        "webUrl": "https://www.cinecolombia.com/films/monster-mia/HO00000895/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+        "tmdb": {
+          "tmdbId": 1572116,
+          "posterPath": "/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg"
+        }
+      }
+    },
+    {
+      "guid": "52e50999-ce04-4e17-b416-816737964414",
+      "type": "added",
+      "filmId": "HO00000896",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000896",
+        "title": "The Others",
+        "shortSynopsis": "Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 105,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Alejandro Amenábar",
+        "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+        "tmdb": {
+          "tmdbId": 1933,
+          "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b4d8ead2-ec99-4c92-b8d6-abad876eb1b6",
+      "type": "now-in-theaters",
+      "filmId": "HO00000724",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000724",
+        "title": "Other Mommy",
+        "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 92,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Rob Savage",
+        "webUrl": "https://www.cinecolombia.com/films/other-mommy/HO00000724/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008",
+              "0000000009"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
+        "tmdb": {
+          "tmdbId": 1400837,
+          "posterPath": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg"
+        }
+      }
+    },
+    {
+      "guid": "13d65844-f768-4a48-85c2-c9f59f5fa35d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000747",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000747",
+        "title": "Dead Man's Wire",
+        "shortSynopsis": "Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 104,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Crimen",
+          "Drama",
+          "Historia"
+        ],
+        "director": "Gus Van Sant",
+        "webUrl": "https://www.cinecolombia.com/films/dead-mans-wire/HO00000747/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/19JQnXT21OtH24fBgexkDFVFEoS.jpg",
+        "tmdb": {
+          "tmdbId": 1263012,
+          "posterPath": "/19JQnXT21OtH24fBgexkDFVFEoS.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f8ff4cec-4a58-4e56-8d3e-f6d8a0d61ed7",
+      "type": "now-in-theaters",
+      "filmId": "HO00000783",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000783",
+        "title": "Cars",
+        "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 116,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "John Lasseter",
+        "webUrl": "https://www.cinecolombia.com/films/cars/HO00000783/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg",
+        "tmdb": {
+          "tmdbId": 920,
+          "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c76ee218-b622-4b49-8919-60e7c1fb0767",
+      "type": "now-in-theaters",
+      "filmId": "HO00000882",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000882",
+        "title": "Torah Tropical",
+        "shortSynopsis": "En Cali, Colombia, la familia de Isska y Menajem, convertida al judaísmo ortodoxo, busca emigrar a Israel con sus hijas en 'Torah Tropical', pese a las dificultades.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 101,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Jimmy Ferguson",
+        "webUrl": "https://www.cinecolombia.com/films/torah-tropical/HO00000882/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "cb87251e-2e2e-4595-84a7-a3735e9d1c67",
+      "type": "removed",
+      "filmId": "HO00000800",
+      "createdAt": "2026-10-07T05:00:59.554Z",
+      "snapshot": {
+        "id": "HO00000800",
+        "title": "L’Attachement",
+        "shortSynopsis": "Sandra, dueña de una librería feminista, comparte la intimidad de su vecino y sus dos hijos, involucrándose poco a poco con esta familia adoptiva.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 106,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Carine Tardieu",
+        "webUrl": "https://www.cinecolombia.com/films/l-attachement/HO00000800/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/113xZCRj3ak30zh1xUFv6hQoPgn.jpg",
+        "tmdb": {
+          "tmdbId": 1096642,
+          "posterPath": "/113xZCRj3ak30zh1xUFv6hQoPgn.jpg"
+        }
+      }
     }
   ]
 }

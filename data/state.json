@@ -576,7 +576,8 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -779,13 +780,21 @@
       "director": "Rob Savage",
       "webUrl": "https://www.cinecolombia.com/films/other-mommy/HO00000724/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -1233,13 +1242,20 @@
       "director": "Gus Van Sant",
       "webUrl": "https://www.cinecolombia.com/films/dead-mans-wire/HO00000747/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1389,14 +1405,12 @@
       "director": "János Zsombolyai",
       "webUrl": "https://www.cinecolombia.com/films/queen-budapest/HO00000756/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1658,6 +1672,7 @@
             "0000000005",
             "0000000007",
             "0000000008",
+            "0000000010",
             "0000000014"
           ]
         }
@@ -2024,13 +2039,19 @@
       "director": "John Lasseter",
       "webUrl": "https://www.cinecolombia.com/films/cars/HO00000783/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -2468,39 +2489,6 @@
       "tmdb": {
         "tmdbId": 1770234,
         "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
-      }
-    },
-    {
-      "id": "HO00000800",
-      "title": "L’Attachement",
-      "shortSynopsis": "Sandra, dueña de una librería feminista, comparte la intimidad de su vecino y sus dos hijos, involucrándose poco a poco con esta familia adoptiva.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 106,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Carine Tardieu",
-      "webUrl": "https://www.cinecolombia.com/films/l-attachement/HO00000800/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/113xZCRj3ak30zh1xUFv6hQoPgn.jpg",
-      "tmdb": {
-        "tmdbId": 1096642,
-        "posterPath": "/113xZCRj3ak30zh1xUFv6hQoPgn.jpg"
       }
     },
     {
@@ -4693,13 +4681,19 @@
       "director": "Jimmy Ferguson",
       "webUrl": "https://www.cinecolombia.com/films/torah-tropical/HO00000882/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -4900,6 +4894,236 @@
       "tmdb": {
         "tmdbId": 713704,
         "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+      }
+    },
+    {
+      "id": "HO00000890",
+      "title": "HYBE CHEERING PARTY",
+      "shortSynopsis": "Experiencia interactiva donde los fans corean, cantan con letras en 3D y agitan sus lightsticks al ritmo de videos de BTS, SEVENTEEN, TXT, ENHYPEN y más de HYBE.",
+      "releaseDate": "2026-10-24",
+      "runtimeInMinutes": 60,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto",
+        "Música"
+      ],
+      "director": "SANGGEUN PARK",
+      "webUrl": "https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000005",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000891",
+      "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+      "shortSynopsis": "La cuarta gira mundial de TOMORROW X TOGETHER, 'ACT : TOMORROW', llega a la pantalla grande con narrativa cinematográfica y poderosas actuaciones en vivo.",
+      "releaseDate": "2026-10-24",
+      "runtimeInMinutes": 97,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto",
+        "Música"
+      ],
+      "director": "TAEHWAN YUM",
+      "webUrl": "https://www.cinecolombia.com/films/tomorrow-x-together-world-tour-act-tomorrow/HO00000891/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg",
+      "tmdb": {
+        "tmdbId": 1288843,
+        "posterPath": "/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg"
+      }
+    },
+    {
+      "id": "HO00000892",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+      "shortSynopsis": "La gira 'BLOOD SAGA' de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.",
+      "releaseDate": "2026-10-24",
+      "runtimeInMinutes": 101,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto",
+        "Música"
+      ],
+      "director": "YUNJEONG KIM",
+      "webUrl": "https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": null,
+      "tmdb": {
+        "tmdbId": 1785968,
+        "posterPath": null
+      }
+    },
+    {
+      "id": "HO00000893",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "shortSynopsis": "Tras su décimo aniversario, SEVENTEEN inicia una nueva era con la gira 'NEW_', con su energía explosiva y el encanto único de cada integrante en pantalla grande.",
+      "releaseDate": "2026-10-24",
+      "runtimeInMinutes": 102,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto"
+      ],
+      "director": "",
+      "webUrl": "https://www.cinecolombia.com/films/seventeen-world-tour-new_/HO00000893/",
+      "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/aourQLTQ57XHpElS299J0X6TETb.jpg",
+      "tmdb": {
+        "tmdbId": 1662735,
+        "posterPath": "/aourQLTQ57XHpElS299J0X6TETb.jpg"
+      }
+    },
+    {
+      "id": "HO00000894",
+      "title": "I Play Rocky",
+      "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 128,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Peter Farrelly",
+      "webUrl": "https://www.cinecolombia.com/films/i-play-rocky/HO00000894/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg",
+      "tmdb": {
+        "tmdbId": 1286656,
+        "posterPath": "/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg"
+      }
+    },
+    {
+      "id": "HO00000895",
+      "title": "Monster Mia",
+      "shortSynopsis": "Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 81,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación",
+        "Familia",
+        "Fantasía"
+      ],
+      "director": "Verena Fels",
+      "webUrl": "https://www.cinecolombia.com/films/monster-mia/HO00000895/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+      "tmdb": {
+        "tmdbId": 1572116,
+        "posterPath": "/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg"
+      }
+    },
+    {
+      "id": "HO00000896",
+      "title": "The Others",
+      "shortSynopsis": "Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 105,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Misterio",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Alejandro Amenábar",
+      "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+      "tmdb": {
+        "tmdbId": 1933,
+        "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
       }
     }
   ],
@@ -5827,16 +6051,39 @@
     "HO00000884": {
       "tmdbId": 1703468,
       "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
+    },
+    "HO00000892": {
+      "tmdbId": 1785968,
+      "posterPath": null
+    },
+    "HO00000894": {
+      "tmdbId": 1286656,
+      "posterPath": "/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg"
+    },
+    "HO00000895": {
+      "tmdbId": 1572116,
+      "posterPath": "/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg"
+    },
+    "HO00000893": {
+      "tmdbId": 1662735,
+      "posterPath": "/aourQLTQ57XHpElS299J0X6TETb.jpg"
+    },
+    "HO00000896": {
+      "tmdbId": 1933,
+      "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+    },
+    "HO00000891": {
+      "tmdbId": 1288843,
+      "posterPath": "/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg"
     }
   },
   "missingRuns": {
-    "HO00000800": 1
+    "HO00000809": 1
   },
   "pendingCategoryLosses": {
-    "HO00000881": {
-      "AdvanceBooking": 1,
-      "NowShowing": 1
+    "HO00000756": {
+      "AdvanceBooking": 1
     }
   },
-  "lastRun": "2026-10-06T23:00:59.072Z"
+  "lastRun": "2026-10-07T05:00:59.559Z"
 }

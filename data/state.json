@@ -1958,7 +1958,7 @@
       "shortSynopsis": "Always Lalisa' documenta un año de LISA fuera de Blackpink: su álbum 'Alter Ego', su debut en 'The White Lotus' y su show en Coachella 2025.",
       "releaseDate": "2026-10-12",
       "runtimeInMinutes": 100,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Documental",
         "Música"
@@ -2052,7 +2052,8 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008"
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -2121,6 +2122,7 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
+            "0000000002",
             "0000000004",
             "0000000006"
           ]
@@ -4624,13 +4626,21 @@
       "director": "Takashi Yamazaki",
       "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000010"
           ]
         }
       ],
@@ -5097,6 +5107,36 @@
       "tmdb": {
         "tmdbId": 1933,
         "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+      }
+    },
+    {
+      "id": "HO00000897",
+      "title": " Inolvidable Heidi",
+      "shortSynopsis": "Heidi, chica mágica de la montaña, y Franco, chico de ciudad, viven un romance encantado que desafía la memoria y el destino, y se reencuentran en la Gran Ciudad.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 101,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Drama",
+        "Musical"
+      ],
+      "director": "",
+      "webUrl": "https://www.cinecolombia.com/films/inolvidable-heidi/HO00000897/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg",
+      "tmdb": {
+        "tmdbId": 1289382,
+        "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
       }
     }
   ],
@@ -6048,9 +6088,18 @@
     "HO00000891": {
       "tmdbId": 1288843,
       "posterPath": "/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg"
+    },
+    "HO00000897": {
+      "tmdbId": 1289382,
+      "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000599": 1,
+    "HO00000755": 1,
+    "HO00000811": 1,
+    "HO00000880": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-07T17:01:00.163Z"
+  "lastRun": "2026-10-07T23:01:00.458Z"
 }

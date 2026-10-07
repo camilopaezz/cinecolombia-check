@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto:  Inolvidable Heidi</title>
+      <link>https://www.cinecolombia.com/films/inolvidable-heidi/HO00000897/</link>
+      <guid isPermaLink="false">a83c5033-1a80-47d8-aa5b-538b3bf774ac</guid>
+      <pubDate>Wed, 07 Oct 2026 23:01:00 GMT</pubDate>
+      <description>Heidi, chica mágica de la montaña, y Franco, chico de ciudad, viven un romance encantado que desafía la memoria y el destino, y se reencuentran en la Gran Ciudad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Godzilla Minus Zero</title>
+      <link>https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/</link>
+      <guid isPermaLink="false">ea21d446-5ee1-4c3d-baa0-e778fd28b28f</guid>
+      <pubDate>Wed, 07 Oct 2026 23:01:00 GMT</pubDate>
+      <description>Ambientada en 1949, dos años después de &apos;Godzilla Minus One&apos;, la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: ¡Lumière! L’aventure commence</title>
       <link>https://www.cinecolombia.com/films/lumière-l-aventure-commence/HO00000809/</link>
       <guid isPermaLink="false">03b71b48-edd0-4f3c-8973-701e3c923dbe</guid>
@@ -774,22 +790,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>En 1949, Thomas Mann (Hanns Zischler) y su hija Erika (Sandra Hüller) viajan por una Alemania dividida en &apos;Fatherland&apos;, de Pawlikowski. Identidad, familia y culpa.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Filipiñana</title>
-      <link>https://www.cinecolombia.com/films/filipinana/HO00000835/</link>
-      <guid isPermaLink="false">56f9b7ee-6271-4442-9984-0c8f220ae6db</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Isabel, nueva empleada de un club de campo, se siente atraída por el Dr. Palanca, hasta descubrir un pasado siniestro tras la fachada del lugar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Hangar rojo</title>
-      <link>https://www.cinecolombia.com/films/hangar-rojo/HO00000836/</link>
-      <guid isPermaLink="false">b6e4760a-a4a3-455a-92e1-6f7cf6af39bf</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Durante el golpe de 1973 en Chile, el Capitán Jorge Silva debe transformar una academia militar en centro de tortura. &apos;Hangar Rojo&apos;, thriller sobre el poder militar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -16341,6 +16341,87 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "a83c5033-1a80-47d8-aa5b-538b3bf774ac",
+      "type": "added",
+      "filmId": "HO00000897",
+      "createdAt": "2026-10-07T23:01:00.453Z",
+      "snapshot": {
+        "id": "HO00000897",
+        "title": " Inolvidable Heidi",
+        "shortSynopsis": "Heidi, chica mágica de la montaña, y Franco, chico de ciudad, viven un romance encantado que desafía la memoria y el destino, y se reencuentran en la Gran Ciudad.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 101,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Drama",
+          "Musical"
+        ],
+        "director": "",
+        "webUrl": "https://www.cinecolombia.com/films/inolvidable-heidi/HO00000897/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg",
+        "tmdb": {
+          "tmdbId": 1289382,
+          "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ea21d446-5ee1-4c3d-baa0-e778fd28b28f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000881",
+      "createdAt": "2026-10-07T23:01:00.453Z",
+      "snapshot": {
+        "id": "HO00000881",
+        "title": "Godzilla Minus Zero",
+        "shortSynopsis": "Ambientada en 1949, dos años después de 'Godzilla Minus One', la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 135,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Takashi Yamazaki",
+        "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008",
+              "0000000010"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg",
+        "tmdb": {
+          "tmdbId": 1381071,
+          "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
+        }
+      }
     }
   ]
 }

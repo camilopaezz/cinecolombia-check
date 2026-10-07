@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: ¡Lumière! L’aventure commence</title>
+      <link>https://www.cinecolombia.com/films/lumière-l-aventure-commence/HO00000809/</link>
+      <guid isPermaLink="false">03b71b48-edd0-4f3c-8973-701e3c923dbe</guid>
+      <pubDate>Wed, 07 Oct 2026 11:01:01 GMT</pubDate>
+      <description>Thierry Frémaux narra un recorrido por más de cien cortos restaurados de los hermanos Lumière (1895-1905), revelando cómo anticiparon el lenguaje del cine moderno.</description>
+    </item>
+    <item>
       <title>En cartelera: HYBE CHEERING PARTY</title>
       <link>https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/</link>
       <guid isPermaLink="false">0326394f-8a55-42c2-a274-dce6013c9e5c</guid>
@@ -783,14 +790,6 @@
       <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
       <description>Durante el golpe de 1973 en Chile, el Capitán Jorge Silva debe transformar una academia militar en centro de tortura. &apos;Hangar Rojo&apos;, thriller sobre el poder militar.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Heat</title>
-      <link>https://www.cinecolombia.com/films/heat/HO00000837/</link>
-      <guid isPermaLink="false">c96d61f6-27e4-4401-bb48-2a88f82d725a</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Bajo un calor sin precedentes, las vidas y las estructuras sociales comienzan a transformarse. Más allá de las advertencias distópicas, ¿cómo afecta el calor a los seres.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg" medium="image" />
     </item>
   </channel>
 </rss>

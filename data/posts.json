@@ -16306,6 +16306,41 @@
           "posterPath": "/113xZCRj3ak30zh1xUFv6hQoPgn.jpg"
         }
       }
+    },
+    {
+      "guid": "03b71b48-edd0-4f3c-8973-701e3c923dbe",
+      "type": "removed",
+      "filmId": "HO00000809",
+      "createdAt": "2026-10-07T11:01:01.062Z",
+      "snapshot": {
+        "id": "HO00000809",
+        "title": "¡Lumière! L’aventure commence",
+        "shortSynopsis": "Thierry Frémaux narra un recorrido por más de cien cortos restaurados de los hermanos Lumière (1895-1905), revelando cómo anticiparon el lenguaje del cine moderno.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 90,
+        "censorRating": "Todos",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Thierry Frémaux",
+        "webUrl": "https://www.cinecolombia.com/films/lumière-l-aventure-commence/HO00000809/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

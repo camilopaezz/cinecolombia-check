@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Nightborn</title>
+      <link>https://www.cinecolombia.com/films/nightborn/HO00000707/</link>
+      <guid isPermaLink="false">f482ed78-3297-41b4-981a-80b38982d013</guid>
+      <pubDate>Thu, 08 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: The Whistler</title>
+      <link>https://www.cinecolombia.com/films/the-whistler/HO00000777/</link>
+      <guid isPermaLink="false">d53c903c-670d-438c-91ee-44b8a02699d8</guid>
+      <pubDate>Thu, 08 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Climax.</title>
+      <link>https://www.cinecolombia.com/films/climax/HO00000780/</link>
+      <guid isPermaLink="false">ebd271ae-a015-4052-9ad0-212b85bed28e</guid>
+      <pubDate>Thu, 08 Oct 2026 11:01:00 GMT</pubDate>
+      <description>Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Le Parc</title>
+      <link>https://www.cinecolombia.com/films/le-parc/HO00000810/</link>
+      <guid isPermaLink="false">aa2d3fb6-5ab3-4c33-9c0c-34cb3dd7499b</guid>
+      <pubDate>Thu, 08 Oct 2026 11:01:00 GMT</pubDate>
+      <description>En un jardín francés, cuatro cupidos guían juegos de deseo hasta que el orgullo cede. Ballet de Preljocaj (1994), célebre por su emotivo pas de deux final.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera:  Inolvidable Heidi</title>
       <link>https://www.cinecolombia.com/films/inolvidable-heidi/HO00000897/</link>
       <guid isPermaLink="false">ec7ef024-acf1-463e-a6ed-6b2bd3679958</guid>
@@ -759,38 +791,6 @@
       <pubDate>Tue, 22 Sep 2026 05:00:31 GMT</pubDate>
       <description>El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: 6 meses en el edificio rosa con azul</title>
-      <link>https://www.cinecolombia.com/films/6-meses-en-el-edificio-rosa-con-azul/HO00000826/</link>
-      <guid isPermaLink="false">531b15a9-cc85-469c-9e1f-ac003e52809c</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Ciudad de México, años 90. El día que Bruno cumple 11, sus sentimientos por Vladimir chocan con que su padre tiene VIH. Su familia enfrenta el dolor con salsa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Aquí</title>
-      <link>https://www.cinecolombia.com/films/aqui/HO00000827/</link>
-      <guid isPermaLink="false">e5982bb8-b1bc-425f-88d2-b0e3851786bf</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>Simón se hace cargo de David, un niño huérfano, y busca en Inés una madre para él. Juntos reinventan la idea de familia, mientras David se resiste a las normas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Coward</title>
-      <link>https://www.cinecolombia.com/films/coward/HO00000828/</link>
-      <guid isPermaLink="false">2db6c5f2-cf0a-49d8-9f81-e075b5347d15</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>En plena Primera Guerra Mundial, Pierre conoce a Francis, quien organiza una obra de teatro para levantar el ánimo. Juntos buscan escapar de la brutalidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Dua</title>
-      <link>https://www.cinecolombia.com/films/dua/HO00000829/</link>
-      <guid isPermaLink="false">73922dc4-a0ec-47d2-846f-a5f22d8d9704</guid>
-      <pubDate>Sat, 19 Sep 2026 23:00:29 GMT</pubDate>
-      <description>En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg" medium="image" />
     </item>
   </channel>
 </rss>

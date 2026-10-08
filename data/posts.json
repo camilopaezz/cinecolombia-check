@@ -16621,6 +16621,163 @@
           "posterPath": "/5h7X8auA7s0R4cm8nf3yD8OnC1.jpg"
         }
       }
+    },
+    {
+      "guid": "f482ed78-3297-41b4-981a-80b38982d013",
+      "type": "removed",
+      "filmId": "HO00000707",
+      "createdAt": "2026-10-08T11:01:00.523Z",
+      "snapshot": {
+        "id": "HO00000707",
+        "title": "Nightborn",
+        "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 92,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Hanna Bergholm",
+        "webUrl": "https://www.cinecolombia.com/films/nightborn/HO00000707/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg",
+        "tmdb": {
+          "tmdbId": 964849,
+          "posterPath": "/bLSrV2Him731C9tDCRuHq2drit5.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d53c903c-670d-438c-91ee-44b8a02699d8",
+      "type": "removed",
+      "filmId": "HO00000777",
+      "createdAt": "2026-10-08T11:01:00.523Z",
+      "snapshot": {
+        "id": "HO00000777",
+        "title": "The Whistler",
+        "shortSynopsis": "Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Diego Velasco",
+        "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
+        "tmdb": {
+          "tmdbId": 1280300,
+          "posterPath": "/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ebd271ae-a015-4052-9ad0-212b85bed28e",
+      "type": "removed",
+      "filmId": "HO00000780",
+      "createdAt": "2026-10-08T11:01:00.523Z",
+      "snapshot": {
+        "id": "HO00000780",
+        "title": "Climax.",
+        "shortSynopsis": "Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 97,
+        "censorRating": "+18 Años",
+        "genres": [
+          "Drama",
+          "Musical",
+          "Terror"
+        ],
+        "director": "Gaspar Noé",
+        "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
+        "tmdb": {
+          "tmdbId": 1723396,
+          "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
+        }
+      }
+    },
+    {
+      "guid": "aa2d3fb6-5ab3-4c33-9c0c-34cb3dd7499b",
+      "type": "removed",
+      "filmId": "HO00000810",
+      "createdAt": "2026-10-08T11:01:00.523Z",
+      "snapshot": {
+        "id": "HO00000810",
+        "title": "Le Parc",
+        "shortSynopsis": "En un jardín francés, cuatro cupidos guían juegos de deseo hasta que el orgullo cede. Ballet de Preljocaj (1994), célebre por su emotivo pas de deux final.",
+        "releaseDate": "2026-09-23",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Ballet"
+        ],
+        "director": "Yannis Pouspourikas",
+        "webUrl": "https://www.cinecolombia.com/films/le-parc/HO00000810/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg",
+        "tmdb": {
+          "tmdbId": 1564072,
+          "posterPath": "/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg"
+        }
+      }
     }
   ]
 }

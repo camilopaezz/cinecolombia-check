@@ -610,36 +610,6 @@
       }
     },
     {
-      "id": "HO00000707",
-      "title": "Nightborn",
-      "shortSynopsis": "Saga y Jon se mudan a la casa de su infancia. Pero tras el nacimiento de su bebé, el sueño de la pareja de tener un hijo perfecto se convierte en una pesadilla.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 92,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Hanna Bergholm",
-      "webUrl": "https://www.cinecolombia.com/films/nightborn/HO00000707/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "ComingSoon"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bLSrV2Him731C9tDCRuHq2drit5.jpg",
-      "tmdb": {
-        "tmdbId": 964849,
-        "posterPath": "/bLSrV2Him731C9tDCRuHq2drit5.jpg"
-      }
-    },
-    {
       "id": "HO00000709",
       "title": "Seeking Haven for Mr. Rambo",
       "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
@@ -1839,41 +1809,6 @@
       }
     },
     {
-      "id": "HO00000777",
-      "title": "The Whistler",
-      "shortSynopsis": "Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror",
-      "releaseDate": "2026-09-24",
-      "runtimeInMinutes": 96,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Misterio",
-        "Suspenso",
-        "Terror"
-      ],
-      "director": "Diego Velasco",
-      "webUrl": "https://www.cinecolombia.com/films/the-whistler/HO00000777/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg",
-      "tmdb": {
-        "tmdbId": 1280300,
-        "posterPath": "/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg"
-      }
-    },
-    {
       "id": "HO00000779",
       "title": "Always Lalisa",
       "shortSynopsis": "Always Lalisa' documenta un año de LISA fuera de Blackpink: su álbum 'Alter Ego', su debut en 'The White Lotus' y su show en Coachella 2025.",
@@ -1908,41 +1843,6 @@
       "tmdb": {
         "tmdbId": 1489932,
         "posterPath": "/OqM61w87XqOO3SPZjHRxC75HGI.jpg"
-      }
-    },
-    {
-      "id": "HO00000780",
-      "title": "Climax.",
-      "shortSynopsis": "Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.",
-      "releaseDate": "2026-09-24",
-      "runtimeInMinutes": 97,
-      "censorRating": "+18 Años",
-      "genres": [
-        "Drama",
-        "Musical",
-        "Terror"
-      ],
-      "director": "Gaspar Noé",
-      "webUrl": "https://www.cinecolombia.com/films/climax/HO00000780/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg",
-      "tmdb": {
-        "tmdbId": 1723396,
-        "posterPath": "/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg"
       }
     },
     {
@@ -2408,39 +2308,6 @@
       "tmdb": {
         "tmdbId": 1770234,
         "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
-      }
-    },
-    {
-      "id": "HO00000810",
-      "title": "Le Parc",
-      "shortSynopsis": "En un jardín francés, cuatro cupidos guían juegos de deseo hasta que el orgullo cede. Ballet de Preljocaj (1994), célebre por su emotivo pas de deux final.",
-      "releaseDate": "2026-09-23",
-      "runtimeInMinutes": 93,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Ballet"
-      ],
-      "director": "Yannis Pouspourikas",
-      "webUrl": "https://www.cinecolombia.com/films/le-parc/HO00000810/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg",
-      "tmdb": {
-        "tmdbId": 1564072,
-        "posterPath": "/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg"
       }
     },
     {
@@ -5843,184 +5710,7 @@
       "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000707": 1,
-    "HO00000777": 1,
-    "HO00000780": 1,
-    "HO00000810": 1
-  },
-  "pendingCategoryLosses": {
-    "HO00000703": {
-      "AdvanceBooking": 1
-    },
-    "HO00000724": {
-      "AdvanceBooking": 1
-    },
-    "HO00000747": {
-      "AdvanceBooking": 1
-    },
-    "HO00000783": {
-      "AdvanceBooking": 1
-    },
-    "HO00000786": {
-      "AdvanceBooking": 1
-    },
-    "HO00000826": {
-      "AdvanceBooking": 1
-    },
-    "HO00000827": {
-      "AdvanceBooking": 1
-    },
-    "HO00000828": {
-      "AdvanceBooking": 1
-    },
-    "HO00000829": {
-      "AdvanceBooking": 1
-    },
-    "HO00000830": {
-      "AdvanceBooking": 1
-    },
-    "HO00000831": {
-      "AdvanceBooking": 1
-    },
-    "HO00000832": {
-      "AdvanceBooking": 1
-    },
-    "HO00000833": {
-      "AdvanceBooking": 1
-    },
-    "HO00000834": {
-      "AdvanceBooking": 1
-    },
-    "HO00000835": {
-      "AdvanceBooking": 1
-    },
-    "HO00000836": {
-      "AdvanceBooking": 1
-    },
-    "HO00000837": {
-      "AdvanceBooking": 1
-    },
-    "HO00000838": {
-      "AdvanceBooking": 1
-    },
-    "HO00000839": {
-      "AdvanceBooking": 1
-    },
-    "HO00000840": {
-      "AdvanceBooking": 1
-    },
-    "HO00000841": {
-      "AdvanceBooking": 1
-    },
-    "HO00000842": {
-      "AdvanceBooking": 1
-    },
-    "HO00000843": {
-      "AdvanceBooking": 1
-    },
-    "HO00000844": {
-      "AdvanceBooking": 1
-    },
-    "HO00000845": {
-      "AdvanceBooking": 1
-    },
-    "HO00000846": {
-      "AdvanceBooking": 1
-    },
-    "HO00000847": {
-      "AdvanceBooking": 1
-    },
-    "HO00000848": {
-      "AdvanceBooking": 1
-    },
-    "HO00000849": {
-      "AdvanceBooking": 1
-    },
-    "HO00000850": {
-      "AdvanceBooking": 1
-    },
-    "HO00000851": {
-      "AdvanceBooking": 1
-    },
-    "HO00000852": {
-      "AdvanceBooking": 1
-    },
-    "HO00000853": {
-      "AdvanceBooking": 1
-    },
-    "HO00000854": {
-      "AdvanceBooking": 1
-    },
-    "HO00000855": {
-      "AdvanceBooking": 1
-    },
-    "HO00000856": {
-      "AdvanceBooking": 1
-    },
-    "HO00000857": {
-      "AdvanceBooking": 1
-    },
-    "HO00000858": {
-      "AdvanceBooking": 1
-    },
-    "HO00000859": {
-      "AdvanceBooking": 1
-    },
-    "HO00000860": {
-      "AdvanceBooking": 1
-    },
-    "HO00000861": {
-      "AdvanceBooking": 1
-    },
-    "HO00000862": {
-      "AdvanceBooking": 1
-    },
-    "HO00000863": {
-      "AdvanceBooking": 1
-    },
-    "HO00000864": {
-      "AdvanceBooking": 1
-    },
-    "HO00000865": {
-      "AdvanceBooking": 1
-    },
-    "HO00000866": {
-      "AdvanceBooking": 1
-    },
-    "HO00000867": {
-      "AdvanceBooking": 1
-    },
-    "HO00000868": {
-      "AdvanceBooking": 1
-    },
-    "HO00000869": {
-      "AdvanceBooking": 1
-    },
-    "HO00000870": {
-      "AdvanceBooking": 1
-    },
-    "HO00000871": {
-      "AdvanceBooking": 1
-    },
-    "HO00000872": {
-      "AdvanceBooking": 1
-    },
-    "HO00000873": {
-      "AdvanceBooking": 1
-    },
-    "HO00000874": {
-      "AdvanceBooking": 1
-    },
-    "HO00000875": {
-      "AdvanceBooking": 1
-    },
-    "HO00000876": {
-      "AdvanceBooking": 1
-    },
-    "HO00000882": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-10-08T05:00:58.761Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-10-08T11:01:00.527Z"
 }

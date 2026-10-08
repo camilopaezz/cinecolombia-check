@@ -4732,7 +4732,7 @@
         "Drama",
         "Musical"
       ],
-      "director": "",
+      "director": "Andres Valencia",
       "webUrl": "https://www.cinecolombia.com/films/inolvidable-heidi/HO00000897/",
       "categories": [
         "NowShowing"
@@ -5712,5 +5712,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-08T11:01:00.527Z"
+  "lastRun": "2026-10-08T17:01:00.142Z"
 }

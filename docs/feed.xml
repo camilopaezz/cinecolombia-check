@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Variasies op ‘n Tema</title>
+      <link>https://www.cinecolombia.com/films/variasies-op-n-tema/HO00000858/</link>
+      <guid isPermaLink="false">257ceb7e-4778-4417-9f61-da6173dbf75b</guid>
+      <pubDate>Fri, 09 Oct 2026 11:00:29 GMT</pubDate>
+      <description>Una anciana pastora sudafricana es estafada con una falsa indemnización de guerra. Mientras espera un dinero que no llega, su cumpleaños 80 amenaza su independencia.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Adieu Monde Cruel</title>
+      <link>https://www.cinecolombia.com/films/adieu-monde-cruel/HO00000869/</link>
+      <guid isPermaLink="false">e5447427-9e97-40c6-86be-d3fffc6ce1a1</guid>
+      <pubDate>Fri, 09 Oct 2026 11:00:29 GMT</pubDate>
+      <description>Otto, de 14 años, desaparece tras enviar cartas de despedida a sus compañeros. Aunque todos lo creen muerto, Lena lo reconoce deambulando por la ciudad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Nightborn</title>
       <link>https://www.cinecolombia.com/films/nightborn/HO00000707/</link>
       <guid isPermaLink="false">f482ed78-3297-41b4-981a-80b38982d013</guid>
@@ -775,22 +791,6 @@
       <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
       <description>Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror</description>
       <media:content url="https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Climax.</title>
-      <link>https://www.cinecolombia.com/films/climax/HO00000780/</link>
-      <guid isPermaLink="false">491c079a-692e-4efd-a050-28e0bf62274e</guid>
-      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Unos bailarines franceses se reúnen en un edificio vacío para ensayar, pero todo cambiará cuando se enteran de que la sangría de su celebración contiene LSD.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/mHJQCOICHVHm8pOKAGm0rk0Qidu.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Digger</title>
-      <link>https://www.cinecolombia.com/films/digger/HO00000381/</link>
-      <guid isPermaLink="false">5d3a170a-fe55-429a-b3dc-a03c5f8dad87</guid>
-      <pubDate>Tue, 22 Sep 2026 05:00:31 GMT</pubDate>
-      <description>El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -16778,6 +16778,84 @@
           "posterPath": "/mq3GEa1FFJ1VdtPaMrZ05439Fqx.jpg"
         }
       }
+    },
+    {
+      "guid": "257ceb7e-4778-4417-9f61-da6173dbf75b",
+      "type": "removed",
+      "filmId": "HO00000858",
+      "createdAt": "2026-10-09T11:00:29.554Z",
+      "snapshot": {
+        "id": "HO00000858",
+        "title": "Variasies op ‘n Tema",
+        "shortSynopsis": "Una anciana pastora sudafricana es estafada con una falsa indemnización de guerra. Mientras espera un dinero que no llega, su cumpleaños 80 amenaza su independencia.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 65,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Devon Delmar",
+        "webUrl": "https://www.cinecolombia.com/films/variasies-op-n-tema/HO00000858/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg",
+        "tmdb": {
+          "tmdbId": 1599249,
+          "posterPath": "/cNbpR6hE1rIeb13xCFmv75PVaAx.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e5447427-9e97-40c6-86be-d3fffc6ce1a1",
+      "type": "removed",
+      "filmId": "HO00000869",
+      "createdAt": "2026-10-09T11:00:29.554Z",
+      "snapshot": {
+        "id": "HO00000869",
+        "title": "Adieu Monde Cruel",
+        "shortSynopsis": "Otto, de 14 años, desaparece tras enviar cartas de despedida a sus compañeros. Aunque todos lo creen muerto, Lena lo reconoce deambulando por la ciudad.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Félix de Givry",
+        "webUrl": "https://www.cinecolombia.com/films/adieu-monde-cruel/HO00000869/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg",
+        "tmdb": {
+          "tmdbId": 1352304,
+          "posterPath": "/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg"
+        }
+      }
     }
   ]
 }

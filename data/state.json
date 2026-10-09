@@ -746,14 +746,12 @@
       "director": "Finn den Hertog",
       "webUrl": "https://www.cinecolombia.com/films/the-fifth-step/HO00000728/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -5710,7 +5708,14 @@
       "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
     }
   },
-  "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-08T17:01:00.142Z"
+  "missingRuns": {
+    "HO00000858": 1,
+    "HO00000869": 1
+  },
+  "pendingCategoryLosses": {
+    "HO00000728": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-09T05:00:26.507Z"
 }

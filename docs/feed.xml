@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
+      <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
+      <guid isPermaLink="false">ef0b6f7a-1936-457e-a9de-b623d0af4b97</guid>
+      <pubDate>Fri, 09 Oct 2026 17:00:26 GMT</pubDate>
+      <description>Por primera vez, Stray Kids transmite en vivo su gira «&lt;RUN IT&gt;» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.</description>
+    </item>
+    <item>
+      <title>Pronto: Donde Comienza el Río</title>
+      <link>https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000899/</link>
+      <guid isPermaLink="false">bddd37ee-5762-4d44-8a05-eb40f452bf25</guid>
+      <pubDate>Fri, 09 Oct 2026 17:00:26 GMT</pubDate>
+      <description>Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.
+</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Variasies op ‘n Tema</title>
       <link>https://www.cinecolombia.com/films/variasies-op-n-tema/HO00000858/</link>
       <guid isPermaLink="false">257ceb7e-4778-4417-9f61-da6173dbf75b</guid>
@@ -775,22 +791,6 @@
       <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
       <description>Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Animal Farm</title>
-      <link>https://www.cinecolombia.com/films/animal-farm/HO00000755/</link>
-      <guid isPermaLink="false">6153bd26-8e8a-49f3-b862-94266f8e2a3e</guid>
-      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Una rebelión por la igualdad se corrompe cuando los cerdos toman el poder, borran la verdad y convierten la granja en una brutal dictadura.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/aAGTQgOJbXG4L3qIlWQl1KFu90t.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Whistler</title>
-      <link>https://www.cinecolombia.com/films/the-whistler/HO00000777/</link>
-      <guid isPermaLink="false">87ac9ce0-196c-4088-8017-ea4598f343b6</guid>
-      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Nicole y Sebastián heredan una finca ocupada por un culto que invoca espíritus. Al despertar a El Silbón, cuyo silbido anuncia la muerte, comienza el terror</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/sX8tqkFR1aqZaLQ4Jgb8jEMB4RN.jpg" medium="image" />
     </item>
   </channel>
 </rss>

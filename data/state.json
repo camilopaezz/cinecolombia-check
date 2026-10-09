@@ -4686,6 +4686,60 @@
         "tmdbId": 1289382,
         "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
       }
+    },
+    {
+      "id": "HO00000898",
+      "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+      "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
+      "releaseDate": "2026-11-07",
+      "runtimeInMinutes": 195,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Concierto"
+      ],
+      "director": "JYP Entertainment",
+      "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000899",
+      "title": "Donde Comienza el Río",
+      "shortSynopsis": "Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.\n",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 102,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Juan Andrés Arango",
+      "webUrl": "https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000899/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg",
+      "tmdb": {
+        "tmdbId": 865567,
+        "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -5640,9 +5694,13 @@
     "HO00000897": {
       "tmdbId": 1289382,
       "posterPath": "/aL2uXvu0K46JT7NjL7aCkzZBUBK.jpg"
+    },
+    "HO00000899": {
+      "tmdbId": 865567,
+      "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
     }
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-09T11:00:29.558Z"
+  "lastRun": "2026-10-09T17:00:26.393Z"
 }

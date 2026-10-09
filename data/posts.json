@@ -16856,6 +16856,72 @@
           "posterPath": "/xH1qX01mmzkuS3kkRrV7zRHanbU.jpg"
         }
       }
+    },
+    {
+      "guid": "ef0b6f7a-1936-457e-a9de-b623d0af4b97",
+      "type": "added",
+      "filmId": "HO00000898",
+      "createdAt": "2026-10-09T17:00:26.388Z",
+      "snapshot": {
+        "id": "HO00000898",
+        "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+        "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
+        "releaseDate": "2026-11-07",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "JYP Entertainment",
+        "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "bddd37ee-5762-4d44-8a05-eb40f452bf25",
+      "type": "added",
+      "filmId": "HO00000899",
+      "createdAt": "2026-10-09T17:00:26.388Z",
+      "snapshot": {
+        "id": "HO00000899",
+        "title": "Donde Comienza el Río",
+        "shortSynopsis": "Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.\n",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 102,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Juan Andrés Arango",
+        "webUrl": "https://www.cinecolombia.com/films/donde-comienza-el-rio/HO00000899/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg",
+        "tmdb": {
+          "tmdbId": 865567,
+          "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
+        }
+      }
     }
   ]
 }

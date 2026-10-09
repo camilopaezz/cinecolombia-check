@@ -2436,7 +2436,7 @@
       "shortSynopsis": "Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.",
       "releaseDate": "2026-10-15",
       "runtimeInMinutes": 92,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Suspenso",
@@ -2924,7 +2924,7 @@
       "shortSynopsis": "LA BOLA NEGRA entrelaza las vidas de tres hombres en 1932, 1937 y 2017, unidas por el deseo, el dolor y la herencia. Inspirada en una obra inacabada de Lorca.",
       "releaseDate": "2026-10-08",
       "runtimeInMinutes": 155,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama"
       ],
@@ -5700,7 +5700,10 @@
       "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000831": 1,
+    "HO00000898": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-09T17:00:26.393Z"
+  "lastRun": "2026-10-09T23:00:28.686Z"
 }

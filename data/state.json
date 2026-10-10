@@ -1178,7 +1178,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -3356,39 +3355,6 @@
       }
     },
     {
-      "id": "HO00000854",
-      "title": "Soumsoum, la nuit des astres",
-      "shortSynopsis": "En el desierto de Ennedi, Kellou, atormentada por visiones, encuentra en Aya una hermandad que enfrenta a la hostilidad del pueblo mientras lucha por su libertad.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 101,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Mahamat-Saleh Haroun",
-      "webUrl": "https://www.cinecolombia.com/films/soumsoum-la-nuit-des-astres/HO00000854/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg",
-      "tmdb": {
-        "tmdbId": 1376457,
-        "posterPath": "/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg"
-      }
-    },
-    {
       "id": "HO00000855",
       "title": "Temporada de caza",
       "shortSynopsis": "Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.",
@@ -3717,39 +3683,6 @@
       "tmdb": {
         "tmdbId": 1341137,
         "posterPath": "/wsFm0g25tE15M8MsitmxHZkTqRL.jpg"
-      }
-    },
-    {
-      "id": "HO00000866",
-      "title": "Elephants in the fog",
-      "shortSynopsis": "Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 108,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Abinash Bikram Shah",
-      "webUrl": "https://www.cinecolombia.com/films/elephants-in-the-fog/HO00000866/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg",
-      "tmdb": {
-        "tmdbId": 1661926,
-        "posterPath": "/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg"
       }
     },
     {
@@ -5644,10 +5577,7 @@
       "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000854": 1,
-    "HO00000866": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-10T05:00:26.482Z"
+  "lastRun": "2026-10-10T11:00:29.206Z"
 }

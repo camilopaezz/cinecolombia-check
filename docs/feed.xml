@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Soumsoum, la nuit des astres</title>
+      <link>https://www.cinecolombia.com/films/soumsoum-la-nuit-des-astres/HO00000854/</link>
+      <guid isPermaLink="false">d376a3c6-c6e9-4988-bc38-da13109fb43e</guid>
+      <pubDate>Sat, 10 Oct 2026 11:00:29 GMT</pubDate>
+      <description>En el desierto de Ennedi, Kellou, atormentada por visiones, encuentra en Aya una hermandad que enfrenta a la hostilidad del pueblo mientras lucha por su libertad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/vHSXd1UZIRoTV3OKMb4XObcgymU.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Elephants in the fog</title>
+      <link>https://www.cinecolombia.com/films/elephants-in-the-fog/HO00000866/</link>
+      <guid isPermaLink="false">0a596097-d2fb-4b3f-baee-f95beee38a13</guid>
+      <pubDate>Sat, 10 Oct 2026 11:00:29 GMT</pubDate>
+      <description>Pirati, matriarca Kinnar en un pueblo nepalí, sueña con escapar junto a su amor. Pero al desaparecer su hija, debe elegir entre el amor y su comunidad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: El prófugo</title>
       <link>https://www.cinecolombia.com/films/el-profugo/HO00000831/</link>
       <guid isPermaLink="false">ceb401b6-a408-4b7d-8830-dab8b78b462a</guid>
@@ -773,22 +789,6 @@
       <pubDate>Thu, 24 Sep 2026 11:00:29 GMT</pubDate>
       <description>Una patinadora queda atrapada en un témpano a la deriva en el Ártico. Mientras el hielo se derrite rumbo al sur, deberá hacer lo imposible para sobrevivir.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Toy Story 5</title>
-      <link>https://www.cinecolombia.com/films/toy-story-5/HO00000471/</link>
-      <guid isPermaLink="false">d17020f0-b9ac-4b24-90d3-18b161e31316</guid>
-      <pubDate>Thu, 24 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Los juguetes están de regreso y esta vez, el propósito de jugar de Buzz Lightyear, Woody, Jessie y el resto del grupo se ve amenazado cuando se enfrentan a Lilypad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pTjZfbFVWUIwUM5OzX3LVh84ejU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Masha And The Bears</title>
-      <link>https://www.cinecolombia.com/films/masha-and-the-bears/HO00000746/</link>
-      <guid isPermaLink="false">dcdc1481-9cf7-4215-b888-e07f4041aa7e</guid>
-      <pubDate>Thu, 24 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -16922,6 +16922,73 @@
           "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
         }
       }
+    },
+    {
+      "guid": "ceb401b6-a408-4b7d-8830-dab8b78b462a",
+      "type": "removed",
+      "filmId": "HO00000831",
+      "createdAt": "2026-10-10T05:00:26.478Z",
+      "snapshot": {
+        "id": "HO00000831",
+        "title": "El prófugo",
+        "shortSynopsis": "Inés, actriz de doblaje en Buenos Aires, desarrolla pesadillas vívidas tras un trauma. Paranoica, cree que los personajes de sus sueños intentan poseer su cuerpo",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 95,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Natalia Meta",
+        "webUrl": "https://www.cinecolombia.com/films/el-profugo/HO00000831/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "eb5ae90f-b570-4297-8733-344e8a2e80e4",
+      "type": "removed",
+      "filmId": "HO00000898",
+      "createdAt": "2026-10-10T05:00:26.478Z",
+      "snapshot": {
+        "id": "HO00000898",
+        "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+        "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
+        "releaseDate": "2026-11-07",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "JYP Entertainment",
+        "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

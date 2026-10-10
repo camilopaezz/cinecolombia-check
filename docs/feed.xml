@@ -7,6 +7,20 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: El prófugo</title>
+      <link>https://www.cinecolombia.com/films/el-profugo/HO00000831/</link>
+      <guid isPermaLink="false">ceb401b6-a408-4b7d-8830-dab8b78b462a</guid>
+      <pubDate>Sat, 10 Oct 2026 05:00:26 GMT</pubDate>
+      <description>Inés, actriz de doblaje en Buenos Aires, desarrolla pesadillas vívidas tras un trauma. Paranoica, cree que los personajes de sus sueños intentan poseer su cuerpo</description>
+    </item>
+    <item>
+      <title>Ya no disponible: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
+      <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
+      <guid isPermaLink="false">eb5ae90f-b570-4297-8733-344e8a2e80e4</guid>
+      <pubDate>Sat, 10 Oct 2026 05:00:26 GMT</pubDate>
+      <description>Por primera vez, Stray Kids transmite en vivo su gira «&lt;RUN IT&gt;» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.</description>
+    </item>
+    <item>
       <title>Pronto: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
       <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
       <guid isPermaLink="false">ef0b6f7a-1936-457e-a9de-b623d0af4b97</guid>
@@ -775,22 +789,6 @@
       <pubDate>Thu, 24 Sep 2026 05:00:32 GMT</pubDate>
       <description>Masha une fuerzas con los tres osos para salvar a su hermano, convertido en cabra por una maldición de los espíritus malignos del bosque.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/8bIrHHzOizxWHzgzmXXp2UnOjWI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Saccharine</title>
-      <link>https://www.cinecolombia.com/films/saccharine/HO00000695/</link>
-      <guid isPermaLink="false">7fdf33d1-8ec5-430e-8bae-840bf822817f</guid>
-      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Cuando Hana, una estudiante de medicina de primer año, se obsesiona con perder peso tras reencontrarse con una amiga que luce una transformación dramática.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/zMYFsfuHttGtHnXquWkIWI9Min8.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Her private hell</title>
-      <link>https://www.cinecolombia.com/films/her-private-hell/HO00000753/</link>
-      <guid isPermaLink="false">77885dd8-fc6f-401d-a83b-b79c2c3df53d</guid>
-      <pubDate>Wed, 23 Sep 2026 05:00:32 GMT</pubDate>
-      <description>Una joven busca a su padre desaparecido en una ciudad cubierta por una misteriosa niebla, donde la realidad y el horror se confunden.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kiFacg75KVjy0AM3S4QmbPas8zL.jpg" medium="image" />
     </item>
   </channel>
 </rss>

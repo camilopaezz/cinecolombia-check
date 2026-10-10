@@ -1869,7 +1869,6 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008",
             "0000000009"
           ]
         }
@@ -2625,36 +2624,6 @@
         "tmdbId": 1210268,
         "posterPath": "/qia4SpH0shPlNboorBgbFnfIhKf.jpg"
       }
-    },
-    {
-      "id": "HO00000831",
-      "title": "El prófugo",
-      "shortSynopsis": "Inés, actriz de doblaje en Buenos Aires, desarrolla pesadillas vívidas tras un trauma. Paranoica, cree que los personajes de sus sueños intentan poseer su cuerpo",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 95,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Natalia Meta",
-      "webUrl": "https://www.cinecolombia.com/films/el-profugo/HO00000831/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": null
     },
     {
       "id": "HO00000832",
@@ -4688,31 +4657,6 @@
       }
     },
     {
-      "id": "HO00000898",
-      "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
-      "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
-      "releaseDate": "2026-11-07",
-      "runtimeInMinutes": 195,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Concierto"
-      ],
-      "director": "JYP Entertainment",
-      "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "ComingSoon"
-          ]
-        }
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000899",
       "title": "Donde Comienza el Río",
       "shortSynopsis": "Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.\n",
@@ -5701,9 +5645,9 @@
     }
   },
   "missingRuns": {
-    "HO00000831": 1,
-    "HO00000898": 1
+    "HO00000854": 1,
+    "HO00000866": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-09T23:00:28.686Z"
+  "lastRun": "2026-10-10T05:00:26.482Z"
 }

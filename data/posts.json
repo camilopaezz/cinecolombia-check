@@ -17067,6 +17067,162 @@
           "posterPath": "/uusQ1AJdL3ZiwF5MB6Ie6pec2r3.jpg"
         }
       }
+    },
+    {
+      "guid": "cdbc675d-3e3e-4140-ba46-3f51a87d0d62",
+      "type": "removed",
+      "filmId": "HO00000832",
+      "createdAt": "2026-10-11T05:00:26.974Z",
+      "snapshot": {
+        "id": "HO00000832",
+        "title": "El rapto",
+        "shortSynopsis": "Buenos Aires, años 80. Julio Levy regresa del exilio al secuestrar su hermano. A cargo del rescate, descubre las fuerzas que aún operan tras la democracia argentina.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 95,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Daniela Goggi",
+        "webUrl": "https://www.cinecolombia.com/films/el-rapto/HO00000832/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg",
+        "tmdb": {
+          "tmdbId": 801112,
+          "posterPath": "/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9d67c51f-48e2-4c2e-b22f-9d0495f1117f",
+      "type": "removed",
+      "filmId": "HO00000833",
+      "createdAt": "2026-10-11T05:00:26.974Z",
+      "snapshot": {
+        "id": "HO00000833",
+        "title": "Everytime",
+        "shortSynopsis": "Una tragedia une a una madre, su hija y un adolescente. El trío viaja a Tenerife para vivir las vacaciones familiares que nunca tuvieron.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 124,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Sandra Wollner",
+        "webUrl": "https://www.cinecolombia.com/films/everytime/HO00000833/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
+        "tmdb": {
+          "tmdbId": 1655419,
+          "posterPath": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d08482a6-76d2-46df-b3a5-5058e8615104",
+      "type": "removed",
+      "filmId": "HO00000846",
+      "createdAt": "2026-10-11T05:00:26.974Z",
+      "snapshot": {
+        "id": "HO00000846",
+        "title": "Minotaur",
+        "shortSynopsis": "Rusia, 2022. Gleb, exitoso director de empresa, ve colapsar su vida ordenada hacia la violencia, acorralado por presiones corporativas y un mundo inestable.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 141,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Andrey Zviaguintsev",
+        "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000846/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+        "tmdb": {
+          "tmdbId": 848700,
+          "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
+        }
+      }
+    },
+    {
+      "guid": "aaff2064-e59d-4d56-a7a1-b9a994aa4848",
+      "type": "removed",
+      "filmId": "HO00000860",
+      "createdAt": "2026-10-11T05:00:26.974Z",
+      "snapshot": {
+        "id": "HO00000860",
+        "title": "Zama",
+        "shortSynopsis": "Diego de Zama, funcionario colonial, espera años una carta del Rey que nunca llega. Tras perderlo todo, se une a una partida en busca de un peligroso bandido.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 115,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Lucrecia Martel",
+        "webUrl": "https://www.cinecolombia.com/films/zama/HO00000860/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg",
+        "tmdb": {
+          "tmdbId": 1753085,
+          "posterPath": "/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg"
+        }
+      }
     }
   ]
 }

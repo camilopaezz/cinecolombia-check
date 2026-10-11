@@ -2625,72 +2625,6 @@
       }
     },
     {
-      "id": "HO00000832",
-      "title": "El rapto",
-      "shortSynopsis": "Buenos Aires, años 80. Julio Levy regresa del exilio al secuestrar su hermano. A cargo del rescate, descubre las fuerzas que aún operan tras la democracia argentina.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 95,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Daniela Goggi",
-      "webUrl": "https://www.cinecolombia.com/films/el-rapto/HO00000832/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg",
-      "tmdb": {
-        "tmdbId": 801112,
-        "posterPath": "/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg"
-      }
-    },
-    {
-      "id": "HO00000833",
-      "title": "Everytime",
-      "shortSynopsis": "Una tragedia une a una madre, su hija y un adolescente. El trío viaja a Tenerife para vivir las vacaciones familiares que nunca tuvieron.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 124,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Sandra Wollner",
-      "webUrl": "https://www.cinecolombia.com/films/everytime/HO00000833/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg",
-      "tmdb": {
-        "tmdbId": 1655419,
-        "posterPath": "/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg"
-      }
-    },
-    {
       "id": "HO00000834",
       "title": "Fatherland",
       "shortSynopsis": "En 1949, Thomas Mann (Hanns Zischler) y su hija Erika (Sandra Hüller) viajan por una Alemania dividida en 'Fatherland', de Pawlikowski. Identidad, familia y culpa.",
@@ -3089,39 +3023,6 @@
       }
     },
     {
-      "id": "HO00000846",
-      "title": "Minotaur",
-      "shortSynopsis": "Rusia, 2022. Gleb, exitoso director de empresa, ve colapsar su vida ordenada hacia la violencia, acorralado por presiones corporativas y un mundo inestable.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 141,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Andrey Zviaguintsev",
-      "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000846/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
-      "tmdb": {
-        "tmdbId": 848700,
-        "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
-      }
-    },
-    {
       "id": "HO00000847",
       "title": "Nina Roza",
       "shortSynopsis": "Un video viral de una niña artista búlgara atrae a un coleccionista, quien envía a Mihail a evaluar su obra, treinta años después de dejar su país natal.",
@@ -3484,39 +3385,6 @@
       "tmdb": {
         "tmdbId": 1496928,
         "posterPath": "/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg"
-      }
-    },
-    {
-      "id": "HO00000860",
-      "title": "Zama",
-      "shortSynopsis": "Diego de Zama, funcionario colonial, espera años una carta del Rey que nunca llega. Tras perderlo todo, se une a una partida en busca de un peligroso bandido.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 115,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Lucrecia Martel",
-      "webUrl": "https://www.cinecolombia.com/films/zama/HO00000860/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg",
-      "tmdb": {
-        "tmdbId": 1753085,
-        "posterPath": "/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg"
       }
     },
     {
@@ -5578,11 +5446,9 @@
     }
   },
   "missingRuns": {
-    "HO00000832": 1,
-    "HO00000833": 1,
-    "HO00000846": 1,
-    "HO00000860": 1
+    "HO00000838": 1,
+    "HO00000855": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-10T23:00:27.047Z"
+  "lastRun": "2026-10-11T05:00:26.978Z"
 }

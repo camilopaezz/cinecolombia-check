@@ -17223,6 +17223,81 @@
           "posterPath": "/gTxwdB58cPbwkPyRANN6TnCAPCd.jpg"
         }
       }
+    },
+    {
+      "guid": "d053870a-7c4c-4739-8360-6d2ea46765e8",
+      "type": "removed",
+      "filmId": "HO00000838",
+      "createdAt": "2026-10-11T11:00:29.245Z",
+      "snapshot": {
+        "id": "HO00000838",
+        "title": "Historia del miedo",
+        "shortSynopsis": "Un verano caluroso en una ciudad con cortes de luz. Un barrio privado con un gran parque y un terreno abandonado desatan una ola de humo, incertidumbre y caos.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 79,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Benjamín Naishtat",
+        "webUrl": "https://www.cinecolombia.com/films/historia-del-miedo/HO00000838/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "eaba5ab1-e1c8-4cac-ae97-42491d9f4006",
+      "type": "removed",
+      "filmId": "HO00000855",
+      "createdAt": "2026-10-11T11:00:29.245Z",
+      "snapshot": {
+        "id": "HO00000855",
+        "title": "Temporada de caza",
+        "shortSynopsis": "Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 105,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Natalia Garagiola",
+        "webUrl": "https://www.cinecolombia.com/films/temporada-de-caza/HO00000855/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg",
+        "tmdb": {
+          "tmdbId": 1387382,
+          "posterPath": "/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg"
+        }
+      }
     }
   ]
 }

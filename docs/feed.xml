@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Historia del miedo</title>
+      <link>https://www.cinecolombia.com/films/historia-del-miedo/HO00000838/</link>
+      <guid isPermaLink="false">d053870a-7c4c-4739-8360-6d2ea46765e8</guid>
+      <pubDate>Sun, 11 Oct 2026 11:00:29 GMT</pubDate>
+      <description>Un verano caluroso en una ciudad con cortes de luz. Un barrio privado con un gran parque y un terreno abandonado desatan una ola de humo, incertidumbre y caos.</description>
+    </item>
+    <item>
+      <title>Ya no disponible: Temporada de caza</title>
+      <link>https://www.cinecolombia.com/films/temporada-de-caza/HO00000855/</link>
+      <guid isPermaLink="false">eaba5ab1-e1c8-4cac-ae97-42491d9f4006</guid>
+      <pubDate>Sun, 11 Oct 2026 11:00:29 GMT</pubDate>
+      <description>Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: El rapto</title>
       <link>https://www.cinecolombia.com/films/el-rapto/HO00000832/</link>
       <guid isPermaLink="false">cdbc675d-3e3e-4140-ba46-3f51a87d0d62</guid>
@@ -774,22 +789,6 @@
       <pubDate>Thu, 24 Sep 2026 23:00:29 GMT</pubDate>
       <description>Tras siete años de pausa, Linkin Park se reinventa en esta película que sigue su regreso, desde sesiones íntimas de 2022 hasta su concierto en São Paulo en 2024.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/g1Uaklgay4sHaVKq0vUgM9LyEEV.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: One Night Only</title>
-      <link>https://www.cinecolombia.com/films/one-night-only/HO00000636/</link>
-      <guid isPermaLink="false">4011dba3-a201-46af-92e0-ef6c2f7498c1</guid>
-      <pubDate>Thu, 24 Sep 2026 11:00:29 GMT</pubDate>
-      <description>Owen, recién dejado por su pareja, y Allie, una romántica esperanzada, podrían ser los únicos solteros en la ciudad que buscan algo más que un encuentro casual.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ef8BsoRdCHrFeXkuYcdYxrBDtUS.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Dog Stars</title>
-      <link>https://www.cinecolombia.com/films/the-dog-stars/HO00000696/</link>
-      <guid isPermaLink="false">e99e22a0-9041-48ed-93fd-18c7e5c7647f</guid>
-      <pubDate>Thu, 24 Sep 2026 11:00:29 GMT</pubDate>
-      <description>un virus ha acabado con la mayor parte de la humanidad Hig, un piloto que sobrevivió a la gripe que mató a todos sus conocidos, vive en el hangar de un pequeño aeropuerto</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/x4GQv1M5qadEjLdLLyLTHYeaHGU.jpg" medium="image" />
     </item>
   </channel>
 </rss>

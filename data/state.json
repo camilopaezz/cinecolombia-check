@@ -672,7 +672,7 @@
       "title": "Whalefall",
       "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
       "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 120,
+      "runtimeInMinutes": 106,
       "censorRating": "Pendiente",
       "genres": [
         "Aventura",
@@ -5382,7 +5382,13 @@
       "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000728": 1,
+    "HO00000829": 1,
+    "HO00000839": 1,
+    "HO00000873": 1,
+    "HO00000874": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-11T11:00:29.249Z"
+  "lastRun": "2026-10-11T23:00:27.805Z"
 }

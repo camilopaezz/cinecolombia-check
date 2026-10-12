@@ -17298,6 +17298,240 @@
           "posterPath": "/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg"
         }
       }
+    },
+    {
+      "guid": "61b563d8-da45-40d9-b659-e99c853d2aa5",
+      "type": "now-in-theaters",
+      "filmId": "HO00000898",
+      "createdAt": "2026-10-12T05:00:29.442Z",
+      "snapshot": {
+        "id": "HO00000898",
+        "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+        "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
+        "releaseDate": "2026-11-07",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "JYP Entertainment",
+        "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "7e826056-da43-4008-9900-d8764b76b5fe",
+      "type": "removed",
+      "filmId": "HO00000728",
+      "createdAt": "2026-10-12T05:00:29.442Z",
+      "snapshot": {
+        "id": "HO00000728",
+        "title": "The Fifth Step",
+        "shortSynopsis": "James y Luka forjan una frágil amistad durante su recuperación, hasta que una confesión revela verdades que amenazan la confianza entre ambos.",
+        "releaseDate": "2026-10-09",
+        "runtimeInMinutes": 87,
+        "censorRating": "Contenido",
+        "genres": [
+          "Teatro"
+        ],
+        "director": "Finn den Hertog",
+        "webUrl": "https://www.cinecolombia.com/films/the-fifth-step/HO00000728/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008",
+              "0000000009"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg",
+        "tmdb": {
+          "tmdbId": 1507573,
+          "posterPath": "/f2FeCAeOadqj3leou4XTsHDR8pX.jpg"
+        }
+      }
+    },
+    {
+      "guid": "17ed4d91-bdd7-4e8f-a08e-0189e9681d8d",
+      "type": "removed",
+      "filmId": "HO00000829",
+      "createdAt": "2026-10-12T05:00:29.442Z",
+      "snapshot": {
+        "id": "HO00000829",
+        "title": "Dua",
+        "shortSynopsis": "En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 101,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Blerta Basholli",
+        "webUrl": "https://www.cinecolombia.com/films/dua/HO00000829/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg",
+        "tmdb": {
+          "tmdbId": 1472825,
+          "posterPath": "/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "57cb116e-1238-4b7b-a1aa-58892620d5aa",
+      "type": "removed",
+      "filmId": "HO00000839",
+      "createdAt": "2026-10-12T05:00:29.442Z",
+      "snapshot": {
+        "id": "HO00000839",
+        "title": "Iluminada",
+        "shortSynopsis": "Iluminada, joven con visiones que plasma en su poesía, vive entre dificultades en la periferia de Bogotá. Su relación con Juan no es bien vista en el barrio",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Nicolás Rincón Gille",
+        "webUrl": "https://www.cinecolombia.com/films/iluminada/HO00000839/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg",
+        "tmdb": {
+          "tmdbId": 1000097,
+          "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
+        }
+      }
+    },
+    {
+      "guid": "89a945fb-3388-4814-8ba6-2b930a2be297",
+      "type": "removed",
+      "filmId": "HO00000873",
+      "createdAt": "2026-10-12T05:00:29.442Z",
+      "snapshot": {
+        "id": "HO00000873",
+        "title": "Luis Tercero",
+        "shortSynopsis": "Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 115,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Familia"
+        ],
+        "director": "Iván David Gaona",
+        "webUrl": "https://www.cinecolombia.com/films/luis-tercero/HO00000873/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
+        "tmdb": {
+          "tmdbId": 1774071,
+          "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c3b4b3ce-33f6-4150-99b9-61499f797491",
+      "type": "removed",
+      "filmId": "HO00000874",
+      "createdAt": "2026-10-12T05:00:29.442Z",
+      "snapshot": {
+        "id": "HO00000874",
+        "title": "Sants",
+        "shortSynopsis": "Mientras lidia con la inminente muerte de su madre, Lali entra a formar parte de una banda de ladrones de figuras religiosas.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 103,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Mikel Gurrea",
+        "webUrl": "https://www.cinecolombia.com/films/sants/HO00000874/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg",
+        "tmdb": {
+          "tmdbId": 1736709,
+          "posterPath": "/r3mtqymqNjHaQbHqXX5snxuPUng.jpg"
+        }
+      }
     }
   ]
 }

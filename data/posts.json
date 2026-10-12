@@ -17532,6 +17532,203 @@
           "posterPath": "/r3mtqymqNjHaQbHqXX5snxuPUng.jpg"
         }
       }
+    },
+    {
+      "guid": "12cfae0f-d4fe-45cc-8b07-0fce8525b385",
+      "type": "removed",
+      "filmId": "HO00000756",
+      "createdAt": "2026-10-12T11:00:29.700Z",
+      "snapshot": {
+        "id": "HO00000756",
+        "title": "Queen Budapest",
+        "shortSynopsis": "El 27 de julio de 1986, ante 80.000 fans, Queen ofreció un histórico concierto en el Népstadion de Budapest, el último con Freddie Mercury como vocalista principal.",
+        "releaseDate": "2026-10-07",
+        "runtimeInMinutes": 97,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "János Zsombolyai",
+        "webUrl": "https://www.cinecolombia.com/films/queen-budapest/HO00000756/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008",
+              "0000000010"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dCsCez4aVeXqMiALdWYp4LFsztI.jpg",
+        "tmdb": {
+          "tmdbId": 142773,
+          "posterPath": "/dCsCez4aVeXqMiALdWYp4LFsztI.jpg"
+        }
+      }
+    },
+    {
+      "guid": "810a02ba-6abf-4fbd-b2cf-cb3cff9ac4cc",
+      "type": "removed",
+      "filmId": "HO00000827",
+      "createdAt": "2026-10-12T11:00:29.700Z",
+      "snapshot": {
+        "id": "HO00000827",
+        "title": "Aquí",
+        "shortSynopsis": "Simón se hace cargo de David, un niño huérfano, y busca en Inés una madre para él. Juntos reinventan la idea de familia, mientras David se resiste a las normas.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 204,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Tiago Guedes",
+        "webUrl": "https://www.cinecolombia.com/films/aqui/HO00000827/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg",
+        "tmdb": {
+          "tmdbId": 1000837,
+          "posterPath": "/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ce1d15aa-5c14-4ef8-ad60-625fa02ee486",
+      "type": "removed",
+      "filmId": "HO00000828",
+      "createdAt": "2026-10-12T11:00:29.700Z",
+      "snapshot": {
+        "id": "HO00000828",
+        "title": "Coward",
+        "shortSynopsis": "En plena Primera Guerra Mundial, Pierre conoce a Francis, quien organiza una obra de teatro para levantar el ánimo. Juntos buscan escapar de la brutalidad.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 125,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Lukas Dhont",
+        "webUrl": "https://www.cinecolombia.com/films/coward/HO00000828/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg",
+        "tmdb": {
+          "tmdbId": 1437981,
+          "posterPath": "/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9b31f938-b705-4a13-86e6-1cd2aac8bc88",
+      "type": "removed",
+      "filmId": "HO00000859",
+      "createdAt": "2026-10-12T11:00:29.700Z",
+      "snapshot": {
+        "id": "HO00000859",
+        "title": "We Are Aliens",
+        "shortSynopsis": "¿Y si te dijera que soy un extraterrestre?'. En un pequeño pueblo japonés, la traición de un chico común desata algo que intentará olvidar toda su vida.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 117,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Kohei Kadowaki",
+        "webUrl": "https://www.cinecolombia.com/films/we-are-aliens/HO00000859/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg",
+        "tmdb": {
+          "tmdbId": 1496928,
+          "posterPath": "/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6b0426a7-5146-46b1-a0bc-2d80d132d47b",
+      "type": "removed",
+      "filmId": "HO00000862",
+      "createdAt": "2026-10-12T11:00:29.700Z",
+      "snapshot": {
+        "id": "HO00000862",
+        "title": "Como todo mortal",
+        "shortSynopsis": "Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. 'Como Todo Mortal' mezcla documental y ciencia ficción.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 93,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Documental"
+        ],
+        "director": "María Molina Peiró",
+        "webUrl": "https://www.cinecolombia.com/films/como-todo-mortal/HO00000862/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg",
+        "tmdb": {
+          "tmdbId": 1651710,
+          "posterPath": "/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg"
+        }
+      }
     }
   ]
 }

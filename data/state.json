@@ -2361,7 +2361,7 @@
       "id": "HO00000825",
       "title": "Onslaught",
       "shortSynopsis": "Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.",
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2026-10-22",
       "runtimeInMinutes": 92,
       "censorRating": "+15 Años",
       "genres": [
@@ -4087,7 +4087,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg",
+      "tmdb": {
+        "tmdbId": 1795555,
+        "posterPath": "/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg"
+      }
     },
     {
       "id": "HO00000899",
@@ -5075,9 +5079,19 @@
     "HO00000899": {
       "tmdbId": 865567,
       "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
+    },
+    "HO00000898": {
+      "tmdbId": 1795555,
+      "posterPath": "/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000842": 1,
+    "HO00000849": 1,
+    "HO00000851": 1,
+    "HO00000870": 1,
+    "HO00000876": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-12T11:00:29.704Z"
+  "lastRun": "2026-10-12T23:00:25.412Z"
 }

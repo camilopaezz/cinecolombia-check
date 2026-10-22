@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: The Others</title>
+      <link>https://www.cinecolombia.com/films/the-others/HO00000896/</link>
+      <guid isPermaLink="false">37592801-6b42-4588-a8dd-4fbf2b4476b3</guid>
+      <pubDate>Thu, 22 Oct 2026 23:00:43 GMT</pubDate>
+      <description>Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Shrek</title>
+      <link>https://www.cinecolombia.com/films/shrek/HO00000930/</link>
+      <guid isPermaLink="false">cc0ffe34-2239-456c-b3bd-b6c2faf2daf3</guid>
+      <pubDate>Thu, 22 Oct 2026 23:00:43 GMT</pubDate>
+      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Spider-Man: Brand New Day</title>
       <link>https://www.cinecolombia.com/films/spider-man-brand-new-day/HO00000600/</link>
       <guid isPermaLink="false">cd585956-f285-46da-9a17-e18d44fdf69b</guid>
@@ -776,22 +792,6 @@
       <pubDate>Sun, 11 Oct 2026 11:00:29 GMT</pubDate>
       <description>Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: El rapto</title>
-      <link>https://www.cinecolombia.com/films/el-rapto/HO00000832/</link>
-      <guid isPermaLink="false">cdbc675d-3e3e-4140-ba46-3f51a87d0d62</guid>
-      <pubDate>Sun, 11 Oct 2026 05:00:26 GMT</pubDate>
-      <description>Buenos Aires, años 80. Julio Levy regresa del exilio al secuestrar su hermano. A cargo del rescate, descubre las fuerzas que aún operan tras la democracia argentina.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/nYHRcjVVO5iSjPXilvgSYPnmA13.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Everytime</title>
-      <link>https://www.cinecolombia.com/films/everytime/HO00000833/</link>
-      <guid isPermaLink="false">9d67c51f-48e2-4c2e-b22f-9d0495f1117f</guid>
-      <pubDate>Sun, 11 Oct 2026 05:00:26 GMT</pubDate>
-      <description>Una tragedia une a una madre, su hija y un adolescente. El trío viaja a Tenerife para vivir las vacaciones familiares que nunca tuvieron.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bOEoQxzC74eGMGbSq6xW7eLZjWn.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -2595,6 +2595,37 @@
       }
     },
     {
+      "id": "HO00000896",
+      "title": "The Others",
+      "shortSynopsis": "Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 105,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Misterio",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Alejandro Amenábar",
+      "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+      "tmdb": {
+        "tmdbId": 1933,
+        "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+      }
+    },
+    {
       "id": "HO00000898",
       "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
       "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
@@ -3514,6 +3545,37 @@
       "tmdb": {
         "tmdbId": 1425472,
         "posterPath": "/nb7NUk2fOqeA8FLlRqG2LqKezPW.jpg"
+      }
+    },
+    {
+      "id": "HO00000930",
+      "title": "Shrek",
+      "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
+      "releaseDate": "2026-10-26",
+      "runtimeInMinutes": 90,
+      "censorRating": "Todos",
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "director": "Vicky Jenson",
+      "webUrl": "https://www.cinecolombia.com/films/shrek/HO00000930/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
+      "tmdb": {
+        "tmdbId": 808,
+        "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
       }
     }
   ],
@@ -4561,9 +4623,15 @@
     "HO00000911": {
       "tmdbId": 1633353,
       "posterPath": "/sTTnQtAmxez5p70okxjlTrpowGc.jpg"
+    },
+    "HO00000930": {
+      "tmdbId": 808,
+      "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000908": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-22T17:00:40.848Z"
+  "lastRun": "2026-10-22T23:00:43.628Z"
 }

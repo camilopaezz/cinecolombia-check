@@ -21028,6 +21028,80 @@
           "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
         }
       }
+    },
+    {
+      "guid": "37592801-6b42-4588-a8dd-4fbf2b4476b3",
+      "type": "added",
+      "filmId": "HO00000896",
+      "createdAt": "2026-10-22T23:00:43.624Z",
+      "snapshot": {
+        "id": "HO00000896",
+        "title": "The Others",
+        "shortSynopsis": "Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 105,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Alejandro Amenábar",
+        "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+        "tmdb": {
+          "tmdbId": 1933,
+          "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+        }
+      }
+    },
+    {
+      "guid": "cc0ffe34-2239-456c-b3bd-b6c2faf2daf3",
+      "type": "added",
+      "filmId": "HO00000930",
+      "createdAt": "2026-10-22T23:00:43.624Z",
+      "snapshot": {
+        "id": "HO00000930",
+        "title": "Shrek",
+        "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
+        "releaseDate": "2026-10-26",
+        "runtimeInMinutes": 90,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Vicky Jenson",
+        "webUrl": "https://www.cinecolombia.com/films/shrek/HO00000930/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
+        "tmdb": {
+          "tmdbId": 808,
+          "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
+        }
+      }
     }
   ]
 }

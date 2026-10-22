@@ -1218,8 +1218,8 @@ describe("formatCommitMessage", () => {
     ).toBe("ci: update feed (added:2, preventa-opens:1, removed:1)");
   });
 
-  it("uses (no events) when the list is empty", () => {
-    expect(formatCommitMessage([])).toBe("ci: update feed (no events)");
+  it("uses update catalog when the event list is empty", () => {
+    expect(formatCommitMessage([])).toBe("ci: update catalog");
   });
 });
 

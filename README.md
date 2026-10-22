@@ -193,7 +193,7 @@ scrape commits only if `data/` or `docs/` changed, and always tries `git push`
 
 ```
 ci: update feed (added:2, removed:1)
-ci: update feed (no events)
+ci: update catalog
 ```
 
 ## Deploy (bare-metal Fedora)

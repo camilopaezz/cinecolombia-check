@@ -1221,7 +1221,7 @@ function tryGitPullRebase(): void {
 
 /** Commit subject from this run's lifecycle events, e.g. "ci: update feed (added:2, removed:1)". */
 export function formatCommitMessage(events: Event[]): string {
-  if (events.length === 0) return "ci: update feed (no events)";
+  if (events.length === 0) return "ci: update catalog";
   const typeCounts = new Map<EventType, number>();
   for (const e of events) typeCounts.set(e.type, (typeCounts.get(e.type) ?? 0) + 1);
   const parts = [...typeCounts.entries()]

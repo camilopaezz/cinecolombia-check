@@ -123,6 +123,7 @@ export interface Deps {
   fetchToken: () => Promise<string>;
   ocapi: (token: string, path: string) => Promise<unknown>;
   fetchSitemap: () => Promise<string>;
+  notifyFailure: (message: string, webhookUrl: string) => Promise<void>;
   tmdb: (
     apiKey: string,
     query: string,
@@ -141,6 +142,7 @@ export interface MainOptions {
   feedTitle?: string;
   gitPush?: boolean;
   notifyWebhookUrl?: string;
+  failureWebhookUrl?: string;
   deps?: Partial<Deps>;
 }
 
@@ -1129,7 +1131,7 @@ function runCapture(cmd: string, args: string[], timeoutMs = CURL_TIMEOUT_MS): P
       }
       reject(new Error(`${cmd} timed out after ${timeoutMs}ms`));
     }, timeoutMs);
-    done.finally(() => clearTimeout(t));
+    done.then(() => clearTimeout(t), () => clearTimeout(t));
   });
   return Promise.race([done, timedOut]);
 }
@@ -1148,11 +1150,8 @@ export const liveDeps: Deps = {
     return res.json();
   },
   async fetchSitemap() {
-    const res = await fetch("https://www.cinecolombia.com/sitemap.xml", {
-      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-    });
-    if (!res.ok) throw new Error(`sitemap -> ${res.status}`);
-    return res.text();
+    // The sitemap has the same Cloudflare protection as the homepage.
+    return runCapture("curl_chrome136", ["-fsSL", "https://www.cinecolombia.com/sitemap.xml"]);
   },
   async tmdb(apiKey, query, year) {
     const url = new URL("https://api.themoviedb.org/3/search/movie");
@@ -1168,6 +1167,23 @@ export const liveDeps: Deps = {
   },
   now: () => new Date(),
   uuid: () => crypto.randomUUID(),
+  async notifyFailure(message, webhookUrl) {
+    const res = await fetch(webhookUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        allowed_mentions: { parse: [] },
+        embeds: [{
+          title: "CineColombia: fallo del scraper",
+          description: message,
+          color: 0xe74c3c,
+          timestamp: new Date().toISOString(),
+        }],
+      }),
+      signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+    });
+    if (!res.ok) throw new Error(`failure webhook -> ${res.status}`);
+  },
   async notify(events, webhookUrl) {
     for (const e of events) {
       const body = JSON.stringify({ embeds: [buildDiscordEmbed(e)] });
@@ -1292,6 +1308,33 @@ export function runArchiveHygiene(
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 export async function main(options: MainOptions = {}): Promise<void> {
+  try {
+    await runMain(options);
+  } catch (error) {
+    const webhookUrl = options.failureWebhookUrl ?? process.env.FAILURE_WEBHOOK_URL ??
+      options.notifyWebhookUrl ?? process.env.NOTIFY_WEBHOOK_URL;
+    if (webhookUrl) {
+      let message = error instanceof Error ? error.message : String(error);
+      for (const secret of [
+        webhookUrl, options.notifyWebhookUrl, process.env.NOTIFY_WEBHOOK_URL,
+        options.tmdbApiKey, process.env.TMDB_API_KEY,
+      ]) {
+        if (secret) message = message.replaceAll(secret, "<REDACTED>");
+      }
+      message = message.replace(/https?:\/\/[^\s]+/gi, "<REDACTED URL>")
+        .replace(/Bearer\s+[^\s]+/gi, "Bearer <REDACTED>").slice(0, 3500);
+      try {
+        await (options.deps?.notifyFailure ?? liveDeps.notifyFailure)(message, webhookUrl);
+      } catch {
+        // Delivery errors can contain the webhook URL. Keep credentials out of logs.
+        console.error("failure alert delivery failed; see original scraper error");
+      }
+    }
+    throw error;
+  }
+}
+
+async function runMain(options: MainOptions): Promise<void> {
   const startedAt = Date.now();
   const dataDir = options.dataDir ?? "data";
   const docsDir = options.docsDir ?? "docs";
@@ -1325,6 +1368,9 @@ export async function main(options: MainOptions = {}): Promise<void> {
   }
   const sitemapXml = await deps.fetchSitemap();
   const sitemap = parseSitemap(sitemapXml);
+  if (!/<urlset\b/i.test(sitemapXml) || (catalogIds.size > 0 && Object.keys(sitemap).length === 0)) {
+    throw new Error("invalid or empty film sitemap — aborting before write");
+  }
   const current = buildFilmRecords(filmsRes, availRes, sitemap);
   // Empty current is a free no-op here; runLifecycle still aborts empty-with-known before write.
   await enrichPosters(current, prev.tmdbCache, tmdbApiKey, deps.tmdb);

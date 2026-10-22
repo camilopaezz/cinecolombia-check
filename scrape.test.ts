@@ -1,5 +1,5 @@
 import { beforeAll, describe, expect, it, afterAll, spyOn } from "bun:test";
-import { mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { chmodSync, mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import type {
@@ -27,6 +27,7 @@ import {
   lifecycleAbortMessage,
   loadPosts,
   loadState,
+  liveDeps,
   main,
   maxRemovalsAllowed,
   parseSitemap,
@@ -96,6 +97,7 @@ const deps = (overrides: Partial<Deps> = {}): Deps => ({
   async fetchSitemap() {
     return sitemap;
   },
+  async notifyFailure() {},
   async tmdb() {
     return { tmdbId: 1, posterPath: "/abc.jpg" };
   },
@@ -1288,6 +1290,160 @@ describe("buildDiscordEmbed", () => {
 });
 
 // ─── End-to-end scraper run (primary seam) ───────────────────────────────────
+
+describe("failure alerts", () => {
+  it("alerts and preserves all files when an HTTP success body is not a film sitemap", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "cineco-invalid-sitemap-"));
+    const dataDir = join(dir, "data");
+    const docsDir = join(dir, "docs");
+    const messages: string[] = [];
+    try {
+      await main({ dataDir, docsDir, gitPush: false, failureWebhookUrl: "", deps: deps() });
+      const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"),
+        join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+      const before = paths.map((path) => readFileSync(path, "utf8"));
+      for (const body of ["<html><title>Just a moment...</title></html>", "<urlset></urlset>"]) {
+        await expect(main({
+          dataDir, docsDir, gitPush: false, failureWebhookUrl: "https://discord.example/failures",
+          deps: deps({
+            async fetchSitemap() { return body; },
+            async notifyFailure(message) { messages.push(message); },
+          }),
+        })).rejects.toThrow("invalid or empty film sitemap");
+        expect(paths.map((path) => readFileSync(path, "utf8"))).toEqual(before);
+      }
+      expect(messages).toHaveLength(2);
+    } finally { rmSync(dir, { recursive: true, force: true }); }
+  });
+
+  it("sends a webhook before the CLI exits unsuccessfully when curl fails", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "cineco-cli-failure-"));
+    const bodies: { embeds: { description: string }[] }[] = [];
+    const server = Bun.serve({
+      port: 0,
+      hostname: "127.0.0.1",
+      async fetch(request) {
+        // Yield so an unhandled subprocess rejection would interrupt delivery.
+        await Bun.sleep(20);
+        bodies.push(await request.json());
+        return new Response(null, { status: 204 });
+      },
+    });
+    try {
+      const curl = join(dir, "curl_chrome136");
+      writeFileSync(curl, "#!/bin/sh\necho 'HTTP 403' >&2\nexit 22\n");
+      chmodSync(curl, 0o755);
+      const child = Bun.spawn([process.execPath, join(import.meta.dir, "scrape.ts")], {
+        cwd: dir,
+        env: {
+          ...process.env,
+          PATH: dir,
+          CINECO_GIT_PUSH: "0",
+          NOTIFY_WEBHOOK_URL: "",
+          FAILURE_WEBHOOK_URL: `http://127.0.0.1:${server.port}/alerts`,
+        },
+        stdout: "pipe", stderr: "pipe",
+      });
+      const stderr = Bun.readableStreamToText(child.stderr);
+      expect(await child.exited).toBe(1);
+      expect(await stderr).toContain("curl_chrome136 exited 22");
+      expect(bodies).toHaveLength(1);
+      expect(bodies[0].embeds[0].description).toContain("HTTP 403");
+    } finally {
+      server.stop(true);
+      rmSync(dir, { recursive: true, force: true });
+    }
+  });
+
+  it("alerts on a sitemap failure, redacts credentials, and preserves the error and files", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "cineco-failure-"));
+    const dataDir = join(dir, "data");
+    const docsDir = join(dir, "docs");
+    const messages: string[] = [];
+    const destinations: string[] = [];
+    const webhook = "https://discord.example/api/webhooks/123/private";
+    const failure = new Error(`sitemap -> 403; ${webhook}; api-secret; Bearer private-token`);
+    try {
+      await main({ dataDir, docsDir, gitPush: false, failureWebhookUrl: "", deps: deps() });
+      const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"),
+        join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+      const before = paths.map((path) => readFileSync(path, "utf8"));
+      await expect(main({
+        dataDir, docsDir, gitPush: false, failureWebhookUrl: webhook, tmdbApiKey: "api-secret",
+        deps: deps({
+          async fetchSitemap() { throw failure; },
+          async notifyFailure(message, url) { messages.push(message); destinations.push(url); },
+        }),
+      })).rejects.toBe(failure);
+      expect(destinations).toEqual([webhook]);
+      expect(messages).toHaveLength(1);
+      expect(messages[0]).toContain("sitemap -> 403");
+      for (const secret of [webhook, "api-secret", "private-token"]) {
+        expect(messages[0]).not.toContain(secret);
+      }
+      expect(paths.map((path) => readFileSync(path, "utf8"))).toEqual(before);
+    } finally { rmSync(dir, { recursive: true, force: true }); }
+  });
+
+  it("falls back to the lifecycle webhook and preserves the original failure if delivery fails", async () => {
+    const failure = new Error("token fetch failed");
+    const destinations: string[] = [];
+    const previous = process.env.FAILURE_WEBHOOK_URL;
+    delete process.env.FAILURE_WEBHOOK_URL;
+    const log = spyOn(console, "error").mockImplementation(() => {});
+    try {
+      await expect(main({
+        gitPush: false, notifyWebhookUrl: "https://discord.example/fallback",
+        deps: deps({
+          async fetchToken() { throw failure; },
+          async notifyFailure(_message, url) { destinations.push(url); throw new Error(url); },
+        }),
+      })).rejects.toBe(failure);
+      expect(destinations).toEqual(["https://discord.example/fallback"]);
+      expect(log).toHaveBeenCalledWith("failure alert delivery failed; see original scraper error");
+    } finally {
+      log.mockRestore();
+      if (previous === undefined) delete process.env.FAILURE_WEBHOOK_URL;
+      else process.env.FAILURE_WEBHOOK_URL = previous;
+    }
+  });
+
+  it("does not send alerts when disabled or on a successful run", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "cineco-no-failure-"));
+    let calls = 0;
+    const notifyFailure = async () => { calls++; };
+    try {
+      await expect(main({
+        gitPush: false, failureWebhookUrl: "", notifyWebhookUrl: "https://discord.example/events",
+        deps: deps({ notifyFailure, async fetchToken() { throw new Error("blocked"); } }),
+      })).rejects.toThrow("blocked");
+      await main({
+        dataDir: join(dir, "data"), docsDir: join(dir, "docs"), gitPush: false,
+        failureWebhookUrl: "https://discord.example/failures", deps: deps({ notifyFailure }),
+      });
+      expect(calls).toBe(0);
+    } finally { rmSync(dir, { recursive: true, force: true }); }
+  });
+
+  it("posts a Discord alert and rejects unsuccessful delivery", async () => {
+    const requests: RequestInit[] = [];
+    const fetchSpy = spyOn(globalThis, "fetch").mockImplementation((async (_url, init) => {
+      requests.push(init!);
+      return new Response(null, { status: requests.length === 1 ? 204 : 500 });
+    }) as typeof fetch);
+    try {
+      await liveDeps.notifyFailure("sitemap -> 403", "https://discord.example/failures");
+      const body = JSON.parse(requests[0].body as string);
+      expect(requests[0].method).toBe("POST");
+      expect(body.embeds[0].description).toBe("sitemap -> 403");
+      expect(body.embeds[0].timestamp).toBeString();
+      expect(body.allowed_mentions).toEqual({ parse: [] });
+      expect(requests[0].signal).toBeInstanceOf(AbortSignal);
+      await expect(liveDeps.notifyFailure("failed", "https://discord.example/failures"))
+        .rejects.toThrow("failure webhook -> 500");
+    } finally { fetchSpy.mockRestore(); }
+  });
+});
 
 describe("main (full scraper run)", () => {
   let dir: string;

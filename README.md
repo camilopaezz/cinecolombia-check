@@ -21,7 +21,7 @@ bun run typecheck            # tsc --noEmit
 The scraper reads `TMDB_API_KEY`, `FEED_URL`, `CINECO_GIT_PUSH`, and
 `NOTIFY_WEBHOOK_URL` from the environment (see `cineco.env.example`). It shells
 out to `curl_chrome136` to pass Cloudflare on the Cinecolombia homepage and
-fetch a fresh OCAPI token each run.
+sitemap, fetching a fresh OCAPI token each run.
 
 ## Layout
 
@@ -173,6 +173,19 @@ sudo systemctl restart cineco.service
 
 To disable: comment out the line and restart. No code changes needed.
 
+Failed runs also send a Discord alert to `NOTIFY_WEBHOOK_URL`, including the
+error and time. To route failures to a separate channel, set
+`FAILURE_WEBHOOK_URL` in `/etc/cineco.env`. An explicitly empty
+`FAILURE_WEBHOOK_URL=` disables failure alerts. Each failed run attempts one
+alert, including fetch errors, catalog safety aborts, and git failures. Alert
+delivery has a 30-second timeout; if delivery fails, the original run still
+fails and journald records the delivery failure. URLs, configured credentials,
+and bearer tokens are redacted from the alert.
+
+These alerts cover errors caught by the scraper. A host outage, process kill,
+or systemd timeout needs an external monitor because the process cannot send
+an alert after it has stopped. Offline `--hygiene` does not send alerts.
+
 ## Ops / logs
 
 A successful fetch and save logs its observation time before notification and
@@ -205,7 +218,7 @@ sudo install -m 0755 -o root -g root ~/.bun/bin/bun /usr/local/bin/bun
 sudo restorecon -v /usr/local/bin/bun
 
 # Install curl-impersonate (provides curl_chrome136, used to bypass Cloudflare
-# on the Cinecolombia homepage). Not bundled, not an npm dep — system binary.
+# on the Cinecolombia homepage and sitemap). Not bundled, not an npm dep — system binary.
 # Asset: curl-impersonate-v1.5.6.x86_64-linux-gnu.tar.gz from
 # https://github.com/lexiforest/curl-impersonate/releases
 sudo mkdir -p /usr/local/curl-impersonate

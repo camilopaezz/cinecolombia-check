@@ -58,7 +58,8 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008"
+            "0000000008",
+            "0000000010"
           ]
         }
       ],
@@ -73,8 +74,8 @@
       "title": "The Hunger Games: Sunrise on the Reaping",
       "shortSynopsis": "Ambientada 24 años antes de la saga de Katniss, un joven Haymitch Abernathy es seleccionado para competir en los 50º Juegos del Hambre.",
       "releaseDate": "2026-11-19",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 158,
+      "censorRating": "+12 Años",
       "genres": [
         "Acción",
         "Aventura",
@@ -83,13 +84,22 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-sunrise-on-the-reaping/HO00000480/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000002",
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000010"
           ]
         }
       ],
@@ -103,7 +113,7 @@
       "id": "HO00000501",
       "title": "Ternet Ninja 3",
       "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
-      "releaseDate": "2026-11-12",
+      "releaseDate": "2026-10-22",
       "runtimeInMinutes": 88,
       "censorRating": "+7 Años",
       "genres": [
@@ -114,13 +124,17 @@
       "director": "Anders Matthesen",
       "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -240,8 +254,8 @@
       "title": "Clayface",
       "shortSynopsis": "La estrella emergente de Hollywood Matt Hagen se convierte en un horrible monstruo lleno de venganza cuando la ambición científica lo despoja de su identidad y humanidad.",
       "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 110,
+      "censorRating": "+15 Años",
       "genres": [
         "Suspenso",
         "Terror"
@@ -249,13 +263,20 @@
       "director": "James Watkins",
       "webUrl": "https://www.cinecolombia.com/films/clayface/HO00000623/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000002",
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -290,8 +311,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -414,14 +434,12 @@
       "director": "Kitao Sakurai",
       "webUrl": "https://www.cinecolombia.com/films/street-fighter/HO00000666/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -430,7 +448,6 @@
             "0000000004",
             "0000000007",
             "0000000008",
-            "0000000009",
             "0000000010"
           ]
         }
@@ -465,7 +482,8 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008"
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -499,10 +517,12 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
+            "0000000002",
             "0000000003",
             "0000000004",
             "0000000007",
-            "0000000008"
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -537,8 +557,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -584,8 +603,8 @@
       "title": "Sense and Sensibility",
       "shortSynopsis": "Focus Features y Working Title presentan una nueva versión de 'Sensatez y sentimiento', con Daisy Edgar-Jones y Esmé Creed-Miles. Amor entre hermanas.",
       "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 132,
+      "censorRating": "+12 Años",
       "genres": [
         "Drama",
         "Romance"
@@ -722,8 +741,7 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -1030,7 +1048,7 @@
     },
     {
       "id": "HO00000740",
-      "title": "Calle Málaga",
+      "title": "Calle Malaga",
       "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
       "releaseDate": "2026-10-15",
       "runtimeInMinutes": 116,
@@ -1042,13 +1060,17 @@
       "director": "Maryam Touzani",
       "webUrl": "https://www.cinecolombia.com/films/calle-malaga/HO00000740/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -1157,7 +1179,7 @@
     {
       "id": "HO00000750",
       "title": "CoComelon: The Movie",
-      "shortSynopsis": "JJ y sus amigos viajan a una tierra mágica para encontrar a su osito Boba, donde deberán enfrentarse a una princesa que ha prohibido cantar.",
+      "shortSynopsis": "JJ empieza el jardín de niños, pero su osito Boba desaparece. Con Cody, CeCe y Nina viaja a una tierra mágica de la princesa Harmony, donde cantar está prohibido.",
       "releaseDate": "2027-02-25",
       "runtimeInMinutes": 120,
       "censorRating": "Pendiente",
@@ -1190,7 +1212,7 @@
       "shortSynopsis": "Thomas Mann regresa a una Alemania dividida por la Guerra Fría, donde deberá enfrentar tensiones políticas y una tragedia familiar que amenaza con separarlos.",
       "releaseDate": "2026-10-22",
       "runtimeInMinutes": 82,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Drama",
         "Historia"
@@ -1198,13 +1220,17 @@
       "director": "Paweł Pawlikowski",
       "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000752/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -1680,8 +1706,8 @@
       "title": "The Get Out",
       "shortSynopsis": "Basada en 'Strip' de Thomas Perry: un dueño de club nocturno listo para retirarse enfrenta traiciones tras un violento asalto, en una lucha por sobrevivir.",
       "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 96,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 111,
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Suspenso"
@@ -1689,13 +1715,18 @@
       "director": "Derrick Borte",
       "webUrl": "https://www.cinecolombia.com/films/the-get-out/HO00000775/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1720,13 +1751,18 @@
       "director": "Yeon Sang-ho",
       "webUrl": "https://www.cinecolombia.com/films/colony/HO00000776/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1796,8 +1832,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000009"
+            "0000000007"
           ]
         }
       ],
@@ -2064,14 +2099,12 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2301,7 +2334,7 @@
       "id": "HO00000823",
       "title": "By Any Means",
       "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
-      "releaseDate": "2026-10-22",
+      "releaseDate": "2026-11-05",
       "runtimeInMinutes": 107,
       "censorRating": "Pendiente",
       "genres": [
@@ -2372,13 +2405,18 @@
       "director": "Adam Wingard",
       "webUrl": "https://www.cinecolombia.com/films/onslaught/HO00000825/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2654,39 +2692,6 @@
       }
     },
     {
-      "id": "HO00000842",
-      "title": "Lejos de los Árboles",
-      "shortSynopsis": "Adela, artista sonora mexicana, viaja con Lucho por la selva y los Andes, creando un mapa sonoro de lenguas en peligro. Un viaje íntimo hacia sus orígenes.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 121,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Meritxell Colell Aparicio",
-      "webUrl": "https://www.cinecolombia.com/films/lejos-de-los-arboles/HO00000842/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg",
-      "tmdb": {
-        "tmdbId": 1025391,
-        "posterPath": "/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg"
-      }
-    },
-    {
       "id": "HO00000843",
       "title": "Light Pillar",
       "shortSynopsis": "Zha, solitario conserje de un estudio en quiebra, escapa a un mundo virtual donde sueña con viajar a la Luna. La destrucción real se vuelve set de ciencia ficción.",
@@ -2857,39 +2862,6 @@
       }
     },
     {
-      "id": "HO00000849",
-      "title": "Papaya",
-      "shortSynopsis": "Una diminuta semilla de papaya en la selva amazónica huye de echar raíces, hasta descubrir el poder de las suyas, desencadenando una revolución inesperada.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 75,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación"
-      ],
-      "director": "Priscilla Kellen",
-      "webUrl": "https://www.cinecolombia.com/films/papaya/HO00000849/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/fET69vh3XIeSmxanlgKKN8x23hC.jpg",
-      "tmdb": {
-        "tmdbId": 1534205,
-        "posterPath": "/fET69vh3XIeSmxanlgKKN8x23hC.jpg"
-      }
-    },
-    {
       "id": "HO00000850",
       "title": "Princesa Burro",
       "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la lleva a recuperar su amor perdido.",
@@ -2920,39 +2892,6 @@
       "tmdb": {
         "tmdbId": 1536431,
         "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
-      }
-    },
-    {
-      "id": "HO00000851",
-      "title": "A Providência e a Guitarra",
-      "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al rey al enamorarse de Lalo. Un brazalete mágico la ayuda a recuperar su amor perdido",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 125,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "João Nicolau",
-      "webUrl": "https://www.cinecolombia.com/films/a-providencia-e-a-guitarra/HO00000851/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg",
-      "tmdb": {
-        "tmdbId": 1440397,
-        "posterPath": "/m485znZEsU1tgjbI1YZ8jo5h7S3.jpg"
       }
     },
     {
@@ -3288,39 +3227,6 @@
       }
     },
     {
-      "id": "HO00000870",
-      "title": "Hermanas",
-      "shortSynopsis": "Chelo y Marta, hermanas, ven su vínculo puesto a prueba cuando un suceso sacude a su familia, obligándolas a decidir hasta dónde llegar para proteger a los suyos.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 101,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Ione Hernández Sáenz",
-      "webUrl": "https://www.cinecolombia.com/films/hermanas/HO00000870/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": null,
-      "tmdb": {
-        "tmdbId": 1556887,
-        "posterPath": null
-      }
-    },
-    {
       "id": "HO00000871",
       "title": "La Gradiva",
       "shortSynopsis": "Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.",
@@ -3422,41 +3328,6 @@
       }
     },
     {
-      "id": "HO00000876",
-      "title": "The man I love",
-      "shortSynopsis": "Fin de los 80 en Nueva York, Jimmy George se rebela contra su mortalidad con un nuevo papel, un romance imprudente y el abrazo de su comunidad creativa.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 97,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama",
-        "Música",
-        "Romance"
-      ],
-      "director": "Ira Sachs",
-      "webUrl": "https://www.cinecolombia.com/films/the-man-i-love/HO00000876/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg",
-      "tmdb": {
-        "tmdbId": 1458914,
-        "posterPath": "/p35Q85f9oMsCUwULGwoaXd6VQZY.jpg"
-      }
-    },
-    {
       "id": "HO00000878",
       "title": "Avengers: Doomsday",
       "shortSynopsis": "En 'Avengers: Doomsday', héroes de tres universos distintos chocan en un curso mortal y enfrentan una amenaza existencial sin precedentes.\n",
@@ -3534,7 +3405,7 @@
       "shortSynopsis": "Ambientada en 1949, dos años después de 'Godzilla Minus One', la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 135,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Aventura",
@@ -3554,6 +3425,7 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
+            "0000000002",
             "0000000004",
             "0000000007",
             "0000000008",
@@ -3739,7 +3611,7 @@
       "shortSynopsis": "Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el \"Boiúna\".",
       "releaseDate": "2026-10-22",
       "runtimeInMinutes": 104,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Terror"
@@ -3747,13 +3619,18 @@
       "director": "Mike P. Nelson",
       "webUrl": "https://www.cinecolombia.com/films/beware-boiuna/HO00000888/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -3769,7 +3646,7 @@
       "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 96,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Suspenso"
@@ -3824,7 +3701,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg",
+      "tmdb": {
+        "tmdbId": 1797226,
+        "posterPath": "/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg"
+      }
     },
     {
       "id": "HO00000891",
@@ -3968,7 +3849,7 @@
       "shortSynopsis": "Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.",
       "releaseDate": "2026-10-15",
       "runtimeInMinutes": 81,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación",
         "Familia",
@@ -3977,13 +3858,17 @@
       "director": "Verena Fels",
       "webUrl": "https://www.cinecolombia.com/films/monster-mia/HO00000895/",
       "categories": [
-        "ComingSoon"
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -4120,6 +4005,893 @@
       "tmdb": {
         "tmdbId": 865567,
         "posterPath": "/5lk6ELIMgs3F03CotOp8lViYIia.jpg"
+      }
+    },
+    {
+      "id": "HO00000901",
+      "title": "I Want Your Sex",
+      "shortSynopsis": "Elliot consigue trabajo con la artista Erika Tracy, quien lo invita a ser su musa sexual, pero pronto se ve arrastrado a un mundo de obsesión, poder y traición.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 90,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Comedia",
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Gregg Araki",
+      "webUrl": "https://www.cinecolombia.com/films/i-want-your-sex/HO00000901/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
+      "tmdb": {
+        "tmdbId": 1288059,
+        "posterPath": "/aMFx35t0T61S1ILDZrycPFRu95u.jpg"
+      }
+    },
+    {
+      "id": "HO00000902",
+      "title": "Ebenezer",
+      "shortSynopsis": "Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Fantasía"
+      ],
+      "director": "Ti West",
+      "webUrl": "https://www.cinecolombia.com/films/ebenezer/HO00000902/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+      "tmdb": {
+        "tmdbId": 1567605,
+        "posterPath": "/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg"
+      }
+    },
+    {
+      "id": "HO00000903",
+      "title": "BLUE LOCK",
+      "shortSynopsis": "Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 128,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Deporte",
+        "Drama"
+      ],
+      "director": "Yūsuke Taki",
+      "webUrl": "https://www.cinecolombia.com/films/blue-lock/HO00000903/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg",
+      "tmdb": {
+        "tmdbId": 1623376,
+        "posterPath": "/is62bAmW4fHrJtbn0sjxWRb6psq.jpg"
+      }
+    },
+    {
+      "id": "HO00000904",
+      "title": "Roméo et Juliette",
+      "shortSynopsis": "Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible",
+      "releaseDate": "2026-11-14",
+      "runtimeInMinutes": 155,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Ballet"
+      ],
+      "director": "Julien Condemine",
+      "webUrl": "https://www.cinecolombia.com/films/romeo-et-juliette/HO00000904/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg",
+      "tmdb": {
+        "tmdbId": 1779098,
+        "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
+      }
+    },
+    {
+      "id": "HO00000905",
+      "title": "Le Lac des Cygnes",
+      "shortSynopsis": "El lago de los cisnes’, con música de Tchaikovsky y coreografía de Nureyev para la Ópera de París: Sigfrido promete amor a Odette, pero Odile pone a prueba su juramento.",
+      "releaseDate": "2026-12-12",
+      "runtimeInMinutes": 140,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Ballet"
+      ],
+      "director": "Isabelle Julien",
+      "webUrl": "https://www.cinecolombia.com/films/le-lac-des-cygnes/HO00000905/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000906",
+      "title": "La Bayadère",
+      "shortSynopsis": "La Bayadère’ de Nureyev, joya del Ballet de la Ópera de París: el amor condenado de Nikiya y Solor, con música de Minkus y el célebre Reino de las Sombras.",
+      "releaseDate": "2027-01-23",
+      "runtimeInMinutes": 125,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Ballet"
+      ],
+      "director": "Julien Condemine",
+      "webUrl": "https://www.cinecolombia.com/films/la-bayadere/HO00000906/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000907",
+      "title": "Notre-Dame de Paris",
+      "shortSynopsis": "Notre-Dame de París’, primera coreografía de Roland Petit en la Ópera de París (1965): Esmeralda, Frollo y Quasimodo, con música de Jarre y vestuario de Saint Laurent.",
+      "releaseDate": "2027-03-13",
+      "runtimeInMinutes": 90,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Ballet"
+      ],
+      "director": "Myriam Hoyer",
+      "webUrl": "https://www.cinecolombia.com/films/notre-dame-de-paris/HO00000907/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000908",
+      "title": "Princesa Burro",
+      "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 90,
+      "censorRating": "Festival",
+      "genres": [
+        "Fantasía"
+      ],
+      "director": "Cristóbal León",
+      "webUrl": "https://www.cinecolombia.com/films/princesa-burro/HO00000908/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg",
+      "tmdb": {
+        "tmdbId": 1536431,
+        "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
+      }
+    },
+    {
+      "id": "HO00000909",
+      "title": "I Built a Rocket Imagining Your Arrival?",
+      "shortSynopsis": "Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 92,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Janaína Marques",
+      "webUrl": "https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg",
+      "tmdb": {
+        "tmdbId": 1616523,
+        "posterPath": "/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg"
+      }
+    },
+    {
+      "id": "HO00000910",
+      "title": "Iluminada",
+      "shortSynopsis": "Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 121,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Nicolás Rincón Gille",
+      "webUrl": "https://www.cinecolombia.com/films/iluminada/HO00000910/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg",
+      "tmdb": {
+        "tmdbId": 1000097,
+        "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
+      }
+    },
+    {
+      "id": "HO00000911",
+      "title": "Relicto",
+      "shortSynopsis": "El director sigue el rastro de Sixto Muñoz, «último indio tinigua» de 105 años, por el río Guayabero, con la esperanza de encontrarlo antes de su muerte.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 97,
+      "censorRating": "Festival",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Guillermo Quintero",
+      "webUrl": "https://www.cinecolombia.com/films/relicto/HO00000911/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/sTTnQtAmxez5p70okxjlTrpowGc.jpg",
+      "tmdb": {
+        "tmdbId": 1633353,
+        "posterPath": "/sTTnQtAmxez5p70okxjlTrpowGc.jpg"
+      }
+    },
+    {
+      "id": "HO00000912",
+      "title": "An Incomplete Calendar",
+      "shortSynopsis": "Rhymes and Songs for OPEC, disco de 1980 del coro de la UCV, replantea el petróleo como herramienta política al servicio de las luchas de liberación palestinas.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 77,
+      "censorRating": "Festival",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Sanaz Sohrabi",
+      "webUrl": "https://www.cinecolombia.com/films/an-incomplete-calendar/HO00000912/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/87K75ja7otPHcjiqcaaHiLDsv6i.jpg",
+      "tmdb": {
+        "tmdbId": 1633334,
+        "posterPath": "/87K75ja7otPHcjiqcaaHiLDsv6i.jpg"
+      }
+    },
+    {
+      "id": "HO00000913",
+      "title": "Forever You Maternal Animal",
+      "shortSynopsis": "Tras años en Europa, Elsa regresa a Costa Rica y halla a su hermana aislada y a sus padres absortos en lo suyo. Su vuelta las confronta con lo que aún las une.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 108,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Valentina Maurel",
+      "webUrl": "https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000914",
+      "title": "Luis Tercero",
+      "shortSynopsis": "Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 115,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama",
+        "Familia"
+      ],
+      "director": "Iván David Gaona",
+      "webUrl": "https://www.cinecolombia.com/films/luis-tercero/HO00000914/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
+      "tmdb": {
+        "tmdbId": 1774071,
+        "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
+      }
+    },
+    {
+      "id": "HO00000915",
+      "title": "Todo comenzó por el fin",
+      "shortSynopsis": "Todo comenzó por el fin’ es el autorretrato del Grupo de Cali, cuyo cine marcó la historia colombiana, y la historia clínica de su realizador, un sobreviviente.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 208,
+      "censorRating": "Festival",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Luis Ospina",
+      "webUrl": "https://www.cinecolombia.com/films/todo-comenzo-por-el-fin/HO00000915/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000916",
+      "title": "Para vivir, el implacable tiempo de Pablo Milanés",
+      "shortSynopsis": "Mientras Pablo Milanés enfrenta el final de su vida, su hijo se propone revelar la historia íntima detrás de la voz que definió a una generación en América Latina.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 106,
+      "censorRating": "Festival",
+      "genres": [
+        "Musical"
+      ],
+      "director": "Fabien Pisani",
+      "webUrl": "https://www.cinecolombia.com/films/para-vivir-el-implacable-tiempo-de-pablo-milanes/HO00000916/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg",
+      "tmdb": {
+        "tmdbId": 1339284,
+        "posterPath": "/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg"
+      }
+    },
+    {
+      "id": "HO00000917",
+      "title": "Minotauro",
+      "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 135,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Andrey Zviaguintsev",
+      "webUrl": "https://www.cinecolombia.com/films/minotauro/HO00000917/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+      "tmdb": {
+        "tmdbId": 848700,
+        "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
+      }
+    },
+    {
+      "id": "HO00000918",
+      "title": "La Bola Negra",
+      "shortSynopsis": "‘La bola negra’ cuenta la historia de tres hombres conectados por el deseo, el dolor y la herencia a través de tres épocas: 1932, 1937 y 2017.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 155,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Javier Ambrossi",
+      "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000918/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+      "tmdb": {
+        "tmdbId": 1422041,
+        "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
+      }
+    },
+    {
+      "id": "HO00000919",
+      "title": "Freddy Eusebio Rincón – El Coloso",
+      "shortSynopsis": "El documental retrata a Freddy Rincón, de sus inicios en Buenaventura a leyenda internacional: su paso por Corinthians, su gol a Alemania en Italia 90 y el Real Madrid.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 70,
+      "censorRating": "Festival",
+      "genres": [
+        "Documental"
+      ],
+      "director": "José Varón",
+      "webUrl": "https://www.cinecolombia.com/films/freddy-eusebio-rincon-el-coloso/HO00000919/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000920",
+      "title": "La mansión de Araucaima",
+      "shortSynopsis": "En la hacienda Araucaíma, un grupo atrapado en una rutina de perversiones y dependencias ve su equilibrio roto por Ángela, una joven modelo que desata pasiones y caos.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 86,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Carlos Mayolo",
+      "webUrl": "https://www.cinecolombia.com/films/la-mansion-de-araucaima/HO00000920/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000921",
+      "title": "Álbum de familia",
+      "shortSynopsis": "Alex, a punto de ser papá, halla viejas fotos familiares que vinculan a su padre con hechos intrigantes de la historia del país y debe enfrentar las sombras del pasado.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 94,
+      "censorRating": "Festival",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Joel Calero",
+      "webUrl": "https://www.cinecolombia.com/films/album-de-familia/HO00000921/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg",
+      "tmdb": {
+        "tmdbId": 1320915,
+        "posterPath": "/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg"
+      }
+    },
+    {
+      "id": "HO00000922",
+      "title": "Historias del buen valle",
+      "shortSynopsis": "El documental retrata la resistencia de una comunidad que defiende sus huertos y lazos vecinales ante el avance de la ciudad, entre la memoria y las luchas cotidianas.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 122,
+      "censorRating": "Festival",
+      "genres": [
+        "Documental"
+      ],
+      "director": "José Luis Guerin",
+      "webUrl": "https://www.cinecolombia.com/films/historias-del-buen-valle/HO00000922/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg",
+      "tmdb": {
+        "tmdbId": 1457842,
+        "posterPath": "/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg"
+      }
+    },
+    {
+      "id": "HO00000923",
+      "title": "La Sinfonía de los Bichos Raros",
+      "shortSynopsis": "Macha, una cucaracha adolescente que sueña con cantar, forma una banda de bichos raros para un reality de talentos humanos y salvar la tienda de su padre.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 91,
+      "censorRating": "Todos",
+      "genres": [
+        "Fantasía",
+        "Musical"
+      ],
+      "director": "Julián Duque",
+      "webUrl": "https://www.cinecolombia.com/films/la-sinfonia-de-los-bichos-raros/HO00000923/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg",
+      "tmdb": {
+        "tmdbId": 1776754,
+        "posterPath": "/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg"
+      }
+    },
+    {
+      "id": "HO00000924",
+      "title": "The Social Reckoning",
+      "shortSynopsis": "Basada en hechos reales, la ingeniera de Facebook Frances Haugen (Madison) recluta al reportero Jeff Horwitz (White) para revelar los secretos mejor guardados de la red.",
+      "releaseDate": "2026-10-22",
+      "runtimeInMinutes": 112,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Biografía",
+        "Drama"
+      ],
+      "director": "Aaron Sorkin",
+      "webUrl": "https://www.cinecolombia.com/films/the-social-reckoning/HO00000924/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000009"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
+      "tmdb": {
+        "tmdbId": 1281331,
+        "posterPath": "/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg"
+      }
+    },
+    {
+      "id": "HO00000925",
+      "title": "Kraken",
+      "shortSynopsis": "La bióloga Johanne investiga la muerte masiva de salmones en el fiordo más profundo de Noruega, hasta que una tecnología experimental despierta al mítico Kraken.",
+      "releaseDate": "2026-11-05",
+      "runtimeInMinutes": 82,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Fantasía"
+      ],
+      "director": "Pål Øie",
+      "webUrl": "https://www.cinecolombia.com/films/kraken/HO00000925/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg",
+      "tmdb": {
+        "tmdbId": 1110034,
+        "posterPath": "/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg"
+      }
+    },
+    {
+      "id": "HO00000926",
+      "title": "Perewangan",
+      "shortSynopsis": "La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 109,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Suspenso"
+      ],
+      "director": "Awi Suryadi",
+      "webUrl": "https://www.cinecolombia.com/films/perewangan/HO00000926/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000927",
+      "title": "The Exorcist: Martyrs",
+      "shortSynopsis": "Trece años después de detener al asesino satánico Father Sunday, la detective Julie Miller enfrenta a un nuevo asesino y descubre un linaje de asesinos seriales.",
+      "releaseDate": "2027-03-11",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Mike Flanagan",
+      "webUrl": "https://www.cinecolombia.com/films/the-exorcist-martyrs/HO00000927/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/fmY0TIy7xCn99ug0oYefj6RLaKn.jpg",
+      "tmdb": {
+        "tmdbId": 1297467,
+        "posterPath": "/fmY0TIy7xCn99ug0oYefj6RLaKn.jpg"
+      }
+    },
+    {
+      "id": "HO00000928",
+      "title": "Cómo Tener un Amante y no Morir en el Intento",
+      "shortSynopsis": "Juan, electricista, electrocuta a su vecino y se une a la viuda Jessica para matar a su esposa y cobrar el seguro, pero un inspector corrupto y una venganza los acechan.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 90,
+      "censorRating": "Todos",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Ángel Ayllón",
+      "webUrl": "https://www.cinecolombia.com/films/como-tener-un-amante-y-no-morir-en-el-intento/HO00000928/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000929",
+      "title": "The Rescue",
+      "shortSynopsis": "Cuando secuestran a su hija y piden rescate, un exvaquero de rodeo (Brandon Sklenar) emprende con el perro de ella una búsqueda para traerla de vuelta a casa.",
+      "releaseDate": "2027-01-28",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Potsy Ponciroli",
+      "webUrl": "https://www.cinecolombia.com/films/the-rescue/HO00000929/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nb7NUk2fOqeA8FLlRqG2LqKezPW.jpg",
+      "tmdb": {
+        "tmdbId": 1425472,
+        "posterPath": "/nb7NUk2fOqeA8FLlRqG2LqKezPW.jpg"
       }
     }
   ],
@@ -5083,15 +5855,142 @@
     "HO00000898": {
       "tmdbId": 1795555,
       "posterPath": "/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg"
+    },
+    "HO00000890": {
+      "tmdbId": 1797226,
+      "posterPath": "/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg"
+    },
+    "HO00000924": {
+      "tmdbId": 1281331,
+      "posterPath": "/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg"
+    },
+    "HO00000903": {
+      "tmdbId": 1623376,
+      "posterPath": "/is62bAmW4fHrJtbn0sjxWRb6psq.jpg"
+    },
+    "HO00000902": {
+      "tmdbId": 1567605,
+      "posterPath": "/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg"
+    },
+    "HO00000901": {
+      "tmdbId": 1288059,
+      "posterPath": "/aMFx35t0T61S1ILDZrycPFRu95u.jpg"
+    },
+    "HO00000925": {
+      "tmdbId": 1110034,
+      "posterPath": "/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg"
+    },
+    "HO00000923": {
+      "tmdbId": 1776754,
+      "posterPath": "/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg"
+    },
+    "HO00000904": {
+      "tmdbId": 1779098,
+      "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
+    },
+    "HO00000927": {
+      "tmdbId": 1297467,
+      "posterPath": "/fmY0TIy7xCn99ug0oYefj6RLaKn.jpg"
+    },
+    "HO00000929": {
+      "tmdbId": 1425472,
+      "posterPath": "/nb7NUk2fOqeA8FLlRqG2LqKezPW.jpg"
+    },
+    "HO00000921": {
+      "tmdbId": 1320915,
+      "posterPath": "/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg"
+    },
+    "HO00000912": {
+      "tmdbId": 1633334,
+      "posterPath": "/87K75ja7otPHcjiqcaaHiLDsv6i.jpg"
+    },
+    "HO00000922": {
+      "tmdbId": 1457842,
+      "posterPath": "/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg"
+    },
+    "HO00000909": {
+      "tmdbId": 1616523,
+      "posterPath": "/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg"
+    },
+    "HO00000910": {
+      "tmdbId": 1000097,
+      "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
+    },
+    "HO00000918": {
+      "tmdbId": 1422041,
+      "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
+    },
+    "HO00000914": {
+      "tmdbId": 1774071,
+      "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
+    },
+    "HO00000917": {
+      "tmdbId": 848700,
+      "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
+    },
+    "HO00000916": {
+      "tmdbId": 1339284,
+      "posterPath": "/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg"
+    },
+    "HO00000908": {
+      "tmdbId": 1536431,
+      "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
+    },
+    "HO00000911": {
+      "tmdbId": 1633353,
+      "posterPath": "/sTTnQtAmxez5p70okxjlTrpowGc.jpg"
     }
   },
   "missingRuns": {
-    "HO00000842": 1,
-    "HO00000849": 1,
-    "HO00000851": 1,
-    "HO00000870": 1,
-    "HO00000876": 1
+    "HO00000600": 1,
+    "HO00000647": 1,
+    "HO00000722": 1,
+    "HO00000738": 1,
+    "HO00000747": 1,
+    "HO00000762": 1,
+    "HO00000765": 1,
+    "HO00000779": 1,
+    "HO00000790": 1,
+    "HO00000791": 1,
+    "HO00000826": 1,
+    "HO00000830": 1,
+    "HO00000834": 1,
+    "HO00000835": 1,
+    "HO00000836": 1,
+    "HO00000837": 1,
+    "HO00000840": 1,
+    "HO00000841": 1,
+    "HO00000843": 1,
+    "HO00000844": 1,
+    "HO00000845": 1,
+    "HO00000847": 1,
+    "HO00000848": 1,
+    "HO00000850": 1,
+    "HO00000852": 1,
+    "HO00000853": 1,
+    "HO00000856": 1,
+    "HO00000857": 1,
+    "HO00000861": 1,
+    "HO00000863": 1,
+    "HO00000864": 1,
+    "HO00000865": 1,
+    "HO00000867": 1,
+    "HO00000868": 1,
+    "HO00000871": 1,
+    "HO00000872": 1,
+    "HO00000875": 1,
+    "HO00000882": 1,
+    "HO00000896": 1,
+    "HO00000897": 1,
+    "HO00000899": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-12T23:00:25.412Z"
+  "pendingCategoryLosses": {
+    "HO00000666": {
+      "AdvanceBooking": 1
+    },
+    "HO00000792": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-22T14:47:29.400Z"
 }

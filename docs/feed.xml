@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Shrek</title>
+      <link>https://www.cinecolombia.com/films/shrek/HO00000930/</link>
+      <guid isPermaLink="false">5e2180c4-5dba-462c-93ea-08d266f4b461</guid>
+      <pubDate>Fri, 23 Oct 2026 23:00:40 GMT</pubDate>
+      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: I Built a Rocket Imagining Your Arrival?</title>
       <link>https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/</link>
       <guid isPermaLink="false">23586aee-f363-4101-b1a7-5f7ab6b6d31d</guid>
@@ -785,14 +793,6 @@
       <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
       <description>En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Iluminada</title>
-      <link>https://www.cinecolombia.com/films/iluminada/HO00000839/</link>
-      <guid isPermaLink="false">57cb116e-1238-4b7b-a1aa-58892620d5aa</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
-      <description>Iluminada, joven con visiones que plasma en su poesía, vive entre dificultades en la periferia de Bogotá. Su relación con Juan no es bien vista en el barrio</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg" medium="image" />
     </item>
   </channel>
 </rss>

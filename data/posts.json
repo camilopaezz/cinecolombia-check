@@ -21258,6 +21258,49 @@
           "posterPath": "/sTTnQtAmxez5p70okxjlTrpowGc.jpg"
         }
       }
+    },
+    {
+      "guid": "5e2180c4-5dba-462c-93ea-08d266f4b461",
+      "type": "now-in-theaters",
+      "filmId": "HO00000930",
+      "createdAt": "2026-10-23T23:00:40.333Z",
+      "snapshot": {
+        "id": "HO00000930",
+        "title": "Shrek",
+        "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 90,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Vicky Jenson",
+        "webUrl": "https://www.cinecolombia.com/films/shrek/HO00000930/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
+        "tmdb": {
+          "tmdbId": 808,
+          "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
+        }
+      }
     }
   ]
 }

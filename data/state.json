@@ -1731,7 +1731,7 @@
     {
       "id": "HO00000792",
       "title": "The Hunger Games: Catching Fire",
-      "shortSynopsis": "Katniss y Peeta recorren Panem como vencedores, pero su desafío enciende una rebelión. Snow altera las reglas de los 75.º Juegos del Hambre para silenciarlos.",
+      "shortSynopsis": "RE-ESTRENO - Tras sobrevivir a los Juegos del Hambre, Katniss y Peeta recorren los distritos mientras crece una rebelión; Snow cambia las reglas de los 75.º Juegos.",
       "releaseDate": "2026-10-22",
       "runtimeInMinutes": 146,
       "censorRating": "+12 Años",
@@ -1767,7 +1767,7 @@
     {
       "id": "HO00000793",
       "title": "The Hunger Games: Mockingjay - Part 1",
-      "shortSynopsis": "En el Distrito 13, Katniss se convierte en símbolo de la rebelión contra el Capitolio, mientras Peeta sigue cautivo de Snow y una nación empieza a levantarse.",
+      "shortSynopsis": "RE-ESTRENO - Katniss, símbolo de la resistencia en el Distrito 13 bajo la presidenta Coin, lidera la rebelión contra el Capitolio mientras Peeta sigue cautivo de Snow.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 123,
       "censorRating": "+12 Años",
@@ -1805,7 +1805,7 @@
     {
       "id": "HO00000794",
       "title": "The Hunger Games: Mockingjay - Part 2",
-      "shortSynopsis": "Tras destruir los Juegos del Hambre, Katniss halla refugio en el Distrito 13 y se convierte en el rostro de la rebelión, mientras Peeta sigue prisionero del Capitolio.",
+      "shortSynopsis": "RE-ESTRENO - En la última entrega, Katniss Everdeen (Jennifer Lawrence) lidera la rebelión y emprende una peligrosa misión para enfrentar a Snow y liberar Panem.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 137,
       "censorRating": "+12 Años",
@@ -2595,7 +2595,7 @@
     {
       "id": "HO00000896",
       "title": "The Others",
-      "shortSynopsis": "Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.",
+      "shortSynopsis": "RE-ESTRENO - Grace, una mujer religiosa, protege a sus hijos fotosensibles en una casa antigua en penumbra cuando empieza a sospechar que está embrujada.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 105,
       "censorRating": "+12 Años",
@@ -2852,105 +2852,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000909",
-      "title": "I Built a Rocket Imagining Your Arrival?",
-      "shortSynopsis": "Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 92,
-      "censorRating": "Festival",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Janaína Marques",
-      "webUrl": "https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg",
-      "tmdb": {
-        "tmdbId": 1616523,
-        "posterPath": "/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg"
-      }
-    },
-    {
-      "id": "HO00000910",
-      "title": "Iluminada",
-      "shortSynopsis": "Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 121,
-      "censorRating": "Festival",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Nicolás Rincón Gille",
-      "webUrl": "https://www.cinecolombia.com/films/iluminada/HO00000910/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg",
-      "tmdb": {
-        "tmdbId": 1000097,
-        "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
-      }
-    },
-    {
-      "id": "HO00000911",
-      "title": "Relicto",
-      "shortSynopsis": "El director sigue el rastro de Sixto Muñoz, «último indio tinigua» de 105 años, por el río Guayabero, con la esperanza de encontrarlo antes de su muerte.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 97,
-      "censorRating": "Festival",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Guillermo Quintero",
-      "webUrl": "https://www.cinecolombia.com/films/relicto/HO00000911/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sTTnQtAmxez5p70okxjlTrpowGc.jpg",
-      "tmdb": {
-        "tmdbId": 1633353,
-        "posterPath": "/sTTnQtAmxez5p70okxjlTrpowGc.jpg"
-      }
     },
     {
       "id": "HO00000912",
@@ -4594,15 +4495,7 @@
       "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000909": 1,
-    "HO00000910": 1,
-    "HO00000911": 1
-  },
-  "pendingCategoryLosses": {
-    "HO00000729": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-10-23T05:00:44.622Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-10-23T11:00:44.670Z"
 }

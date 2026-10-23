@@ -21141,6 +21141,123 @@
           "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
         }
       }
+    },
+    {
+      "guid": "23586aee-f363-4101-b1a7-5f7ab6b6d31d",
+      "type": "removed",
+      "filmId": "HO00000909",
+      "createdAt": "2026-10-23T11:00:44.666Z",
+      "snapshot": {
+        "id": "HO00000909",
+        "title": "I Built a Rocket Imagining Your Arrival?",
+        "shortSynopsis": "Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 92,
+        "censorRating": "Festival",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Janaína Marques",
+        "webUrl": "https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg",
+        "tmdb": {
+          "tmdbId": 1616523,
+          "posterPath": "/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg"
+        }
+      }
+    },
+    {
+      "guid": "7cd2f97c-2fbe-4488-b48f-2053774caf73",
+      "type": "removed",
+      "filmId": "HO00000910",
+      "createdAt": "2026-10-23T11:00:44.666Z",
+      "snapshot": {
+        "id": "HO00000910",
+        "title": "Iluminada",
+        "shortSynopsis": "Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 121,
+        "censorRating": "Festival",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Nicolás Rincón Gille",
+        "webUrl": "https://www.cinecolombia.com/films/iluminada/HO00000910/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg",
+        "tmdb": {
+          "tmdbId": 1000097,
+          "posterPath": "/xswLPgODWPBQ659MRN62z2dvxfD.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e23ca4c2-0677-4e81-a5a7-778972017789",
+      "type": "removed",
+      "filmId": "HO00000911",
+      "createdAt": "2026-10-23T11:00:44.666Z",
+      "snapshot": {
+        "id": "HO00000911",
+        "title": "Relicto",
+        "shortSynopsis": "El director sigue el rastro de Sixto Muñoz, «último indio tinigua» de 105 años, por el río Guayabero, con la esperanza de encontrarlo antes de su muerte.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 97,
+        "censorRating": "Festival",
+        "genres": [
+          "Documental"
+        ],
+        "director": "Guillermo Quintero",
+        "webUrl": "https://www.cinecolombia.com/films/relicto/HO00000911/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sTTnQtAmxez5p70okxjlTrpowGc.jpg",
+        "tmdb": {
+          "tmdbId": 1633353,
+          "posterPath": "/sTTnQtAmxez5p70okxjlTrpowGc.jpg"
+        }
+      }
     }
   ]
 }

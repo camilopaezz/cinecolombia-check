@@ -7,6 +7,30 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: I Built a Rocket Imagining Your Arrival?</title>
+      <link>https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/</link>
+      <guid isPermaLink="false">23586aee-f363-4101-b1a7-5f7ab6b6d31d</guid>
+      <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
+      <description>Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Iluminada</title>
+      <link>https://www.cinecolombia.com/films/iluminada/HO00000910/</link>
+      <guid isPermaLink="false">7cd2f97c-2fbe-4488-b48f-2053774caf73</guid>
+      <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
+      <description>Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Relicto</title>
+      <link>https://www.cinecolombia.com/films/relicto/HO00000911/</link>
+      <guid isPermaLink="false">e23ca4c2-0677-4e81-a5a7-778972017789</guid>
+      <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
+      <description>El director sigue el rastro de Sixto Muñoz, «último indio tinigua» de 105 años, por el río Guayabero, con la esperanza de encontrarlo antes de su muerte.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sTTnQtAmxez5p70okxjlTrpowGc.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Princesa Burro</title>
       <link>https://www.cinecolombia.com/films/princesa-burro/HO00000908/</link>
       <guid isPermaLink="false">f5a8c422-b105-403d-868f-4bea90f985d6</guid>
@@ -769,29 +793,6 @@
       <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
       <description>Iluminada, joven con visiones que plasma en su poesía, vive entre dificultades en la periferia de Bogotá. Su relación con Juan no es bien vista en el barrio</description>
       <media:content url="https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Luis Tercero</title>
-      <link>https://www.cinecolombia.com/films/luis-tercero/HO00000873/</link>
-      <guid isPermaLink="false">89a945fb-3388-4814-8ba6-2b930a2be297</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
-      <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Sants</title>
-      <link>https://www.cinecolombia.com/films/sants/HO00000874/</link>
-      <guid isPermaLink="false">c3b4b3ce-33f6-4150-99b9-61499f797491</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
-      <description>Mientras lidia con la inminente muerte de su madre, Lali entra a formar parte de una banda de ladrones de figuras religiosas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/r3mtqymqNjHaQbHqXX5snxuPUng.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Historia del miedo</title>
-      <link>https://www.cinecolombia.com/films/historia-del-miedo/HO00000838/</link>
-      <guid isPermaLink="false">d053870a-7c4c-4739-8360-6d2ea46765e8</guid>
-      <pubDate>Sun, 11 Oct 2026 11:00:29 GMT</pubDate>
-      <description>Un verano caluroso en una ciudad con cortes de luz. Un barrio privado con un gran parque y un terreno abandonado desatan una ola de humo, incertidumbre y caos.</description>
     </item>
   </channel>
 </rss>

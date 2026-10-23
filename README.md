@@ -211,6 +211,20 @@ ci: update feed (no events)
 
 ## Deploy (bare-metal Fedora)
 
+### Website hosting on Cloudflare Workers
+
+`wrangler.jsonc` publishes the generated static files in `docs/`. The Bun scraper
+still runs on the server below; Cloudflare serves the committed HTML and RSS.
+No website build command is needed. Use `npx wrangler deploy` for production and
+`npx wrangler versions upload` for preview uploads in Cloudflare's Git integration.
+To validate the configuration locally without uploading:
+
+```bash
+npx wrangler deploy --dry-run
+```
+
+### Scraper service
+
 ```bash
 # Install bun system-wide: systemd (Fedora SELinux) cannot exec binaries in
 # /home (user_home_t) — it fails with status=203/EXEC "Permission denied".

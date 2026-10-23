@@ -21102,6 +21102,45 @@
           "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
         }
       }
+    },
+    {
+      "guid": "f5a8c422-b105-403d-868f-4bea90f985d6",
+      "type": "removed",
+      "filmId": "HO00000908",
+      "createdAt": "2026-10-23T05:00:44.618Z",
+      "snapshot": {
+        "id": "HO00000908",
+        "title": "Princesa Burro",
+        "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 90,
+        "censorRating": "Festival",
+        "genres": [
+          "Fantasía"
+        ],
+        "director": "Cristóbal León",
+        "webUrl": "https://www.cinecolombia.com/films/princesa-burro/HO00000908/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg",
+        "tmdb": {
+          "tmdbId": 1536431,
+          "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
+        }
+      }
     }
   ]
 }

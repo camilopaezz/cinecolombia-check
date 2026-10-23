@@ -666,14 +666,12 @@
       "director": "Danny Boyle",
       "webUrl": "https://www.cinecolombia.com/films/frankenstein/HO00000729/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2856,39 +2854,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000908",
-      "title": "Princesa Burro",
-      "shortSynopsis": "En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 90,
-      "censorRating": "Festival",
-      "genres": [
-        "Fantasía"
-      ],
-      "director": "Cristóbal León",
-      "webUrl": "https://www.cinecolombia.com/films/princesa-burro/HO00000908/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg",
-      "tmdb": {
-        "tmdbId": 1536431,
-        "posterPath": "/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg"
-      }
-    },
-    {
       "id": "HO00000909",
       "title": "I Built a Rocket Imagining Your Arrival?",
       "shortSynopsis": "Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.",
@@ -3551,7 +3516,7 @@
       "id": "HO00000930",
       "title": "Shrek",
       "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
-      "releaseDate": "2026-10-26",
+      "releaseDate": "2026-10-29",
       "runtimeInMinutes": 90,
       "censorRating": "Todos",
       "genres": [
@@ -4630,8 +4595,14 @@
     }
   },
   "missingRuns": {
-    "HO00000908": 1
+    "HO00000909": 1,
+    "HO00000910": 1,
+    "HO00000911": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-22T23:00:43.628Z"
+  "pendingCategoryLosses": {
+    "HO00000729": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-23T05:00:44.622Z"
 }

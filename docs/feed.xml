@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Princesa Burro</title>
+      <link>https://www.cinecolombia.com/films/princesa-burro/HO00000908/</link>
+      <guid isPermaLink="false">f5a8c422-b105-403d-868f-4bea90f985d6</guid>
+      <pubDate>Fri, 23 Oct 2026 05:00:44 GMT</pubDate>
+      <description>En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: The Others</title>
       <link>https://www.cinecolombia.com/films/the-others/HO00000896/</link>
       <guid isPermaLink="false">37592801-6b42-4588-a8dd-4fbf2b4476b3</guid>
@@ -784,14 +792,6 @@
       <guid isPermaLink="false">d053870a-7c4c-4739-8360-6d2ea46765e8</guid>
       <pubDate>Sun, 11 Oct 2026 11:00:29 GMT</pubDate>
       <description>Un verano caluroso en una ciudad con cortes de luz. Un barrio privado con un gran parque y un terreno abandonado desatan una ola de humo, incertidumbre y caos.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Temporada de caza</title>
-      <link>https://www.cinecolombia.com/films/temporada-de-caza/HO00000855/</link>
-      <guid isPermaLink="false">eaba5ab1-e1c8-4cac-ae97-42491d9f4006</guid>
-      <pubDate>Sun, 11 Oct 2026 11:00:29 GMT</pubDate>
-      <description>Ernesto, guía de caza en Patagonia, debe albergar a su hijo Nahuel tras años de ausencia. En la crudeza de la naturaleza, ambos enfrentan su capacidad de perdonar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lZZu0UEPtEeZ90fkX6i1pmEHOs8.jpg" medium="image" />
     </item>
   </channel>
 </rss>

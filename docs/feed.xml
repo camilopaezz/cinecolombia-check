@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Luis Tercero</title>
+      <link>https://www.cinecolombia.com/films/luis-tercero/HO00000914/</link>
+      <guid isPermaLink="false">20a9fad0-dfed-40af-8b53-48f46246894d</guid>
+      <pubDate>Sat, 24 Oct 2026 05:00:44 GMT</pubDate>
+      <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Shrek</title>
       <link>https://www.cinecolombia.com/films/shrek/HO00000930/</link>
       <guid isPermaLink="false">5e2180c4-5dba-462c-93ea-08d266f4b461</guid>
@@ -785,14 +793,6 @@
       <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
       <description>James y Luka forjan una frágil amistad durante su recuperación, hasta que una confesión revela verdades que amenazan la confianza entre ambos.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Dua</title>
-      <link>https://www.cinecolombia.com/films/dua/HO00000829/</link>
-      <guid isPermaLink="false">17ed4d91-bdd7-4e8f-a08e-0189e9681d8d</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
-      <description>En Pristina, Kosovo, años 90, Dua, de 13 años, enfrenta tensiones étnicas y un despertar personal. Junto a Maki, encuentra una inesperada forma de resistencia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kt5kyQVL8zWXQH3mAlW4gyFG3KP.jpg" medium="image" />
     </item>
   </channel>
 </rss>

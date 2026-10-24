@@ -454,8 +454,7 @@
             "0000000003",
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -489,6 +488,7 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
+            "0000000002",
             "0000000004",
             "0000000007"
           ]
@@ -1854,14 +1854,12 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2398,14 +2396,12 @@
       "director": "SANGGEUN PARK",
       "webUrl": "https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2435,14 +2431,12 @@
       "director": "TAEHWAN YUM",
       "webUrl": "https://www.cinecolombia.com/films/tomorrow-x-together-world-tour-act-tomorrow/HO00000891/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2471,14 +2465,12 @@
       "director": "YUNJEONG KIM",
       "webUrl": "https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2506,14 +2498,12 @@
       "director": "",
       "webUrl": "https://www.cinecolombia.com/films/seventeen-world-tour-new_/HO00000893/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2914,40 +2904,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000914",
-      "title": "Luis Tercero",
-      "shortSynopsis": "Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 115,
-      "censorRating": "Festival",
-      "genres": [
-        "Drama",
-        "Familia"
-      ],
-      "director": "Iván David Gaona",
-      "webUrl": "https://www.cinecolombia.com/films/luis-tercero/HO00000914/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
-      "tmdb": {
-        "tmdbId": 1774071,
-        "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
-      }
     },
     {
       "id": "HO00000915",
@@ -3440,7 +3396,8 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -4502,8 +4459,24 @@
     }
   },
   "missingRuns": {
-    "HO00000914": 1
+    "HO00000913": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-23T23:00:40.336Z"
+  "pendingCategoryLosses": {
+    "HO00000795": {
+      "AdvanceBooking": 1
+    },
+    "HO00000890": {
+      "AdvanceBooking": 1
+    },
+    "HO00000891": {
+      "AdvanceBooking": 1
+    },
+    "HO00000892": {
+      "AdvanceBooking": 1
+    },
+    "HO00000893": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-24T05:00:44.871Z"
 }

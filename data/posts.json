@@ -21301,6 +21301,46 @@
           "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
         }
       }
+    },
+    {
+      "guid": "20a9fad0-dfed-40af-8b53-48f46246894d",
+      "type": "removed",
+      "filmId": "HO00000914",
+      "createdAt": "2026-10-24T05:00:44.868Z",
+      "snapshot": {
+        "id": "HO00000914",
+        "title": "Luis Tercero",
+        "shortSynopsis": "Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 115,
+        "censorRating": "Festival",
+        "genres": [
+          "Drama",
+          "Familia"
+        ],
+        "director": "Iván David Gaona",
+        "webUrl": "https://www.cinecolombia.com/films/luis-tercero/HO00000914/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg",
+        "tmdb": {
+          "tmdbId": 1774071,
+          "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
+        }
+      }
     }
   ]
 }

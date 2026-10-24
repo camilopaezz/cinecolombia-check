@@ -488,7 +488,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000004",
             "0000000007"
           ]
@@ -2877,35 +2876,6 @@
       }
     },
     {
-      "id": "HO00000913",
-      "title": "Forever You Maternal Animal",
-      "shortSynopsis": "Tras años en Europa, Elsa regresa a Costa Rica y halla a su hermana aislada y a sus padres absortos en lo suyo. Su vuelta las confronta con lo que aún las une.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 108,
-      "censorRating": "Festival",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Valentina Maurel",
-      "webUrl": "https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000915",
       "title": "Todo comenzó por el fin",
       "shortSynopsis": "Todo comenzó por el fin’ es el autorretrato del Grupo de Cali, cuyo cine marcó la historia colombiana, y la historia clínica de su realizador, un sobreviviente.",
@@ -4458,25 +4428,7 @@
       "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000913": 1
-  },
-  "pendingCategoryLosses": {
-    "HO00000795": {
-      "AdvanceBooking": 1
-    },
-    "HO00000890": {
-      "AdvanceBooking": 1
-    },
-    "HO00000891": {
-      "AdvanceBooking": 1
-    },
-    "HO00000892": {
-      "AdvanceBooking": 1
-    },
-    "HO00000893": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-10-24T05:00:44.871Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-10-24T11:00:40.482Z"
 }

@@ -21341,6 +21341,41 @@
           "posterPath": "/p3YAAAhmmcEiWcv09i465LOcf2W.jpg"
         }
       }
+    },
+    {
+      "guid": "96d09d6e-9008-47a8-b152-4f3c37612fde",
+      "type": "removed",
+      "filmId": "HO00000913",
+      "createdAt": "2026-10-24T11:00:40.479Z",
+      "snapshot": {
+        "id": "HO00000913",
+        "title": "Forever You Maternal Animal",
+        "shortSynopsis": "Tras años en Europa, Elsa regresa a Costa Rica y halla a su hermana aislada y a sus padres absortos en lo suyo. Su vuelta las confronta con lo que aún las une.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 108,
+        "censorRating": "Festival",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Valentina Maurel",
+        "webUrl": "https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

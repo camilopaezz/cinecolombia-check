@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Forever You Maternal Animal</title>
+      <link>https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/</link>
+      <guid isPermaLink="false">96d09d6e-9008-47a8-b152-4f3c37612fde</guid>
+      <pubDate>Sat, 24 Oct 2026 11:00:40 GMT</pubDate>
+      <description>Tras años en Europa, Elsa regresa a Costa Rica y halla a su hermana aislada y a sus padres absortos en lo suyo. Su vuelta las confronta con lo que aún las une.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Luis Tercero</title>
       <link>https://www.cinecolombia.com/films/luis-tercero/HO00000914/</link>
       <guid isPermaLink="false">20a9fad0-dfed-40af-8b53-48f46246894d</guid>
@@ -785,14 +792,6 @@
       <guid isPermaLink="false">61b563d8-da45-40d9-b659-e99c853d2aa5</guid>
       <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
       <description>Por primera vez, Stray Kids transmite en vivo su gira «&lt;RUN IT&gt;» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: The Fifth Step</title>
-      <link>https://www.cinecolombia.com/films/the-fifth-step/HO00000728/</link>
-      <guid isPermaLink="false">7e826056-da43-4008-9900-d8764b76b5fe</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
-      <description>James y Luka forjan una frágil amistad durante su recuperación, hasta que una confesión revela verdades que amenazan la confianza entre ambos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/f2FeCAeOadqj3leou4XTsHDR8pX.jpg" medium="image" />
     </item>
   </channel>
 </rss>

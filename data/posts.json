@@ -21415,6 +21415,119 @@
           "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
         }
       }
+    },
+    {
+      "guid": "77dba797-026e-4641-affc-3e071466471a",
+      "type": "removed",
+      "filmId": "HO00000916",
+      "createdAt": "2026-10-25T11:00:45.788Z",
+      "snapshot": {
+        "id": "HO00000916",
+        "title": "Para vivir, el implacable tiempo de Pablo Milanés",
+        "shortSynopsis": "Mientras Pablo Milanés enfrenta el final de su vida, su hijo se propone revelar la historia íntima detrás de la voz que definió a una generación en América Latina.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 106,
+        "censorRating": "Festival",
+        "genres": [
+          "Musical"
+        ],
+        "director": "Fabien Pisani",
+        "webUrl": "https://www.cinecolombia.com/films/para-vivir-el-implacable-tiempo-de-pablo-milanes/HO00000916/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg",
+        "tmdb": {
+          "tmdbId": 1339284,
+          "posterPath": "/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f41080bf-8008-496b-9468-5bb522924d0e",
+      "type": "removed",
+      "filmId": "HO00000918",
+      "createdAt": "2026-10-25T11:00:45.788Z",
+      "snapshot": {
+        "id": "HO00000918",
+        "title": "La Bola Negra",
+        "shortSynopsis": "‘La bola negra’ cuenta la historia de tres hombres conectados por el deseo, el dolor y la herencia a través de tres épocas: 1932, 1937 y 2017.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 155,
+        "censorRating": "Festival",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Javier Ambrossi",
+        "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000918/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+        "tmdb": {
+          "tmdbId": 1422041,
+          "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c73bf7dc-b2ac-445a-ad8b-5e42af17a77d",
+      "type": "removed",
+      "filmId": "HO00000919",
+      "createdAt": "2026-10-25T11:00:45.788Z",
+      "snapshot": {
+        "id": "HO00000919",
+        "title": "Freddy Eusebio Rincón – El Coloso",
+        "shortSynopsis": "El documental retrata a Freddy Rincón, de sus inicios en Buenaventura a leyenda internacional: su paso por Corinthians, su gol a Alemania en Italia 90 y el Real Madrid.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 70,
+        "censorRating": "Festival",
+        "genres": [
+          "Documental"
+        ],
+        "director": "José Varón",
+        "webUrl": "https://www.cinecolombia.com/films/freddy-eusebio-rincon-el-coloso/HO00000919/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

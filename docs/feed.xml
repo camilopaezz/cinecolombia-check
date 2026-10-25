@@ -7,6 +7,29 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Para vivir, el implacable tiempo de Pablo Milanés</title>
+      <link>https://www.cinecolombia.com/films/para-vivir-el-implacable-tiempo-de-pablo-milanes/HO00000916/</link>
+      <guid isPermaLink="false">77dba797-026e-4641-affc-3e071466471a</guid>
+      <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
+      <description>Mientras Pablo Milanés enfrenta el final de su vida, su hijo se propone revelar la historia íntima detrás de la voz que definió a una generación en América Latina.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: La Bola Negra</title>
+      <link>https://www.cinecolombia.com/films/la-bola-negra/HO00000918/</link>
+      <guid isPermaLink="false">f41080bf-8008-496b-9468-5bb522924d0e</guid>
+      <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
+      <description>‘La bola negra’ cuenta la historia de tres hombres conectados por el deseo, el dolor y la herencia a través de tres épocas: 1932, 1937 y 2017.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Freddy Eusebio Rincón – El Coloso</title>
+      <link>https://www.cinecolombia.com/films/freddy-eusebio-rincon-el-coloso/HO00000919/</link>
+      <guid isPermaLink="false">c73bf7dc-b2ac-445a-ad8b-5e42af17a77d</guid>
+      <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
+      <description>El documental retrata a Freddy Rincón, de sus inicios en Buenaventura a leyenda internacional: su paso por Corinthians, su gol a Alemania en Italia 90 y el Real Madrid.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Minotauro</title>
       <link>https://www.cinecolombia.com/films/minotauro/HO00000917/</link>
       <guid isPermaLink="false">9b29948a-4a93-4873-bbe2-ce40706ea9a5</guid>
@@ -769,30 +792,6 @@
       <pubDate>Mon, 12 Oct 2026 11:00:29 GMT</pubDate>
       <description>Simón se hace cargo de David, un niño huérfano, y busca en Inés una madre para él. Juntos reinventan la idea de familia, mientras David se resiste a las normas.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/pnhi5LYyTY1p9cgug0XwC13xVtk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Coward</title>
-      <link>https://www.cinecolombia.com/films/coward/HO00000828/</link>
-      <guid isPermaLink="false">ce1d15aa-5c14-4ef8-ad60-625fa02ee486</guid>
-      <pubDate>Mon, 12 Oct 2026 11:00:29 GMT</pubDate>
-      <description>En plena Primera Guerra Mundial, Pierre conoce a Francis, quien organiza una obra de teatro para levantar el ánimo. Juntos buscan escapar de la brutalidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/AjgJ4yHrkQjKtl48E8X2VwxB78D.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: We Are Aliens</title>
-      <link>https://www.cinecolombia.com/films/we-are-aliens/HO00000859/</link>
-      <guid isPermaLink="false">9b31f938-b705-4a13-86e6-1cd2aac8bc88</guid>
-      <pubDate>Mon, 12 Oct 2026 11:00:29 GMT</pubDate>
-      <description>¿Y si te dijera que soy un extraterrestre?&apos;. En un pequeño pueblo japonés, la traición de un chico común desata algo que intentará olvidar toda su vida.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pDq9lDGluzgbvS3lYbyLKnKo0mu.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Como todo mortal</title>
-      <link>https://www.cinecolombia.com/films/como-todo-mortal/HO00000862/</link>
-      <guid isPermaLink="false">6b0426a7-5146-46b1-a0bc-2d80d132d47b</guid>
-      <pubDate>Mon, 12 Oct 2026 11:00:29 GMT</pubDate>
-      <description>Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. &apos;Como Todo Mortal&apos; mezcla documental y ciencia ficción.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -21376,6 +21376,45 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "9b29948a-4a93-4873-bbe2-ce40706ea9a5",
+      "type": "removed",
+      "filmId": "HO00000917",
+      "createdAt": "2026-10-25T05:00:44.240Z",
+      "snapshot": {
+        "id": "HO00000917",
+        "title": "Minotauro",
+        "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 135,
+        "censorRating": "Festival",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Andrey Zviaguintsev",
+        "webUrl": "https://www.cinecolombia.com/films/minotauro/HO00000917/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
+        "tmdb": {
+          "tmdbId": 848700,
+          "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
+        }
+      }
     }
   ]
 }

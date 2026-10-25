@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Minotauro</title>
+      <link>https://www.cinecolombia.com/films/minotauro/HO00000917/</link>
+      <guid isPermaLink="false">9b29948a-4a93-4873-bbe2-ce40706ea9a5</guid>
+      <pubDate>Sun, 25 Oct 2026 05:00:44 GMT</pubDate>
+      <description>En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Forever You Maternal Animal</title>
       <link>https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/</link>
       <guid isPermaLink="false">96d09d6e-9008-47a8-b152-4f3c37612fde</guid>
@@ -785,13 +793,6 @@
       <pubDate>Mon, 12 Oct 2026 11:00:29 GMT</pubDate>
       <description>Un robot explora un planeta lejano mientras astrobiólogos investigan una biosfera oculta en una mina andaluza. &apos;Como Todo Mortal&apos; mezcla documental y ciencia ficción.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ri7XetXW8Fvc3OOltbAMlzzHwxp.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
-      <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
-      <guid isPermaLink="false">61b563d8-da45-40d9-b659-e99c853d2aa5</guid>
-      <pubDate>Mon, 12 Oct 2026 05:00:29 GMT</pubDate>
-      <description>Por primera vez, Stray Kids transmite en vivo su gira «&lt;RUN IT&gt;» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.</description>
     </item>
   </channel>
 </rss>

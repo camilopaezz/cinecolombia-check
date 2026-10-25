@@ -2938,39 +2938,6 @@
       }
     },
     {
-      "id": "HO00000917",
-      "title": "Minotauro",
-      "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 135,
-      "censorRating": "Festival",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Andrey Zviaguintsev",
-      "webUrl": "https://www.cinecolombia.com/films/minotauro/HO00000917/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg",
-      "tmdb": {
-        "tmdbId": 848700,
-        "posterPath": "/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg"
-      }
-    },
-    {
       "id": "HO00000918",
       "title": "La Bola Negra",
       "shortSynopsis": "‘La bola negra’ cuenta la historia de tres hombres conectados por el deseo, el dolor y la herencia a través de tres épocas: 1932, 1937 y 2017.",
@@ -4429,8 +4396,10 @@
     }
   },
   "missingRuns": {
-    "HO00000917": 1
+    "HO00000916": 1,
+    "HO00000918": 1,
+    "HO00000919": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-24T23:00:44.085Z"
+  "lastRun": "2026-10-25T05:00:44.243Z"
 }

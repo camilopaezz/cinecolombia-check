@@ -21528,6 +21528,87 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "70ec9171-605b-46a7-9692-643d110aef0a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000722",
+      "createdAt": "2026-10-25T23:00:40.358Z",
+      "snapshot": {
+        "id": "HO00000722",
+        "title": "Whalefall",
+        "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 106,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Brian Duffield",
+        "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
+        "tmdb": {
+          "tmdbId": 1255833,
+          "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5568db66-f334-4ec8-96fe-37851b350e4b",
+      "type": "removed",
+      "filmId": "HO00000729",
+      "createdAt": "2026-10-25T23:00:40.358Z",
+      "snapshot": {
+        "id": "HO00000729",
+        "title": "Frankenstein",
+        "shortSynopsis": "Rechazada por su creador, la criatura de Frankenstein busca venganza y lo enfrenta a un aterrador trato que desafía los límites del bien y del mal.",
+        "releaseDate": "2026-10-23",
+        "runtimeInMinutes": 129,
+        "censorRating": "Contenido",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Danny Boyle",
+        "webUrl": "https://www.cinecolombia.com/films/frankenstein/HO00000729/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008",
+              "0000000009"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg",
+        "tmdb": {
+          "tmdbId": 1062722,
+          "posterPath": "/hTj8x0ElKldJyAjTYvaqxkQNxxN.jpg"
+        }
+      }
     }
   ]
 }

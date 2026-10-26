@@ -1841,40 +1841,6 @@
       }
     },
     {
-      "id": "HO00000795",
-      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE",
-      "shortSynopsis": "La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.\n",
-      "releaseDate": "2026-10-24",
-      "runtimeInMinutes": 195,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Concierto",
-        "Documental"
-      ],
-      "director": "Jungjae HA",
-      "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
-      "tmdb": {
-        "tmdbId": 1770237,
-        "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
-      }
-    },
-    {
       "id": "HO00000796",
       "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
       "shortSynopsis": "Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.",
@@ -2844,68 +2810,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000912",
-      "title": "An Incomplete Calendar",
-      "shortSynopsis": "Rhymes and Songs for OPEC, disco de 1980 del coro de la UCV, replantea el petróleo como herramienta política al servicio de las luchas de liberación palestinas.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 77,
-      "censorRating": "Festival",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Sanaz Sohrabi",
-      "webUrl": "https://www.cinecolombia.com/films/an-incomplete-calendar/HO00000912/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/87K75ja7otPHcjiqcaaHiLDsv6i.jpg",
-      "tmdb": {
-        "tmdbId": 1633334,
-        "posterPath": "/87K75ja7otPHcjiqcaaHiLDsv6i.jpg"
-      }
-    },
-    {
-      "id": "HO00000915",
-      "title": "Todo comenzó por el fin",
-      "shortSynopsis": "Todo comenzó por el fin’ es el autorretrato del Grupo de Cali, cuyo cine marcó la historia colombiana, y la historia clínica de su realizador, un sobreviviente.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 208,
-      "censorRating": "Festival",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Luis Ospina",
-      "webUrl": "https://www.cinecolombia.com/films/todo-comenzo-por-el-fin/HO00000915/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": null
-    },
-    {
       "id": "HO00000920",
       "title": "La mansión de Araucaima",
       "shortSynopsis": "En la hacienda Araucaíma, un grupo atrapado en una rutina de perversiones y dependencias ve su equilibrio roto por Ángela, una joven modelo que desata pasiones y caos.",
@@ -2933,39 +2837,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000921",
-      "title": "Álbum de familia",
-      "shortSynopsis": "Alex, a punto de ser papá, halla viejas fotos familiares que vinculan a su padre con hechos intrigantes de la historia del país y debe enfrentar las sombras del pasado.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 94,
-      "censorRating": "Festival",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Joel Calero",
-      "webUrl": "https://www.cinecolombia.com/films/album-de-familia/HO00000921/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg",
-      "tmdb": {
-        "tmdbId": 1320915,
-        "posterPath": "/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg"
-      }
     },
     {
       "id": "HO00000922",
@@ -4302,11 +4173,10 @@
     }
   },
   "missingRuns": {
-    "HO00000795": 1,
-    "HO00000912": 1,
-    "HO00000915": 1,
-    "HO00000921": 1
+    "HO00000722": 1,
+    "HO00000920": 1,
+    "HO00000922": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-25T23:00:40.361Z"
+  "lastRun": "2026-10-26T05:00:44.070Z"
 }

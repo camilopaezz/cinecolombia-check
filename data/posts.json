@@ -21762,6 +21762,121 @@
           "posterPath": "/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg"
         }
       }
+    },
+    {
+      "guid": "c58d2188-dde9-49df-883a-b5aa08f3a868",
+      "type": "removed",
+      "filmId": "HO00000722",
+      "createdAt": "2026-10-26T11:00:41.595Z",
+      "snapshot": {
+        "id": "HO00000722",
+        "title": "Whalefall",
+        "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 106,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Brian Duffield",
+        "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
+        "tmdb": {
+          "tmdbId": 1255833,
+          "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
+        }
+      }
+    },
+    {
+      "guid": "3f451b03-58d6-467f-933e-d7ab043738a6",
+      "type": "removed",
+      "filmId": "HO00000920",
+      "createdAt": "2026-10-26T11:00:41.595Z",
+      "snapshot": {
+        "id": "HO00000920",
+        "title": "La mansión de Araucaima",
+        "shortSynopsis": "En la hacienda Araucaíma, un grupo atrapado en una rutina de perversiones y dependencias ve su equilibrio roto por Ángela, una joven modelo que desata pasiones y caos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 86,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Carlos Mayolo",
+        "webUrl": "https://www.cinecolombia.com/films/la-mansion-de-araucaima/HO00000920/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "06794e64-3ae4-49a4-9405-9bf3d6443656",
+      "type": "removed",
+      "filmId": "HO00000922",
+      "createdAt": "2026-10-26T11:00:41.595Z",
+      "snapshot": {
+        "id": "HO00000922",
+        "title": "Historias del buen valle",
+        "shortSynopsis": "El documental retrata la resistencia de una comunidad que defiende sus huertos y lazos vecinales ante el avance de la ciudad, entre la memoria y las luchas cotidianas.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 122,
+        "censorRating": "Festival",
+        "genres": [
+          "Documental"
+        ],
+        "director": "José Luis Guerin",
+        "webUrl": "https://www.cinecolombia.com/films/historias-del-buen-valle/HO00000922/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg",
+        "tmdb": {
+          "tmdbId": 1457842,
+          "posterPath": "/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg"
+        }
+      }
     }
   ]
 }

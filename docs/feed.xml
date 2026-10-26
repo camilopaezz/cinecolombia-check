@@ -7,6 +7,29 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Whalefall</title>
+      <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
+      <guid isPermaLink="false">c58d2188-dde9-49df-883a-b5aa08f3a868</guid>
+      <pubDate>Mon, 26 Oct 2026 11:00:41 GMT</pubDate>
+      <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: La mansión de Araucaima</title>
+      <link>https://www.cinecolombia.com/films/la-mansion-de-araucaima/HO00000920/</link>
+      <guid isPermaLink="false">3f451b03-58d6-467f-933e-d7ab043738a6</guid>
+      <pubDate>Mon, 26 Oct 2026 11:00:41 GMT</pubDate>
+      <description>En la hacienda Araucaíma, un grupo atrapado en una rutina de perversiones y dependencias ve su equilibrio roto por Ángela, una joven modelo que desata pasiones y caos.</description>
+    </item>
+    <item>
+      <title>Ya no disponible: Historias del buen valle</title>
+      <link>https://www.cinecolombia.com/films/historias-del-buen-valle/HO00000922/</link>
+      <guid isPermaLink="false">06794e64-3ae4-49a4-9405-9bf3d6443656</guid>
+      <pubDate>Mon, 26 Oct 2026 11:00:41 GMT</pubDate>
+      <description>El documental retrata la resistencia de una comunidad que defiende sus huertos y lazos vecinales ante el avance de la ciudad, entre la memoria y las luchas cotidianas.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: BTS WORLD TOUR &apos;ARIRANG&apos; IN BUENOS AIRES: LIVE</title>
       <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-buenos-aires-live/HO00000795/</link>
       <guid isPermaLink="false">449df891-4231-4d06-84ef-571672940774</guid>
@@ -769,30 +792,6 @@
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Beware Boiúna</title>
-      <link>https://www.cinecolombia.com/films/beware-boiuna/HO00000888/</link>
-      <guid isPermaLink="false">e0c0dd4e-db7f-4c2d-a7ac-7c2a0c96b8f8</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el &quot;Boiúna&quot;.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/akm6jAZWebBOKweMp6G9TgkefrZ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Monster Mia</title>
-      <link>https://www.cinecolombia.com/films/monster-mia/HO00000895/</link>
-      <guid isPermaLink="false">8265a125-be7f-463a-99cb-44e18191296f</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Lejos de los Árboles</title>
-      <link>https://www.cinecolombia.com/films/lejos-de-los-arboles/HO00000842/</link>
-      <guid isPermaLink="false">4eb814b0-4904-4a79-9ee4-81be3e45161c</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Adela, artista sonora mexicana, viaja con Lucho por la selva y los Andes, creando un mapa sonoro de lenguas en peligro. Un viaje íntimo hacia sus orígenes.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ytpLsW7xCT7vOu5ZOw5JaKKkp7j.jpg" medium="image" />
     </item>
   </channel>
 </rss>

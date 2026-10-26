@@ -619,41 +619,6 @@
       }
     },
     {
-      "id": "HO00000722",
-      "title": "Whalefall",
-      "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
-      "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 106,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Aventura",
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Brian Duffield",
-      "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
-      "tmdb": {
-        "tmdbId": 1255833,
-        "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
-      }
-    },
-    {
       "id": "HO00000724",
       "title": "Other Mommy",
       "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
@@ -2810,68 +2775,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000920",
-      "title": "La mansión de Araucaima",
-      "shortSynopsis": "En la hacienda Araucaíma, un grupo atrapado en una rutina de perversiones y dependencias ve su equilibrio roto por Ángela, una joven modelo que desata pasiones y caos.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 86,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Carlos Mayolo",
-      "webUrl": "https://www.cinecolombia.com/films/la-mansion-de-araucaima/HO00000920/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": null
-    },
-    {
-      "id": "HO00000922",
-      "title": "Historias del buen valle",
-      "shortSynopsis": "El documental retrata la resistencia de una comunidad que defiende sus huertos y lazos vecinales ante el avance de la ciudad, entre la memoria y las luchas cotidianas.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 122,
-      "censorRating": "Festival",
-      "genres": [
-        "Documental"
-      ],
-      "director": "José Luis Guerin",
-      "webUrl": "https://www.cinecolombia.com/films/historias-del-buen-valle/HO00000922/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg",
-      "tmdb": {
-        "tmdbId": 1457842,
-        "posterPath": "/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg"
-      }
-    },
-    {
       "id": "HO00000923",
       "title": "La Sinfonía de los Bichos Raros",
       "shortSynopsis": "Macha, una cucaracha adolescente que sueña con cantar, forma una banda de bichos raros para un reality de talentos humanos y salvar la tienda de su padre.",
@@ -4172,11 +4075,7 @@
       "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000722": 1,
-    "HO00000920": 1,
-    "HO00000922": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-26T05:00:44.070Z"
+  "lastRun": "2026-10-26T11:00:41.598Z"
 }

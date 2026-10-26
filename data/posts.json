@@ -21877,6 +21877,48 @@
           "posterPath": "/vB8WLfHFsKBoQsoEZKHNqZVIqcx.jpg"
         }
       }
+    },
+    {
+      "guid": "a2bd09ce-1adc-4952-bb13-6790214f1e3d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000722",
+      "createdAt": "2026-10-26T23:00:43.928Z",
+      "snapshot": {
+        "id": "HO00000722",
+        "title": "Whalefall",
+        "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 106,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Brian Duffield",
+        "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
+        "tmdb": {
+          "tmdbId": 1255833,
+          "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
+        }
+      }
     }
   ]
 }

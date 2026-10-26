@@ -619,6 +619,42 @@
       }
     },
     {
+      "id": "HO00000722",
+      "title": "Whalefall",
+      "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
+      "releaseDate": "2026-10-15",
+      "runtimeInMinutes": 106,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Aventura",
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Brian Duffield",
+      "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
+      "tmdb": {
+        "tmdbId": 1255833,
+        "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
+      }
+    },
+    {
       "id": "HO00000724",
       "title": "Other Mommy",
       "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
@@ -1878,7 +1914,7 @@
       "shortSynopsis": "Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 97,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Comedia",
@@ -2046,7 +2082,7 @@
       "shortSynopsis": "Los esquiadores Jim Morrison e Hilaree Nelson sueñan con escalar y esquiar la cara norte del Everest, la ruta más peligrosa, que nadie ha logrado descender con esquís.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 110,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Biografía",
         "Drama",
@@ -2142,7 +2178,7 @@
       "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 85,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -2171,7 +2207,7 @@
       "shortSynopsis": "Mimì, huérfano marginado en Nápoles, conoce a Carmilla, quien cree ser descendiente de Drácula. Juntos emprenden un viaje en busca de libertad e identidad.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 103,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -4077,5 +4113,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-26T11:00:41.598Z"
+  "lastRun": "2026-10-26T23:00:43.931Z"
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Whalefall</title>
+      <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
+      <guid isPermaLink="false">a2bd09ce-1adc-4952-bb13-6790214f1e3d</guid>
+      <pubDate>Mon, 26 Oct 2026 23:00:43 GMT</pubDate>
+      <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Whalefall</title>
       <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
       <guid isPermaLink="false">c58d2188-dde9-49df-883a-b5aa08f3a868</guid>
@@ -784,14 +792,6 @@
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Onslaught</title>
-      <link>https://www.cinecolombia.com/films/onslaught/HO00000825/</link>
-      <guid isPermaLink="false">2ff416a6-d22e-4445-afde-6c5b0faaca63</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Kraken</title>
+      <link>https://www.cinecolombia.com/films/kraken/HO00000925/</link>
+      <guid isPermaLink="false">0c6427f9-6128-4250-b018-827d5f0612f2</guid>
+      <pubDate>Tue, 27 Oct 2026 17:00:44 GMT</pubDate>
+      <description>La bióloga Johanne investiga la muerte masiva de salmones en el fiordo más profundo de Noruega, hasta que una tecnología experimental despierta al mítico Kraken.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Wildwood</title>
       <link>https://www.cinecolombia.com/films/wildwood/HO00000931/</link>
       <guid isPermaLink="false">a676177d-a246-4aa1-8e61-acef1ffa4cfa</guid>
@@ -781,14 +789,6 @@
       <guid isPermaLink="false">bfaeeab4-bc58-4713-a1c2-45b486a8703d</guid>
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.</description>
-    </item>
-    <item>
-      <title>Pronto: The Exorcist: Martyrs</title>
-      <link>https://www.cinecolombia.com/films/the-exorcist-martyrs/HO00000927/</link>
-      <guid isPermaLink="false">59047ebf-f217-4e01-9a38-f5885c58e592</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Trece años después de detener al asesino satánico Father Sunday, la detective Julie Miller enfrenta a un nuevo asesino y descubre un linaje de asesinos seriales.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/fmY0TIy7xCn99ug0oYefj6RLaKn.jpg" medium="image" />
     </item>
   </channel>
 </rss>

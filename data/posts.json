@@ -22249,6 +22249,43 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "0c6427f9-6128-4250-b018-827d5f0612f2",
+      "type": "removed",
+      "filmId": "HO00000925",
+      "createdAt": "2026-10-27T17:00:44.265Z",
+      "snapshot": {
+        "id": "HO00000925",
+        "title": "Kraken",
+        "shortSynopsis": "La bióloga Johanne investiga la muerte masiva de salmones en el fiordo más profundo de Noruega, hasta que una tecnología experimental despierta al mítico Kraken.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 82,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Fantasía"
+        ],
+        "director": "Pål Øie",
+        "webUrl": "https://www.cinecolombia.com/films/kraken/HO00000925/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg",
+        "tmdb": {
+          "tmdbId": 1110034,
+          "posterPath": "/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg"
+        }
+      }
     }
   ]
 }

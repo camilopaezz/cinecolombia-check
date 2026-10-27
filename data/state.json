@@ -2354,7 +2354,7 @@
       "shortSynopsis": "Experiencia interactiva donde los fans corean, cantan con letras en 3D y agitan sus lightsticks al ritmo de videos de BTS, SEVENTEEN, TXT, ENHYPEN y más de HYBE.",
       "releaseDate": "2026-10-24",
       "runtimeInMinutes": 60,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Concierto",
         "Música"
@@ -2389,7 +2389,7 @@
       "shortSynopsis": "La cuarta gira mundial de TOMORROW X TOGETHER, 'ACT : TOMORROW', llega a la pantalla grande con narrativa cinematográfica y poderosas actuaciones en vivo.",
       "releaseDate": "2026-10-24",
       "runtimeInMinutes": 97,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Concierto",
         "Música"
@@ -2423,7 +2423,7 @@
       "shortSynopsis": "La gira 'BLOOD SAGA' de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.",
       "releaseDate": "2026-10-24",
       "runtimeInMinutes": 101,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Concierto",
         "Música"
@@ -2457,7 +2457,7 @@
       "shortSynopsis": "Tras su décimo aniversario, SEVENTEEN inicia una nueva era con la gira 'NEW_', con su energía explosiva y el encanto único de cada integrante en pantalla grande.",
       "releaseDate": "2026-10-24",
       "runtimeInMinutes": 102,
-      "censorRating": "+12 Años",
+      "censorRating": "+7 Años",
       "genres": [
         "Concierto"
       ],
@@ -2901,37 +2901,6 @@
       "tmdb": {
         "tmdbId": 1281331,
         "posterPath": "/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg"
-      }
-    },
-    {
-      "id": "HO00000925",
-      "title": "Kraken",
-      "shortSynopsis": "La bióloga Johanne investiga la muerte masiva de salmones en el fiordo más profundo de Noruega, hasta que una tecnología experimental despierta al mítico Kraken.",
-      "releaseDate": "2026-11-05",
-      "runtimeInMinutes": 82,
-      "censorRating": "Pendiente",
-      "genres": [
-        "Acción",
-        "Aventura",
-        "Fantasía"
-      ],
-      "director": "Pål Øie",
-      "webUrl": "https://www.cinecolombia.com/films/kraken/HO00000925/",
-      "categories": [
-        "ComingSoon"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "ComingSoon"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg",
-      "tmdb": {
-        "tmdbId": 1110034,
-        "posterPath": "/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg"
       }
     },
     {
@@ -4298,9 +4267,7 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000925": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-27T05:00:49.147Z"
+  "lastRun": "2026-10-27T17:00:44.268Z"
 }

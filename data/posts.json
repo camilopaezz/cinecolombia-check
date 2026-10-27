@@ -21919,6 +21919,336 @@
           "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
         }
       }
+    },
+    {
+      "guid": "a676177d-a246-4aa1-8e61-acef1ffa4cfa",
+      "type": "added",
+      "filmId": "HO00000931",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000931",
+        "title": "Wildwood",
+        "shortSynopsis": "Tras el secuestro de su hermano bebé por unos cuervos, una adolescente decidida y su inesperado compañero emprenden un rescate en un bosque encantado cerca de Portland.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Animación",
+          "Drama"
+        ],
+        "director": "Travis Knight",
+        "webUrl": "https://www.cinecolombia.com/films/wildwood/HO00000931/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+        "tmdb": {
+          "tmdbId": 791523,
+          "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9d9bc277-bdae-46d7-bae7-7a740d8549e3",
+      "type": "added",
+      "filmId": "HO00000932",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000932",
+        "title": "Hexed",
+        "shortSynopsis": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 103,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Fawn Veerasunthorn",
+        "webUrl": "https://www.cinecolombia.com/films/hexed/HO00000932/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+        "tmdb": {
+          "tmdbId": 1538497,
+          "posterPath": "/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c8a1b980-e822-4a5b-a27a-c798e341a426",
+      "type": "added",
+      "filmId": "HO00000933",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000933",
+        "title": "How to Rob a Bank",
+        "shortSynopsis": "Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 122,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "David Leitch",
+        "webUrl": "https://www.cinecolombia.com/films/how-to-rob-a-bank/HO00000933/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+        "tmdb": {
+          "tmdbId": 1437511,
+          "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b09b5ed1-5d18-4a75-9575-fe297ca85f8f",
+      "type": "added",
+      "filmId": "HO00000934",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000934",
+        "title": "The Fast and the Furious (25th Anniversary)",
+        "shortSynopsis": "En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 107,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "Rob Cohen",
+        "webUrl": "https://www.cinecolombia.com/films/the-fast-and-the-furious-25th-anniversary/HO00000934/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "723afd89-7563-498a-a90e-e4bde9f8647c",
+      "type": "added",
+      "filmId": "HO00000935",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000935",
+        "title": "La Bola Negra",
+        "shortSynopsis": "Tres hombres de épocas distintas, unidos por la sexualidad, el deseo, el dolor y la herencia, comparten un vínculo con una de las últimas obras inéditas de García Lorca.",
+        "releaseDate": "2027-01-14",
+        "runtimeInMinutes": 160,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Javier Ambrossi",
+        "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000935/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+        "tmdb": {
+          "tmdbId": 1422041,
+          "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b87e3218-1bb0-406f-bb08-a11203c1052d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000904",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000904",
+        "title": "Roméo et Juliette",
+        "shortSynopsis": "Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible",
+        "releaseDate": "2026-11-14",
+        "runtimeInMinutes": 155,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ballet"
+        ],
+        "director": "Julien Condemine",
+        "webUrl": "https://www.cinecolombia.com/films/romeo-et-juliette/HO00000904/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg",
+        "tmdb": {
+          "tmdbId": 1779098,
+          "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
+        }
+      }
+    },
+    {
+      "guid": "12e00161-6899-404b-9e09-e4ec9fb1dbaf",
+      "type": "now-in-theaters",
+      "filmId": "HO00000905",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000905",
+        "title": "Le Lac des Cygnes",
+        "shortSynopsis": "El lago de los cisnes’, con música de Tchaikovsky y coreografía de Nureyev para la Ópera de París: Sigfrido promete amor a Odette, pero Odile pone a prueba su juramento.",
+        "releaseDate": "2026-12-12",
+        "runtimeInMinutes": 140,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ballet"
+        ],
+        "director": "Isabelle Julien",
+        "webUrl": "https://www.cinecolombia.com/films/le-lac-des-cygnes/HO00000905/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "a38f5edf-2e34-493d-8802-04f53032ce90",
+      "type": "now-in-theaters",
+      "filmId": "HO00000906",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000906",
+        "title": "La Bayadère",
+        "shortSynopsis": "La Bayadère’ de Nureyev, joya del Ballet de la Ópera de París: el amor condenado de Nikiya y Solor, con música de Minkus y el célebre Reino de las Sombras.",
+        "releaseDate": "2027-01-23",
+        "runtimeInMinutes": 125,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ballet"
+        ],
+        "director": "Julien Condemine",
+        "webUrl": "https://www.cinecolombia.com/films/la-bayadere/HO00000906/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "a7292322-e041-4207-9f78-292bebf096c3",
+      "type": "now-in-theaters",
+      "filmId": "HO00000907",
+      "createdAt": "2026-10-27T05:00:49.143Z",
+      "snapshot": {
+        "id": "HO00000907",
+        "title": "Notre-Dame de Paris",
+        "shortSynopsis": "Notre-Dame de París’, primera coreografía de Roland Petit en la Ópera de París (1965): Esmeralda, Frollo y Quasimodo, con música de Jarre y vestuario de Saint Laurent.",
+        "releaseDate": "2027-03-13",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Ballet"
+        ],
+        "director": "Myriam Hoyer",
+        "webUrl": "https://www.cinecolombia.com/films/notre-dame-de-paris/HO00000907/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

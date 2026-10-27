@@ -1514,8 +1514,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -2719,13 +2718,19 @@
       "director": "Julien Condemine",
       "webUrl": "https://www.cinecolombia.com/films/romeo-et-juliette/HO00000904/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2748,13 +2753,19 @@
       "director": "Isabelle Julien",
       "webUrl": "https://www.cinecolombia.com/films/le-lac-des-cygnes/HO00000905/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2773,13 +2784,19 @@
       "director": "Julien Condemine",
       "webUrl": "https://www.cinecolombia.com/films/la-bayadere/HO00000906/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2798,13 +2815,19 @@
       "director": "Myriam Hoyer",
       "webUrl": "https://www.cinecolombia.com/films/notre-dame-de-paris/HO00000907/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -3058,6 +3081,154 @@
       "tmdb": {
         "tmdbId": 808,
         "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
+      }
+    },
+    {
+      "id": "HO00000931",
+      "title": "Wildwood",
+      "shortSynopsis": "Tras el secuestro de su hermano bebé por unos cuervos, una adolescente decidida y su inesperado compañero emprenden un rescate en un bosque encantado cerca de Portland.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 132,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Animación",
+        "Drama"
+      ],
+      "director": "Travis Knight",
+      "webUrl": "https://www.cinecolombia.com/films/wildwood/HO00000931/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+      "tmdb": {
+        "tmdbId": 791523,
+        "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
+      }
+    },
+    {
+      "id": "HO00000932",
+      "title": "Hexed",
+      "shortSynopsis": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 103,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación",
+        "Aventura",
+        "Comedia"
+      ],
+      "director": "Fawn Veerasunthorn",
+      "webUrl": "https://www.cinecolombia.com/films/hexed/HO00000932/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
+      "tmdb": {
+        "tmdbId": 1538497,
+        "posterPath": "/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg"
+      }
+    },
+    {
+      "id": "HO00000933",
+      "title": "How to Rob a Bank",
+      "shortSynopsis": "Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 122,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Crimen",
+        "Suspenso"
+      ],
+      "director": "David Leitch",
+      "webUrl": "https://www.cinecolombia.com/films/how-to-rob-a-bank/HO00000933/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+      "tmdb": {
+        "tmdbId": 1437511,
+        "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
+      }
+    },
+    {
+      "id": "HO00000934",
+      "title": "The Fast and the Furious (25th Anniversary)",
+      "shortSynopsis": "En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 107,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Crimen",
+        "Suspenso"
+      ],
+      "director": "Rob Cohen",
+      "webUrl": "https://www.cinecolombia.com/films/the-fast-and-the-furious-25th-anniversary/HO00000934/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000935",
+      "title": "La Bola Negra",
+      "shortSynopsis": "Tres hombres de épocas distintas, unidos por la sexualidad, el deseo, el dolor y la herencia, comparten un vínculo con una de las últimas obras inéditas de García Lorca.",
+      "releaseDate": "2027-01-14",
+      "runtimeInMinutes": 160,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Javier Ambrossi",
+      "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000935/",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
+      "tmdb": {
+        "tmdbId": 1422041,
+        "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
       }
     }
   ],
@@ -4109,9 +4280,27 @@
     "HO00000930": {
       "tmdbId": 808,
       "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
+    },
+    "HO00000932": {
+      "tmdbId": 1538497,
+      "posterPath": "/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg"
+    },
+    "HO00000933": {
+      "tmdbId": 1437511,
+      "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
+    },
+    "HO00000935": {
+      "tmdbId": 1422041,
+      "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
+    },
+    "HO00000931": {
+      "tmdbId": 791523,
+      "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000925": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-26T23:00:43.931Z"
+  "lastRun": "2026-10-27T05:00:49.147Z"
 }

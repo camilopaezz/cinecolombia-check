@@ -338,13 +338,21 @@
       "director": "Alessandro Carloni",
       "webUrl": "https://www.cinecolombia.com/films/the-cat-in-the-hat/HO00000640/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000005",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -544,13 +552,20 @@
       "director": "Georgia Oakley",
       "webUrl": "https://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1438,13 +1453,19 @@
       "director": "Bi Gan",
       "webUrl": "https://www.cinecolombia.com/films/resurrection/HO00000772/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -1922,13 +1943,20 @@
       "director": "Scott Waugh",
       "webUrl": "https://www.cinecolombia.com/films/runner/HO00000822/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2090,13 +2118,20 @@
       "director": "Doug Liman",
       "webUrl": "https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2184,13 +2219,19 @@
       "director": "Jack Zagha Kababie",
       "webUrl": "https://www.cinecolombia.com/films/the-containment/HO00000884/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -2213,13 +2254,19 @@
       "director": "Brando De Sica",
       "webUrl": "https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2332,13 +2379,19 @@
       "director": "Jaime Osorio Marquez",
       "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -2563,13 +2616,19 @@
       "director": "Alejandro Amenábar",
       "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -3066,13 +3125,20 @@
       "director": "Travis Knight",
       "webUrl": "https://www.cinecolombia.com/films/wildwood/HO00000931/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -4269,5 +4335,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-27T23:00:31.145Z"
+  "lastRun": "2026-10-28T05:00:43.946Z"
 }

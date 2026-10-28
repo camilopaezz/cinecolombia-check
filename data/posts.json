@@ -22286,6 +22286,429 @@
           "posterPath": "/r0GXlZdBXakqBg9lNoLiMeW5AUc.jpg"
         }
       }
+    },
+    {
+      "guid": "9c183710-90cc-4238-87ea-3db741a75c7e",
+      "type": "now-in-theaters",
+      "filmId": "HO00000640",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000640",
+        "title": "The Cat in the Hat",
+        "shortSynopsis": "Un astuto gato lleva el caos y las travesuras al hogar de dos niños pequeños.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 91,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Alessandro Carloni",
+        "webUrl": "https://www.cinecolombia.com/films/the-cat-in-the-hat/HO00000640/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000005",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
+        "tmdb": {
+          "tmdbId": 1117898,
+          "posterPath": "/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg"
+        }
+      }
+    },
+    {
+      "guid": "eb921a9a-8a4a-479b-abd5-26fffe0c7d8a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000705",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000705",
+        "title": "Sense and Sensibility",
+        "shortSynopsis": "Focus Features y Working Title presentan una nueva versión de 'Sensatez y sentimiento', con Daisy Edgar-Jones y Esmé Creed-Miles. Amor entre hermanas.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "director": "Georgia Oakley",
+        "webUrl": "https://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg",
+        "tmdb": {
+          "tmdbId": 4584,
+          "posterPath": "/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b6c644db-bcb6-4440-8619-9dc03f9da679",
+      "type": "now-in-theaters",
+      "filmId": "HO00000772",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000772",
+        "title": "Resurrection",
+        "shortSynopsis": "En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 159,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Bi Gan",
+        "webUrl": "https://www.cinecolombia.com/films/resurrection/HO00000772/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vQZK421erWKR5PgF4pbz0lp4o3o.jpg",
+        "tmdb": {
+          "tmdbId": 878608,
+          "posterPath": "/vQZK421erWKR5PgF4pbz0lp4o3o.jpg"
+        }
+      }
+    },
+    {
+      "guid": "08e8b0cb-1571-431c-a146-9e7a09f1adae",
+      "type": "now-in-theaters",
+      "filmId": "HO00000822",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000822",
+        "title": "Runner",
+        "shortSynopsis": "Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 97,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Comedia",
+          "Suspenso"
+        ],
+        "director": "Scott Waugh",
+        "webUrl": "https://www.cinecolombia.com/films/runner/HO00000822/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg",
+        "tmdb": {
+          "tmdbId": 1386315,
+          "posterPath": "/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg"
+        }
+      }
+    },
+    {
+      "guid": "0629ec03-4c44-4860-bafb-06fd35edeeaf",
+      "type": "now-in-theaters",
+      "filmId": "HO00000879",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000879",
+        "title": "Everest: The Other Side",
+        "shortSynopsis": "Los esquiadores Jim Morrison e Hilaree Nelson sueñan con escalar y esquiar la cara norte del Everest, la ruta más peligrosa, que nadie ha logrado descender con esquís.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 110,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Biografía",
+          "Drama",
+          "Historia"
+        ],
+        "director": "Doug Liman",
+        "webUrl": "https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+        "tmdb": {
+          "tmdbId": 1603262,
+          "posterPath": "/2m9ts8LfjG8d4xcUtx66aApngJL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "0229dbeb-cdbd-4a72-8f23-1bf86909138d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000884",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000884",
+        "title": "The Containment",
+        "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 85,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Jack Zagha Kababie",
+        "webUrl": "https://www.cinecolombia.com/films/the-containment/HO00000884/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg",
+        "tmdb": {
+          "tmdbId": 1703468,
+          "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "59a913d1-fef3-46f8-9194-0563e722146d",
+      "type": "now-in-theaters",
+      "filmId": "HO00000885",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000885",
+        "title": "Mimì - Il principe delle tenebre",
+        "shortSynopsis": "Mimì, huérfano marginado en Nápoles, conoce a Carmilla, quien cree ser descendiente de Drácula. Juntos emprenden un viaje en busca de libertad e identidad.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 103,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Brando De Sica",
+        "webUrl": "https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "7f62fca8-74c3-4343-a4b8-c45b56ae638f",
+      "type": "now-in-theaters",
+      "filmId": "HO00000889",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000889",
+        "title": "El Despertar",
+        "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jaime Osorio Marquez",
+        "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
+        "tmdb": {
+          "tmdbId": 713704,
+          "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b71096a9-db63-4d49-9a83-ae8f1c851d6a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000896",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000896",
+        "title": "The Others",
+        "shortSynopsis": "RE-ESTRENO - Grace, una mujer religiosa, protege a sus hijos fotosensibles en una casa antigua en penumbra cuando empieza a sospechar que está embrujada.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 105,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Alejandro Amenábar",
+        "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+        "tmdb": {
+          "tmdbId": 1933,
+          "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a97ecff4-43f3-4620-84b1-842286c9c6c9",
+      "type": "now-in-theaters",
+      "filmId": "HO00000931",
+      "createdAt": "2026-10-28T05:00:43.942Z",
+      "snapshot": {
+        "id": "HO00000931",
+        "title": "Wildwood",
+        "shortSynopsis": "Tras el secuestro de su hermano bebé por unos cuervos, una adolescente decidida y su inesperado compañero emprenden un rescate en un bosque encantado cerca de Portland.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Animación",
+          "Drama"
+        ],
+        "director": "Travis Knight",
+        "webUrl": "https://www.cinecolombia.com/films/wildwood/HO00000931/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
+        "tmdb": {
+          "tmdbId": 791523,
+          "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
+        }
+      }
     }
   ]
 }

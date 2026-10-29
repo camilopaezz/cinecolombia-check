@@ -7,6 +7,54 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Resident Evil</title>
+      <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
+      <guid isPermaLink="false">fd6d983c-578b-45c9-b530-47e4872d3241</guid>
+      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
+      <description>En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Colony</title>
+      <link>https://www.cinecolombia.com/films/colony/HO00000776/</link>
+      <guid isPermaLink="false">5d55cbf1-5d54-4d7e-83b8-830e87942472</guid>
+      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
+      <description>En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: The Hunger Games: Catching Fire</title>
+      <link>https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/</link>
+      <guid isPermaLink="false">add7dcaa-e2a6-467d-8bcd-6451ee045e9c</guid>
+      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
+      <description>RE-ESTRENO - Tras sobrevivir a los Juegos del Hambre, Katniss y Peeta recorren los distritos mientras crece una rebelión; Snow cambia las reglas de los 75.º Juegos.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Onslaught</title>
+      <link>https://www.cinecolombia.com/films/onslaught/HO00000825/</link>
+      <guid isPermaLink="false">5aad7db9-9377-4d45-b9f2-f6c784a24e5c</guid>
+      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
+      <description>Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Beware Boiúna</title>
+      <link>https://www.cinecolombia.com/films/beware-boiuna/HO00000888/</link>
+      <guid isPermaLink="false">df615cfa-ca8a-4031-ba71-3ddd688cf3ee</guid>
+      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
+      <description>Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el &quot;Boiúna&quot;.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/akm6jAZWebBOKweMp6G9TgkefrZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: La Sinfonía de los Bichos Raros</title>
+      <link>https://www.cinecolombia.com/films/la-sinfonia-de-los-bichos-raros/HO00000923/</link>
+      <guid isPermaLink="false">02941d4e-6555-4414-8563-f5cddae47f5d</guid>
+      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
+      <description>Macha, una cucaracha adolescente que sueña con cantar, forma una banda de bichos raros para un reality de talentos humanos y salvar la tienda de su padre.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Ternet Ninja 3</title>
       <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
       <guid isPermaLink="false">40adb42d-9c6c-4c10-a9ec-b2a7acab58e5</guid>
@@ -745,53 +793,6 @@
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: I Built a Rocket Imagining Your Arrival?</title>
-      <link>https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/</link>
-      <guid isPermaLink="false">1933c0e0-6f05-4bc9-9d3d-54431b899db6</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Iluminada</title>
-      <link>https://www.cinecolombia.com/films/iluminada/HO00000910/</link>
-      <guid isPermaLink="false">9556d164-24de-4b49-ba13-70314feadb2a</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Relicto</title>
-      <link>https://www.cinecolombia.com/films/relicto/HO00000911/</link>
-      <guid isPermaLink="false">c6c03682-d19d-4892-a7a8-21e55e49f0f2</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>El director sigue el rastro de Sixto Muñoz, «último indio tinigua» de 105 años, por el río Guayabero, con la esperanza de encontrarlo antes de su muerte.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/sTTnQtAmxez5p70okxjlTrpowGc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: An Incomplete Calendar</title>
-      <link>https://www.cinecolombia.com/films/an-incomplete-calendar/HO00000912/</link>
-      <guid isPermaLink="false">1cf4060a-ada3-4ac8-b4fb-2ce9acf86c9b</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Rhymes and Songs for OPEC, disco de 1980 del coro de la UCV, replantea el petróleo como herramienta política al servicio de las luchas de liberación palestinas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/87K75ja7otPHcjiqcaaHiLDsv6i.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Forever You Maternal Animal</title>
-      <link>https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/</link>
-      <guid isPermaLink="false">9bfdfda6-0e8a-4ba0-b865-929dbdc40ef4</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Tras años en Europa, Elsa regresa a Costa Rica y halla a su hermana aislada y a sus padres absortos en lo suyo. Su vuelta las confronta con lo que aún las une.</description>
-    </item>
-    <item>
-      <title>En cartelera: Luis Tercero</title>
-      <link>https://www.cinecolombia.com/films/luis-tercero/HO00000914/</link>
-      <guid isPermaLink="false">32ec6c6a-a746-4420-b9e0-1cdc0d546328</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg" medium="image" />
     </item>
   </channel>
 </rss>

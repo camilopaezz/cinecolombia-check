@@ -22791,6 +22791,253 @@
           "posterPath": "/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg"
         }
       }
+    },
+    {
+      "guid": "fd6d983c-578b-45c9-b530-47e4872d3241",
+      "type": "removed",
+      "filmId": "HO00000669",
+      "createdAt": "2026-10-29T11:00:41.524Z",
+      "snapshot": {
+        "id": "HO00000669",
+        "title": "Resident Evil",
+        "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 90,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Zach Cregger",
+        "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008",
+              "0000000009"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
+        "tmdb": {
+          "tmdbId": 1423191,
+          "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5d55cbf1-5d54-4d7e-83b8-830e87942472",
+      "type": "removed",
+      "filmId": "HO00000776",
+      "createdAt": "2026-10-29T11:00:41.524Z",
+      "snapshot": {
+        "id": "HO00000776",
+        "title": "Colony",
+        "shortSynopsis": "En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 122,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Yeon Sang-ho",
+        "webUrl": "https://www.cinecolombia.com/films/colony/HO00000776/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg",
+        "tmdb": {
+          "tmdbId": 1375646,
+          "posterPath": "/pQIpfeenClb2ws9G0kMg3HREjoA.jpg"
+        }
+      }
+    },
+    {
+      "guid": "add7dcaa-e2a6-467d-8bcd-6451ee045e9c",
+      "type": "removed",
+      "filmId": "HO00000792",
+      "createdAt": "2026-10-29T11:00:41.524Z",
+      "snapshot": {
+        "id": "HO00000792",
+        "title": "The Hunger Games: Catching Fire",
+        "shortSynopsis": "RE-ESTRENO - Tras sobrevivir a los Juegos del Hambre, Katniss y Peeta recorren los distritos mientras crece una rebelión; Snow cambia las reglas de los 75.º Juegos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 146,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Francis Lawrence",
+        "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
+        "tmdb": {
+          "tmdbId": 101299,
+          "posterPath": "/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg"
+        }
+      }
+    },
+    {
+      "guid": "5aad7db9-9377-4d45-b9f2-f6c784a24e5c",
+      "type": "removed",
+      "filmId": "HO00000825",
+      "createdAt": "2026-10-29T11:00:41.524Z",
+      "snapshot": {
+        "id": "HO00000825",
+        "title": "Onslaught",
+        "shortSynopsis": "Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 92,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Adam Wingard",
+        "webUrl": "https://www.cinecolombia.com/films/onslaught/HO00000825/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg",
+        "tmdb": {
+          "tmdbId": 1284046,
+          "posterPath": "/tRVR2QNr7ua6xEL226N0zRVeDI.jpg"
+        }
+      }
+    },
+    {
+      "guid": "df615cfa-ca8a-4031-ba71-3ddd688cf3ee",
+      "type": "removed",
+      "filmId": "HO00000888",
+      "createdAt": "2026-10-29T11:00:41.524Z",
+      "snapshot": {
+        "id": "HO00000888",
+        "title": "Beware Boiúna",
+        "shortSynopsis": "Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el \"Boiúna\".",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 104,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Terror"
+        ],
+        "director": "Mike P. Nelson",
+        "webUrl": "https://www.cinecolombia.com/films/beware-boiuna/HO00000888/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/akm6jAZWebBOKweMp6G9TgkefrZ.jpg",
+        "tmdb": {
+          "tmdbId": 1244523,
+          "posterPath": "/akm6jAZWebBOKweMp6G9TgkefrZ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "02941d4e-6555-4414-8563-f5cddae47f5d",
+      "type": "removed",
+      "filmId": "HO00000923",
+      "createdAt": "2026-10-29T11:00:41.524Z",
+      "snapshot": {
+        "id": "HO00000923",
+        "title": "La Sinfonía de los Bichos Raros",
+        "shortSynopsis": "Macha, una cucaracha adolescente que sueña con cantar, forma una banda de bichos raros para un reality de talentos humanos y salvar la tienda de su padre.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 91,
+        "censorRating": "Todos",
+        "genres": [
+          "Fantasía",
+          "Musical"
+        ],
+        "director": "Julián Duque",
+        "webUrl": "https://www.cinecolombia.com/films/la-sinfonia-de-los-bichos-raros/HO00000923/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg",
+        "tmdb": {
+          "tmdbId": 1776754,
+          "posterPath": "/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg"
+        }
+      }
     }
   ]
 }

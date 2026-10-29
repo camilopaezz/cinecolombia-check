@@ -361,41 +361,6 @@
       }
     },
     {
-      "id": "HO00000669",
-      "title": "Resident Evil",
-      "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
-      "releaseDate": "2026-09-17",
-      "runtimeInMinutes": 90,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Zach Cregger",
-      "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008",
-            "0000000009"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
-      "tmdb": {
-        "tmdbId": 1423191,
-        "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
-      }
-    },
-    {
       "id": "HO00000698",
       "title": "Heart of the Beast",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
@@ -1466,41 +1431,6 @@
       }
     },
     {
-      "id": "HO00000776",
-      "title": "Colony",
-      "shortSynopsis": "En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.",
-      "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 122,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Acción",
-        "Suspenso",
-        "Terror"
-      ],
-      "director": "Yeon Sang-ho",
-      "webUrl": "https://www.cinecolombia.com/films/colony/HO00000776/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg",
-      "tmdb": {
-        "tmdbId": 1375646,
-        "posterPath": "/pQIpfeenClb2ws9G0kMg3HREjoA.jpg"
-      }
-    },
-    {
       "id": "HO00000783",
       "title": "Cars",
       "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
@@ -1701,42 +1631,6 @@
       "tmdb": {
         "tmdbId": 20537,
         "posterPath": "/q2rGfOAJcwAIYUWPi716goAypFD.jpg"
-      }
-    },
-    {
-      "id": "HO00000792",
-      "title": "The Hunger Games: Catching Fire",
-      "shortSynopsis": "RE-ESTRENO - Tras sobrevivir a los Juegos del Hambre, Katniss y Peeta recorren los distritos mientras crece una rebelión; Snow cambia las reglas de los 75.º Juegos.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 146,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Aventura",
-        "Suspenso"
-      ],
-      "director": "Francis Lawrence",
-      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-catching-fire/HO00000792/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg",
-      "tmdb": {
-        "tmdbId": 101299,
-        "posterPath": "/oxnKI1qiHz7xC0mNthC7dSqTcot.jpg"
       }
     },
     {
@@ -1974,42 +1868,6 @@
       "tmdb": {
         "tmdbId": 1500890,
         "posterPath": "/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg"
-      }
-    },
-    {
-      "id": "HO00000825",
-      "title": "Onslaught",
-      "shortSynopsis": "Una madre en un parque de casas rodantes usa sus habilidades para proteger a su hija de una amenaza militar, mientras unos mercenarios intentan contenerla.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 92,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Acción",
-        "Suspenso",
-        "Terror"
-      ],
-      "director": "Adam Wingard",
-      "webUrl": "https://www.cinecolombia.com/films/onslaught/HO00000825/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tRVR2QNr7ua6xEL226N0zRVeDI.jpg",
-      "tmdb": {
-        "tmdbId": 1284046,
-        "posterPath": "/tRVR2QNr7ua6xEL226N0zRVeDI.jpg"
       }
     },
     {
@@ -2275,41 +2133,6 @@
       "tmdb": {
         "tmdbId": 1376415,
         "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
-      }
-    },
-    {
-      "id": "HO00000888",
-      "title": "Beware Boiúna",
-      "shortSynopsis": "Un equipo de médicos en misión en la selva amazónica descubre que su llegada despierta la atención de un temible depredador: el \"Boiúna\".",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 104,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Acción",
-        "Terror"
-      ],
-      "director": "Mike P. Nelson",
-      "webUrl": "https://www.cinecolombia.com/films/beware-boiuna/HO00000888/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/akm6jAZWebBOKweMp6G9TgkefrZ.jpg",
-      "tmdb": {
-        "tmdbId": 1244523,
-        "posterPath": "/akm6jAZWebBOKweMp6G9TgkefrZ.jpg"
       }
     },
     {
@@ -2800,40 +2623,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000923",
-      "title": "La Sinfonía de los Bichos Raros",
-      "shortSynopsis": "Macha, una cucaracha adolescente que sueña con cantar, forma una banda de bichos raros para un reality de talentos humanos y salvar la tienda de su padre.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 91,
-      "censorRating": "Todos",
-      "genres": [
-        "Fantasía",
-        "Musical"
-      ],
-      "director": "Julián Duque",
-      "webUrl": "https://www.cinecolombia.com/films/la-sinfonia-de-los-bichos-raros/HO00000923/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg",
-      "tmdb": {
-        "tmdbId": 1776754,
-        "posterPath": "/rvzcy8kixJuolV2ltRhSbGwhKKN.jpg"
-      }
     },
     {
       "id": "HO00000924",
@@ -4238,51 +4027,7 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000669": 1,
-    "HO00000776": 1,
-    "HO00000792": 1,
-    "HO00000825": 1,
-    "HO00000888": 1,
-    "HO00000923": 1
-  },
-  "pendingCategoryLosses": {
-    "HO00000705": {
-      "AdvanceBooking": 1
-    },
-    "HO00000772": {
-      "AdvanceBooking": 1
-    },
-    "HO00000789": {
-      "AdvanceBooking": 1
-    },
-    "HO00000793": {
-      "AdvanceBooking": 1
-    },
-    "HO00000822": {
-      "AdvanceBooking": 1
-    },
-    "HO00000879": {
-      "AdvanceBooking": 1
-    },
-    "HO00000884": {
-      "AdvanceBooking": 1
-    },
-    "HO00000885": {
-      "AdvanceBooking": 1
-    },
-    "HO00000889": {
-      "AdvanceBooking": 1
-    },
-    "HO00000896": {
-      "AdvanceBooking": 1
-    },
-    "HO00000930": {
-      "AdvanceBooking": 1
-    },
-    "HO00000931": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-10-29T05:00:40.837Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-10-29T11:00:41.527Z"
 }

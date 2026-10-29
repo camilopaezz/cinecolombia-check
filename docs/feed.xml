@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Resident Evil</title>
+      <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
+      <guid isPermaLink="false">0495525b-e6db-4611-a266-52b35a711f5f</guid>
+      <pubDate>Thu, 29 Oct 2026 17:00:43 GMT</pubDate>
+      <description>En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Resident Evil</title>
       <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
       <guid isPermaLink="false">fd6d983c-578b-45c9-b530-47e4872d3241</guid>
@@ -785,14 +793,6 @@
       <guid isPermaLink="false">2d558939-8a6a-4f85-8b55-1df6fe0ed7b8</guid>
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>Notre-Dame de París’, primera coreografía de Roland Petit en la Ópera de París (1965): Esmeralda, Frollo y Quasimodo, con música de Jarre y vestuario de Saint Laurent.</description>
-    </item>
-    <item>
-      <title>En cartelera: Princesa Burro</title>
-      <link>https://www.cinecolombia.com/films/princesa-burro/HO00000908/</link>
-      <guid isPermaLink="false">6893acba-9eac-4b34-9b1d-66d04fd2fcf7</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg" medium="image" />
     </item>
   </channel>
 </rss>

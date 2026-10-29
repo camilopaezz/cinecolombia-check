@@ -22709,6 +22709,88 @@
           "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
         }
       }
+    },
+    {
+      "guid": "40adb42d-9c6c-4c10-a9ec-b2a7acab58e5",
+      "type": "removed",
+      "filmId": "HO00000501",
+      "createdAt": "2026-10-29T05:00:40.833Z",
+      "snapshot": {
+        "id": "HO00000501",
+        "title": "Ternet Ninja 3",
+        "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 88,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Anders Matthesen",
+        "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
+        "tmdb": {
+          "tmdbId": 1215638,
+          "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d5c1b2ae-b239-46db-880d-954837171487",
+      "type": "removed",
+      "filmId": "HO00000895",
+      "createdAt": "2026-10-29T05:00:40.833Z",
+      "snapshot": {
+        "id": "HO00000895",
+        "title": "Monster Mia",
+        "shortSynopsis": "Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.",
+        "releaseDate": "2026-10-15",
+        "runtimeInMinutes": 81,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Verena Fels",
+        "webUrl": "https://www.cinecolombia.com/films/monster-mia/HO00000895/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
+        "tmdb": {
+          "tmdbId": 1572116,
+          "posterPath": "/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg"
+        }
+      }
     }
   ]
 }

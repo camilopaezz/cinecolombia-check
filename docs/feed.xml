@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Ternet Ninja 3</title>
+      <link>https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/</link>
+      <guid isPermaLink="false">40adb42d-9c6c-4c10-a9ec-b2a7acab58e5</guid>
+      <pubDate>Thu, 29 Oct 2026 05:00:40 GMT</pubDate>
+      <description>El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Monster Mia</title>
+      <link>https://www.cinecolombia.com/films/monster-mia/HO00000895/</link>
+      <guid isPermaLink="false">d5c1b2ae-b239-46db-880d-954837171487</guid>
+      <pubDate>Thu, 29 Oct 2026 05:00:40 GMT</pubDate>
+      <description>Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: The Cat in the Hat</title>
       <link>https://www.cinecolombia.com/films/the-cat-in-the-hat/HO00000640/</link>
       <guid isPermaLink="false">9c183710-90cc-4238-87ea-3db741a75c7e</guid>
@@ -776,21 +792,6 @@
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Todo comenzó por el fin</title>
-      <link>https://www.cinecolombia.com/films/todo-comenzo-por-el-fin/HO00000915/</link>
-      <guid isPermaLink="false">1072f5b4-eb58-4c30-b608-ce6357613957</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Todo comenzó por el fin’ es el autorretrato del Grupo de Cali, cuyo cine marcó la historia colombiana, y la historia clínica de su realizador, un sobreviviente.</description>
-    </item>
-    <item>
-      <title>En cartelera: Para vivir, el implacable tiempo de Pablo Milanés</title>
-      <link>https://www.cinecolombia.com/films/para-vivir-el-implacable-tiempo-de-pablo-milanes/HO00000916/</link>
-      <guid isPermaLink="false">aad91c36-6679-4a0e-b976-54101bd72f76</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Mientras Pablo Milanés enfrenta el final de su vida, su hijo se propone revelar la historia íntima detrás de la voz que definió a una generación en América Latina.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg" medium="image" />
     </item>
   </channel>
 </rss>

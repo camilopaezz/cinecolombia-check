@@ -57,7 +57,9 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000008"
+            "0000000007",
+            "0000000008",
+            "0000000010"
           ]
         }
       ],
@@ -105,41 +107,6 @@
       "tmdb": {
         "tmdbId": 1300968,
         "posterPath": "/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg"
-      }
-    },
-    {
-      "id": "HO00000501",
-      "title": "Ternet Ninja 3",
-      "shortSynopsis": "El interés de Alex por las misiones ninja empieza a desvanecerse. Prefiere pasar el tiempo con sus amigos, y Ninja a Cuadros se siente ignorado.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 88,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Animación",
-        "Comedia",
-        "Familia"
-      ],
-      "director": "Anders Matthesen",
-      "webUrl": "https://www.cinecolombia.com/films/ternet-ninja-3/HO00000501/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg",
-      "tmdb": {
-        "tmdbId": 1215638,
-        "posterPath": "/ohFFmYhbslB74AIWwF9PyJbV3aK.jpg"
       }
     },
     {
@@ -348,7 +315,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000005",
             "0000000007",
             "0000000008"
           ]
@@ -382,12 +348,9 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000003",
             "0000000004",
-            "0000000007",
-            "0000000008",
-            "0000000010"
+            "0000000007"
           ]
         }
       ],
@@ -495,7 +458,8 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -550,14 +514,12 @@
       "director": "Georgia Oakley",
       "webUrl": "https://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -656,7 +618,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -690,8 +651,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -1451,14 +1411,12 @@
       "director": "Bi Gan",
       "webUrl": "https://www.cinecolombia.com/films/resurrection/HO00000772/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1497,8 +1455,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -1726,14 +1683,12 @@
       "director": "Phil Grabsky",
       "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1799,14 +1754,12 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-1/HO00000793/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1942,14 +1895,12 @@
       "director": "Scott Waugh",
       "webUrl": "https://www.cinecolombia.com/films/runner/HO00000822/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2117,14 +2068,12 @@
       "director": "Doug Liman",
       "webUrl": "https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2220,14 +2169,12 @@
       "director": "Jack Zagha Kababie",
       "webUrl": "https://www.cinecolombia.com/films/the-containment/HO00000884/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2255,14 +2202,12 @@
       "director": "Brando De Sica",
       "webUrl": "https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2381,14 +2326,12 @@
       "director": "Jaime Osorio Marquez",
       "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2569,41 +2512,6 @@
       }
     },
     {
-      "id": "HO00000895",
-      "title": "Monster Mia",
-      "shortSynopsis": "Expulsada del colegio, Mía llega con su mascota Quentin a la Escuela Bosque Muerto, donde es la única humana y se alía con los monstruos contra el director Van Vlad.",
-      "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 81,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Familia",
-        "Fantasía"
-      ],
-      "director": "Verena Fels",
-      "webUrl": "https://www.cinecolombia.com/films/monster-mia/HO00000895/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg",
-      "tmdb": {
-        "tmdbId": 1572116,
-        "posterPath": "/wgYZL3ltYDn5Bhi7XFjTOpfQIln.jpg"
-      }
-    },
-    {
       "id": "HO00000896",
       "title": "The Others",
       "shortSynopsis": "RE-ESTRENO - Grace, una mujer religiosa, protege a sus hijos fotosensibles en una casa antigua en penumbra cuando empieza a sospechar que está embrujada.",
@@ -2618,19 +2526,18 @@
       "director": "Alejandro Amenábar",
       "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2953,8 +2860,7 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -3090,14 +2996,12 @@
       "director": "Vicky Jenson",
       "webUrl": "https://www.cinecolombia.com/films/shrek/HO00000930/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3128,14 +3032,12 @@
       "director": "Travis Knight",
       "webUrl": "https://www.cinecolombia.com/films/wildwood/HO00000931/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -4337,9 +4239,50 @@
     }
   },
   "missingRuns": {
-    "HO00000501": 1,
-    "HO00000895": 1
+    "HO00000669": 1,
+    "HO00000776": 1,
+    "HO00000792": 1,
+    "HO00000825": 1,
+    "HO00000888": 1,
+    "HO00000923": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-28T23:00:43.415Z"
+  "pendingCategoryLosses": {
+    "HO00000705": {
+      "AdvanceBooking": 1
+    },
+    "HO00000772": {
+      "AdvanceBooking": 1
+    },
+    "HO00000789": {
+      "AdvanceBooking": 1
+    },
+    "HO00000793": {
+      "AdvanceBooking": 1
+    },
+    "HO00000822": {
+      "AdvanceBooking": 1
+    },
+    "HO00000879": {
+      "AdvanceBooking": 1
+    },
+    "HO00000884": {
+      "AdvanceBooking": 1
+    },
+    "HO00000885": {
+      "AdvanceBooking": 1
+    },
+    "HO00000889": {
+      "AdvanceBooking": 1
+    },
+    "HO00000896": {
+      "AdvanceBooking": 1
+    },
+    "HO00000930": {
+      "AdvanceBooking": 1
+    },
+    "HO00000931": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-29T05:00:40.837Z"
 }

@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: ENHYPEN WORLD TOUR &apos;BLOOD SAGA&apos;</title>
+      <link>https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/</link>
+      <guid isPermaLink="false">806e57c0-5430-4210-a318-e557764a1e0f</guid>
+      <pubDate>Fri, 30 Oct 2026 05:00:43 GMT</pubDate>
+      <description>La gira &apos;BLOOD SAGA&apos; de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.</description>
+    </item>
+    <item>
       <title>En cartelera: Resident Evil</title>
       <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
       <guid isPermaLink="false">0495525b-e6db-4611-a266-52b35a711f5f</guid>
@@ -786,13 +793,6 @@
       <guid isPermaLink="false">b0dd291d-7c97-4760-92fd-c3a4f1651e1d</guid>
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>La Bayadère’ de Nureyev, joya del Ballet de la Ópera de París: el amor condenado de Nikiya y Solor, con música de Minkus y el célebre Reino de las Sombras.</description>
-    </item>
-    <item>
-      <title>Pronto: Notre-Dame de Paris</title>
-      <link>https://www.cinecolombia.com/films/notre-dame-de-paris/HO00000907/</link>
-      <guid isPermaLink="false">2d558939-8a6a-4f85-8b55-1df6fe0ed7b8</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Notre-Dame de París’, primera coreografía de Roland Petit en la Ópera de París (1965): Esmeralda, Frollo y Quasimodo, con música de Jarre y vestuario de Saint Laurent.</description>
     </item>
   </channel>
 </rss>

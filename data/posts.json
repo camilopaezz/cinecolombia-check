@@ -23077,6 +23077,46 @@
           "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
         }
       }
+    },
+    {
+      "guid": "806e57c0-5430-4210-a318-e557764a1e0f",
+      "type": "removed",
+      "filmId": "HO00000892",
+      "createdAt": "2026-10-30T05:00:43.657Z",
+      "snapshot": {
+        "id": "HO00000892",
+        "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+        "shortSynopsis": "La gira 'BLOOD SAGA' de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 101,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "YUNJEONG KIM",
+        "webUrl": "https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1785968,
+          "posterPath": null
+        }
+      }
     }
   ]
 }

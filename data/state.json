@@ -538,7 +538,7 @@
       "id": "HO00000709",
       "title": "Seeking Haven for Mr. Rambo",
       "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
-      "releaseDate": "2026-11-05",
+      "releaseDate": "2026-11-19",
       "runtimeInMinutes": 100,
       "censorRating": "Pendiente",
       "genres": [
@@ -1755,14 +1755,12 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2270,40 +2268,6 @@
       "tmdb": {
         "tmdbId": 1288843,
         "posterPath": "/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg"
-      }
-    },
-    {
-      "id": "HO00000892",
-      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
-      "shortSynopsis": "La gira 'BLOOD SAGA' de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.",
-      "releaseDate": "2026-10-24",
-      "runtimeInMinutes": 101,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Concierto",
-        "Música"
-      ],
-      "director": "YUNJEONG KIM",
-      "webUrl": "https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": null,
-      "tmdb": {
-        "tmdbId": 1785968,
-        "posterPath": null
       }
     },
     {
@@ -4062,8 +4026,13 @@
     }
   },
   "missingRuns": {
-    "HO00000892": 1
+    "HO00000891": 1,
+    "HO00000893": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-29T23:00:40.592Z"
+  "pendingCategoryLosses": {
+    "HO00000796": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-30T05:00:43.660Z"
 }

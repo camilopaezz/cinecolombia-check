@@ -2140,7 +2140,7 @@
     },
     {
       "id": "HO00000887",
-      "title": "L’affaire Bojarski",
+      "title": "L’affaire Bojarski.",
       "shortSynopsis": "Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 128,
@@ -2725,7 +2725,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000004",
             "0000000007",
             "0000000008"
@@ -3960,5 +3959,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-30T17:00:42.920Z"
+  "lastRun": "2026-10-30T23:00:47.737Z"
 }

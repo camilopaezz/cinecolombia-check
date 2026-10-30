@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: TOMORROW X TOGETHER WORLD TOUR &apos;ACT : TOMORROW&apos;</title>
+      <link>https://www.cinecolombia.com/films/tomorrow-x-together-world-tour-act-tomorrow/HO00000891/</link>
+      <guid isPermaLink="false">db2248f7-b9c9-4075-a4a7-8a481381a4e9</guid>
+      <pubDate>Fri, 30 Oct 2026 11:00:44 GMT</pubDate>
+      <description>La cuarta gira mundial de TOMORROW X TOGETHER, &apos;ACT : TOMORROW&apos;, llega a la pantalla grande con narrativa cinematográfica y poderosas actuaciones en vivo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: SEVENTEEN WORLD TOUR &apos;NEW_&apos;</title>
+      <link>https://www.cinecolombia.com/films/seventeen-world-tour-new_/HO00000893/</link>
+      <guid isPermaLink="false">73e56ab3-9fbd-457c-a502-e2048586cad4</guid>
+      <pubDate>Fri, 30 Oct 2026 11:00:44 GMT</pubDate>
+      <description>Tras su décimo aniversario, SEVENTEEN inicia una nueva era con la gira &apos;NEW_&apos;, con su energía explosiva y el encanto único de cada integrante en pantalla grande.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aourQLTQ57XHpElS299J0X6TETb.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: ENHYPEN WORLD TOUR &apos;BLOOD SAGA&apos;</title>
       <link>https://www.cinecolombia.com/films/enhypen-world-tour-blood-saga/HO00000892/</link>
       <guid isPermaLink="false">806e57c0-5430-4210-a318-e557764a1e0f</guid>
@@ -779,20 +795,6 @@
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible</description>
       <media:content url="https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Le Lac des Cygnes</title>
-      <link>https://www.cinecolombia.com/films/le-lac-des-cygnes/HO00000905/</link>
-      <guid isPermaLink="false">1972429c-260d-49fc-b8c5-c333c4725306</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>El lago de los cisnes’, con música de Tchaikovsky y coreografía de Nureyev para la Ópera de París: Sigfrido promete amor a Odette, pero Odile pone a prueba su juramento.</description>
-    </item>
-    <item>
-      <title>Pronto: La Bayadère</title>
-      <link>https://www.cinecolombia.com/films/la-bayadere/HO00000906/</link>
-      <guid isPermaLink="false">b0dd291d-7c97-4760-92fd-c3a4f1651e1d</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>La Bayadère’ de Nureyev, joya del Ballet de la Ópera de París: el amor condenado de Nikiya y Solor, con música de Minkus y el célebre Reino de las Sombras.</description>
     </item>
   </channel>
 </rss>

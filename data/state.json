@@ -293,7 +293,7 @@
       "id": "HO00000640",
       "title": "The Cat in the Hat",
       "shortSynopsis": "Un astuto gato lleva el caos y las travesuras al hogar de dos niños pequeños.",
-      "releaseDate": "2026-11-05",
+      "releaseDate": "2026-10-31",
       "runtimeInMinutes": 91,
       "censorRating": "+7 Años",
       "genres": [
@@ -304,14 +304,12 @@
       "director": "Alessandro Carloni",
       "webUrl": "https://www.cinecolombia.com/films/the-cat-in-the-hat/HO00000640/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -359,6 +357,39 @@
       "tmdb": {
         "tmdbId": 1153576,
         "posterPath": "/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg"
+      }
+    },
+    {
+      "id": "HO00000669",
+      "title": "Resident Evil",
+      "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
+      "releaseDate": "2026-09-17",
+      "runtimeInMinutes": 90,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Zach Cregger",
+      "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
+      "tmdb": {
+        "tmdbId": 1423191,
+        "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
       }
     },
     {
@@ -3924,7 +3955,14 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-10-31T11:00:44.307Z"
+  "missingRuns": {
+    "HO00000796": 1,
+    "HO00000890": 1
+  },
+  "pendingCategoryLosses": {
+    "HO00000640": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-10-31T23:00:52.118Z"
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Resident Evil</title>
+      <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
+      <guid isPermaLink="false">df2d2146-071c-458a-8719-a3ba3c8b9036</guid>
+      <pubDate>Sat, 31 Oct 2026 23:00:52 GMT</pubDate>
+      <description>En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Resident Evil</title>
       <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
       <guid isPermaLink="false">498132a8-6cc4-4ef4-9706-ce3eb244e64c</guid>
@@ -787,14 +795,6 @@
       <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
       <description>Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: BLUE LOCK</title>
-      <link>https://www.cinecolombia.com/films/blue-lock/HO00000903/</link>
-      <guid isPermaLink="false">af31b944-88dc-4264-aa8a-60c92de8f3d3</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg" medium="image" />
     </item>
   </channel>
 </rss>

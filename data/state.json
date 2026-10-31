@@ -362,39 +362,6 @@
       }
     },
     {
-      "id": "HO00000669",
-      "title": "Resident Evil",
-      "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
-      "releaseDate": "2026-09-17",
-      "runtimeInMinutes": 90,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Zach Cregger",
-      "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
-      "tmdb": {
-        "tmdbId": 1423191,
-        "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
-      }
-    },
-    {
       "id": "HO00000698",
       "title": "Heart of the Beast",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
@@ -3957,9 +3924,7 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000669": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-10-31T05:00:44.119Z"
+  "lastRun": "2026-10-31T11:00:44.307Z"
 }

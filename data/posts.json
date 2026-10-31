@@ -23196,6 +23196,45 @@
           "posterPath": "/aourQLTQ57XHpElS299J0X6TETb.jpg"
         }
       }
+    },
+    {
+      "guid": "498132a8-6cc4-4ef4-9706-ce3eb244e64c",
+      "type": "removed",
+      "filmId": "HO00000669",
+      "createdAt": "2026-10-31T11:00:44.304Z",
+      "snapshot": {
+        "id": "HO00000669",
+        "title": "Resident Evil",
+        "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 90,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Zach Cregger",
+        "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
+        "tmdb": {
+          "tmdbId": 1423191,
+          "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
+        }
+      }
     }
   ]
 }

@@ -591,41 +591,6 @@
       }
     },
     {
-      "id": "HO00000722",
-      "title": "Whalefall",
-      "shortSynopsis": "Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.",
-      "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 106,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Aventura",
-        "Drama",
-        "Suspenso"
-      ],
-      "director": "Brian Duffield",
-      "webUrl": "https://www.cinecolombia.com/films/whalefall/HO00000722/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg",
-      "tmdb": {
-        "tmdbId": 1255833,
-        "posterPath": "/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg"
-      }
-    },
-    {
       "id": "HO00000724",
       "title": "Other Mommy",
       "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
@@ -3886,9 +3851,7 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000722": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-01T05:00:50.839Z"
+  "lastRun": "2026-11-01T11:00:51.325Z"
 }

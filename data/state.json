@@ -1740,40 +1740,6 @@
       }
     },
     {
-      "id": "HO00000796",
-      "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
-      "shortSynopsis": "Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.",
-      "releaseDate": "2026-10-30",
-      "runtimeInMinutes": 195,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Concierto",
-        "Documental"
-      ],
-      "director": "Jungjae HA",
-      "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
-      "tmdb": {
-        "tmdbId": 1770234,
-        "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
-      }
-    },
-    {
       "id": "HO00000821",
       "title": "Sacrifice",
       "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
@@ -2197,41 +2163,6 @@
       "tmdb": {
         "tmdbId": 713704,
         "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
-      }
-    },
-    {
-      "id": "HO00000890",
-      "title": "HYBE CHEERING PARTY",
-      "shortSynopsis": "Experiencia interactiva donde los fans corean, cantan con letras en 3D y agitan sus lightsticks al ritmo de videos de BTS, SEVENTEEN, TXT, ENHYPEN y más de HYBE.",
-      "releaseDate": "2026-10-24",
-      "runtimeInMinutes": 60,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Concierto",
-        "Música"
-      ],
-      "director": "SANGGEUN PARK",
-      "webUrl": "https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000002",
-            "0000000005",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg",
-      "tmdb": {
-        "tmdbId": 1797226,
-        "posterPath": "/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg"
       }
     },
     {
@@ -3956,13 +3887,8 @@
     }
   },
   "missingRuns": {
-    "HO00000796": 1,
-    "HO00000890": 1
+    "HO00000722": 1
   },
-  "pendingCategoryLosses": {
-    "HO00000640": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-10-31T23:00:52.118Z"
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-11-01T05:00:50.839Z"
 }

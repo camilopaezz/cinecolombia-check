@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: BTS WORLD TOUR &apos;ARIRANG&apos; IN SÃO PAULO: LIVE</title>
+      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/</link>
+      <guid isPermaLink="false">dfab6ab4-fc10-4d85-ac66-a3d6b5af250f</guid>
+      <pubDate>Sun, 01 Nov 2026 05:00:50 GMT</pubDate>
+      <description>Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: HYBE CHEERING PARTY</title>
+      <link>https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/</link>
+      <guid isPermaLink="false">6a0ee6cc-007d-487e-a7b0-62dee50a3d2d</guid>
+      <pubDate>Sun, 01 Nov 2026 05:00:50 GMT</pubDate>
+      <description>Experiencia interactiva donde los fans corean, cantan con letras en 3D y agitan sus lightsticks al ritmo de videos de BTS, SEVENTEEN, TXT, ENHYPEN y más de HYBE.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Resident Evil</title>
       <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
       <guid isPermaLink="false">df2d2146-071c-458a-8719-a3ba3c8b9036</guid>
@@ -779,22 +795,6 @@
       <description>Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.
 </description>
       <media:content url="https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: I Want Your Sex</title>
-      <link>https://www.cinecolombia.com/films/i-want-your-sex/HO00000901/</link>
-      <guid isPermaLink="false">39b40056-889f-498b-a648-8c00b707f604</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Elliot consigue trabajo con la artista Erika Tracy, quien lo invita a ser su musa sexual, pero pronto se ve arrastrado a un mundo de obsesión, poder y traición.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/aMFx35t0T61S1ILDZrycPFRu95u.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Ebenezer</title>
-      <link>https://www.cinecolombia.com/films/ebenezer/HO00000902/</link>
-      <guid isPermaLink="false">ef659764-62ee-4fdb-99ad-ad7197c810ff</guid>
-      <pubDate>Thu, 22 Oct 2026 14:47:29 GMT</pubDate>
-      <description>Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg" medium="image" />
     </item>
   </channel>
 </rss>

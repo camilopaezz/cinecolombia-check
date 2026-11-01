@@ -23274,6 +23274,87 @@
           "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
         }
       }
+    },
+    {
+      "guid": "dfab6ab4-fc10-4d85-ac66-a3d6b5af250f",
+      "type": "removed",
+      "filmId": "HO00000796",
+      "createdAt": "2026-11-01T05:00:50.836Z",
+      "snapshot": {
+        "id": "HO00000796",
+        "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
+        "shortSynopsis": "Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.",
+        "releaseDate": "2026-10-30",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto",
+          "Documental"
+        ],
+        "director": "Jungjae HA",
+        "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
+        "tmdb": {
+          "tmdbId": 1770234,
+          "posterPath": "/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6a0ee6cc-007d-487e-a7b0-62dee50a3d2d",
+      "type": "removed",
+      "filmId": "HO00000890",
+      "createdAt": "2026-11-01T05:00:50.836Z",
+      "snapshot": {
+        "id": "HO00000890",
+        "title": "HYBE CHEERING PARTY",
+        "shortSynopsis": "Experiencia interactiva donde los fans corean, cantan con letras en 3D y agitan sus lightsticks al ritmo de videos de BTS, SEVENTEEN, TXT, ENHYPEN y más de HYBE.",
+        "releaseDate": "2026-10-24",
+        "runtimeInMinutes": 60,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Concierto",
+          "Música"
+        ],
+        "director": "SANGGEUN PARK",
+        "webUrl": "https://www.cinecolombia.com/films/hybe-cheering-party/HO00000890/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000002",
+              "0000000005",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg",
+        "tmdb": {
+          "tmdbId": 1797226,
+          "posterPath": "/8udWFUoL5NxqKR1xtYinhcxY3gn.jpg"
+        }
+      }
     }
   ]
 }

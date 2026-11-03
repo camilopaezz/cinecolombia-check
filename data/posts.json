@@ -23458,6 +23458,43 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "002932f2-0333-4ab4-802a-54038410df32",
+      "type": "now-in-theaters",
+      "filmId": "HO00000937",
+      "createdAt": "2026-11-03T05:00:49.613Z",
+      "snapshot": {
+        "id": "HO00000937",
+        "title": "BTS WORLD TOUR 'ARIRANG' IN KAOHSIUNG: LIVE",
+        "shortSynopsis": "La gira récord de BTS por Asia llega a la pantalla grande. Vive el rugido del público en Kaohsiung y la energía de BTS WORLD TOUR ‘ARIRANG’ en cines de todo el mundo.",
+        "releaseDate": "2026-11-21",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "Jungjae HA",
+        "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-kaohsiung-live/HO00000937/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

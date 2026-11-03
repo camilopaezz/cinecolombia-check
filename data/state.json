@@ -57,9 +57,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008",
-            "0000000010"
+            "0000000008"
           ]
         }
       ],
@@ -314,7 +312,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -1882,7 +1879,7 @@
         "Drama",
         "Historia"
       ],
-      "director": "Doug Liman",
+      "director": "Jimmy Chin",
       "webUrl": "https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/",
       "categories": [
         "NowShowing"
@@ -1896,9 +1893,7 @@
           "showtimeAttributeIds": [
             "0000000002",
             "0000000004",
-            "0000000007",
-            "0000000008",
-            "0000000010"
+            "0000000008"
           ]
         }
       ],
@@ -1914,7 +1909,7 @@
       "shortSynopsis": "Ambientada en 1949, dos años después de 'Godzilla Minus One', la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 135,
-      "censorRating": "+15 Años",
+      "censorRating": "+12 Años",
       "genres": [
         "Acción",
         "Aventura",
@@ -1935,6 +1930,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000002",
+            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008",
@@ -2820,13 +2816,19 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-kaohsiung-live/HO00000937/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -3899,7 +3901,9 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000789": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-02T23:00:52.208Z"
+  "lastRun": "2026-11-03T05:00:49.616Z"
 }

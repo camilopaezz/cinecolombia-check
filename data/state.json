@@ -312,7 +312,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -912,7 +912,7 @@
       "shortSynopsis": "En vísperas del golpe de Estado chileno de 1973, dos agentes de la CIA viajan a Isla de Pascua, donde secretos y nuevas alianzas ponen en riesgo su misión.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 118,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Crimen",
         "Drama",
@@ -1739,7 +1739,7 @@
       "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 107,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Crimen",
         "Suspenso"
@@ -1897,6 +1897,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000002",
+            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008",
@@ -3875,5 +3876,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-03T11:02:56.819Z"
+  "lastRun": "2026-11-03T23:00:52.204Z"
 }

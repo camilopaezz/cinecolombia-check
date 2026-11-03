@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: BTS WORLD TOUR &apos;ARIRANG&apos; IN JAKARTA: LIVE</title>
+      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-jakarta-live/HO00000936/</link>
+      <guid isPermaLink="false">91b7b18e-8fac-4917-a856-f12c6ef0510f</guid>
+      <pubDate>Tue, 03 Nov 2026 11:02:56 GMT</pubDate>
+      <description>Cierra el año con BTS LIVE en cines: la gran final de su gira récord por Asia, en Jakarta en diciembre. BTS WORLD TOUR ‘ARIRANG’ en la pantalla grande de todo el mundo.</description>
+    </item>
+    <item>
+      <title>Ya no disponible: Caravaggio</title>
+      <link>https://www.cinecolombia.com/films/caravaggio/HO00000789/</link>
+      <guid isPermaLink="false">d1e0f41a-cbe4-4c9a-bc73-ad2ab1307476</guid>
+      <pubDate>Tue, 03 Nov 2026 11:02:56 GMT</pubDate>
+      <description>Premio del Público a Mejor Documental en Chichester: cinco años de rodaje tras las huellas de Caravaggio, entre autorretratos ocultos y los lugares que marcaron su vida.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: BTS WORLD TOUR &apos;ARIRANG&apos; IN KAOHSIUNG: LIVE</title>
       <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-kaohsiung-live/HO00000937/</link>
       <guid isPermaLink="false">002932f2-0333-4ab4-802a-54038410df32</guid>
@@ -776,22 +791,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Makikiraan Po</title>
-      <link>https://www.cinecolombia.com/films/makikiraan-po/HO00000872/</link>
-      <guid isPermaLink="false">2118e381-f695-4f21-88da-b2689d7dddd3</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>El padre Enciso, encomendero cruel en Filipinas, construye una iglesia con mármol robado. Encarga a su hijo Dungwen supervisar el peligroso transporte de las piedras.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9cMi8eutQ6tBjaad2y1xMHHwH0E.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Yak Mai</title>
-      <link>https://www.cinecolombia.com/films/yak-mai/HO00000875/</link>
-      <guid isPermaLink="false">787de7a1-f119-4fb0-9cde-14378952c24d</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Un humo misterioso en Tailandia desata una extraña enfermedad. Un aldeano karen, en cuarentena, sueña con volver a casa, mientras guardabosques amenazan su aldea.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/1E4ZrvPzBZSTmgvNooVVVSvgagp.jpg" medium="image" />
     </item>
   </channel>
 </rss>

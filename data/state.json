@@ -1593,39 +1593,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000789",
-      "title": "Caravaggio",
-      "shortSynopsis": "Premio del Público a Mejor Documental en Chichester: cinco años de rodaje tras las huellas de Caravaggio, entre autorretratos ocultos y los lugares que marcaron su vida.",
-      "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 100,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Documental"
-      ],
-      "director": "Phil Grabsky",
-      "webUrl": "https://www.cinecolombia.com/films/caravaggio/HO00000789/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/q2rGfOAJcwAIYUWPi716goAypFD.jpg",
-      "tmdb": {
-        "tmdbId": 20537,
-        "posterPath": "/q2rGfOAJcwAIYUWPi716goAypFD.jpg"
-      }
-    },
-    {
       "id": "HO00000793",
       "title": "The Hunger Games: Mockingjay - Part 1",
       "shortSynopsis": "RE-ESTRENO - Katniss, símbolo de la resistencia en el Distrito 13 bajo la presidenta Coin, lidera la rebelión contra el Capitolio mientras Peeta sigue cautivo de Snow.",
@@ -1930,7 +1897,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000002",
-            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008",
@@ -2791,13 +2757,19 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-jakarta-live/HO00000936/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -3901,9 +3873,7 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000789": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-03T05:00:49.616Z"
+  "lastRun": "2026-11-03T11:02:56.819Z"
 }

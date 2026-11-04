@@ -7,6 +7,30 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Wild Horse Nine</title>
+      <link>https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/</link>
+      <guid isPermaLink="false">9e28afd4-126e-48ec-b324-ab41e758fb34</guid>
+      <pubDate>Wed, 04 Nov 2026 05:00:51 GMT</pubDate>
+      <description>En vísperas del golpe de Estado chileno de 1973, dos agentes de la CIA viajan a Isla de Pascua, donde secretos y nuevas alianzas ponen en riesgo su misión.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: By Any Means</title>
+      <link>https://www.cinecolombia.com/films/by-any-means/HO00000823/</link>
+      <guid isPermaLink="false">83e6efb0-efd8-4cfe-8f5a-a78568faacc0</guid>
+      <pubDate>Wed, 04 Nov 2026 05:00:51 GMT</pubDate>
+      <description>Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: L’affaire Bojarski.</title>
+      <link>https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/</link>
+      <guid isPermaLink="false">a05b8281-0c22-4b75-9c53-520087e0bd44</guid>
+      <pubDate>Wed, 04 Nov 2026 05:00:51 GMT</pubDate>
+      <description>Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: BTS WORLD TOUR &apos;ARIRANG&apos; IN JAKARTA: LIVE</title>
       <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-jakarta-live/HO00000936/</link>
       <guid isPermaLink="false">91b7b18e-8fac-4917-a856-f12c6ef0510f</guid>
@@ -767,30 +791,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Fjord</title>
-      <link>https://www.cinecolombia.com/films/fjord/HO00000867/</link>
-      <guid isPermaLink="false">dc67f2f7-ee43-4cee-af36-838fa9974d2c</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Los Gheorghiu se instalan en un pueblo noruego y entablan amistad con los Halberg. Al aparecer moretones en Elia, la comunidad sospecha de su educación tradicional.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9L7ND90Rl6RANG5l0Z5ZfsI3RET.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Gabin</title>
-      <link>https://www.cinecolombia.com/films/gabin/HO00000868/</link>
-      <guid isPermaLink="false">8914bb5d-cbeb-4fcf-b05a-7e26fd5f1554</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Gabin, destinado a heredar la carnicería familiar, sueña con criar animales y salvar la granja de su madre. Su historia se sigue desde los 8 hasta los 18 años.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/cVEnzhnfFvfwAeqF7hHAj6hPG7t.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: La Gradiva</title>
-      <link>https://www.cinecolombia.com/films/la-gradiva/HO00000871/</link>
-      <guid isPermaLink="false">bc0a8e97-ccee-42f8-936f-fbfbfcc9211c</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Alumnos de secundaria visitan Pompeya, donde la juventud choca con un mundo congelado en el tiempo, despertando deseos que los llevan a una ruptura irreversible.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xT6h3UFA8wseou1CpryLPjddJlv.jpg" medium="image" />
     </item>
   </channel>
 </rss>

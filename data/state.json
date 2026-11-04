@@ -312,7 +312,10 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000005",
+            "0000000007",
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -346,7 +349,8 @@
           "showtimeAttributeIds": [
             "0000000003",
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -417,7 +421,8 @@
             "0000000003",
             "0000000004",
             "0000000007",
-            "0000000008"
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -921,13 +926,20 @@
       "director": "Martin McDonagh",
       "webUrl": "https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1747,13 +1759,20 @@
       "director": "Elegance Bratton",
       "webUrl": "https://www.cinecolombia.com/films/by-any-means/HO00000823/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2041,13 +2060,19 @@
       "director": "Jean-Paul Salomé",
       "webUrl": "https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2434,7 +2459,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -3876,5 +3900,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-03T23:00:52.204Z"
+  "lastRun": "2026-11-04T05:00:51.887Z"
 }

@@ -23571,6 +23571,134 @@
           "posterPath": "/q2rGfOAJcwAIYUWPi716goAypFD.jpg"
         }
       }
+    },
+    {
+      "guid": "9e28afd4-126e-48ec-b324-ab41e758fb34",
+      "type": "now-in-theaters",
+      "filmId": "HO00000744",
+      "createdAt": "2026-11-04T05:00:51.883Z",
+      "snapshot": {
+        "id": "HO00000744",
+        "title": "Wild Horse Nine",
+        "shortSynopsis": "En vísperas del golpe de Estado chileno de 1973, dos agentes de la CIA viajan a Isla de Pascua, donde secretos y nuevas alianzas ponen en riesgo su misión.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 118,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Crimen",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Martin McDonagh",
+        "webUrl": "https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+        "tmdb": {
+          "tmdbId": 891621,
+          "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
+        }
+      }
+    },
+    {
+      "guid": "83e6efb0-efd8-4cfe-8f5a-a78568faacc0",
+      "type": "now-in-theaters",
+      "filmId": "HO00000823",
+      "createdAt": "2026-11-04T05:00:51.883Z",
+      "snapshot": {
+        "id": "HO00000823",
+        "title": "By Any Means",
+        "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 107,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "Elegance Bratton",
+        "webUrl": "https://www.cinecolombia.com/films/by-any-means/HO00000823/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
+        "tmdb": {
+          "tmdbId": 1380417,
+          "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a05b8281-0c22-4b75-9c53-520087e0bd44",
+      "type": "now-in-theaters",
+      "filmId": "HO00000887",
+      "createdAt": "2026-11-04T05:00:51.883Z",
+      "snapshot": {
+        "id": "HO00000887",
+        "title": "L’affaire Bojarski.",
+        "shortSynopsis": "Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 128,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Jean-Paul Salomé",
+        "webUrl": "https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
+        "tmdb": {
+          "tmdbId": 1376415,
+          "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
+        }
+      }
     }
   ]
 }

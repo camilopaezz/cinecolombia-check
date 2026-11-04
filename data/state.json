@@ -275,9 +275,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000007"
           ]
         }
       ],
@@ -3898,7 +3896,10 @@
       "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000630": 1,
+    "HO00000783": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-04T05:00:51.887Z"
+  "lastRun": "2026-11-04T23:00:51.357Z"
 }

@@ -23781,6 +23781,566 @@
           "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
         }
       }
+    },
+    {
+      "guid": "fbbda76d-fa79-4070-9828-664ce4db3f73",
+      "type": "now-in-theaters",
+      "filmId": "HO00000934",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000934",
+        "title": "The Fast and the Furious (25th Anniversary)",
+        "shortSynopsis": "En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 107,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "Rob Cohen",
+        "webUrl": "https://www.cinecolombia.com/films/the-fast-and-the-furious-25th-anniversary/HO00000934/",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "b2d62606-27d2-4b5e-add7-49cd0c734224",
+      "type": "removed",
+      "filmId": "HO00000381",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000381",
+        "title": "Digger",
+        "shortSynopsis": "El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 128,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia",
+          "Drama"
+        ],
+        "director": "Alejandro González Iñárritu",
+        "webUrl": "https://www.cinecolombia.com/films/digger/HO00000381/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg",
+        "tmdb": {
+          "tmdbId": 1248832,
+          "posterPath": "/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b6219620-782c-4e54-8dd0-58632beb93d6",
+      "type": "removed",
+      "filmId": "HO00000386",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000386",
+        "title": "The Odyssey",
+        "shortSynopsis": "El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.",
+        "releaseDate": "2026-07-16",
+        "runtimeInMinutes": 172,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Christopher Nolan",
+        "webUrl": "https://www.cinecolombia.com/films/the-odyssey/HO00000386/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg",
+        "tmdb": {
+          "tmdbId": 1368337,
+          "posterPath": "/bheY17L6wtB0SdJn6EYyh1X5iry.jpg"
+        }
+      }
+    },
+    {
+      "guid": "43bf98d8-37c6-4781-8437-0eec142082c6",
+      "type": "removed",
+      "filmId": "HO00000669",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000669",
+        "title": "Resident Evil",
+        "shortSynopsis": "En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.",
+        "releaseDate": "2026-09-17",
+        "runtimeInMinutes": 90,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Zach Cregger",
+        "webUrl": "https://www.cinecolombia.com/films/resident-evil/HO00000669/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg",
+        "tmdb": {
+          "tmdbId": 1423191,
+          "posterPath": "/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg"
+        }
+      }
+    },
+    {
+      "guid": "0ae05096-7681-4424-8e43-f722e82d3d7f",
+      "type": "removed",
+      "filmId": "HO00000703",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000703",
+        "title": "Tadeo Jones y la lámpara maravillosa",
+        "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 94,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Enrique Gato",
+        "webUrl": "https://www.cinecolombia.com/films/tadeo-jones-y-la-lampara-maravillosa/HO00000703/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
+        "tmdb": {
+          "tmdbId": 1187326,
+          "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
+        }
+      }
+    },
+    {
+      "guid": "014d54bb-c223-40d3-91c8-efeb552c6b0c",
+      "type": "removed",
+      "filmId": "HO00000752",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000752",
+        "title": "Fatherland",
+        "shortSynopsis": "Thomas Mann regresa a una Alemania dividida por la Guerra Fría, donde deberá enfrentar tensiones políticas y una tragedia familiar que amenaza con separarlos.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 82,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Historia"
+        ],
+        "director": "Paweł Pawlikowski",
+        "webUrl": "https://www.cinecolombia.com/films/fatherland/HO00000752/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
+        "tmdb": {
+          "tmdbId": 1437696,
+          "posterPath": "/oNejN1l69nBF8LdQwy5FkAQZT44.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ec7b6e8d-4d5c-4007-ac32-08129c6d078d",
+      "type": "removed",
+      "filmId": "HO00000772",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000772",
+        "title": "Resurrection",
+        "shortSynopsis": "En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 159,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Bi Gan",
+        "webUrl": "https://www.cinecolombia.com/films/resurrection/HO00000772/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vQZK421erWKR5PgF4pbz0lp4o3o.jpg",
+        "tmdb": {
+          "tmdbId": 878608,
+          "posterPath": "/vQZK421erWKR5PgF4pbz0lp4o3o.jpg"
+        }
+      }
+    },
+    {
+      "guid": "18b876c8-86b0-4ea6-8de1-b7ba57e45063",
+      "type": "removed",
+      "filmId": "HO00000775",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000775",
+        "title": "The Get Out",
+        "shortSynopsis": "Basada en 'Strip' de Thomas Perry: un dueño de club nocturno listo para retirarse enfrenta traiciones tras un violento asalto, en una lucha por sobrevivir.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 111,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Derrick Borte",
+        "webUrl": "https://www.cinecolombia.com/films/the-get-out/HO00000775/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg",
+        "tmdb": {
+          "tmdbId": 1279493,
+          "posterPath": "/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg"
+        }
+      }
+    },
+    {
+      "guid": "42405499-b708-40e0-bd27-3f86c6f2b25f",
+      "type": "removed",
+      "filmId": "HO00000785",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000785",
+        "title": "Palestine 36",
+        "shortSynopsis": "En 1936, en plena revuelta palestina contra el dominio británico, Yusuf sueña con un futuro mejor hasta verse arrastrado a un conflicto que cambiará su destino.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 119,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama",
+          "Historia"
+        ],
+        "director": "Annemarie Jacir",
+        "webUrl": "https://www.cinecolombia.com/films/palestine-36/HO00000785/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg",
+        "tmdb": {
+          "tmdbId": 1432596,
+          "posterPath": "/cDsSmzUa9pwr3ZWa7XiypywiMdy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "1d098949-4105-4562-95a7-44c3fb5e87fc",
+      "type": "removed",
+      "filmId": "HO00000793",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000793",
+        "title": "The Hunger Games: Mockingjay - Part 1",
+        "shortSynopsis": "RE-ESTRENO - Katniss, símbolo de la resistencia en el Distrito 13 bajo la presidenta Coin, lidera la rebelión contra el Capitolio mientras Peeta sigue cautivo de Snow.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 123,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Suspenso"
+        ],
+        "director": "Francis Lawrence",
+        "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-1/HO00000793/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg",
+        "tmdb": {
+          "tmdbId": 131631,
+          "posterPath": "/wfLsciidZamFPeOb4FD8ywk1Q9c.jpg"
+        }
+      }
+    },
+    {
+      "guid": "69555ffa-2c38-44c9-8009-682e0dcc76b3",
+      "type": "removed",
+      "filmId": "HO00000879",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000879",
+        "title": "Everest: The Other Side",
+        "shortSynopsis": "Los esquiadores Jim Morrison e Hilaree Nelson sueñan con escalar y esquiar la cara norte del Everest, la ruta más peligrosa, que nadie ha logrado descender con esquís.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 110,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Biografía",
+          "Drama",
+          "Historia"
+        ],
+        "director": "Jimmy Chin",
+        "webUrl": "https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000002",
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+        "tmdb": {
+          "tmdbId": 1603262,
+          "posterPath": "/2m9ts8LfjG8d4xcUtx66aApngJL.jpg"
+        }
+      }
+    },
+    {
+      "guid": "11b45c89-d1cd-41b8-92c5-5a252f768e8c",
+      "type": "removed",
+      "filmId": "HO00000885",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000885",
+        "title": "Mimì - Il principe delle tenebre",
+        "shortSynopsis": "Mimì, huérfano marginado en Nápoles, conoce a Carmilla, quien cree ser descendiente de Drácula. Juntos emprenden un viaje en busca de libertad e identidad.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 103,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Brando De Sica",
+        "webUrl": "https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "54e0a16a-b6ab-49c9-bade-de47da86c645",
+      "type": "removed",
+      "filmId": "HO00000889",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000889",
+        "title": "El Despertar",
+        "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jaime Osorio Marquez",
+        "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
+        "tmdb": {
+          "tmdbId": 713704,
+          "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e408f177-ac1b-4edd-ad33-1f32c02c47c2",
+      "type": "removed",
+      "filmId": "HO00000896",
+      "createdAt": "2026-11-05T11:00:51.251Z",
+      "snapshot": {
+        "id": "HO00000896",
+        "title": "The Others",
+        "shortSynopsis": "RE-ESTRENO - Grace, una mujer religiosa, protege a sus hijos fotosensibles en una casa antigua en penumbra cuando empieza a sospechar que está embrujada.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 105,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Misterio",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Alejandro Amenábar",
+        "webUrl": "https://www.cinecolombia.com/films/the-others/HO00000896/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg",
+        "tmdb": {
+          "tmdbId": 1933,
+          "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
+        }
+      }
     }
   ]
 }

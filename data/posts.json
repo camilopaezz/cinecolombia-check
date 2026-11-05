@@ -24381,6 +24381,43 @@
           "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
         }
       }
+    },
+    {
+      "guid": "34342f40-7b42-447f-87c4-8d2f40dcdf0b",
+      "type": "added",
+      "filmId": "HO00000938",
+      "createdAt": "2026-11-05T23:00:49.992Z",
+      "snapshot": {
+        "id": "HO00000938",
+        "title": "Encanto",
+        "shortSynopsis": "El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 102,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Jared Bush",
+        "webUrl": "https://www.cinecolombia.com/films/encanto/HO00000938/",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg",
+        "tmdb": {
+          "tmdbId": 4593,
+          "posterPath": "/j9BVYh3zd7hG0Iycem9QOs2moot.jpg"
+        }
+      }
     }
   ]
 }

@@ -201,11 +201,9 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -213,41 +211,6 @@
       "tmdb": {
         "tmdbId": 1400940,
         "posterPath": "/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg"
-      }
-    },
-    {
-      "id": "HO00000630",
-      "title": "Forgotten Island",
-      "shortSynopsis": "Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.",
-      "releaseDate": "2026-10-01",
-      "runtimeInMinutes": 109,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Joel Crawford",
-      "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
-      "tmdb": {
-        "tmdbId": 1465063,
-        "posterPath": "/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg"
       }
     },
     {
@@ -345,7 +308,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008"
@@ -415,7 +377,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000003",
             "0000000004",
             "0000000007",
@@ -520,7 +481,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -924,14 +884,12 @@
       "director": "Martin McDonagh",
       "webUrl": "https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1434,41 +1392,6 @@
       }
     },
     {
-      "id": "HO00000783",
-      "title": "Cars",
-      "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 116,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Comedia",
-        "Familia"
-      ],
-      "director": "John Lasseter",
-      "webUrl": "https://www.cinecolombia.com/films/cars/HO00000783/",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg",
-      "tmdb": {
-        "tmdbId": 920,
-        "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
-      }
-    },
-    {
       "id": "HO00000785",
       "title": "Palestine 36",
       "shortSynopsis": "En 1936, en plena revuelta palestina contra el dominio británico, Yusuf sueña con un futuro mejor hasta verse arrastrado a un conflicto que cambiará su destino.",
@@ -1653,14 +1576,12 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-2/HO00000794/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1757,14 +1678,12 @@
       "director": "Elegance Bratton",
       "webUrl": "https://www.cinecolombia.com/films/by-any-means/HO00000823/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1902,14 +1821,12 @@
       "director": "Takashi Yamazaki",
       "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2058,14 +1975,12 @@
       "director": "Jean-Paul Salomé",
       "webUrl": "https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3897,9 +3812,36 @@
     }
   },
   "missingRuns": {
-    "HO00000630": 1,
-    "HO00000783": 1
+    "HO00000381": 1,
+    "HO00000386": 1,
+    "HO00000669": 1,
+    "HO00000703": 1,
+    "HO00000752": 1,
+    "HO00000772": 1,
+    "HO00000775": 1,
+    "HO00000785": 1,
+    "HO00000793": 1,
+    "HO00000879": 1,
+    "HO00000885": 1,
+    "HO00000889": 1,
+    "HO00000896": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-11-04T23:00:51.357Z"
+  "pendingCategoryLosses": {
+    "HO00000744": {
+      "AdvanceBooking": 1
+    },
+    "HO00000794": {
+      "AdvanceBooking": 1
+    },
+    "HO00000823": {
+      "AdvanceBooking": 1
+    },
+    "HO00000881": {
+      "AdvanceBooking": 1
+    },
+    "HO00000887": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-11-05T05:00:50.985Z"
 }

@@ -23699,6 +23699,88 @@
           "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
         }
       }
+    },
+    {
+      "guid": "9ee87a96-aa92-4fbb-9aac-d164a43c7d11",
+      "type": "removed",
+      "filmId": "HO00000630",
+      "createdAt": "2026-11-05T05:00:50.982Z",
+      "snapshot": {
+        "id": "HO00000630",
+        "title": "Forgotten Island",
+        "shortSynopsis": "Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 109,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Joel Crawford",
+        "webUrl": "https://www.cinecolombia.com/films/forgotten-island/HO00000630/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg",
+        "tmdb": {
+          "tmdbId": 1465063,
+          "posterPath": "/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a8d2b85c-bb58-4873-a1bf-ba7fd18812fb",
+      "type": "removed",
+      "filmId": "HO00000783",
+      "createdAt": "2026-11-05T05:00:50.982Z",
+      "snapshot": {
+        "id": "HO00000783",
+        "title": "Cars",
+        "shortSynopsis": "Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 116,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "John Lasseter",
+        "webUrl": "https://www.cinecolombia.com/films/cars/HO00000783/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg",
+        "tmdb": {
+          "tmdbId": 920,
+          "posterPath": "/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg"
+        }
+      }
     }
   ]
 }

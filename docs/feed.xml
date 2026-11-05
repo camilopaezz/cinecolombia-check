@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Forgotten Island</title>
+      <link>https://www.cinecolombia.com/films/forgotten-island/HO00000630/</link>
+      <guid isPermaLink="false">9ee87a96-aa92-4fbb-9aac-d164a43c7d11</guid>
+      <pubDate>Thu, 05 Nov 2026 05:00:50 GMT</pubDate>
+      <description>Dos mejores amigas quedan atrapadas en el mundo místico de Nakali, donde la única posibilidad de regresar las obliga a enfrentar un dilema.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/vpTdXFoZGzwnCWzkVYU7JH8teAZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Cars</title>
+      <link>https://www.cinecolombia.com/films/cars/HO00000783/</link>
+      <guid isPermaLink="false">a8d2b85c-bb58-4873-a1bf-ba7fd18812fb</guid>
+      <pubDate>Thu, 05 Nov 2026 05:00:50 GMT</pubDate>
+      <description>Rayo McQueen, veloz auto novato, descubre en el pueblo de Radiador Springs, Ruta 66, que la vida es sobre el recorrido, no la meta. Con Doc Hudson y Mate.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/oWNiWzEG8R94dXwXbYtm5YBqmRQ.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Wild Horse Nine</title>
       <link>https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/</link>
       <guid isPermaLink="false">9e28afd4-126e-48ec-b324-ab41e758fb34</guid>
@@ -775,22 +791,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>Yajaira, joven indígena, vive en un violento barrio de Bogotá con su hija. Tras una muerte, decide huir a la selva junto a Jhon, un pandillero, hacia el río Andágueda.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/5lk6ELIMgs3F03CotOp8lViYIia.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Eklipse</title>
-      <link>https://www.cinecolombia.com/films/eklipse/HO00000864/</link>
-      <guid isPermaLink="false">346ed7df-4521-4356-8f34-9e3f07d02d80</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Tomy y Chris pasan el verano de 1999 en una granja alpina. Al descubrir que el padre de Tomy tiene &quot;la enfermedad de los gays&quot;, Tomy enfrenta el rechazo familiar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lUg40on46lGnLSvITablDllDQEc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: El despertar</title>
-      <link>https://www.cinecolombia.com/films/el-despertar/HO00000865/</link>
-      <guid isPermaLink="false">8862cf54-bff8-4f5c-b544-b9ac818c4b84</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wsFm0g25tE15M8MsitmxHZkTqRL.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -24341,6 +24341,46 @@
           "posterPath": "/u03kblxsv3zar3Uqt6sRfICU9L6.jpg"
         }
       }
+    },
+    {
+      "guid": "01540cd3-dc84-43d9-be18-9eb824a311b3",
+      "type": "now-in-theaters",
+      "filmId": "HO00000889",
+      "createdAt": "2026-11-05T17:00:50.241Z",
+      "snapshot": {
+        "id": "HO00000889",
+        "title": "El Despertar",
+        "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 96,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Suspenso"
+        ],
+        "director": "Jaime Osorio Marquez",
+        "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
+        "tmdb": {
+          "tmdbId": 713704,
+          "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+        }
+      }
     }
   ]
 }

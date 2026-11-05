@@ -1626,6 +1626,40 @@
       }
     },
     {
+      "id": "HO00000889",
+      "title": "El Despertar",
+      "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
+      "releaseDate": "2026-10-29",
+      "runtimeInMinutes": 96,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Acción",
+        "Suspenso"
+      ],
+      "director": "Jaime Osorio Marquez",
+      "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
+      "tmdb": {
+        "tmdbId": 713704,
+        "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
+      }
+    },
+    {
       "id": "HO00000894",
       "title": "I Play Rocky",
       "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
@@ -3380,5 +3414,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-05T11:00:51.254Z"
+  "lastRun": "2026-11-05T17:00:50.244Z"
 }

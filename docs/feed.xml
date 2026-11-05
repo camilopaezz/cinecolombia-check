@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: El Despertar</title>
+      <link>https://www.cinecolombia.com/films/el-despertar/HO00000889/</link>
+      <guid isPermaLink="false">01540cd3-dc84-43d9-be18-9eb824a311b3</guid>
+      <pubDate>Thu, 05 Nov 2026 17:00:50 GMT</pubDate>
+      <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: The Fast and the Furious (25th Anniversary)</title>
       <link>https://www.cinecolombia.com/films/the-fast-and-the-furious-25th-anniversary/HO00000934/</link>
       <guid isPermaLink="false">fbbda76d-fa79-4070-9828-664ce4db3f73</guid>
@@ -781,14 +789,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>Durante el golpe de 1973 en Chile, el Capitán Jorge Silva debe transformar una academia militar en centro de tortura. &apos;Hangar Rojo&apos;, thriller sobre el poder militar.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/4yZTw3bQ8jMWrlx5w3JWzkx8wls.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Heat</title>
-      <link>https://www.cinecolombia.com/films/heat/HO00000837/</link>
-      <guid isPermaLink="false">e9b62b18-6805-4b22-967a-d6fc3787b616</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Bajo un calor sin precedentes, las vidas y las estructuras sociales comienzan a transformarse. Más allá de las advertencias distópicas, ¿cómo afecta el calor a los seres.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kRfh1NCkDXGFrWzL6zDmVnHjRKh.jpg" medium="image" />
     </item>
   </channel>
 </rss>

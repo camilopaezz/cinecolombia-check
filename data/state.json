@@ -759,7 +759,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -2360,13 +2359,19 @@
       "director": "Jared Bush",
       "webUrl": "https://www.cinecolombia.com/films/encanto/HO00000938/",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -3449,5 +3454,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-05T23:00:49.995Z"
+  "lastRun": "2026-11-06T05:00:50.673Z"
 }

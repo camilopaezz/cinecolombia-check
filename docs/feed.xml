@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Encanto</title>
+      <link>https://www.cinecolombia.com/films/encanto/HO00000938/</link>
+      <guid isPermaLink="false">35111b4a-946a-4434-9d8d-68f0613c9425</guid>
+      <pubDate>Fri, 06 Nov 2026 05:00:50 GMT</pubDate>
+      <description>El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Encanto</title>
       <link>https://www.cinecolombia.com/films/encanto/HO00000938/</link>
       <guid isPermaLink="false">34342f40-7b42-447f-87c4-8d2f40dcdf0b</guid>
@@ -781,14 +789,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>En 1949, Thomas Mann (Hanns Zischler) y su hija Erika (Sandra Hüller) viajan por una Alemania dividida en &apos;Fatherland&apos;, de Pawlikowski. Identidad, familia y culpa.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Filipiñana</title>
-      <link>https://www.cinecolombia.com/films/filipinana/HO00000835/</link>
-      <guid isPermaLink="false">e3f47e72-5906-458b-8310-b21b1c1bead8</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Isabel, nueva empleada de un club de campo, se siente atraída por el Dr. Palanca, hasta descubrir un pasado siniestro tras la fachada del lugar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pe0MudvC8VOoTtAMCTIfHqrRo8o.jpg" medium="image" />
     </item>
   </channel>
 </rss>

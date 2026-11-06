@@ -1758,8 +1758,8 @@
       "title": "Ebenezer",
       "shortSynopsis": "Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.",
       "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 115,
+      "censorRating": "+7 Años",
       "genres": [
         "Fantasía"
       ],
@@ -1788,7 +1788,7 @@
       "shortSynopsis": "Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 128,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Acción",
         "Deporte",
@@ -3454,5 +3454,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-06T05:00:50.673Z"
+  "lastRun": "2026-11-06T17:00:50.555Z"
 }

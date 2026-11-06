@@ -206,7 +206,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000005",
             "0000000007",
             "0000000008",
             "0000000009"
@@ -2311,7 +2310,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gEMCs6RPDJFSAFkc9JXxhaL0AGV.jpg",
+      "tmdb": {
+        "tmdbId": 1820088,
+        "posterPath": "/gEMCs6RPDJFSAFkc9JXxhaL0AGV.jpg"
+      }
     },
     {
       "id": "HO00000937",
@@ -3450,9 +3453,13 @@
     "HO00000938": {
       "tmdbId": 4593,
       "posterPath": "/j9BVYh3zd7hG0Iycem9QOs2moot.jpg"
+    },
+    "HO00000936": {
+      "tmdbId": 1820088,
+      "posterPath": "/gEMCs6RPDJFSAFkc9JXxhaL0AGV.jpg"
     }
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-06T17:00:50.555Z"
+  "lastRun": "2026-11-06T23:00:49.041Z"
 }

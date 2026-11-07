@@ -1699,14 +1699,12 @@
       "director": "JYP Entertainment",
       "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2345,7 +2343,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
+      "tmdb": {
+        "tmdbId": 1820083,
+        "posterPath": "/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg"
+      }
     },
     {
       "id": "HO00000938",
@@ -3457,9 +3459,17 @@
     "HO00000936": {
       "tmdbId": 1820088,
       "posterPath": "/gEMCs6RPDJFSAFkc9JXxhaL0AGV.jpg"
+    },
+    "HO00000937": {
+      "tmdbId": 1820083,
+      "posterPath": "/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg"
     }
   },
   "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-11-06T23:00:49.041Z"
+  "pendingCategoryLosses": {
+    "HO00000898": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-11-07T05:00:57.541Z"
 }

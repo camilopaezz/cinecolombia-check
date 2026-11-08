@@ -24461,6 +24461,45 @@
           "posterPath": "/j9BVYh3zd7hG0Iycem9QOs2moot.jpg"
         }
       }
+    },
+    {
+      "guid": "6e0533ab-0b2c-4a2f-9252-f4dee94dc458",
+      "type": "removed",
+      "filmId": "HO00000898",
+      "createdAt": "2026-11-08T05:00:48.618Z",
+      "snapshot": {
+        "id": "HO00000898",
+        "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+        "shortSynopsis": "Por primera vez, Stray Kids transmite en vivo su gira «<RUN IT>» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.",
+        "releaseDate": "2026-11-07",
+        "runtimeInMinutes": 195,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "JYP Entertainment",
+        "webUrl": "https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg",
+        "tmdb": {
+          "tmdbId": 1795555,
+          "posterPath": "/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg"
+        }
+      }
     }
   ]
 }

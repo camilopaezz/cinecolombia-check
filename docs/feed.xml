@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
+      <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
+      <guid isPermaLink="false">6e0533ab-0b2c-4a2f-9252-f4dee94dc458</guid>
+      <pubDate>Sun, 08 Nov 2026 05:00:48 GMT</pubDate>
+      <description>Por primera vez, Stray Kids transmite en vivo su gira «&lt;RUN IT&gt;» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Encanto</title>
       <link>https://www.cinecolombia.com/films/encanto/HO00000938/</link>
       <guid isPermaLink="false">35111b4a-946a-4434-9d8d-68f0613c9425</guid>
@@ -781,14 +789,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>Chile, 1992. Inés, de 9 años, hace amistad con Hanna, joven esquiadora alemana, cerca de una estación de esquí andina. Su desaparición desvela verdades ocultas.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Fatherland</title>
-      <link>https://www.cinecolombia.com/films/fatherland/HO00000834/</link>
-      <guid isPermaLink="false">79beb34c-b196-4ba2-855b-cc359f00eece</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>En 1949, Thomas Mann (Hanns Zischler) y su hija Erika (Sandra Hüller) viajan por una Alemania dividida en &apos;Fatherland&apos;, de Pawlikowski. Identidad, familia y culpa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7VjwmvDG5mksJBXMcmK6PudqH88.jpg" medium="image" />
     </item>
   </channel>
 </rss>

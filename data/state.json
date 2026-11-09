@@ -1494,7 +1494,7 @@
       "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 128,
-      "censorRating": "Pendiente",
+      "censorRating": "+7 Años",
       "genres": [
         "Drama"
       ],
@@ -1752,7 +1752,7 @@
       "shortSynopsis": "La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 109,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Suspenso"
       ],
@@ -2126,7 +2126,7 @@
       "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 98,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Drama"
       ],
@@ -3251,5 +3251,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-09T12:53:36.180Z"
+  "lastRun": "2026-11-09T23:00:46.904Z"
 }

@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://camilopaezz.github.io/cinecolombia-check/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Babystar</title>
+      <link>https://www.cinecolombia.com/peliculas/babystar</link>
+      <guid isPermaLink="false">1eae3d80-7e4b-4992-bb85-73b055e5054c</guid>
+      <pubDate>Mon, 09 Nov 2026 12:53:36 GMT</pubDate>
+      <description>Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.</description>
+      <media:content url="https://film-cdn.moviexchange.com/api/cdn/release/f6987eae-f0d6-49a6-87f8-30c87c7ff591/media/Poster?width=200" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: La Gallina Hen</title>
+      <link>https://www.cinecolombia.com/peliculas/hen</link>
+      <guid isPermaLink="false">00d8d396-4e8f-46cb-937c-525b97a64a71</guid>
+      <pubDate>Mon, 09 Nov 2026 12:53:36 GMT</pubDate>
+      <description>Desde la mirada de una gallina en un restaurante costero de Grecia, que protege sus huevos y lucha por sobrevivir, vemos los secretos y conflictos de los humanos.</description>
+      <media:content url="https://film-cdn.moviexchange.com/api/cdn/release/49629a0e-d971-4a0d-a5d0-df1a1658a7c4/media/Poster?width=200" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
       <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
       <guid isPermaLink="false">6e0533ab-0b2c-4a2f-9252-f4dee94dc458</guid>
@@ -773,22 +789,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>Cuando su hermana es elegida para los mortales Juegos del Hambre, Katniss Everdeen se ofrece en su lugar y deberá sobrevivir a una brutal competencia televisada en Panem.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: 6 meses en el edificio rosa con azul</title>
-      <link>https://www.cinecolombia.com/films/6-meses-en-el-edificio-rosa-con-azul/HO00000826/</link>
-      <guid isPermaLink="false">f3512f73-5fb2-452a-926c-c687232099d1</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Ciudad de México, años 90. El día que Bruno cumple 11, sus sentimientos por Vladimir chocan con que su padre tiene VIH. Su familia enfrenta el dolor con salsa.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/lyLZDgacnDkTFWIkWr9iiASLb4z.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: El Deshielo</title>
-      <link>https://www.cinecolombia.com/films/el-deshielo/HO00000830/</link>
-      <guid isPermaLink="false">9e5fb985-16cb-410a-9136-2419fceb563d</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Chile, 1992. Inés, de 9 años, hace amistad con Hanna, joven esquiadora alemana, cerca de una estación de esquí andina. Su desaparición desvela verdades ocultas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/qia4SpH0shPlNboorBgbFnfIhKf.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -2,7 +2,7 @@
   "films": [
     {
       "id": "HO00000480",
-      "title": "The Hunger Games: Sunrise on the Reaping",
+      "title": "Los Juegos del Hambre: Amanecer en la Cosecha",
       "shortSynopsis": "Ambientada 24 años antes de la saga de Katniss, un joven Haymitch Abernathy es seleccionado para competir en los 50º Juegos del Hambre.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 158,
@@ -13,7 +13,7 @@
         "Fantasía"
       ],
       "director": "Francis Lawrence",
-      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-sunrise-on-the-reaping/HO00000480/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-hunger-games-sunrise-on-the-reaping",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -34,15 +34,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg",
-      "tmdb": {
-        "tmdbId": 1300968,
-        "posterPath": "/ffJaYMtB6v1TrvkyhCOqwqCKm0o.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ca68f4a5-32c3-4b0f-8921-df8fa552a50d/media/Poster?width=200"
     },
     {
       "id": "HO00000596",
-      "title": "Dune: Part Three",
+      "title": "Dune: Parte 3",
       "shortSynopsis": "Diecisiete años después de su ascenso al trono, Paul Atreides reina como el Mesías desde Arrakis mientras la yihad librada en su nombre ha segado miles de millones de vid",
       "releaseDate": "2026-12-17",
       "runtimeInMinutes": 166,
@@ -53,7 +49,7 @@
         "Ciencia Ficción"
       ],
       "director": "Denis Villeneuve",
-      "webUrl": "https://www.cinecolombia.com/films/dune-part-three/HO00000596/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/dune-part-three",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -76,15 +72,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ceKywESF1WPVlfdYRTrvZbTkSXV.jpg",
-      "tmdb": {
-        "tmdbId": 1170608,
-        "posterPath": "/ceKywESF1WPVlfdYRTrvZbTkSXV.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/d14740a6-2369-40ad-bb29-926234b95706/media/Poster?width=200"
     },
     {
       "id": "HO00000607",
-      "title": "Focker-in-Law",
+      "title": "La Nueva Focker",
       "shortSynopsis": "Henry Focker, hijo de Greg y Pam, enfrenta caos familiar al decidir casarse con una mujer obstinada que parece ser su total opuesto.",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 120,
@@ -93,7 +85,7 @@
         "Comedia"
       ],
       "director": "John Hamburg",
-      "webUrl": "https://www.cinecolombia.com/films/focker-in-law/HO00000607/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/focker-in-law",
       "categories": [
         "ComingSoon"
       ],
@@ -105,11 +97,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg",
-      "tmdb": {
-        "tmdbId": 1400336,
-        "posterPath": "/gPdzdeehaoaYqxH2rA6yayEDSsS.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/12f78540-84a1-406a-a040-042244e479f6/media/Poster?width=200"
     },
     {
       "id": "HO00000623",
@@ -123,7 +111,7 @@
         "Terror"
       ],
       "director": "James Watkins",
-      "webUrl": "https://www.cinecolombia.com/films/clayface/HO00000623/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/clayface",
       "categories": [
         "NowShowing"
       ],
@@ -140,11 +128,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
-      "tmdb": {
-        "tmdbId": 1400940,
-        "posterPath": "/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/379e81b5-3eb0-4df5-8d17-5e0c07e45807/media/Poster?width=200"
     },
     {
       "id": "HO00000633",
@@ -159,7 +143,7 @@
         "Aventura"
       ],
       "director": "Dave Green",
-      "webUrl": "https://www.cinecolombia.com/films/coyote-vs-acme/HO00000633/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/coyote-vs-acme",
       "categories": [
         "NowShowing"
       ],
@@ -175,15 +159,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
-      "tmdb": {
-        "tmdbId": 1204680,
-        "posterPath": "/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/9d91895b-b110-4394-b8a1-359e22bbd4c5/media/Poster?width=200"
     },
     {
       "id": "HO00000640",
-      "title": "The Cat in the Hat",
+      "title": "El Gato con Sombrero",
       "shortSynopsis": "Un astuto gato lleva el caos y las travesuras al hogar de dos niños pequeños.",
       "releaseDate": "2026-10-31",
       "runtimeInMinutes": 91,
@@ -194,7 +174,7 @@
         "Comedia"
       ],
       "director": "Alessandro Carloni",
-      "webUrl": "https://www.cinecolombia.com/films/the-cat-in-the-hat/HO00000640/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-cat-in-the-hat",
       "categories": [
         "NowShowing"
       ],
@@ -212,11 +192,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg",
-      "tmdb": {
-        "tmdbId": 1117898,
-        "posterPath": "/8TW5oOMZbxaMFVgletpW0bxd2Aa.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/8c197c3c-d09f-4afe-9f4e-18bdf93f09b8/media/Poster?width=200"
     },
     {
       "id": "HO00000666",
@@ -229,7 +205,7 @@
         "Acción"
       ],
       "director": "Kitao Sakurai",
-      "webUrl": "https://www.cinecolombia.com/films/street-fighter/HO00000666/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/street-fighter",
       "categories": [
         "NowShowing"
       ],
@@ -246,15 +222,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg",
-      "tmdb": {
-        "tmdbId": 1153576,
-        "posterPath": "/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/9ee44735-6577-47a8-94f8-0d1c8edfc489/media/Poster?width=200"
     },
     {
       "id": "HO00000698",
-      "title": "Heart of the Beast",
+      "title": "El Corazón de la Bestia",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
       "releaseDate": "2026-09-24",
       "runtimeInMinutes": 101,
@@ -265,7 +237,7 @@
         "Suspenso"
       ],
       "director": "David Ayer",
-      "webUrl": "https://www.cinecolombia.com/films/heart-of-the-beast/HO00000698/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/heart-of-the-beast",
       "categories": [
         "NowShowing"
       ],
@@ -283,11 +255,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
-      "tmdb": {
-        "tmdbId": 1263337,
-        "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/915a2066-e15e-4d10-8fae-ef470692f5f1/media/Poster?width=200"
     },
     {
       "id": "HO00000704",
@@ -302,7 +270,7 @@
         "Comedia"
       ],
       "director": "John Rice",
-      "webUrl": "https://www.cinecolombia.com/films/angry-birds-3/HO00000704/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/angry-birds-3",
       "categories": [
         "ComingSoon"
       ],
@@ -314,15 +282,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg",
-      "tmdb": {
-        "tmdbId": 1300926,
-        "posterPath": "/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/01e077b9-69b0-4454-bd4b-2a24ecd5173c/media/Poster?width=200"
     },
     {
       "id": "HO00000705",
-      "title": "Sense and Sensibility",
+      "title": "Sensatez y Sentimiento",
       "shortSynopsis": "Focus Features y Working Title presentan una nueva versión de 'Sensatez y sentimiento', con Daisy Edgar-Jones y Esmé Creed-Miles. Amor entre hermanas.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 132,
@@ -332,7 +296,7 @@
         "Romance"
       ],
       "director": "Georgia Oakley",
-      "webUrl": "https://www.cinecolombia.com/films/sense-and-sensibility/HO00000705/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/sense-and-sensibility",
       "categories": [
         "NowShowing"
       ],
@@ -348,15 +312,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg",
-      "tmdb": {
-        "tmdbId": 4584,
-        "posterPath": "/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/92a840e9-8ab5-4422-9fdb-d221b64d26ba/media/Poster?width=200"
     },
     {
       "id": "HO00000709",
-      "title": "Seeking Haven for Mr. Rambo",
+      "title": "Buscando un cielo para Rambo",
       "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 100,
@@ -365,7 +325,7 @@
         "Drama"
       ],
       "director": "Khaled Mansour",
-      "webUrl": "https://www.cinecolombia.com/films/seeking-haven-for-mr-rambo/HO00000709/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/seeking-haven-for-mr-rambo",
       "categories": [
         "ComingSoon"
       ],
@@ -377,15 +337,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg",
-      "tmdb": {
-        "tmdbId": 1170841,
-        "posterPath": "/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/6f920f68-44cf-4e7e-b55b-fb5b860ef9b2/media/Poster?width=200"
     },
     {
       "id": "HO00000710",
-      "title": "Rally: From Paris to the Pyramids",
+      "title": "Rally",
       "shortSynopsis": "¡La carrera más emocionante del mundo está por comenzar! Reodor, Solan y Ludvig se embarcan en una increíble aventura desde París hasta las Pirámides de Egipto",
       "releaseDate": "2026-12-03",
       "runtimeInMinutes": 82,
@@ -394,7 +350,7 @@
         "Animación"
       ],
       "director": "Rasmus A. Sivertsen",
-      "webUrl": "https://www.cinecolombia.com/films/rally-from-paris-to-the-pyramids/HO00000710/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/rally-from-paris-to-the-pyramids",
       "categories": [
         "ComingSoon"
       ],
@@ -406,15 +362,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/w12EcNornUag78lk5rObTq2W0Ii.jpg",
-      "tmdb": {
-        "tmdbId": 1016069,
-        "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/7d50974d-c5f1-4de4-8525-507767c38173/media/Poster?width=200"
     },
     {
       "id": "HO00000724",
-      "title": "Other Mommy",
+      "title": "Madre Siniestra",
       "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
       "releaseDate": "2026-10-08",
       "runtimeInMinutes": 92,
@@ -423,7 +375,7 @@
         "Terror"
       ],
       "director": "Rob Savage",
-      "webUrl": "https://www.cinecolombia.com/films/other-mommy/HO00000724/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/other-mommy",
       "categories": [
         "NowShowing"
       ],
@@ -439,15 +391,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
-      "tmdb": {
-        "tmdbId": 1400837,
-        "posterPath": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/a0d666b7-1079-4537-86cd-4ccd568261f9/media/Poster?width=200"
     },
     {
       "id": "HO00000730",
-      "title": "All My Sons",
+      "title": "Todos Eran Mis Hijos",
       "shortSynopsis": "Tras la guerra, Joe enfrenta las consecuencias de sus decisiones mientras los secretos del pasado amenazan con destruir a su familia y su sueño americano.",
       "releaseDate": "2027-01-29",
       "runtimeInMinutes": 135,
@@ -456,7 +404,7 @@
         "Teatro"
       ],
       "director": "Ivo van Hove",
-      "webUrl": "https://www.cinecolombia.com/films/all-my-sons/HO00000730/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/all-my-sons",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -475,11 +423,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/4d722f27-7ef3-4b34-94ae-f4936b909186/media/Poster?width=200"
     },
     {
       "id": "HO00000731",
-      "title": "The Audience",
+      "title": "La Audiencia",
       "shortSynopsis": "Las reuniones privadas de Isabel II con sus primeros ministros revelan a la mujer detrás de la corona y los momentos que marcaron su histórico reinado.",
       "releaseDate": "2027-02-12",
       "runtimeInMinutes": 180,
@@ -488,7 +436,7 @@
         "Drama"
       ],
       "director": "Stephen Daldry",
-      "webUrl": "https://www.cinecolombia.com/films/the-audience/HO00000731/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-audience",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -507,11 +455,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/08c70d7e-18b4-428b-9cd8-2a447be00be4/media/Poster?width=200"
     },
     {
       "id": "HO00000732",
-      "title": "The Playboy of the Western World",
+      "title": "El Playboy Del Mundo Occidental",
       "shortSynopsis": "Christy llega a una aldea afirmando haber matado a su padre y se convierte en héroe, hasta que una inesperada llegada amenaza con revelar la verdad.",
       "releaseDate": "2027-02-26",
       "runtimeInMinutes": 150,
@@ -520,7 +468,7 @@
         "Teatro"
       ],
       "director": "Caitríona McLaughlin",
-      "webUrl": "https://www.cinecolombia.com/films/the-playboy-of-the-western-world/HO00000732/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-playboy-of-the-western-world",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -539,11 +487,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/79eb1a50-98b7-421a-9098-cff65a4af785/media/Poster?width=200"
     },
     {
       "id": "HO00000733",
-      "title": "Les Liaisons Dangereuses",
+      "title": "Las Amistades Peligrosas",
       "shortSynopsis": "Merteuil y Valmont convierten la seducción en un arma, hasta que su alianza se transforma en una rivalidad que amenaza con destruirlos a todos.",
       "releaseDate": "2027-03-05",
       "runtimeInMinutes": 180,
@@ -552,7 +500,7 @@
         "Teatro"
       ],
       "director": "Marianne Elliott",
-      "webUrl": "https://www.cinecolombia.com/films/les-liaisons-dangereuses/HO00000733/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/les-liaisons-dangereuses",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -571,11 +519,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/c1292dd3-a089-4a4d-88fc-388f27d245c7/media/Poster?width=200"
     },
     {
       "id": "HO00000734",
-      "title": "The Misanthrope",
+      "title": "El Misántropo",
       "shortSynopsis": "Una novelista desafía las normas sociales al decir lo que piensa, enfrentando críticas y rechazo que ponen en riesgo su carrera y sus relaciones.",
       "releaseDate": "2027-04-09",
       "runtimeInMinutes": 105,
@@ -584,7 +532,7 @@
         "Teatro"
       ],
       "director": "Indhu Rubasingham",
-      "webUrl": "https://www.cinecolombia.com/films/the-misanthrope/HO00000734/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-misanthrope",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -603,7 +551,7 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/7c5b0dc5-0c02-428c-bc02-6bd31460b201/media/Poster?width=200"
     },
     {
       "id": "HO00000735",
@@ -616,7 +564,7 @@
         "Terror"
       ],
       "director": "Robert Eggers",
-      "webUrl": "https://www.cinecolombia.com/films/werwulf/HO00000735/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/werwulf",
       "categories": [
         "ComingSoon"
       ],
@@ -628,11 +576,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg",
-      "tmdb": {
-        "tmdbId": 1421903,
-        "posterPath": "/imnkSt4PSQpxIuyiRpJCiLk3SZz.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/0f913ce3-413f-42fc-8072-976620182925/media/Poster?width=200"
     },
     {
       "id": "HO00000736",
@@ -645,7 +589,7 @@
         "Suspenso"
       ],
       "director": "Michael Showalter",
-      "webUrl": "https://www.cinecolombia.com/films/verity/HO00000736/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/verity",
       "categories": [
         "NowShowing"
       ],
@@ -662,15 +606,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
-      "tmdb": {
-        "tmdbId": 1283515,
-        "posterPath": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/074b617e-b877-469f-8a78-8c77b7a2a59c/media/Poster?width=200"
     },
     {
       "id": "HO00000740",
-      "title": "Calle Malaga",
+      "title": "Calle Málaga",
       "shortSynopsis": "Una mujer mayor lucha por conservar su hogar y, en medio del cambio, descubre nuevas ilusiones y una segunda oportunidad para el amor.",
       "releaseDate": "2026-10-15",
       "runtimeInMinutes": 116,
@@ -680,7 +620,7 @@
         "Drama"
       ],
       "director": "Maryam Touzani",
-      "webUrl": "https://www.cinecolombia.com/films/calle-malaga/HO00000740/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/calle-malaga",
       "categories": [
         "NowShowing"
       ],
@@ -696,15 +636,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/fWagBXNDk44UaupYtwQOAvDwGiT.jpg",
-      "tmdb": {
-        "tmdbId": 1399462,
-        "posterPath": "/fWagBXNDk44UaupYtwQOAvDwGiT.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/be9352bf-dc9b-4e98-9db9-7f552534fd86/media/Poster?width=200"
     },
     {
       "id": "HO00000743",
-      "title": "Violent Night 2",
+      "title": "Noche Sin Paz 2",
       "shortSynopsis": "Santa Claus deberá recuperar el espíritu navideño y sus poderes para enfrentarse a un despiadado gánster que amenaza a toda una comunidad.",
       "releaseDate": "2026-12-03",
       "runtimeInMinutes": 120,
@@ -714,7 +650,7 @@
         "Comedia"
       ],
       "director": "Tommy Wirkola",
-      "webUrl": "https://www.cinecolombia.com/films/violent-night-2/HO00000743/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/violent-night-2",
       "categories": [
         "ComingSoon"
       ],
@@ -726,15 +662,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg",
-      "tmdb": {
-        "tmdbId": 1078446,
-        "posterPath": "/wKgTxSjVZBjtTzK1wEXkLffaWC1.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/351dd544-d02c-4ab9-9254-ee5b70cf54a0/media/Poster?width=200"
     },
     {
       "id": "HO00000744",
-      "title": "Wild Horse Nine",
+      "title": "Caballo Salvaje Nueve",
       "shortSynopsis": "En vísperas del golpe de Estado chileno de 1973, dos agentes de la CIA viajan a Isla de Pascua, donde secretos y nuevas alianzas ponen en riesgo su misión.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 118,
@@ -745,7 +677,7 @@
         "Suspenso"
       ],
       "director": "Martin McDonagh",
-      "webUrl": "https://www.cinecolombia.com/films/wild-horse-nine/HO00000744/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/wild-horse-nine",
       "categories": [
         "NowShowing"
       ],
@@ -761,15 +693,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
-      "tmdb": {
-        "tmdbId": 891621,
-        "posterPath": "/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/c27739f0-0c34-4222-9ac7-8b3c47053858/media/Poster?width=200"
     },
     {
       "id": "HO00000750",
-      "title": "CoComelon: The Movie",
+      "title": "CoComelon: La Película",
       "shortSynopsis": "JJ empieza el jardín de niños, pero su osito Boba desaparece. Con Cody, CeCe y Nina viaja a una tierra mágica de la princesa Harmony, donde cantar está prohibido.",
       "releaseDate": "2027-02-25",
       "runtimeInMinutes": 120,
@@ -779,7 +707,7 @@
         "Familia"
       ],
       "director": "Kat Good",
-      "webUrl": "https://www.cinecolombia.com/films/cocomelon-the-movie/HO00000750/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/cocomelon-the-movie",
       "categories": [
         "ComingSoon"
       ],
@@ -791,15 +719,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg",
-      "tmdb": {
-        "tmdbId": 1480503,
-        "posterPath": "/dDYSKF9VWmcgOy2sruIJkHs5DDG.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ae97fd1b-b4fe-4a3c-a552-aad2760efde8/media/Poster?width=200"
     },
     {
       "id": "HO00000754",
-      "title": "Pinocchio: Unstrung",
+      "title": "Pinocho: Sin Cuerdas",
       "shortSynopsis": "Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 82,
@@ -810,7 +734,7 @@
         "Terror"
       ],
       "director": "Rhys Frake-Waterfield",
-      "webUrl": "https://www.cinecolombia.com/films/pinocchio-unstrung/HO00000754/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/pinocchio-unstrung",
       "categories": [
         "ComingSoon"
       ],
@@ -822,11 +746,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg",
-      "tmdb": {
-        "tmdbId": 1232569,
-        "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/6cbf3018-751f-427c-9735-f22d66c344c5/media/Poster?width=200"
     },
     {
       "id": "HO00000758",
@@ -839,7 +759,7 @@
         "Ópera"
       ],
       "director": "Georges Bizet",
-      "webUrl": "https://www.cinecolombia.com/films/carmen/HO00000758/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/carmen",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -858,15 +778,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7jRPTuYdxXXRLddO4FQG22axu9e.jpg",
-      "tmdb": {
-        "tmdbId": 1061821,
-        "posterPath": "/7jRPTuYdxXXRLddO4FQG22axu9e.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/a7f75af7-4861-4f51-beae-d4ddf1c27f2d/media/Poster?width=200"
     },
     {
       "id": "HO00000759",
-      "title": "The Magic Flute",
+      "title": "La Fauta Magica",
       "shortSynopsis": "Hace 20 años, el Met transmitió por primera vez en HD 'La flauta mágica' de Mozart. Regresa en Navidad con Polenzani, Gunn y la puesta de Julie Taymor.",
       "releaseDate": "2026-12-12",
       "runtimeInMinutes": 115,
@@ -875,7 +791,7 @@
         "Ópera"
       ],
       "director": "James Levine",
-      "webUrl": "https://www.cinecolombia.com/films/the-magic-flute/HO00000759/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-magic-flute",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -894,11 +810,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/qjUjatQEMIHtCngnyTib943x7TU.jpg",
-      "tmdb": {
-        "tmdbId": 37028,
-        "posterPath": "/qjUjatQEMIHtCngnyTib943x7TU.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/b405013f-8f6b-4e88-8dcc-257d50e980d1/media/Poster?width=200"
     },
     {
       "id": "HO00000760",
@@ -911,7 +823,7 @@
         "Ópera"
       ],
       "director": "Giacomo Puccini",
-      "webUrl": "https://www.cinecolombia.com/films/tosca/HO00000760/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/tosca",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -930,11 +842,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg",
-      "tmdb": {
-        "tmdbId": 1702784,
-        "posterPath": "/aXA7HKS5DE4WxBtrayxEHOYdXmF.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/c1568c98-ee85-4144-84df-840123f811cb/media/Poster?width=200"
     },
     {
       "id": "HO00000763",
@@ -947,7 +855,7 @@
         "Ópera"
       ],
       "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/samson-et-dalila/HO00000763/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/samson-et-dalila",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -966,11 +874,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/kg4bIJ65Q13UWtbyR8W0u7VQUU7.jpg",
-      "tmdb": {
-        "tmdbId": 1703624,
-        "posterPath": "/kg4bIJ65Q13UWtbyR8W0u7VQUU7.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/6accf108-87aa-41c9-bf12-e8c8b0d55c4f/media/Poster?width=200"
     },
     {
       "id": "HO00000764",
@@ -983,7 +887,7 @@
         "Ópera"
       ],
       "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/la-fanciulla-del-west/HO00000764/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/la-fanciulla-del-west",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1002,11 +906,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/73lJaerj5Z5I9BJdLkSXWPwhkCf.jpg",
-      "tmdb": {
-        "tmdbId": 1703629,
-        "posterPath": "/73lJaerj5Z5I9BJdLkSXWPwhkCf.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/7e9dcf95-3ea5-4f78-ad85-aeb574038fdf/media/Poster?width=200"
     },
     {
       "id": "HO00000766",
@@ -1019,7 +919,7 @@
         "Ópera"
       ],
       "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/silent-night/HO00000766/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/silent-night",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1038,11 +938,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gUaKPSw6fpqCR4spnwBwmYSEXtU.jpg",
-      "tmdb": {
-        "tmdbId": 1707867,
-        "posterPath": "/gUaKPSw6fpqCR4spnwBwmYSEXtU.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/4e96a096-ef0c-474e-9176-2fdb0ee2725d/media/Poster?width=200"
     },
     {
       "id": "HO00000767",
@@ -1055,7 +951,7 @@
         "Ópera"
       ],
       "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/manon/HO00000767/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/manon",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1074,11 +970,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gy1dSADR6FdIL8jpUonLNYeCREk.jpg",
-      "tmdb": {
-        "tmdbId": 1703631,
-        "posterPath": "/gy1dSADR6FdIL8jpUonLNYeCREk.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/bad7f146-f033-4b5c-890e-c6c18eb75f96/media/Poster?width=200"
     },
     {
       "id": "HO00000768",
@@ -1091,7 +983,7 @@
         "Ópera"
       ],
       "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/otello/HO00000768/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/otello",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1110,11 +1002,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dnF9OwgVcDKClhAf4ZPKQBRWyDh.jpg",
-      "tmdb": {
-        "tmdbId": 1703634,
-        "posterPath": "/dnF9OwgVcDKClhAf4ZPKQBRWyDh.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ba6a4970-e926-41a0-a74f-77b211a07fd6/media/Poster?width=200"
     },
     {
       "id": "HO00000769",
@@ -1127,7 +1015,7 @@
         "Ópera"
       ],
       "director": "The Metropolitan Opera",
-      "webUrl": "https://www.cinecolombia.com/films/parsifal/HO00000769/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/parsifal",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1146,11 +1034,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/68bLPfddedoqUeFaWunUOk2wfKf.jpg",
-      "tmdb": {
-        "tmdbId": 1703636,
-        "posterPath": "/68bLPfddedoqUeFaWunUOk2wfKf.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/bef069f0-d253-4358-9129-d539a2142a7b/media/Poster?width=200"
     },
     {
       "id": "HO00000786",
@@ -1164,7 +1048,7 @@
         "Drama"
       ],
       "director": "Riccardo Gabrielli R.",
-      "webUrl": "https://www.cinecolombia.com/films/pacifico/HO00000786/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/pacifico",
       "categories": [
         "NowShowing"
       ],
@@ -1180,11 +1064,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg",
-      "tmdb": {
-        "tmdbId": 890216,
-        "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/c4261f51-00e1-4124-9921-c5763b775a76/media/Poster?width=200"
     },
     {
       "id": "HO00000787",
@@ -1197,7 +1077,7 @@
         "Documental"
       ],
       "director": "Ali Ray",
-      "webUrl": "https://www.cinecolombia.com/films/renoir-love/HO00000787/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/renoir-love",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1215,11 +1095,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/bx3HUEuH738asEZdkQspG9quvkA.jpg",
-      "tmdb": {
-        "tmdbId": 1747216,
-        "posterPath": "/bx3HUEuH738asEZdkQspG9quvkA.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ffb63c8c-c3c1-4d18-b9e8-b42c7d1bed47/media/Poster?width=200"
     },
     {
       "id": "HO00000788",
@@ -1232,7 +1108,7 @@
         "Documental"
       ],
       "director": "David Bickerstaff",
-      "webUrl": "https://www.cinecolombia.com/films/james-mcneill-whistler/HO00000788/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/james-mcneill-whistler",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1250,11 +1126,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ac77ad53-360c-4e53-aa0d-57bf3c7559cb/media/Poster?width=200"
     },
     {
       "id": "HO00000794",
-      "title": "The Hunger Games: Mockingjay - Part 2",
+      "title": "Los Juegos del Hambre: Sinsajo Part 2",
       "shortSynopsis": "RE-ESTRENO - En la última entrega, Katniss Everdeen (Jennifer Lawrence) lidera la rebelión y emprende una peligrosa misión para enfrentar a Snow y liberar Panem.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 137,
@@ -1265,7 +1141,7 @@
         "Suspenso"
       ],
       "director": "Francis Lawrence",
-      "webUrl": "https://www.cinecolombia.com/films/the-hunger-games-mockingjay-part-2/HO00000794/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-hunger-games-mockingjay-part-2",
       "categories": [
         "NowShowing"
       ],
@@ -1282,15 +1158,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
-      "tmdb": {
-        "tmdbId": 131634,
-        "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/d8355114-ea18-4b66-adb0-b82ff48010e4/media/Poster?width=200"
     },
     {
       "id": "HO00000821",
-      "title": "Sacrifice",
+      "title": "Sacrificio: Los Elegidos",
       "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 103,
@@ -1301,7 +1173,7 @@
         "Comedia"
       ],
       "director": "Romain Gavras",
-      "webUrl": "https://www.cinecolombia.com/films/sacrifice/HO00000821/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/sacrifice",
       "categories": [
         "ComingSoon"
       ],
@@ -1313,15 +1185,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg",
-      "tmdb": {
-        "tmdbId": 1284186,
-        "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/67428594-b568-4920-a3a6-748b676e4df8/media/Poster?width=200"
     },
     {
       "id": "HO00000822",
-      "title": "Runner",
+      "title": "Entrega Al Límite",
       "shortSynopsis": "Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 97,
@@ -1332,7 +1200,7 @@
         "Suspenso"
       ],
       "director": "Scott Waugh",
-      "webUrl": "https://www.cinecolombia.com/films/runner/HO00000822/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/runner",
       "categories": [
         "NowShowing"
       ],
@@ -1349,15 +1217,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg",
-      "tmdb": {
-        "tmdbId": 1386315,
-        "posterPath": "/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/57bb08f2-95b0-436e-9e73-6299783e0a40/media/Poster?width=200"
     },
     {
       "id": "HO00000823",
-      "title": "By Any Means",
+      "title": "A Cualquier Precio",
       "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 107,
@@ -1367,7 +1231,7 @@
         "Suspenso"
       ],
       "director": "Elegance Bratton",
-      "webUrl": "https://www.cinecolombia.com/films/by-any-means/HO00000823/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/by-any-means",
       "categories": [
         "NowShowing"
       ],
@@ -1384,15 +1248,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
-      "tmdb": {
-        "tmdbId": 1380417,
-        "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/521d10c4-4337-40f9-b1da-e59e76cf8dbd/media/Poster?width=200"
     },
     {
       "id": "HO00000824",
-      "title": "Lockbox",
+      "title": "La Caja del Demonio",
       "shortSynopsis": "Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.\n",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 105,
@@ -1402,7 +1262,7 @@
         "Suspenso"
       ],
       "director": "Daniel Stamm",
-      "webUrl": "https://www.cinecolombia.com/films/lockbox/HO00000824/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/lockbox",
       "categories": [
         "ComingSoon"
       ],
@@ -1414,11 +1274,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg",
-      "tmdb": {
-        "tmdbId": 1500890,
-        "posterPath": "/6feyDUp0QyOqukf2Hf9yXGLurD9.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/a0390105-27c5-44a5-ba2f-2149fb30af65/media/Poster?width=200"
     },
     {
       "id": "HO00000878",
@@ -1433,7 +1289,7 @@
         "Fantasía"
       ],
       "director": "Anthony Russo",
-      "webUrl": "https://www.cinecolombia.com/films/avengers-doomsday/HO00000878/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/avengers-doomsday",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1457,11 +1313,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg",
-      "tmdb": {
-        "tmdbId": 1003596,
-        "posterPath": "/7bQczUMnjz8iwxNP9YrmLkfI8od.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/1ac3586b-e109-4f31-8ac9-cbc1610920c7/media/Poster?width=200"
     },
     {
       "id": "HO00000881",
@@ -1476,7 +1328,7 @@
         "Drama"
       ],
       "director": "Takashi Yamazaki",
-      "webUrl": "https://www.cinecolombia.com/films/godzilla-minus-zero/HO00000881/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/godzilla-minus-zero",
       "categories": [
         "NowShowing"
       ],
@@ -1496,15 +1348,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg",
-      "tmdb": {
-        "tmdbId": 1381071,
-        "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/5eb6a2f7-f36f-426b-8b51-d153b3afc6d7/media/Poster?width=200"
     },
     {
       "id": "HO00000883",
-      "title": "Happy Little Submarines: Adventure Island",
+      "title": "Submarinitos: Viaje al fin del mundo",
       "shortSynopsis": "Peter, el submarinito, despierta a Overlord, un monstruo marino ancestral. Fusionado con un guerrero, debe encontrar el coraje y la sabiduría para vencerlo.",
       "releaseDate": "2026-12-25",
       "runtimeInMinutes": 86,
@@ -1513,7 +1361,7 @@
         "Animación"
       ],
       "director": "Chen Xi",
-      "webUrl": "https://www.cinecolombia.com/films/happy-little-submarines-adventure-island/HO00000883/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/happy-little-submarines-adventure-island",
       "categories": [
         "ComingSoon"
       ],
@@ -1525,11 +1373,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/41f93de0-48eb-40a4-80c7-9965c680faf1/media/Poster?width=200"
     },
     {
       "id": "HO00000884",
-      "title": "The Containment",
+      "title": "La Exorcista",
       "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
       "releaseDate": "2026-10-29",
       "runtimeInMinutes": 85,
@@ -1538,7 +1386,7 @@
         "Terror"
       ],
       "director": "Jack Zagha Kababie",
-      "webUrl": "https://www.cinecolombia.com/films/the-containment/HO00000884/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-containment",
       "categories": [
         "NowShowing"
       ],
@@ -1554,15 +1402,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg",
-      "tmdb": {
-        "tmdbId": 1703468,
-        "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/7bb04163-239f-4ee1-9c9b-ba0c56adf9c4/media/Poster?width=200"
     },
     {
       "id": "HO00000886",
-      "title": "Minotaur",
+      "title": "Minotauro",
       "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 140,
@@ -1571,7 +1415,7 @@
         "Drama"
       ],
       "director": "Andrey Zviaguintsev",
-      "webUrl": "https://www.cinecolombia.com/films/minotaur/HO00000886/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/minotaur",
       "categories": [
         "ComingSoon"
       ],
@@ -1583,15 +1427,11 @@
           ]
         }
       ],
-      "posterUrl": null,
-      "tmdb": {
-        "tmdbId": 1781858,
-        "posterPath": null
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/20cb71ab-dbc3-4a7f-a303-2bc869ef2c65/media/Poster?width=200"
     },
     {
       "id": "HO00000887",
-      "title": "L’affaire Bojarski.",
+      "title": "El Gran Falsificador",
       "shortSynopsis": "Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.",
       "releaseDate": "2026-11-05",
       "runtimeInMinutes": 128,
@@ -1600,7 +1440,7 @@
         "Drama"
       ],
       "director": "Jean-Paul Salomé",
-      "webUrl": "https://www.cinecolombia.com/films/l-affaire-bojarski/HO00000887/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/l-affaire-bojarski",
       "categories": [
         "NowShowing"
       ],
@@ -1616,11 +1456,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
-      "tmdb": {
-        "tmdbId": 1376415,
-        "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/714e1a40-3277-4e4b-9ff7-11239334eb6c/media/Poster?width=200"
     },
     {
       "id": "HO00000889",
@@ -1634,7 +1470,7 @@
         "Suspenso"
       ],
       "director": "Jaime Osorio Marquez",
-      "webUrl": "https://www.cinecolombia.com/films/el-despertar/HO00000889/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/el-despertar",
       "categories": [
         "NowShowing"
       ],
@@ -1650,15 +1486,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
-      "tmdb": {
-        "tmdbId": 713704,
-        "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/beb4cc7a-4388-4cc1-88b9-e0d56a86aa0a/media/Poster?width=200"
     },
     {
       "id": "HO00000894",
-      "title": "I Play Rocky",
+      "title": "Yo Soy Rocky",
       "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 128,
@@ -1667,7 +1499,7 @@
         "Drama"
       ],
       "director": "Peter Farrelly",
-      "webUrl": "https://www.cinecolombia.com/films/i-play-rocky/HO00000894/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/i-play-rocky",
       "categories": [
         "ComingSoon"
       ],
@@ -1679,15 +1511,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg",
-      "tmdb": {
-        "tmdbId": 1286656,
-        "posterPath": "/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/38c42eed-368d-4c7b-a2ad-152f336ea587/media/Poster?width=200"
     },
     {
       "id": "HO00000901",
-      "title": "I Want Your Sex",
+      "title": "Quiero Tu Sexo",
       "shortSynopsis": "Elliot consigue trabajo con la artista Erika Tracy, quien lo invita a ser su musa sexual, pero pronto se ve arrastrado a un mundo de obsesión, poder y traición.",
       "releaseDate": "2026-12-03",
       "runtimeInMinutes": 90,
@@ -1698,7 +1526,7 @@
         "Suspenso"
       ],
       "director": "Gregg Araki",
-      "webUrl": "https://www.cinecolombia.com/films/i-want-your-sex/HO00000901/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/i-want-your-sex",
       "categories": [
         "ComingSoon"
       ],
@@ -1710,11 +1538,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/aMFx35t0T61S1ILDZrycPFRu95u.jpg",
-      "tmdb": {
-        "tmdbId": 1288059,
-        "posterPath": "/aMFx35t0T61S1ILDZrycPFRu95u.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ee20b441-abf7-4867-a7ed-1eb245ac3be3/media/Poster?width=200"
     },
     {
       "id": "HO00000902",
@@ -1727,7 +1551,7 @@
         "Fantasía"
       ],
       "director": "Ti West",
-      "webUrl": "https://www.cinecolombia.com/films/ebenezer/HO00000902/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/ebenezer",
       "categories": [
         "ComingSoon"
       ],
@@ -1739,15 +1563,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
-      "tmdb": {
-        "tmdbId": 1567605,
-        "posterPath": "/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ad498d3e-a3c0-43f3-af2b-b34694684688/media/Poster?width=200"
     },
     {
       "id": "HO00000903",
-      "title": "BLUE LOCK",
+      "title": "Blue Lock",
       "shortSynopsis": "Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 128,
@@ -1758,7 +1578,7 @@
         "Drama"
       ],
       "director": "Yūsuke Taki",
-      "webUrl": "https://www.cinecolombia.com/films/blue-lock/HO00000903/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/blue-lock",
       "categories": [
         "ComingSoon"
       ],
@@ -1770,15 +1590,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg",
-      "tmdb": {
-        "tmdbId": 1623376,
-        "posterPath": "/is62bAmW4fHrJtbn0sjxWRb6psq.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/536d28df-83e5-49ec-8e67-42b4d95aee2d/media/Poster?width=200"
     },
     {
       "id": "HO00000904",
-      "title": "Roméo et Juliette",
+      "title": "Romeo y Julieta",
       "shortSynopsis": "Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible",
       "releaseDate": "2026-11-14",
       "runtimeInMinutes": 155,
@@ -1787,7 +1603,7 @@
         "Ballet"
       ],
       "director": "Julien Condemine",
-      "webUrl": "https://www.cinecolombia.com/films/romeo-et-juliette/HO00000904/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/romeo-et-juliette",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1805,15 +1621,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg",
-      "tmdb": {
-        "tmdbId": 1779098,
-        "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/4d60f04d-cdb4-4b08-a00a-6c0f748eb820/media/Poster?width=200"
     },
     {
       "id": "HO00000905",
-      "title": "Le Lac des Cygnes",
+      "title": "El Lago de los Cisnes",
       "shortSynopsis": "El lago de los cisnes’, con música de Tchaikovsky y coreografía de Nureyev para la Ópera de París: Sigfrido promete amor a Odette, pero Odile pone a prueba su juramento.",
       "releaseDate": "2026-12-12",
       "runtimeInMinutes": 140,
@@ -1822,7 +1634,7 @@
         "Ballet"
       ],
       "director": "Isabelle Julien",
-      "webUrl": "https://www.cinecolombia.com/films/le-lac-des-cygnes/HO00000905/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/le-lac-des-cygnes",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1840,7 +1652,7 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/f6468317-ac57-4f41-b174-73968b4c9877/media/Poster?width=200"
     },
     {
       "id": "HO00000906",
@@ -1853,7 +1665,7 @@
         "Ballet"
       ],
       "director": "Julien Condemine",
-      "webUrl": "https://www.cinecolombia.com/films/la-bayadere/HO00000906/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/la-bayadere",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1871,7 +1683,7 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/7c6ab5d6-9b1d-4456-a4d4-6a5dc146146a/media/Poster?width=200"
     },
     {
       "id": "HO00000907",
@@ -1884,7 +1696,7 @@
         "Ballet"
       ],
       "director": "Myriam Hoyer",
-      "webUrl": "https://www.cinecolombia.com/films/notre-dame-de-paris/HO00000907/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/notre-dame-de-paris",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -1902,11 +1714,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/79b34d44-b039-4638-af8f-8fe2c8613dda/media/Poster?width=200"
     },
     {
       "id": "HO00000924",
-      "title": "The Social Reckoning",
+      "title": "El Poder de la Red",
       "shortSynopsis": "Basada en hechos reales, la ingeniera de Facebook Frances Haugen (Madison) recluta al reportero Jeff Horwitz (White) para revelar los secretos mejor guardados de la red.",
       "releaseDate": "2026-10-22",
       "runtimeInMinutes": 112,
@@ -1916,7 +1728,7 @@
         "Drama"
       ],
       "director": "Aaron Sorkin",
-      "webUrl": "https://www.cinecolombia.com/films/the-social-reckoning/HO00000924/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-social-reckoning",
       "categories": [
         "NowShowing"
       ],
@@ -1932,15 +1744,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
-      "tmdb": {
-        "tmdbId": 1281331,
-        "posterPath": "/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/50c30b3f-d24a-4135-9a6a-7836c09e911f/media/Poster?width=200"
     },
     {
       "id": "HO00000926",
-      "title": "Perewangan",
+      "title": "La Posesión de la Bruja",
       "shortSynopsis": "La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 109,
@@ -1949,7 +1757,7 @@
         "Suspenso"
       ],
       "director": "Awi Suryadi",
-      "webUrl": "https://www.cinecolombia.com/films/perewangan/HO00000926/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/perewangan",
       "categories": [
         "ComingSoon"
       ],
@@ -1961,11 +1769,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/2aff8b35-2186-4e3a-8b92-4f699b7d47e1/media/Poster?width=200"
     },
     {
       "id": "HO00000927",
-      "title": "The Exorcist: Martyrs",
+      "title": "El Exorcista Mátires",
       "shortSynopsis": "Trece años después de detener al asesino satánico Father Sunday, la detective Julie Miller enfrenta a un nuevo asesino y descubre un linaje de asesinos seriales.",
       "releaseDate": "2027-03-11",
       "runtimeInMinutes": 120,
@@ -1976,7 +1784,7 @@
         "Terror"
       ],
       "director": "Mike Flanagan",
-      "webUrl": "https://www.cinecolombia.com/films/the-exorcist-martyrs/HO00000927/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-exorcist-martyrs",
       "categories": [
         "ComingSoon"
       ],
@@ -1988,11 +1796,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/fmY0TIy7xCn99ug0oYefj6RLaKn.jpg",
-      "tmdb": {
-        "tmdbId": 1297467,
-        "posterPath": "/fmY0TIy7xCn99ug0oYefj6RLaKn.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/b2ac7c78-d789-4ce5-8be9-5c9527e2ff34/media/Poster?width=200"
     },
     {
       "id": "HO00000928",
@@ -2005,7 +1809,7 @@
         "Comedia"
       ],
       "director": "Ángel Ayllón",
-      "webUrl": "https://www.cinecolombia.com/films/como-tener-un-amante-y-no-morir-en-el-intento/HO00000928/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/como-tener-un-amante-y-no-morir-en-el-intento",
       "categories": [
         "ComingSoon"
       ],
@@ -2017,11 +1821,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/8370797f-a980-46af-80f4-36911bf4e69c/media/Poster?width=200"
     },
     {
       "id": "HO00000929",
-      "title": "The Rescue",
+      "title": "Rastro Mortal",
       "shortSynopsis": "Cuando secuestran a su hija y piden rescate, un exvaquero de rodeo (Brandon Sklenar) emprende con el perro de ella una búsqueda para traerla de vuelta a casa.",
       "releaseDate": "2027-01-28",
       "runtimeInMinutes": 120,
@@ -2031,7 +1835,7 @@
         "Suspenso"
       ],
       "director": "Potsy Ponciroli",
-      "webUrl": "https://www.cinecolombia.com/films/the-rescue/HO00000929/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-rescue",
       "categories": [
         "ComingSoon"
       ],
@@ -2043,11 +1847,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/nb7NUk2fOqeA8FLlRqG2LqKezPW.jpg",
-      "tmdb": {
-        "tmdbId": 1425472,
-        "posterPath": "/nb7NUk2fOqeA8FLlRqG2LqKezPW.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/2de2b761-da44-43b4-963e-dda266d9b09e/media/Poster?width=200"
     },
     {
       "id": "HO00000930",
@@ -2062,7 +1862,7 @@
         "Comedia"
       ],
       "director": "Vicky Jenson",
-      "webUrl": "https://www.cinecolombia.com/films/shrek/HO00000930/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/shrek",
       "categories": [
         "NowShowing"
       ],
@@ -2079,11 +1879,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
-      "tmdb": {
-        "tmdbId": 808,
-        "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/ad5d27df-38ef-41e5-8351-820844d9e510/media/Poster?width=200"
     },
     {
       "id": "HO00000931",
@@ -2097,7 +1893,7 @@
         "Drama"
       ],
       "director": "Travis Knight",
-      "webUrl": "https://www.cinecolombia.com/films/wildwood/HO00000931/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/wildwood",
       "categories": [
         "NowShowing"
       ],
@@ -2114,15 +1910,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg",
-      "tmdb": {
-        "tmdbId": 791523,
-        "posterPath": "/sJ1uZ4DKsjs2iqLtCX46TifxqoE.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/11cc5c61-a996-46f4-9f23-5ed0dc5a658b/media/Poster?width=200"
     },
     {
       "id": "HO00000932",
-      "title": "Hexed",
+      "title": "Hechizo: Bienvenidos a Hexe",
       "shortSynopsis": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 103,
@@ -2133,7 +1925,7 @@
         "Comedia"
       ],
       "director": "Fawn Veerasunthorn",
-      "webUrl": "https://www.cinecolombia.com/films/hexed/HO00000932/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/hexed",
       "categories": [
         "ComingSoon"
       ],
@@ -2145,15 +1937,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg",
-      "tmdb": {
-        "tmdbId": 1538497,
-        "posterPath": "/zPaypaMulDEVhuTCN1hPN1Hg4DI.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/66a154e5-7c58-425e-8df1-286328282666/media/Poster?width=200"
     },
     {
       "id": "HO00000933",
-      "title": "How to Rob a Bank",
+      "title": "Cómo Robar un Banco",
       "shortSynopsis": "Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 122,
@@ -2164,7 +1952,7 @@
         "Suspenso"
       ],
       "director": "David Leitch",
-      "webUrl": "https://www.cinecolombia.com/films/how-to-rob-a-bank/HO00000933/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/how-to-rob-a-bank",
       "categories": [
         "ComingSoon"
       ],
@@ -2176,15 +1964,11 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
-      "tmdb": {
-        "tmdbId": 1437511,
-        "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/887dbb86-697c-4938-8af4-ef41111752d3/media/Poster?width=200"
     },
     {
       "id": "HO00000934",
-      "title": "The Fast and the Furious (25th Anniversary)",
+      "title": "Rapido y Furioso",
       "shortSynopsis": "En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 107,
@@ -2195,7 +1979,7 @@
         "Suspenso"
       ],
       "director": "Rob Cohen",
-      "webUrl": "https://www.cinecolombia.com/films/the-fast-and-the-furious-25th-anniversary/HO00000934/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-fast-and-the-furious-25th-anniversary",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -2214,7 +1998,7 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/f790dab5-970b-432e-8825-e1b3018ca63e/media/Poster?width=200"
     },
     {
       "id": "HO00000935",
@@ -2227,7 +2011,7 @@
         "Drama"
       ],
       "director": "Javier Ambrossi",
-      "webUrl": "https://www.cinecolombia.com/films/la-bola-negra/HO00000935/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/la-bola-negra",
       "categories": [
         "ComingSoon"
       ],
@@ -2239,11 +2023,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg",
-      "tmdb": {
-        "tmdbId": 1422041,
-        "posterPath": "/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/8acaa107-1844-4cd9-a458-f316aac7a202/media/Poster?width=200"
     },
     {
       "id": "HO00000936",
@@ -2256,7 +2036,7 @@
         "Concierto"
       ],
       "director": "Jungjae HA",
-      "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-jakarta-live/HO00000936/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/bts-world-tour-arirang-in-jakarta-live",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -2274,11 +2054,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/gEMCs6RPDJFSAFkc9JXxhaL0AGV.jpg",
-      "tmdb": {
-        "tmdbId": 1820088,
-        "posterPath": "/gEMCs6RPDJFSAFkc9JXxhaL0AGV.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/d4114c61-fec0-405c-beb5-e5318f507b2f/media/Poster?width=200"
     },
     {
       "id": "HO00000937",
@@ -2291,7 +2067,7 @@
         "Concierto"
       ],
       "director": "Jungjae HA",
-      "webUrl": "https://www.cinecolombia.com/films/bts-world-tour-arirang-in-kaohsiung-live/HO00000937/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/bts-world-tour-arirang-in-kaohsiung-live",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -2309,11 +2085,7 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg",
-      "tmdb": {
-        "tmdbId": 1820083,
-        "posterPath": "/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/3e3c162f-cc15-4bb9-8760-b200208cd739/media/Poster?width=200"
     },
     {
       "id": "HO00000938",
@@ -2328,7 +2100,7 @@
         "Comedia"
       ],
       "director": "Jared Bush",
-      "webUrl": "https://www.cinecolombia.com/films/encanto/HO00000938/",
+      "webUrl": "https://www.cinecolombia.com/peliculas/encanto",
       "categories": [
         "AdvanceBooking",
         "NowShowing"
@@ -2346,11 +2118,57 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg",
-      "tmdb": {
-        "tmdbId": 4593,
-        "posterPath": "/j9BVYh3zd7hG0Iycem9QOs2moot.jpg"
-      }
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/83a5be8e-517d-4287-91cd-7ff41cb444dc/media/Poster?width=200"
+    },
+    {
+      "id": "HO00000939",
+      "title": "Babystar",
+      "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 98,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Joscha Bongard",
+      "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/f6987eae-f0d6-49a6-87f8-30c87c7ff591/media/Poster?width=200"
+    },
+    {
+      "id": "HO00000940",
+      "title": "La Gallina Hen",
+      "shortSynopsis": "Desde la mirada de una gallina en un restaurante costero de Grecia, que protege sus huevos y lucha por sobrevivir, vemos los secretos y conflictos de los humanos.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 95,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "György Pálfi",
+      "webUrl": "https://www.cinecolombia.com/peliculas/hen",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/49629a0e-d971-4a0d-a5d0-df1a1658a7c4/media/Poster?width=200"
     }
   ],
   "tmdbCache": {
@@ -3433,5 +3251,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-08T23:00:51.131Z"
+  "lastRun": "2026-11-09T12:53:36.180Z"
 }

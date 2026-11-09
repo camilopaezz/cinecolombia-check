@@ -24500,6 +24500,68 @@
           "posterPath": "/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg"
         }
       }
+    },
+    {
+      "guid": "1eae3d80-7e4b-4992-bb85-73b055e5054c",
+      "type": "added",
+      "filmId": "HO00000939",
+      "createdAt": "2026-11-09T12:53:36.178Z",
+      "snapshot": {
+        "id": "HO00000939",
+        "title": "Babystar",
+        "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 98,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Joscha Bongard",
+        "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/f6987eae-f0d6-49a6-87f8-30c87c7ff591/media/Poster?width=200"
+      }
+    },
+    {
+      "guid": "00d8d396-4e8f-46cb-937c-525b97a64a71",
+      "type": "added",
+      "filmId": "HO00000940",
+      "createdAt": "2026-11-09T12:53:36.178Z",
+      "snapshot": {
+        "id": "HO00000940",
+        "title": "La Gallina Hen",
+        "shortSynopsis": "Desde la mirada de una gallina en un restaurante costero de Grecia, que protege sus huevos y lucha por sobrevivir, vemos los secretos y conflictos de los humanos.",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 95,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "György Pálfi",
+        "webUrl": "https://www.cinecolombia.com/peliculas/hen",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/49629a0e-d971-4a0d-a5d0-df1a1658a7c4/media/Poster?width=200"
+      }
     }
   ]
 }

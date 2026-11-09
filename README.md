@@ -1,6 +1,6 @@
 # CineColombia Lifecycle Feed
 
-A scheduled Bun/TypeScript scraper that watches the Cinecolombia OCAPI for film
+A scheduled Bun/TypeScript scraper that watches the Cinecolombia website API for film
 lifecycle changes (added, advance booking opens, now in theaters, removed) and
 publishes them as a Spanish-language RSS feed + static HTML page, with optional
 Discord notifications on each transition.
@@ -19,14 +19,18 @@ bun run typecheck            # tsc --noEmit
 ```
 
 The scraper reads `TMDB_API_KEY`, `FEED_URL`, `CINECO_GIT_PUSH`, and
-`NOTIFY_WEBHOOK_URL` from the environment (see `cineco.env.example`). It shells
-out to `curl_chrome136` to pass Cloudflare on the Cinecolombia homepage and
-sitemap, fetching a fresh OCAPI token each run.
+`NOTIFY_WEBHOOK_URL` from the environment (see `cineco.env.example`). The live adapter uses the public `/api/v1/films/availability` endpoint as the
+national film index and fetches each `/api/v1/films/{id}` detail with at most six
+requests in flight. No homepage token or sitemap is needed. The unfiltered
+`/films` listing returns an empty catalog, so it must not be used as the index.
+Any missing or failed detail aborts the observation before writes. Posters and
+`/peliculas/{slug}` links come from film details; TMDB remains a poster fallback.
 
 ## Layout
 
 ```
-scrape.ts            # the scraper (single file)
+scrape.ts            # lifecycle, persistence and publishing
+catalog.ts           # current website API adapter
 CONTEXT.md           # domain glossary
 data/                # committed: posts.json (announcements) + state.json (current catalog)
 docs/                # GitHub Pages: feed.xml (newest 100 posts) + index.html (catalog and history)
@@ -45,9 +49,9 @@ tests live in `scrape.test.ts`.
 
 ## What the data says
 
-The scraper observes Cinecolombia's OCAPI catalog at each successful check. A film's
-reported availability comes from its per-site category rows, such as `ComingSoon`,
-`AdvanceBooking`, and `NowShowing`. A row may identify a site, but it does not
+The scraper observes Cinecolombia's website catalog at each successful check. A film's
+reported availability comes from national category rows, such as `ComingSoon`,
+`AdvanceBooking`, and `NowShowing`. The new API omits site IDs, stored as null; older observations may identify a site. A row does not
 contain screening dates or prove that tickets or showtimes exist on a particular
 day. The film's `releaseDate` is metadata, not a screening schedule. The current
 catalog keeps per-site details in optional `availabilityRows`; older records may
@@ -230,18 +234,6 @@ npx wrangler deploy --dry-run
 # /home (user_home_t) — it fails with status=203/EXEC "Permission denied".
 sudo install -m 0755 -o root -g root ~/.bun/bin/bun /usr/local/bin/bun
 sudo restorecon -v /usr/local/bin/bun
-
-# Install curl-impersonate (provides curl_chrome136, used to bypass Cloudflare
-# on the Cinecolombia homepage and sitemap). Not bundled, not an npm dep — system binary.
-# Asset: curl-impersonate-v1.5.6.x86_64-linux-gnu.tar.gz from
-# https://github.com/lexiforest/curl-impersonate/releases
-sudo mkdir -p /usr/local/curl-impersonate
-sudo tar -xzf curl-impersonate-v1.5.6.x86_64-linux-gnu.tar.gz \
-    -C /usr/local/curl-impersonate
-sudo restorecon -Rv /usr/local/curl-impersonate
-/usr/local/curl-impersonate/curl_chrome136 --version   # smoke test
-# The service unit adds /usr/local/curl-impersonate to PATH so scrape.ts can
-# invoke curl_chrome136 by bare name. Fedora ships ca-certificates already.
 
 sudo cp systemd/cineco.service systemd/cineco.timer /etc/systemd/system/
 sudo cp cineco.env.example /etc/cineco.env && sudo chmod 600 /etc/cineco.env

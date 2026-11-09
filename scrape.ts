@@ -4,6 +4,7 @@
 
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { fetchCatalog } from "./catalog";
 
 // node:crypto not imported — `crypto` is a global in Bun.
 
@@ -610,6 +611,7 @@ export async function enrichPosters(
 ): Promise<void> {
   if (!apiKey) return;
   for (const film of films) {
+    if (film.posterUrl) continue; // Prefer the website's own poster.
     const cached = cache[film.id];
     if (cached) {
       film.tmdb = cached;
@@ -1356,22 +1358,32 @@ async function runMain(options: MainOptions): Promise<void> {
   // Gather everything before touching any file (hard rule: aborted scrape ≠ every film gone).
   const prev = loadState(statePath);
   const archive = loadPosts(postsPath);
-  const token = await deps.fetchToken();
-  const filmsRes = (await deps.ocapi(token, "films")) as FilmsResponse;
-  if (!Array.isArray(filmsRes?.films)) throw new Error("invalid OCAPI films response: films must be an array");
-  const availRes: unknown = await deps.ocapi(token, "films/availability");
-  validateAvailabilityResponse(availRes, filmsRes.films.map((f) => f.id));
-  const catalogIds = new Set(filmsRes.films.map((f) => f.id));
-  if (catalogIds.size > 0 && prev.films.some((f) => f.categories.length > 0) &&
-      !availRes.filmAvailabilities.some((row) => catalogIds.has(row.filmId) && row.categories.length > 0)) {
-    throw new Error("empty OCAPI availability categories for populated catalog — aborting before write");
+  let current: FilmRecord[];
+  // Keep the legacy injected adapter usable by existing offline callers/tests.
+  if (options.deps?.ocapi || options.deps?.fetchToken || options.deps?.fetchSitemap) {
+    const token = await deps.fetchToken();
+    const filmsRes = (await deps.ocapi(token, "films")) as FilmsResponse;
+    if (!Array.isArray(filmsRes?.films)) throw new Error("invalid OCAPI films response: films must be an array");
+    const availRes: unknown = await deps.ocapi(token, "films/availability");
+    validateAvailabilityResponse(availRes, filmsRes.films.map((f) => f.id));
+    const catalogIds = new Set(filmsRes.films.map((f) => f.id));
+    if (catalogIds.size > 0 && prev.films.some((f) => f.categories.length > 0) &&
+        !availRes.filmAvailabilities.some((row) => catalogIds.has(row.filmId) && row.categories.length > 0)) {
+      throw new Error("empty OCAPI availability categories for populated catalog — aborting before write");
+    }
+    const sitemapXml = await deps.fetchSitemap();
+    const sitemap = parseSitemap(sitemapXml);
+    if (!/<urlset\b/i.test(sitemapXml) || (catalogIds.size > 0 && Object.keys(sitemap).length === 0)) {
+      throw new Error("invalid or empty film sitemap — aborting before write");
+    }
+    current = buildFilmRecords(filmsRes, availRes, sitemap);
+  } else {
+    current = await fetchCatalog();
+    if (prev.films.some((f) => f.categories.length > 0) &&
+        !current.some((f) => f.categories.length > 0)) {
+      throw new Error("empty website availability categories for populated catalog — aborting before write");
+    }
   }
-  const sitemapXml = await deps.fetchSitemap();
-  const sitemap = parseSitemap(sitemapXml);
-  if (!/<urlset\b/i.test(sitemapXml) || (catalogIds.size > 0 && Object.keys(sitemap).length === 0)) {
-    throw new Error("invalid or empty film sitemap — aborting before write");
-  }
-  const current = buildFilmRecords(filmsRes, availRes, sitemap);
   // Empty current is a free no-op here; runLifecycle still aborts empty-with-known before write.
   await enrichPosters(current, prev.tmdbCache, tmdbApiKey, deps.tmdb);
 

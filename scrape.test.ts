@@ -1316,7 +1316,7 @@ describe("failure alerts", () => {
     } finally { rmSync(dir, { recursive: true, force: true }); }
   });
 
-  it("sends a webhook before the CLI exits unsuccessfully when curl fails", async () => {
+  it("sends a webhook before the CLI exits unsuccessfully when the website API fails", async () => {
     const dir = mkdtempSync(join(tmpdir(), "cineco-cli-failure-"));
     const bodies: { embeds: { description: string }[] }[] = [];
     const server = Bun.serve({
@@ -1330,10 +1330,13 @@ describe("failure alerts", () => {
       },
     });
     try {
-      const curl = join(dir, "curl_chrome136");
-      writeFileSync(curl, "#!/bin/sh\necho 'HTTP 403' >&2\nexit 22\n");
-      chmodSync(curl, 0o755);
-      const child = Bun.spawn([process.execPath, join(import.meta.dir, "scrape.ts")], {
+      const preload = join(dir, "fail-api.ts");
+      writeFileSync(preload, `const original = globalThis.fetch;
+globalThis.fetch = ((url, init) => String(url).startsWith("https://www.cinecolombia.com/api/")
+  ? Promise.resolve(new Response("unavailable", { status: 503 }))
+  : original(url, init)) as typeof fetch;
+`);
+      const child = Bun.spawn([process.execPath, "--preload", preload, join(import.meta.dir, "scrape.ts")], {
         cwd: dir,
         env: {
           ...process.env,
@@ -1346,9 +1349,9 @@ describe("failure alerts", () => {
       });
       const stderr = Bun.readableStreamToText(child.stderr);
       expect(await child.exited).toBe(1);
-      expect(await stderr).toContain("curl_chrome136 exited 22");
+      expect(await stderr).toContain("Cine Colombia API films/availability -> 503");
       expect(bodies).toHaveLength(1);
-      expect(bodies[0].embeds[0].description).toContain("HTTP 403");
+      expect(bodies[0].embeds[0].description).toContain("films/availability -> 503");
     } finally {
       server.stop(true);
       rmSync(dir, { recursive: true, force: true });

@@ -34,7 +34,7 @@ const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
         </span>
         <small>{film.releaseDate ? `Estreno: ${film.releaseDate}` : "Fecha por confirmar"}{film.availabilityRows === undefined && " · sin detalle por sede guardado"}</small>
         {notes.length > 0 && <span class="catalog-note">{notes.join(" ")}</span>}
-        <details class="catalog-evidence">
+        <details class="catalog-evidence" open>
           <summary>{misses ? "Última ficha observada" : "Ficha actual"}</summary>
           <div class="catalog-detail">
             <div>

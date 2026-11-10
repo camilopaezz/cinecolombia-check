@@ -24562,6 +24562,120 @@
         ],
         "posterUrl": "https://film-cdn.moviexchange.com/api/cdn/release/49629a0e-d971-4a0d-a5d0-df1a1658a7c4/media/Poster?width=200"
       }
+    },
+    {
+      "guid": "caa4f97b-e199-468b-a75c-55ae19d4efff",
+      "type": "now-in-theaters",
+      "filmId": "HO00000703",
+      "createdAt": "2026-11-10T23:00:49.845Z",
+      "snapshot": {
+        "id": "HO00000703",
+        "title": "Tadeo Jones y la lámpara maravillosa",
+        "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 94,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Enrique Gato",
+        "webUrl": "https://www.cinecolombia.com/peliculas/tadeo-jones-y-la-lampara-maravillosa",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
+        "tmdb": {
+          "tmdbId": 1187326,
+          "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d20ed702-dd2d-4c22-9a7b-f022e5968f31",
+      "type": "added",
+      "filmId": "HO00000941",
+      "createdAt": "2026-11-10T23:00:49.845Z",
+      "snapshot": {
+        "id": "HO00000941",
+        "title": "Alix",
+        "shortSynopsis": "En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 123,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Fantasía"
+        ],
+        "director": "Ana María Hermida",
+        "webUrl": "https://www.cinecolombia.com/peliculas/alix",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "711b0bed-98e7-4120-8dff-e438be7d6ab1",
+      "type": "now-in-theaters",
+      "filmId": "HO00000894",
+      "createdAt": "2026-11-10T23:00:49.845Z",
+      "snapshot": {
+        "id": "HO00000894",
+        "title": "Yo Soy Rocky",
+        "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 128,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Peter Farrelly",
+        "webUrl": "https://www.cinecolombia.com/peliculas/i-play-rocky",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg",
+        "tmdb": {
+          "tmdbId": 1286656,
+          "posterPath": "/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg"
+        }
+      }
     }
   ]
 }

@@ -7,6 +7,29 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Tadeo Jones y la lámpara maravillosa</title>
+      <link>https://www.cinecolombia.com/peliculas/tadeo-jones-y-la-lampara-maravillosa</link>
+      <guid isPermaLink="false">caa4f97b-e199-468b-a75c-55ae19d4efff</guid>
+      <pubDate>Tue, 10 Nov 2026 23:00:49 GMT</pubDate>
+      <description>Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Alix</title>
+      <link>https://www.cinecolombia.com/peliculas/alix</link>
+      <guid isPermaLink="false">d20ed702-dd2d-4c22-9a7b-f022e5968f31</guid>
+      <pubDate>Tue, 10 Nov 2026 23:00:49 GMT</pubDate>
+      <description>En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.</description>
+    </item>
+    <item>
+      <title>En cartelera: Yo Soy Rocky</title>
+      <link>https://www.cinecolombia.com/peliculas/i-play-rocky</link>
+      <guid isPermaLink="false">711b0bed-98e7-4120-8dff-e438be7d6ab1</guid>
+      <pubDate>Tue, 10 Nov 2026 23:00:49 GMT</pubDate>
+      <description>Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.&quot;</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Babystar</title>
       <link>https://www.cinecolombia.com/peliculas/babystar</link>
       <guid isPermaLink="false">1eae3d80-7e4b-4992-bb85-73b055e5054c</guid>
@@ -771,30 +794,6 @@
       <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
       <description>Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Always Lalisa</title>
-      <link>https://www.cinecolombia.com/films/always-lalisa/HO00000779/</link>
-      <guid isPermaLink="false">c09afca1-8261-4971-99a5-882358c2c16a</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Always Lalisa&apos; documenta un año de LISA fuera de Blackpink: su álbum &apos;Alter Ego&apos;, su debut en &apos;The White Lotus&apos; y su show en Coachella 2025.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/OqM61w87XqOO3SPZjHRxC75HGI.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Turner &amp; Constable</title>
-      <link>https://www.cinecolombia.com/films/turner-constable/HO00000790/</link>
-      <guid isPermaLink="false">c38bb223-392b-4a20-82c7-2fec2c16b017</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>A partir de la exposición del Tate Britain, Exhibition on Screen retrata la rivalidad &quot;fuego y agua&quot; entre Turner y Constable: dos visiones opuestas del paisaje británico</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/cDBUokpY8ySLef7Er5hbY5guFfJ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Hunger Games</title>
-      <link>https://www.cinecolombia.com/films/the-hunger-games/HO00000791/</link>
-      <guid isPermaLink="false">740d8f89-63b2-44d3-a85c-6ba1f871bbf8</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Cuando su hermana es elegida para los mortales Juegos del Hambre, Katniss Everdeen se ofrece en su lugar y deberá sobrevivir a una brutal competencia televisada en Panem.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/qSEn7KsGchT7qB08HlviyeTPrEr.jpg" medium="image" />
     </item>
   </channel>
 </rss>

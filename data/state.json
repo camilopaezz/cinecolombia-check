@@ -290,6 +290,41 @@
       }
     },
     {
+      "id": "HO00000703",
+      "title": "Tadeo Jones y la lámpara maravillosa",
+      "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
+      "releaseDate": "2026-10-08",
+      "runtimeInMinutes": 94,
+      "censorRating": "Todos",
+      "genres": [
+        "Animación",
+        "Comedia",
+        "Familia"
+      ],
+      "director": "Enrique Gato",
+      "webUrl": "https://www.cinecolombia.com/peliculas/tadeo-jones-y-la-lampara-maravillosa",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
+      "tmdb": {
+        "tmdbId": 1187326,
+        "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
+      }
+    },
+    {
       "id": "HO00000704",
       "title": "Angry Birds 3",
       "shortSynopsis": "Esta temporada navideña, un pájaro enojado se enfrentará a su mayor desafío hasta el momento: sobrevivir a la paternidad… ¡mientras salva al mundo!",
@@ -1669,13 +1704,19 @@
       "director": "Peter Farrelly",
       "webUrl": "https://www.cinecolombia.com/peliculas/i-play-rocky",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2346,7 +2387,8 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2413,6 +2455,32 @@
         "tmdbId": 1382513,
         "posterPath": "/o7DvRpbWru66jS9rHbIri3dCyNo.jpg"
       }
+    },
+    {
+      "id": "HO00000941",
+      "title": "Alix",
+      "shortSynopsis": "En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.",
+      "releaseDate": "2026-11-12",
+      "runtimeInMinutes": 123,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Fantasía"
+      ],
+      "director": "Ana María Hermida",
+      "webUrl": "https://www.cinecolombia.com/peliculas/alix",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
     }
   ],
   "tmdbCache": {
@@ -3507,5 +3575,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-10T17:12:43.224Z"
+  "lastRun": "2026-11-10T23:00:49.847Z"
 }

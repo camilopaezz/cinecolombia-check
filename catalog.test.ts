@@ -36,6 +36,26 @@ describe("new website catalog", () => {
       await expect(fetchCatalog(async () => value)).rejects.toThrow();
     }
   });
+  it("normalizes duplicate categories and omitted, empty, or duplicated attributes", async () => {
+    const observe = (attributes?: string[]) => fetchCatalog(async (path) =>
+      path === "films/availability" ? { film_availabilities: [{
+        film_id: detail.film.id, categories: ["NowShowing", "NowShowing"],
+        ...(attributes === undefined ? {} : { showtime_attribute_ids: attributes }),
+      }] } : detail);
+    expect(await observe()).toEqual(await observe([]));
+    expect((await observe(["vip", "2d", "vip"]))[0]?.availabilityRows).toEqual([
+      { siteId: null, categories: ["NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
+    ]);
+  });
+  it("rejects malformed availability fields and duplicate film IDs", async () => {
+    const row = availability.film_availabilities[0]!;
+    for (const rows of [
+      [null], [{ ...row, film_id: "" }], [{ ...row, categories: [false] }],
+      [{ ...row, showtime_attribute_ids: [null] }], [row, row],
+    ]) {
+      await expect(fetchCatalog(async () => ({ film_availabilities: rows }))).rejects.toThrow("malformed");
+    }
+  });
   it("aborts if any detail fails or returns a different film", async () => {
     await expect(fetchCatalog(async (path) => {
       if (path === "films/availability") return availability;
@@ -68,11 +88,10 @@ describe("main with the website API", () => {
     const options = { dataDir: join(dir, "data"), docsDir: join(dir, "docs"),
       gitPush: false, notifyWebhookUrl: "", failureWebhookUrl: "", tmdbApiKey: "" };
     const paths = [join(options.dataDir, "state.json"), join(options.dataDir, "posts.json"),
-      join(options.docsDir, "feed.xml"), join(options.docsDir, "index.html")];
+      join(options.docsDir, "feed.xml")];
     try {
       await main(options);
       expect(loadState(paths[0]!).films).toHaveLength(2);
-      expect(readFileSync(paths[3]!, "utf8")).toContain("/peliculas/film");
       categories = [];
       await main(options);
       const saved = loadState(paths[0]!);
@@ -89,6 +108,19 @@ describe("main with the website API", () => {
     } finally {
       mockedFetch.mockRestore();
       rmSync(dir, { recursive: true, force: true });
+    }
+  });
+});
+
+describe("film detail validation", () => {
+  it("rejects malformed fields before they can be persisted", async () => {
+    for (const patch of [
+      { title_es: 1 }, { short_synopsis: {} }, { release_date: "2026-02-30" },
+      { runtime_minutes: "120" }, { genre_ids: [1] }, { poster_url: "javascript:alert(1)" },
+      { censor_rating: { classification: false } }, { cast_and_crew: [{ member_id: "x", roles: null }] },
+    ]) {
+      await expect(fetchCatalog(async path => path === "films/availability" ? availability :
+        { ...detail, film: { ...detail.film, ...patch } })).rejects.toThrow("invalid film detail");
     }
   });
 });

@@ -1,0 +1,69 @@
+---
+import type { State } from "../../domain";
+import { catalogGroups, bogotaWhen } from "../../site-model";
+import { factsLine } from "../../presentation";
+interface Props { state: State }
+const { state } = Astro.props;
+const groups = catalogGroups(state);
+const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
+---
+<section class="catalog" id="catalogo" aria-label="Catálogo observado">
+  <h2>Películas registradas</h2>
+  <p class="catalog-intro">Categorías informadas por CineColombia. La fecha de estreno no confirma funciones para el día del registro.
+    {changed && <> Último cambio del catálogo: <time datetime={state.lastRun}>{changed.date} {changed.time}</time>. No indica la hora de la última consulta.</>}
+  </p>
+  <form class="catalog-filters" role="search" onsubmit="return false">
+    <label>Buscar película <input id="film-search" type="search" placeholder="Título o género" /></label>
+    <label>Categoría <select id="film-category"><option value="">Todas</option>{groups.map(g => <option>{g.title}</option>)}</select></label>
+    <p id="filter-count" role="status" aria-live="polite">{state.films.length} películas</p>
+  </form>
+  {groups.length === 0 && <p class="catalog-intro">No hay películas registradas.</p>}
+  {groups.map(group => <section class="catalog-group" data-group={group.title}>
+    <h3>{group.title}</h3>
+    <ul class="catalog-list">
+      {group.films.map(({ film, future, misses, notes }) => <li class="catalog-row" data-search={`${film.title} ${film.genres.join(" ")}`}>
+        <span>{film.webUrl ? <a href={film.webUrl}>{film.title}</a> : film.title}
+          {future && film.categories.includes("AdvanceBooking") && <span class="catalog-badge">Preventa reportada</span>}
+        </span>
+        <small>{film.releaseDate ? `Estreno: ${film.releaseDate}` : "Fecha por confirmar"}{film.availabilityRows === undefined && " · sin detalle por sede guardado"}</small>
+        {notes.length > 0 && <span class="catalog-note">{notes.join(" ")}</span>}
+        <details class="catalog-evidence">
+          <summary>{misses ? "Última ficha observada" : "Ficha actual"}</summary>
+          <div class="catalog-detail">
+            {film.posterUrl && <img src={film.posterUrl} alt="" width="64" height="96" loading="lazy" />}
+            <div>
+              {film.shortSynopsis && <p>{film.shortSynopsis}</p>}
+              {factsLine(film) && <p>{factsLine(film)}</p>}
+              {film.director && <p>Dirección: {film.director}</p>}
+              <p>{misses ? "Últimas categorías observadas" : "Categorías reportadas"}: <code>{film.categories.join(", ") || "sin categoría"}</code></p>
+              {!!film.availabilityRows?.length && <ul>{film.availabilityRows.map(row => <li>
+                {row.siteId ?? "Disponibilidad nacional"}: <code>{row.categories.join(", ") || "sin categoría"}</code>
+              </li>)}</ul>}
+            </div>
+          </div>
+        </details>
+      </li>)}
+    </ul>
+  </section>)}
+</section>
+<script>
+  const search = document.querySelector<HTMLInputElement>("#film-search")!;
+  const category = document.querySelector<HTMLSelectElement>("#film-category")!;
+  const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es");
+  function filter() {
+    const query = normalize(search.value.trim());
+    let count = 0;
+    document.querySelectorAll<HTMLElement>("[data-group]").forEach(group => {
+      let visible = 0;
+      group.querySelectorAll<HTMLElement>("[data-search]").forEach(row => {
+        row.hidden = !!(category.value && category.value !== group.dataset.group) || !normalize(row.dataset.search ?? "").includes(query);
+        if (!row.hidden) visible++;
+      });
+      group.hidden = visible === 0;
+      count += visible;
+    });
+    document.querySelector("#filter-count")!.textContent = `${count} película${count === 1 ? "" : "s"}`;
+  }
+  search.addEventListener("input", filter);
+  category.addEventListener("change", filter);
+</script>

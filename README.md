@@ -2,7 +2,7 @@
 
 A scheduled Bun/TypeScript scraper that watches the Cinecolombia website API for film
 lifecycle changes (added, advance booking opens, now in theaters, removed) and
-publishes them as a Spanish-language RSS feed + static HTML page, with optional
+publishes them as a Spanish-language RSS feed and Astro static site, with optional
 Discord notifications on each transition.
 
 See [`issues/`](./issues/) for the original issue breakdown.
@@ -12,40 +12,58 @@ Domain terms: [`CONTEXT.md`](./CONTEXT.md).
 
 ```bash
 bun install
-bun run scrape.ts            # one-shot scrape; writes data/ and docs/
-bun run scrape.ts --hygiene  # offline archive repair (restage + drop twins); no scrape/notify
-bun test                     # tests
-bun run typecheck            # tsc --noEmit
+# Node.js 22.12+ is needed for Astro; Node 24 is used in CI.
+bun run scrape.ts            # one observation; writes data/ and docs/feed.xml
+bun run scrape.ts --hygiene  # repair historical staging without scraping or notifying
+bun test                     # lifecycle, API, reliability, and Astro build tests
+bun run typecheck            # TypeScript unused-code checks and Astro checks
+bun run dev                  # Astro development server
+bun run build                # production HTML, RSS, and assets in dist/
+bun run check                # all tests, type checks, and production build
 ```
 
-The scraper reads `TMDB_API_KEY`, `FEED_URL`, `CINECO_GIT_PUSH`, and
-`NOTIFY_WEBHOOK_URL` from the environment (see `cineco.env.example`). The live adapter uses the public `/api/v1/films/availability` endpoint as the
-national film index and fetches each `/api/v1/films/{id}` detail with at most six
-requests in flight. No homepage token or sitemap is needed. The unfiltered
-`/films` listing returns an empty catalog, so it must not be used as the index.
-Any missing or failed detail aborts the observation before writes. Posters and
-`/peliculas/{slug}` links come from film details; TMDB remains a poster fallback.
+The national catalog adapter validates website responses with Zod before
+constructing domain records. At most six detail requests run concurrently.
+No homepage token or sitemap is used. The unfiltered `/films` listing returns
+an empty catalog, so the national availability list is the film index.
 
 ## Layout
 
 ```
-scrape.ts            # lifecycle, persistence and publishing
-catalog.ts           # current website API adapter
+scrape.ts            # fetch, persistence, delivery queue, and git publishing
+catalog.ts           # validated website adapter, bounded concurrency and deadline
+domain.ts            # shared film, event, state, and archive types
+lifecycle.ts         # pure catalog transition and abort rules
+presentation.ts      # shared event facts, RSS and Discord projections
+site-model.ts        # catalog grouping and Bogotá dates
+src/pages/           # Astro homepage and static feed.xml route
+src/components/      # catalog and historical announcements
+src/layouts/         # document layout
+src/styles/          # responsive styles
 CONTEXT.md           # domain glossary
-data/                # committed: posts.json (announcements) + state.json (current catalog)
-docs/                # GitHub Pages: feed.xml (newest 100 posts) + index.html (catalog and history)
+data/                # committed posts.json + state.json
+docs/feed.xml        # scraper RSS snapshot for existing consumers
+dist/                # ignored Astro output for hosting
 systemd/             # cineco.service + cineco.timer
 ```
 
-The main path in `scrape.ts` fetches and enriches the catalog, calls
-`runLifecycle`, saves posts before state, then renders RSS and HTML before
-optional notification and git push. `applyLifecycle` handles transitions;
-`runLifecycle` also applies abort guards, cold-start policy, and change tracking.
-`generateFeed` projects posts; `generateHTML` projects posts plus current state.
-The `Deps` adapter supplies network, clock, UUID, and notification operations to
-tests and the live run. `sanitizeArchivePosts` and `runArchiveHygiene` belong to
-the offline repair path, not scheduled scrapes. Policy, projection, and main-path
-tests live in `scrape.test.ts`.
+The scraper fetches and validates a national catalog, calls `runLifecycle`, and
+saves the archive before state. It writes the RSS snapshot, delivers queued
+notifications, and optionally commits and pushes data. It does not build HTML.
+Astro reads committed JSON at build time, renders the catalog and history, and
+produces `/index.html`, `/feed.xml`, and assets without a server runtime.
+Catalog search and category filtering use a small browser script; the catalog
+and history remain readable with JavaScript disabled.
+
+Astro is pinned to the 6.x series because the 7.x native bundler crashes on the
+production machine's CPU. The lockfile fixes exact dependency versions.
+
+`Deps.fetchCatalog` is the same seam for production and lifecycle integration
+tests. `catalog.test.ts` verifies raw response parsing, `reliability.test.ts`
+verifies cancellation and notification retries, and `site-build.test.ts` builds
+Astro against isolated fixtures to verify escaping, grouping, and RSS history.
+The CI workflow runs all tests, TypeScript unused-code checks, Astro checks,
+and a production build on pushes and pull requests.
 
 ## What the data says
 
@@ -98,7 +116,7 @@ Notes:
   scrape emits only `now-in-theaters` (not two notifications).
 - **Preventa while in theaters:** gaining `AdvanceBooking` when the film already
   has (or also gains) `NowShowing` does not emit `preventa-opens`.
-- **Empty / bulk bad catalogs:** an empty OCAPI film catalog with known films,
+- **Empty / bulk bad catalogs:** an empty website film catalog with known films,
   malformed availability, a missing availability row for a previously categorized
   film, or an all-empty category response after a categorized catalog aborts
   before write. A run that would emit more removals than
@@ -114,12 +132,21 @@ Notes:
 
 - A failed fetch (or empty/bulk-removal abort) exits **before writing anything** —
   a bad scrape never looks like every film vanished.
-- `posts.json`, `state.json`, `feed.xml`, and `index.html` are written atomically
+- `posts.json`, `state.json`, and the scraper RSS snapshot are written atomically
   (temp + rename). Posts are written before state so a crash mid-write prefers
   re-emitting an event over losing it.
-- Network calls use timeouts (fetch 30s, curl-impersonate 60s).
-- A failed notification is logged to stderr and never aborts the scrape — same
-  fail-safe philosophy as TMDB enrichment.
+- Requests have 30-second timeouts. Catalog fetching has a 90-second deadline;
+  the entire scrape has a 140-second deadline. Cancellation stops workers and
+  prevents late data from being persisted. Git commands are asynchronous and
+  bounded to 15 seconds each. Failure alerts have a separate 30-second timeout.
+- New events are queued in `posts.json.pendingNotificationIds` together with their
+  archived snapshots when notifications are enabled. Each successful delivery is
+  acknowledged atomically. A failed delivery stays queued for the next successful
+  scrape, including quiet runs. Disabling the webhook pauses delivery and does
+  not queue new events. Historical archives without this field need no migration.
+- Delivery is at least once. A crash after Discord accepts an event but before
+  its acknowledgement is saved can repeat that event; Discord has no idempotency
+  key for these requests. Already acknowledged events are not retried.
 - Reruns with identical data are idempotent (no new posts, no git commit).
 
 ## Public feed window
@@ -132,8 +159,7 @@ lifecycle rules change, run a one-shot offline hygiene pass to restage historica
 bun run scrape.ts --hygiene   # also accepts bare `hygiene`
 ```
 
-That rewrites `data/posts.json` atomically and regenerates `docs/feed.xml` +
-`docs/index.html` without scraping, notifying, or using git. This is a one-off
+That rewrites `data/posts.json` atomically and regenerates `docs/feed.xml` without scraping, notifying, or using git. Rebuild Astro to update the website. This is a one-off
 historical repair, not the normal response to a corrected title, date, poster,
 or other film metadata. Normal scrapes append announcements; the current catalog
 uses the latest accepted metadata without rewriting old posts. The RSS feed and
@@ -217,13 +243,34 @@ ci: update catalog
 
 ### Website hosting on Cloudflare Workers
 
-`wrangler.jsonc` publishes the generated static files in `docs/`. The Bun scraper
-still runs on the server below; Cloudflare serves the committed HTML and RSS.
-No website build command is needed. Use `npx wrangler deploy` for production and
-`npx wrangler versions upload` for preview uploads in Cloudflare's Git integration.
-To validate the configuration locally without uploading:
+This machine builds Astro and uploads the completed `dist/` directory with
+Wrangler. Cloudflare only serves static assets. There is no Cloudflare build
+command and no Git-triggered deployment. GitHub Actions only runs checks.
 
 ```bash
+bun install --frozen-lockfile
+npx wrangler login --device  # authorize this machine once from any browser
+bun run deploy              # local Astro build, then Wrangler upload
+```
+
+Disconnect the Worker's repository in Cloudflare Settings → Builds before
+pushing changes. The OAuth login needs separate Workers CI permissions to
+manage that connection through the Builds API.
+
+Set `CINECO_DEPLOY=1` in `/etc/cineco.env` to build and deploy after each
+successful scheduled scrape, including quiet observations so failed uploads
+are retried. The scheduled runner needs Node 22.12+ in `/usr/local/bin`, plus a Wrangler
+login under its own home directory. `CINECO_NODE` can select another Node
+executable for manual runs. Install dependencies in the
+production checkout after updates. Build and upload each have a 120-second
+limit; the service allows 420 seconds for the complete operation.
+
+`FEED_TITLE` and `FEED_URL` control build-time feed metadata. The default RSS self URL is `https://cinecolombia.cpzhmlb.uk/feed.xml`. `CINECO_DATA_DIR` and
+`CINECO_DIST_DIR` override inputs and outputs for isolated build verification.
+A website build never fetches the live catalog or sends notifications.
+
+```bash
+bun run build
 npx wrangler deploy --dry-run
 ```
 
@@ -247,7 +294,7 @@ sudo systemctl enable --now cineco.timer
 The service runs as `camilo` and execs `/usr/local/bin/bun` (see the install
 step above — `bun upgrade` only refreshes `~/.bun/bin/bun`, so re-run the
 `install` line to update the version the service uses). The unit sets
-`TimeoutStartSec=180`. Git push authenticates via an SSH deploy key in `~/.ssh`
+`TimeoutStartSec=420`. Git push authenticates via an SSH deploy key in `~/.ssh`
 (add the public key as a write deploy key on the GitHub repo). Flow when
 `CINECO_GIT_PUSH=1`:
 

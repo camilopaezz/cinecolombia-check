@@ -1,0 +1,19 @@
+---
+import "../styles/global.css";
+interface Props { title: string }
+const { title } = Astro.props;
+---
+<!doctype html>
+<html lang="es-CO">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Catálogo observado de Cine Colombia e historial de estrenos, preventas y cambios de disponibilidad." />
+    <title>{title}</title>
+    <link rel="alternate" type="application/rss+xml" title={title} href={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/feed.xml`} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+  </head>
+  <body><a class="skip-link" href="#catalogo">Saltar al catálogo</a><main class="site"><slot /></main></body>
+</html>

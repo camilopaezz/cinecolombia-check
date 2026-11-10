@@ -4,3 +4,6 @@ node_modules/
 # secrets
 .env
 cineco.env
+
+dist/
+.astro/

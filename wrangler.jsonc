@@ -2,6 +2,15 @@
   "name": "cinecolombia-check",
   "compatibility_date": "2026-10-19",
   "assets": {
-    "directory": "./docs"
-  }
+    "directory": "./dist"
+  },
+  "account_id": "5d0331b2ccddf9e65184020ba2e6cd2e",
+  "routes": [
+    {
+      "pattern": "cinecolombia.cpzhmlb.uk",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false,
+  "preview_urls": false
 }

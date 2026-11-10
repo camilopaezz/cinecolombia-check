@@ -1,0 +1,27 @@
+---
+import type { Event } from "../../domain";
+import { windowNewest, factsLine } from "../../presentation";
+import { bogotaWhen } from "../../site-model";
+interface Props { posts: Event[] }
+const { posts } = Astro.props;
+const codes = { added: "PRONTO · estreno anunciado", "preventa-opens": "PREVENTA · preventa abierta", "now-in-theaters": "CARTELERA · cartelera reportada", removed: "FUERA · ya no disponible" };
+---
+<section class="history" id="historial" aria-label="Historial de cambios">
+  <h2>Historial de cambios</h2>
+  <p>Los eventos conservan los datos vistos cuando se registraron; no son el estado actual. CARTELERA indica una categoría reportada, no confirma una función en esa fecha.</p>
+  <div class="legend" aria-label="Leyenda de eventos">
+    <span><b>PRONTO</b> estreno anunciado</span><span><b>PREVENTA</b> boletería abierta</span>
+    <span><b>CARTELERA</b> categoría reportada</span><span><b>FUERA</b> ya no disponible</span>
+  </div>
+  {windowNewest(posts).map(p => {
+    const when = bogotaWhen(p.createdAt);
+    return <article class="post">
+      {p.snapshot.posterUrl ? <img src={p.snapshot.posterUrl} alt={p.snapshot.title} width="92" height="138" loading="lazy" /> : <div class="ph" aria-hidden="true">sin póster</div>}
+      <div><p class="code">{codes[p.type]}</p><h2>{p.snapshot.title}</h2>
+        {p.snapshot.shortSynopsis && <p class="syn">{p.snapshot.shortSynopsis}</p>}
+        <div class="facts">{factsLine(p.snapshot)}{p.snapshot.webUrl && <> · <a href={p.snapshot.webUrl}>Ver en CineColombia</a></>}</div>
+      </div>
+      <time class="when" datetime={p.createdAt}>{when.date}<br />{when.time}</time>
+    </article>;
+  })}
+</section>

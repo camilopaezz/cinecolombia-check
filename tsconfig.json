@@ -4,9 +4,21 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
-    "types": ["bun-types"],
+    "types": [
+      "bun-types"
+    ],
     "noEmit": true,
     "skipLibCheck": true,
-    "allowImportingTsExtensions": true
-  }
+    "allowImportingTsExtensions": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "include": [
+    "**/*.ts",
+    ".astro/types.d.ts"
+  ]
 }

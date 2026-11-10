@@ -1,79 +1,32 @@
+import { buildDiscordEmbed, clipSynopsis, eventTitle, factsLine, FEED_LIMIT, generateFeed, windowNewest } from "./presentation";
+import { announcementType, applyLifecycle, gainEvents, lifecycleAbortMessage, maxRemovalsAllowed, REMOVAL_THRESHOLD, runLifecycle, sanitizeArchivePosts } from "./lifecycle";
+import type { Event, FilmRecord, State } from "./domain";
 import { beforeAll, describe, expect, it, afterAll, spyOn } from "bun:test";
-import { chmodSync, mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, statSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import type {
-  AvailabilityResponse,
   Deps,
-  Event,
-  FilmRecord,
-  FilmsResponse,
 } from "./scrape.ts";
 import {
-  announcementType,
-  applyLifecycle,
-  buildFilmRecords,
-  buildDiscordEmbed,
-  clipSynopsis,
   enrichPosters,
-  eventTitle,
-  extractAuthToken,
-  factsLine,
-  FEED_LIMIT,
   formatCommitMessage,
-  gainEvents,
-  generateFeed,
-  generateHTML,
-  lifecycleAbortMessage,
   loadPosts,
   loadState,
   liveDeps,
   main,
-  maxRemovalsAllowed,
-  parseSitemap,
-  REMOVAL_THRESHOLD,
   runArchiveHygiene,
-  runLifecycle,
-  sanitizeArchivePosts,
-  validateAvailabilityResponse,
-  windowNewest,
-  type State,
 } from "./scrape.ts";
 
 // ─── Fixtures ────────────────────────────────────────────────────────────────
 
-const film = (id: string, title: string): FilmsResponse["films"][number] => ({
-  id,
-  hopk: id,
-  title: { text: title },
-  shortSynopsis: { text: `Sinopsis de ${title}` },
-  releaseDate: "2026-06-18",
-  runtimeInMinutes: 102,
-  censorRatingId: "HO00000001",
-  genreIds: ["0000000005"],
-  directors: [{ castAndCrewMemberId: "0000003505" }],
+const film = (id: string, title: string): FilmRecord => ({
+  id, title, shortSynopsis: `Sinopsis de ${title}`, releaseDate: "2026-06-18",
+  runtimeInMinutes: 102, censorRating: "Todos", genres: ["Animación"],
+  director: "Pixar Director", webUrl: `https://www.cinecolombia.com/peliculas/${id}`,
+  categories: [], availabilityRows: [], posterUrl: null,
 });
-
-const filmsResponse = (): FilmsResponse => ({
-  films: [film("HO00000471", "Toy Story 5"), film("HO00000386", "F9")],
-  relatedData: {
-    castAndCrew: [{ id: "0000003505", name: { givenName: "Pixar", familyName: "Director" } }],
-    genres: [{ id: "0000000005", name: { text: "Animación" } }],
-    censorRatings: [{ id: "HO00000001", classification: { text: "Todos" } }],
-    events: [],
-  },
-});
-
-const availability = (map: Record<string, string[]>): AvailabilityResponse => ({
-  filmAvailabilities: Object.entries(map).map(([filmId, categories]) => ({
-    filmId,
-    siteId: null,
-    categories,
-  })),
-});
-
-const sitemap = `<?xml version="1.0"?>
-<urlset><url><loc>https://www.cinecolombia.com/films/toy-story-5/HO00000471/</loc></url></urlset>`;
+const fixtureFilms = (): FilmRecord[] => [film("HO00000471", "Toy Story 5"), film("HO00000386", "F9")];
 
 const fixedNow = () => new Date("2026-07-01T18:00:00Z");
 let counter = 0;
@@ -84,19 +37,9 @@ const DEFAULT_AVAIL: Record<string, string[]> = {
   HO00000386: ["NowShowing"],
 };
 
-/** Base test Deps bag; pass Partial overrides instead of rebuilding all 7 keys. */
+/** Base test dependencies with optional overrides. */
 const deps = (overrides: Partial<Deps> = {}): Deps => ({
-  async fetchToken() {
-    return "tok";
-  },
-  async ocapi(_t, path) {
-    if (path === "films") return filmsResponse();
-    if (path === "films/availability") return availability(DEFAULT_AVAIL);
-    throw new Error(`unexpected path ${path}`);
-  },
-  async fetchSitemap() {
-    return sitemap;
-  },
+  async fetchCatalog() { return catalogDeps().fetchCatalog(); },
   async notifyFailure() {},
   async tmdb() {
     return { tmdbId: 1, posterPath: "/abc.jpg" };
@@ -108,35 +51,26 @@ const deps = (overrides: Partial<Deps> = {}): Deps => ({
 });
 
 type CatalogOpts = {
-  /** Static map or getter (getter when availability mutates across runs). */
   availability?: Record<string, string[]> | (() => Record<string, string[]>);
-  /** Full films response or getter. Defaults to filmsResponse(). */
-  films?: FilmsResponse | (() => FilmsResponse);
-  /** Filter films to these ids (static or getter). Applied after films. */
+  films?: FilmRecord[] | (() => FilmRecord[]);
   filmIds?: string[] | (() => string[]);
-} & Partial<Omit<Deps, "ocapi">>;
+} & Partial<Omit<Deps, "fetchCatalog">>;
 
 const resolve = <T>(v: T | (() => T)): T =>
   typeof v === "function" ? (v as () => T)() : v;
 
-/**
- * Catalog-shaped Deps: shared ocapi for films + availability, with optional
- * overrides for notify/now/fetchToken/etc. Shrinks main() test boilerplate.
- */
+/** Lifecycle tests inject the same catalog boundary used by production. */
 const catalogDeps = (opts: CatalogOpts = {}): Deps => {
   const { availability: availOpt, films: filmsOpt, filmIds: filmIdsOpt, ...rest } = opts;
   return deps({
-    async ocapi(_t, path) {
-      if (path === "films") {
-        const full = filmsOpt !== undefined ? resolve(filmsOpt) : filmsResponse();
-        if (filmIdsOpt === undefined) return full;
-        const ids = new Set(resolve(filmIdsOpt));
-        return { ...full, films: full.films.filter((f) => ids.has(f.id)) };
-      }
-      if (path === "films/availability") {
-        return availability(availOpt !== undefined ? resolve(availOpt) : DEFAULT_AVAIL);
-      }
-      throw new Error(`unexpected path ${path}`);
+    async fetchCatalog() {
+      const films = filmsOpt === undefined ? fixtureFilms() : resolve(filmsOpt);
+      const availability = availOpt === undefined ? DEFAULT_AVAIL : resolve(availOpt);
+      const ids = filmIdsOpt === undefined ? null : new Set(resolve(filmIdsOpt));
+      return films.filter(f => !ids || ids.has(f.id)).map(f => ({
+        ...f, categories: availability[f.id] ?? [],
+        availabilityRows: availability[f.id] === undefined ? [] : [{ siteId: null, categories: availability[f.id]! }],
+      }));
     },
     ...rest,
   });
@@ -154,149 +88,6 @@ const recordingNotifier = () => {
 };
 
 // ─── Pure functions ──────────────────────────────────────────────────────────
-
-describe("extractAuthToken", () => {
-  it("pulls the JWT out of the SPA seed", () => {
-    const html = `<script>window.initialData = ({"api":{"authToken":"eyJabc"},"pages":[]});</script>`;
-    expect(extractAuthToken(html)).toBe("eyJabc");
-  });
-
-  it("throws when initialData is missing", () => {
-    expect(() => extractAuthToken("<html></html>")).toThrow("window.initialData");
-  });
-});
-
-describe("parseSitemap", () => {
-  it("maps HO-id to the film URL", () => {
-    expect(parseSitemap(sitemap)).toEqual({
-      HO00000471: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
-    });
-  });
-
-  it("upgrades http film URLs to https", () => {
-    const httpSitemap = `<?xml version="1.0"?>
-<urlset><url><loc>http://www.cinecolombia.com/films/toy-story-5/HO00000471/</loc></url></urlset>`;
-    expect(parseSitemap(httpSitemap)).toEqual({
-      HO00000471: "https://www.cinecolombia.com/films/toy-story-5/HO00000471/",
-    });
-  });
-});
-
-describe("buildFilmRecords", () => {
-  it("joins films, reference data, availability and sitemap", () => {
-    const recs = buildFilmRecords(
-      filmsResponse(),
-      availability({ HO00000471: ["ComingSoon"], HO00000386: ["NowShowing"] }),
-      parseSitemap(sitemap),
-    );
-    const ts = recs.find((r) => r.id === "HO00000471")!;
-    expect(ts.title).toBe("Toy Story 5");
-    expect(ts.genres).toEqual(["Animación"]);
-    expect(ts.censorRating).toBe("Todos");
-    expect(ts.director).toBe("Pixar Director");
-    expect(ts.webUrl).toBe("https://www.cinecolombia.com/films/toy-story-5/HO00000471/");
-    expect(ts.categories).toEqual(["ComingSoon"]);
-    expect(ts.posterUrl).toBeNull();
-  });
-
-  it("normalizes categories and genres to sorted unique arrays", () => {
-    const res: FilmsResponse = {
-      films: [
-        {
-          ...film("HO00000471", "Toy Story 5"),
-          genreIds: ["0000000002", "0000000005", "0000000002"],
-        },
-      ],
-      relatedData: {
-        castAndCrew: [{ id: "0000003505", name: { givenName: "Pixar", familyName: "Director" } }],
-        genres: [
-          { id: "0000000005", name: { text: "Animación" } },
-          { id: "0000000002", name: { text: "Comedia" } },
-        ],
-        censorRatings: [{ id: "HO00000001", classification: { text: "Todos" } }],
-        events: [],
-      },
-    };
-    const recs = buildFilmRecords(
-      res,
-      availability({ HO00000471: ["NowShowing", "ComingSoon", "NowShowing"] }),
-      parseSitemap(sitemap),
-    );
-    expect(recs[0].categories).toEqual(["ComingSoon", "NowShowing"]);
-    expect(recs[0].genres).toEqual(["Animación", "Comedia"]);
-  });
-
-  it("unions availability categories across multiple site rows for one film", () => {
-    const multiSite: AvailabilityResponse = {
-      filmAvailabilities: [
-        { filmId: "HO00000471", siteId: "site-a", categories: ["AdvanceBooking"] },
-        { filmId: "HO00000471", siteId: "site-b", categories: ["NowShowing"] },
-        { filmId: "HO00000386", siteId: "site-a", categories: ["NowShowing"] },
-      ],
-    };
-    const recs = buildFilmRecords(filmsResponse(), multiSite, parseSitemap(sitemap));
-    const ts = recs.find((r) => r.id === "HO00000471")!;
-    expect(ts.categories).toEqual(["AdvanceBooking", "NowShowing"]);
-  });
-
-  it("sorts and deduplicates site rows, categories and showtime attributes without conflating sites", () => {
-    const rows: AvailabilityResponse = { filmAvailabilities: [
-      { filmId: "HO00000471", siteId: "z", categories: ["NowShowing", "ComingSoon", "NowShowing"], showtimeAttributeIds: ["vip", "2d", "vip"] },
-      { filmId: "HO00000471", siteId: "a", categories: ["AdvanceBooking"], showtimeAttributeIds: [] },
-      { filmId: "HO00000471", siteId: "z", categories: ["ComingSoon", "NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
-      { filmId: "HO00000471", siteId: null, categories: [], showtimeAttributeIds: ["dub"] },
-    ] };
-    const record = buildFilmRecords(filmsResponse(), rows, {})[0]!;
-    expect(record.categories).toEqual(["AdvanceBooking", "ComingSoon", "NowShowing"]);
-    expect(record.availabilityRows).toEqual([
-      { siteId: null, categories: [], showtimeAttributeIds: ["dub"] },
-      { siteId: "a", categories: ["AdvanceBooking"] },
-      { siteId: "z", categories: ["ComingSoon", "NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
-    ]);
-    expect(buildFilmRecords(filmsResponse(), availability({ HO00000386: ["NowShowing"] }), {})[0]!.availabilityRows).toEqual([]);
-  });
-
-  it("normalizes omitted and empty showtimeAttributeIds to the same persisted shape", () => {
-    const row = (attrs?: string[]): AvailabilityResponse => ({
-      filmAvailabilities: [
-        {
-          filmId: "HO00000471",
-          siteId: "s",
-          categories: ["NowShowing"],
-          ...(attrs === undefined ? {} : { showtimeAttributeIds: attrs }),
-        },
-      ],
-    });
-    const omitted = buildFilmRecords(filmsResponse(), row(), {})[0]!.availabilityRows;
-    const empty = buildFilmRecords(filmsResponse(), row([]), {})[0]!.availabilityRows;
-    expect(omitted).toEqual(empty);
-    expect(omitted).toEqual([{ siteId: "s", categories: ["NowShowing"] }]);
-    expect(buildFilmRecords(filmsResponse(), row(["vip", "2d", "vip"]), {})[0]!.availabilityRows).toEqual([
-      { siteId: "s", categories: ["NowShowing"], showtimeAttributeIds: ["2d", "vip"] },
-    ]);
-  });
-});
-
-describe("availability validation", () => {
-  it("rejects malformed rows, wrong container and all-unmatched rows for a populated catalog", () => {
-    const ids = ["HO00000471"];
-    expect(() => validateAvailabilityResponse({ filmAvailabilities: null }, ids)).toThrow("filmAvailabilities must be an array");
-    for (const row of [
-      { filmId: "", siteId: null, categories: [] },
-      { filmId: "HO00000471", siteId: undefined, categories: [] },
-      { filmId: "HO00000471", siteId: "", categories: [] },
-      { filmId: "HO00000471", siteId: null, categories: "NowShowing" },
-      { filmId: "HO00000471", siteId: null, categories: [42] },
-      { filmId: "HO00000471", siteId: null, categories: [], showtimeAttributeIds: [null] },
-    ]) {
-      expect(() => validateAvailabilityResponse({ filmAvailabilities: [row] }, ids)).toThrow("malformed film availability row");
-    }
-    expect(() => validateAvailabilityResponse({ filmAvailabilities: [] }, ids)).toThrow("empty OCAPI availability");
-    expect(() => validateAvailabilityResponse({ filmAvailabilities: [{ filmId: "OTHER", siteId: null, categories: [] }] }, ids)).toThrow("empty OCAPI availability");
-    expect(() => validateAvailabilityResponse({ filmAvailabilities: [] }, [])).not.toThrow();
-    expect(() => validateAvailabilityResponse({ filmAvailabilities: [{ filmId: ids[0], siteId: null, categories: [] }] }, ids)).not.toThrow();
-  });
-});
 
 const filmRec = (id: string, categories: string[], title = id): FilmRecord => ({
   id,
@@ -483,7 +274,7 @@ describe("runLifecycle (full policy)", () => {
     expect(result.ok).toBe(false);
     if (result.ok) throw new Error("expected abort");
     expect(result.abort).toEqual({ kind: "empty-catalog", knownFilms: 1 });
-    expect(lifecycleAbortMessage(result.abort)).toContain("empty OCAPI catalog");
+    expect(lifecycleAbortMessage(result.abort)).toContain("empty website catalog");
   });
 
   it("virgin cold start seeds films but archives nothing", () => {
@@ -579,7 +370,7 @@ describe("runLifecycle (full policy)", () => {
       expect(result.ok).toBe(false);
       if (result.ok) throw new Error("expected abort");
       expect(result.abort).toEqual({ kind: "partial-availability", filmIds: ["A"] });
-      expect(lifecycleAbortMessage(result.abort)).toContain("partial OCAPI availability");
+      expect(lifecycleAbortMessage(result.abort)).toContain("partial website availability");
     }
     const after = runLifecycle(prev, restored, 1, D);
     expect(after.ok).toBe(true);
@@ -889,15 +680,9 @@ describe("announcementType / gainEvents / sanitizeArchivePosts", () => {
         "1:now-in-theaters",
         "3:now-in-theaters",
       ]);
-      // Feed/html regenerated from cleaned archive (no twin, restaged type in title path).
+      // RSS regenerated from cleaned archive (no twin, restaged type in title path).
       const feed = Bun.file(join(docsDir, "feed.xml"));
-      const html = Bun.file(join(docsDir, "index.html"));
       expect(feed.size).toBeGreaterThan(0);
-      expect(html.size).toBeGreaterThan(0);
-      const htmlText = readFileSync(join(docsDir, "index.html"), "utf8");
-      expect(htmlText).toContain("Título actual");
-      expect(htmlText).toContain("Próximos estrenos</h3>");
-      expect((htmlText.match(/<article class="post">/g) ?? [])).toHaveLength(2);
       expect(readFileSync(join(docsDir, "feed.xml"), "utf8")).not.toContain("Preventa abierta:");
     } finally {
       rmSync(root, { recursive: true, force: true });
@@ -1043,100 +828,6 @@ describe("generateFeed", () => {
   });
 });
 
-describe("generateHTML", () => {
-  it("renders reverse-chrono cards with Spanish label", () => {
-    const posts = [
-      {
-        guid: "g1",
-        type: "now-in-theaters" as const,
-        filmId: "HO1",
-        createdAt: "2026-07-01T18:00:00Z",
-        snapshot: {
-          id: "HO1",
-          title: "F9",
-          shortSynopsis: "Sinopsis",
-          releaseDate: "2026-06-18",
-          runtimeInMinutes: 102,
-          censorRating: "",
-          genres: [],
-          director: "",
-          webUrl: "https://www.cinecolombia.com/x/",
-          categories: ["NowShowing"],
-          posterUrl: null,
-        },
-      },
-    ];
-    const html = generateHTML(posts, { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, { films: [posts[0]!.snapshot], tmdbCache: {} });
-    expect(html).toContain("<html lang=\"es-CO\">");
-    expect(html).toContain("Bogotá");
-    expect(html).toContain("CARTELERA");
-    expect(html).toContain("CARTELERA · cartelera reportada");
-    expect(html).toContain("F9");
-    expect(html).toContain('href="https://www.cinecolombia.com/x/"');
-    expect(html).toContain("Ver en CineColombia");
-    expect(html).toContain("sin póster");
-  });
-
-  it("places future-dated NowShowing in upcoming without claiming a screening today", () => {
-    const future = { ...filmRec("F", ["NowShowing"], "Estreno futuro"), releaseDate: "2026-07-02", availabilityRows: [{ siteId: "bogota", categories: ["NowShowing"] }] };
-    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, { films: [future], tmdbCache: {} });
-    expect(html).toContain("Próximos estrenos</h3>");
-    expect(html).not.toContain("Cartelera reportada</h3>");
-    expect(html).toContain("El sitio marcó cartelera con estreno posterior al último cambio del catálogo; no confirma funciones para esa fecha.");
-    expect(html).toContain("Estreno: 2026-07-02");
-    expect(html).not.toContain('<article class="post">');
-    const withBooking = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, {
-      films: [{ ...future, categories: ["AdvanceBooking", "NowShowing"] }], tmdbCache: {},
-    });
-    expect(withBooking).toContain("Preventa reportada");
-  });
-
-  it("uses the last catalog change as the public as-of date without inventing a last check", () => {
-    const future = { ...filmRec("F", ["NowShowing"], "Estreno futuro"), releaseDate: "2026-07-02" };
-    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO" }, {
-      films: [future], tmdbCache: {}, lastRun: "2026-07-01T18:00:00.000Z",
-    });
-    expect(html).toContain("Próximos estrenos</h3>");
-    expect(html).toContain("Último cambio del catálogo:");
-    expect(html).toContain('datetime="2026-07-01T18:00:00.000Z"');
-    expect(html).toContain('href="#historial"');
-  });
-
-  it("distinguishes null-site evidence, explicit no rows, and legacy unknown rows", () => {
-    const known = { ...filmRec("A", ["NowShowing"], "Con sede nula"), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] };
-    const noRows = { ...filmRec("B", ["NowShowing"], "Sin filas"), availabilityRows: [] };
-    const legacy = filmRec("C", ["NowShowing"], "Registro anterior");
-    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, {
-      films: [known, noRows, legacy], tmdbCache: {},
-    });
-    const current = html.slice(html.indexOf('<section class="catalog"'), html.indexOf('<section class="history"'));
-    const playing = current.slice(current.indexOf("Cartelera reportada</h3>"), current.indexOf("</section>"));
-    const uncertain = current.slice(current.indexOf("Disponibilidad sin confirmar</h3>"), current.lastIndexOf("</section>"));
-    expect(playing).toContain("Con sede nula");
-    expect(playing).toContain("Categorías por sede (1)");
-    expect(playing).toContain("Sede no especificada");
-    expect(playing).toContain("<code>NowShowing</code>");
-    expect(playing).toContain("Registro anterior");
-    expect(playing).toContain("sin detalle por sede guardado");
-    expect(playing).not.toContain("Sin filas");
-    expect(uncertain).toContain("Sin filas");
-    expect(uncertain).not.toContain("Registro anterior");
-    expect(uncertain).toContain("Sin filas de disponibilidad en la última consulta; estado sin confirmar.");
-  });
-
-  it("labels soft-missing rows uncertain even when their old categories say NowShowing", () => {
-    const current = { ...filmRec("A", ["NowShowing"], "Ausente"), availabilityRows: [{ siteId: null, categories: ["NowShowing"] }] };
-    const html = generateHTML([], { feedTitle: "Feed", language: "es-CO", asOf: fixedNow() }, {
-      films: [current], tmdbCache: {}, missingRuns: { A: 1 },
-    });
-    expect(html).toContain("Disponibilidad sin confirmar</h3>");
-    expect(html).not.toContain("Cartelera reportada</h3>");
-    expect(html).toContain("No apareció en la última consulta (1 ausencia); disponibilidad sin confirmar.");
-    expect(html).toContain("Última ficha observada");
-    expect(html).toContain("Últimas categorías observadas: <code>NowShowing</code>");
-  });
-});
-
 describe("FEED_LIMIT window", () => {
   const snapshot = (title: string): FilmRecord => ({
     id: "HO1",
@@ -1178,11 +869,6 @@ describe("FEED_LIMIT window", () => {
     expect(xml).not.toContain(oldest.guid);
     expect(xml).not.toContain(`Pronto: ${oldest.snapshot.title}`);
 
-    const html = generateHTML(posts, { feedTitle: "Feed", language: "es-CO" });
-    const articleCount = (html.match(/<article class="post">/g) ?? []).length;
-    expect(articleCount).toBe(FEED_LIMIT);
-    expect(html).toContain(newest.snapshot.title);
-    expect(html).not.toContain(oldest.snapshot.title);
   });
 });
 
@@ -1292,29 +978,6 @@ describe("buildDiscordEmbed", () => {
 // ─── End-to-end scraper run (primary seam) ───────────────────────────────────
 
 describe("failure alerts", () => {
-  it("alerts and preserves all files when an HTTP success body is not a film sitemap", async () => {
-    const dir = mkdtempSync(join(tmpdir(), "cineco-invalid-sitemap-"));
-    const dataDir = join(dir, "data");
-    const docsDir = join(dir, "docs");
-    const messages: string[] = [];
-    try {
-      await main({ dataDir, docsDir, gitPush: false, failureWebhookUrl: "", deps: deps() });
-      const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"),
-        join(docsDir, "feed.xml"), join(docsDir, "index.html")];
-      const before = paths.map((path) => readFileSync(path, "utf8"));
-      for (const body of ["<html><title>Just a moment...</title></html>", "<urlset></urlset>"]) {
-        await expect(main({
-          dataDir, docsDir, gitPush: false, failureWebhookUrl: "https://discord.example/failures",
-          deps: deps({
-            async fetchSitemap() { return body; },
-            async notifyFailure(message) { messages.push(message); },
-          }),
-        })).rejects.toThrow("invalid or empty film sitemap");
-        expect(paths.map((path) => readFileSync(path, "utf8"))).toEqual(before);
-      }
-      expect(messages).toHaveLength(2);
-    } finally { rmSync(dir, { recursive: true, force: true }); }
-  });
 
   it("sends a webhook before the CLI exits unsuccessfully when the website API fails", async () => {
     const dir = mkdtempSync(join(tmpdir(), "cineco-cli-failure-"));
@@ -1358,29 +1021,29 @@ globalThis.fetch = ((url, init) => String(url).startsWith("https://www.cinecolom
     }
   });
 
-  it("alerts on a sitemap failure, redacts credentials, and preserves the error and files", async () => {
+  it("alerts on a catalog failure, redacts credentials, and preserves the error and files", async () => {
     const dir = mkdtempSync(join(tmpdir(), "cineco-failure-"));
     const dataDir = join(dir, "data");
     const docsDir = join(dir, "docs");
     const messages: string[] = [];
     const destinations: string[] = [];
     const webhook = "https://discord.example/api/webhooks/123/private";
-    const failure = new Error(`sitemap -> 403; ${webhook}; api-secret; Bearer private-token`);
+    const failure = new Error(`catalog -> 403; ${webhook}; api-secret; Bearer private-token`);
     try {
       await main({ dataDir, docsDir, gitPush: false, failureWebhookUrl: "", deps: deps() });
       const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"),
-        join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+        join(docsDir, "feed.xml")];
       const before = paths.map((path) => readFileSync(path, "utf8"));
       await expect(main({
         dataDir, docsDir, gitPush: false, failureWebhookUrl: webhook, tmdbApiKey: "api-secret",
         deps: deps({
-          async fetchSitemap() { throw failure; },
+          async fetchCatalog() { throw failure; },
           async notifyFailure(message, url) { messages.push(message); destinations.push(url); },
         }),
       })).rejects.toBe(failure);
       expect(destinations).toEqual([webhook]);
       expect(messages).toHaveLength(1);
-      expect(messages[0]).toContain("sitemap -> 403");
+      expect(messages[0]).toContain("catalog -> 403");
       for (const secret of [webhook, "api-secret", "private-token"]) {
         expect(messages[0]).not.toContain(secret);
       }
@@ -1398,7 +1061,7 @@ globalThis.fetch = ((url, init) => String(url).startsWith("https://www.cinecolom
       await expect(main({
         gitPush: false, notifyWebhookUrl: "https://discord.example/fallback",
         deps: deps({
-          async fetchToken() { throw failure; },
+          async fetchCatalog() { throw failure; },
           async notifyFailure(_message, url) { destinations.push(url); throw new Error(url); },
         }),
       })).rejects.toBe(failure);
@@ -1418,7 +1081,7 @@ globalThis.fetch = ((url, init) => String(url).startsWith("https://www.cinecolom
     try {
       await expect(main({
         gitPush: false, failureWebhookUrl: "", notifyWebhookUrl: "https://discord.example/events",
-        deps: deps({ notifyFailure, async fetchToken() { throw new Error("blocked"); } }),
+        deps: deps({ notifyFailure, async fetchCatalog() { throw new Error("blocked"); } }),
       })).rejects.toThrow("blocked");
       await main({
         dataDir: join(dir, "data"), docsDir: join(dir, "docs"), gitPush: false,
@@ -1435,10 +1098,10 @@ globalThis.fetch = ((url, init) => String(url).startsWith("https://www.cinecolom
       return new Response(null, { status: requests.length === 1 ? 204 : 500 });
     }) as typeof fetch);
     try {
-      await liveDeps.notifyFailure("sitemap -> 403", "https://discord.example/failures");
+      await liveDeps.notifyFailure("catalog -> 403", "https://discord.example/failures");
       const body = JSON.parse(requests[0].body as string);
       expect(requests[0].method).toBe("POST");
-      expect(body.embeds[0].description).toBe("sitemap -> 403");
+      expect(body.embeds[0].description).toBe("catalog -> 403");
       expect(body.embeds[0].timestamp).toBeString();
       expect(body.allowed_mentions).toEqual({ parse: [] });
       expect(requests[0].signal).toBeInstanceOf(AbortSignal);
@@ -1457,7 +1120,7 @@ describe("main (full scraper run)", () => {
   });
   afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
-  it("writes state, posts, feed and html; detects a transition on the next run; idempotent on rerun", async () => {
+  it("writes state, posts, feed; detects a transition on the next run; idempotent on rerun", async () => {
     const dataDir = join(dir, "data");
     const docsDir = join(dir, "docs");
 
@@ -1480,7 +1143,7 @@ describe("main (full scraper run)", () => {
 
     const state = loadState(join(dataDir, "state.json"));
     expect(state.films).toHaveLength(2);
-    // Films sorted by id ascending (OCAPI order is unstable).
+    // Films sorted by id ascending (website order is unstable).
     expect(state.films.map((f) => f.id)).toEqual(["HO00000386", "HO00000471"]);
     expect(state.tmdbCache["HO00000471"]).toEqual({ tmdbId: 1, posterPath: "/abc.jpg" });
     expect(state.lastRun).toBe(fixedNow().toISOString());
@@ -1492,11 +1155,6 @@ describe("main (full scraper run)", () => {
     expect(feed).not.toContain("Pronto: Toy Story 5");
     expect(feed).not.toContain("Pronto: F9");
 
-    const html = await Bun.file(join(docsDir, "index.html")).text();
-    expect(html).toContain("Toy Story 5");
-    expect(html).toContain("F9");
-    expect(html).toContain("Películas registradas");
-    expect(html).not.toContain('<article class="post">');
 
     // Run 2: HO00000471 gains AdvanceBooking -> preventa opens (archived).
     avail = { HO00000471: ["ComingSoon", "AdvanceBooking"], HO00000386: ["NowShowing"] };
@@ -1519,13 +1177,13 @@ describe("main (full scraper run)", () => {
     const statePath = join(dataDir, "state.json");
     await Bun.write(statePath, JSON.stringify({ films: [], tmdbCache: {} }));
     const badDeps = deps({
-      async fetchToken() {
-        throw new Error("cloudflare");
+      async fetchCatalog() {
+        throw new Error("API unavailable");
       },
     });
     await expect(
       main({ dataDir, docsDir, gitPush: false, deps: badDeps }),
-    ).rejects.toThrow("cloudflare");
+    ).rejects.toThrow("API unavailable");
     // The pre-existing state.json is unchanged and no posts were written.
     expect(loadState(statePath).films).toEqual([]);
     expect(loadPosts(join(dataDir, "posts.json")).posts).toEqual([]);
@@ -1871,46 +1529,25 @@ describe("main (full scraper run)", () => {
         feedUrl: "https://x/feed.xml",
         gitPush: false,
         deps: catalogDeps({
-          films: { ...filmsResponse(), films: [] },
+          films: [],
           availability: {},
         }),
       }),
-    ).rejects.toThrow("empty OCAPI catalog");
+    ).rejects.toThrow("empty website catalog");
     expect(loadState(join(dataDir, "state.json")).films).toHaveLength(1);
     expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
   });
 
-  it("aborts malformed and all-unmatched availability before any output changes", async () => {
-    for (const [label, payload] of [
-      ["malformed", { filmAvailabilities: [{ filmId: "HO00000471", siteId: null, categories: [false] }] }],
-      ["unmatched", { filmAvailabilities: [{ filmId: "OTHER", siteId: null, categories: [] }] }],
-      ["empty", { filmAvailabilities: [] }],
-    ] as const) {
-      const dataDir = join(dir, `data-avail-${label}`);
-      const docsDir = join(dir, `docs-avail-${label}`);
-      mkdirSync(dataDir, { recursive: true });
-      mkdirSync(docsDir, { recursive: true });
-      const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
-      const contents = [JSON.stringify({ films: [], tmdbCache: {} }) + "\n", JSON.stringify({ posts: [] }) + "\n", "sentinel-feed\n", "sentinel-html\n"];
-      paths.forEach((path, i) => writeFileSync(path, contents[i]!));
-      await expect(main({ dataDir, docsDir, gitPush: false, deps: deps({
-        async ocapi(_token, path) {
-          return path === "films" ? filmsResponse() : payload;
-        },
-      }) })).rejects.toThrow(label === "malformed" ? "malformed film availability row" : "empty OCAPI availability");
-      paths.forEach((path, i) => expect(readFileSync(path, "utf8")).toBe(contents[i]!));
-    }
-  });
 
   it("rejects an all-empty category response after a previously categorized catalog", async () => {
     const dataDir = join(dir, "data-empty-categories");
     const docsDir = join(dir, "docs-empty-categories");
     await main({ dataDir, docsDir, gitPush: false, deps: catalogDeps() });
-    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml")];
     const before = paths.map((path) => readFileSync(path));
     await expect(main({ dataDir, docsDir, gitPush: false, deps: catalogDeps({
       availability: { HO00000471: [], HO00000386: [] },
-    }) })).rejects.toThrow("empty OCAPI availability categories");
+    }) })).rejects.toThrow("empty website availability categories");
     paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
   });
 
@@ -1926,12 +1563,12 @@ describe("main (full scraper run)", () => {
       deps: catalogDeps({ availability: availabilityMap, notify: rec.notify }),
     });
     await main(options(DEFAULT_AVAIL));
-    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
+    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml")];
     const before = paths.map((path) => readFileSync(path));
     // F9 stays in /films but disappears from availability — truncated, not a NowShowing loss.
     const truncated = { HO00000471: ["ComingSoon"] };
     for (const _ of [1, 2]) {
-      await expect(main(options(truncated))).rejects.toThrow("partial OCAPI availability");
+      await expect(main(options(truncated))).rejects.toThrow("partial website availability");
       paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
     }
     await main(options(DEFAULT_AVAIL));
@@ -1958,38 +1595,6 @@ describe("main (full scraper run)", () => {
     expect(loadPosts(join(dataDir, "posts.json")).posts).toHaveLength(0);
   });
 
-  it("treats omitted and empty showtimeAttributeIds as a quiet identical catalog", async () => {
-    const dataDir = join(dir, "data-attr-shape");
-    const docsDir = join(dir, "docs-attr-shape");
-    const payload = (attrs?: string[]): AvailabilityResponse => ({
-      filmAvailabilities: [
-        { filmId: "HO00000471", siteId: null, categories: ["ComingSoon"], ...(attrs === undefined ? {} : { showtimeAttributeIds: attrs }) },
-        { filmId: "HO00000386", siteId: null, categories: ["NowShowing"], ...(attrs === undefined ? {} : { showtimeAttributeIds: attrs }) },
-      ],
-    });
-    const run = (avail: AvailabilityResponse) => main({
-      dataDir,
-      docsDir,
-      gitPush: false,
-      deps: deps({
-        async ocapi(_t, path) {
-          if (path === "films") return filmsResponse();
-          if (path === "films/availability") return avail;
-          throw new Error(`unexpected path ${path}`);
-        },
-      }),
-    });
-    await run(payload());
-    const paths = [join(dataDir, "state.json"), join(dataDir, "posts.json"), join(docsDir, "feed.xml"), join(docsDir, "index.html")];
-    const before = paths.map((path) => readFileSync(path));
-    const lastRun = loadState(join(dataDir, "state.json")).lastRun;
-    await run(payload([]));
-    expect(loadState(join(dataDir, "state.json")).lastRun).toBe(lastRun);
-    paths.forEach((path, i) => expect(readFileSync(path).equals(before[i]!)).toBe(true));
-    await run(payload(["vip", "2d"]));
-    const rows = loadState(join(dataDir, "state.json")).films.flatMap((f) => f.availabilityRows ?? []);
-    expect(rows.every((row) => JSON.stringify(row.showtimeAttributeIds) === JSON.stringify(["2d", "vip"]))).toBe(true);
-  });
 
   it("updates current metadata without changing archived posts, RSS or notifications", async () => {
     const dataDir = join(dir, "data-metadata");
@@ -1999,8 +1604,8 @@ describe("main (full scraper run)", () => {
     let categories = ["ComingSoon"];
     let day = 1;
     const runDeps = () => catalogDeps({
-      films: () => ({ ...filmsResponse(), films: filmsResponse().films.map((f) =>
-        f.id === "HO00000471" ? { ...f, title: { text: title }, shortSynopsis: { text: title } } : f) }),
+      films: () => fixtureFilms().map((f) =>
+        f.id === "HO00000471" ? { ...f, title, shortSynopsis: title } : f),
       availability: () => ({ HO00000471: categories, HO00000386: ["NowShowing"] }),
       now: () => new Date(`2026-07-0${day}T18:00:00Z`),
       notify: notifier.notify,
@@ -2021,12 +1626,7 @@ describe("main (full scraper run)", () => {
     expect(current.films.find((f) => f.id === "HO00000471")?.title).toBe(title);
     expect(current.lastRun).toBe("2026-07-03T18:00:00.000Z");
     expect(current.lastRun).not.toBe(originalLastRun);
-    const html = readFileSync(join(docsDir, "index.html"), "utf8");
-    expect(html).toContain(title);
-    expect(html).toContain("Ficha actual");
     expect(current.films.find((f) => f.id === "HO00000471")?.shortSynopsis).toBe(title);
-    expect(html).toContain("Título anterior"); // immutable historical card
-    expect((html.match(/<article class="post">/g) ?? [])).toHaveLength(1);
     expect(loadPosts(join(dataDir, "posts.json")).posts[0]!.snapshot.title).toBe("Título anterior");
     expect(readFileSync(join(dataDir, "posts.json")).equals(postsBefore)).toBe(true);
     expect(readFileSync(join(docsDir, "feed.xml")).equals(feedBefore)).toBe(true);
@@ -2039,8 +1639,8 @@ describe("main (full scraper run)", () => {
     let observation = new Date("2026-07-01T18:00:00.000Z");
     const runDeps = () => catalogDeps({
       now: () => observation,
-      films: () => ({ ...filmsResponse(), films: filmsResponse().films.map((f) =>
-        f.id === "HO00000386" ? { ...f, releaseDate: "2026-07-02" } : f) }),
+      films: () => fixtureFilms().map((f) =>
+        f.id === "HO00000386" ? { ...f, releaseDate: "2026-07-02" } : f),
     });
     await main({
       dataDir,
@@ -2053,10 +1653,9 @@ describe("main (full scraper run)", () => {
     const last1 = loadState(join(dataDir, "state.json")).lastRun;
     expect(last1).toBeTruthy();
     const paths = ["state.json", "posts.json"].map((file) => join(dataDir, file))
-      .concat(["feed.xml", "index.html"].map((file) => join(docsDir, file)));
+      .concat(["feed.xml"].map((file) => join(docsDir, file)));
     const snapshot = () => paths.map((path) => ({ bytes: readFileSync(path), mtimeNs: statSync(path, { bigint: true }).mtimeNs }));
     const before = snapshot();
-    expect(before[3]!.bytes.toString()).toContain("Próximos estrenos</h3>");
     observation = new Date("2026-07-03T18:00:00.000Z"); // Cross the release-date boundary on a quiet run.
     const log = spyOn(console, "log").mockImplementation(() => {});
     try {
@@ -2126,22 +1725,7 @@ describe("main (full scraper run)", () => {
         feedUrl: "https://x/feed.xml",
         gitPush: false,
         deps: catalogDeps({
-          films: {
-            films: [
-              {
-                id: survivor.id,
-                hopk: survivor.id,
-                title: { text: survivor.title },
-                shortSynopsis: { text: "" },
-              },
-            ],
-            relatedData: {
-              castAndCrew: [],
-              genres: [],
-              censorRatings: [],
-              events: [],
-            },
-          },
+          films: [survivor],
           availability: { [survivor.id]: ["NowShowing"] },
         }),
       }),

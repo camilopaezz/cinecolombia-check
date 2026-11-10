@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Catalog from "../components/Catalog.astro";
+import History from "../components/History.astro";
+import { state, archive, feedTitle } from "../../site-data";
+import { FEED_LIMIT } from "../../presentation";
+---
+<Layout title={feedTitle}>
+  <header class="head">
+    <div><p class="eyebrow">Colombia · bitácora de cartelera</p><h1>{feedTitle}</h1></div>
+    <div class="aside">Hora de Bogotá (COT, UTC−5)<br />últimos {FEED_LIMIT} eventos<br /><a href={`${import.meta.env.BASE_URL.replace(/\/$/, "")}/feed.xml`}>Suscribirse por RSS</a></div>
+  </header>
+  <nav class="section-nav" aria-label="Secciones"><a href="#catalogo">Catálogo observado</a><a href="#historial">Historial de cambios</a></nav>
+  <Catalog state={state} />
+  <History posts={archive.posts} />
+</Layout>

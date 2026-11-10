@@ -1,9 +1,10 @@
 ---
-import type { Event } from "../../domain";
+import { resolvePoster } from "../../posters";
+import type { Event, State } from "../../domain";
 import { windowNewest, factsLine } from "../../presentation";
 import { bogotaWhen } from "../../site-model";
-interface Props { posts: Event[] }
-const { posts } = Astro.props;
+interface Props { posts: Event[]; tmdbCache: State["tmdbCache"] }
+const { posts, tmdbCache } = Astro.props;
 const codes = { added: "PRONTO · estreno anunciado", "preventa-opens": "PREVENTA · preventa abierta", "now-in-theaters": "CARTELERA · cartelera reportada", removed: "FUERA · ya no disponible" };
 ---
 <section class="history" id="historial" aria-label="Historial de cambios">
@@ -14,9 +15,10 @@ const codes = { added: "PRONTO · estreno anunciado", "preventa-opens": "PREVENT
     <span><b>CARTELERA</b> categoría reportada</span><span><b>FUERA</b> ya no disponible</span>
   </div>
   {windowNewest(posts).map(p => {
+    const poster = resolvePoster(p.snapshot, tmdbCache);
     const when = bogotaWhen(p.createdAt);
     return <article class="post">
-      {p.snapshot.posterUrl ? <img src={p.snapshot.posterUrl} alt={p.snapshot.title} width="92" height="138" loading="lazy" /> : <div class="ph" aria-hidden="true">sin póster</div>}
+      {poster ? <img src={poster} alt={p.snapshot.title} width="92" height="138" loading="lazy" /> : <div class="ph" aria-hidden="true">sin póster</div>}
       <div><p class="code">{codes[p.type]}</p><h2>{p.snapshot.title}</h2>
         {p.snapshot.shortSynopsis && <p class="syn">{p.snapshot.shortSynopsis}</p>}
         <div class="facts">{factsLine(p.snapshot)}{p.snapshot.webUrl && <> · <a href={p.snapshot.webUrl}>Ver en CineColombia</a></>}</div>

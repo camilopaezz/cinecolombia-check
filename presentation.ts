@@ -1,4 +1,5 @@
-import type { Event, EventType, FilmRecord } from "./domain";
+import { resolvePoster } from "./posters";
+import type { Event, EventType, FilmRecord, State } from "./domain";
 
 const EVENT_LABELS: Record<EventType, string> = {
   added: "Pronto",
@@ -73,12 +74,13 @@ export function windowNewest(posts: Event[], limit = FEED_LIMIT): Event[] {
 
 export function generateFeed(
   posts: Event[],
-  opts: { feedTitle: string; feedUrl: string; language: string },
+  opts: { feedTitle: string; feedUrl: string; language: string; tmdbCache?: State["tmdbCache"] },
 ): string {
   const items = windowNewest(posts)
     .map((p) => {
-      const media = p.snapshot.posterUrl
-        ? `\n      <media:content url="${escapeXml(p.snapshot.posterUrl)}" medium="image" />`
+      const poster = resolvePoster(p.snapshot, opts.tmdbCache);
+      const media = poster
+        ? `\n      <media:content url="${escapeXml(poster)}" medium="image" />`
         : "";
       return `    <item>
       <title>${escapeXml(eventTitle(p))}</title>
@@ -122,7 +124,8 @@ export function buildDiscordEmbed(e: Event): Record<string, unknown> {
     footer: { text: bogotaDate(e.createdAt) },
   };
   if (snap.webUrl) embed.url = snap.webUrl;
-  if (snap.posterUrl) embed.image = { url: snap.posterUrl };
+  const poster = resolvePoster(snap);
+  if (poster) embed.image = { url: poster };
   if (facts) embed.fields = [{ name: "Ficha", value: facts, inline: true }];
   return embed;
 }

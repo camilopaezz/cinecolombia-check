@@ -4,6 +4,7 @@
 
 import { existsSync, mkdirSync, readFileSync, renameSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
+import { resolvePoster } from "./posters";
 import { deploySite } from "./deploy";
 import { abortable } from "./deadline";
 import { fetchCatalog, requestCatalog } from "./catalog";
@@ -64,16 +65,16 @@ export async function enrichPosters(
   tmdb: Deps["tmdb"],
   signal?: AbortSignal,
 ): Promise<void> {
-  if (!apiKey) return;
   for (const film of films) {
     signal?.throwIfAborted();
-    if (film.posterUrl) continue; // Prefer the website's own poster.
+    film.posterUrl = resolvePoster(film, cache);
     const cached = cache[film.id];
     if (cached) {
       film.tmdb = cached;
-      film.posterUrl = cached.posterPath ? `https://image.tmdb.org/t/p/w500${cached.posterPath}` : null;
+      film.posterUrl = resolvePoster(film, cache);
       continue;
     }
+    if (film.posterUrl || !apiKey) continue;
     const year = film.releaseDate ? film.releaseDate.slice(0, 4) : null;
     // Poster lookup failures do not invalidate the catalog.
     let result: { tmdbId: number; posterPath: string | null } | null;
@@ -259,6 +260,7 @@ export function runArchiveHygiene(
   const feedTitle = options.feedTitle ?? process.env.FEED_TITLE ?? "CineColombia — Cartelera y Preventa";
 
   const archive = loadPosts(postsPath);
+  const tmdbCache = loadState(join(dataDir, "state.json")).tmdbCache;
   const before = archive.posts.length;
   archive.posts = sanitizeArchivePosts(archive.posts);
   if (archive.pendingNotificationIds) {
@@ -271,7 +273,7 @@ export function runArchiveHygiene(
   ensureDir(dataDir);
   ensureDir(docsDir);
   savePosts(postsPath, archive);
-  atomicWrite(feedPath, generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" }));
+  atomicWrite(feedPath, generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO", tmdbCache }));
 
   return { before, after };
 }
@@ -356,7 +358,7 @@ async function runMain(options: MainOptions, signal: AbortSignal): Promise<void>
     pendingCategoryLosses,
     lastRun,
   };
-  const feed = generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO" });
+  const feed = generateFeed(archive.posts, { feedTitle, feedUrl, language: "es-CO", tmdbCache: prev.tmdbCache });
 
   // Everything succeeded — now persist.
   // Posts before state so a crash mid-write prefers re-emitting events over losing them.

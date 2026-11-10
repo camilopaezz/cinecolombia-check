@@ -12,5 +12,5 @@ import { FEED_LIMIT } from "../../presentation";
   </header>
   <nav class="section-nav" aria-label="Secciones"><a href="#catalogo">Catálogo observado</a><a href="#historial">Historial de cambios</a></nav>
   <Catalog state={state} />
-  <History posts={archive.posts} />
+  <History posts={archive.posts} tmdbCache={state.tmdbCache} />
 </Layout>

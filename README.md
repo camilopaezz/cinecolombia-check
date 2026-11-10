@@ -24,6 +24,11 @@ bun run check                # all tests, type checks, and production build
 
 The national catalog adapter validates website responses with Zod before
 constructing domain records. At most six detail requests run concurrently.
+Poster images remain external links: existing populated TMDB matches are preferred,
+and population looks up uncached films when `TMDB_API_KEY` is configured. Protected
+MovieXchange links are omitted when no usable TMDB match exists. No poster bytes
+are downloaded or cached by the scraper or build.
+
 No homepage token or sitemap is used. The unfiltered `/films` listing returns
 an empty catalog, so the national availability list is the film index.
 

@@ -1,4 +1,5 @@
 ---
+import { resolvePoster } from "../../posters";
 import type { State } from "../../domain";
 import { catalogGroups, bogotaWhen } from "../../site-model";
 import { factsLine } from "../../presentation";
@@ -21,9 +22,11 @@ const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
   {groups.map(group => <section class="catalog-group" data-group={group.title}>
     <h3>{group.title}</h3>
     <ul class="catalog-list">
-      {group.films.map(({ film, future, misses, notes }) => <li class="catalog-row" data-search={`${film.title} ${film.genres.join(" ")}`}>
-        {film.posterUrl
-          ? <img class="catalog-poster" src={film.posterUrl} alt={`Póster de ${film.title}`} width="92" height="138" loading="lazy" decoding="async" />
+      {group.films.map(({ film, future, misses, notes }) => {
+        const poster = resolvePoster(film, state.tmdbCache);
+        return <li class="catalog-row" data-search={`${film.title} ${film.genres.join(" ")}`}>
+        {poster
+          ? <img class="catalog-poster" src={poster} alt={`Póster de ${film.title}`} width="92" height="138" loading="lazy" decoding="async" />
           : <div class="catalog-poster catalog-poster-empty" aria-hidden="true">Sin póster</div>}
         <div class="catalog-content">
         <span>{film.webUrl ? <a href={film.webUrl}>{film.title}</a> : film.title}
@@ -46,7 +49,7 @@ const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
           </div>
         </details>
         </div>
-      </li>)}
+      </li>; })}
     </ul>
   </section>)}
 </section>

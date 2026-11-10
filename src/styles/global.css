@@ -179,3 +179,14 @@ a:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
 .catalog-filters p { color: var(--muted); font-size: .8rem; }
 .skip-link { position: absolute; left: -10000px; }
 .skip-link:focus { left: 1rem; top: .2rem; }
+
+/* Posters stay visible while film details remain collapsible. */
+.catalog-row { grid-template-columns: 92px minmax(0, 1fr); align-items: start; gap: 1rem; padding: .9rem 0; }
+.catalog-poster { width: 92px; height: auto; aspect-ratio: 2 / 3; object-fit: cover; display: block; background: var(--panel); }
+.catalog-poster-empty { display: grid; place-items: center; color: var(--muted); font-size: .75rem; }
+.catalog-content { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(130px, 210px); gap: .35rem .75rem; align-items: baseline; }
+@media (max-width: 640px) {
+  .catalog-row { grid-template-columns: 72px minmax(0, 1fr); gap: .75rem; }
+  .catalog-poster { width: 72px; }
+  .catalog-content { grid-template-columns: minmax(0, 1fr); }
+}

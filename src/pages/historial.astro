@@ -1,0 +1,8 @@
+---
+import Layout from "../layouts/Layout.astro";
+import History from "../components/History.astro";
+import { state, archive, feedTitle } from "../../site-data";
+---
+<Layout title={`Historial de cambios · ${feedTitle}`} heading="Historial de cambios">
+  <History posts={archive.posts} tmdbCache={state.tmdbCache} />
+</Layout>

@@ -6,23 +6,34 @@ import { factsLine } from "../../presentation";
 interface Props { state: State }
 const { state } = Astro.props;
 const groups = catalogGroups(state);
+const tabs = [
+  { id: "cartelera", title: "Cartelera", groups: groups.filter(g => !["Preventa", "Próximos estrenos"].includes(g.title)) },
+  { id: "proximos", title: "Próximos estrenos", groups: groups.filter(g => ["Preventa", "Próximos estrenos"].includes(g.title)) },
+];
 const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
 ---
-<section class="catalog" id="catalogo" aria-label="Catálogo observado">
-  <h2>Películas registradas</h2>
-  <p class="catalog-intro">Categorías informadas por CineColombia. La fecha de estreno no confirma funciones para el día del registro.
-    {changed && <> Último cambio del catálogo: <time datetime={state.lastRun}>{changed.date} {changed.time}</time>. No indica la hora de la última consulta.</>}
-  </p>
+<section class="catalog" id="catalogo" aria-label="Catálogo">
+  <h2>Películas</h2>
+  {changed && <p class="catalog-intro">Último cambio: <time datetime={state.lastRun}>{changed.date} {changed.time}</time></p>}
+  <div class="catalog-tabs" role="tablist" aria-label="Películas" hidden>
+    {tabs.map((tab, index) => <button type="button" role="tab" id={`tab-${tab.id}`} aria-controls={`panel-${tab.id}`} aria-selected={index === 0} tabindex={index === 0 ? 0 : -1}>
+      {tab.title}<span class="tab-count" data-tab-count>{tab.groups.reduce((count, group) => count + group.films.length, 0)}</span>
+    </button>)}
+  </div>
   <form class="catalog-filters" role="search" onsubmit="return false">
-    <label>Buscar película <input id="film-search" type="search" placeholder="Título o género" /></label>
-    <label>Categoría <select id="film-category"><option value="">Todas</option>{groups.map(g => <option>{g.title}</option>)}</select></label>
-    <p id="filter-count" role="status" aria-live="polite">{state.films.length} películas</p>
+    <label class="catalog-search">
+      <span class="sr-only">Buscar película</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg>
+      <input id="film-search" type="search" placeholder="Buscar película…" />
+      <button id="clear-search" type="button" aria-label="Limpiar búsqueda" hidden>×</button>
+    </label>
+    <p id="filter-count" class="sr-only" role="status" aria-live="polite">{state.films.length} películas</p>
   </form>
-  {groups.length === 0 && <p class="catalog-intro">No hay películas registradas.</p>}
-  {groups.map(group => <section class="catalog-group" data-group={group.title}>
-    <h3>{group.title}</h3>
+  {tabs.map(tab => <div id={`panel-${tab.id}`} role="tabpanel" aria-labelledby={`tab-${tab.id}`} tabindex="0" data-catalog-panel={tab.id}>
+  {tab.groups.map(group => <section class="catalog-group" data-group={group.title}>
+    {group.title !== tab.title && <h3>{group.title}</h3>}
     <ul class="catalog-list">
-      {group.films.map(({ film, future, misses, notes }) => {
+      {group.films.map(({ film, future }) => {
         const poster = resolvePoster(film, state.tmdbCache);
         return <li class="catalog-row" data-search={`${film.title} ${film.genres.join(" ")}`}>
         {poster
@@ -30,21 +41,16 @@ const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
           : <div class="catalog-poster catalog-poster-empty" aria-hidden="true">Sin póster</div>}
         <div class="catalog-content">
         <span>{film.webUrl ? <a href={film.webUrl}>{film.title}</a> : film.title}
-          {future && film.categories.includes("AdvanceBooking") && <span class="catalog-badge">Preventa reportada</span>}
+          {future && film.categories.includes("AdvanceBooking") && <span class="catalog-badge">Preventa</span>}
         </span>
-        <small>{film.releaseDate ? `Estreno: ${film.releaseDate}` : "Fecha por confirmar"}{film.availabilityRows === undefined && " · sin detalle por sede guardado"}</small>
-        {notes.length > 0 && <span class="catalog-note">{notes.join(" ")}</span>}
+        <small>{film.releaseDate ? `Estreno: ${film.releaseDate}` : "Fecha por confirmar"}</small>
         <details class="catalog-evidence" open>
-          <summary>{misses ? "Última ficha observada" : "Ficha actual"}</summary>
+          <summary>Ficha técnica</summary>
           <div class="catalog-detail">
             <div>
               {film.shortSynopsis && <p>{film.shortSynopsis}</p>}
-              {factsLine(film) && <p>{factsLine(film)}</p>}
+              {factsLine({ ...film, releaseDate: null }) && <p>{factsLine({ ...film, releaseDate: null })}</p>}
               {film.director && <p>Dirección: {film.director}</p>}
-              <p>{misses ? "Últimas categorías observadas" : "Categorías reportadas"}: <code>{film.categories.join(", ") || "sin categoría"}</code></p>
-              {!!film.availabilityRows?.length && <ul>{film.availabilityRows.map(row => <li>
-                {row.siteId ?? "Disponibilidad nacional"}: <code>{row.categories.join(", ") || "sin categoría"}</code>
-              </li>)}</ul>}
             </div>
           </div>
         </details>
@@ -52,25 +58,66 @@ const changed = state.lastRun ? bogotaWhen(state.lastRun) : null;
       </li>; })}
     </ul>
   </section>)}
+  </div>)}
+  <p id="catalog-empty" hidden>No hay películas que coincidan.</p>
 </section>
 <script>
-  const search = document.querySelector<HTMLInputElement>("#film-search")!;
-  const category = document.querySelector<HTMLSelectElement>("#film-category")!;
+  const catalog = document.querySelector<HTMLElement>("#catalogo")!;
+  const search = catalog.querySelector<HTMLInputElement>("#film-search")!;
+  const tabs = [...catalog.querySelectorAll<HTMLButtonElement>('[role="tab"]')];
+  const panels = [...catalog.querySelectorAll<HTMLElement>("[data-catalog-panel]")];
   const normalize = (text: string) => text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es");
+  let active = 0;
   function filter() {
     const query = normalize(search.value.trim());
     let count = 0;
-    document.querySelectorAll<HTMLElement>("[data-group]").forEach(group => {
-      let visible = 0;
-      group.querySelectorAll<HTMLElement>("[data-search]").forEach(row => {
-        row.hidden = !!(category.value && category.value !== group.dataset.group) || !normalize(row.dataset.search ?? "").includes(query);
-        if (!row.hidden) visible++;
+    panels.forEach((panel, index) => {
+      panel.hidden = index !== active;
+      let matches = 0;
+      panel.querySelectorAll<HTMLElement>("[data-group]").forEach(group => {
+        let visible = 0;
+        group.querySelectorAll<HTMLElement>("[data-search]").forEach(row => {
+          row.hidden = !normalize(row.dataset.search ?? "").includes(query);
+          if (!row.hidden) visible++;
+        });
+        group.hidden = visible === 0;
+        matches += visible;
       });
-      group.hidden = visible === 0;
-      count += visible;
+      tabs[index]!.querySelector("[data-tab-count]")!.textContent = String(matches);
+      if (index === active) count = matches;
     });
-    document.querySelector("#filter-count")!.textContent = `${count} película${count === 1 ? "" : "s"}`;
+    catalog.querySelector<HTMLButtonElement>("#clear-search")!.hidden = search.value.length === 0;
+    catalog.querySelector("#filter-count")!.textContent = `${count} película${count === 1 ? "" : "s"}`;
+    catalog.querySelector<HTMLElement>("#catalog-empty")!.hidden = count > 0;
   }
+  function select(index: number) {
+    active = index;
+    tabs.forEach((tab, i) => {
+      tab.setAttribute("aria-selected", String(i === active));
+      tab.tabIndex = i === active ? 0 : -1;
+    });
+    filter();
+  }
+  tabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => select(index));
+    tab.addEventListener("keydown", event => {
+      let next = index;
+      if (event.key === "ArrowRight") next = (index + 1) % tabs.length;
+      else if (event.key === "ArrowLeft") next = (index + tabs.length - 1) % tabs.length;
+      else if (event.key === "Home") next = 0;
+      else if (event.key === "End") next = tabs.length - 1;
+      else return;
+      event.preventDefault();
+      select(next);
+      tabs[next]!.focus();
+    });
+  });
+  catalog.querySelector<HTMLElement>(".catalog-tabs")!.hidden = false;
   search.addEventListener("input", filter);
-  category.addEventListener("change", filter);
+  catalog.querySelector("#clear-search")!.addEventListener("click", () => {
+    search.value = "";
+    filter();
+    search.focus();
+  });
+  select(0);
 </script>

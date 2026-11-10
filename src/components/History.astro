@@ -5,15 +5,10 @@ import { windowNewest, factsLine } from "../../presentation";
 import { bogotaWhen } from "../../site-model";
 interface Props { posts: Event[]; tmdbCache: State["tmdbCache"] }
 const { posts, tmdbCache } = Astro.props;
-const codes = { added: "PRONTO · estreno anunciado", "preventa-opens": "PREVENTA · preventa abierta", "now-in-theaters": "CARTELERA · cartelera reportada", removed: "FUERA · ya no disponible" };
+const codes = { added: "Próximamente", "preventa-opens": "Preventa abierta", "now-in-theaters": "En cartelera", removed: "Ya no disponible" };
 ---
-<section class="history" id="historial" aria-label="Historial de cambios">
-  <h2>Historial de cambios</h2>
-  <p>Los eventos conservan los datos vistos cuando se registraron; no son el estado actual. CARTELERA indica una categoría reportada, no confirma una función en esa fecha.</p>
-  <div class="legend" aria-label="Leyenda de eventos">
-    <span><b>PRONTO</b> estreno anunciado</span><span><b>PREVENTA</b> boletería abierta</span>
-    <span><b>CARTELERA</b> categoría reportada</span><span><b>FUERA</b> ya no disponible</span>
-  </div>
+<div class="history">
+  {posts.length === 0 && <p>No hay cambios registrados.</p>}
   {windowNewest(posts).map(p => {
     const poster = resolvePoster(p.snapshot, tmdbCache);
     const when = bogotaWhen(p.createdAt);
@@ -26,4 +21,4 @@ const codes = { added: "PRONTO · estreno anunciado", "preventa-opens": "PREVENT
       <time class="when" datetime={p.createdAt}>{when.date}<br />{when.time}</time>
     </article>;
   })}
-</section>
+</div>

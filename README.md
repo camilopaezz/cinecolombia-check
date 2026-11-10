@@ -56,7 +56,7 @@ The scraper fetches and validates a national catalog, calls `runLifecycle`, and
 saves the archive before state. It writes the RSS snapshot, delivers queued
 notifications, and optionally commits and pushes data. It does not build HTML.
 Astro reads committed JSON at build time, renders the catalog and history, and
-produces `/index.html`, `/feed.xml`, and assets without a server runtime.
+produces `/index.html`, `/historial/index.html`, `/feed.xml`, and assets without a server runtime.
 Catalog search and category filtering use a small browser script; the catalog
 and history remain readable with JavaScript disabled.
 

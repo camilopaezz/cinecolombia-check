@@ -24676,6 +24676,291 @@
           "posterPath": "/6ItqVHcsb2swkE7ajS6EVCH2mpd.jpg"
         }
       }
+    },
+    {
+      "guid": "02b25480-808d-42e6-849a-334cb6002a3e",
+      "type": "added",
+      "filmId": "HO00000942",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000942",
+        "title": "Narnia: El Sobrino del Mago",
+        "shortSynopsis": "Dos niños hallan un bosque de estanques que llevan a otros mundos. En una ciudad muerta despiertan a una reina que exterminó a su pueblo y la traen sin querer a Londres.",
+        "releaseDate": "2027-02-11",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Aventura",
+          "Familia",
+          "Fantasía"
+        ],
+        "director": "Greta Gerwig",
+        "webUrl": "https://www.cinecolombia.com/peliculas/narnia-the-magician-s-nephew",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg",
+        "tmdb": {
+          "tmdbId": 1147572,
+          "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "3b811cda-7455-4cc8-8db6-648030802e5a",
+      "type": "now-in-theaters",
+      "filmId": "HO00000902",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000902",
+        "title": "Ebenezer",
+        "shortSynopsis": "Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 115,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Fantasía"
+        ],
+        "director": "Ti West",
+        "webUrl": "https://www.cinecolombia.com/peliculas/ebenezer",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008",
+              "0000000009"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg",
+        "tmdb": {
+          "tmdbId": 1567605,
+          "posterPath": "/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a40fdfd6-508b-49f3-a082-60d63348e1ca",
+      "type": "now-in-theaters",
+      "filmId": "HO00000903",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000903",
+        "title": "Blue Lock",
+        "shortSynopsis": "Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 128,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Acción",
+          "Deporte",
+          "Drama"
+        ],
+        "director": "Yūsuke Taki",
+        "webUrl": "https://www.cinecolombia.com/peliculas/blue-lock",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg",
+        "tmdb": {
+          "tmdbId": 1623376,
+          "posterPath": "/is62bAmW4fHrJtbn0sjxWRb6psq.jpg"
+        }
+      }
+    },
+    {
+      "guid": "08577ce6-9d75-46fa-b602-42652b709654",
+      "type": "now-in-theaters",
+      "filmId": "HO00000926",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000926",
+        "title": "La Posesión de la Bruja",
+        "shortSynopsis": "La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 109,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Awi Suryadi",
+        "webUrl": "https://www.cinecolombia.com/peliculas/perewangan",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "ca641ec5-09aa-49ab-83a2-5b789deeb5c8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000933",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000933",
+        "title": "Cómo Robar un Banco",
+        "shortSynopsis": "Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 122,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "David Leitch",
+        "webUrl": "https://www.cinecolombia.com/peliculas/how-to-rob-a-bank",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+        "tmdb": {
+          "tmdbId": 1437511,
+          "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b47a5fba-5d73-46fa-8dac-78bd79451ef8",
+      "type": "now-in-theaters",
+      "filmId": "HO00000939",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000939",
+        "title": "Babystar",
+        "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 98,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Joscha Bongard",
+        "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg",
+        "tmdb": {
+          "tmdbId": 1356474,
+          "posterPath": "/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8a4f13a2-41e5-48e0-a891-8b6f8bc89a6b",
+      "type": "now-in-theaters",
+      "filmId": "HO00000941",
+      "createdAt": "2026-11-11T05:00:49.188Z",
+      "snapshot": {
+        "id": "HO00000941",
+        "title": "Alix",
+        "shortSynopsis": "En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 123,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Fantasía"
+        ],
+        "director": "Ana María Hermida",
+        "webUrl": "https://www.cinecolombia.com/peliculas/alix",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

@@ -7,6 +7,60 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Narnia: El Sobrino del Mago</title>
+      <link>https://www.cinecolombia.com/peliculas/narnia-the-magician-s-nephew</link>
+      <guid isPermaLink="false">02b25480-808d-42e6-849a-334cb6002a3e</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>Dos niños hallan un bosque de estanques que llevan a otros mundos. En una ciudad muerta despiertan a una reina que exterminó a su pueblo y la traen sin querer a Londres.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Ebenezer</title>
+      <link>https://www.cinecolombia.com/peliculas/ebenezer</link>
+      <guid isPermaLink="false">3b811cda-7455-4cc8-8db6-648030802e5a</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/gnG15MkiNeObCoPbHcLUX4zrNWh.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Blue Lock</title>
+      <link>https://www.cinecolombia.com/peliculas/blue-lock</link>
+      <guid isPermaLink="false">a40fdfd6-508b-49f3-a082-60d63348e1ca</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: La Posesión de la Bruja</title>
+      <link>https://www.cinecolombia.com/peliculas/perewangan</link>
+      <guid isPermaLink="false">08577ce6-9d75-46fa-b602-42652b709654</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.</description>
+    </item>
+    <item>
+      <title>En cartelera: Cómo Robar un Banco</title>
+      <link>https://www.cinecolombia.com/peliculas/how-to-rob-a-bank</link>
+      <guid isPermaLink="false">ca641ec5-09aa-49ab-83a2-5b789deeb5c8</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Babystar</title>
+      <link>https://www.cinecolombia.com/peliculas/babystar</link>
+      <guid isPermaLink="false">b47a5fba-5d73-46fa-8dac-78bd79451ef8</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Alix</title>
+      <link>https://www.cinecolombia.com/peliculas/alix</link>
+      <guid isPermaLink="false">8a4f13a2-41e5-48e0-a891-8b6f8bc89a6b</guid>
+      <pubDate>Wed, 11 Nov 2026 05:00:49 GMT</pubDate>
+      <description>En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.</description>
+    </item>
+    <item>
       <title>En cartelera: Tadeo Jones y la lámpara maravillosa</title>
       <link>https://www.cinecolombia.com/peliculas/tadeo-jones-y-la-lampara-maravillosa</link>
       <guid isPermaLink="false">caa4f97b-e199-468b-a75c-55ae19d4efff</guid>
@@ -739,61 +793,6 @@
       <pubDate>Thu, 22 Oct 2026 23:00:43 GMT</pubDate>
       <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Spider-Man: Brand New Day</title>
-      <link>https://www.cinecolombia.com/films/spider-man-brand-new-day/HO00000600/</link>
-      <guid isPermaLink="false">cd585956-f285-46da-9a17-e18d44fdf69b</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Han pasado cuatro años desde los acontecimientos de Sin regreso a casa, y Peter ahora es un adulto que vive completamente solo.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ct7rSLY6OlQBETxQDzINzkhYIO2.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Invite</title>
-      <link>https://www.cinecolombia.com/films/the-invite/HO00000647/</link>
-      <guid isPermaLink="false">d271bd6b-9324-4990-bbde-b7a44428ecc1</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Joe y Angela viven atrapados en la rutina. Tras invitar a sus vecinos a unos cócteles, descubren que podrían organizar orgías semanales.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vh2ADkA9jem0CJgH7dQjirEiLHK.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Whalefall</title>
-      <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
-      <guid isPermaLink="false">5bd99107-11ab-4f89-8d9f-7a79d063d432</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Fall 2: Deadpoint</title>
-      <link>https://www.cinecolombia.com/films/fall-2-deadpoint/HO00000738/</link>
-      <guid isPermaLink="false">587b9a56-d0ce-4e30-9d37-d90dfe262fab</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>En &apos;Vértigo 2: Punto Muerto&apos;, Jax y Luce escalan las montañas de Tailandia, enfrentando un vacío de 1.500 metros y sus miedos más profundos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p73G56bJGPa5y52cyqWscHR6NnN.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Dead Man&apos;s Wire</title>
-      <link>https://www.cinecolombia.com/films/dead-mans-wire/HO00000747/</link>
-      <guid isPermaLink="false">a83de89f-65cc-42b4-844c-2b0ee71fed2c</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Un hombre armado toma como rehén al presidente de una hipotecaria y lo somete a un peligroso mecanismo que convierte cualquier movimiento en una amenaza mortal.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/19JQnXT21OtH24fBgexkDFVFEoS.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Macbeth</title>
-      <link>https://www.cinecolombia.com/films/macbeth/HO00000762/</link>
-      <guid isPermaLink="false">7ff8d3d2-d126-4603-b3c5-249f1f7b1913</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Verdi&apos;s &apos;Macbeth&apos; con Lise Davidsen y Quinn Kelsey, dirigido por Louisa Proske en su debut en el Met. Ambición, poder y destrucción en 4 actos.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Avengers Endgame Encore</title>
-      <link>https://www.cinecolombia.com/films/avengers-endgame-encore/HO00000765/</link>
-      <guid isPermaLink="false">31281e42-61af-4f02-adfc-bf56104b8a25</guid>
-      <pubDate>Thu, 22 Oct 2026 17:00:40 GMT</pubDate>
-      <description>Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg" medium="image" />
     </item>
   </channel>
 </rss>

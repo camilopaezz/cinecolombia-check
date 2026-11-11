@@ -27,9 +27,11 @@
           ],
           "showtimeAttributeIds": [
             "0000000002",
+            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008",
+            "0000000009",
             "0000000010"
           ]
         }
@@ -134,6 +136,7 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
+            "0000000002",
             "0000000004",
             "0000000007",
             "0000000008"
@@ -241,8 +244,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -276,6 +278,7 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
+            "0000000002",
             "0000000003",
             "0000000004",
             "0000000007",
@@ -1716,6 +1719,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
+            "0000000007",
             "0000000008"
           ]
         }
@@ -1770,13 +1774,21 @@
       "director": "Ti West",
       "webUrl": "https://www.cinecolombia.com/peliculas/ebenezer",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008",
+            "0000000009"
           ]
         }
       ],
@@ -1801,13 +1813,19 @@
       "director": "Yūsuke Taki",
       "webUrl": "https://www.cinecolombia.com/peliculas/blue-lock",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -1992,13 +2010,20 @@
       "director": "Awi Suryadi",
       "webUrl": "https://www.cinecolombia.com/peliculas/perewangan",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2207,13 +2232,20 @@
       "director": "David Leitch",
       "webUrl": "https://www.cinecolombia.com/peliculas/how-to-rob-a-bank",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2411,13 +2443,20 @@
       "director": "Joscha Bongard",
       "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2470,6 +2509,39 @@
       "director": "Ana María Hermida",
       "webUrl": "https://www.cinecolombia.com/peliculas/alix",
       "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000942",
+      "title": "Narnia: El Sobrino del Mago",
+      "shortSynopsis": "Dos niños hallan un bosque de estanques que llevan a otros mundos. En una ciudad muerta despiertan a una reina que exterminó a su pueblo y la traen sin querer a Londres.",
+      "releaseDate": "2027-02-11",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Aventura",
+        "Familia",
+        "Fantasía"
+      ],
+      "director": "Greta Gerwig",
+      "webUrl": "https://www.cinecolombia.com/peliculas/narnia-the-magician-s-nephew",
+      "categories": [
         "ComingSoon"
       ],
       "availabilityRows": [
@@ -2480,7 +2552,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg",
+      "tmdb": {
+        "tmdbId": 1147572,
+        "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -3571,9 +3647,15 @@
     "HO00000940": {
       "tmdbId": 1382513,
       "posterPath": "/o7DvRpbWru66jS9rHbIri3dCyNo.jpg"
+    },
+    "HO00000942": {
+      "tmdbId": 1147572,
+      "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000703": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-10T23:00:49.847Z"
+  "lastRun": "2026-11-11T05:00:49.190Z"
 }

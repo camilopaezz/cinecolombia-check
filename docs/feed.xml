@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Tadeo Jones y la lámpara maravillosa</title>
+      <link>https://www.cinecolombia.com/peliculas/tadeo-jones-y-la-lampara-maravillosa</link>
+      <guid isPermaLink="false">fc577545-ca97-4d0b-bd36-491a5da6c4f9</guid>
+      <pubDate>Wed, 11 Nov 2026 11:00:46 GMT</pubDate>
+      <description>Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Narnia: El Sobrino del Mago</title>
       <link>https://www.cinecolombia.com/peliculas/narnia-the-magician-s-nephew</link>
       <guid isPermaLink="false">02b25480-808d-42e6-849a-334cb6002a3e</guid>
@@ -785,14 +793,6 @@
       <pubDate>Thu, 22 Oct 2026 23:00:43 GMT</pubDate>
       <description>Grace, mujer religiosa, mantiene en penumbra su casa por la sensibilidad a la luz de Anne y Nicholas. Al sospechar que está embrujada, lucha por protegerlos.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Shrek</title>
-      <link>https://www.cinecolombia.com/films/shrek/HO00000930/</link>
-      <guid isPermaLink="false">cc0ffe34-2239-456c-b3bd-b6c2faf2daf3</guid>
-      <pubDate>Thu, 22 Oct 2026 23:00:43 GMT</pubDate>
-      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
     </item>
   </channel>
 </rss>

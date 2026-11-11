@@ -293,41 +293,6 @@
       }
     },
     {
-      "id": "HO00000703",
-      "title": "Tadeo Jones y la lámpara maravillosa",
-      "shortSynopsis": "Tadeo y Sara son ahora padres de Olimpia (Oli), una adorable e intrépida niña de dos años. Y Momia no lleva nada bien haber dejado de ser el centro de atención.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 94,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Comedia",
-        "Familia"
-      ],
-      "director": "Enrique Gato",
-      "webUrl": "https://www.cinecolombia.com/peliculas/tadeo-jones-y-la-lampara-maravillosa",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg",
-      "tmdb": {
-        "tmdbId": 1187326,
-        "posterPath": "/71G1b8bqa7gzP9yU7q2fgNf2t0D.jpg"
-      }
-    },
-    {
       "id": "HO00000704",
       "title": "Angry Birds 3",
       "shortSynopsis": "Esta temporada navideña, un pájaro enojado se enfrentará a su mayor desafío hasta el momento: sobrevivir a la paternidad… ¡mientras salva al mundo!",
@@ -3653,9 +3618,7 @@
       "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000703": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-11T05:00:49.190Z"
+  "lastRun": "2026-11-11T11:00:46.961Z"
 }

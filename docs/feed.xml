@@ -7,6 +7,22 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Coyote vs. Acme</title>
+      <link>https://www.cinecolombia.com/peliculas/coyote-vs-acme</link>
+      <guid isPermaLink="false">d9c42c8b-4208-466f-be8c-38224dadccaa</guid>
+      <pubDate>Thu, 12 Nov 2026 05:00:49 GMT</pubDate>
+      <description>Tras el fracaso de todos los productos ACME en su persecución del Correcaminos, Wile E. Coyote decide demandar a la corporación con ayuda del abogado Kevin Avery.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Shrek</title>
+      <link>https://www.cinecolombia.com/peliculas/shrek</link>
+      <guid isPermaLink="false">d33f82c9-d9bf-4c0d-a116-fa8015d826f9</guid>
+      <pubDate>Thu, 12 Nov 2026 05:00:49 GMT</pubDate>
+      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Avengers Endgame Bonus</title>
       <link>https://www.cinecolombia.com/peliculas/avengers-endgame-encore</link>
       <guid isPermaLink="false">f2d528a1-395b-4391-ae70-21bc97e186da</guid>
@@ -777,22 +793,6 @@
       <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
       <description>Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Relicto</title>
-      <link>https://www.cinecolombia.com/films/relicto/HO00000911/</link>
-      <guid isPermaLink="false">e23ca4c2-0677-4e81-a5a7-778972017789</guid>
-      <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
-      <description>El director sigue el rastro de Sixto Muñoz, «último indio tinigua» de 105 años, por el río Guayabero, con la esperanza de encontrarlo antes de su muerte.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/sTTnQtAmxez5p70okxjlTrpowGc.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Princesa Burro</title>
-      <link>https://www.cinecolombia.com/films/princesa-burro/HO00000908/</link>
-      <guid isPermaLink="false">f5a8c422-b105-403d-868f-4bea90f985d6</guid>
-      <pubDate>Fri, 23 Oct 2026 05:00:44 GMT</pubDate>
-      <description>En un reino donde el amor está prohibido, la princesa Diana desafía al Rey al enamorarse de Lalo. Un brazalete mágico la lleva por mundos paralelos a recuperar su amor.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/rehWwp1zxk0kHEeL7OUikqw3ApE.jpg" medium="image" />
     </item>
   </channel>
 </rss>

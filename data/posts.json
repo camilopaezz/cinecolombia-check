@@ -25043,6 +25043,89 @@
           "posterPath": "/br6krBFpaYmCSglLBWRuhui7tPc.jpg"
         }
       }
+    },
+    {
+      "guid": "d9c42c8b-4208-466f-be8c-38224dadccaa",
+      "type": "removed",
+      "filmId": "HO00000633",
+      "createdAt": "2026-11-12T05:00:49.468Z",
+      "snapshot": {
+        "id": "HO00000633",
+        "title": "Coyote vs. Acme",
+        "shortSynopsis": "Tras el fracaso de todos los productos ACME en su persecución del Correcaminos, Wile E. Coyote decide demandar a la corporación con ayuda del abogado Kevin Avery.",
+        "releaseDate": "2026-08-27",
+        "runtimeInMinutes": 103,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Acción",
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Dave Green",
+        "webUrl": "https://www.cinecolombia.com/peliculas/coyote-vs-acme",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
+        "tmdb": {
+          "tmdbId": 1204680,
+          "posterPath": "/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg"
+        }
+      }
+    },
+    {
+      "guid": "d33f82c9-d9bf-4c0d-a116-fa8015d826f9",
+      "type": "removed",
+      "filmId": "HO00000930",
+      "createdAt": "2026-11-12T05:00:49.468Z",
+      "snapshot": {
+        "id": "HO00000930",
+        "title": "Shrek",
+        "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 90,
+        "censorRating": "Todos",
+        "genres": [
+          "Animación",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Vicky Jenson",
+        "webUrl": "https://www.cinecolombia.com/peliculas/shrek",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
+        "tmdb": {
+          "tmdbId": 808,
+          "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
+        }
+      }
     }
   ]
 }

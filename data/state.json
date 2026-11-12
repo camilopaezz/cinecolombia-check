@@ -150,41 +150,6 @@
       }
     },
     {
-      "id": "HO00000633",
-      "title": "Coyote vs. Acme",
-      "shortSynopsis": "Tras el fracaso de todos los productos ACME en su persecución del Correcaminos, Wile E. Coyote decide demandar a la corporación con ayuda del abogado Kevin Avery.",
-      "releaseDate": "2026-08-27",
-      "runtimeInMinutes": 103,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Acción",
-        "Animación",
-        "Aventura"
-      ],
-      "director": "Dave Green",
-      "webUrl": "https://www.cinecolombia.com/peliculas/coyote-vs-acme",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg",
-      "tmdb": {
-        "tmdbId": 1204680,
-        "posterPath": "/sv6gFggwOOOAMRZssdkNwEIMzCa.jpg"
-      }
-    },
-    {
       "id": "HO00000640",
       "title": "El Gato con Sombrero",
       "shortSynopsis": "Un astuto gato lleva el caos y las travesuras al hogar de dos niños pequeños.",
@@ -210,8 +175,7 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -1707,14 +1671,12 @@
       "director": "Peter Farrelly",
       "webUrl": "https://www.cinecolombia.com/peliculas/i-play-rocky",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1775,14 +1737,12 @@
       "director": "Ti West",
       "webUrl": "https://www.cinecolombia.com/peliculas/ebenezer",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1814,18 +1774,17 @@
       "director": "Yūsuke Taki",
       "webUrl": "https://www.cinecolombia.com/peliculas/blue-lock",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
             "0000000004",
+            "0000000007",
             "0000000008"
           ]
         }
@@ -2011,14 +1970,12 @@
       "director": "Awi Suryadi",
       "webUrl": "https://www.cinecolombia.com/peliculas/perewangan",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2116,42 +2073,6 @@
       }
     },
     {
-      "id": "HO00000930",
-      "title": "Shrek",
-      "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
-      "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 90,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Vicky Jenson",
-      "webUrl": "https://www.cinecolombia.com/peliculas/shrek",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
-      "tmdb": {
-        "tmdbId": 808,
-        "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
-      }
-    },
-    {
       "id": "HO00000931",
       "title": "Wildwood",
       "shortSynopsis": "Tras el secuestro de su hermano bebé por unos cuervos, una adolescente decidida y su inesperado compañero emprenden un rescate en un bosque encantado cerca de Portland.",
@@ -2232,14 +2153,12 @@
       "director": "David Leitch",
       "webUrl": "https://www.cinecolombia.com/peliculas/how-to-rob-a-bank",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2270,14 +2189,12 @@
       "director": "Rob Cohen",
       "webUrl": "https://www.cinecolombia.com/peliculas/the-fast-and-the-furious-25th-anniversary",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2407,14 +2324,12 @@
       "director": "Jared Bush",
       "webUrl": "https://www.cinecolombia.com/peliculas/encanto",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2443,14 +2358,12 @@
       "director": "Joscha Bongard",
       "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2509,14 +2422,12 @@
       "director": "Ana María Hermida",
       "webUrl": "https://www.cinecolombia.com/peliculas/alix",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3654,9 +3565,41 @@
     }
   },
   "missingRuns": {
-    "HO00000633": 1,
-    "HO00000930": 1
+    "HO00000666": 1,
+    "HO00000794": 1,
+    "HO00000822": 1,
+    "HO00000823": 1,
+    "HO00000889": 1,
+    "HO00000924": 1
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-11-11T23:00:46.610Z"
+  "pendingCategoryLosses": {
+    "HO00000894": {
+      "AdvanceBooking": 1
+    },
+    "HO00000902": {
+      "AdvanceBooking": 1
+    },
+    "HO00000903": {
+      "AdvanceBooking": 1
+    },
+    "HO00000926": {
+      "AdvanceBooking": 1
+    },
+    "HO00000933": {
+      "AdvanceBooking": 1
+    },
+    "HO00000934": {
+      "AdvanceBooking": 1
+    },
+    "HO00000938": {
+      "AdvanceBooking": 1
+    },
+    "HO00000939": {
+      "AdvanceBooking": 1
+    },
+    "HO00000941": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-11-12T05:00:49.471Z"
 }

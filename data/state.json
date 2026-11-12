@@ -186,39 +186,6 @@
       }
     },
     {
-      "id": "HO00000666",
-      "title": "Street Fighter",
-      "shortSynopsis": "En 1993, Ryu (Andrew Koji) y Ken Masters (Noah Centineo) son reclutados por Chun-Li para el Torneo Mundial de Guerreros, en medio de una conspiración mortal.",
-      "releaseDate": "2026-10-15",
-      "runtimeInMinutes": 120,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción"
-      ],
-      "director": "Kitao Sakurai",
-      "webUrl": "https://www.cinecolombia.com/peliculas/street-fighter",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg",
-      "tmdb": {
-        "tmdbId": 1153576,
-        "posterPath": "/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg"
-      }
-    },
-    {
       "id": "HO00000698",
       "title": "El Corazón de la Bestia",
       "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
@@ -1255,42 +1222,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000794",
-      "title": "Los Juegos del Hambre: Sinsajo Part 2",
-      "shortSynopsis": "RE-ESTRENO - En la última entrega, Katniss Everdeen (Jennifer Lawrence) lidera la rebelión y emprende una peligrosa misión para enfrentar a Snow y liberar Panem.",
-      "releaseDate": "2026-11-05",
-      "runtimeInMinutes": 137,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Aventura",
-        "Suspenso"
-      ],
-      "director": "Francis Lawrence",
-      "webUrl": "https://www.cinecolombia.com/peliculas/the-hunger-games-mockingjay-part-2",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg",
-      "tmdb": {
-        "tmdbId": 131634,
-        "posterPath": "/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg"
-      }
-    },
-    {
       "id": "HO00000821",
       "title": "Sacrificio: Los Elegidos",
       "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
@@ -1319,77 +1250,6 @@
       "tmdb": {
         "tmdbId": 1284186,
         "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
-      }
-    },
-    {
-      "id": "HO00000822",
-      "title": "Entrega Al Límite",
-      "shortSynopsis": "Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.",
-      "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 97,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Acción",
-        "Comedia",
-        "Suspenso"
-      ],
-      "director": "Scott Waugh",
-      "webUrl": "https://www.cinecolombia.com/peliculas/runner",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg",
-      "tmdb": {
-        "tmdbId": 1386315,
-        "posterPath": "/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg"
-      }
-    },
-    {
-      "id": "HO00000823",
-      "title": "A Cualquier Precio",
-      "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
-      "releaseDate": "2026-11-05",
-      "runtimeInMinutes": 107,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Crimen",
-        "Suspenso"
-      ],
-      "director": "Elegance Bratton",
-      "webUrl": "https://www.cinecolombia.com/peliculas/by-any-means",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
-      "tmdb": {
-        "tmdbId": 1380417,
-        "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
       }
     },
     {
@@ -1622,40 +1482,6 @@
       "tmdb": {
         "tmdbId": 1376415,
         "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
-      }
-    },
-    {
-      "id": "HO00000889",
-      "title": "El Despertar",
-      "shortSynopsis": "En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en 'El Despertar'.",
-      "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 96,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Acción",
-        "Suspenso"
-      ],
-      "director": "Jaime Osorio Marquez",
-      "webUrl": "https://www.cinecolombia.com/peliculas/el-despertar",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg",
-      "tmdb": {
-        "tmdbId": 713704,
-        "posterPath": "/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg"
       }
     },
     {
@@ -1922,40 +1748,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000924",
-      "title": "El Poder de la Red",
-      "shortSynopsis": "Basada en hechos reales, la ingeniera de Facebook Frances Haugen (Madison) recluta al reportero Jeff Horwitz (White) para revelar los secretos mejor guardados de la red.",
-      "releaseDate": "2026-10-22",
-      "runtimeInMinutes": 112,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Biografía",
-        "Drama"
-      ],
-      "director": "Aaron Sorkin",
-      "webUrl": "https://www.cinecolombia.com/peliculas/the-social-reckoning",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg",
-      "tmdb": {
-        "tmdbId": 1281331,
-        "posterPath": "/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg"
-      }
     },
     {
       "id": "HO00000926",
@@ -3564,42 +3356,7 @@
       "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000666": 1,
-    "HO00000794": 1,
-    "HO00000822": 1,
-    "HO00000823": 1,
-    "HO00000889": 1,
-    "HO00000924": 1
-  },
-  "pendingCategoryLosses": {
-    "HO00000894": {
-      "AdvanceBooking": 1
-    },
-    "HO00000902": {
-      "AdvanceBooking": 1
-    },
-    "HO00000903": {
-      "AdvanceBooking": 1
-    },
-    "HO00000926": {
-      "AdvanceBooking": 1
-    },
-    "HO00000933": {
-      "AdvanceBooking": 1
-    },
-    "HO00000934": {
-      "AdvanceBooking": 1
-    },
-    "HO00000938": {
-      "AdvanceBooking": 1
-    },
-    "HO00000939": {
-      "AdvanceBooking": 1
-    },
-    "HO00000941": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-11-12T05:00:49.471Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-11-12T11:00:47.205Z"
 }

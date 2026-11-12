@@ -7,6 +7,54 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Street Fighter</title>
+      <link>https://www.cinecolombia.com/peliculas/street-fighter</link>
+      <guid isPermaLink="false">dab4f586-3960-49a0-9c8b-903f479bd406</guid>
+      <pubDate>Thu, 12 Nov 2026 11:00:47 GMT</pubDate>
+      <description>En 1993, Ryu (Andrew Koji) y Ken Masters (Noah Centineo) son reclutados por Chun-Li para el Torneo Mundial de Guerreros, en medio de una conspiración mortal.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rOH0hMRFJZCMzf6zTUldrbjAmSO.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Los Juegos del Hambre: Sinsajo Part 2</title>
+      <link>https://www.cinecolombia.com/peliculas/the-hunger-games-mockingjay-part-2</link>
+      <guid isPermaLink="false">a866d13f-1dee-4c1d-a8cd-ee1b0d699c59</guid>
+      <pubDate>Thu, 12 Nov 2026 11:00:47 GMT</pubDate>
+      <description>RE-ESTRENO - En la última entrega, Katniss Everdeen (Jennifer Lawrence) lidera la rebelión y emprende una peligrosa misión para enfrentar a Snow y liberar Panem.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/3qQPBc7JVGXJGo0Av5jrqndcdTm.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Entrega Al Límite</title>
+      <link>https://www.cinecolombia.com/peliculas/runner</link>
+      <guid isPermaLink="false">ae1ae8be-cd5e-40f1-8936-aff95d3c3412</guid>
+      <pubDate>Thu, 12 Nov 2026 11:00:47 GMT</pubDate>
+      <description>Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: A Cualquier Precio</title>
+      <link>https://www.cinecolombia.com/peliculas/by-any-means</link>
+      <guid isPermaLink="false">511b5983-1ace-46c4-920c-5a7c0d84b7c9</guid>
+      <pubDate>Thu, 12 Nov 2026 11:00:47 GMT</pubDate>
+      <description>Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: El Despertar</title>
+      <link>https://www.cinecolombia.com/peliculas/el-despertar</link>
+      <guid isPermaLink="false">79a3671b-ce8f-451e-a95b-f63efa4f590b</guid>
+      <pubDate>Thu, 12 Nov 2026 11:00:47 GMT</pubDate>
+      <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: El Poder de la Red</title>
+      <link>https://www.cinecolombia.com/peliculas/the-social-reckoning</link>
+      <guid isPermaLink="false">f3bdde9d-6259-44f3-873e-432236be8973</guid>
+      <pubDate>Thu, 12 Nov 2026 11:00:47 GMT</pubDate>
+      <description>Basada en hechos reales, la ingeniera de Facebook Frances Haugen (Madison) recluta al reportero Jeff Horwitz (White) para revelar los secretos mejor guardados de la red.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/xT7yxocpGjqzalCUTr9IFDf8Oyb.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Coyote vs. Acme</title>
       <link>https://www.cinecolombia.com/peliculas/coyote-vs-acme</link>
       <guid isPermaLink="false">d9c42c8b-4208-466f-be8c-38224dadccaa</guid>
@@ -746,53 +794,6 @@
       <guid isPermaLink="false">c73bf7dc-b2ac-445a-ad8b-5e42af17a77d</guid>
       <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
       <description>El documental retrata a Freddy Rincón, de sus inicios en Buenaventura a leyenda internacional: su paso por Corinthians, su gol a Alemania en Italia 90 y el Real Madrid.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Minotauro</title>
-      <link>https://www.cinecolombia.com/films/minotauro/HO00000917/</link>
-      <guid isPermaLink="false">9b29948a-4a93-4873-bbe2-ce40706ea9a5</guid>
-      <pubDate>Sun, 25 Oct 2026 05:00:44 GMT</pubDate>
-      <description>En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/7XH2vaVsishBS0GuCgO3bOXfCaB.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Forever You Maternal Animal</title>
-      <link>https://www.cinecolombia.com/films/forever-you-maternal-animal/HO00000913/</link>
-      <guid isPermaLink="false">96d09d6e-9008-47a8-b152-4f3c37612fde</guid>
-      <pubDate>Sat, 24 Oct 2026 11:00:40 GMT</pubDate>
-      <description>Tras años en Europa, Elsa regresa a Costa Rica y halla a su hermana aislada y a sus padres absortos en lo suyo. Su vuelta las confronta con lo que aún las une.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Luis Tercero</title>
-      <link>https://www.cinecolombia.com/films/luis-tercero/HO00000914/</link>
-      <guid isPermaLink="false">20a9fad0-dfed-40af-8b53-48f46246894d</guid>
-      <pubDate>Sat, 24 Oct 2026 05:00:44 GMT</pubDate>
-      <description>Luis, jubilado profesor, forma una banda de pensionados que da serenatas mientras choca con su hijo Alejandro, sin saber que la música terminará por unirlos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/p3YAAAhmmcEiWcv09i465LOcf2W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Shrek</title>
-      <link>https://www.cinecolombia.com/films/shrek/HO00000930/</link>
-      <guid isPermaLink="false">5e2180c4-5dba-462c-93ea-08d266f4b461</guid>
-      <pubDate>Fri, 23 Oct 2026 23:00:40 GMT</pubDate>
-      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: I Built a Rocket Imagining Your Arrival?</title>
-      <link>https://www.cinecolombia.com/films/i-built-a-rocket-imagining-your-arrival/HO00000909/</link>
-      <guid isPermaLink="false">23586aee-f363-4101-b1a7-5f7ab6b6d31d</guid>
-      <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
-      <description>Rosa, mujer solitaria, debe recordar un momento feliz durante una resonancia. En su subconsciente viaja con su madre y reconstruye un reencuentro que nunca ocurrió.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/hjf4K7LRJT10V9YvZUCdXp35ip4.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Iluminada</title>
-      <link>https://www.cinecolombia.com/films/iluminada/HO00000910/</link>
-      <guid isPermaLink="false">7cd2f97c-2fbe-4488-b48f-2053774caf73</guid>
-      <pubDate>Fri, 23 Oct 2026 11:00:44 GMT</pubDate>
-      <description>Iluminada tiene visiones y las escribe en diarios. En la periferia de Bogotá conoce a Juan, pero su relación con un extraño no gusta a quienes controlan el barrio.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/xswLPgODWPBQ659MRN62z2dvxfD.jpg" medium="image" />
     </item>
   </channel>
 </rss>

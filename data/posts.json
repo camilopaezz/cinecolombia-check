@@ -25411,6 +25411,47 @@
           "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
         }
       }
+    },
+    {
+      "guid": "837bb6ff-ddde-4cbe-8d4b-45c27eecb716",
+      "type": "removed",
+      "filmId": "HO00000765",
+      "createdAt": "2026-11-12T23:00:50.403Z",
+      "snapshot": {
+        "id": "HO00000765",
+        "title": "Avengers Endgame Bonus",
+        "shortSynopsis": "Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 185,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Ciencia Ficción"
+        ],
+        "director": "Anthony Russo",
+        "webUrl": "https://www.cinecolombia.com/peliculas/avengers-endgame-encore",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+        "tmdb": {
+          "tmdbId": 299534,
+          "posterPath": "/br6krBFpaYmCSglLBWRuhui7tPc.jpg"
+        }
+      }
     }
   ]
 }

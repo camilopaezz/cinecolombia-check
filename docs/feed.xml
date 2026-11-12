@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Avengers Endgame Bonus</title>
+      <link>https://www.cinecolombia.com/peliculas/avengers-endgame-encore</link>
+      <guid isPermaLink="false">837bb6ff-ddde-4cbe-8d4b-45c27eecb716</guid>
+      <pubDate>Thu, 12 Nov 2026 23:00:50 GMT</pubDate>
+      <description>Los Avengers enfrentan a Thanos en el final de la Saga del Infinito. Tras perder a la mitad del universo, se unen para restaurar el orden y traerlos de vuelta.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/br6krBFpaYmCSglLBWRuhui7tPc.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Shrek</title>
       <link>https://www.cinecolombia.com/peliculas/shrek</link>
       <guid isPermaLink="false">3514fa36-3de2-4802-b0e6-2cdde729d506</guid>
@@ -787,14 +795,6 @@
       <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
       <description>Mientras Pablo Milanés enfrenta el final de su vida, su hijo se propone revelar la historia íntima detrás de la voz que definió a una generación en América Latina.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wSWIirnIEMIWCIWdnFZqTdZI3ex.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: La Bola Negra</title>
-      <link>https://www.cinecolombia.com/films/la-bola-negra/HO00000918/</link>
-      <guid isPermaLink="false">f41080bf-8008-496b-9468-5bb522924d0e</guid>
-      <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
-      <description>‘La bola negra’ cuenta la historia de tres hombres conectados por el deseo, el dolor y la herencia a través de tres épocas: 1932, 1937 y 2017.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg" medium="image" />
     </item>
   </channel>
 </rss>

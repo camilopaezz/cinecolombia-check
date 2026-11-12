@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Shrek</title>
+      <link>https://www.cinecolombia.com/peliculas/shrek</link>
+      <guid isPermaLink="false">3514fa36-3de2-4802-b0e6-2cdde729d506</guid>
+      <pubDate>Thu, 12 Nov 2026 17:00:49 GMT</pubDate>
+      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Street Fighter</title>
       <link>https://www.cinecolombia.com/peliculas/street-fighter</link>
       <guid isPermaLink="false">dab4f586-3960-49a0-9c8b-903f479bd406</guid>
@@ -787,13 +795,6 @@
       <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
       <description>‘La bola negra’ cuenta la historia de tres hombres conectados por el deseo, el dolor y la herencia a través de tres épocas: 1932, 1937 y 2017.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/dbpyc3Zo0m4E15XcQ7tTwlLBEtE.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Freddy Eusebio Rincón – El Coloso</title>
-      <link>https://www.cinecolombia.com/films/freddy-eusebio-rincon-el-coloso/HO00000919/</link>
-      <guid isPermaLink="false">c73bf7dc-b2ac-445a-ad8b-5e42af17a77d</guid>
-      <pubDate>Sun, 25 Oct 2026 11:00:45 GMT</pubDate>
-      <description>El documental retrata a Freddy Rincón, de sus inicios en Buenaventura a leyenda internacional: su paso por Corinthians, su gol a Alemania en Italia 90 y el Real Madrid.</description>
     </item>
   </channel>
 </rss>

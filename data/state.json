@@ -1218,6 +1218,41 @@
       }
     },
     {
+      "id": "HO00000823",
+      "title": "A Cualquier Precio",
+      "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
+      "releaseDate": "2026-11-05",
+      "runtimeInMinutes": 107,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Crimen",
+        "Suspenso"
+      ],
+      "director": "Elegance Bratton",
+      "webUrl": "https://www.cinecolombia.com/peliculas/by-any-means",
+      "categories": [
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
+      "tmdb": {
+        "tmdbId": 1380417,
+        "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
+      }
+    },
+    {
       "id": "HO00000824",
       "title": "La Caja del Demonio",
       "shortSynopsis": "Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.\n",
@@ -1393,7 +1428,7 @@
       "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 140,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama"
       ],
@@ -2160,7 +2195,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -2260,6 +2294,33 @@
         "tmdbId": 1147572,
         "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
       }
+    },
+    {
+      "id": "HO00000944",
+      "title": "Las Nuevas Desventuras De Cliff Both",
+      "shortSynopsis": "Hollywood, 1977: Cliff Booth (Brad Pitt) resuelve problemas de estrellas en Las nuevas desventuras de Cliff Booth, de David Fincher. Estreno el 26 de noviembre en IMAX.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 142,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Comedia",
+        "Crimen"
+      ],
+      "director": "David Fincher",
+      "webUrl": "https://www.cinecolombia.com/peliculas/the-further-mis-adventures-of-cliff-booth",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
     }
   ],
   "tmdbCache": {
@@ -3358,5 +3419,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-12T23:00:50.405Z"
+  "lastRun": "2026-11-13T23:00:47.924Z"
 }

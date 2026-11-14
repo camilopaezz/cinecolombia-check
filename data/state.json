@@ -87,7 +87,7 @@
     {
       "id": "HO00000607",
       "title": "La Nueva Focker",
-      "shortSynopsis": "Henry Focker, hijo de Greg y Pam, enfrenta caos familiar al decidir casarse con una mujer obstinada que parece ser su total opuesto.",
+      "shortSynopsis": "Este noviembre, Ben Stiller y Robert De Niro se reúnen con Ariana Grande en La Nueva Focker, nuevo capítulo de La Familia de mi Novia, dirigido por John Hamburg.",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 120,
       "censorRating": "Pendiente",
@@ -1553,7 +1553,7 @@
     {
       "id": "HO00000902",
       "title": "Ebenezer",
-      "shortSynopsis": "Este noviembre, Johnny Depp es Ebenezer Scrooge en ‘Ebenezer’, dirigida por Ti West, con Rupert Grint, Andrea Riseborough, Daisy Ridley, Sam Claflin e Ian McKellen.",
+      "shortSynopsis": "Historia de fantasmas en el Londres de Dickens: un hombre emprende un viaje sobrenatural para enfrentar su pasado, presente y futuro y lucha por una segunda oportunidad.",
       "releaseDate": "2026-11-12",
       "runtimeInMinutes": 115,
       "censorRating": "+7 Años",
@@ -1634,14 +1634,12 @@
       "director": "Julien Condemine",
       "webUrl": "https://www.cinecolombia.com/peliculas/romeo-et-juliette",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3426,6 +3424,10 @@
     }
   },
   "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-11-14T05:00:49.915Z"
+  "pendingCategoryLosses": {
+    "HO00000904": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-11-14T11:00:49.871Z"
 }

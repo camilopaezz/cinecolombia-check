@@ -3424,10 +3424,6 @@
     }
   },
   "missingRuns": {},
-  "pendingCategoryLosses": {
-    "HO00000904": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-11-14T11:00:49.871Z"
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-11-14T17:00:49.556Z"
 }

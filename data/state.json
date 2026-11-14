@@ -1776,7 +1776,11 @@
           ]
         }
       ],
-      "posterUrl": null
+      "posterUrl": "https://image.tmdb.org/t/p/w500/zkLax2tCXjFKDy2r287DnCm045Z.jpg",
+      "tmdb": {
+        "tmdbId": 1280544,
+        "posterPath": "/zkLax2tCXjFKDy2r287DnCm045Z.jpg"
+      }
     },
     {
       "id": "HO00000927",
@@ -3415,9 +3419,13 @@
     "HO00000942": {
       "tmdbId": 1147572,
       "posterPath": "/yrqR0qquy4JOfqZCsFJV7vJoOSh.jpg"
+    },
+    "HO00000926": {
+      "tmdbId": 1280544,
+      "posterPath": "/zkLax2tCXjFKDy2r287DnCm045Z.jpg"
     }
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-13T23:00:47.924Z"
+  "lastRun": "2026-11-14T05:00:49.915Z"
 }

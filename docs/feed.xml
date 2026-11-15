@@ -7,6 +7,13 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Las Nuevas Desventuras De Cliff Both</title>
+      <link>https://www.cinecolombia.com/peliculas/the-further-mis-adventures-of-cliff-booth</link>
+      <guid isPermaLink="false">fc949c58-91bc-49b8-84de-7779f163b305</guid>
+      <pubDate>Sun, 15 Nov 2026 05:00:51 GMT</pubDate>
+      <description>Hollywood, 1977: Cliff Booth (Brad Pitt) resuelve problemas de estrellas en Las nuevas desventuras de Cliff Booth, de David Fincher. Estreno el 26 de noviembre en IMAX.</description>
+    </item>
+    <item>
       <title>En cartelera: A Cualquier Precio</title>
       <link>https://www.cinecolombia.com/peliculas/by-any-means</link>
       <guid isPermaLink="false">2a16e55b-3bd6-4f3a-a555-20fba82d72a6</guid>
@@ -787,14 +794,6 @@
       <pubDate>Mon, 26 Oct 2026 05:00:44 GMT</pubDate>
       <description>Alex, a punto de ser papá, halla viejas fotos familiares que vinculan a su padre con hechos intrigantes de la historia del país y debe enfrentar las sombras del pasado.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Whalefall</title>
-      <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
-      <guid isPermaLink="false">70ec9171-605b-46a7-9692-643d110aef0a</guid>
-      <pubDate>Sun, 25 Oct 2026 23:00:40 GMT</pubDate>
-      <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
     </item>
   </channel>
 </rss>

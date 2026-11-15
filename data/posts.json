@@ -25526,6 +25526,46 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "fc949c58-91bc-49b8-84de-7779f163b305",
+      "type": "now-in-theaters",
+      "filmId": "HO00000944",
+      "createdAt": "2026-11-15T05:00:51.439Z",
+      "snapshot": {
+        "id": "HO00000944",
+        "title": "Las Nuevas Desventuras De Cliff Both",
+        "shortSynopsis": "Hollywood, 1977: Cliff Booth (Brad Pitt) resuelve problemas de estrellas en Las nuevas desventuras de Cliff Booth, de David Fincher. Estreno el 26 de noviembre en IMAX.",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 142,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Comedia",
+          "Crimen"
+        ],
+        "director": "David Fincher",
+        "webUrl": "https://www.cinecolombia.com/peliculas/the-further-mis-adventures-of-cliff-booth",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008",
+              "0000000010"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

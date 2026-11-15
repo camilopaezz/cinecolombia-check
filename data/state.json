@@ -2312,13 +2312,20 @@
       "director": "David Fincher",
       "webUrl": "https://www.cinecolombia.com/peliculas/the-further-mis-adventures-of-cliff-booth",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008",
+            "0000000010"
           ]
         }
       ],
@@ -3425,5 +3432,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-14T17:00:49.556Z"
+  "lastRun": "2026-11-15T05:00:51.442Z"
 }

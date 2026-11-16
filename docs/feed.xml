@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: Romeo y Julieta</title>
+      <link>https://www.cinecolombia.com/peliculas/romeo-et-juliette</link>
+      <guid isPermaLink="false">245e1f84-ae86-4022-a3c8-b063b3d2c1ae</guid>
+      <pubDate>Mon, 16 Nov 2026 05:00:48 GMT</pubDate>
+      <description>Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Las Nuevas Desventuras De Cliff Both</title>
       <link>https://www.cinecolombia.com/peliculas/the-further-mis-adventures-of-cliff-booth</link>
       <guid isPermaLink="false">fc949c58-91bc-49b8-84de-7779f163b305</guid>
@@ -786,14 +794,6 @@
       <guid isPermaLink="false">ed725be3-3334-47ac-a6c0-87b89ac5dd87</guid>
       <pubDate>Mon, 26 Oct 2026 05:00:44 GMT</pubDate>
       <description>Todo comenzó por el fin’ es el autorretrato del Grupo de Cali, cuyo cine marcó la historia colombiana, y la historia clínica de su realizador, un sobreviviente.</description>
-    </item>
-    <item>
-      <title>Ya no disponible: Álbum de familia</title>
-      <link>https://www.cinecolombia.com/films/album-de-familia/HO00000921/</link>
-      <guid isPermaLink="false">98916ae1-216e-42d1-b453-f0cb53021d32</guid>
-      <pubDate>Mon, 26 Oct 2026 05:00:44 GMT</pubDate>
-      <description>Alex, a punto de ser papá, halla viejas fotos familiares que vinculan a su padre con hechos intrigantes de la historia del país y debe enfrentar las sombras del pasado.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/8qzMxhEatnTf70NjkdUtgTqiKO3.jpg" medium="image" />
     </item>
   </channel>
 </rss>

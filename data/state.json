@@ -1622,39 +1622,6 @@
       }
     },
     {
-      "id": "HO00000904",
-      "title": "Romeo y Julieta",
-      "shortSynopsis": "Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible",
-      "releaseDate": "2026-11-14",
-      "runtimeInMinutes": 155,
-      "censorRating": "Contenido",
-      "genres": [
-        "Ballet"
-      ],
-      "director": "Julien Condemine",
-      "webUrl": "https://www.cinecolombia.com/peliculas/romeo-et-juliette",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg",
-      "tmdb": {
-        "tmdbId": 1779098,
-        "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
-      }
-    },
-    {
       "id": "HO00000905",
       "title": "El Lago de los Cisnes",
       "shortSynopsis": "El lago de los cisnes’, con música de Tchaikovsky y coreografía de Nureyev para la Ópera de París: Sigfrido promete amor a Odette, pero Odile pone a prueba su juramento.",
@@ -3430,9 +3397,7 @@
       "posterPath": "/zkLax2tCXjFKDy2r287DnCm045Z.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000904": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-15T23:00:50.098Z"
+  "lastRun": "2026-11-16T05:00:48.258Z"
 }

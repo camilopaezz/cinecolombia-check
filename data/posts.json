@@ -25566,6 +25566,45 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "245e1f84-ae86-4022-a3c8-b063b3d2c1ae",
+      "type": "removed",
+      "filmId": "HO00000904",
+      "createdAt": "2026-11-16T05:00:48.256Z",
+      "snapshot": {
+        "id": "HO00000904",
+        "title": "Romeo y Julieta",
+        "shortSynopsis": "Romeo y Julieta, de Shakespeare, se vuelve ballet con coreografía de Nureyev y música de Prokófiev, en la Ópera de París: deseo, juventud y una pasión imposible",
+        "releaseDate": "2026-11-14",
+        "runtimeInMinutes": 155,
+        "censorRating": "Contenido",
+        "genres": [
+          "Ballet"
+        ],
+        "director": "Julien Condemine",
+        "webUrl": "https://www.cinecolombia.com/peliculas/romeo-et-juliette",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg",
+        "tmdb": {
+          "tmdbId": 1779098,
+          "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
+        }
+      }
     }
   ]
 }

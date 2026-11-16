@@ -25605,6 +25605,74 @@
           "posterPath": "/hZlN6wGMXxZq1Iezlak04Nh6W0V.jpg"
         }
       }
+    },
+    {
+      "guid": "e6846ec5-d3de-4a69-a325-9245938d1ab6",
+      "type": "added",
+      "filmId": "HO00000945",
+      "createdAt": "2026-11-16T17:00:50.351Z",
+      "snapshot": {
+        "id": "HO00000945",
+        "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+        "shortSynopsis": "En Halloween, Shaun se vuelve científico loco tras destruirse el huerto de calabazas y sus experimentos se descontrolan. Sin el Granjero, deberá salvar la granja.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 80,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Steve Cox",
+        "webUrl": "https://www.cinecolombia.com/peliculas/shaun-the-sheep-the-beast-of-mossy-bottom",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+        "tmdb": {
+          "tmdbId": 1477104,
+          "posterPath": "/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg"
+        }
+      }
+    },
+    {
+      "guid": "f7c3d347-b096-4bd1-88e3-dc3920133e5c",
+      "type": "added",
+      "filmId": "HO00000946",
+      "createdAt": "2026-11-16T17:00:50.351Z",
+      "snapshot": {
+        "id": "HO00000946",
+        "title": "Gringolandia No Es Como La Pintan",
+        "shortSynopsis": "En una cárcel de inmigración de EE. UU., latinos a la espera de ser deportados comparten su “sueño americano”. La llegada de Aníbal, asesino mexicano, lo cambia todo.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Ángel Ayllón",
+        "webUrl": "https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

@@ -7,6 +7,21 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Shaun the Sheep: The Beast of Mossy Bottom</title>
+      <link>https://www.cinecolombia.com/peliculas/shaun-the-sheep-the-beast-of-mossy-bottom</link>
+      <guid isPermaLink="false">e6846ec5-d3de-4a69-a325-9245938d1ab6</guid>
+      <pubDate>Mon, 16 Nov 2026 17:00:50 GMT</pubDate>
+      <description>En Halloween, Shaun se vuelve científico loco tras destruirse el huerto de calabazas y sus experimentos se descontrolan. Sin el Granjero, deberá salvar la granja.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Gringolandia No Es Como La Pintan</title>
+      <link>https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan</link>
+      <guid isPermaLink="false">f7c3d347-b096-4bd1-88e3-dc3920133e5c</guid>
+      <pubDate>Mon, 16 Nov 2026 17:00:50 GMT</pubDate>
+      <description>En una cárcel de inmigración de EE. UU., latinos a la espera de ser deportados comparten su “sueño americano”. La llegada de Aníbal, asesino mexicano, lo cambia todo.</description>
+    </item>
+    <item>
       <title>Ya no disponible: Romeo y Julieta</title>
       <link>https://www.cinecolombia.com/peliculas/romeo-et-juliette</link>
       <guid isPermaLink="false">245e1f84-ae86-4022-a3c8-b063b3d2c1ae</guid>
@@ -779,21 +794,6 @@
       <description>La primera transmisión en vivo de BTS desde Sudamérica: vive el WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde Buenos Aires, Argentina.
 </description>
       <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: An Incomplete Calendar</title>
-      <link>https://www.cinecolombia.com/films/an-incomplete-calendar/HO00000912/</link>
-      <guid isPermaLink="false">f88a0f4b-f28e-41cb-83d0-d45e3dbbfb75</guid>
-      <pubDate>Mon, 26 Oct 2026 05:00:44 GMT</pubDate>
-      <description>Rhymes and Songs for OPEC, disco de 1980 del coro de la UCV, replantea el petróleo como herramienta política al servicio de las luchas de liberación palestinas.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/87K75ja7otPHcjiqcaaHiLDsv6i.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Todo comenzó por el fin</title>
-      <link>https://www.cinecolombia.com/films/todo-comenzo-por-el-fin/HO00000915/</link>
-      <guid isPermaLink="false">ed725be3-3334-47ac-a6c0-87b89ac5dd87</guid>
-      <pubDate>Mon, 26 Oct 2026 05:00:44 GMT</pubDate>
-      <description>Todo comenzó por el fin’ es el autorretrato del Grupo de Cali, cuyo cine marcó la historia colombiana, y la historia clínica de su realizador, un sobreviviente.</description>
     </item>
   </channel>
 </rss>

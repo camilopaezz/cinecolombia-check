@@ -25673,6 +25673,72 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "0db1a00c-8d75-4b98-abd5-b248c9efabac",
+      "type": "added",
+      "filmId": "HO00000947",
+      "createdAt": "2026-11-17T05:00:51.789Z",
+      "snapshot": {
+        "id": "HO00000947",
+        "title": "El Vientre del Diablo",
+        "shortSynopsis": "Desesperada por no poder tener hijos, una mujer recurre a un pacto de brujería prohibido y se embaraza, pero su familia cae en una oscura y terrorífica maldición.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 80,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Dogukan Misir",
+        "webUrl": "https://www.cinecolombia.com/peliculas/cahim",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg",
+        "tmdb": {
+          "tmdbId": 1482257,
+          "posterPath": "/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg"
+        }
+      }
+    },
+    {
+      "guid": "a498d6e2-cc25-42ff-971d-68da4bb695a7",
+      "type": "added",
+      "filmId": "HO00000948",
+      "createdAt": "2026-11-17T05:00:51.789Z",
+      "snapshot": {
+        "id": "HO00000948",
+        "title": "Tafiti y sus Amigos",
+        "shortSynopsis": "Tafiti, joven suricata, parte sola en busca de una flor mítica del desierto para salvar a su abuelo, mordido por una serpiente tras la visita del cerdo salvaje Bristles.",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 81,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación"
+        ],
+        "director": "Nina Wels",
+        "webUrl": "https://www.cinecolombia.com/peliculas/tafiti-across-the-desert",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

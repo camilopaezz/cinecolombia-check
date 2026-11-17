@@ -2130,8 +2130,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -2300,7 +2299,7 @@
     },
     {
       "id": "HO00000945",
-      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "title": "Shaun, el cordero: El monstruo de Mossy Bottom",
       "shortSynopsis": "En Halloween, Shaun se vuelve científico loco tras destruirse el huerto de calabazas y sus experimentos se descontrolan. Sin el Granjero, deberá salvar la granja.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 80,
@@ -2341,6 +2340,60 @@
       ],
       "director": "Ángel Ayllón",
       "webUrl": "https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000947",
+      "title": "El Vientre del Diablo",
+      "shortSynopsis": "Desesperada por no poder tener hijos, una mujer recurre a un pacto de brujería prohibido y se embaraza, pero su familia cae en una oscura y terrorífica maldición.",
+      "releaseDate": "2026-11-19",
+      "runtimeInMinutes": 80,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Dogukan Misir",
+      "webUrl": "https://www.cinecolombia.com/peliculas/cahim",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg",
+      "tmdb": {
+        "tmdbId": 1482257,
+        "posterPath": "/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg"
+      }
+    },
+    {
+      "id": "HO00000948",
+      "title": "Tafiti y sus Amigos",
+      "shortSynopsis": "Tafiti, joven suricata, parte sola en busca de una flor mítica del desierto para salvar a su abuelo, mordido por una serpiente tras la visita del cerdo salvaje Bristles.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 81,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación"
+      ],
+      "director": "Nina Wels",
+      "webUrl": "https://www.cinecolombia.com/peliculas/tafiti-across-the-desert",
       "categories": [
         "ComingSoon"
       ],
@@ -3455,9 +3508,13 @@
     "HO00000945": {
       "tmdbId": 1477104,
       "posterPath": "/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg"
+    },
+    "HO00000947": {
+      "tmdbId": 1482257,
+      "posterPath": "/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg"
     }
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-16T17:00:50.353Z"
+  "lastRun": "2026-11-17T05:00:51.792Z"
 }

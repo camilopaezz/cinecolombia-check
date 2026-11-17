@@ -1287,7 +1287,7 @@
       "title": "Avengers: Doomsday",
       "shortSynopsis": "En 'Avengers: Doomsday', héroes de tres universos distintos chocan en un curso mortal y enfrentan una amenaza existencial sin precedentes.\n",
       "releaseDate": "2026-12-17",
-      "runtimeInMinutes": 166,
+      "runtimeInMinutes": 151,
       "censorRating": "+12 Años",
       "genres": [
         "Acción",
@@ -3516,5 +3516,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-17T05:00:51.792Z"
+  "lastRun": "2026-11-17T23:00:49.466Z"
 }

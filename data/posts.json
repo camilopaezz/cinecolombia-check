@@ -26312,6 +26312,47 @@
           "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
         }
       }
+    },
+    {
+      "guid": "3bffe6d0-48a7-4788-9a58-3e14f96d6954",
+      "type": "now-in-theaters",
+      "filmId": "HO00000947",
+      "createdAt": "2026-11-18T23:00:26.346Z",
+      "snapshot": {
+        "id": "HO00000947",
+        "title": "El Vientre del Diablo",
+        "shortSynopsis": "Desesperada por no poder tener hijos, una mujer recurre a un pacto de brujería prohibido y se embaraza, pero su familia cae en una oscura y terrorífica maldición.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 82,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Dogukan Misir",
+        "webUrl": "https://www.cinecolombia.com/peliculas/cahim",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg",
+        "tmdb": {
+          "tmdbId": 1482257,
+          "posterPath": "/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg"
+        }
+      }
     }
   ]
 }

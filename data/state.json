@@ -89,8 +89,8 @@
       "title": "La Nueva Focker",
       "shortSynopsis": "Este noviembre, Ben Stiller y Robert De Niro se reúnen con Ariana Grande en La Nueva Focker, nuevo capítulo de La Familia de mi Novia, dirigido por John Hamburg.",
       "releaseDate": "2026-11-26",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 105,
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia"
       ],
@@ -208,7 +208,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008"
@@ -292,7 +291,7 @@
       "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 100,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Drama"
       ],
@@ -762,7 +761,8 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007"
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1258,7 +1258,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -1597,7 +1596,6 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
             "0000000008"
           ]
         }
@@ -1895,8 +1893,8 @@
       "title": "Hechizo: Bienvenidos a Hexe",
       "shortSynopsis": "Billie, una adolescente impulsiva y poco convencional, desata accidentalmente unos poderes mágicos secretos y sale disparada de los suburbios hacia un reino mágico",
       "releaseDate": "2026-11-26",
-      "runtimeInMinutes": 103,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 109,
+      "censorRating": "Todos",
       "genres": [
         "Animación",
         "Aventura",
@@ -2365,13 +2363,19 @@
       "director": "Dogukan Misir",
       "webUrl": "https://www.cinecolombia.com/peliculas/cahim",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -3778,7 +3782,11 @@
       "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000887": 1,
+    "HO00000930": 1,
+    "HO00000938": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-18T17:00:51.279Z"
+  "lastRun": "2026-11-18T23:00:26.349Z"
 }

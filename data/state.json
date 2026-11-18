@@ -741,7 +741,7 @@
       "shortSynopsis": "Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 82,
-      "censorRating": "Pendiente",
+      "censorRating": "+18 Años",
       "genres": [
         "Fantasía",
         "Suspenso",
@@ -2327,7 +2327,7 @@
       "shortSynopsis": "En una cárcel de inmigración de EE. UU., latinos a la espera de ser deportados comparten su “sueño americano”. La llegada de Aníbal, asesino mexicano, lo cambia todo.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Comedia"
       ],
@@ -2357,8 +2357,8 @@
       "title": "El Vientre del Diablo",
       "shortSynopsis": "Desesperada por no poder tener hijos, una mujer recurre a un pacto de brujería prohibido y se embaraza, pero su familia cae en una oscura y terrorífica maldición.",
       "releaseDate": "2026-11-19",
-      "runtimeInMinutes": 80,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 82,
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -2442,7 +2442,7 @@
       "shortSynopsis": "Una antigua epopeya cuenta cómo el matrimonio y el exilio de un joven príncipe y una princesa inician un viaje legendario de amor, deber y destino ante grandes desafíos.",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 195,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Acción",
         "Aventura",
@@ -3780,5 +3780,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-18T11:00:50.637Z"
+  "lastRun": "2026-11-18T17:00:51.279Z"
 }

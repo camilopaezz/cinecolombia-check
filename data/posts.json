@@ -25739,6 +25739,540 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "21acc7e6-32da-4ea7-8741-f801406a2720",
+      "type": "added",
+      "filmId": "HO00000949",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000949",
+        "title": "¡Behemoth! Una vida. En piezas.",
+        "shortSynopsis": "Tras 20 años recorriendo el mundo, el violonchelista Alex Serian (Pedro Pascal) vuelve a Los Ángeles, donde la música, eje de su vida, lo lleva a una aventura única.",
+        "releaseDate": "2026-12-03",
+        "runtimeInMinutes": 124,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Música"
+        ],
+        "director": "Tony Gilroy",
+        "webUrl": "https://www.cinecolombia.com/peliculas/behemoth",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/51kfJbUK3Hf7Wk7KFRceiHNgU09.jpg",
+        "tmdb": {
+          "tmdbId": 1452168,
+          "posterPath": "/51kfJbUK3Hf7Wk7KFRceiHNgU09.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6a7a79a3-b7c3-4bed-8e2c-c3804c5dae4c",
+      "type": "added",
+      "filmId": "HO00000950",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000950",
+        "title": "Ramayana",
+        "shortSynopsis": "Una antigua epopeya cuenta cómo el matrimonio y el exilio de un joven príncipe y una princesa inician un viaje legendario de amor, deber y destino ante grandes desafíos.",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 195,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Nitesh Tiwari",
+        "webUrl": "https://www.cinecolombia.com/peliculas/ramayana-rise-of-a-legend",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+        "tmdb": {
+          "tmdbId": 656908,
+          "posterPath": "/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg"
+        }
+      }
+    },
+    {
+      "guid": "c1c44b0b-2595-49d4-9318-78a43ea95428",
+      "type": "added",
+      "filmId": "HO00000951",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000951",
+        "title": "Cuento Diabólico",
+        "shortSynopsis": "Un grupo de amigos se reúne en una cabaña remota, sin saber que en el bosque asesinos dementes recrean cuentos de hadas retorcidos. No todos tendrán un final feliz.",
+        "releaseDate": "2026-12-03",
+        "runtimeInMinutes": 119,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Laszlo Illes",
+        "webUrl": "https://www.cinecolombia.com/peliculas/ever-after",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "1d1fba84-733f-4dcb-a84d-8a228d68cf6c",
+      "type": "added",
+      "filmId": "HO00000952",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000952",
+        "title": "Buffalo Kids",
+        "shortSynopsis": "Los hermanos huérfanos Tom y Mary llegan a Nueva York en el siglo XIX y viajan de polizones por el Salvaje Oeste, donde conocen a Nick y enfrentan a malvados villanos.",
+        "releaseDate": "2026-12-10",
+        "runtimeInMinutes": 82,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Aventura"
+        ],
+        "director": "Juan Jesús García Galocha",
+        "webUrl": "https://www.cinecolombia.com/peliculas/buffalo-kids",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nRWiUth8Cr5bG9AQkDZHoAS25CW.jpg",
+        "tmdb": {
+          "tmdbId": 1154304,
+          "posterPath": "/nRWiUth8Cr5bG9AQkDZHoAS25CW.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6da17209-f365-4c3c-9b23-105d357e91d1",
+      "type": "added",
+      "filmId": "HO00000953",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000953",
+        "title": "Habitación Nº13",
+        "shortSynopsis": "Joel vuelve a regañadientes a su casa de infancia para ayudar a su madre, que sobrevivió a un ictus tras morir clínicamente, y cree que algo la siguió desde el más allá.",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Mattias Johansson Skoglund",
+        "webUrl": "https://www.cinecolombia.com/peliculas/hemmet",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/rfHw9mo98yeFF5RanQ542i8799O.jpg",
+        "tmdb": {
+          "tmdbId": 1275788,
+          "posterPath": "/rfHw9mo98yeFF5RanQ542i8799O.jpg"
+        }
+      }
+    },
+    {
+      "guid": "0539f380-716b-442e-977a-28b6ef6f1c23",
+      "type": "added",
+      "filmId": "HO00000954",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000954",
+        "title": "Cobarde",
+        "shortSynopsis": "En la Primera Guerra Mundial, el soldado Pierre conoce a Francis, que monta un espectáculo de teatro, y ambos hallan en el arte y su vínculo un escape de la guerra.",
+        "releaseDate": "2027-01-01",
+        "runtimeInMinutes": 120,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Lukas Dhont",
+        "webUrl": "https://www.cinecolombia.com/peliculas/coward",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/uN8NTdWa6TfPCa9kJWwh8fKJn8Z.jpg",
+        "tmdb": {
+          "tmdbId": 1437981,
+          "posterPath": "/uN8NTdWa6TfPCa9kJWwh8fKJn8Z.jpg"
+        }
+      }
+    },
+    {
+      "guid": "adacb7dd-69e9-41f8-9f71-9ba52d2f25af",
+      "type": "added",
+      "filmId": "HO00000955",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000955",
+        "title": "Josephine",
+        "shortSynopsis": "Josephine, de ocho años, presencia por accidente un hecho que cambia su vida. El miedo invade su día a día y sus padres buscan protegerla de las consecuencias.",
+        "releaseDate": "2026-12-03",
+        "runtimeInMinutes": 121,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Crimen",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "Beth de Araújo",
+        "webUrl": "https://www.cinecolombia.com/peliculas/josephine",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/gF32JEJZE3XURwumCSjUTjbZG1l.jpg",
+        "tmdb": {
+          "tmdbId": 1299329,
+          "posterPath": "/gF32JEJZE3XURwumCSjUTjbZG1l.jpg"
+        }
+      }
+    },
+    {
+      "guid": "79a4749c-fe4b-43ae-be4f-49c44796d90d",
+      "type": "added",
+      "filmId": "HO00000956",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000956",
+        "title": "La Psicópata",
+        "shortSynopsis": "En 1858, la institutriz psicópata Winifred Notty llega a Casa Ensor a educar a los niños. Cuando el personal desaparece, los dueños sospechan de sus motivos. ",
+        "releaseDate": "2026-12-03",
+        "runtimeInMinutes": 102,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Zachary Wigon",
+        "webUrl": "https://www.cinecolombia.com/peliculas/victorian-psycho",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
+        "tmdb": {
+          "tmdbId": 1379486,
+          "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "fd0f1ed5-fd67-4481-8104-d853736813a1",
+      "type": "now-in-theaters",
+      "filmId": "HO00000709",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000709",
+        "title": "Buscando un cielo para Rambo",
+        "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 100,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Khaled Mansour",
+        "webUrl": "https://www.cinecolombia.com/peliculas/seeking-haven-for-mr-rambo",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg",
+        "tmdb": {
+          "tmdbId": 1170841,
+          "posterPath": "/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b381517e-7a72-43cf-a79c-845c89ac98d4",
+      "type": "now-in-theaters",
+      "filmId": "HO00000754",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000754",
+        "title": "Pinocho: Sin Cuerdas",
+        "shortSynopsis": "Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 82,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Fantasía",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Rhys Frake-Waterfield",
+        "webUrl": "https://www.cinecolombia.com/peliculas/pinocchio-unstrung",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg",
+        "tmdb": {
+          "tmdbId": 1232569,
+          "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9d53d2af-ef68-4dd0-88dd-a13c4e19575c",
+      "type": "now-in-theaters",
+      "filmId": "HO00000821",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000821",
+        "title": "Sacrificio: Los Elegidos",
+        "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 103,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Romain Gavras",
+        "webUrl": "https://www.cinecolombia.com/peliculas/sacrifice",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg",
+        "tmdb": {
+          "tmdbId": 1284186,
+          "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
+        }
+      }
+    },
+    {
+      "guid": "89b82262-e67a-4a01-bd84-73ea0f73d050",
+      "type": "now-in-theaters",
+      "filmId": "HO00000886",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000886",
+        "title": "Minotauro",
+        "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 140,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Andrey Zviaguintsev",
+        "webUrl": "https://www.cinecolombia.com/peliculas/minotaur",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": null,
+        "tmdb": {
+          "tmdbId": 1781858,
+          "posterPath": null
+        }
+      }
+    },
+    {
+      "guid": "c0c22089-a4d8-45f9-8943-db7a00abed1b",
+      "type": "now-in-theaters",
+      "filmId": "HO00000945",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000945",
+        "title": "Shaun, el cordero: El monstruo de Mossy Bottom",
+        "shortSynopsis": "En Halloween, Shaun se vuelve científico loco tras destruirse el huerto de calabazas y sus experimentos se descontrolan. Sin el Granjero, deberá salvar la granja.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 80,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Animación",
+          "Comedia",
+          "Familia"
+        ],
+        "director": "Steve Cox",
+        "webUrl": "https://www.cinecolombia.com/peliculas/shaun-the-sheep-the-beast-of-mossy-bottom",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg",
+        "tmdb": {
+          "tmdbId": 1477104,
+          "posterPath": "/ajiSFBxo1h0MNbu7q9I5aSVHUgE.jpg"
+        }
+      }
+    },
+    {
+      "guid": "799f0769-0e72-4439-8a6e-c1a5ae1b2530",
+      "type": "now-in-theaters",
+      "filmId": "HO00000946",
+      "createdAt": "2026-11-18T05:00:51.527Z",
+      "snapshot": {
+        "id": "HO00000946",
+        "title": "Gringolandia No Es Como La Pintan",
+        "shortSynopsis": "En una cárcel de inmigración de EE. UU., latinos a la espera de ser deportados comparten su “sueño americano”. La llegada de Aníbal, asesino mexicano, lo cambia todo.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 90,
+        "censorRating": "Pendiente",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Ángel Ayllón",
+        "webUrl": "https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan",
+        "categories": [
+          "AdvanceBooking",
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "AdvanceBooking",
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

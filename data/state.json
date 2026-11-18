@@ -136,7 +136,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000004",
             "0000000007",
             "0000000008"
@@ -209,7 +208,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000003",
             "0000000004",
             "0000000007",
@@ -301,13 +299,19 @@
       "director": "Khaled Mansour",
       "webUrl": "https://www.cinecolombia.com/peliculas/seeking-haven-for-mr-rambo",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -746,13 +750,19 @@
       "director": "Rhys Frake-Waterfield",
       "webUrl": "https://www.cinecolombia.com/peliculas/pinocchio-unstrung",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -1201,13 +1211,20 @@
       "director": "Romain Gavras",
       "webUrl": "https://www.cinecolombia.com/peliculas/sacrifice",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1349,12 +1366,10 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000002",
             "0000000003",
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000010"
+            "0000000008"
           ]
         }
       ],
@@ -1435,13 +1450,19 @@
       "director": "Andrey Zviaguintsev",
       "webUrl": "https://www.cinecolombia.com/peliculas/minotaur",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -1574,8 +1595,7 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -2312,13 +2332,19 @@
       "director": "Steve Cox",
       "webUrl": "https://www.cinecolombia.com/peliculas/shaun-the-sheep-the-beast-of-mossy-bottom",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007"
           ]
         }
       ],
@@ -2341,13 +2367,19 @@
       "director": "Ángel Ayllón",
       "webUrl": "https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -2406,6 +2438,243 @@
         }
       ],
       "posterUrl": null
+    },
+    {
+      "id": "HO00000949",
+      "title": "¡Behemoth! Una vida. En piezas.",
+      "shortSynopsis": "Tras 20 años recorriendo el mundo, el violonchelista Alex Serian (Pedro Pascal) vuelve a Los Ángeles, donde la música, eje de su vida, lo lleva a una aventura única.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 124,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Música"
+      ],
+      "director": "Tony Gilroy",
+      "webUrl": "https://www.cinecolombia.com/peliculas/behemoth",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/51kfJbUK3Hf7Wk7KFRceiHNgU09.jpg",
+      "tmdb": {
+        "tmdbId": 1452168,
+        "posterPath": "/51kfJbUK3Hf7Wk7KFRceiHNgU09.jpg"
+      }
+    },
+    {
+      "id": "HO00000950",
+      "title": "Ramayana",
+      "shortSynopsis": "Una antigua epopeya cuenta cómo el matrimonio y el exilio de un joven príncipe y una princesa inician un viaje legendario de amor, deber y destino ante grandes desafíos.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 195,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Drama"
+      ],
+      "director": "Nitesh Tiwari",
+      "webUrl": "https://www.cinecolombia.com/peliculas/ramayana-rise-of-a-legend",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg",
+      "tmdb": {
+        "tmdbId": 656908,
+        "posterPath": "/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg"
+      }
+    },
+    {
+      "id": "HO00000951",
+      "title": "Cuento Diabólico",
+      "shortSynopsis": "Un grupo de amigos se reúne en una cabaña remota, sin saber que en el bosque asesinos dementes recrean cuentos de hadas retorcidos. No todos tendrán un final feliz.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 119,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama",
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Laszlo Illes",
+      "webUrl": "https://www.cinecolombia.com/peliculas/ever-after",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000952",
+      "title": "Buffalo Kids",
+      "shortSynopsis": "Los hermanos huérfanos Tom y Mary llegan a Nueva York en el siglo XIX y viajan de polizones por el Salvaje Oeste, donde conocen a Nick y enfrentan a malvados villanos.",
+      "releaseDate": "2026-12-10",
+      "runtimeInMinutes": 82,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Animación",
+        "Aventura"
+      ],
+      "director": "Juan Jesús García Galocha",
+      "webUrl": "https://www.cinecolombia.com/peliculas/buffalo-kids",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/nRWiUth8Cr5bG9AQkDZHoAS25CW.jpg",
+      "tmdb": {
+        "tmdbId": 1154304,
+        "posterPath": "/nRWiUth8Cr5bG9AQkDZHoAS25CW.jpg"
+      }
+    },
+    {
+      "id": "HO00000953",
+      "title": "Habitación Nº13",
+      "shortSynopsis": "Joel vuelve a regañadientes a su casa de infancia para ayudar a su madre, que sobrevivió a un ictus tras morir clínicamente, y cree que algo la siguió desde el más allá.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 90,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Mattias Johansson Skoglund",
+      "webUrl": "https://www.cinecolombia.com/peliculas/hemmet",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rfHw9mo98yeFF5RanQ542i8799O.jpg",
+      "tmdb": {
+        "tmdbId": 1275788,
+        "posterPath": "/rfHw9mo98yeFF5RanQ542i8799O.jpg"
+      }
+    },
+    {
+      "id": "HO00000954",
+      "title": "Cobarde",
+      "shortSynopsis": "En la Primera Guerra Mundial, el soldado Pierre conoce a Francis, que monta un espectáculo de teatro, y ambos hallan en el arte y su vínculo un escape de la guerra.",
+      "releaseDate": "2027-01-01",
+      "runtimeInMinutes": 120,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Lukas Dhont",
+      "webUrl": "https://www.cinecolombia.com/peliculas/coward",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/uN8NTdWa6TfPCa9kJWwh8fKJn8Z.jpg",
+      "tmdb": {
+        "tmdbId": 1437981,
+        "posterPath": "/uN8NTdWa6TfPCa9kJWwh8fKJn8Z.jpg"
+      }
+    },
+    {
+      "id": "HO00000955",
+      "title": "Josephine",
+      "shortSynopsis": "Josephine, de ocho años, presencia por accidente un hecho que cambia su vida. El miedo invade su día a día y sus padres buscan protegerla de las consecuencias.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 121,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Crimen",
+        "Drama",
+        "Suspenso"
+      ],
+      "director": "Beth de Araújo",
+      "webUrl": "https://www.cinecolombia.com/peliculas/josephine",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/gF32JEJZE3XURwumCSjUTjbZG1l.jpg",
+      "tmdb": {
+        "tmdbId": 1299329,
+        "posterPath": "/gF32JEJZE3XURwumCSjUTjbZG1l.jpg"
+      }
+    },
+    {
+      "id": "HO00000956",
+      "title": "La Psicópata",
+      "shortSynopsis": "En 1858, la institutriz psicópata Winifred Notty llega a Casa Ensor a educar a los niños. Cuando el personal desaparece, los dueños sospechan de sus motivos. ",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 102,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Suspenso",
+        "Terror"
+      ],
+      "director": "Zachary Wigon",
+      "webUrl": "https://www.cinecolombia.com/peliculas/victorian-psycho",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/2r09thBfqsWkoyGVtrxc00uYpSy.jpg",
+      "tmdb": {
+        "tmdbId": 1379486,
+        "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
+      }
     }
   ],
   "tmdbCache": {
@@ -3512,9 +3781,39 @@
     "HO00000947": {
       "tmdbId": 1482257,
       "posterPath": "/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg"
+    },
+    "HO00000949": {
+      "tmdbId": 1452168,
+      "posterPath": "/51kfJbUK3Hf7Wk7KFRceiHNgU09.jpg"
+    },
+    "HO00000950": {
+      "tmdbId": 656908,
+      "posterPath": "/nzL1ySE6vdmR6RxXhE7gLggkp41.jpg"
+    },
+    "HO00000952": {
+      "tmdbId": 1154304,
+      "posterPath": "/nRWiUth8Cr5bG9AQkDZHoAS25CW.jpg"
+    },
+    "HO00000953": {
+      "tmdbId": 1275788,
+      "posterPath": "/rfHw9mo98yeFF5RanQ542i8799O.jpg"
+    },
+    "HO00000954": {
+      "tmdbId": 1437981,
+      "posterPath": "/uN8NTdWa6TfPCa9kJWwh8fKJn8Z.jpg"
+    },
+    "HO00000955": {
+      "tmdbId": 1299329,
+      "posterPath": "/gF32JEJZE3XURwumCSjUTjbZG1l.jpg"
+    },
+    "HO00000956": {
+      "tmdbId": 1379486,
+      "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
     }
   },
-  "missingRuns": {},
+  "missingRuns": {
+    "HO00000884": 1
+  },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-17T23:00:49.466Z"
+  "lastRun": "2026-11-18T05:00:51.529Z"
 }

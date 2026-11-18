@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: La Exorcista</title>
+      <link>https://www.cinecolombia.com/peliculas/the-containment</link>
+      <guid isPermaLink="false">9b9062ec-521b-4219-a60b-ca00dd1bafc4</guid>
+      <pubDate>Wed, 18 Nov 2026 11:00:50 GMT</pubDate>
+      <description>Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.&quot;</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: ¡Behemoth! Una vida. En piezas.</title>
       <link>https://www.cinecolombia.com/peliculas/behemoth</link>
       <guid isPermaLink="false">21acc7e6-32da-4ea7-8741-f801406a2720</guid>
@@ -785,14 +793,6 @@
       <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
       <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Others</title>
-      <link>https://www.cinecolombia.com/films/the-others/HO00000896/</link>
-      <guid isPermaLink="false">b71096a9-db63-4d49-9a83-ae8f1c851d6a</guid>
-      <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
-      <description>RE-ESTRENO - Grace, una mujer religiosa, protege a sus hijos fotosensibles en una casa antigua en penumbra cuando empieza a sospechar que está embrujada.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/u03kblxsv3zar3Uqt6sRfICU9L6.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -1405,39 +1405,6 @@
       "posterUrl": null
     },
     {
-      "id": "HO00000884",
-      "title": "La Exorcista",
-      "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
-      "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 85,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Jack Zagha Kababie",
-      "webUrl": "https://www.cinecolombia.com/peliculas/the-containment",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg",
-      "tmdb": {
-        "tmdbId": 1703468,
-        "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
-      }
-    },
-    {
       "id": "HO00000886",
       "title": "Minotauro",
       "shortSynopsis": "En Rusia, 2022, Gleb ve desmoronarse su vida al descubrir la infidelidad de su esposa. Atrapado entre el poder y su mundo íntimo, se vuelve violento.",
@@ -3811,9 +3778,7 @@
       "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000884": 1
-  },
+  "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-18T05:00:51.529Z"
+  "lastRun": "2026-11-18T11:00:50.637Z"
 }

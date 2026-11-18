@@ -26273,6 +26273,45 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "9b9062ec-521b-4219-a60b-ca00dd1bafc4",
+      "type": "removed",
+      "filmId": "HO00000884",
+      "createdAt": "2026-11-18T11:00:50.634Z",
+      "snapshot": {
+        "id": "HO00000884",
+        "title": "La Exorcista",
+        "shortSynopsis": "Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.\"",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 85,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Jack Zagha Kababie",
+        "webUrl": "https://www.cinecolombia.com/peliculas/the-containment",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg",
+        "tmdb": {
+          "tmdbId": 1703468,
+          "posterPath": "/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg"
+        }
+      }
     }
   ]
 }

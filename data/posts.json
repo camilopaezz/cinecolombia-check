@@ -26542,6 +26542,324 @@
           "posterPath": "/j9BVYh3zd7hG0Iycem9QOs2moot.jpg"
         }
       }
+    },
+    {
+      "guid": "cc58d61e-7dbf-4ee9-bc61-824875db8339",
+      "type": "removed",
+      "filmId": "HO00000724",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000724",
+        "title": "Madre Siniestra",
+        "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 92,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Rob Savage",
+        "webUrl": "https://www.cinecolombia.com/peliculas/other-mommy",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
+        "tmdb": {
+          "tmdbId": 1400837,
+          "posterPath": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9e9ec835-3e31-44fd-81f8-8d42a4b36767",
+      "type": "removed",
+      "filmId": "HO00000823",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000823",
+        "title": "A Cualquier Precio",
+        "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 107,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "Elegance Bratton",
+        "webUrl": "https://www.cinecolombia.com/peliculas/by-any-means",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
+        "tmdb": {
+          "tmdbId": 1380417,
+          "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
+        }
+      }
+    },
+    {
+      "guid": "97a477cf-d820-4b15-8187-384c1cae4b39",
+      "type": "removed",
+      "filmId": "HO00000903",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000903",
+        "title": "Blue Lock",
+        "shortSynopsis": "Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 128,
+        "censorRating": "+7 Años",
+        "genres": [
+          "Acción",
+          "Deporte",
+          "Drama"
+        ],
+        "director": "Yūsuke Taki",
+        "webUrl": "https://www.cinecolombia.com/peliculas/blue-lock",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg",
+        "tmdb": {
+          "tmdbId": 1623376,
+          "posterPath": "/is62bAmW4fHrJtbn0sjxWRb6psq.jpg"
+        }
+      }
+    },
+    {
+      "guid": "8c7cf6ff-8899-4e60-8668-84c468c7908e",
+      "type": "removed",
+      "filmId": "HO00000926",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000926",
+        "title": "La Posesión de la Bruja",
+        "shortSynopsis": "La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 109,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Awi Suryadi",
+        "webUrl": "https://www.cinecolombia.com/peliculas/perewangan",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/zkLax2tCXjFKDy2r287DnCm045Z.jpg",
+        "tmdb": {
+          "tmdbId": 1280544,
+          "posterPath": "/zkLax2tCXjFKDy2r287DnCm045Z.jpg"
+        }
+      }
+    },
+    {
+      "guid": "4c93ed89-23e6-4ca5-842b-91b680cd5c78",
+      "type": "removed",
+      "filmId": "HO00000933",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000933",
+        "title": "Cómo Robar un Banco",
+        "shortSynopsis": "Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 122,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "David Leitch",
+        "webUrl": "https://www.cinecolombia.com/peliculas/how-to-rob-a-bank",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
+        "tmdb": {
+          "tmdbId": 1437511,
+          "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "b73e8f88-bac9-4a25-81b9-6cddd0ce4baf",
+      "type": "removed",
+      "filmId": "HO00000934",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000934",
+        "title": "Rapido y Furioso",
+        "shortSynopsis": "En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 107,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Crimen",
+          "Suspenso"
+        ],
+        "director": "Rob Cohen",
+        "webUrl": "https://www.cinecolombia.com/peliculas/the-fast-and-the-furious-25th-anniversary",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
+        "tmdb": {
+          "tmdbId": 9615,
+          "posterPath": "/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg"
+        }
+      }
+    },
+    {
+      "guid": "94ef17c2-7aed-4f53-99d0-316ffba52d8e",
+      "type": "removed",
+      "filmId": "HO00000939",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000939",
+        "title": "Babystar",
+        "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 98,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Joscha Bongard",
+        "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg",
+        "tmdb": {
+          "tmdbId": 1356474,
+          "posterPath": "/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "1db3f813-9304-4a5f-ba4e-19d4ffd766dd",
+      "type": "removed",
+      "filmId": "HO00000941",
+      "createdAt": "2026-11-19T11:00:54.089Z",
+      "snapshot": {
+        "id": "HO00000941",
+        "title": "Alix",
+        "shortSynopsis": "En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 123,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Drama",
+          "Fantasía"
+        ],
+        "director": "Ana María Hermida",
+        "webUrl": "https://www.cinecolombia.com/peliculas/alix",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
     }
   ]
 }

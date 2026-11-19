@@ -15,14 +15,12 @@
       "director": "Francis Lawrence",
       "webUrl": "https://www.cinecolombia.com/peliculas/the-hunger-games-sunrise-on-the-reaping",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -298,14 +296,12 @@
       "director": "Khaled Mansour",
       "webUrl": "https://www.cinecolombia.com/peliculas/seeking-haven-for-mr-rambo",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -347,39 +343,6 @@
       "tmdb": {
         "tmdbId": 1016069,
         "posterPath": "/w12EcNornUag78lk5rObTq2W0Ii.jpg"
-      }
-    },
-    {
-      "id": "HO00000724",
-      "title": "Madre Siniestra",
-      "shortSynopsis": "Bela, una niña de 8 años, enfrenta a una siniestra entidad que emerge de su clóset y amenaza cada vez más a su familia.",
-      "releaseDate": "2026-10-08",
-      "runtimeInMinutes": 92,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Rob Savage",
-      "webUrl": "https://www.cinecolombia.com/peliculas/other-mommy",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg",
-      "tmdb": {
-        "tmdbId": 1400837,
-        "posterPath": "/8CXwxpyvQiz9COMLZov4Oae8NKb.jpg"
       }
     },
     {
@@ -749,14 +712,12 @@
       "director": "Rhys Frake-Waterfield",
       "webUrl": "https://www.cinecolombia.com/peliculas/pinocchio-unstrung",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1211,14 +1172,12 @@
       "director": "Romain Gavras",
       "webUrl": "https://www.cinecolombia.com/peliculas/sacrifice",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1232,40 +1191,6 @@
       "tmdb": {
         "tmdbId": 1284186,
         "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
-      }
-    },
-    {
-      "id": "HO00000823",
-      "title": "A Cualquier Precio",
-      "shortSynopsis": "Un conocido asesino de la mafia y un joven agente afroamericano del FBI se unen para investigar asesinatos de líderes de derechos civiles en Misisipi, 1966.",
-      "releaseDate": "2026-11-05",
-      "runtimeInMinutes": 107,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Crimen",
-        "Suspenso"
-      ],
-      "director": "Elegance Bratton",
-      "webUrl": "https://www.cinecolombia.com/peliculas/by-any-means",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg",
-      "tmdb": {
-        "tmdbId": 1380417,
-        "posterPath": "/q0uTeO1wUGcAuJYdplTbnrz5bEq.jpg"
       }
     },
     {
@@ -1415,14 +1340,12 @@
       "director": "Andrey Zviaguintsev",
       "webUrl": "https://www.cinecolombia.com/peliculas/minotaur",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1537,41 +1460,6 @@
       }
     },
     {
-      "id": "HO00000903",
-      "title": "Blue Lock",
-      "shortSynopsis": "Tras la derrota de Japón, 300 delanteros entran a BLUE LOCK, un proyecto extremo para hallar al atacante definitivo. Yoichi Isagi compite por llegar a la cima del fútbol.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 128,
-      "censorRating": "+7 Años",
-      "genres": [
-        "Acción",
-        "Deporte",
-        "Drama"
-      ],
-      "director": "Yūsuke Taki",
-      "webUrl": "https://www.cinecolombia.com/peliculas/blue-lock",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/is62bAmW4fHrJtbn0sjxWRb6psq.jpg",
-      "tmdb": {
-        "tmdbId": 1623376,
-        "posterPath": "/is62bAmW4fHrJtbn0sjxWRb6psq.jpg"
-      }
-    },
-    {
       "id": "HO00000905",
       "title": "El Lago de los Cisnes",
       "shortSynopsis": "El lago de los cisnes’, con música de Tchaikovsky y coreografía de Nureyev para la Ópera de París: Sigfrido promete amor a Odette, pero Odile pone a prueba su juramento.",
@@ -1663,39 +1551,6 @@
         }
       ],
       "posterUrl": null
-    },
-    {
-      "id": "HO00000926",
-      "title": "La Posesión de la Bruja",
-      "shortSynopsis": "La madre de Maya sufre una enfermedad que le abre heridas en la piel. Su tío advierte: deshazte del espejo, pues oculta un pacto con una bruja que amenaza a su familia.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 109,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Suspenso"
-      ],
-      "director": "Awi Suryadi",
-      "webUrl": "https://www.cinecolombia.com/peliculas/perewangan",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/zkLax2tCXjFKDy2r287DnCm045Z.jpg",
-      "tmdb": {
-        "tmdbId": 1280544,
-        "posterPath": "/zkLax2tCXjFKDy2r287DnCm045Z.jpg"
-      }
     },
     {
       "id": "HO00000927",
@@ -1850,78 +1705,6 @@
       }
     },
     {
-      "id": "HO00000933",
-      "title": "Cómo Robar un Banco",
-      "shortSynopsis": "Los ladrones de bancos están publicando sus atracos en las redes sociales, lo que provoca que la policía los persiga.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 122,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Crimen",
-        "Suspenso"
-      ],
-      "director": "David Leitch",
-      "webUrl": "https://www.cinecolombia.com/peliculas/how-to-rob-a-bank",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/iHqjtNxzLmfWei4poUdckHmsBBz.jpg",
-      "tmdb": {
-        "tmdbId": 1437511,
-        "posterPath": "/iHqjtNxzLmfWei4poUdckHmsBBz.jpg"
-      }
-    },
-    {
-      "id": "HO00000934",
-      "title": "Rapido y Furioso",
-      "shortSynopsis": "En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 107,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Acción",
-        "Crimen",
-        "Suspenso"
-      ],
-      "director": "Rob Cohen",
-      "webUrl": "https://www.cinecolombia.com/peliculas/the-fast-and-the-furious-25th-anniversary",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg",
-      "tmdb": {
-        "tmdbId": 9615,
-        "posterPath": "/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg"
-      }
-    },
-    {
       "id": "HO00000935",
       "title": "La Bola Negra",
       "shortSynopsis": "Tres hombres de épocas distintas, unidos por la sexualidad, el deseo, el dolor y la herencia, comparten un vínculo con una de las últimas obras inéditas de García Lorca.",
@@ -2021,39 +1804,6 @@
       }
     },
     {
-      "id": "HO00000939",
-      "title": "Babystar",
-      "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 98,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Joscha Bongard",
-      "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg",
-      "tmdb": {
-        "tmdbId": 1356474,
-        "posterPath": "/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg"
-      }
-    },
-    {
       "id": "HO00000940",
       "title": "La Gallina Hen",
       "shortSynopsis": "Desde la mirada de una gallina en un restaurante costero de Grecia, que protege sus huevos y lucha por sobrevivir, vemos los secretos y conflictos de los humanos.",
@@ -2081,36 +1831,6 @@
         "tmdbId": 1382513,
         "posterPath": "/o7DvRpbWru66jS9rHbIri3dCyNo.jpg"
       }
-    },
-    {
-      "id": "HO00000941",
-      "title": "Alix",
-      "shortSynopsis": "En la selva colombiana, Alix, de 12 años, huye de casa con Conejo, reclutador de niños para la guerra, y cae en un viaje de realismo mágico, mitos y animales que hablan.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 123,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Drama",
-        "Fantasía"
-      ],
-      "director": "Ana María Hermida",
-      "webUrl": "https://www.cinecolombia.com/peliculas/alix",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000006"
-          ]
-        }
-      ],
-      "posterUrl": null
     },
     {
       "id": "HO00000942",
@@ -2192,14 +1912,12 @@
       "director": "Steve Cox",
       "webUrl": "https://www.cinecolombia.com/peliculas/shaun-the-sheep-the-beast-of-mossy-bottom",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2227,14 +1945,12 @@
       "director": "Ángel Ayllón",
       "webUrl": "https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -2258,14 +1974,12 @@
       "director": "Dogukan Misir",
       "webUrl": "https://www.cinecolombia.com/peliculas/cahim",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3737,16 +3451,32 @@
       "posterPath": "/rLFfv5izHaV4SsQ50lC3V6OzF99.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000724": 1,
-    "HO00000823": 1,
-    "HO00000903": 1,
-    "HO00000926": 1,
-    "HO00000933": 1,
-    "HO00000934": 1,
-    "HO00000939": 1,
-    "HO00000941": 1
+  "missingRuns": {},
+  "pendingCategoryLosses": {
+    "HO00000480": {
+      "AdvanceBooking": 1
+    },
+    "HO00000709": {
+      "AdvanceBooking": 1
+    },
+    "HO00000754": {
+      "AdvanceBooking": 1
+    },
+    "HO00000821": {
+      "AdvanceBooking": 1
+    },
+    "HO00000886": {
+      "AdvanceBooking": 1
+    },
+    "HO00000945": {
+      "AdvanceBooking": 1
+    },
+    "HO00000946": {
+      "AdvanceBooking": 1
+    },
+    "HO00000947": {
+      "AdvanceBooking": 1
+    }
   },
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-11-19T05:00:52.232Z"
+  "lastRun": "2026-11-19T11:00:54.091Z"
 }

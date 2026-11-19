@@ -7,6 +7,45 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: El Bulo</title>
+      <link>https://www.cinecolombia.com/peliculas/el-bulo</link>
+      <guid isPermaLink="false">e12302d2-4de2-4bf0-84de-c0afb2612689</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:52 GMT</pubDate>
+      <description>La noche en que una pareja decide separarse, la ciudad estalla. Obligados a seguir juntos, descubren secretos más peligrosos que las calles. Del director de Medusa.</description>
+    </item>
+    <item>
+      <title>Pronto: Hijos de Sangre y Hueso</title>
+      <link>https://www.cinecolombia.com/peliculas/children-of-blood-and-bone</link>
+      <guid isPermaLink="false">fb07a32a-e546-4268-8bf3-6545a473d314</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:52 GMT</pubDate>
+      <description>En el mundo de fantasía de Orïsha, una joven y su hermano se alían con los hijos del rey para recuperar la magia robada a su pueblo y enfrentar al brutal régimen.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/rLFfv5izHaV4SsQ50lC3V6OzF99.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: El Gran Falsificador</title>
+      <link>https://www.cinecolombia.com/peliculas/l-affaire-bojarski</link>
+      <guid isPermaLink="false">94d96987-8fcf-424b-a567-d515768c49dd</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:52 GMT</pubDate>
+      <description>Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Shrek</title>
+      <link>https://www.cinecolombia.com/peliculas/shrek</link>
+      <guid isPermaLink="false">4b9f366d-2cc1-489a-97e9-1048dfc9a017</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:52 GMT</pubDate>
+      <description>RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: Encanto</title>
+      <link>https://www.cinecolombia.com/peliculas/encanto</link>
+      <guid isPermaLink="false">e7686b42-6ee9-469a-8c9c-88ae753e6058</guid>
+      <pubDate>Thu, 19 Nov 2026 05:00:52 GMT</pubDate>
+      <description>El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: El Vientre del Diablo</title>
       <link>https://www.cinecolombia.com/peliculas/cahim</link>
       <guid isPermaLink="false">3bffe6d0-48a7-4788-9a58-3e14f96d6954</guid>
@@ -754,45 +793,6 @@
       <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
       <description>Focus Features y Working Title presentan una nueva versión de &apos;Sensatez y sentimiento&apos;, con Daisy Edgar-Jones y Esmé Creed-Miles. Amor entre hermanas.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Resurrection</title>
-      <link>https://www.cinecolombia.com/films/resurrection/HO00000772/</link>
-      <guid isPermaLink="false">b6c644db-bcb6-4440-8619-9dc03f9da679</guid>
-      <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
-      <description>En un futuro sin sueños por la inmortalidad, un monstruo moribundo revive cien años de historia en cuatro sueños, encarnando personajes con ayuda de una mujer cineasta.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/vQZK421erWKR5PgF4pbz0lp4o3o.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Runner</title>
-      <link>https://www.cinecolombia.com/films/runner/HO00000822/</link>
-      <guid isPermaLink="false">08e8b0cb-1571-431c-a146-9e7a09f1adae</guid>
-      <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
-      <description>Un mensajero de élite tiene tres horas para transportar un órgano y salvar a una niña. La misión se torna mortal cuando un líder criminal quiere apoderarse de él.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/aBzKyfruwaUgU2qYYtMO7vC1Pv2.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Everest: The Other Side</title>
-      <link>https://www.cinecolombia.com/films/everest-the-other-side/HO00000879/</link>
-      <guid isPermaLink="false">0629ec03-4c44-4860-bafb-06fd35edeeaf</guid>
-      <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
-      <description>Los esquiadores Jim Morrison e Hilaree Nelson sueñan con escalar y esquiar la cara norte del Everest, la ruta más peligrosa, que nadie ha logrado descender con esquís.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Containment</title>
-      <link>https://www.cinecolombia.com/films/the-containment/HO00000884/</link>
-      <guid isPermaLink="false">0229dbeb-cdbd-4a72-8f23-1bf86909138d</guid>
-      <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
-      <description>Tras la muerte de su padre, Caroline es poseída por una entidad oscura. La intervención de una enigmática monja revela un horror aún más perturbador que el demonio.&quot;</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/cql6ilAnM2KNyxDdDdt6rRL1GPQ.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Mimì - Il principe delle tenebre</title>
-      <link>https://www.cinecolombia.com/films/mimi-il-principe-delle-tenebre/HO00000885/</link>
-      <guid isPermaLink="false">59a913d1-fef3-46f8-9194-0563e722146d</guid>
-      <pubDate>Wed, 28 Oct 2026 05:00:43 GMT</pubDate>
-      <description>Mimì, huérfano marginado en Nápoles, conoce a Carmilla, quien cree ser descendiente de Drácula. Juntos emprenden un viaje en busca de libertad e identidad.</description>
     </item>
   </channel>
 </rss>

@@ -1365,7 +1365,6 @@
             "NowShowing"
           ],
           "showtimeAttributeIds": [
-            "0000000003",
             "0000000004",
             "0000000007",
             "0000000008"
@@ -1439,39 +1438,6 @@
       }
     },
     {
-      "id": "HO00000887",
-      "title": "El Gran Falsificador",
-      "shortSynopsis": "Basada en hechos reales: Jan Bojarski, ingeniero polaco refugiado en Francia, falsifica documentos para la Resistencia y luego billetes para un gánster en secreto.",
-      "releaseDate": "2026-11-05",
-      "runtimeInMinutes": 128,
-      "censorRating": "+12 Años",
-      "genres": [
-        "Drama"
-      ],
-      "director": "Jean-Paul Salomé",
-      "webUrl": "https://www.cinecolombia.com/peliculas/l-affaire-bojarski",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg",
-      "tmdb": {
-        "tmdbId": 1376415,
-        "posterPath": "/8uuquMAfQclmyMDhvMBpuBQMR2n.jpg"
-      }
-    },
-    {
       "id": "HO00000894",
       "title": "Yo Soy Rocky",
       "shortSynopsis": "Narra la vida de Sylvester Stallone, un actor desconocido que lucha por su oportunidad de interpretar el papel de su vida: Rocky Balboa.\"",
@@ -1495,8 +1461,7 @@
           "showtimeAttributeIds": [
             "0000000004",
             "0000000007",
-            "0000000008",
-            "0000000009"
+            "0000000008"
           ]
         }
       ],
@@ -1819,41 +1784,6 @@
       }
     },
     {
-      "id": "HO00000930",
-      "title": "Shrek",
-      "shortSynopsis": "RE-ESTRENO - Un caballero malvado exilia a criaturas de cuento de hadas al pantano de un ogro, que pacta llevarle una princesa como novia para recuperar su territorio.",
-      "releaseDate": "2026-10-29",
-      "runtimeInMinutes": 90,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Vicky Jenson",
-      "webUrl": "https://www.cinecolombia.com/peliculas/shrek",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg",
-      "tmdb": {
-        "tmdbId": 808,
-        "posterPath": "/jTQONM7jt1yv2lL972TtmWO0UIZ.jpg"
-      }
-    },
-    {
       "id": "HO00000931",
       "title": "Wildwood",
       "shortSynopsis": "Tras el secuestro de su hermano bebé por unos cuervos, una adolescente decidida y su inesperado compañero emprenden un rescate en un bosque encantado cerca de Portland.",
@@ -2088,41 +2018,6 @@
       "tmdb": {
         "tmdbId": 1820083,
         "posterPath": "/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg"
-      }
-    },
-    {
-      "id": "HO00000938",
-      "title": "Encanto",
-      "shortSynopsis": "El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.",
-      "releaseDate": "2026-11-12",
-      "runtimeInMinutes": 102,
-      "censorRating": "Todos",
-      "genres": [
-        "Animación",
-        "Aventura",
-        "Comedia"
-      ],
-      "director": "Jared Bush",
-      "webUrl": "https://www.cinecolombia.com/peliculas/encanto",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000007"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg",
-      "tmdb": {
-        "tmdbId": 4593,
-        "posterPath": "/j9BVYh3zd7hG0Iycem9QOs2moot.jpg"
       }
     },
     {
@@ -2645,6 +2540,62 @@
       "tmdb": {
         "tmdbId": 1379486,
         "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
+      }
+    },
+    {
+      "id": "HO00000957",
+      "title": "El Bulo",
+      "shortSynopsis": "La noche en que una pareja decide separarse, la ciudad estalla. Obligados a seguir juntos, descubren secretos más peligrosos que las calles. Del director de Medusa.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 89,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Suspenso"
+      ],
+      "director": "Felipe Cano",
+      "webUrl": "https://www.cinecolombia.com/peliculas/el-bulo",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000958",
+      "title": "Hijos de Sangre y Hueso",
+      "shortSynopsis": "En el mundo de fantasía de Orïsha, una joven y su hermano se alían con los hijos del rey para recuperar la magia robada a su pueblo y enfrentar al brutal régimen.",
+      "releaseDate": "2027-01-14",
+      "runtimeInMinutes": 135,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Fantasía"
+      ],
+      "director": "Gina Prince-Bythewood",
+      "webUrl": "https://www.cinecolombia.com/peliculas/children-of-blood-and-bone",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/rLFfv5izHaV4SsQ50lC3V6OzF99.jpg",
+      "tmdb": {
+        "tmdbId": 621304,
+        "posterPath": "/rLFfv5izHaV4SsQ50lC3V6OzF99.jpg"
       }
     }
   ],
@@ -3780,13 +3731,22 @@
     "HO00000956": {
       "tmdbId": 1379486,
       "posterPath": "/2r09thBfqsWkoyGVtrxc00uYpSy.jpg"
+    },
+    "HO00000958": {
+      "tmdbId": 621304,
+      "posterPath": "/rLFfv5izHaV4SsQ50lC3V6OzF99.jpg"
     }
   },
   "missingRuns": {
-    "HO00000887": 1,
-    "HO00000930": 1,
-    "HO00000938": 1
+    "HO00000724": 1,
+    "HO00000823": 1,
+    "HO00000903": 1,
+    "HO00000926": 1,
+    "HO00000933": 1,
+    "HO00000934": 1,
+    "HO00000939": 1,
+    "HO00000941": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-18T23:00:26.349Z"
+  "lastRun": "2026-11-19T05:00:52.232Z"
 }

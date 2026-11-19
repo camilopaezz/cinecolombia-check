@@ -1163,7 +1163,7 @@
       "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
       "releaseDate": "2026-11-19",
       "runtimeInMinutes": 103,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Aventura",
@@ -3452,31 +3452,6 @@
     }
   },
   "missingRuns": {},
-  "pendingCategoryLosses": {
-    "HO00000480": {
-      "AdvanceBooking": 1
-    },
-    "HO00000709": {
-      "AdvanceBooking": 1
-    },
-    "HO00000754": {
-      "AdvanceBooking": 1
-    },
-    "HO00000821": {
-      "AdvanceBooking": 1
-    },
-    "HO00000886": {
-      "AdvanceBooking": 1
-    },
-    "HO00000945": {
-      "AdvanceBooking": 1
-    },
-    "HO00000946": {
-      "AdvanceBooking": 1
-    },
-    "HO00000947": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-11-19T11:00:54.091Z"
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-11-19T17:00:51.341Z"
 }

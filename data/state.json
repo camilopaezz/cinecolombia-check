@@ -746,14 +746,12 @@
       "director": "Georges Bizet",
       "webUrl": "https://www.cinecolombia.com/peliculas/carmen",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -1781,14 +1779,12 @@
       "director": "Jungjae HA",
       "webUrl": "https://www.cinecolombia.com/peliculas/bts-world-tour-arirang-in-kaohsiung-live",
       "categories": [
-        "AdvanceBooking",
         "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "AdvanceBooking",
             "NowShowing"
           ],
           "showtimeAttributeIds": [
@@ -3452,6 +3448,13 @@
     }
   },
   "missingRuns": {},
-  "pendingCategoryLosses": {},
-  "lastRun": "2026-11-20T23:00:55.192Z"
+  "pendingCategoryLosses": {
+    "HO00000758": {
+      "AdvanceBooking": 1
+    },
+    "HO00000937": {
+      "AdvanceBooking": 1
+    }
+  },
+  "lastRun": "2026-11-21T11:00:51.260Z"
 }

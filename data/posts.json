@@ -26860,6 +26860,41 @@
         ],
         "posterUrl": null
       }
+    },
+    {
+      "guid": "f68db58d-97a9-4749-92bb-6d5426531a8f",
+      "type": "added",
+      "filmId": "HO00000960",
+      "createdAt": "2026-11-21T23:00:52.422Z",
+      "snapshot": {
+        "id": "HO00000960",
+        "title": "NMIXX 1ST WORLD TOUR EPISODE 1: ZERO FRONTIER",
+        "shortSynopsis": "NMIXX cierra su primera gira mundial en Incheon, en directo desde el INSPIRE ARENA a cines de todo el mundo, para que los NSWER vivan juntos un final inolvidable.",
+        "releaseDate": "2026-11-29",
+        "runtimeInMinutes": 210,
+        "censorRating": "Concierto",
+        "genres": [
+          "Concierto"
+        ],
+        "director": "Yoondong Oh",
+        "webUrl": "https://www.cinecolombia.com/peliculas/nmixx-1st-world-tour-episode-1-zero-frontier",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg",
+        "tmdb": {
+          "tmdbId": 1824086,
+          "posterPath": "/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg"
+        }
+      }
     }
   ]
 }

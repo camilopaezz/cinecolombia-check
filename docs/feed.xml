@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: NMIXX 1ST WORLD TOUR EPISODE 1: ZERO FRONTIER</title>
+      <link>https://www.cinecolombia.com/peliculas/nmixx-1st-world-tour-episode-1-zero-frontier</link>
+      <guid isPermaLink="false">f68db58d-97a9-4749-92bb-6d5426531a8f</guid>
+      <pubDate>Sat, 21 Nov 2026 23:00:52 GMT</pubDate>
+      <description>NMIXX cierra su primera gira mundial en Incheon, en directo desde el INSPIRE ARENA a cines de todo el mundo, para que los NSWER vivan juntos un final inolvidable.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Madre Siniestra</title>
       <link>https://www.cinecolombia.com/peliculas/other-mommy</link>
       <guid isPermaLink="false">cc58d61e-7dbf-4ee9-bc61-824875db8339</guid>
@@ -784,14 +792,6 @@
       <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
       <description>En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Colony</title>
-      <link>https://www.cinecolombia.com/films/colony/HO00000776/</link>
-      <guid isPermaLink="false">5d55cbf1-5d54-4d7e-83b8-830e87942472</guid>
-      <pubDate>Thu, 29 Oct 2026 11:00:41 GMT</pubDate>
-      <description>En una conferencia de biotecnología, un virus de mutación rápida se desata y el recinto queda sellado.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pQIpfeenClb2ws9G0kMg3HREjoA.jpg" medium="image" />
     </item>
   </channel>
 </rss>

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ya no disponible: BTS WORLD TOUR &apos;ARIRANG&apos; IN KAOHSIUNG: LIVE</title>
+      <link>https://www.cinecolombia.com/peliculas/bts-world-tour-arirang-in-kaohsiung-live</link>
+      <guid isPermaLink="false">bbd18564-de5e-49ed-a001-9fbf9158f3c5</guid>
+      <pubDate>Sun, 22 Nov 2026 11:00:52 GMT</pubDate>
+      <description>La gira récord de BTS por Asia llega a la pantalla grande. Vive el rugido del público en Kaohsiung y la energía de BTS WORLD TOUR ‘ARIRANG’ en cines de todo el mundo.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Carmen</title>
       <link>https://www.cinecolombia.com/peliculas/carmen</link>
       <guid isPermaLink="false">f92e6e23-1ed5-431b-a496-a285859692c5</guid>
@@ -784,14 +792,6 @@
       <guid isPermaLink="false">806e57c0-5430-4210-a318-e557764a1e0f</guid>
       <pubDate>Fri, 30 Oct 2026 05:00:43 GMT</pubDate>
       <description>La gira &apos;BLOOD SAGA&apos; de ENHYPEN da vida a una fascinante fantasía oscura. Revive el concierto de Seúl con coreografías sincronizadas, banda en vivo y universo vampírico.</description>
-    </item>
-    <item>
-      <title>En cartelera: Resident Evil</title>
-      <link>https://www.cinecolombia.com/films/resident-evil/HO00000669/</link>
-      <guid isPermaLink="false">0495525b-e6db-4611-a266-52b35a711f5f</guid>
-      <pubDate>Thu, 29 Oct 2026 17:00:43 GMT</pubDate>
-      <description>En una historia totalmente nueva, Resident Evil sigue a Bryan, un mensajero médico que, sin saberlo, se ve envuelto en una carrera por la supervivencia llena de acción.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/pJQOA9ZTr1vFC0pDyT0ewH5046M.jpg" medium="image" />
     </item>
   </channel>
 </rss>

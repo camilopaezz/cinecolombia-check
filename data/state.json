@@ -734,40 +734,6 @@
       }
     },
     {
-      "id": "HO00000758",
-      "title": "Carmen",
-      "shortSynopsis": "Carmen' de Bizet, con Elīna Garanča y Roberto Alagna, en la icónica producción de Richard Eyre (Met 2010). Pasión, magnetismo y destrucción.",
-      "releaseDate": "2026-11-21",
-      "runtimeInMinutes": 180,
-      "censorRating": "Contenido",
-      "genres": [
-        "Ópera"
-      ],
-      "director": "Georges Bizet",
-      "webUrl": "https://www.cinecolombia.com/peliculas/carmen",
-      "categories": [
-        "NowShowing"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "NowShowing"
-          ],
-          "showtimeAttributeIds": [
-            "0000000004",
-            "0000000008",
-            "0000000009"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/7jRPTuYdxXXRLddO4FQG22axu9e.jpg",
-      "tmdb": {
-        "tmdbId": 1061821,
-        "posterPath": "/7jRPTuYdxXXRLddO4FQG22axu9e.jpg"
-      }
-    },
-    {
       "id": "HO00000759",
       "title": "La Fauta Magica",
       "shortSynopsis": "Hace 20 años, el Met transmitió por primera vez en HD 'La flauta mágica' de Mozart. Regresa en Navidad con Polenzani, Gunn y la puesta de Julie Taymor.",
@@ -3482,8 +3448,8 @@
     }
   },
   "missingRuns": {
-    "HO00000758": 1
+    "HO00000937": 1
   },
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-21T23:00:52.424Z"
+  "lastRun": "2026-11-22T05:00:50.324Z"
 }

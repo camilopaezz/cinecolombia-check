@@ -26895,6 +26895,46 @@
           "posterPath": "/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg"
         }
       }
+    },
+    {
+      "guid": "f92e6e23-1ed5-431b-a496-a285859692c5",
+      "type": "removed",
+      "filmId": "HO00000758",
+      "createdAt": "2026-11-22T05:00:50.322Z",
+      "snapshot": {
+        "id": "HO00000758",
+        "title": "Carmen",
+        "shortSynopsis": "Carmen' de Bizet, con Elīna Garanča y Roberto Alagna, en la icónica producción de Richard Eyre (Met 2010). Pasión, magnetismo y destrucción.",
+        "releaseDate": "2026-11-21",
+        "runtimeInMinutes": 180,
+        "censorRating": "Contenido",
+        "genres": [
+          "Ópera"
+        ],
+        "director": "Georges Bizet",
+        "webUrl": "https://www.cinecolombia.com/peliculas/carmen",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008",
+              "0000000009"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/7jRPTuYdxXXRLddO4FQG22axu9e.jpg",
+        "tmdb": {
+          "tmdbId": 1061821,
+          "posterPath": "/7jRPTuYdxXXRLddO4FQG22axu9e.jpg"
+        }
+      }
     }
   ]
 }

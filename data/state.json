@@ -1163,7 +1163,7 @@
       "shortSynopsis": "Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.\n",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 105,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama",
         "Suspenso"
@@ -2255,6 +2255,41 @@
       "director": "Yoondong Oh",
       "webUrl": "https://www.cinecolombia.com/peliculas/nmixx-1st-world-tour-episode-1-zero-frontier",
       "categories": [
+        "AdvanceBooking",
+        "NowShowing"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg",
+      "tmdb": {
+        "tmdbId": 1824086,
+        "posterPath": "/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg"
+      }
+    },
+    {
+      "id": "HO00000961",
+      "title": "Cómo limpiar una casa en 10 pasos fáciles",
+      "shortSynopsis": "En 1998, Beatriz dejó Colombia y a sus hijos para limpiar casas en EE. UU. Décadas después, su hija cineasta le pregunta qué quiso ser, y ella pasa al centro.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 80,
+      "censorRating": "+7 Años",
+      "genres": [
+        "Documental"
+      ],
+      "director": "Carolina Gonzalez Valencia",
+      "webUrl": "https://www.cinecolombia.com/peliculas/como-limpiar-una-casa-en-10-pasos-faciles",
+      "categories": [
         "ComingSoon"
       ],
       "availabilityRows": [
@@ -2265,10 +2300,121 @@
           ]
         }
       ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg",
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000962",
+      "title": "La Perra",
+      "shortSynopsis": "Una mujer que vive sola en una isla chilena encuentra un cachorro abandonado y lo llama Yuri, nombre pensado para una hija que nunca tuvo, y busca sanar su pasado.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 112,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Drama"
+      ],
+      "director": "Dominga Sotomayor",
+      "webUrl": "https://www.cinecolombia.com/peliculas/la-perra",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/7NnGuz9mXhr6HkOAS0AyYgkAPZQ.jpg",
       "tmdb": {
-        "tmdbId": 1824086,
-        "posterPath": "/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg"
+        "tmdbId": 1550622,
+        "posterPath": "/7NnGuz9mXhr6HkOAS0AyYgkAPZQ.jpg"
+      }
+    },
+    {
+      "id": "HO00000963",
+      "title": "Tiempos de Ilusión",
+      "shortSynopsis": "1985, afueras de París: un niño de 12 años, con un hermano distante y padres en conflicto, crece entre risas y torpezas, descubre el amor y enfrenta el mundo adulto.",
+      "releaseDate": "2026-12-17",
+      "runtimeInMinutes": 119,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Comedia"
+      ],
+      "director": "Olivier Nakache",
+      "webUrl": "https://www.cinecolombia.com/peliculas/juste-une-illusion",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg",
+      "tmdb": {
+        "tmdbId": 1404684,
+        "posterPath": "/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg"
+      }
+    },
+    {
+      "id": "HO00000964",
+      "title": "Atrapados en Mar Abierto",
+      "shortSynopsis": "De buceo en México, unos amigos hallan droga de un cártel y, obligados a recuperarla en el mar, luchan por sobrevivir a tiburones, criminales y falta de oxígeno.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 96,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Suspenso"
+      ],
+      "director": "Jesse V. Johnson",
+      "webUrl": "https://www.cinecolombia.com/peliculas/above-and-below",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
+    },
+    {
+      "id": "HO00000965",
+      "title": "Artificial",
+      "shortSynopsis": "El caótico drama corporativo de OpenAI cuando la junta despidió de golpe a su CEO, Sam Altman, y sacudió Silicon Valley, hasta su sorpresivo regreso días después.",
+      "releaseDate": "2027-01-21",
+      "runtimeInMinutes": 99,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Biografía",
+        "Comedia",
+        "Drama"
+      ],
+      "director": "Luca Guadagnino",
+      "webUrl": "https://www.cinecolombia.com/peliculas/artificial",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tD4JOGcI5SSBKSFo4coObYwRlxE.jpg",
+      "tmdb": {
+        "tmdbId": 1492198,
+        "posterPath": "/tD4JOGcI5SSBKSFo4coObYwRlxE.jpg"
       }
     }
   ],
@@ -3412,9 +3558,21 @@
     "HO00000960": {
       "tmdbId": 1824086,
       "posterPath": "/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg"
+    },
+    "HO00000962": {
+      "tmdbId": 1550622,
+      "posterPath": "/7NnGuz9mXhr6HkOAS0AyYgkAPZQ.jpg"
+    },
+    "HO00000963": {
+      "tmdbId": 1404684,
+      "posterPath": "/ku7zVdj7yUZn71cG6YvCoC3Rxjm.jpg"
+    },
+    "HO00000965": {
+      "tmdbId": 1492198,
+      "posterPath": "/tD4JOGcI5SSBKSFo4coObYwRlxE.jpg"
     }
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-22T11:00:52.010Z"
+  "lastRun": "2026-11-23T23:00:51.160Z"
 }

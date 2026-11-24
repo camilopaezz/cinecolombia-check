@@ -1272,7 +1272,7 @@
       "shortSynopsis": "Peter, el submarinito, despierta a Overlord, un monstruo marino ancestral. Fusionado con un guerrero, debe encontrar el coraje y la sabiduría para vencerlo.",
       "releaseDate": "2026-12-25",
       "runtimeInMinutes": 86,
-      "censorRating": "Pendiente",
+      "censorRating": "Todos",
       "genres": [
         "Animación"
       ],
@@ -1770,8 +1770,8 @@
       "title": "La Gallina Hen",
       "shortSynopsis": "Desde la mirada de una gallina en un restaurante costero de Grecia, que protege sus huevos y lucha por sobrevivir, vemos los secretos y conflictos de los humanos.",
       "releaseDate": "2026-11-26",
-      "runtimeInMinutes": 95,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 96,
+      "censorRating": "+12 Años",
       "genres": [
         "Drama"
       ],
@@ -1826,12 +1826,41 @@
       }
     },
     {
+      "id": "HO00000943",
+      "title": "El Ritual del Nahual",
+      "shortSynopsis": "En San Luis Potosí, unos curanderos salvan al fugitivo herido Gabriel en un pueblo temeroso, mientras un oficial federal investiga asesinatos de niños.",
+      "releaseDate": "2026-11-26",
+      "runtimeInMinutes": 80,
+      "censorRating": "+15 Años",
+      "genres": [
+        "Terror"
+      ],
+      "director": "Carlos Matienzo Serment",
+      "webUrl": "https://www.cinecolombia.com/peliculas/el-ritual-del-nahual",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/jzptoegNetnake7ZCPzeeolXj3q.jpg",
+      "tmdb": {
+        "tmdbId": 1600571,
+        "posterPath": "/jzptoegNetnake7ZCPzeeolXj3q.jpg"
+      }
+    },
+    {
       "id": "HO00000944",
       "title": "Las Nuevas Desventuras De Cliff Both",
       "shortSynopsis": "Hollywood, 1977: Cliff Booth (Brad Pitt) resuelve problemas de estrellas en Las nuevas desventuras de Cliff Booth, de David Fincher. Estreno el 26 de noviembre en IMAX.",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 142,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Comedia",
@@ -2106,7 +2135,7 @@
       "shortSynopsis": "Joel vuelve a regañadientes a su casa de infancia para ayudar a su madre, que sobrevivió a un ictus tras morir clínicamente, y cree que algo la siguió desde el más allá.",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 90,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Terror"
       ],
@@ -2341,7 +2370,7 @@
       "shortSynopsis": "Una mujer que vive sola en una isla chilena encuentra un cachorro abandonado y lo llama Yuri, nombre pensado para una hija que nunca tuvo, y busca sanar su pasado.",
       "releaseDate": "2026-11-26",
       "runtimeInMinutes": 112,
-      "censorRating": "Pendiente",
+      "censorRating": "+12 Años",
       "genres": [
         "Drama"
       ],
@@ -3603,9 +3632,13 @@
     "HO00000965": {
       "tmdbId": 1492198,
       "posterPath": "/tD4JOGcI5SSBKSFo4coObYwRlxE.jpg"
+    },
+    "HO00000943": {
+      "tmdbId": 1600571,
+      "posterPath": "/jzptoegNetnake7ZCPzeeolXj3q.jpg"
     }
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-24T05:00:52.053Z"
+  "lastRun": "2026-11-24T17:00:51.666Z"
 }

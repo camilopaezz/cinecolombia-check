@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: El Ritual del Nahual</title>
+      <link>https://www.cinecolombia.com/peliculas/el-ritual-del-nahual</link>
+      <guid isPermaLink="false">88fd7560-c6fd-4ec8-acdb-19f55bf9b196</guid>
+      <pubDate>Tue, 24 Nov 2026 17:00:51 GMT</pubDate>
+      <description>En San Luis Potosí, unos curanderos salvan al fugitivo herido Gabriel en un pueblo temeroso, mientras un oficial federal investiga asesinatos de niños.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jzptoegNetnake7ZCPzeeolXj3q.jpg" medium="image" />
+    </item>
+    <item>
       <title>En cartelera: Babystar</title>
       <link>https://www.cinecolombia.com/peliculas/babystar</link>
       <guid isPermaLink="false">21e86850-e953-4d83-851b-af382a62afda</guid>
@@ -783,14 +791,6 @@
       <pubDate>Mon, 02 Nov 2026 23:00:52 GMT</pubDate>
       <description>La gira récord de BTS por Asia llega a la pantalla grande. Vive el rugido del público en Kaohsiung y la energía de BTS WORLD TOUR ‘ARIRANG’ en cines de todo el mundo.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/kbwAR849GqMmZs01Uwm5MXL6CWd.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Whalefall</title>
-      <link>https://www.cinecolombia.com/films/whalefall/HO00000722/</link>
-      <guid isPermaLink="false">973a822d-b909-497e-9f2b-dd4ed96982bb</guid>
-      <pubDate>Sun, 01 Nov 2026 11:00:51 GMT</pubDate>
-      <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
     </item>
   </channel>
 </rss>

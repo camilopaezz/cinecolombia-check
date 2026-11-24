@@ -27224,6 +27224,41 @@
           "posterPath": "/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg"
         }
       }
+    },
+    {
+      "guid": "88fd7560-c6fd-4ec8-acdb-19f55bf9b196",
+      "type": "added",
+      "filmId": "HO00000943",
+      "createdAt": "2026-11-24T17:00:51.664Z",
+      "snapshot": {
+        "id": "HO00000943",
+        "title": "El Ritual del Nahual",
+        "shortSynopsis": "En San Luis Potosí, unos curanderos salvan al fugitivo herido Gabriel en un pueblo temeroso, mientras un oficial federal investiga asesinatos de niños.",
+        "releaseDate": "2026-11-26",
+        "runtimeInMinutes": 80,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Carlos Matienzo Serment",
+        "webUrl": "https://www.cinecolombia.com/peliculas/el-ritual-del-nahual",
+        "categories": [
+          "ComingSoon"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "ComingSoon"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/jzptoegNetnake7ZCPzeeolXj3q.jpg",
+        "tmdb": {
+          "tmdbId": 1600571,
+          "posterPath": "/jzptoegNetnake7ZCPzeeolXj3q.jpg"
+        }
+      }
     }
   ]
 }

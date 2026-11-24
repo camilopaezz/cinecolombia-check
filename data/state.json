@@ -223,8 +223,8 @@
       "title": "Angry Birds 3",
       "shortSynopsis": "Esta temporada navideña, un pájaro enojado se enfrentará a su mayor desafío hasta el momento: sobrevivir a la paternidad… ¡mientras salva al mundo!",
       "releaseDate": "2027-01-07",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 137,
+      "censorRating": "Todos",
       "genres": [
         "Acción",
         "Animación",
@@ -3640,5 +3640,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-24T17:00:51.666Z"
+  "lastRun": "2026-11-24T23:00:50.740Z"
 }

@@ -7,6 +7,14 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: Babystar</title>
+      <link>https://www.cinecolombia.com/peliculas/babystar</link>
+      <guid isPermaLink="false">21e86850-e953-4d83-851b-af382a62afda</guid>
+      <pubDate>Tue, 24 Nov 2026 05:00:52 GMT</pubDate>
+      <description>Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Cómo limpiar una casa en 10 pasos fáciles</title>
       <link>https://www.cinecolombia.com/peliculas/como-limpiar-una-casa-en-10-pasos-faciles</link>
       <guid isPermaLink="false">e488b2da-4cac-45cb-9f77-5feca2476551</guid>
@@ -783,14 +791,6 @@
       <pubDate>Sun, 01 Nov 2026 11:00:51 GMT</pubDate>
       <description>Tras ser tragado por una ballena, Jay deberá usar las lecciones de su difunto padre para escapar antes de que se agote su oxígeno.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/wse4S4EuVHSNk9yzsjhdRLmipXk.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: BTS WORLD TOUR &apos;ARIRANG&apos; IN SÃO PAULO: LIVE</title>
-      <link>https://www.cinecolombia.com/films/bts-world-tour-arirang-in-sao-paulo-live/HO00000796/</link>
-      <guid isPermaLink="false">dfab6ab4-fc10-4d85-ac66-a3d6b5af250f</guid>
-      <pubDate>Sun, 01 Nov 2026 05:00:50 GMT</pubDate>
-      <description>Vive el BTS WORLD TOUR ARIRANG en cines de todo el mundo, transmitido desde São Paulo, Brasil, cierre de su gira latinoamericana con la energía de un estadio repleto.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg" medium="image" />
     </item>
   </channel>
 </rss>

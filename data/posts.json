@@ -27185,6 +27185,45 @@
           "posterPath": "/pjkFMUo2Cm4mQkveSeInd7m1Iwq.jpg"
         }
       }
+    },
+    {
+      "guid": "21e86850-e953-4d83-851b-af382a62afda",
+      "type": "now-in-theaters",
+      "filmId": "HO00000939",
+      "createdAt": "2026-11-24T05:00:52.051Z",
+      "snapshot": {
+        "id": "HO00000939",
+        "title": "Babystar",
+        "shortSynopsis": "Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.",
+        "releaseDate": "2026-11-12",
+        "runtimeInMinutes": 98,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Joscha Bongard",
+        "webUrl": "https://www.cinecolombia.com/peliculas/babystar",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg",
+        "tmdb": {
+          "tmdbId": 1356474,
+          "posterPath": "/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg"
+        }
+      }
     }
   ]
 }

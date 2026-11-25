@@ -178,8 +178,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
-            "0000000007",
-            "0000000008"
+            "0000000007"
           ]
         }
       ],
@@ -2017,7 +2016,7 @@
       "id": "HO00000948",
       "title": "Tafiti y sus Amigos",
       "shortSynopsis": "Tafiti, joven suricata, parte sola en busca de una flor mítica del desierto para salvar a su abuelo, mordido por una serpiente tras la visita del cerdo salvaje Bristles.",
-      "releaseDate": "2026-11-26",
+      "releaseDate": "2027-01-21",
       "runtimeInMinutes": 81,
       "censorRating": "Pendiente",
       "genres": [
@@ -3724,5 +3723,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-25T17:00:52.033Z"
+  "lastRun": "2026-11-25T23:00:20.688Z"
 }

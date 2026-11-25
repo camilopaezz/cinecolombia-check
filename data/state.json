@@ -95,13 +95,20 @@
       "director": "John Hamburg",
       "webUrl": "https://www.cinecolombia.com/peliculas/focker-in-law",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1171,13 +1178,20 @@
       "director": "Daniel Stamm",
       "webUrl": "https://www.cinecolombia.com/peliculas/lockbox",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1652,13 +1666,20 @@
       "director": "Fawn Veerasunthorn",
       "webUrl": "https://www.cinecolombia.com/peliculas/hexed",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -1778,13 +1799,19 @@
       "director": "György Pálfi",
       "webUrl": "https://www.cinecolombia.com/peliculas/hen",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000008"
           ]
         }
       ],
@@ -2046,7 +2073,7 @@
       "title": "Ramayana",
       "shortSynopsis": "Una antigua epopeya cuenta cómo el matrimonio y el exilio de un joven príncipe y una princesa inician un viaje legendario de amor, deber y destino ante grandes desafíos.",
       "releaseDate": "2026-11-26",
-      "runtimeInMinutes": 195,
+      "runtimeInMinutes": 168,
       "censorRating": "+12 Años",
       "genres": [
         "Acción",
@@ -2056,13 +2083,20 @@
       "director": "Nitesh Tiwari",
       "webUrl": "https://www.cinecolombia.com/peliculas/ramayana-rise-of-a-legend",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2142,13 +2176,20 @@
       "director": "Mattias Johansson Skoglund",
       "webUrl": "https://www.cinecolombia.com/peliculas/hemmet",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000007",
+            "0000000008"
           ]
         }
       ],
@@ -2261,13 +2302,19 @@
       "director": "Felipe Cano",
       "webUrl": "https://www.cinecolombia.com/peliculas/el-bulo",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -2303,6 +2350,31 @@
         "tmdbId": 621304,
         "posterPath": "/rLFfv5izHaV4SsQ50lC3V6OzF99.jpg"
       }
+    },
+    {
+      "id": "HO00000959",
+      "title": "Pícaros: La vida o el dinero",
+      "shortSynopsis": "Una maleta con dinero pasa de mano en mano y destruye la vida de quien la toca, salvo la de El Mago, que se ríe del valor del dinero. Una comedia coral sobre la codicia.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 110,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Suspenso"
+      ],
+      "director": "Diego Rendón",
+      "webUrl": "https://www.cinecolombia.com/peliculas/picaros-la-vida-o-el-dinero",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": null
     },
     {
       "id": "HO00000960",
@@ -2352,13 +2424,19 @@
       "director": "Carolina Gonzalez Valencia",
       "webUrl": "https://www.cinecolombia.com/peliculas/como-limpiar-una-casa-en-10-pasos-faciles",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -2377,13 +2455,19 @@
       "director": "Dominga Sotomayor",
       "webUrl": "https://www.cinecolombia.com/peliculas/la-perra",
       "categories": [
-        "ComingSoon"
+        "AdvanceBooking",
+        "NowShowing"
       ],
       "availabilityRows": [
         {
           "siteId": null,
           "categories": [
-            "ComingSoon"
+            "AdvanceBooking",
+            "NowShowing"
+          ],
+          "showtimeAttributeIds": [
+            "0000000004",
+            "0000000006"
           ]
         }
       ],
@@ -3640,5 +3724,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-24T23:00:50.740Z"
+  "lastRun": "2026-11-25T05:00:51.647Z"
 }

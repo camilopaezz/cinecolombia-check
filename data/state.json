@@ -614,8 +614,8 @@
       "title": "Noche Sin Paz 2",
       "shortSynopsis": "Santa Claus deberá recuperar el espíritu navideño y sus poderes para enfrentarse a un despiadado gánster que amenaza a toda una comunidad.",
       "releaseDate": "2026-12-03",
-      "runtimeInMinutes": 120,
-      "censorRating": "Pendiente",
+      "runtimeInMinutes": 110,
+      "censorRating": "+15 Años",
       "genres": [
         "Acción",
         "Comedia"
@@ -3724,5 +3724,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-25T05:00:51.647Z"
+  "lastRun": "2026-11-25T17:00:52.033Z"
 }

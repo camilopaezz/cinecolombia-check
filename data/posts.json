@@ -27661,6 +27661,448 @@
           "posterPath": "/7NnGuz9mXhr6HkOAS0AyYgkAPZQ.jpg"
         }
       }
+    },
+    {
+      "guid": "da0925ac-4424-437e-a9e2-fc655aeaaebf",
+      "type": "removed",
+      "filmId": "HO00000623",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000623",
+        "title": "Clayface",
+        "shortSynopsis": "La estrella emergente de Hollywood Matt Hagen se convierte en un horrible monstruo lleno de venganza cuando la ambición científica lo despoja de su identidad y humanidad.",
+        "releaseDate": "2026-10-22",
+        "runtimeInMinutes": 110,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "James Watkins",
+        "webUrl": "https://www.cinecolombia.com/peliculas/clayface",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg",
+        "tmdb": {
+          "tmdbId": 1400940,
+          "posterPath": "/6ihSDJlBNcvoTWzSA0jonZyOXTs.jpg"
+        }
+      }
+    },
+    {
+      "guid": "ac053731-f76e-40df-a694-b120432946b4",
+      "type": "removed",
+      "filmId": "HO00000698",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000698",
+        "title": "El Corazón de la Bestia",
+        "shortSynopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje",
+        "releaseDate": "2026-09-24",
+        "runtimeInMinutes": 101,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama",
+          "Suspenso"
+        ],
+        "director": "David Ayer",
+        "webUrl": "https://www.cinecolombia.com/peliculas/heart-of-the-beast",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg",
+        "tmdb": {
+          "tmdbId": 1263337,
+          "posterPath": "/1ApfSA8JTqeha3GTFEY8syV4auq.jpg"
+        }
+      }
+    },
+    {
+      "guid": "056925da-6530-4a72-9d68-b5ba39bf7ea5",
+      "type": "removed",
+      "filmId": "HO00000705",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000705",
+        "title": "Sensatez y Sentimiento",
+        "shortSynopsis": "Focus Features y Working Title presentan una nueva versión de 'Sensatez y sentimiento', con Daisy Edgar-Jones y Esmé Creed-Miles. Amor entre hermanas.",
+        "releaseDate": "2026-10-29",
+        "runtimeInMinutes": 132,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "director": "Georgia Oakley",
+        "webUrl": "https://www.cinecolombia.com/peliculas/sense-and-sensibility",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg",
+        "tmdb": {
+          "tmdbId": 4584,
+          "posterPath": "/eAhOt2FExPlLRtkln6mAZEOFU3T.jpg"
+        }
+      }
+    },
+    {
+      "guid": "155fc1e1-aa48-4270-9831-e468a22b14b6",
+      "type": "removed",
+      "filmId": "HO00000709",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000709",
+        "title": "Buscando un cielo para Rambo",
+        "shortSynopsis": "Rambo, su perro, es el mejor y único amigo de Hassan. Pero cuando una amenaza inesperada pone en peligro la vida del animal, ambos se ven obligados a emprender un viaje",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 100,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Drama"
+        ],
+        "director": "Khaled Mansour",
+        "webUrl": "https://www.cinecolombia.com/peliculas/seeking-haven-for-mr-rambo",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg",
+        "tmdb": {
+          "tmdbId": 1170841,
+          "posterPath": "/oipkd3FRkmlK2O8rQUZjjMXnRGy.jpg"
+        }
+      }
+    },
+    {
+      "guid": "dbd91da8-ff5a-4277-b750-708f01ba2c2d",
+      "type": "removed",
+      "filmId": "HO00000736",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000736",
+        "title": "Verity",
+        "shortSynopsis": "Adaptada de la novela superventas de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford y a Lowen Ashleigh.",
+        "releaseDate": "2026-10-01",
+        "runtimeInMinutes": 114,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Suspenso"
+        ],
+        "director": "Michael Showalter",
+        "webUrl": "https://www.cinecolombia.com/peliculas/verity",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg",
+        "tmdb": {
+          "tmdbId": 1283515,
+          "posterPath": "/dGSsPovyUW5XVekXcy7F2GyhTEh.jpg"
+        }
+      }
+    },
+    {
+      "guid": "eef5b511-c1a3-43a6-9609-aa709d54c377",
+      "type": "removed",
+      "filmId": "HO00000754",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000754",
+        "title": "Pinocho: Sin Cuerdas",
+        "shortSynopsis": "Un muñeco mágico llamado Pinocho descubre el mundo y emprende una macabra cruzada para eliminar todo aquello que considera malo.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 82,
+        "censorRating": "+18 Años",
+        "genres": [
+          "Fantasía",
+          "Suspenso",
+          "Terror"
+        ],
+        "director": "Rhys Frake-Waterfield",
+        "webUrl": "https://www.cinecolombia.com/peliculas/pinocchio-unstrung",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/kuPRjis9YN1V9m4ud0hePtREUCo.jpg",
+        "tmdb": {
+          "tmdbId": 1232569,
+          "posterPath": "/kuPRjis9YN1V9m4ud0hePtREUCo.jpg"
+        }
+      }
+    },
+    {
+      "guid": "6830a38a-f877-4ef8-a5f2-f8e4aaee71dc",
+      "type": "removed",
+      "filmId": "HO00000786",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000786",
+        "title": "Pacífico",
+        "shortSynopsis": "Pacífico' sigue a buzos que desaparecen en Malpelo cuando una corriente los arrastra. Sin barco ni rumbo, cada uno enfrenta un océano que no perdona.",
+        "releaseDate": "2026-10-08",
+        "runtimeInMinutes": 95,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Riccardo Gabrielli R.",
+        "webUrl": "https://www.cinecolombia.com/peliculas/pacifico",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg",
+        "tmdb": {
+          "tmdbId": 890216,
+          "posterPath": "/nB1Hq2Gz8Q5lUQAGDHNdXbyfoIF.jpg"
+        }
+      }
+    },
+    {
+      "guid": "9d232d58-e2a4-45ff-b42d-a5625f205eaf",
+      "type": "removed",
+      "filmId": "HO00000821",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000821",
+        "title": "Sacrificio: Los Elegidos",
+        "shortSynopsis": "Un evento benéfico repleto de estrellas se convierte en un caos cuando un grupo radical se infiltra en busca de un artefacto místico ligado a una antigua profecía oculta.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 103,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Comedia"
+        ],
+        "director": "Romain Gavras",
+        "webUrl": "https://www.cinecolombia.com/peliculas/sacrifice",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg",
+        "tmdb": {
+          "tmdbId": 1284186,
+          "posterPath": "/fRjUuePNJFW2BcL5bXAe5xytGr9.jpg"
+        }
+      }
+    },
+    {
+      "guid": "e510bc52-3312-4012-8bfb-c411c471f710",
+      "type": "removed",
+      "filmId": "HO00000881",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000881",
+        "title": "Godzilla Minus Zero",
+        "shortSynopsis": "Ambientada en 1949, dos años después de 'Godzilla Minus One', la familia Shikishima enfrenta una nueva calamidad que pondrá a prueba su fortaleza y determinación.",
+        "releaseDate": "2026-11-05",
+        "runtimeInMinutes": 135,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Acción",
+          "Aventura",
+          "Drama"
+        ],
+        "director": "Takashi Yamazaki",
+        "webUrl": "https://www.cinecolombia.com/peliculas/godzilla-minus-zero",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007",
+              "0000000008"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg",
+        "tmdb": {
+          "tmdbId": 1381071,
+          "posterPath": "/8VKjocpP0EiUiUzTPWwz7TV2kWP.jpg"
+        }
+      }
+    },
+    {
+      "guid": "56bdbdbe-4ae3-4826-b2d6-581e019bd514",
+      "type": "removed",
+      "filmId": "HO00000946",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000946",
+        "title": "Gringolandia No Es Como La Pintan",
+        "shortSynopsis": "En una cárcel de inmigración de EE. UU., latinos a la espera de ser deportados comparten su “sueño americano”. La llegada de Aníbal, asesino mexicano, lo cambia todo.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 90,
+        "censorRating": "+12 Años",
+        "genres": [
+          "Comedia"
+        ],
+        "director": "Ángel Ayllón",
+        "webUrl": "https://www.cinecolombia.com/peliculas/gringolandia-no-es-como-la-pintan",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000006"
+            ]
+          }
+        ],
+        "posterUrl": null
+      }
+    },
+    {
+      "guid": "31e7ec82-3b58-47c7-ad35-6c29e3616a92",
+      "type": "removed",
+      "filmId": "HO00000947",
+      "createdAt": "2026-11-26T11:00:53.315Z",
+      "snapshot": {
+        "id": "HO00000947",
+        "title": "El Vientre del Diablo",
+        "shortSynopsis": "Desesperada por no poder tener hijos, una mujer recurre a un pacto de brujería prohibido y se embaraza, pero su familia cae en una oscura y terrorífica maldición.",
+        "releaseDate": "2026-11-19",
+        "runtimeInMinutes": 82,
+        "censorRating": "+15 Años",
+        "genres": [
+          "Terror"
+        ],
+        "director": "Dogukan Misir",
+        "webUrl": "https://www.cinecolombia.com/peliculas/cahim",
+        "categories": [
+          "NowShowing"
+        ],
+        "availabilityRows": [
+          {
+            "siteId": null,
+            "categories": [
+              "NowShowing"
+            ],
+            "showtimeAttributeIds": [
+              "0000000004",
+              "0000000007"
+            ]
+          }
+        ],
+        "posterUrl": "https://image.tmdb.org/t/p/w500/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg",
+        "tmdb": {
+          "tmdbId": 1482257,
+          "posterPath": "/wYRD4yrCXlaBjAAaY20PW0wZ551.jpg"
+        }
+      }
     }
   ]
 }

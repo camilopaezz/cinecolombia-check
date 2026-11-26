@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pronto: Dune: Parte Uno</title>
+      <link>https://www.cinecolombia.com/peliculas/dune-part-one</link>
+      <guid isPermaLink="false">bdca5fed-59f8-4d0c-b6c2-297fc185f0bd</guid>
+      <pubDate>Thu, 26 Nov 2026 17:00:47 GMT</pubDate>
+      <description>Adaptación de la novela de ciencia ficción de Frank Herbert, sobre el hijo de una familia noble encargada de proteger un planeta especiado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/v1UxeZJhhAK3Ual6IU4qU73t1hA.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Dune: Parte Dos</title>
+      <link>https://www.cinecolombia.com/peliculas/dune-part-two</link>
+      <guid isPermaLink="false">55fa18a3-92b5-4adf-a968-4f9932411fce</guid>
+      <pubDate>Thu, 26 Nov 2026 17:00:47 GMT</pubDate>
+      <description>Paul Atreides se une a Chani y los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/v2NN1TMK3ifuiEyawa3ukkcSOUQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Pronto: Spider-Man:Un Nuevo Día</title>
+      <link>https://www.cinecolombia.com/peliculas/spider-man-brand-new-new-day</link>
+      <guid isPermaLink="false">f007f5d5-846f-4a46-b8b5-54b14134cf02</guid>
+      <pubDate>Thu, 26 Nov 2026 17:00:47 GMT</pubDate>
+      <description>Versión extendida, Spider-Man: [Brand New] Brand New Day, con escenas inéditas, entre ellas Rosario Dawson como Night Nurse, y más sorpresas del regreso de Peter Parker.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tluwRNA7k0XfTtDkdLYKX1KOSCJ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>Ya no disponible: El Ritual del Nahual</title>
+      <link>https://www.cinecolombia.com/peliculas/el-ritual-del-nahual</link>
+      <guid isPermaLink="false">b222636b-c17a-43bc-a95f-827477547b1b</guid>
+      <pubDate>Thu, 26 Nov 2026 17:00:47 GMT</pubDate>
+      <description>En San Luis Potosí, unos curanderos salvan al fugitivo herido Gabriel en un pueblo temeroso, mientras un oficial federal investiga asesinatos de niños.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/jzptoegNetnake7ZCPzeeolXj3q.jpg" medium="image" />
+    </item>
+    <item>
       <title>Ya no disponible: Clayface</title>
       <link>https://www.cinecolombia.com/peliculas/clayface</link>
       <guid isPermaLink="false">da0925ac-4424-437e-a9e2-fc655aeaaebf</guid>
@@ -757,38 +789,6 @@
       <pubDate>Thu, 05 Nov 2026 23:00:49 GMT</pubDate>
       <description>El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: El Despertar</title>
-      <link>https://www.cinecolombia.com/films/el-despertar/HO00000889/</link>
-      <guid isPermaLink="false">01540cd3-dc84-43d9-be18-9eb824a311b3</guid>
-      <pubDate>Thu, 05 Nov 2026 17:00:50 GMT</pubDate>
-      <description>En la selva amazónica, una unidad militar y una expedición española, separadas por siglos, enfrentan a Mobuya, un espíritu ancestral, en &apos;El Despertar&apos;.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/ioMtng0qHbwNjR1fuxYZsRf1kjm.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: The Fast and the Furious (25th Anniversary)</title>
-      <link>https://www.cinecolombia.com/films/the-fast-and-the-furious-25th-anniversary/HO00000934/</link>
-      <guid isPermaLink="false">fbbda76d-fa79-4070-9828-664ce4db3f73</guid>
-      <pubDate>Thu, 05 Nov 2026 11:00:51 GMT</pubDate>
-      <description>En las calles de Los Ángeles, Dominic Toretto (Vin Diesel) y Johnny Tran (Rick Yune) dominan las carreras, hasta que llega un detective (Paul Walker) decidido a ganar.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/9FBbiTAfBkTLYbqVux9ycqed5vz.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Digger</title>
-      <link>https://www.cinecolombia.com/films/digger/HO00000381/</link>
-      <guid isPermaLink="false">b2d62606-27d2-4b5e-add7-49cd0c734224</guid>
-      <pubDate>Thu, 05 Nov 2026 11:00:51 GMT</pubDate>
-      <description>El hombre más poderoso del mundo provoca un desastre y se embarca en una misión para demostrar que es el salvador de la humanidad.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/3X2HbfX9sw5NROCvsCwLdkwq91W.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: The Odyssey</title>
-      <link>https://www.cinecolombia.com/films/the-odyssey/HO00000386/</link>
-      <guid isPermaLink="false">b6219620-782c-4e54-8dd0-58632beb93d6</guid>
-      <pubDate>Thu, 05 Nov 2026 11:00:51 GMT</pubDate>
-      <description>El legendario Odiseo enfrenta peligros épicos en su viaje de regreso a casa tras la Guerra de Troya. Se topa con criaturas míticas y dioses caprichosos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/bheY17L6wtB0SdJn6EYyh1X5iry.jpg" medium="image" />
     </item>
   </channel>
 </rss>

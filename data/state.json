@@ -1530,35 +1530,6 @@
       }
     },
     {
-      "id": "HO00000943",
-      "title": "El Ritual del Nahual",
-      "shortSynopsis": "En San Luis Potosí, unos curanderos salvan al fugitivo herido Gabriel en un pueblo temeroso, mientras un oficial federal investiga asesinatos de niños.",
-      "releaseDate": "2026-11-26",
-      "runtimeInMinutes": 80,
-      "censorRating": "+15 Años",
-      "genres": [
-        "Terror"
-      ],
-      "director": "Carlos Matienzo Serment",
-      "webUrl": "https://www.cinecolombia.com/peliculas/el-ritual-del-nahual",
-      "categories": [
-        "ComingSoon"
-      ],
-      "availabilityRows": [
-        {
-          "siteId": null,
-          "categories": [
-            "ComingSoon"
-          ]
-        }
-      ],
-      "posterUrl": "https://image.tmdb.org/t/p/w500/jzptoegNetnake7ZCPzeeolXj3q.jpg",
-      "tmdb": {
-        "tmdbId": 1600571,
-        "posterPath": "/jzptoegNetnake7ZCPzeeolXj3q.jpg"
-      }
-    },
-    {
       "id": "HO00000944",
       "title": "Las Nuevas Desventuras De Cliff Both",
       "shortSynopsis": "Hollywood, 1977: Cliff Booth (Brad Pitt) resuelve problemas de estrellas en Las nuevas desventuras de Cliff Booth, de David Fincher. Estreno el 26 de noviembre en IMAX.",
@@ -2164,6 +2135,98 @@
       "tmdb": {
         "tmdbId": 1492198,
         "posterPath": "/tD4JOGcI5SSBKSFo4coObYwRlxE.jpg"
+      }
+    },
+    {
+      "id": "HO00000966",
+      "title": "Dune: Parte Uno",
+      "shortSynopsis": "Adaptación de la novela de ciencia ficción de Frank Herbert, sobre el hijo de una familia noble encargada de proteger un planeta especiado.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 155,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Aventura",
+        "Drama",
+        "Fantasía"
+      ],
+      "director": "Denis Villeneuve",
+      "webUrl": "https://www.cinecolombia.com/peliculas/dune-part-one",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/v1UxeZJhhAK3Ual6IU4qU73t1hA.jpg",
+      "tmdb": {
+        "tmdbId": 438631,
+        "posterPath": "/v1UxeZJhhAK3Ual6IU4qU73t1hA.jpg"
+      }
+    },
+    {
+      "id": "HO00000967",
+      "title": "Dune: Parte Dos",
+      "shortSynopsis": "Paul Atreides se une a Chani y los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 166,
+      "censorRating": "+12 Años",
+      "genres": [
+        "Acción",
+        "Aventura",
+        "Fantasía"
+      ],
+      "director": "Denis Villeneuve",
+      "webUrl": "https://www.cinecolombia.com/peliculas/dune-part-two",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/v2NN1TMK3ifuiEyawa3ukkcSOUQ.jpg",
+      "tmdb": {
+        "tmdbId": 693134,
+        "posterPath": "/v2NN1TMK3ifuiEyawa3ukkcSOUQ.jpg"
+      }
+    },
+    {
+      "id": "HO00000968",
+      "title": "Spider-Man:Un Nuevo Día",
+      "shortSynopsis": "Versión extendida, Spider-Man: [Brand New] Brand New Day, con escenas inéditas, entre ellas Rosario Dawson como Night Nurse, y más sorpresas del regreso de Peter Parker.",
+      "releaseDate": "2026-12-03",
+      "runtimeInMinutes": 151,
+      "censorRating": "Pendiente",
+      "genres": [
+        "Acción",
+        "Aventura"
+      ],
+      "director": "Destin Daniel Cretton",
+      "webUrl": "https://www.cinecolombia.com/peliculas/spider-man-brand-new-new-day",
+      "categories": [
+        "ComingSoon"
+      ],
+      "availabilityRows": [
+        {
+          "siteId": null,
+          "categories": [
+            "ComingSoon"
+          ]
+        }
+      ],
+      "posterUrl": "https://image.tmdb.org/t/p/w500/tluwRNA7k0XfTtDkdLYKX1KOSCJ.jpg",
+      "tmdb": {
+        "tmdbId": 969681,
+        "posterPath": "/tluwRNA7k0XfTtDkdLYKX1KOSCJ.jpg"
       }
     }
   ],
@@ -3323,42 +3386,21 @@
     "HO00000943": {
       "tmdbId": 1600571,
       "posterPath": "/jzptoegNetnake7ZCPzeeolXj3q.jpg"
+    },
+    "HO00000966": {
+      "tmdbId": 438631,
+      "posterPath": "/v1UxeZJhhAK3Ual6IU4qU73t1hA.jpg"
+    },
+    "HO00000967": {
+      "tmdbId": 693134,
+      "posterPath": "/v2NN1TMK3ifuiEyawa3ukkcSOUQ.jpg"
+    },
+    "HO00000968": {
+      "tmdbId": 969681,
+      "posterPath": "/tluwRNA7k0XfTtDkdLYKX1KOSCJ.jpg"
     }
   },
-  "missingRuns": {
-    "HO00000943": 1
-  },
-  "pendingCategoryLosses": {
-    "HO00000607": {
-      "AdvanceBooking": 1
-    },
-    "HO00000824": {
-      "AdvanceBooking": 1
-    },
-    "HO00000932": {
-      "AdvanceBooking": 1
-    },
-    "HO00000940": {
-      "AdvanceBooking": 1
-    },
-    "HO00000944": {
-      "AdvanceBooking": 1
-    },
-    "HO00000950": {
-      "AdvanceBooking": 1
-    },
-    "HO00000953": {
-      "AdvanceBooking": 1
-    },
-    "HO00000957": {
-      "AdvanceBooking": 1
-    },
-    "HO00000961": {
-      "AdvanceBooking": 1
-    },
-    "HO00000962": {
-      "AdvanceBooking": 1
-    }
-  },
-  "lastRun": "2026-11-26T11:00:53.318Z"
+  "missingRuns": {},
+  "pendingCategoryLosses": {},
+  "lastRun": "2026-11-26T17:00:47.435Z"
 }

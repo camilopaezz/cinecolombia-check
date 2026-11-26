@@ -7,6 +7,38 @@
     <description>Cartelera y preventa de CineColombia</description>
     <atom:link href="https://cinecolombia.cpzhmlb.uk/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>En cartelera: El Corazón de la Bestia</title>
+      <link>https://www.cinecolombia.com/peliculas/heart-of-the-beast</link>
+      <guid isPermaLink="false">7e905ce4-2e56-454b-9ff5-c7d2e5d737be</guid>
+      <pubDate>Thu, 26 Nov 2026 23:00:50 GMT</pubDate>
+      <description>Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont y su perro de combate, Odín, quedan varados en lo profundo de la naturaleza salvaje</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/1ApfSA8JTqeha3GTFEY8syV4auq.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Dune: Parte Uno</title>
+      <link>https://www.cinecolombia.com/peliculas/dune-part-one</link>
+      <guid isPermaLink="false">980e78d6-e5ba-4adc-9a0a-5b1e5bd1275a</guid>
+      <pubDate>Thu, 26 Nov 2026 23:00:50 GMT</pubDate>
+      <description>Adaptación de la novela de ciencia ficción de Frank Herbert, sobre el hijo de una familia noble encargada de proteger un planeta especiado.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/v1UxeZJhhAK3Ual6IU4qU73t1hA.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Dune: Parte Dos</title>
+      <link>https://www.cinecolombia.com/peliculas/dune-part-two</link>
+      <guid isPermaLink="false">0b020b51-552d-434b-9dec-4252a211bed2</guid>
+      <pubDate>Thu, 26 Nov 2026 23:00:50 GMT</pubDate>
+      <description>Paul Atreides se une a Chani y los Fremen mientras busca venganza contra los conspiradores que destruyeron a su familia.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/v2NN1TMK3ifuiEyawa3ukkcSOUQ.jpg" medium="image" />
+    </item>
+    <item>
+      <title>En cartelera: Spider-Man:Un Nuevo Día</title>
+      <link>https://www.cinecolombia.com/peliculas/spider-man-brand-new-new-day</link>
+      <guid isPermaLink="false">ab39206e-8e10-4e3c-91ac-c3977f770ea0</guid>
+      <pubDate>Thu, 26 Nov 2026 23:00:50 GMT</pubDate>
+      <description>Versión extendida, Spider-Man: [Brand New] Brand New Day, con escenas inéditas, entre ellas Rosario Dawson como Night Nurse, y más sorpresas del regreso de Peter Parker.</description>
+      <media:content url="https://image.tmdb.org/t/p/w500/tluwRNA7k0XfTtDkdLYKX1KOSCJ.jpg" medium="image" />
+    </item>
+    <item>
       <title>Pronto: Dune: Parte Uno</title>
       <link>https://www.cinecolombia.com/peliculas/dune-part-one</link>
       <guid isPermaLink="false">bdca5fed-59f8-4d0c-b6c2-297fc185f0bd</guid>
@@ -757,38 +789,6 @@
       <pubDate>Mon, 09 Nov 2026 12:53:36 GMT</pubDate>
       <description>Luca, adolescente criada ante las cámaras de una familia de vloggers, descubre que fue estrella y víctima del negocio familiar y busca su identidad y libertad.</description>
       <media:content url="https://image.tmdb.org/t/p/w500/tmcgngRJvI8D1Y18ls7yv2XY8dP.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: La Gallina Hen</title>
-      <link>https://www.cinecolombia.com/peliculas/hen</link>
-      <guid isPermaLink="false">00d8d396-4e8f-46cb-937c-525b97a64a71</guid>
-      <pubDate>Mon, 09 Nov 2026 12:53:36 GMT</pubDate>
-      <description>Desde la mirada de una gallina en un restaurante costero de Grecia, que protege sus huevos y lucha por sobrevivir, vemos los secretos y conflictos de los humanos.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/o7DvRpbWru66jS9rHbIri3dCyNo.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Ya no disponible: Stray Kids World Tour &lt;RUN IT&gt; LIVE VIEWING</title>
-      <link>https://www.cinecolombia.com/films/stray-kids-world-tour-run-it-live-viewing/HO00000898/</link>
-      <guid isPermaLink="false">6e0533ab-0b2c-4a2f-9252-f4dee94dc458</guid>
-      <pubDate>Sun, 08 Nov 2026 05:00:48 GMT</pubDate>
-      <description>Por primera vez, Stray Kids transmite en vivo su gira «&lt;RUN IT&gt;» desde el Tokyo Dome a cines de todo el mundo, con coreografías explosivas, voces potentes y láseres.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/sxtdpz8uVWRbqOZNsWAHXvlBFpU.jpg" medium="image" />
-    </item>
-    <item>
-      <title>En cartelera: Encanto</title>
-      <link>https://www.cinecolombia.com/films/encanto/HO00000938/</link>
-      <guid isPermaLink="false">35111b4a-946a-4434-9d8d-68f0613c9425</guid>
-      <pubDate>Fri, 06 Nov 2026 05:00:50 GMT</pubDate>
-      <description>El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg" medium="image" />
-    </item>
-    <item>
-      <title>Pronto: Encanto</title>
-      <link>https://www.cinecolombia.com/films/encanto/HO00000938/</link>
-      <guid isPermaLink="false">34342f40-7b42-447f-87c4-8d2f40dcdf0b</guid>
-      <pubDate>Thu, 05 Nov 2026 23:00:49 GMT</pubDate>
-      <description>El 12 de noviembre, Encanto regresa a cines por una causa solidaria: tu boleta ayuda a la donación de Disney a las comunidades afectadas por el terremoto en Colombia.</description>
-      <media:content url="https://image.tmdb.org/t/p/w500/j9BVYh3zd7hG0Iycem9QOs2moot.jpg" medium="image" />
     </item>
   </channel>
 </rss>

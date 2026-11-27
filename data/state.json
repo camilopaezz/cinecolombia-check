@@ -1078,6 +1078,7 @@
           ],
           "showtimeAttributeIds": [
             "0000000004",
+            "0000000007",
             "0000000008"
           ]
         }
@@ -1972,6 +1973,7 @@
       "runtimeInMinutes": 110,
       "censorRating": "+12 Años",
       "genres": [
+        "Comedia",
         "Suspenso"
       ],
       "director": "Diego Rendón",
@@ -3456,5 +3458,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-26T23:00:50.566Z"
+  "lastRun": "2026-11-27T11:00:46.004Z"
 }

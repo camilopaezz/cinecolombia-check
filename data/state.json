@@ -1093,7 +1093,7 @@
       "id": "HO00000901",
       "title": "Quiero Tu Sexo",
       "shortSynopsis": "Elliot consigue trabajo con la artista Erika Tracy, quien lo invita a ser su musa sexual, pero pronto se ve arrastrado a un mundo de obsesión, poder y traición.",
-      "releaseDate": "2026-12-03",
+      "releaseDate": "2026-12-10",
       "runtimeInMinutes": 90,
       "censorRating": "Pendiente",
       "genres": [
@@ -1730,7 +1730,7 @@
       "shortSynopsis": "Un grupo de amigos se reúne en una cabaña remota, sin saber que en el bosque asesinos dementes recrean cuentos de hadas retorcidos. No todos tendrán un final feliz.",
       "releaseDate": "2026-12-03",
       "runtimeInMinutes": 119,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Drama",
         "Suspenso",
@@ -1849,7 +1849,7 @@
       "shortSynopsis": "Josephine, de ocho años, presencia por accidente un hecho que cambia su vida. El miedo invade su día a día y sus padres buscan protegerla de las consecuencias.",
       "releaseDate": "2026-12-03",
       "runtimeInMinutes": 121,
-      "censorRating": "Pendiente",
+      "censorRating": "+15 Años",
       "genres": [
         "Crimen",
         "Drama",
@@ -3457,5 +3457,5 @@
   },
   "missingRuns": {},
   "pendingCategoryLosses": {},
-  "lastRun": "2026-11-27T17:00:39.727Z"
+  "lastRun": "2026-11-27T23:00:43.851Z"
 }
